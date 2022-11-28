@@ -1,0 +1,118 @@
+{
+  "groups": {
+    "Storage": {
+      "title": "Storage",
+      "research": [
+        "Colossal Chests",
+        "Simple Storage Network",
+        "Refined Storage",
+        "Applied Energistics",
+        "Drawers",
+        "Mekanism QIO"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Storage": 0.24
+      }
+    },
+    "BigToys": {
+      "title": "Big Toys",
+      "research": [
+        "Mining Gadgets",
+        "Weirding Gadgets",
+        "Digital Miner",
+        "Building Gadgets"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "BigToys": 3.0
+      }
+    },
+    "Production": {
+      "title": "Production",
+      "research": [
+        "Easy Villagers",
+        "SNAD",
+        "Cagerium",
+        "Mob Spawners",
+        "Phytogenic Insulator",
+        "Easy Piglins",
+        "Botany Pots"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Production": 9.0
+      }
+    },
+    "BigMods": {
+      "title": "Big Mods",
+      "research": [
+        "Create",
+        "Mekanism",
+        "Thermal Expansion",
+        "Botania"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "BigMods": 12.0
+      }
+    },
+    "Power": {
+      "title": "Power",
+      "research": [
+        "Flux Networks",
+        "Powah",
+        "Mekanism Generators",
+        "Iron Generators"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Power": 3.0
+      }
+    },
+    "QoL": {
+      "title": "QoL",
+      "research": [
+        "Torch Master",
+        "Trashcans",
+        "Elevators",
+        "Waystones",
+        "Weirding Gadgets",
+        "Vault Compass"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+      }
+    },
+    "Looting": {
+      "title": "Looting",
+      "research": [
+        "Belts",
+        "Pouches",
+        "Double Pouches",
+        "Backpacks",
+        "Big Backpacks",
+        "Junk Management"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Looting": 2.0
+      }
+    },
+      "Handling": {
+        "title": "Handling",
+        "research": [
+          "Xnet",
+          "Modular Routers",
+          "Pipez",
+          "Iron Furnaces",
+          "Automatic Genius",
+          "Dark Utilities"
+        ],
+        "globalCostIncrease": 0.0,
+        "groupCostIncrease": {
+          "Handling": 1.0
+        }
+    }
+  }
+}

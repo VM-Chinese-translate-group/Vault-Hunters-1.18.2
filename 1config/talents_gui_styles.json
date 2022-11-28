@@ -1,0 +1,150 @@
+{
+  "styles": {
+    "Speed": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/speed"
+    },
+    "Haste": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/haste"
+    },
+    "Strength": {
+      "x": 140,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/strength"
+    },
+    "Critical Strike": {
+      "x": 210,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/critical_strike"
+    },
+    "Reach": {
+      "x": 280,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/reach"
+    },
+    "Unbreakable": {
+      "x": 350,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/unbreakable"
+    },
+    "Stone Skin": {
+      "x": 420,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/stone_skin"
+    },
+    "Thorns Chance": {
+      "x": 0,
+      "y": 70,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/thorns_chance"
+    },
+    "Thorns Damage": {
+      "x": 70,
+      "y": 70,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/thorns_damage"
+    },
+    "Bartering": {
+      "x": 140,
+      "y": 70,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/bartering"
+    },
+    "Angel": {
+      "x": 210,
+      "y": 70,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/talents/angel"
+    },
+    "Blacksmith": {
+      "x": 280,
+      "y": 70,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/blacksmithing"
+    },
+    "Fatal Strike Chance": {
+      "x": 350,
+      "y": 70,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/fatal_strike_chance"
+    },
+    "Fatal Strike Damage": {
+      "x": 420,
+      "y": 70,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/fatal_strike_chance"
+    },
+    "Last Stand": {
+      "x": 0,
+      "y": 140,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/last_stand"
+    },
+    "Berserking": {
+      "x": 70,
+      "y": 140,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/berserking"
+    },
+    "Experienced": {
+      "x": 140,
+      "y": 140,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/experienced"
+    },
+    "Lucky Altar": {
+      "x": 210,
+      "y": 140,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/lucky_altar"
+    },
+    "Weakness Affinity": {
+      "x": 280,
+      "y": 140,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/weakness_affinity"
+    },
+    "Slowness Affinity": {
+      "x": 350,
+      "y": 140,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/slowness_affinity"
+    },
+    "Wither Affinity": {
+      "x": 420,
+      "y": 140,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/wither_affinity"
+    },
+    "Arthropod Mastery": {
+      "x": 140,
+      "y": 210,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/arthropod_mastery"
+    },
+    "Undead Mastery": {
+      "x": 210,
+      "y": 210,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/undead_mastery"
+    },
+    "Illager Mastery": {
+      "x": 280,
+      "y": 210,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/talents/illager_mastery"
+    }
+    
+    
+  }
+}
