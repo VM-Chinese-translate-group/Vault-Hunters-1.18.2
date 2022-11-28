@@ -1,0 +1,52 @@
+[
+  {
+    "weight": 7,
+    "value": {
+      "template": "the_vault:empty",
+      "palettes": []
+    }
+  },
+  {
+    "weight": 12,
+    "pool": [
+      {
+        "weight": 50,
+        "pool": [
+          {
+            "weight": 1,
+            "value": {
+              "template": "the_vault:vault/decor/wildwest/small_pile1",
+              "palettes": [ "the_vault:wildwest/spawner_settings" ]
+            }
+          },
+          {
+            "weight": 1,
+            "value": {
+              "template": "the_vault:vault/decor/wildwest/small_pile2",
+              "palettes": [ "the_vault:wildwest/spawner_settings" ]
+            }
+          }
+        ]
+      },
+      {
+        "weight": 1,
+        "pool": [
+          {
+            "weight": 1,
+            "value": {
+              "template": "the_vault:vault/decor/wildwest/small_pile1",
+              "palettes": [ "the_vault:wildwest/flame_spawner_settings" ]
+            }
+          },
+          {
+            "weight": 1,
+            "value": {
+              "template": "the_vault:vault/decor/wildwest/small_pile2",
+              "palettes": [ "the_vault:wildwest/flame_spawner_settings" ]
+            }
+          }
+        ]
+      }      
+    ]
+  }
+]

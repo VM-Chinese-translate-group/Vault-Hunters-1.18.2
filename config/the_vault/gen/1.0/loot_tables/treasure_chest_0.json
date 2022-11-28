@@ -1,0 +1,723 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 12,
+        "max": 18
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+              "weight": 4,
+              "reference": "the_vault:rune_pool_0"
+            },
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:mod_box",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+              "id": "the_vault:acceleration_chip",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+              "id": "the_vault:mystery_egg",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 8
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "the_vault:black_chromatic_steel_ingot",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            },
+            {
+              "weight": 32,
+              "item": {
+              "id": "the_vault:vault_alloy",
+              "count": {
+                "type": "uniform",
+                "min": 8,
+                "max": 16
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "the_vault:unidentified_relic_fragment",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:regret_orb",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:knowledge_star_shard",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:skill_shard",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "the_vault:vault_diamond",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "compressium:redstone_2",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "compressium:iron_2",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "compressium:gold_2",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "compressium:copper_2",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 32,
+              "item": {
+              "id": "the_vault:extraordinary_larimar",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "the_vault:extraordinary_benitoite",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:extraordinary_wutodie",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:extraordinary_painite",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "the_vault:amplifying_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "waystones:waystone",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "easy_villagers:trader",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "torchmaster:megatorch",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 20,
+              "item": {
+              "id": "trashcans:item_trash_can",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "ironfurnaces:diamond_furnace",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "irongenerators:gold_generator",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            }
+           ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:nullifying_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:eye_of_avarice",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:pandoras_box",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:black_chromatic_pickaxe",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:sword",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:axe",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:helmet",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:chestplate",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:leggings",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:boots",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:shield",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "reference": "the_vault:jewel_pool_treasure_0"
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:idol_benevolent",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:idol_omniscient",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:idol_timekeeper",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:idol_malevolence",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:mote_purity",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "quark:pickarang",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "sophisticatedbackpacks:backpack",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+                "weight": 8,
+                "item": {
+                  "id": "the_vault:phoenix_feather",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:resilient_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:skill_orb",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+          },
+          {
+            "weight": 16,
+            "item": {
+              "id": "the_vault:knowledge_star",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 12,
+            "item": {
+              "id": "compressium:emerald_2",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+        },
+        {
+          "weight": 12,
+          "item": {
+            "id": "compressium:diamond_2",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+          }
+        },
+        {
+          "weight": 4,
+          "item": {
+            "id": "the_vault:trinket",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+          }
+      },
+      {
+        "weight": 12,
+        "item": {
+          "id": "sophisticatedbackpacks:iron_backpack",
+          "count": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+            }
+        }
+      },
+            {
+              "weight": 12,
+              "item": {
+                "id": "cagerium:terrarium",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:fundamental_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+                "id": "the_vault:aura_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:mote_sanctity",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:loot_statue",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "reference": "the_vault:rune_pool_treasure_0"
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "compressium:netherite_1",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "buildinggadgets:gadget_building",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "mininggadgets:mininggadget_simple",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "mekanismgenerators:wind_generator",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:treasure_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

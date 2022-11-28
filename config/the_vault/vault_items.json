@@ -1,0 +1,48 @@
+{
+  "VAULT_COOKIE": {
+    "minExp": 0,
+    "maxExp": 100
+  },
+  "PLAIN_BURGER": {
+    "minExp": 200,
+    "maxExp": 200
+  },
+  "CHEESE_BURGER": {
+    "minExp": 400,
+    "maxExp": 400
+  },
+  "DOUBLE_CHEESE_BURGER": {
+    "minExp": 500,
+    "maxExp": 500
+  },
+  "DELUXE_CHEESE_BURGER": {
+    "minExp": 800,
+    "maxExp": 800
+  },
+  "CRISPY_DELUXE_CHEESE_BURGER": {
+    "minExp": 1600,
+    "maxExp": 1600
+  },
+  "SALTY_DELUXE_CHEESE_BURGER": {
+    "minExp": 850,
+    "maxExp": 1200
+  },
+  "CHEESE_BURGER_FEAST": {
+    "minExp": 1200,
+    "maxExp": 1400
+  },
+  "SPICY_HEARTY_BURGER": {
+    "minExp": 1500,
+    "maxExp": 2500
+  },
+  "VAULT_DOLL": {
+    "lootPercentageMin": 0.1,
+    "lootPercentageMax": 0.7,
+    "xpPercentageMin": 0.2,
+    "xpPercentageMax": 0.8,
+    "helmetOffsets": {
+      "minecraft:diamond_helmet": 0.08,
+      "minecraft:netherite_helmet": 0.08
+    }
+  }
+}

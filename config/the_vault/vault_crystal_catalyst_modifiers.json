@@ -1,0 +1,159 @@
+{
+  "MODIFIER_POOLS": {
+    "BAD": {
+      "modifiers": [
+        {
+          "value": "the_vault:injured",
+          "weight": 6
+        },
+        {
+          "value": "the_vault:draining",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:poisonous",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:freezing",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:voiding",
+          "weight": 6
+        },
+        {
+          "value": "the_vault:chunky_mobs",
+          "weight": 28
+        },
+        {
+          "value": "the_vault:furious_mobs",
+          "weight": 28
+        },
+        {
+          "value": "the_vault:wild",
+          "weight": 28
+        },
+        {
+          "value": "the_vault:trapped",
+          "weight": 16
+        },
+        {
+          "value": "the_vault:frail",
+          "weight": 10
+        }
+      ]
+    },
+    "GOOD": {
+      "modifiers": [
+        {
+          "value": "the_vault:coin_pile",
+          "weight": 12
+        },
+        {
+          "value": "the_vault:gilded",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:living",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:ornate",
+          "weight": 8
+        },
+        {
+          "value": "the_vault:plentiful",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:item_rarity",
+          "weight": 6
+        },
+        {
+          "value": "the_vault:item_quantity",
+          "weight": 6
+        },
+        {
+          "value": "the_vault:haunted",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:prosperous",
+          "weight": 4
+        },        
+        {
+          "value": "the_vault:extended",
+          "weight": 8
+        }
+      ]
+    },
+    "CURSE": {
+      "modifiers": [
+        {
+          "value": "the_vault:hunger",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:tired",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:slowed",
+          "weight": 6
+        },
+        {
+          "value": "the_vault:weakened",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:inert",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:locked",
+          "weight": 8
+        },
+        {
+          "value": "the_vault:frenzy",
+          "weight": 0
+        },
+        {
+          "value": "the_vault:rotten",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:wounded",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:drained",
+          "weight": 10
+        },
+        {
+          "value": "the_vault:minefield",
+          "weight": 10
+        }
+      ]
+    }
+  },
+  "MODIFIER_POOL_GROUPS": [
+    {
+      "value": {
+        "pools": [
+          "GOOD"
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "pools": [
+          "GOOD",
+          "BAD"
+        ]
+      },
+      "weight": 99
+    }
+  ]
+}

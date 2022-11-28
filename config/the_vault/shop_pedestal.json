@@ -1,0 +1,290 @@
+{
+  "LEVELS": [
+    {
+      "MIN_LEVEL": 0,
+      "TRADE_POOL": [
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:helmet",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:chestplate",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:leggings",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:boots",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:axe",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:gorgeous_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:ash_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:benite_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:bombing_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:echoing_jewel"
+            },
+            "CURRENCY": "the_vault:vault_platinum",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:petzan_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:tubic_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 2,
+            "MAX_COST": 6
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:xen_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sparking_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:iskallic_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:upal_jewel"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:mystery_egg"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:mystery_hostile_egg"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:mystery_box"
+            },
+            "CURRENCY": "the_vault:vault_bronze",
+            "MIN_COST": 5,
+            "MAX_COST": 21
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:nullifying_focus"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 1,
+            "MAX_COST": 2
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:mod_box"
+            },
+            "CURRENCY": "the_vault:vault_silver",
+            "MIN_COST": 4,
+            "MAX_COST": 15
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:knowledge_star_shard"
+            },
+            "CURRENCY": "the_vault:vault_silver",
+            "MIN_COST": 4,
+            "MAX_COST": 15
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:skill_shard"
+            },
+            "CURRENCY": "the_vault:vault_silver",
+            "MIN_COST": 4,
+            "MAX_COST": 15
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:black_chromatic_steel_ingot"
+            },
+            "CURRENCY": "the_vault:vault_silver",
+            "MIN_COST": 4,
+            "MAX_COST": 18
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

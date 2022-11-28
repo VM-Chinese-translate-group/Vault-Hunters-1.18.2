@@ -1,0 +1,350 @@
+{
+  "defaultLayout": {
+    "size": 11,
+    "objectiveRoomRatio": 6.0,
+    "layout": "the_vault:diamond"
+  },
+  "raffleLayout": {
+    "size": 11,
+    "objectiveRoomRatio": 6.0,
+    "layout": "the_vault:diamond"
+  },
+  "levels": [
+    {
+      "level": 0,
+      "outcomes": [
+        {
+          "value": {
+            "size": 7,
+            "objectiveRoomRatio": 3.0,
+            "layout": "the_vault:diamond"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 25,
+      "outcomes": [
+        {
+          "value": {
+            "size": 9,
+            "objectiveRoomRatio": 4.5,
+            "layout": "the_vault:diamond"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "outcomes": [
+        {
+          "value": {
+            "size": 11,
+            "objectiveRoomRatio": 6.0,
+            "layout": "the_vault:diamond",
+			"_rooms": 61,
+            "_obelisks": 10.0
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 75,
+      "outcomes": [
+        {
+          "value": {
+            "size": 13,
+            "objectiveRoomRatio": 7.0,
+            "layout": "the_vault:diamond",
+			"_rooms": 85,
+            "_obelisks": 12.1
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "size": 13,
+            "objectiveRoomRatio": 7.5,
+            "layout": "the_vault:square",
+			"_rooms": 169,
+            "_obelisks": 22.53
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 100,
+      "outcomes": [
+        {
+          "value": {
+            "size": 15,
+            "objectiveRoomRatio": 7.5,
+            "layout": "the_vault:diamond",
+			"_rooms": 113,
+            "_obelisks": 15.06
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "size": 15,
+            "objectiveRoomRatio": 8.0,
+            "layout": "the_vault:square",
+			"_rooms": 225,
+            "_obelisks": 28.125
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 17,
+            "objectiveRoomRatio": 8.0,
+            "layout": "the_vault:circle",
+			"_rooms": 197,
+            "_obelisks": 24.625
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 17,
+            "objectiveRoomRatio": 8.0,
+            "layout": "the_vault:triangle",
+			"_rooms": 178,
+            "_obelisks": 22.25
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 125,
+      "outcomes": [
+        {
+          "value": {
+            "size": 17,
+            "objectiveRoomRatio": 8.0,
+            "layout": "the_vault:diamond",
+			"_rooms": 145,
+            "_obelisks": 18.125
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "size": 15,
+            "objectiveRoomRatio": 9.0,
+            "layout": "the_vault:square",
+			"_rooms": 225,
+            "_obelisks": 25
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 17,
+            "objectiveRoomRatio": 9.5,
+            "layout": "the_vault:circle",
+			"_rooms": 197,
+            "_obelisks": 20.73
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 19,
+            "objectiveRoomRatio": 9.5,
+            "layout": "the_vault:triangle",
+			"_rooms": 218,
+            "_obelisks": 22.94
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 150,
+      "outcomes": [
+        {
+          "value": {
+            "size": 19,
+            "objectiveRoomRatio": 9.0,
+            "layout": "the_vault:diamond",
+			"_rooms": 181,
+            "_obelisks": 20.22
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "size": 17,
+            "objectiveRoomRatio": 9.5,
+            "layout": "the_vault:square",
+			"_rooms": 289,
+            "_obelisks": 30.42
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 19,
+            "objectiveRoomRatio": 10.0,
+            "layout": "the_vault:circle",
+			"_rooms": 253,
+            "_obelisks": 25.3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 21,
+            "objectiveRoomRatio": 9.5,
+            "layout": "the_vault:triangle",
+			"_rooms": 262,
+            "_obelisks": 27.57
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 175,
+      "outcomes": [
+        {
+          "value": {
+            "size": 21,
+            "objectiveRoomRatio": 10.5,
+            "layout": "the_vault:diamond",
+			"_rooms": 221,
+            "_obelisks": 21.04
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 19,
+            "objectiveRoomRatio": 11.5,
+            "layout": "the_vault:square",
+			"_rooms": 361,
+            "_obelisks": 31.39
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 19,
+            "objectiveRoomRatio": 11.0,
+            "layout": "the_vault:circle",
+			"_rooms": 253,
+            "_obelisks": 23
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 21,
+            "objectiveRoomRatio": 11.0,
+            "layout": "the_vault:triangle",
+			"_rooms": 262,
+            "_obelisks": 23.81
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 200,
+      "outcomes": [
+        {
+          "value": {
+            "size": 21,
+            "objectiveRoomRatio": 13,
+            "layout": "the_vault:diamond",
+			"_rooms": 221,
+            "_obelisks": 17
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 19,
+            "objectiveRoomRatio": 14,
+            "layout": "the_vault:square",
+			"_rooms": 361,
+            "_obelisks": 25.79
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 21,
+            "objectiveRoomRatio": 13.0,
+            "layout": "the_vault:circle",
+			"_rooms": 317,
+            "_obelisks": 24.38
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 23,
+            "objectiveRoomRatio": 13.0,
+            "layout": "the_vault:triangle",
+			"_rooms": 310,
+            "_obelisks": 23.84
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 225,
+      "outcomes": [
+        {
+          "value": {
+            "size": 21,
+            "objectiveRoomRatio": 15,
+            "layout": "the_vault:diamond",
+			"_rooms": 221,
+            "_obelisks": 14.7333
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 19,
+            "objectiveRoomRatio": 16.5,
+            "layout": "the_vault:square",
+			"_rooms": 361,
+            "_obelisks": 21.87
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 21,
+            "objectiveRoomRatio": 15.0,
+            "layout": "the_vault:circle",
+			"_rooms": 317,
+            "_obelisks": 21.13
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "size": 23,
+            "objectiveRoomRatio": 15.0,
+            "layout": "the_vault:triangle",
+			"_rooms": 310,
+            "_obelisks": 20.66
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

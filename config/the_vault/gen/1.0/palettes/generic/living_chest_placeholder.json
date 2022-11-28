@@ -1,0 +1,40 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "LIVING_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl0\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 9,
+          "probability": 1.0,
+          "success": {
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl9\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 22,
+          "probability": 1.0,
+          "success": {
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl22\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

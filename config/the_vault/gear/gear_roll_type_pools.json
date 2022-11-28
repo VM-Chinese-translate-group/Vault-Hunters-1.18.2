@@ -1,0 +1,244 @@
+{
+  "pooledOutcomes": {
+    "Scaling": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "shop_pedestal": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 1
+          },
+          {
+            "value": "Common+",
+            "weight": 1
+          },
+          {
+            "value": "Rare+",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "loot": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 1
+          },
+          {
+            "value": "Common+",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "soulshard": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 70
+          },
+          {
+            "value": "Common+",
+            "weight": 20
+          },
+          {
+            "value": "Rare+",
+            "weight": 7
+          },
+          {
+            "value": "Epic+",
+            "weight": 3
+          }
+        ]
+      }
+    ],
+    "ornate0": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 100
+          },
+          {
+            "value": "Common+",
+            "weight": 20
+          },
+          {
+            "value": "Rare+",
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 70
+          },
+          {
+            "value": "Common+",
+            "weight": 30
+          },
+          {
+            "value": "Rare+",
+            "weight": 5
+          },
+          {
+            "value": "Epic+",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 60
+          },
+          {
+            "value": "Common+",
+            "weight": 30
+          },
+          {
+            "value": "Rare+",
+            "weight": 8
+          },
+          {
+            "value": "Epic+",
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "altar": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 70
+          },
+          {
+            "value": "Common+",
+            "weight": 20
+          },
+          {
+            "value": "Rare+",
+            "weight": 7
+          },
+          {
+            "value": "Epic+",
+            "weight": 3
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 40
+          },
+          {
+            "value": "Common+",
+            "weight": 40
+          },
+          {
+            "value": "Rare+",
+            "weight": 13
+          },
+          {
+            "value": "Epic+",
+            "weight": 7
+          }
+        ]
+      }
+    ],
+    "crate": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 50
+          },
+          {
+            "value": "Common+",
+            "weight": 40
+          },
+          {
+            "value": "Rare+",
+            "weight": 7
+          },
+          {
+            "value": "Epic+",
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 45
+          },
+          {
+            "value": "Common+",
+            "weight": 45
+          },
+          {
+            "value": "Rare+",
+            "weight": 10
+          },
+          {
+            "value": "Epic+",
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy+",
+            "weight": 40
+          },
+          {
+            "value": "Common+",
+            "weight": 50
+          },
+          {
+            "value": "Rare+",
+            "weight": 12
+          },
+          {
+            "value": "Epic+",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+}

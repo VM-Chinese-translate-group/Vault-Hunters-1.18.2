@@ -1,0 +1,140 @@
+{
+  "UPGRADES": {
+    "VELOCITY": {
+      "MATERIAL_COSTS": [
+        4,
+        2,
+        0,
+        0
+      ],
+      "POSITIVE": true,
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 1,
+      "BASE_VALUE": 1,
+      "MAX_VALUE": 100000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Increases the speed of your magnet"
+    },
+    "MANA_EFFICIENCY": {
+      "MATERIAL_COSTS": [
+        4,
+        2,
+        2,
+        0
+      ],
+      "POSITIVE": true,
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 2,
+      "BASE_VALUE": 1,
+      "MAX_VALUE": 100000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Increases the mana efficiency of your magnet"
+    },
+    "RANGE": {
+      "MATERIAL_COSTS": [
+        4,
+        2,
+        1,
+        0
+      ],
+      "POSITIVE": true,
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 1,
+      "BASE_VALUE": 4,
+      "MAX_VALUE": 100000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Increases the pickup range of your magnet"
+    },
+    "DURABILITY": {
+      "MATERIAL_COSTS": [
+        4,
+        2,
+        0,
+        1
+      ],
+      "POSITIVE": true,
+      "MIN_YIELD": 100,
+      "MAX_YIELD": 300,
+      "BASE_VALUE": 700,
+      "MAX_VALUE": 100000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Increases the durability of your magnet"
+    }
+  },
+  "PERKS": {
+    "NONE": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "configure me"
+    },
+    "REINFORCED": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "+2 Repair Slots"
+    },
+    "HOARD": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "+25%% Item Quantity"
+    },
+    "TREASURE": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "+25%% Item Rarity"
+    },
+    "CHUNKY": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "+25%% Max Health"
+    },
+    "SHARP": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "+25%% Damage"
+    },
+    "SOUL_HUNTING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "+50%% Soul Shards"
+    },
+    "TELEPORTING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Items will teleport to the magnet"
+    },
+    "IMMORTAL": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "The Magnet takes no durability damage outside vaults"
+    }
+  },
+  "ITEMS_FOR_ONE_DURABILITY": 64,
+  "STURDINESS_FOR_PERK": 65,
+  "STURDINESS_DECREMENT": 5,
+  "BASE_REPAIR_SLOTS": 2,
+  "MATERIAL_ITEMS": [
+    "the_vault:vault_bronze",
+    "the_vault:magnetite_ingot",
+    "the_vault:red_vault_essence",
+    "the_vault:vault_plating"
+    
+  ]
+}

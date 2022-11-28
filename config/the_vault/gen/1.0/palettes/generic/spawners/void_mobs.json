@@ -1,0 +1,25 @@
+{
+    "tile_processors": [
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:enderman_spawn_egg\", Count: 60}, {id: \"minecraft:shulker_spawn_egg\", Count: 10}, {id: \"alexsmobs:spawn_egg_mimicube\", Count: 2 }, {id: \"the_vault:vault_fighter_1_egg\", Count: 20} ] } }": 1
+                    }
+                },
+                {
+                    "level": 30,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:enderman_spawn_egg\", Count: 60}, {id: \"minecraft:shulker_spawn_egg\", Count: 10}, {id: \"alexsmobs:spawn_egg_mimicube\", Count: 2 }, {id: \"the_vault:vault_fighter_1_egg\", Count: 20} ] } }": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

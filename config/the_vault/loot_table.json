@@ -1,0 +1,43 @@
+{
+  "LEVELS": [
+    { "MIN_LEVEL": 0,
+      "ALTAR": "the_vault:altar/altar_0",
+      "COMPLETION_CRATE": {
+        "boss": "the_vault:completion_crate_lvl0",
+        "scavenger": "the_vault:completion_crate_lvl0",
+        "cake": "the_vault:completion_crate_lvl0",
+        "monolith": "the_vault:completion_crate_monolith"
+      },
+      "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
+      "CHAMPION_CRATE": "the_vault:chest/lvl25/championbox",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
+      "ARTIFACT_CHANCE": 0.00
+    },
+    { "MIN_LEVEL": 5,
+      "ALTAR": "the_vault:altar/altar_5",
+      "COMPLETION_CRATE": {
+        "boss": "the_vault:completion_crate_lvl0",
+        "scavenger": "the_vault:completion_crate_lvl0",
+        "cake": "the_vault:completion_crate_lvl0",
+        "monolith": "the_vault:completion_crate_monolith"
+      },
+      "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
+      "CHAMPION_CRATE": "the_vault:chest/lvl25/championbox",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
+      "ARTIFACT_CHANCE": 0.03
+    },
+    { "MIN_LEVEL": 20,
+      "ALTAR": "the_vault:altar/altar_25",
+      "COMPLETION_CRATE": {
+        "boss": "the_vault:completion_crate_lvl20",
+        "scavenger": "the_vault:completion_crate_lvl20",
+        "cake": "the_vault:completion_crate_lvl20",
+        "monolith": "the_vault:completion_crate_monolith"
+      },
+      "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
+      "CHAMPION_CRATE": "the_vault:chest/lvl25/championbox",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
+      "ARTIFACT_CHANCE": 0.05
+    }
+  ]
+}

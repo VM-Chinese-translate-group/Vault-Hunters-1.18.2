@@ -1,0 +1,20 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "VENDOR_PEDESTAL",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.25,
+          "success": {
+            "the_vault:shop_pedestal": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

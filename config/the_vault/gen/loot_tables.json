@@ -1,0 +1,114 @@
+{
+  "keys": [
+    {
+      "id": "the_vault:test_table",
+      "name": "Test",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/test_table.json"
+    },
+    {
+      "id": "the_vault:coin_pile_lvl0",
+      "name": "Coin Pile Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/coin_pile_0.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl0",
+      "name": "Wooden Chest Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_0.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_lvl10",
+      "name": "Wooden Chest Level 10",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_10.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl0",
+      "name": "Ornate Chest Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_0.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_lvl11",
+      "name": "Ornate Chest Level 11",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_11.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl0",
+      "name": "Gilded Chest Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_0.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_lvl10",
+      "name": "Gilded Chest Level 10",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_10.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl0",
+      "name": "Living Chest Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_0.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl9",
+      "name": "Living Chest Level 9",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_9.json"
+    },
+    {
+      "id": "the_vault:living_chest_lvl22",
+      "name": "Living Chest Level 22",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_22.json"
+    },
+    {
+      "id": "the_vault:treasure_sand_lvl0",
+      "name": "Treasure Sand Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_sand_0.json"
+    },
+    {
+      "id": "the_vault:cube_block_lvl0",
+      "name": "Treasure Sand Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/cube_block_0.json"
+    },
+    {
+      "id": "the_vault:altar_chest_lvl0",
+      "name": "Altar Chest Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/altar_chest_0.json"
+    },
+    {
+      "id": "the_vault:treasure_chest_lvl0",
+      "name": "Treasure Chest Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_0.json"
+    },
+    {
+      "id": "the_vault:completion_crate_lvl0",
+      "name": "Treasure Chest Level 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_crate_0.json"
+    },
+    {
+      "id": "the_vault:completion_crate_monolith",
+      "name": "Completion Crate Monolith",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_crate_monolith.json"
+    },
+    {
+      "id": "the_vault:completion_crate_lvl20",
+      "name": "Treasure Chest Level 20",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/completion_crate_20.json"
+    },
+    {
+      "id": "the_vault:wooden_chest_raw",
+      "name": "Wooden Chest Raw",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/wooden_chest_raw.json"
+    },
+    {
+      "id": "the_vault:gilded_chest_raw",
+      "name": "Gilded Chest Raw",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/gilded_chest_raw.json"
+    },
+    {
+      "id": "the_vault:ornate_chest_raw",
+      "name": "Ornate Chest Raw",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/ornate_chest_raw.json"
+    },
+    {
+      "id": "the_vault:living_chest_raw",
+      "name": "Living Chest Raw",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/living_chest_raw.json"
+    }
+  ]
+}

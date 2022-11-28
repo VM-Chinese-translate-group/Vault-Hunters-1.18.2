@@ -1,0 +1,402 @@
+{
+  "LEVELS": {
+    "0": {
+      "pool": [
+        {
+          "value": {
+            "value": "the_vault:ore_larimar",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_benitoite",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_painite",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_wutodie",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_black_opal",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_iskallium",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_gorginite",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_sparkletine",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_ashium",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_bomignite",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_tubium",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_upaline",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_petzanite",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_xenium",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_echo",
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "10": {
+      "pool": [
+        {
+          "value": {
+            "value": "the_vault:ore_larimar",
+            "amount": {
+              "min": 8,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_benitoite",
+            "amount": {
+              "min": 8,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_painite",
+            "amount": {
+              "min": 8,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_wutodie",
+            "amount": {
+              "min": 8,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_black_opal",
+            "amount": {
+              "min": 8,
+              "max": 16
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_iskallium",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_gorginite",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_sparkletine",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_ashium",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_bomignite",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_tubium",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_upaline",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_petzanite",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_xenium",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_echo",
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

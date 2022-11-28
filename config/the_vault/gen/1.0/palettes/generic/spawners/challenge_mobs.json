@@ -1,0 +1,57 @@
+{
+    "tile_processors": [
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 60}, {id: \"the_vault:vault_spider_egg\", Count: 32}, {id: \"the_vault:vault_fighter_0_egg\", Count: 16}, {id: \"minecraft:slime_spawn_egg\", Count: 8 }, {id: \"minecraft:witch_egg\", Count: 8 } ] } }": 1
+                    }
+                },
+                {
+                    "level": 20,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 57}, {id: \"the_vault:vault_spider_egg\", Count: 32}, {id: \"the_vault:vault_fighter_0_egg\", Count: 15}, {id: \"minecraft:slime_spawn_egg\", Count: 8 }, {id: \"minecraft:witch_egg\", Count: 8 }, {id: \"the_vault:t1_zombie_egg\", Count: 3}, {id: \"the_vault:vault_fighter_1_egg\", Count: 1} ] } }": 1
+                    }
+                },
+                {
+                    "level": 25,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 45}, {id: \"the_vault:vault_spider_egg\", Count: 32}, {id: \"the_vault:vault_fighter_0_egg\", Count: 12}, {id: \"minecraft:slime_spawn_egg\", Count: 8 }, {id: \"minecraft:witch_egg\", Count: 8 }, {id: \"the_vault:t1_zombie_egg\", Count: 15}, {id: \"the_vault:vault_fighter_1_egg\", Count: 4} ] } }": 1
+                    }
+                },
+                {
+                    "level": 30,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 30}, {id: \"the_vault:vault_spider_egg\", Count: 32}, {id: \"the_vault:vault_fighter_0_egg\", Count: 8}, {id: \"minecraft:slime_spawn_egg\", Count: 8 }, {id: \"minecraft:witch_egg\", Count: 8 }, {id: \"minecraft:creeper_spawn_egg\", Count: 5}, {id: \"the_vault:t1_zombie_egg\", Count: 30}, {id: \"the_vault:t1_creeper_egg\", Count: 1}, {id: \"the_vault:vault_fighter_1_egg\", Count: 8} ] } }": 1
+                    }
+                },
+                {
+                    "level": 40,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 6}, {id: \"the_vault:vault_spider_egg\", Count: 32}, {id: \"the_vault:vault_fighter_0_egg\", Count: 2}, {id: \"minecraft:slime_spawn_egg\", Count: 8 }, {id: \"minecraft:witch_egg\", Count: 8 }, {id: \"minecraft:creeper_spawn_egg\", Count: 1}, {id: \"the_vault:t1_zombie_egg\", Count: 54}, {id: \"minecraft:t1_creeper_egg\", Count: 5}, {id: \"the_vault:vault_fighter_1_egg\", Count: 14} ] } }": 1
+                    }
+                },
+                {
+                    "level": 50,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [  {id: \"the_vault:vault_spider_egg\", Count: 32}, {id: \"minecraft:slime_spawn_egg\", Count: 8 }, {id: \"minecraft:witch_egg\", Count: 8 }, {id: \"the_vault:t1_zombie_egg\", Count: 60}, {id: \"minecraft:t1_creeper_egg\", Count: 6}, {id: \"the_vault:vault_fighter_1_egg\", Count: 16} ] } }": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

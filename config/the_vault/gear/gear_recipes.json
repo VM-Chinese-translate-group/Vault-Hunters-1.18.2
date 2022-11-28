@@ -1,0 +1,889 @@
+{
+  "gearRecipes": [
+    {
+      "proficiencyType": "HELMET",
+      "id": "the_vault:helmet",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:helmet",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "CHESTPLATE",
+      "id": "the_vault:chestplate",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:chestplate",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "LEGGINGS",
+      "id": "the_vault:leggings",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:leggings",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "BOOTS",
+      "id": "the_vault:boots",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:boots",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "AXE",
+      "id": "the_vault:axe",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:axe",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "SWORD",
+      "id": "the_vault:sword",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:sword",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "IDOL",
+      "id": "the_vault:idol_benevolent",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:idol_benevolent",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "SHIELD",
+      "id": "the_vault:shield",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:shield",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "minecraft:netherite_ingot",
+          "NBT": "{}"
+        }
+      ]
+    }
+  ],
+  "trinketRecipes": [
+    { "trinket": "the_vault:carapace",
+      "id": "the_vault:carapace",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "minecraft:magma_cream",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:cat_in_a_jar",
+      "id": "the_vault:cat_in_a_jar",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "minecraft:gunpowder",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:centipede_feet",
+      "id": "the_vault:centipede_feet",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "minecraft:honey_bottle",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:chromatic_feather",
+      "id": "the_vault:chromatic_feather",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:magic_silk",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:chromatic_powder",
+      "id": "the_vault:chromatic_powder",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:vault_plating",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:crystal_ball",
+      "id": "the_vault:crystal_ball",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:elven_socks",
+      "id": "the_vault:elven_socks",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:vault_essence",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:giants_heart",
+      "id": "the_vault:giants_heart",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:vault_meat",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:gluttony_pendant",
+      "id": "the_vault:gluttony_pendant",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:vault_apple",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:golden_burger",
+      "id": "the_vault:golden_burger",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:plain_burger",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:high_heels",
+      "id": "the_vault:high_heels",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "minecraft:slime_block",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:idonas_blade",
+      "id": "the_vault:idonas_blade",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "minecraft:crimson_fungus",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:lucky_goose",
+      "id": "the_vault:lucky_goose",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:gem_pog",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 48,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:night_vision_goggles",
+      "id": "the_vault:night_vision_goggles",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "minecraft:golden_carrot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:phylactery",
+      "id": "the_vault:phylactery",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:tenos_charm",
+      "id": "the_vault:tenos_charm",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:gem_pog",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:vault_platinum",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:velaras_petal",
+      "id": "the_vault:velaras_petal",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 32,
+          "ITEM": "minecraft:golden_apple",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "minecraft:enchanted_golden_apple",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    },
+    { "trinket": "the_vault:wendarrs_hourglass",
+      "id": "the_vault:wendarrs_hourglass",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:trinket",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gem_pog",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 15,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:extraordinary_alexandrite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:trinket_scrap",
+          "NBT": "{}"
+        }
+      ]
+    }
+  ]
+}

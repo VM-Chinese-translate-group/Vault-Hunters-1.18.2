@@ -1,0 +1,155 @@
+{
+  "blockCheckRadius": 50,
+  "spawnerGroups": {
+    "the_vault:elite_skeleton": {
+      "elite": {
+        "entityName": "the_vault:elite_skeleton"
+      },
+      "min": 6,
+      "max": 9,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:skeleton"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "entityName": "minecraft:stray"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:elite_husk": {
+      "elite": {
+        "entityName": "the_vault:elite_husk"
+      },
+      "min": 4,
+      "max": 11,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:husk"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:elite_zombie": {
+      "elite": {
+        "entityName": "the_vault:elite_zombie"
+      },
+      "min": 7,
+      "max": 14,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:zombie"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:elite_witch": {
+      "elite": {
+        "entityName": "the_vault:elite_witch"
+      },
+      "min": 4,
+      "max": 9,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:witch"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:elite_stray": {
+      "elite": {
+        "entityName": "the_vault:elite_stray"
+      },
+      "min": 5,
+      "max": 8,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:stray"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:elite_drowned": {
+      "elite": {
+        "entityName": "the_vault:elite_drowned"
+      },
+      "min": 4,
+      "max": 9,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:drowned"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:elite_enderman": {
+      "elite": {
+        "entityName": "the_vault:elite_enderman"
+      },
+      "min": 5,
+      "max": 7,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:enderman"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:elite_spider": {
+      "elite": {
+        "entityName": "the_vault:elite_spider"
+      },
+      "min": 9,
+      "max": 18,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:spider",
+            "entityNbt": "{}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "entityName": "the_vault:vault_spider"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:elite_troll": {
+      "elite": {
+        "entityName": "alexsmobs:cockroach",
+        "entityNbt": "{Maracas:1b}"
+      },
+
+      "min": 8,
+      "max": 8,
+      "minions": [
+        {
+          "value": {
+            "entityName": "alexsmobs:cockroach"
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

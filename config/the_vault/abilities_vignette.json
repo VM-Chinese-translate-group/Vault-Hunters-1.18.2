@@ -1,0 +1,53 @@
+{
+  "ENABLED": true,
+  "GHOST_WALK": {
+    "color": "#ABEABE",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "TANK": {
+    "color": "#FFFFFF",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "TANK_PROJECTILE": {
+    "color": "#FFFFFF",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "TANK_REFLECT": {
+    "color": "#FFFFFF",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "EXECUTE": {
+    "color": "#FF0000",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "MANA_SHIELD": {
+    "color": "#00FFFF",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "RAMPAGE": {
+    "color": "#FF0000",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "RAMPAGE_LEECH": {
+    "color": "#FF0000",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "RAMPAGE_CHAIN": {
+    "color": "#FF0000",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "RAGE": {
+    "color": "#FF0000",
+    "alpha": 0.5,
+    "style": "vignette"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "weight": 10,
+    "reference": "the_vault:vault/rooms/omega/vendor"
+  },
+  {
+    "weight": 10,
+    "reference": "the_vault:vault/rooms/omega/cube"
+  },
+  {
+    "weight": 2,
+    "reference": "the_vault:vault/rooms/omega/digsite"
+  },
+  {
+    "weight": 7,
+    "reference": "the_vault:vault/rooms/omega/painting"
+  },
+  {
+    "weight": 3,
+    "reference": "the_vault:vault/rooms/omega/mine"
+  },
+  {
+    "weight": 7,
+    "reference": "the_vault:vault/rooms/omega/blacksmith"
+  },
+  {
+    "weight": 7,
+    "reference": "the_vault:vault/rooms/omega/mush_room"
+  }
+]

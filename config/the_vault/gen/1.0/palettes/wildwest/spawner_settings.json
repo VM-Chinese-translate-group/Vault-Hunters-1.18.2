@@ -1,0 +1,56 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "ispawner:spawner",
+      "output": {
+        "ispawner:spawner": 10,
+        "minecraft:sandstone": 7
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/spawners/generic_settings"
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 3 } } }": 1
+          }
+        },
+        {
+          "level": 30,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 5 } } }": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { PlayerRadius: 12 } } }": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/spawners/challenge_mobs"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

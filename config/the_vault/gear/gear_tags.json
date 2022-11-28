@@ -1,0 +1,114 @@
+{
+  "tags": {
+    "Defensive": {
+      "groups": [
+        "ModArmor",
+        "ModResistance",
+        "ModKnockbackResistance",
+        "ModCritHitMitigation"
+      ],
+      "display": "Defensive",
+      "color": 16760832,
+      "weight": 20
+    },
+    "Armor": {
+      "groups": [
+        "ModArmor"
+      ],
+      "display": "Armor",
+      "color": 4766456,
+      "weight": 8
+    },
+    "Mana": {
+      "groups": [
+        "ModMana",
+        "ModManaRegen"
+      ],
+      "display": "Mana",
+      "color": 65535,
+      "weight": 10
+    },
+    "Thorns": {
+      "groups": [
+        "ModThornsChance",
+        "ModThornsDamage"
+      ],
+      "display": "Thorns",
+      "color": 7195648,
+      "weight": 10
+    },
+    "Looting": {
+      "groups": [
+        "ModItemRarity",
+        "ModItemQuantity"
+      ],
+      "display": "Looting",
+      "color": 15639054,
+      "weight": 6
+    },
+    "Trap Disarming": {
+      "groups": [
+        "ModTrapDisarming"
+      ],
+      "display": "Trap Disarming",
+      "color": 7071001,
+      "weight": 10
+    },
+    "Cooldown": {
+      "groups": [
+        "ModCooldownReduction"
+      ],
+      "display": "Cooldown",
+      "color": 63668,
+      "weight": 10
+    },
+    "Durability": {
+      "groups": [
+        "ModDurability"
+      ],
+      "display": "Durability",
+      "color": 14668030,
+      "weight": 12
+    },
+    "Offensive": {
+      "groups": [
+        "ModAttackDamage",
+        "ModFatalStrikeDamage",
+        "ModDamageIncrease",
+        "ModTypedDamageIncrease",
+        "ModFatalStrikeChance",
+        "ModAttackSpeedPercent"
+      ],
+      "display": "Offensive",
+      "color": 12782347,
+      "weight": 20
+    },
+    "Fatal Strike": {
+      "groups": [
+        "ModFatalStrikeDamage",
+        "ModFatalStrikeChance"
+      ],
+      "display": "Fatal Strike",
+      "color": 16523264,
+      "weight": 8
+    },
+    "Damage": {
+      "groups": [
+        "ModAttackDamage",
+        "ModDamageIncrease"
+      ],
+      "display": "Damage",
+      "color": 16523264,
+      "weight": 10
+    },
+    "On Hit Effect": {
+      "groups": [
+        "ModOnHitEffect",
+        "ModEffectCloud"
+      ],
+      "display": "On Hit Effect",
+      "color": 16129201,
+      "weight": 8
+    }
+  }
+}

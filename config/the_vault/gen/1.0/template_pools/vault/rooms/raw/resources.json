@@ -1,0 +1,10 @@
+[
+    {
+      "weight": 1,
+      "reference": "the_vault:vault/rooms/raw/farm"
+    },
+    {
+      "weight": 1,
+      "reference": "the_vault:vault/rooms/raw/quarry"
+    }
+  ]

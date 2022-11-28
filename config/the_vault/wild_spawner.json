@@ -1,0 +1,34 @@
+{
+  "spawnerGroups": [
+    {
+      "minLevel": 0,
+      "blockCheckRadius": 25,
+      "entities": [
+        {
+          "value": {
+            "type": "the_vault:vault_fighter"
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "minLevel": 25,
+      "blockCheckRadius": 25,
+      "entities": [
+        {
+          "value": {
+            "type": "the_vault:vault_fighter"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "type": "the_vault:vault_fighter_1"
+          },
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

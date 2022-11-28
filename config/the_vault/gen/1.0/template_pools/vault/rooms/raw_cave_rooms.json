@@ -1,0 +1,10 @@
+[
+  {
+    "weight": 75,
+    "reference": "the_vault:vault/rooms/raw_cave_common_rooms"
+  },
+  {
+    "weight": 25,
+    "reference": "the_vault:vault/rooms/raw/resources"
+  }
+]

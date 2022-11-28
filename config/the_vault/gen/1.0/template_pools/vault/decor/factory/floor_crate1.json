@@ -1,0 +1,35 @@
+[
+  {
+    "weight": 12,
+    "value": {
+      "template": "the_vault:empty",
+      "palettes": []
+    }
+  },
+  {
+    "weight": 2,
+    "pool": [
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/factory/floor_crate1",
+          "palettes": ["the_vault:factory/crate_spawner"]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/factory/floor_crate2",
+          "palettes": ["the_vault:factory/crate_spawner"]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/factory/floor_crate3",
+          "palettes": ["the_vault:factory/crate_spawner"]
+        }
+      }
+    ]
+  }
+]

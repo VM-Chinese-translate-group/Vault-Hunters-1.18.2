@@ -1,0 +1,61 @@
+{
+  "RARITY_DISTRIBUTION": {
+    "COMMON": 1.0,
+    "RARE": 0.4,
+    "EPIC": 0.2,
+    "OMEGA": 0.05
+  },
+  "MOB_TRAP_EFFECTS": [
+    {
+      "attempts": 5,
+      "appliedConfig": {
+        "extraMaxMobs": 15,
+        "minDistance": 10.0,
+        "maxDistance": 12.0,
+        "despawnDistance": 32.0
+      },
+      "name": "Mob Trap"
+    }
+  ],
+  "EXPLOSION_EFFECTS": [
+    {
+      "radius": 4.0,
+      "xOffset": 0.0,
+      "yOffset": 3.0,
+      "zOffset": 0.0,
+      "causesFire": true,
+      "damage": 10.0,
+      "mode": "BREAK",
+      "name": "Explosion"
+    }
+  ],
+  "POTION_CLOUD_EFFECTS": [
+    {
+      "potions": [
+        "minecraft:strong_poison"
+      ],
+      "name": "Poison"
+    }
+    
+  ],
+  "LEVELS": [
+    {
+      "level": 0,
+      "probability": 0.05,
+      "pool": [
+        {
+          "value": "Explosion",
+          "weight": 0
+        },
+        {
+          "value": "Mob Trap",
+          "weight": 4
+        },
+        {
+          "value": "Poison",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

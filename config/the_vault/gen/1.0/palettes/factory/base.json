@@ -1,0 +1,96 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_glazed_terracotta",
+      "output": {
+        "tnt[unstable=true]": 1
+      }
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "minecraft:light_gray_glazed_terracotta",
+          "output": {
+            "minecraft:cobblestone": 50,
+            "minecraft:stone": 50,
+            "minecraft:sand": 50,
+            "minecraft:gravel": 50,
+            "minecraft:andesite": 50,
+            "minecraft:snow_block": 50,
+            "minecraft:diorite": 50,
+            "minecraft:granite": 50,
+            "minecraft:dirt": 50,
+            "minecraft:netherrack": 50,
+            "minecraft:obsidian": 20,
+            "minecraft:soul_sand": 20,
+            "minecraft:end_stone": 20,
+            "minecraft:clay": 20,
+            "compressium:cobblestone_2": 10,
+            "compressium:stone_2": 10,
+            "compressium:sand_2": 10,
+            "compressium:gravel_2": 10,
+            "compressium:andesite_2": 10,
+            "compressium:snow_2": 10,
+            "compressium:diorite_2": 10,
+            "compressium:granite_2": 10,
+            "compressium:dirt_2": 10,
+            "compressium:netherrack_2": 10,
+            "compressium:obsidian_2": 4,
+            "compressium:soulsand_2": 4,
+            "compressium:endstone_2": 4,
+            "compressium:clay_2": 4
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "minecraft:light_gray_glazed_terracotta",
+          "output": {
+            "minecraft:cobblestone": 50,
+            "minecraft:stone": 50,
+            "minecraft:sand": 50,
+            "minecraft:gravel": 50,
+            "minecraft:andesite": 50,
+            "minecraft:snow_block": 50,
+            "minecraft:diorite": 50,
+            "minecraft:granite": 50,
+            "minecraft:dirt": 50,
+            "minecraft:netherrack": 50,
+            "minecraft:obsidian": 20,
+            "minecraft:soul_sand": 20,
+            "minecraft:end_stone": 20,
+            "minecraft:clay": 20,
+            "compressium:cobblestone_3": 10,
+            "compressium:stone_3": 10,
+            "compressium:sand_3": 10,
+            "compressium:gravel_3": 10,
+            "compressium:andesite_3": 10,
+            "compressium:snow_3": 10,
+            "compressium:diorite_3": 10,
+            "compressium:granite_3": 10,
+            "compressium:dirt_3": 10,
+            "compressium:netherrack_3": 10,
+            "compressium:obsidian_3": 4,
+            "compressium:soulsand_3": 4,
+            "compressium:endstone_3": 4,
+            "compressium:clay_3": 4
+          }
+        }
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/challenge_elite_spawners"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/room_base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

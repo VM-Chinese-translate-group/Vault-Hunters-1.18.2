@@ -1,0 +1,414 @@
+{
+  "PULVERIZING_MAP": {
+    "minecraft:cobblestone": {
+      "item": {
+        "item": "minecraft:gravel",
+        "amount": 1
+      },
+      "probability": 1.0 
+    },
+    "minecraft:gravel": {
+      "item": {
+        "item": "minecraft:sand",
+        "amount": 1
+      },
+      "probability": 1.0 
+    },
+    "minecraft:bricks": {
+      "item": {
+        "item": "minecraft:brick",
+        "amount": 2
+      },
+      "probability": 1.0 
+    },
+    "minecraft:nether_bricks": {
+      "item": {
+        "item": "minecraft:nether_brick",
+        "amount": 2
+      },
+      "probability": 1.0 
+    },
+    "minecraft:nether_wart_block": {
+      "item": {
+        "item": "minecraft:nether_wart",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "the_vault:vault_stone": {
+      "item": {
+        "item": "the_vault:chipped_vault_rock",
+        "amount": 1
+      },
+      "probability": 0.4
+    },
+    "minecraft:quartz_block": {
+      "item": {
+        "item": "minecraft:quartz",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:red_sandstone": {
+      "item": {
+        "item": "minecraft:red_sand",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:sandstone": {
+      "item": {
+        "item": "minecraft:sand",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:dripstone_block": {
+      "item": {
+        "item": "minecraft:clay_ball",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:white_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:orange_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:magenta_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:light_blue_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:yellow_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:lime_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:pink_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:gray_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:light_gray_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:cyan_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:purple_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:blue_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:brown_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:green_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:red_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:black_wool": {
+      "item": {
+        "item": "minecraft:string",
+        "amount": 2
+      },
+      "probability": 1.0
+    },
+    "minecraft:moss_block": {
+      "item": {
+        "item": "mekanism:bio_fuel",
+        "amount": 4
+      },
+      "probability": 1.0
+    },
+    "minecraft:prismarine": {
+      "item": {
+        "item": "minecraft:prismarine_shard",
+        "amount": 3
+      },
+      "probability": 1.0
+    },
+    "minecraft:prismarine_bricks": {
+      "item": {
+        "item": "minecraft:prismarine_shard",
+        "amount": 8
+      },
+      "probability": 1.0
+    }
+  },
+  "TIER_VALUES": {
+    "the_vault:vaulterite_pickaxe": {
+      "STURDINESS_DECREMENT_PER_LEVEL": 10,
+      "LEVEL_DELTA_PER_SOCKET": 5,
+      "TIER_BASE_DURABILITY": 1500,
+      "BASE_REPAIR_SLOTS": 1
+    },
+    "the_vault:vault_pickaxe": {
+      "STURDINESS_DECREMENT_PER_LEVEL": 5,
+      "LEVEL_DELTA_PER_SOCKET": 3,
+      "TIER_BASE_DURABILITY": 4000,
+      "BASE_REPAIR_SLOTS": 2
+    }, 
+    "the_vault:black_chromatic_pickaxe": {
+      "STURDINESS_DECREMENT_PER_LEVEL": 4,
+      "LEVEL_DELTA_PER_SOCKET": 4,
+      "TIER_BASE_DURABILITY": 6000,
+      "BASE_REPAIR_SLOTS": 3
+    },
+    "the_vault:echoing_pickaxe": {
+      "STURDINESS_DECREMENT_PER_LEVEL": 3,
+      "LEVEL_DELTA_PER_SOCKET": 3,
+      "TIER_BASE_DURABILITY": 6000,
+      "BASE_REPAIR_SLOTS": 4
+    },
+    "the_vault:prismatic_pickaxe": {
+      "STURDINESS_DECREMENT_PER_LEVEL": 1,
+      "LEVEL_DELTA_PER_SOCKET": 2,
+      "TIER_BASE_DURABILITY": 10000,
+      "BASE_REPAIR_SLOTS": 6
+    }
+    
+  },
+  "UPGRADES": {
+    "DURABILITY": {
+      "MATERIAL_COSTS": [
+        4,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "POSITIVE": true,
+      "MIN_YIELD": 100.0,
+      "MAX_YIELD": 500.0,
+      "BASE_VALUE": 0.0,
+      "MAX_VALUE": 100000.0,
+      "COLOR": "#dcdcdc",
+      "TOOLTIP_HINT": "Increases durability on your pickaxe"
+    },
+    "MINING_SPEED": {
+      "MATERIAL_COSTS": [
+        4,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "POSITIVE": true,
+      "IS_DECIMAL": true,
+      "MIN_YIELD": 1.0,
+      "MAX_YIELD": 3.0,
+      "BASE_VALUE": 10.0,
+      "MAX_VALUE": 100000.0,
+      "COLOR": "#e1c31e",
+      "TOOLTIP_HINT": "Increases mining speed on your pickaxe"
+    },
+    "REACH": {
+      "MATERIAL_COSTS": [
+        4,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "POSITIVE": true,
+      "IS_DECIMAL": true,
+      "MIN_YIELD": 0.3,
+      "MAX_YIELD": 0.7,
+      "BASE_VALUE": 0.0,
+      "MAX_VALUE": 10.0,
+      "COLOR": "#1e67e1",
+      "TOOLTIP_HINT": "Increases the reach distance of your pickaxe"
+    },
+    "COPIOUSLY": {
+      "MATERIAL_COSTS": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "POSITIVE": true,
+      "IS_PERCENT": true,
+      "MIN_YIELD": 0.5,
+      "MAX_YIELD": 1.0,
+      "BASE_VALUE": 0.0,
+      "MAX_VALUE": 100000.0,
+      "COLOR": "#c91ee1",
+      "TOOLTIP_HINT": "Adds a chance of getting an extra ore/gem output when mining vault ores in the vault"
+    }
+  },
+  "MATERIAL_ITEMS": [
+    "the_vault:vault_bronze",
+    "the_vault:vault_plating",
+    "the_vault:red_vault_essence",
+    "the_vault:chromatic_steel_ingot",
+    "the_vault:silver_scrap",
+    "minecraft:netherite_scrap"
+  ],
+  "PERKS": {
+    "EXCAVATING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF", 
+      "TOOLTIP_HINT": "Makes the pickaxe mine in a 5x5 area"
+    },
+    "SMELTING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Smelts any block broken by the pickaxe if possible"
+    },
+    "SHOVELING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Makes your pickaxe also work as a shovel"
+    },
+    "COPIOUSLY": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "configure me"
+    },
+    "QUICK": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Increases your pickaxe mining speed by 25%%"
+    },
+    "IMMORTAL": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Makes your pickaxe indestrictuble outside of vaults"
+    },
+    "STURDY": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Increases durability by 50%%"
+    },
+    "SHATTERING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Makes your pickaxe mine in a 7x7 area"
+    },
+    "AXING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Makes your pickaxe also work as an axe"
+    },
+    "REINFORCED": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Gives your pickaxe +2 Repair Slots"
+    },
+    "HAMMERING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Makes your pickaxe mine in a 3x3 area"
+    },
+    "PULVERISING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Makes your pickaxe pulverise certain blocks"
+    },
+    "FARMING": {
+      "MIN_YIELD": 1,
+      "MAX_YIELD": 5,
+      "MAX_VALUE": 10000,
+      "COLOR": "#FFFFFFFF",
+      "TOOLTIP_HINT": "Makes your pickaxe also work as a hoe"
+    }
+  }
+}

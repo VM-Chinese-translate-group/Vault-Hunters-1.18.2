@@ -1,0 +1,133 @@
+{
+  "LEVELS": {
+    "0": {
+      "pool": [
+        {
+          "value": {
+            "value": "the_vault:vault",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "the_vault:monolith",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger",
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        }
+      ]
+    },
+    "20": {
+      "pool": [
+        {
+          "value": {
+            "value": "the_vault:vault",
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "the_vault:cake",
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger",
+            "amount": {
+              "min": 2,
+              "max": 5
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        }
+      ]
+    },
+    "10": {
+      "pool": [
+        {
+          "value": {
+            "value": "the_vault:vault",
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:cake",
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger",
+            "amount": {
+              "min": 1,
+              "max": 3
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 6
+        }
+      ]
+    }
+  }
+}

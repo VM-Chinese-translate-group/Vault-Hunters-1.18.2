@@ -1,0 +1,34 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=wooden_chest]",
+      "output": {
+        "the_vault:placeholder[type=wooden_chest]": 1,
+        "minecraft:air": 2
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_bricks",
+      "output": {
+        "minecraft:stone_bricks": 27,
+        "minecraft:cracked_stone_bricks": 27,
+        "minecraft:mossy_stone_bricks": 27,
+        "minecraft:infested_stone_bricks": 1,
+        "minecraft:infested_cracked_stone_bricks": 1,
+        "minecraft:infested_mossy_stone_bricks": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/room_base"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/challenge_elite_spawners"
+  }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}
