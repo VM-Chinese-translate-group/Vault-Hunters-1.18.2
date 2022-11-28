@@ -1,0 +1,44 @@
+{
+  "ITEMS": [
+    {
+      "ITEM": "the_vault:helmet",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:chestplate",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:leggings",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:boots",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:sword",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:axe",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:idol_benevolent",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:idol_omniscient",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:idol_timekeeper",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:idol_malevolence",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Epic\"}]}}"
+    } 
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "expPerLevel": 150,
+  "foodExpRanges": {
+    "the_vault:crystal_burger": {
+      "min": 80,
+      "max": 125
+    },
+    "the_vault:full_pizza": {
+      "min": 40,
+      "max": 70
+    }
+  }
+}

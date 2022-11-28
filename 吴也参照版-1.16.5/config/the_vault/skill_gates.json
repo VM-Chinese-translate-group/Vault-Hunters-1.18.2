@@ -1,0 +1,108 @@
+{
+  "SKILL_GATES": {
+    "entries": {
+      "Regeneration": {
+        "dependsOn": [],
+        "lockedBy": [
+          "Vampirism"
+        ]
+      },
+      "Vampirism": {
+        "dependsOn": [],
+        "lockedBy": [
+          "Regeneration"
+        ]
+      },
+      "Parry": {
+        "dependsOn": [],
+        "lockedBy": [
+        ]
+      },
+      "Resistance": {
+        "dependsOn": [],
+        "lockedBy": [
+        ]
+      },
+      "Carapace": {
+        "dependsOn": [
+          "Resistance"
+        ],
+        "lockedBy": []
+      },
+      "Ninja": {
+        "dependsOn": [
+          "Parry"
+        ],
+        "lockedBy": []
+      },
+      "Fire Resistance": {
+        "dependsOn": [
+          "Water Breathing"
+        ],
+        "lockedBy": []
+      },
+      "Treasure Hunter": {
+        "dependsOn": [
+          
+        ],
+        "lockedBy": [
+          "Artisan"
+        ]
+      },
+      "Artisan": {
+        "dependsOn": [
+          
+        ],
+        "lockedBy": [
+          "Treasure Hunter"
+        ]
+      },
+      "Careless": {
+        "dependsOn": [
+          "Elvish"
+        ],
+        "lockedBy": [
+        ]
+      },
+      "Angel": {
+        "dependsOn": [
+          "Careless"
+        ],
+        "lockedBy": [
+        ]
+      },
+      "Fatal Strike Chance": {
+        "dependsOn": [
+          "Fatal Strike"
+        ],
+        "lockedBy": [
+          "Fatal Strike Damage"
+        ]
+      },
+      "Fatal Strike Damage": {
+        "dependsOn": [
+          "Fatal Strike"
+        ],
+        "lockedBy": [
+          "Fatal Strike Chance"
+        ]
+      },
+      "Thorns Damage": {
+        "dependsOn": [
+          "Thorns"
+        ],
+        "lockedBy": [
+          "Thorns Chance"
+        ]
+      },
+      "Thorns Chance": {
+        "dependsOn": [
+          "Thorns"
+        ],
+        "lockedBy": [
+          "Thorns Damage"
+        ]
+      }
+    }
+  }
+}

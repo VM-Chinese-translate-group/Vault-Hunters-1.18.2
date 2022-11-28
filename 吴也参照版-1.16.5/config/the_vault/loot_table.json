@@ -1,0 +1,424 @@
+{
+  "LEVELS": [
+    { "MIN_LEVEL": 0,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl0/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl0/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl0/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl0/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl0/treasurecommon",
+        "RARE": "the_vault:chest/lvl0/treasurecommon",
+        "EPIC": "the_vault:chest/lvl0/treasurecommon",
+        "OMEGA": "the_vault:chest/lvl0/treasurecommon"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl0/godaltarcommon",
+        "RARE": "the_vault:chest/lvl0/godaltarrare",
+        "EPIC": "the_vault:chest/lvl0/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl0/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl0/vaultchestepic",
+        "RARE": "the_vault:chest/lvl0/vaultchestepic",
+        "EPIC": "the_vault:chest/lvl0/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl0/vaultchestepic"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl0/gildedcommon",
+        "RARE": "the_vault:chest/lvl0/gildedrare",
+        "EPIC": "the_vault:chest/lvl0/gildedepic",
+        "OMEGA": "the_vault:chest/lvl0/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar",
+      "BOSS_CRATE": "the_vault:chest/lvl0/bosscrate",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl0/bosscratenew",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl25/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl0/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl0/vault_fighter",
+      "COW": "the_vault:entities/lvl0/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.01,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "CLASSIC",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 25,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl25/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl25/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl25/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl25/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl25/treasurecommon",
+        "RARE": "the_vault:chest/lvl25/treasurerare",
+        "EPIC": "the_vault:chest/lvl25/treasurerare",
+        "OMEGA": "the_vault:chest/lvl25/treasureomega"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl25/godaltarcommon",
+        "RARE": "the_vault:chest/lvl25/godaltarrare",
+        "EPIC": "the_vault:chest/lvl25/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl25/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl25/coopchest",
+        "RARE": "the_vault:chest/lvl25/coopchest",
+        "EPIC": "the_vault:chest/lvl25/coopchest",
+        "OMEGA": "the_vault:chest/lvl25/coopchest"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl25/gildedcommon",
+        "RARE": "the_vault:chest/lvl25/gildedrare",
+        "EPIC": "the_vault:chest/lvl25/gildedepic",
+        "OMEGA": "the_vault:chest/lvl25/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar",
+      "BOSS_CRATE": "the_vault:chest/lvl25/bosscratenew",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl25/scavengecrate",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl25/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl25/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl25/vault_fighter",
+      "COW": "the_vault:entities/lvl25/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl25/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.03,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "CLASSIC",
+          "weight": 4
+        },
+        {
+          "value": "COOP",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 50,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl50/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl50/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl50/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl50/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl50/treasurecommon",
+        "RARE": "the_vault:chest/lvl50/treasurerare",
+        "EPIC": "the_vault:chest/lvl50/treasurerare",
+        "OMEGA": "the_vault:chest/lvl50/treasureomega"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl50/godaltarcommon",
+        "RARE": "the_vault:chest/lvl50/godaltarrare",
+        "EPIC": "the_vault:chest/lvl50/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl50/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl50/coopchest",
+        "RARE": "the_vault:chest/lvl50/coopchest",
+        "EPIC": "the_vault:chest/lvl50/coopchest",
+        "OMEGA": "the_vault:chest/lvl50/coopchest"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl50/gildedcommon",
+        "RARE": "the_vault:chest/lvl50/gildedrare",
+        "EPIC": "the_vault:chest/lvl50/gildedepic",
+        "OMEGA": "the_vault:chest/lvl50/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar",
+      "BOSS_CRATE": "the_vault:chest/lvl50/bosscratenew",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl50/scavengecrate",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl50/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl50/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl50/vault_fighter",
+      "COW": "the_vault:entities/lvl50/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl50/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.05,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "CLASSIC",
+          "weight": 4
+        },
+        {
+          "value": "COOP",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 75,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl75/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl75/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl75/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl75/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl75/treasurecommon",
+        "RARE": "the_vault:chest/lvl75/treasurerare",
+        "EPIC": "the_vault:chest/lvl75/treasurerare",
+        "OMEGA": "the_vault:chest/lvl75/treasureomega"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl75/godaltarcommon",
+        "RARE": "the_vault:chest/lvl75/godaltarrare",
+        "EPIC": "the_vault:chest/lvl75/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl75/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl75/coopchest",
+        "RARE": "the_vault:chest/lvl75/coopchest",
+        "EPIC": "the_vault:chest/lvl75/coopchest",
+        "OMEGA": "the_vault:chest/lvl75/coopchest"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl75/gildedcommon",
+        "RARE": "the_vault:chest/lvl75/gildedrare",
+        "EPIC": "the_vault:chest/lvl75/gildedepic",
+        "OMEGA": "the_vault:chest/lvl75/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar",
+      "BOSS_CRATE": "the_vault:chest/lvl75/bosscratenew",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl75/scavengecrate",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl75/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl75/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl50/vault_fighter",
+      "COW": "the_vault:entities/lvl50/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl75/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.06,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "CLASSIC",
+          "weight": 4
+        },
+        {
+          "value": "COOP",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 100,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl100/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl100/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl100/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl100/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl100/treasurecommon",
+        "RARE": "the_vault:chest/lvl100/treasurerare",
+        "EPIC": "the_vault:chest/lvl100/treasurerare",
+        "OMEGA": "the_vault:chest/lvl100/treasureomega"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl100/godaltarcommon",
+        "RARE": "the_vault:chest/lvl100/godaltarrare",
+        "EPIC": "the_vault:chest/lvl100/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl100/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl100/coopchest",
+        "RARE": "the_vault:chest/lvl100/coopchest",
+        "EPIC": "the_vault:chest/lvl100/coopchest",
+        "OMEGA": "the_vault:chest/lvl100/coopchest"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl100/gildedcommon",
+        "RARE": "the_vault:chest/lvl100/gildedrare",
+        "EPIC": "the_vault:chest/lvl100/gildedepic",
+        "OMEGA": "the_vault:chest/lvl100/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar",
+      "BOSS_CRATE": "the_vault:chest/lvl100/bosscratenew",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl100/scavengecrate",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl100/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl100/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl100/vault_fighter",
+      "COW": "the_vault:entities/lvl100/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl100/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.06,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "CLASSIC",
+          "weight": 4
+        },
+        {
+          "value": "COOP",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 150,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl150/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl150/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl150/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl150/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl150/treasurecommon",
+        "RARE": "the_vault:chest/lvl150/treasurerare",
+        "EPIC": "the_vault:chest/lvl150/treasurerare",
+        "OMEGA": "the_vault:chest/lvl150/treasureomega"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl150/godaltarcommon",
+        "RARE": "the_vault:chest/lvl150/godaltarrare",
+        "EPIC": "the_vault:chest/lvl150/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl150/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl150/coopchest",
+        "RARE": "the_vault:chest/lvl150/coopchest",
+        "EPIC": "the_vault:chest/lvl150/coopchest",
+        "OMEGA": "the_vault:chest/lvl150/coopchest"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl150/gildedcommon",
+        "RARE": "the_vault:chest/lvl150/gildedrare",
+        "EPIC": "the_vault:chest/lvl150/gildedepic",
+        "OMEGA": "the_vault:chest/lvl150/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar",
+      "BOSS_CRATE": "the_vault:chest/lvl150/bosscratenew",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl150/scavengecrate",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl150/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl150/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl150/vault_fighter",
+      "COW": "the_vault:entities/lvl150/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl150/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.07,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "CLASSIC",
+          "weight": 4
+        },
+        {
+          "value": "COOP",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 200,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl200/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl200/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl200/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl200/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl200/treasurecommon",
+        "RARE": "the_vault:chest/lvl200/treasurerare",
+        "EPIC": "the_vault:chest/lvl200/treasurerare",
+        "OMEGA": "the_vault:chest/lvl200/treasureomega"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl200/godaltarcommon",
+        "RARE": "the_vault:chest/lvl200/godaltarrare",
+        "EPIC": "the_vault:chest/lvl200/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl200/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl200/coopchest",
+        "RARE": "the_vault:chest/lvl200/coopchest",
+        "EPIC": "the_vault:chest/lvl200/coopchest",
+        "OMEGA": "the_vault:chest/lvl200/coopchest"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl200/gildedcommon",
+        "RARE": "the_vault:chest/lvl200/gildedrare",
+        "EPIC": "the_vault:chest/lvl200/gildedepic",
+        "OMEGA": "the_vault:chest/lvl200/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar",
+      "BOSS_CRATE": "the_vault:chest/lvl200/bosscratenew",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl200/scavengecrate",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl200/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl200/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl200/vault_fighter",
+      "COW": "the_vault:entities/lvl200/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl200/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.07,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "CLASSIC",
+          "weight": 4
+        },
+        {
+          "value": "COOP",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 250,
+      "VAULT_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/vaultchestcommon",
+        "RARE": "the_vault:chest/lvl250/vaultchestrare",
+        "EPIC": "the_vault:chest/lvl250/vaultchestepic",
+        "OMEGA": "the_vault:chest/lvl250/vaultchestomega"
+      },
+      "TREASURE_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/treasurecommon",
+        "RARE": "the_vault:chest/lvl250/treasurerare",
+        "EPIC": "the_vault:chest/lvl250/treasurerare",
+        "OMEGA": "the_vault:chest/lvl250/treasureomega"
+      },
+      "ALTAR_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/godaltarcommon",
+        "RARE": "the_vault:chest/lvl250/godaltarrare",
+        "EPIC": "the_vault:chest/lvl250/godaltarepic",
+        "OMEGA": "the_vault:chest/lvl250/godaltaromega"
+      },
+      "COOP_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/coopchest",
+        "RARE": "the_vault:chest/lvl250/coopchest",
+        "EPIC": "the_vault:chest/lvl250/coopchest",
+        "OMEGA": "the_vault:chest/lvl250/coopchest"
+      },
+      "BONUS_CHEST": {
+        "COMMON": "the_vault:chest/lvl250/gildedcommon",
+        "RARE": "the_vault:chest/lvl250/gildedrare",
+        "EPIC": "the_vault:chest/lvl250/gildedepic",
+        "OMEGA": "the_vault:chest/lvl250/gildedomega"
+      },
+      "ALTAR": "the_vault:chest/altar",
+      "BOSS_CRATE": "the_vault:chest/lvl250/bosscratenew",
+      "SCAVENGER_CRATE": "the_vault:chest/lvl250/scavengecrate",
+      "BOSS_BONUS_CRATE": "the_vault:chest/lvl250/championbox",
+      "ARENA_CRATE": "the_vault:chest/lvl250/arena",
+      "VAULT_FIGHTER": "the_vault:entities/lvl250/vault_fighter",
+      "COW": "the_vault:entities/lvl250/cow",
+      "TREASURE_GOBLIN": "the_vault:entities/lvl250/treasure_goblin",
+      "ANCIENT_ETERNAL_BOX": "the_vault:chest/ancientbox",
+      "ARTIFACT_CHANCE": 0.07,
+      "SUB_FIGHTER_RAFFLE_SEAL_CHANCE": 0.005,
+      "CRYSTAL_TYPE": [
+        {
+          "value": "CLASSIC",
+          "weight": 4
+        },
+        {
+          "value": "COOP",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "catalystChances": {
+    "the_vault:vault_treasure_chest": {
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "COMMON": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:vault_coop_chest": {
+      "RARE": 0.2,
+      "EPIC": 0.5,
+      "COMMON": 0.1,
+      "OMEGA": 1.0
+    },
+    "the_vault:vault_bonus_chest": {
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "COMMON": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:vault_chest": {
+      "RARE": 0.2,
+      "EPIC": 0.5,
+      "COMMON": 0.05,
+      "OMEGA": 0.8
+    },
+    "the_vault:vault_altar_chest": {
+      "RARE": 1.0,
+      "EPIC": 1.0,
+      "COMMON": 1.0,
+      "OMEGA": 1.0
+    }
+  },
+  "pityWeight": {
+    "RARE": -0.14,
+    "EPIC": 0.1,
+    "COMMON": -0.2,
+    "OMEGA": 0.3
+  },
+  "runeChances": {
+    "the_vault:vault_treasure_chest": {
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "COMMON": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:vault_coop_chest": {
+      "RARE": 0.0,
+      "EPIC": 0.05,
+      "COMMON": 0.0,
+      "OMEGA": 0.5
+    },
+    "the_vault:vault_bonus_chest": {
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "COMMON": 0.0,
+      "OMEGA": 0.2
+    },
+    "the_vault:vault_chest": {
+      "RARE": 0.0,
+      "EPIC": 0.05,
+      "COMMON": 0.0,
+      "OMEGA": 0.1
+    },
+    "the_vault:vault_altar_chest": {
+      "RARE": 0.2,
+      "EPIC": 0.6,
+      "COMMON": 0.0,
+      "OMEGA": 1.0
+    }
+  }
+}

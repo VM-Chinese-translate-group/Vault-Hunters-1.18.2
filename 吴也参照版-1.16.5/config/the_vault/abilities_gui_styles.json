@@ -1,0 +1,277 @@
+{
+  "styles": {
+    "Rampage_Dot": {
+      "x": 100,
+      "y": -120,
+      "frameType": "RECTANGULAR",
+      "u": 128,
+      "v": 16
+    },
+    "Ghost Walk_Parry": {
+      "x": 160,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 112,
+      "v": 48
+    },
+    "Execute": {
+      "x": -40,
+      "y": -130,
+      "frameType": "RECTANGULAR",
+      "u": 176,
+      "v": 0
+    },
+    "Rampage_Leech": {
+      "x": 150,
+      "y": -110,
+      "frameType": "RECTANGULAR",
+      "u": 128,
+      "v": 64
+    },
+    "Summon Eternal": {
+      "x": -80,
+      "y": 20,
+      "frameType": "RECTANGULAR",
+      "u": 192,
+      "v": 0
+    },
+    "Cleanse_Heal": {
+      "x": -140,
+      "y": -90,
+      "frameType": "RECTANGULAR",
+      "u": 144,
+      "v": 48
+    },
+    "Vein Miner": {
+      "x": 40,
+      "y": -130,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 0
+    },
+    "Mega Jump_Damage": {
+      "x": 50,
+      "y": 130,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 48
+    },
+    "Mega Jump_Break": {
+      "x": 70,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 16
+    },
+    "Dash": {
+      "x": 80,
+      "y": 20,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 0
+    },
+    "Cleanse_Immune": {
+      "x": -90,
+      "y": -130,
+      "frameType": "RECTANGULAR",
+      "u": 144,
+      "v": 64
+    },
+    "Mega Jump_Knockback": {
+      "x": 20,
+      "y": 110,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 32
+    },
+    "Vein Miner_Durability": {
+      "x": 70,
+      "y": -160,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 48
+    },
+    "Vein Miner_Fortune": {
+      "x": 35,
+      "y": -200,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 32
+    },
+    "Cleanse_Effect": {
+      "x": -130,
+      "y": -120,
+      "frameType": "RECTANGULAR",
+      "u": 144,
+      "v": 32
+    },
+    "Tank_Slow": {
+      "x": -150,
+      "y": 10,
+      "frameType": "RECTANGULAR",
+      "u": 160,
+      "v": 32
+    },
+    "Dash_Buff": {
+      "x": 130,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 32
+    },
+    "Execute_Damage": {
+      "x": -70,
+      "y": -170,
+      "frameType": "RECTANGULAR",
+      "u": 176,
+      "v": 16
+    },
+    "Ghost Walk": {
+      "x": 120,
+      "y": -30,
+      "frameType": "RECTANGULAR",
+      "u": 112,
+      "v": 0
+    },
+    "Vein Miner_Void": {
+      "x": 10,
+      "y": -170,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 64
+    },
+    "Mega Jump": {
+      "x": 30,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 0
+    },
+    "Tank_Parry": {
+      "x": -160,
+      "y": -60,
+      "frameType": "RECTANGULAR",
+      "u": 160,
+      "v": 48
+    },
+    "Rampage_Time": {
+      "x": 140,
+      "y": -70,
+      "frameType": "RECTANGULAR",
+      "u": 128,
+      "v": 32
+    },
+    "Execute_Buff": {
+      "x": -30,
+      "y": -190,
+      "frameType": "RECTANGULAR",
+      "u": 176,
+      "v": 32
+    },
+    "Tank": {
+      "x": -120,
+      "y": -30,
+      "frameType": "RECTANGULAR",
+      "u": 160,
+      "v": 0
+    },
+    "Summon Eternal_Additional": {
+      "x": -130,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 192,
+      "v": 48
+    },
+    "Cleanse": {
+      "x": -80,
+      "y": -80,
+      "frameType": "RECTANGULAR",
+      "u": 144,
+      "v": 0
+    },
+    "Dash_Damage": {
+      "x": 100,
+      "y": 90,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 48
+    },
+    "Rampage": {
+      "x": 80,
+      "y": -80,
+      "frameType": "RECTANGULAR",
+      "u": 128,
+      "v": 0
+    },
+    "Dash_Heal": {
+      "x": 140,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 16
+    },
+    "Ghost Walk_Damage": {
+      "x": 180,
+      "y": -50,
+      "frameType": "RECTANGULAR",
+      "u": 112,
+      "v": 32
+    },
+    "Summon Eternal_Debuffs": {
+      "x": -90,
+      "y": 90,
+      "frameType": "RECTANGULAR",
+      "u": 192,
+      "v": 32
+    },
+    "Ghost Walk_Regen": {
+      "x": 200,
+      "y": -20,
+      "frameType": "RECTANGULAR",
+      "u": 112,
+      "v": 64
+    },
+    "Tank_Reflect": {
+      "x": -180,
+      "y": -20,
+      "frameType": "RECTANGULAR",
+      "u": 160,
+      "v": 16
+    },
+    "Summon Eternal_Damage": {
+      "x": -140,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "u": 192,
+      "v": 16
+    },
+    "Hunter": {
+      "x": -25,
+      "y": 60,
+      "frameType": "RECTANGULAR",
+      "u": 208,
+      "v": 0
+    },
+    "Hunter_Spawners": {
+      "x": -10,
+      "y": 120,
+      "frameType": "RECTANGULAR",
+      "u": 208,
+      "v": 16
+    },
+    "Hunter_Chests": {
+      "x": -40,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "u": 208,
+      "v": 32
+    },
+    "Hunter_Blocks": {
+      "x": -55,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "u": 208,
+      "v": 48
+    }
+  }
+}

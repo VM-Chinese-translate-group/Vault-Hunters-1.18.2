@@ -1,0 +1,4299 @@
+{
+  "ATTRIBUTE_OVERRIDES": {
+    "minecraft:zombie": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.1
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.3,
+        "MAX": 0.9,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 7.5,
+        "MAX": 10.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      }
+    ],
+    "minecraft:husk": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.5,
+        "MAX": 0.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.5,
+        "MAX": 2.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.5,
+        "MAX": 1.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 7.5,
+        "MAX": 12.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.0,
+        "MAX": 1.0,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "minecraft:ravager": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 4.5,
+        "MAX": 7.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 18.0,
+        "MAX": 36.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.02,
+        "MAX": 1.04,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "minecraft:drowned": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.1,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 2.5,
+        "MAX": 4.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.5,
+        "MAX": 1.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 3.0,
+        "MAX": 6.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.0,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "minecraft:skeleton": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 2.5,
+        "MAX": 5.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.1
+      }
+    ],
+    "minecraft:stray": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 8.0,
+        "MAX": 10.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.1
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.8,
+        "MAX": 2.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      }
+    ],
+    "minecraft:pillager": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 14.0,
+        "MAX": 28.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.1
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 2.2,
+        "MAX": 3.2,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      }
+    ],
+    "minecraft:cave_spider": [
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.4,
+        "MAX": 2.4,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 2.0,
+        "MAX": 6.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.1
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.05,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_speed",
+        "MIN": 1.0,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "minecraft:spider": [
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.4,
+        "MAX": 1.2,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 5.0,
+        "MAX": 14.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.1
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.0,
+        "MAX": 1.05,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_speed",
+        "MIN": 1.0,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "minecraft:creeper": [
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.5,
+        "MAX": 1.05,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 5.0,
+        "MAX": 14.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      }
+    ],
+    "minecraft:silverfish": [
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.0,
+        "MAX": 1.2,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 4.0,
+        "MAX": 12.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.1
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.6,
+        "MAX": 1.4,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      }
+    ],
+    "the_vault:vault_fighter": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.2,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.2,
+        "MAX": 1.6,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.3,
+        "MAX": 1.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 7.5,
+        "MAX": 10.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.9,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:vault_fighter_1": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.2,
+        "MAX": 1.6,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.6,
+        "MAX": 1.6,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 10.0,
+        "MAX": 12.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.9,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:vault_fighter_2": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.2,
+        "MAX": 1.6,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.1,
+        "MAX": 1.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 12.5,
+        "MAX": 15.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.9,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:vault_fighter_3": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.2,
+        "MAX": 1.6,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.4,
+        "MAX": 2.2,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 15.0,
+        "MAX": 20.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.9,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:vault_fighter_4": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.2,
+        "MAX": 1.6,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.9,
+        "MAX": 2.4,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 15.0,
+        "MAX": 25.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.9,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:vault_fighter_5": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.2,
+        "MAX": 1.6,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 2.2,
+        "MAX": 3.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 20.0,
+        "MAX": 40.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.9,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "minecraft:wither_skeleton": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.3,
+        "MAX": 0.9,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 5.0,
+        "MAX": 8.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.8,
+        "MAX": 1.0,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_speed",
+        "MIN": 1.0,
+        "MAX": 1.4,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 0.5,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.break_armor_chance",
+        "MIN": 1.0,
+        "MAX": 4.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.75,
+        "SCALE_PER_LEVEL": 0
+      }
+    ],
+    "minecraft:vindicator": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.4,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.5,
+        "MAX": 2.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.4,
+        "MAX": 1.9,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 7.5,
+        "MAX": 12.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.02,
+        "MAX": 1.08,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "minecraft:vex": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.08,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 2.0,
+        "MAX": 4.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.2,
+        "MAX": 1.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 10.0,
+        "MAX": 18.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.02,
+        "MAX": 1.08,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "MIN": 100.0,
+        "MAX": 100.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "minecraft:piglin_brute": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.1,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.2,
+        "MAX": 1.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.6,
+        "MAX": 2.4,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 24.0,
+        "MAX": 34.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.0,
+        "MAX": 1.0,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:vault_guardian": [
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.0,
+        "MAX": 1.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 2.8,
+        "MAX": 4.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 69.0,
+        "MAX": 110.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.067
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.0,
+        "MAX": 1.0,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "MIN": 0.02,
+        "MAX": 0.02,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 1.0
+      }
+    ],
+    "the_vault:robot": [
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "MIN": 0.02,
+        "MAX": 0.02,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 1.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.8,
+        "MAX": 2.6,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.8,
+        "MAX": 1.2,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 160.0, 
+        "MAX": 200.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.9,
+        "MAX": 1.0,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.indirect_tp_chance",
+        "MIN": 0.25,
+        "MAX": 0.35,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.tp_range",
+        "MIN": 4.0,
+        "MAX": 16.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:boogieman": [
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "MIN": 0.02,
+        "MAX": 0.02,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 1.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.5,
+        "MAX": 1.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.8,
+        "MAX": 1.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 150.0, 
+        "MAX": 300.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.0,
+        "MAX": 1.1,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.indirect_tp_chance",
+        "MIN": 0.25,
+        "MAX": 0.60,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.tp_range",
+        "MIN": 4.0,
+        "MAX": 16.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:blue_blaze": [
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "MIN": 0.02,
+        "MAX": 0.02,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 1.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.0,
+        "MAX": 0.01,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 0.0,
+        "MAX": 0.05,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.8,
+        "SCALE_PER_LEVEL": 0.1
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 1.0,
+        "MAX": 2.5,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 100.0, 
+        "MAX": 160.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.9,
+        "MAX": 1.05,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.indirect_tp_chance",
+        "MIN": 0.25,
+        "MAX": 0.85,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.tp_range",
+        "MIN": 4.0,
+        "MAX": 16.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:arena_boss": [
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "MIN": 0.02,
+        "MAX": 0.02,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 1.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "MIN": 0.1,
+        "MAX": 0.1,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.crit_multiplier",
+        "MIN": 1.5,
+        "MAX": 2.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 0.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "MIN": 0.3,
+        "MAX": 1.8,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 250.0, 
+        "MAX": 350.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 0.98,
+        "MAX": 1.01,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.indirect_tp_chance",
+        "MIN": 0.45,
+        "MAX": 0.85,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.tp_range",
+        "MIN": 4.0,
+        "MAX": 16.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ],
+    "the_vault:treasure_goblin": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "MIN": 16.0, 
+        "MAX": 28.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.05
+      },
+      {
+        "NAME": "minecraft:generic.movement_speed",
+        "MIN": 1.05,
+        "MAX": 1.08,
+        "OPERATOR": "multiply",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "MIN": 1.0,
+        "MAX": 1.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.tp_chance",
+        "MIN": 0.2,
+        "MAX": 0.3,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      },
+      {
+        "NAME": "the_vault:generic.tp_range",
+        "MIN": 4.0,
+        "MAX": 8.0,
+        "OPERATOR": "set",
+        "ROLL_CHANCE": 1.0,
+        "SCALE_PER_LEVEL": 0.0
+      }
+    ]
+  },
+  "LEVEL_OVERRIDES": [
+    { "MIN_LEVEL": 0,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:wooden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 300
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "NAME": "the_vault:blue_blaze"
+          },
+          "weight": 2
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 0,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      }
+    },
+    { "MIN_LEVEL": 15,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 40
+          },
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:wooden_sword",
+            "weight": 3
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 7
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "NAME": "the_vault:blue_blaze"
+          },
+          "weight": 2
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      }
+    },
+    { "MIN_LEVEL": 25,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:wooden_sword",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 30
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 14
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "NAME": "the_vault:blue_blaze"
+          },
+          "weight": 2
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      }
+    },
+    { "MIN_LEVEL": 30,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:wooden_sword",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 30
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 36
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "NAME": "the_vault:blue_blaze"
+          },
+          "weight": 2
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      }
+    },
+    { "MIN_LEVEL": 40,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 10
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 20
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 10
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 20
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 10
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 8
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 1,
+        "ENCH_TRIALS": 1
+      }
+    },
+    { "MIN_LEVEL": 50,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 3
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 65,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 2
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 50
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 10
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 75,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 6
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 3
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:leather_chestplate",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:leather_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 50
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vindicator"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 20
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 100,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 6
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 3
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:leather_chestplate",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:leather_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "the_vault:treasure_goblin"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 160
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 50
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_2"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vindicator"
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 40
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 115,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 6
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 3
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:leather_chestplate",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:leather_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "the_vault:treasure_goblin"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 160
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 50
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_2"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "minecraft:stray"
+          },
+          "weight": 15
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vindicator"
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 40
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 125,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 6
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 3
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:leather_chestplate",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:leather_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "the_vault:treasure_goblin"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 160
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 90
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 60
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_2"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "minecraft:stray"
+          },
+          "weight": 25
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vindicator"
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vex"
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 40
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 150,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 6
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:air",
+            "weight": 3
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:leather_chestplate",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:leather_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "the_vault:treasure_goblin"
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 480
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 280
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 150
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_2"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 240
+        },
+        {
+          "value": {
+            "NAME": "minecraft:stray"
+          },
+          "weight": 75
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 60
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie", "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vindicator"
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vex"
+          },
+          "weight": 36
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:ravager"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 175,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 6
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_axe",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:leather_chestplate",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:diamond_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:leather_leggings",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:diamond_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "the_vault:treasure_goblin"
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 480
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 280
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 150
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_2"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_3"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 180
+        },
+        {
+          "value": {
+            "NAME": "minecraft:stray"
+          },
+          "weight": 75
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 60
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie",
+            "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vindicator"
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vex"
+          },
+          "weight": 36
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "minecraft:cave_spider"
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "NAME": "minecraft:ravager"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 225,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 6
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_axe",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:leather_chestplate",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:diamond_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:leather_leggings",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:diamond_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "the_vault:treasure_goblin"
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 480
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 140
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 160
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_2"
+          },
+          "weight": 160
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_3"
+          },
+          "weight": 60
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_4"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 180
+        },
+        {
+          "value": {
+            "NAME": "minecraft:stray"
+          },
+          "weight": 75
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 60
+        },
+        {
+          "value": {
+            "NAME": "minecraft:zombie",
+            "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vindicator"
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vex"
+          },
+          "weight": 36
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "minecraft:cave_spider"
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "NAME": "minecraft:ravager"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    },
+    { "MIN_LEVEL": 250,
+      "MOB_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 6
+          },
+          {
+            "value": "minecraft:iron_axe",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_axe",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 5
+          },
+          {
+            "value": "minecraft:leather_chestplate",
+            "weight": 3
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:diamond_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:leather_leggings",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:diamond_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:golden_sword",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:diamond_sword",
+            "weight": 2
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ]
+      },
+      "RAFFLE_BOSS_LOOT": {
+        "mainhand": [
+          {
+            "value": "minecraft:stone_sword",
+            "weight": 1
+          },
+          {
+            "value": "minecraft:iron_sword",
+            "weight": 1
+          }
+        ],
+        "offhand": [
+          {
+            "value": "minecraft:air",
+            "weight": 1
+          }
+        ],
+        "chest": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_chestplate",
+            "weight": 1
+          }
+        ],
+        "legs": [
+          {
+            "value": "minecraft:air",
+            "weight": 2
+          },
+          {
+            "value": "minecraft:iron_leggings",
+            "weight": 1
+          }
+        ]
+      },
+      "MOB_POOL": [
+        {
+          "value": {
+            "NAME": "minecraft:zombie"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "the_vault:treasure_goblin"
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "NAME": "minecraft:husk"
+          },
+          "weight": 400
+        },
+        {
+          "value": {
+            "NAME": "minecraft:piglin_brute"
+          },
+          "weight": 140
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter"
+          },
+          "weight": 140
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_1"
+          },
+          "weight": 160
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_2"
+          },
+          "weight": 160
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_3"
+          },
+          "weight": 60
+        },
+        {
+          "value": {
+            "NAME": "the_vault:vault_fighter_4"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:creeper"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:skeleton"
+          },
+          "weight": 180
+        },
+        {
+          "value": {
+            "NAME": "minecraft:stray"
+          },
+          "weight": 75
+        },
+        {
+          "value": {
+            "NAME": "minecraft:pillager"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "NAME": "minecraft:witch"
+          },
+          "weight": 60
+        },
+        {
+          "value": {
+            "NAME": "minecraft:wither_skeleton",
+            "_COM": "minecraft:wither_skeleton"
+          },
+          "weight": 120
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vindicator"
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "NAME": "minecraft:vex"
+          },
+          "weight": 36
+        },
+        {
+          "value": {
+            "NAME": "minecraft:spider"
+          },
+          "weight": 80
+        },
+        {
+          "value": {
+            "NAME": "minecraft:cave_spider"
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "NAME": "minecraft:ravager"
+          },
+          "weight": 1
+        }
+      ],
+      "BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:robot"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "NAME": "the_vault:boogieman"
+          },
+          "weight": 4
+        }
+      ],
+      "RAFFLE_BOSS_POOL": [
+        {
+          "value": {
+            "NAME": "the_vault:arena_boss"
+          },
+          "weight": 1
+        }
+      ],
+      "MOB_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2,
+        "SPAWNER": {
+          "startMaxMobs": 2,
+          "minDistance": 10.0,
+          "maxDistance": 24.0,
+          "despawnDistance": 26.0
+        }
+      },
+      "BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      },
+      "RAFFLE_BOSS_MISC": {
+        "ENCH_LEVEL": 2,
+        "ENCH_TRIALS": 2
+      }
+    }
+  ]
+}

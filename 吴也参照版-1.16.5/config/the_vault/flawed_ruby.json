@@ -1,0 +1,42 @@
+{
+  "ARTISAN": {
+    "outcomes": [
+      {
+        "value": "FAIL",
+        "weight": 70
+      },
+      {
+        "value": "IMBUE",
+        "weight": 25
+      },
+      {
+        "value": "BREAK",
+        "weight": 5
+      }
+    ],
+    "additionModifierCount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "TREASURE_HUNTER": {
+    "outcomes": [
+      {
+        "value": "FAIL",
+        "weight": 70
+      },
+      {
+        "value": "IMBUE",
+        "weight": 5
+      },
+      {
+        "value": "BREAK",
+        "weight": 25
+      }
+    ],
+    "additionModifierCount": {
+      "min": 1,
+      "max": 1
+    }
+  }
+}

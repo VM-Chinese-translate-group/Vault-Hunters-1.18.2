@@ -1,0 +1,185 @@
+{
+  "extraTickPerSet": 600,
+  "relicDrops": [
+    {
+      "NAME": "the_vault:relic_dragon_head",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_dragon_tail",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_dragon_foot",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_dragon_chest",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_dragon_breath",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_miners_delight",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_miners_light",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_pickaxe_handle",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_pickaxe_head",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_pickaxe_tool",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_sword_blade",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_sword_handle",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_sword_stick",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_warriors_armour",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_warriors_charm",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_diamond_essence",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_gold_essence",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_mystic_gem_essence",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_netherite_essence",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_platinum_essence",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_twitch_emote1",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_twitch_emote2",
+      "WEIGHT": 3
+    },
+    {
+      "NAME": "the_vault:relic_twitch_emote3",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_twitch_emote4",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_twitch_emote5",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_cupcake_blue",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_cupcake_lime",
+      "WEIGHT": 4
+    },
+    {
+      "NAME": "the_vault:relic_cupcake_pink",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_cupcake_purple",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_cupcake_red",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_air",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_spirit",
+      "WEIGHT": 4
+    },
+    {
+      "NAME": "the_vault:relic_fire",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_earth",
+      "WEIGHT": 7
+    },
+    {
+      "NAME": "the_vault:relic_water",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_twolf999_head",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_twolf999_combat_vest",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_twolf999_combat_leggings",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_twolf999_combat_gloves",
+      "WEIGHT": 4
+    },
+    {
+      "NAME": "the_vault:relic_twolf999_combat_boots",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_armor_of_forbearance",
+      "WEIGHT": 10
+    },
+    {
+      "NAME": "the_vault:relic_heart_of_the_void",
+      "WEIGHT": 4
+    },
+    {
+      "NAME": "the_vault:relic_nemesis_thwarter",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_reverence_edge",
+      "WEIGHT": 8
+    },
+    {
+      "NAME": "the_vault:relic_wings_of_equity",
+      "WEIGHT": 8
+    }
+  ]
+}

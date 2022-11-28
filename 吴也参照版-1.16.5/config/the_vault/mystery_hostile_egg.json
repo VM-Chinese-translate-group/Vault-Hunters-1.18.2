@@ -1,0 +1,124 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "minecraft:zombie_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 8
+    },
+    {
+      "value": {
+        "id": "minecraft:skeleton_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 8
+    },
+    {
+      "value": {
+        "id": "minecraft:blaze_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:wither_skeleton_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:enderman_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:drowned_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:creeper_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 8
+    },
+    {
+      "value": {
+        "id": "minecraft:ravager_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:slime_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 8
+    },
+    {
+      "value": {
+        "id": "minecraft:spider_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 8
+    },
+    {
+      "value": {
+        "id": "minecraft:vindicator_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:witch_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:zombified_piglin_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:guardian_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:magma_cube_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    }
+  ]
+}

@@ -1,0 +1,3624 @@
+{
+  "pooledRarityOutcomes": {
+    "normal": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 175,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 200,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 225,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 250,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 8
+          }
+        ]
+      },
+      {  "level": 260,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 270,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 280,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 290,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 14
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          }
+        ]
+      },
+      {  "level": 300,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 40
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "special": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 175,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 200,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 225,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 250,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 8
+          }
+        ]
+      },
+      {  "level": 260,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 270,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 280,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 290,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 14
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          }
+        ]
+      },
+      {  "level": 300,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 40
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "treasureroom": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 175,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 200,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 225,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 250,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 8
+          }
+        ]
+      },
+      {  "level": 260,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 270,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 280,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 290,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 14
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          }
+        ]
+      },
+      {  "level": 300,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 40
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "goblin": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 175,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 200,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 225,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 250,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 8
+          }
+        ]
+      },
+      {  "level": 260,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 270,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 280,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 290,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 14
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          }
+        ]
+      },
+      {  "level": 300,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 40
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "trader": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 175,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 200,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 225,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 250,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 8
+          }
+        ]
+      },
+      {  "level": 260,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 270,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 280,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 290,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 14
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          }
+        ]
+      },
+      {  "level": 300,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 40
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "bav_scrappy": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 4
+          }
+        ]
+      }
+    ],
+    "bav_common": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          }
+        ]
+      }
+    ],
+    "bav_rare": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          }
+        ]
+      }
+    ],
+    "bav_epic": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          }
+        ]
+      }
+    ],
+    "soulshard": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Common+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 175,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 200,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Epic+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 225,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 250,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 8
+          }
+        ]
+      },
+      {  "level": 260,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Rare+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 270,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 24
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 280,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {  "level": 290,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 14
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 20
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 4
+          }
+        ]
+      },
+      {  "level": 300,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Epic+"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Scrappy+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Common+"
+            },
+            "weight": 40
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Rare+"
+            },
+            "weight": 16
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Epic+"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "treasureomega": [
+      { "level": 0,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      { "level": 50,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 75,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 100,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      { "level": 125,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 150,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 175,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 200,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 0,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 225,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {  "level": 250,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 32
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 275,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {  "level": 300,
+        "outcomes": [
+          {
+            "value": {
+              "tier": 1,
+              "rarity": "Omega"
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "tier": 2,
+              "rarity": "Omega"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+}

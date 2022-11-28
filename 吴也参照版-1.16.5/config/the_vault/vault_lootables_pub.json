@@ -1,0 +1,407 @@
+{
+  "ORE": {
+    "DEFAULT": [
+      {
+        "value": "minecraft:basalt",
+        "weight": 900
+      },
+      {
+        "value": "minecraft:stone",
+        "weight": 1000
+      },
+      {
+        "value": "minecraft:coal_ore",
+        "weight": 680
+      },
+      {
+        "value": "minecraft:iron_ore",
+        "weight": 600
+      },
+      {
+        "value": "minecraft:lapis_ore",
+        "weight": 520
+      },
+      {
+        "value": "minecraft:redstone_ore",
+        "weight": 520
+      },
+      {
+        "value": "minecraft:gold_ore",
+        "weight": 480
+      },
+      {
+        "value": "minecraft:emerald_ore",
+        "weight": 432
+      },
+      {
+        "value": "minecraft:diamond_ore",
+        "weight": 360
+      },
+      {
+        "value": "minecraft:ancient_debris",
+        "weight": 128
+      },
+      {
+        "value": "the_vault:ore_benitoite",
+        "weight": 120
+      },
+      {
+        "value": "the_vault:ore_larimar",
+        "weight": 120
+      },
+      {
+        "value": "the_vault:ore_alexandrite",
+        "weight": 50
+      },
+      {
+        "value": "the_vault:ore_wutodie",
+        "weight": 50
+      },
+      {
+        "value": "the_vault:ore_painite",
+        "weight": 34
+      },
+      {
+        "value": "the_vault:ore_black_opal",
+        "weight": 12
+      },
+      {
+        "value": "the_vault:ore_echo",
+        "weight": 1
+      },
+      {
+        "value": "the_vault:ore_iskallium",
+        "weight": 5
+      },
+      {
+        "value": "the_vault:ore_puffium",
+        "weight": 5
+      },
+      {
+        "value": "the_vault:ore_gorginite",
+        "weight": 5
+      },
+      {
+        "value": "the_vault:ore_sparkletine",
+        "weight": 5
+      },
+      {
+        "value": "the_vault:ore_ashium",
+        "weight": 5
+      },
+      {
+        "value": "the_vault:ore_bomignite",
+        "weight": 5
+      },
+      {
+        "value": "the_vault:ore_funsoide",
+        "weight": 5
+      },
+      {
+        "value": "the_vault:ore_tubium",
+        "weight": 5
+      },
+      {
+        "value": "the_vault:ore_upaline",
+        "weight": 5
+      }
+    ]
+  },
+  "DOOR": {
+    "DEFAULT": [
+      {
+        "value": "the_vault:door_iskallium",
+        "weight": 20
+      },
+      {
+        "value": "the_vault:door_gorginite",
+        "weight": 20
+      },
+      {
+        "value": "the_vault:door_sparkletine",
+        "weight": 20
+      },
+      {
+        "value": "the_vault:door_upaline",
+        "weight": 20
+      },
+      {
+        "value": "the_vault:door_ashium",
+        "weight": 20
+      },
+      {
+        "value": "the_vault:door_bomignite",
+        "weight": 20
+      },
+      {
+        "value": "the_vault:door_funsoide",
+        "weight": 20
+      },
+      {
+        "value": "the_vault:door_tubium",
+        "weight": 20
+      },
+      {
+        "value": "the_vault:door_puffium",
+        "weight": 20
+      }
+    ],
+    "OVERRIDES": {
+      "cfaefb14-46d5-473b-9e8e-67ecbf119df7": [
+        {
+          "value": "the_vault:door_gorginite",
+          "weight": 1
+        }
+      ],
+      "7ed3587b-e656-4689-90d6-08e11daaf907": [
+        {
+          "value": "the_vault:door_iskallium",
+          "weight": 1
+        }
+      ],
+      "5f820c39-5883-4392-b174-3125ac05e38c": [
+        {
+          "value": "the_vault:door_sparkletine",
+          "weight": 1
+        }
+      ],
+      "d974cbae-e62b-4e34-a1b8-0175a2d41d9a": [
+        {
+          "value": "the_vault:door_bomignite",
+          "weight": 1
+        }
+      ],
+      "ad425147-a229-48a0-930b-ec58f9c5dd84": [
+        {
+          "value": "the_vault:door_ashium",
+          "weight": 1
+        }
+      ],
+      "06f7cd12-4f00-4342-85f6-956b1ca48d38": [
+        {
+          "value": "the_vault:door_tubium",
+          "weight": 1
+        }
+      ],
+      "a0e8e55d-c5bd-44b2-bb5f-5b666415b8dd": [
+        {
+          "value": "the_vault:door_funsoide",
+          "weight": 1
+        }
+      ],
+      "0f5e0db0-13a0-4125-a97a-e9f8e872d521": [
+        {
+          "value": "the_vault:door_upaline",
+          "weight": 1
+        }
+      ],
+      "1b5fc4e3-d5a6-424f-a761-30c38b363015": [
+        {
+          "value": "the_vault:door_puffium",
+          "weight": 1
+        }
+      ]
+    
+    }
+  },
+  "RICHITY": {
+    "DEFAULT": [
+      {
+        "value": "minecraft:basalt",
+        "weight": 160
+      },
+      {
+        "value": "minecraft:gravel",
+        "weight": 160
+      },
+      {
+        "value": "minecraft:coal_block",
+        "weight": 8
+      },
+      {
+        "value": "minecraft:iron_block",
+        "weight": 8
+      },
+      {
+        "value": "minecraft:lapis_block",
+        "weight": 8
+      },
+      {
+        "value": "minecraft:redstone_block",
+        "weight": 8
+      },
+      {
+        "value": "minecraft:gold_block",
+        "weight": 6
+      },
+      {
+        "value": "minecraft:emerald_block",
+        "weight": 6
+      },
+      {
+        "value": "minecraft:diamond_block",
+        "weight": 6
+      },
+      {
+        "value": "minecraft:ancient_debris",
+        "weight": 4
+      },
+      {
+        "value": "minecraft:netherite_block",
+        "weight": 1
+      }
+    ],
+    "OVERRIDES": {
+    }
+  },
+  "RESOURCE": {
+    "DEFAULT": [
+      {
+        "value": "minecraft:stone",
+        "weight": 1400
+      },
+      {
+        "value": "compressium:cobblestone_2",
+        "weight": 40
+      },
+      {
+        "value": "compressium:cobblestone_3",
+        "weight": 8
+      },
+      {
+        "value": "compressium:stone_2",
+        "weight": 40
+      },
+      {
+        "value": "compressium:stone_3",
+        "weight": 6
+      },
+      {
+        "value": "compressium:sand_2",
+        "weight": 40
+      },
+      {
+        "value": "compressium:sand_3",
+        "weight": 4
+      },
+      {
+        "value": "compressium:gravel_2",
+        "weight": 40
+      },
+      {
+        "value": "compressium:gravel_3",
+        "weight": 4
+      },
+      {
+        "value": "compressium:netherrack_2",
+        "weight": 40
+      },
+      {
+        "value": "compressium:netherrack_3",
+        "weight": 10
+      },
+      {
+        "value": "compressium:soulsand_2",
+        "weight": 8
+      },
+      {
+        "value": "compressium:clay_2",
+        "weight": 8
+      },
+      {
+        "value": "compressium:dirt_3",
+        "weight": 12
+      },
+      {
+        "value": "compressium:endstone_2",
+        "weight": 12
+      },
+      {
+        "value": "compressium:endstone_3",
+        "weight": 2
+      },
+      {
+        "value": "compressium:obsidian_2",
+        "weight": 4
+      },
+      {
+        "value": "compressium:andesite_2",
+        "weight": 40
+      },
+      {
+        "value": "compressium:andesite_3",
+        "weight": 8
+      },
+      {
+        "value": "compressium:diorite_2",
+        "weight": 40
+      },
+      {
+        "value": "compressium:diorite_3",
+        "weight": 8
+      },
+      {
+        "value": "compressium:granite_2",
+        "weight": 40
+      },
+      {
+        "value": "compressium:granite_3",
+        "weight": 8
+      }
+    ],
+    "OVERRIDES": {
+      "cc821d6c-a2f4-4307-955d-8b30c2fc505d": [
+        {
+          "value": "minecraft:stone",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "MISC": {
+    "DEFAULT": [
+      {
+        "value": "minecraft:netherite_block",
+        "weight": 2
+      },
+      {
+        "value": "minecraft:ancient_debris",
+        "weight": 24
+      },
+      {
+        "value": "minecraft:diamond_block",
+        "weight": 24
+      },
+      {
+        "value": "the_vault:vault_diamond_block",
+        "weight": 1
+      }
+    ],
+    "OVERRIDES": {
+    }
+  },
+  "VAULT_CHEST": {
+    "DEFAULT": [
+      {
+        "value": "minecraft:air",
+        "weight": 2
+      },
+      {
+        "value": "the_vault:vault_chest",
+        "weight": 5
+      }
+    ],
+    "OVERRIDES": {
+    }
+  },
+  "VAULT_TREASURE": {
+    "DEFAULT": [
+      {
+        "value": "the_vault:vault_treasure_chest",
+        "weight": 1
+      }
+    ],
+    "OVERRIDES": {
+    }
+  }
+}

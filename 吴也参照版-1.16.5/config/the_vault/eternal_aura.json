@@ -1,0 +1,483 @@
+{
+  "EFFECT_AURAS": [
+    {
+      "effect": {
+        "effect": "minecraft:regeneration",
+        "amplifier": 1,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Regeneration1",
+      "displayName": "Regeneration 1",
+      "description": "赋予光环 再生 +1",
+      "iconPath": "the_vault:textures/entity/aura/aura_regeneration.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:regeneration",
+        "amplifier": 2,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Regeneration2",
+      "displayName": "Regeneration 2",
+      "description": "赋予光环  再生 +2",
+      "iconPath": "the_vault:textures/entity/aura/aura_regeneration.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:luck",
+        "amplifier": 1,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Luck1",
+      "displayName": "Luck",
+      "description": "赋予光环 幸运 +1",
+      "iconPath": "the_vault:textures/entity/aura/aura_lucky.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:luck",
+        "amplifier": 2,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Luck2",
+      "displayName": "Luck 2",
+      "description": "赋予光环 幸运 +2",
+      "iconPath": "the_vault:textures/entity/aura/aura_lucky_2.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:haste",
+        "amplifier": 1,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Haste1",
+      "displayName": "Haste 1",
+      "description": "赋予光环 急迫 +1",
+      "iconPath": "the_vault:textures/entity/aura/aura_haste.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:haste",
+        "amplifier": 2,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Haste2",
+      "displayName": "Haste 2",
+      "description": "赋予光环 急迫 +2",
+      "iconPath": "the_vault:textures/entity/aura/aura_haste_2.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:speed",
+        "amplifier": 1,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Speed1",
+      "displayName": "Speed 1",
+      "description": "赋予光环 速度 +1",
+      "iconPath": "the_vault:textures/entity/aura/aura_speed.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:speed",
+        "amplifier": 2,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Speed2",
+      "displayName": "Speed 2",
+      "description": "赋予光环 速度 +2",
+      "iconPath": "the_vault:textures/entity/aura/aura_speed_2.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:strength",
+        "amplifier": 1,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Strength1",
+      "displayName": "力量 1",
+      "description": "赋予光环 力量",
+      "iconPath": "the_vault:textures/entity/aura/aura_strength.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:strength",
+        "amplifier": 1,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Strength2",
+      "displayName": "力量 2",
+      "description": "赋予光环 力量 +2",
+      "iconPath": "the_vault:textures/entity/aura/aura_strength_2.png",
+      "radius": 5.0
+    },
+    {
+      "effect": {
+        "effect": "minecraft:saturation",
+        "amplifier": 1,
+        "type": "icon_only",
+        "operator": "add",
+        "cost": 0,
+        "levelRequirement": 0
+      },
+      "name": "Saturation",
+      "displayName": "饱和",
+      "description": "赋予光环 饱和",
+      "iconPath": "the_vault:textures/entity/aura/aura_saturation.png",
+      "radius": 5.0
+    }
+  ],
+  "PARRY_AURAS": [
+    {
+      "additionalParryChance": 0.02,
+      "name": "Parry2",
+      "displayName": "格挡 2%",
+      "description": "处于光环状态的玩家 +2% 格挡",
+      "iconPath": "the_vault:textures/entity/aura/aura_parry.png",
+      "radius": 5.0
+    },
+    {
+      "additionalParryChance": 0.04,
+      "name": "Parry4",
+      "displayName": "格挡 4%",
+      "description": "处于光环状态的玩家 +4% 格挡",
+      "iconPath": "the_vault:textures/entity/aura/aura_parry_4.png",
+      "radius": 5.0
+    },
+    {
+      "additionalParryChance": 0.06,
+      "name": "Parry6",
+      "displayName": "格挡 6%",
+      "description": "处于光环状态的玩家 +6% 格挡",
+      "iconPath": "the_vault:textures/entity/aura/aura_parry_6.png",
+      "radius": 5.0
+    },
+    {
+      "additionalParryChance": 0.08,
+      "name": "Parry8",
+      "displayName": "格挡 8%",
+      "description": "处于光环状态的玩家 +8% 格挡",
+      "iconPath": "the_vault:textures/entity/aura/aura_parry_8.png",
+      "radius": 5.0
+    },
+    {
+      "additionalParryChance": 0.1,
+      "name": "Parry10",
+      "displayName": "格挡 10%",
+      "description": "处于光环状态的玩家 +10% 格挡",
+      "iconPath": "the_vault:textures/entity/aura/aura_parry_10.png",
+      "radius": 5.0
+    }
+  ],
+  "RESISTANCE_AURAS": [
+    {
+      "additionalResistance": 0.02,
+      "name": "Resistance2",
+      "displayName": "抗性提升 2%",
+      "description": "处于光环状态的玩家 +2% 抗性提升",
+      "iconPath": "the_vault:textures/entity/aura/aura_resistance.png",
+      "radius": 5.0
+    },
+    {
+      "additionalResistance": 0.04,
+      "name": "Resistance4",
+      "displayName": "抗性提升 4%",
+      "description": "处于光环状态的玩家 +4% 抗性提升",
+      "iconPath": "the_vault:textures/entity/aura/aura_resistance_4.png",
+      "radius": 5.0
+    },
+    {
+      "additionalResistance": 0.06,
+      "name": "Resistance6",
+      "displayName": "抗性提升 6%",
+      "description": "处于光环状态的玩家 +6% 抗性提升",
+      "iconPath": "the_vault:textures/entity/aura/aura_resistance_6.png",
+      "radius": 5.0
+    },
+    {
+      "additionalResistance": 0.08,
+      "name": "Resistance8",
+      "displayName": "抗性提升 8%",
+      "description": "处于光环状态的玩家 +8% 抗性提升",
+      "iconPath": "the_vault:textures/entity/aura/aura_resistance_8.png",
+      "radius": 5.0
+    },
+    {
+      "additionalResistance": 0.1,
+      "name": "Resistance10",
+      "displayName": "抗性提升 10%",
+      "description": "处于光环状态的玩家 +10% 抗性提升",
+      "iconPath": "the_vault:textures/entity/aura/aura_resistance_10.png",
+      "radius": 5.0
+    }
+  ],
+  "TAUNT_AURAS": [
+    {
+      "tauntInterval": 100,
+      "name": "Taunt1",
+      "displayName": "嘲讽 1",
+      "description": "周期性地嘲讽附近的敌人",
+      "iconPath": "the_vault:textures/entity/aura/aura_taunt.png",
+      "radius": 8.0
+    },
+    {
+      "tauntInterval": 60,
+      "name": "Taunt2",
+      "displayName": "嘲讽 2",
+      "description": "周期性地嘲讽附近的敌人",
+      "iconPath": "the_vault:textures/entity/aura/aura_taunt_2.png",
+      "radius": 10.0
+    },
+    {
+      "tauntInterval": 40,
+      "name": "Taunt3",
+      "displayName": "嘲讽 3",
+      "description": "周期性地嘲讽附近的敌人",
+      "iconPath": "the_vault:textures/entity/aura/aura_taunt_3.png",
+      "radius": 12.0
+    }
+  ],
+  "MOB_EFFECT_AURAS": [
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 1,
+      "name": "Mob_Slowness1",
+      "displayName": "缓慢 1",
+      "description": "对半径范围内的敌人施加缓慢 1",
+      "iconPath": "the_vault:textures/entity/aura/aura_slowness.png",
+      "radius": 8.0
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 2,
+      "name": "Mob_Slowness2",
+      "displayName": "缓慢 2",
+      "description": "对半径范围内的敌人施加缓慢 2",
+      "iconPath": "the_vault:textures/entity/aura/aura_slowness_2.png",
+      "radius": 8.0
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 3,
+      "name": "Mob_Slowness3",
+      "displayName": "缓慢 3",
+      "description": "对半径范围内的敌人施加缓慢 3",
+      "iconPath": "the_vault:textures/entity/aura/aura_slowness_3.png",
+      "radius": 8.0
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 1,
+      "name": "Mob_Weakness1",
+      "displayName": "虚弱 1",
+      "description": "对半径范围内的敌人施加虚弱 1",
+      "iconPath": "the_vault:textures/entity/aura/aura_weakness.png",
+      "radius": 8.0
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 2,
+      "name": "Mob_Weakness2",
+      "displayName": "虚弱 2",
+      "description": "对半径范围内的敌人施加虚弱 2",
+      "iconPath": "the_vault:textures/entity/aura/aura_weakness_2.png",
+      "radius": 8.0
+    },
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 1,
+      "name": "Mob_Wither1",
+      "displayName": "凋零 1",
+      "description": "对半径范围内的敌人施加凋零 1",
+      "iconPath": "the_vault:textures/entity/aura/aura_withering_3.png",
+      "radius": 8.0
+    },
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 2,
+      "name": "Mob_Wither2",
+      "displayName": "凋零 2",
+      "description": "对半径范围内的敌人施加凋零 2",
+      "iconPath": "the_vault:textures/entity/aura/aura_withering.png",
+      "radius": 8.0
+    },
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 3,
+      "name": "Mob_Wither3",
+      "displayName": "凋零 3",
+      "description": "对半径范围内的敌人施加凋零 3",
+      "iconPath": "the_vault:textures/entity/aura/aura_withering_2.png",
+      "radius": 8.0
+    }
+  ],
+  "availableAuras": [
+    {
+      "value": "Regeneration1",
+      "weight": 4
+    },
+    {
+      "value": "Regeneration2",
+      "weight": 2
+    },
+    {
+      "value": "Luck1",
+      "weight": 2
+    },
+    {
+      "value": "Luck2",
+      "weight": 1
+    },
+    {
+      "value": "Haste1",
+      "weight": 12
+    },
+    {
+      "value": "Haste2",
+      "weight": 8
+    },
+    {
+      "value": "Speed1",
+      "weight": 16
+    },
+    {
+      "value": "Speed2",
+      "weight": 8
+    },
+    {
+      "value": "Strength1",
+      "weight": 5
+    },
+    {
+      "value": "Strength2",
+      "weight": 3
+    },
+    {
+      "value": "Saturation",
+      "weight": 32
+    },
+    {
+      "value": "Parry2",
+      "weight": 48
+    },
+    {
+      "value": "Parry4",
+      "weight": 32
+    },
+    {
+      "value": "Parry6",
+      "weight": 16
+    },
+    {
+      "value": "Parry8",
+      "weight": 8
+    },
+    {
+      "value": "Parry10",
+      "weight": 4
+    },
+    {
+      "value": "Resistance2",
+      "weight": 48
+    },
+    {
+      "value": "Resistance4",
+      "weight": 40
+    },
+    {
+      "value": "Resistance6",
+      "weight": 12
+    },
+    {
+      "value": "Resistance8",
+      "weight": 8
+    },
+    {
+      "value": "Resistance10",
+      "weight": 4
+    },
+    {
+      "value": "Taunt1",
+      "weight": 24
+    },
+    {
+      "value": "Taunt2",
+      "weight": 12
+    },
+    {
+      "value": "Taunt3",
+      "weight": 8
+    },
+    {
+      "value": "Mob_Slowness1",
+      "weight": 36
+    },
+    {
+      "value": "Mob_Slowness2",
+      "weight": 24
+    },
+    {
+      "value": "Mob_Slowness3",
+      "weight": 12
+    },
+    {
+      "value": "Mob_Weakness1",
+      "weight": 48
+    },
+    {
+      "value": "Mob_Weakness2",
+      "weight": 32
+    },
+    {
+      "value": "Mob_Wither1",
+      "weight": 36
+    },
+    {
+      "value": "Mob_Wither2",
+      "weight": 16
+    },
+    {
+      "value": "Mob_Wither3",
+      "weight": 8
+    }
+  ]
+}

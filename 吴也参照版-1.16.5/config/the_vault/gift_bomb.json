@@ -1,0 +1,17 @@
+{
+  "GIFT_LOOTS": [
+    {
+      "ITEM": "minecraft:golden_apple",
+      "AMOUNT": 2,
+      "NBT": "{display:{Name:\u0027{\"text\":\"Fancier Apple\"}\u0027}}"
+    },
+    {
+      "ITEM": "minecraft:iron_sword",
+      "AMOUNT": 1,
+      "NBT": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:10s}]}"
+    }
+  ],
+  "SUPER_GIFT_LOOTS": [],
+  "MEGA_GIFT_LOOTS": [],
+  "OMEGA_GIFT_LOOTS": []
+}

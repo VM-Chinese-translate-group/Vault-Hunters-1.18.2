@@ -1,0 +1,780 @@
+{
+  "tooltips": [
+    {
+      "item": "the_vault:vault_burger",
+      "value": "吃掉可以获得0-3% \n模组所需的等级经验"
+    },
+    {
+      "item": "the_vault:oozing_pizza",
+      "value": "吃掉可以获得0-1% \n模组所需的等级经验"
+    },
+    {
+      "item": "the_vault:vault_cookie",
+      "value": "吃掉可以获得模组所需的等级经验"
+    },
+    {
+      "item": "the_vault:skill_orb",
+      "value": "使用后可以提升\n1级能力等级"
+    },
+    {
+      "item": "the_vault:gem_alexandrite",
+      "value": "不常见的宝石"
+    },
+    {
+      "item": "the_vault:gem_benitoite",
+      "value": "普通的宝石"
+    },
+    {
+      "item": "the_vault:gem_larimar",
+      "value": "普通的宝石"
+    },
+    {
+      "item": "the_vault:gem_black_opal",
+      "value": "非常罕见的宝石"
+    },
+    {
+      "item": "the_vault:gem_painite",
+      "value": "罕见的宝石"
+    },
+    {
+      "item": "the_vault:gem_wutodie",
+      "value": "不常见的宝石"
+    },
+    {
+      "item": "the_vault:gem_iskallium",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_gorginite",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_sparkletine",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_ashium",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_bomignite",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_funsoide",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_tubium",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_upaline",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_puffium",
+      "value": "独特的宝石"
+    },
+    {
+      "item": "the_vault:gem_echo",
+      "value": "传说中的宝石"
+    },
+    {
+      "item": "the_vault:vault_rock",
+      "value": "在宝库祭坛使用可以变成宝库水晶"
+    },
+    {
+      "item": "the_vault:gem_pog",
+      "value": "宝石结合体\n可用于更高级的物品制作"
+    },
+    {
+      "item": "the_vault:echo_pog",
+      "value": "可用于更高级的物品制作"
+    },
+    {
+      "item": "the_vault:key_iskallium",
+      "value": "可以在宝库内打开能力物质门"
+    },
+    {
+      "item": "the_vault:key_gorginite",
+      "value": "可以在宝库内打开Gorginite门"
+    },
+    {
+      "item": "the_vault:key_sparkletine",
+      "value": "可以在宝库内打开Sparkletine门"
+    },
+    {
+      "item": "the_vault:key_ashium",
+      "value": "可以在宝库内打开Ashium门"
+    },
+    {
+      "item": "the_vault:key_bomignite",
+      "value": "可以在宝库内打开Bomignite门"
+    },
+    {
+      "item": "the_vault:key_funsoide",
+      "value": "可以在宝库内打开Funsoide门"
+    },
+    {
+      "item": "the_vault:key_tubium",
+      "value": "可以在宝库内打开Tubium门"
+    },
+    {
+      "item": "the_vault:key_upaline",
+      "value": "可以在宝库内打开Upaline门"
+    },
+    {
+      "item": "the_vault:key_puffium",
+      "value": "可以在宝库内打开Puffium门"
+    },
+    {
+      "item": "the_vault:relic_booster_pack",
+      "value": "右键可能会开出一些遗物, 神秘盒子\n附魔瓶，或者什么也没有"
+    },
+    {
+      "item": "the_vault:relic_dragon_head",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_dragon_tail",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_dragon_foot",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_dragon_chest",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_dragon_breath",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_miners_delight",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_miners_light",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_pickaxe_handle",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_pickaxe_head",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_pickaxe_tool",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_sword_blade",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_sword_handle",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_sword_stick",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_warriors_armour",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_warriors_charm",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_diamond_essence",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_gold_essence",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_mystic_gem_essence",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_netherite_essence",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_platinum_essence",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_cupcake_blue",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_cupcake_lime",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_cupcake_pink",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_cupcake_purple",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_cupcake_red",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_air",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_spirit",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_fire",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_earth",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_water",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twolf999_head",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twolf999_combat_vest",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twolf999_combat_leggings",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twolf999_combat_gloves",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twolf999_combat_boots",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_armor_of_forbearance",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_heart_of_the_void",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_nemesis_thwarter",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_reverence_edge",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_wings_of_equity",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote1",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote2",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote3",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote4",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:relic_twitch_emote5",
+      "value": "集齐其余四件同类型的遗物后\n 可以在工作台无序合成一个雕像\n放置后可以永久增加 30秒 的宝库探索时间\n 一种类型的雕像只能加一次\n多出来的雕像可以放熔炉烧成苦涩的柠檬"
+    },
+    {
+      "item": "the_vault:trader_core",
+      "value": "右键放入自动贩卖机生成一位交易者"
+    },
+    {
+      "item": "the_vault:orb_frame",
+      "value": "合成技能宝珠的基础材料"
+    },
+    {
+      "item": "the_vault:skill_shard",
+      "value": "合成技能宝珠的材料"
+    },
+    {
+      "item": "the_vault:key_piece",
+      "value": "合成空白钥匙的材料"
+    },
+    {
+      "item": "the_vault:key_mould",
+      "value": "合成空白钥匙的材料"
+    },
+    {
+      "item": "the_vault:blank_key",
+      "value": "在钥匙砧与模组里的矿石簇制作出对应的门钥匙"
+    },
+    {
+      "item": "the_vault:netherite_cluster",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_iskallium",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_gorginite",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_sparkletine",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_ashium",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_bomignite",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_funsoide",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_tubium",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_upaline",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:cluster_puffium",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:vault_stew_mystery",
+      "value": "随机获得一种炖菜\n右键使用"
+    },
+    {
+      "item": "the_vault:vault_stew_normal",
+      "value": "吃完可获得 20% 的经验"
+    },
+    {
+      "item": "the_vault:vault_stew_rare",
+      "value": "吃完可获得 40% 的经验"
+    },
+    {
+      "item": "the_vault:vault_stew_epic",
+      "value": "吃完可获得 60% 的经验"
+    },
+    {
+      "item": "the_vault:vault_stew_omega",
+      "value": "吃完可获得 99% 的经验"
+    },
+    {
+      "item": "the_vault:poisonous_mushroom",
+      "value": "罕见的合成材料"
+    },
+    {
+      "item": "the_vault:vault_gold",
+      "value": "宝藏猎人的货币\n可用于跟贩卖机里的交易者交易"
+    },
+    {
+      "item": "the_vault:vault_diamond",
+      "value": "罕见的合成材料"
+    },
+    {
+      "item": "the_vault:skill_essence",
+      "value": "技能宝珠的合成材料"
+    },
+    {
+      "item": "the_vault:unidentified_relic",
+      "value": "包含一个随机的遗物\n右键使用"
+    },
+    {
+      "item": "the_vault:hunter_eye",
+      "value": "史诗般的合成材料"
+    },
+    {
+      "item": "the_vault:burger_patty",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:burger_bun",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:mystic_tomato",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:mature_cheddar",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:vault_ingot",
+      "value": "合成材料, 主要用于制作未知的宝库装备"
+    },
+    {
+      "item": "the_vault:vault_platinum",
+      "value": "宝藏猎人的货币\n可用于跟贩卖机里的交易者交易"
+    },
+    {
+      "item": "the_vault:mystery_box",
+      "value": "一些随机物品\n右键打开"
+    },
+    {
+      "item": "the_vault:drilling_tip",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:drill_arrow",
+      "value": "把你的弓变成火箭发射器\n谨慎点用!"
+    },
+    {
+      "item": "the_vault:mystery_egg",
+      "value": "一个随机的被动型生物蛋\n右键打开\n\n也可用于制作神秘的敌对型生物蛋"
+    },
+    {
+      "item": "the_vault:mystery_hostile_egg",
+      "value": "一个随机的敌对型生物蛋\n右键打开"
+    },
+    {
+      "item": "the_vault:pandoras_box",
+      "value": "??????\n右键打开"
+    },
+    {
+      "item": "the_vault:chunk_iskallium",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:chunk_gorginite",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:chunk_sparkletine",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:chunk_ashium",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:chunk_bomignite",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:chunk_funsoide",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:chunk_tubium",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:chunk_upaline",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:chunk_puffium",
+      "value": "史诗级合成材料"
+    },
+    {
+      "item": "the_vault:omega_pog",
+      "value": "游戏后期物品的合成材料\n也可以放在铁砧上将宝库文物重新变成未知的文物"
+    },
+    {
+      "item": "the_vault:eternal_soul",
+      "value": "永恒者的灵魂，一旦你拥有永恒者，就可以在BOSS箱中找到\n可用于合成物品"
+    },
+    {
+      "item": "the_vault:spark",
+      "value": "可用于制作未知的文物"
+    },
+    {
+      "item": "the_vault:star_shard",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:star_core",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:star_essence",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:knowledge_star",
+      "value": "+1 知识点"
+    },
+    {
+      "item": "the_vault:infused_eternal_soul",
+      "value": "高级合成材料"
+    },
+    {
+      "item": "the_vault:vault_apple",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:perfect_alexandrite",
+      "value": "罕见的完美宝石"
+    },
+    {
+      "item": "the_vault:perfect_painite",
+      "value": "稀有的完美宝石"
+    },
+    {
+      "item": "the_vault:perfect_benitoite",
+      "value": "普通的完美宝石"
+    },
+    {
+      "item": "the_vault:perfect_larimar",
+      "value": "普通的完美宝石"
+    },
+    {
+      "item": "the_vault:perfect_black_opal",
+      "value": "非常稀有的完美宝石"
+    },
+    {
+      "item": "the_vault:perfect_echo_gem",
+      "value": "史诗的完美宝石"
+    },
+    {
+      "item": "the_vault:perfect_wutodie",
+      "value": "罕见的完美宝石"
+    },
+    {
+      "item": "the_vault:vault_dust",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:vault_nugget",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:vault_bronze",
+      "value": "宝藏猎人的货币\n可用于跟贩卖机里的交易者交易"
+    },
+    {
+      "item": "the_vault:vault_silver",
+      "value": "宝藏猎人的货币\n可用于跟贩卖机里的交易者交易"
+    },
+    {
+      "item": "the_vault:magnet_core_weak",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:magnet_core_strong",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:magnet_core_omega",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:wutax_crystal",
+      "value": "可在铁砧上给宝库装备按星级数量添加效果数量"
+    },
+    {
+      "item": "the_vault:vault_catalyst",
+      "value": "可在铁砧上给宝库水晶添加效果"
+    },
+    {
+      "item": "the_vault:vault_inhibitor",
+      "value": "可移除宝库水晶效果"
+    },
+    {
+      "item": "the_vault:soul_flame",
+      "value": "可在铁砧上使用\n给宝库水晶添加死亡不掉落效果\n不过, 也会移除文物产生的概率"
+    },
+    {
+      "item": "the_vault:soul_shard",
+      "value": "灵魂商人的货币 (F7)"
+    },
+    {
+      "item": "the_vault:shard_pouch",
+      "value": "可储存灵魂碎片\n可以无限储存"
+    },
+    {
+      "item": "the_vault:vault_paxel",
+      "value": "镐子, 斧头和铲子 - 三合一\n不能附魔经验修补以及修复"
+    },
+    {
+      "item": "the_vault:infinite_water_bucket",
+      "value": "无限水"
+    },
+    {
+      "item": "the_vault:vault_pearl",
+      "value": "可多次使用的末影珍珠"
+    },
+    {
+      "item": "the_vault:vault_magnet_weak",
+      "value": "将掉落物吸向玩家\n放快捷栏右键激活"
+    },
+    {
+      "item": "the_vault:vault_magnet_strong",
+      "value": "将掉落物吸向玩家\n放快捷栏右键激活"
+    },
+    {
+      "item": "the_vault:vault_magnet_omega",
+      "value": "将掉落物吸向玩家\n放快捷栏右键激活"
+    },
+    {
+      "item": "the_vault:void_liquid_bucket",
+      "value": "合成材料, 在建筑师空间深处发现"
+    },
+    {
+      "item": "the_vault:vaulterite_ingot",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:red_vault_essence",
+      "value": "合成材料"
+    },
+    {
+      "item": "the_vault:unidentified_treasure_key",
+      "value": "随机的一把钥匙\n右键使用"
+    },
+    {
+      "item": "the_vault:fabrication_jewel",
+      "value": "和宝库装备在铁砧上使用，制成工匠卷轴\n注意这个过程会破坏宝库装备"
+    },
+    {
+      "item": "the_vault:armor_crate_hellcow",
+      "value": "包含4件套中的其中一件: Hellcow\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_botania",
+      "value": "包含4件套中的其中一件: Botania\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_create",
+      "value": "包含4件套中的其中一件: Create\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_dank",
+      "value": "包含4件套中的其中一件: Dank\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_flux",
+      "value": "包含4件套中的其中一件: Flux\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_ie",
+      "value": "包含4件套中的其中一件: IE\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_meka",
+      "value": "包含8件套中的其中一件: Meka\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_powah",
+      "value": "包含4件套中的其中一件: Powah\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_thermal",
+      "value": "包含4件套中的其中一件: Thermal\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_trash",
+      "value": "包含4件套中的其中一件: Trash\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_villager",
+      "value": "包含4件套中的其中一件: Villager\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_automatic",
+      "value": "包含4件套中的其中一件: Automatic\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_fairy",
+      "value": "包含4件套中的其中一件: Fairy\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_building",
+      "value": "包含4件套中的其中一件: Building\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_zombie",
+      "value": "包含4件套中的其中一件: Zombie\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_xnet",
+      "value": "包含4件套中的其中一件: Xnet\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_test_dummy",
+      "value": "包含4件套中的其中一件: Test Dummy\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_if",
+      "value": "包含4件套中的其中一件: Industrial Foregoing\n右键开箱"
+    },
+    {
+      "item": "the_vault:armor_crate_cake",
+      "value": "包含4件套中的其中一件: Cake\n右键开箱"
+    },
+    {
+      "item": "the_vault:vault_altar",
+      "value": "祭坛作用简述\n放上宝库之石开始制作水晶"
+    },
+    {
+      "item": "the_vault:vending_machine",
+      "value": "只能叠加同名交易者"
+    },
+    {
+      "item": "the_vault:advanced_vending_machine",
+      "value": "可以叠加多个不同名的交易者"
+    },
+    {
+      "item": "the_vault:gift_normal_statue",
+      "value": "随机生成一个材质，直到它衰减"
+    },
+    {
+      "item": "the_vault:gift_mega_statue",
+      "value": "随机生成一个大型材质，直到它衰减"
+    },
+    {
+      "item": "the_vault:vault_player_loot_statue",
+      "value": "随机生成一个材质，直到它衰减"
+    },
+    {
+      "item": "the_vault:cryo_chamber",
+      "value": "用来创造永恒者\n把低温箱放地上\n右键放入交易者核心\n填满低温箱需要大量交易者核心\n一般最后放谁的ID就会出现谁\n\n右键可以打开永恒者的界面"
+    },
+    {
+      "item": "the_vault:key_press",
+      "value": "用于制作宝藏钥匙"
+    },
+    {
+      "item": "the_vault:vault_diamond_block",
+      "value": "合成材料"
+    }
+  ]
+}

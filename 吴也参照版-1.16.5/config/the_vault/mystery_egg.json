@@ -1,0 +1,84 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "minecraft:cow_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:pig_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:chicken_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:mooshroom_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:polar_bear_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:rabbit_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:sheep_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:squid_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:turtle_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:strider_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    }
+  ]
+}

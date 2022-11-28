@@ -1,0 +1,2170 @@
+{
+  "MAX_ACCELERATION_CHIPS": 10,
+  "INTERVAL_DECREASE_PER_CHIP": {
+    "1": 200,
+    "2": 400,
+    "3": 600,
+    "4": 800,
+    "5": 1000,
+    "6": 1200,
+    "7": 1400,
+    "8": 1600,
+    "9": 1800,
+    "10": 2000
+  },
+  "GIFT_NORMAL_STATUE_LOOT": [
+    {
+      "value": {
+        "ITEM": "minecraft:cobblestone"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:andesite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:gravel"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:sand"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dirt"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:acacia_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:birch_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:jungle_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_wool"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_sandstone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:bricks"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:terracotta"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone_bricks"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete_powder"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_prismarine"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:blackstone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:glass"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "quark:turf"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:midori_block"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:weathered_limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:dolomite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_white"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:hardened_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:travertine"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_taiga_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_mesa_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:red_rock"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:scoria_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:rocky_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_leaves"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:snow_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:end_stone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:nether_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:basalt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_quartz"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:gabbro"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0042_space10"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0038_space14"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0040_space12"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:light_metal_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:metal_plate_rivets"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:rusty_iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:slate"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:myalite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:marble"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:black_ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "decorative_blocks:rocky_dirt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:dense_grit_sand_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:slag_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete_tile"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:clinker_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_gray"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "immersiveengineering:concrete"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "the_vault:vault_bronze"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "the_vault:vault_dust"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ancient_debris"
+      },
+      "weight": 1
+    }
+  ],
+  "GIFT_NORMAL_STATUE_INTERVAL": 500,
+  "GIFT_NORMAL_DECAY": {
+    "MIN": 128,
+    "MAX": 512
+  },
+  "GIFT_MEGA_STATUE_LOOT": [
+    {
+      "value": {
+        "ITEM": "minecraft:gold_nugget"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:emerald"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:iron_nugget"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:cobblestone"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:andesite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:gravel"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:sand"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dirt"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:acacia_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:birch_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:jungle_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_wool"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_sandstone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:bricks"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:terracotta"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone_bricks"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete_powder"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_prismarine"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:blackstone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:glass"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "quark:turf"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:midori_block"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:weathered_limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:dolomite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_white"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:hardened_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:travertine"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_taiga_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_mesa_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:red_rock"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:scoria_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:rocky_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_leaves"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:snow_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:end_stone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:nether_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:basalt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_quartz"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:gabbro"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0042_space10"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0038_space14"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0040_space12"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:light_metal_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:metal_plate_rivets"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:rusty_iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:slate"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:myalite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:marble"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:black_ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "decorative_blocks:rocky_dirt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:dense_grit_sand_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:slag_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete_tile"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:clinker_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_gray"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "immersiveengineering:concrete"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "the_vault:vault_bronze"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "the_vault:vault_dust"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ancient_debris"
+      },
+      "weight": 1
+    }
+  ],
+  "GIFT_MEGA_STATUE_INTERVAL": 400,
+  "GIFT_MEGA_DECAY": {
+    "MIN": 512,
+    "MAX": 1024
+  },
+  "VAULT_BOSS_STATUE_LOOT": [
+    {
+      "value": {
+        "ITEM": "minecraft:cobblestone"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:andesite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:gravel"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:sand"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dirt"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:acacia_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:birch_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:jungle_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_wool"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_sandstone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:bricks"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:terracotta"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone_bricks"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete_powder"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_prismarine"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:blackstone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:glass"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "quark:turf"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:midori_block"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:weathered_limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:dolomite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_white"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:hardened_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:travertine"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_taiga_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_mesa_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:red_rock"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:scoria_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:rocky_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_leaves"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:snow_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:end_stone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:nether_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:basalt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_quartz"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:gabbro"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0042_space10"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0038_space14"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0040_space12"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:light_metal_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:metal_plate_rivets"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:rusty_iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:slate"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:myalite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:marble"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:black_ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "decorative_blocks:rocky_dirt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:dense_grit_sand_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:slag_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete_tile"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:clinker_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_gray"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "immersiveengineering:concrete"
+      },
+      "weight": 3
+    }
+  ],
+  "VAULT_BOSS_STATUE_INTERVAL": 600,
+  "VAULT_BOSS_DECAY": {
+    "MIN": 128,
+    "MAX": 512
+  },
+  "ARENA_CHAMPION_STATUE_LOOT": [
+    {
+      "value": {
+        "ITEM": "minecraft:cobblestone"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:gravel"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:sand"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dirt"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:acacia_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:birch_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:jungle_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_wool"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_sandstone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:bricks"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:terracotta"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone_bricks"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete_powder"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_prismarine"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:blackstone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:glass"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "quark:turf"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:midori_block"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:weathered_limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:dolomite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_white"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:hardened_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:travertine"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_taiga_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_mesa_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:red_rock"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:scoria_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:rocky_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_leaves"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:snow_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:end_stone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:nether_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:basalt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_quartz"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:gabbro"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0042_space10"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0038_space14"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0040_space12"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:light_metal_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:metal_plate_rivets"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:rusty_iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:slate"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:myalite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:marble"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:black_ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "decorative_blocks:rocky_dirt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:dense_grit_sand_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:slag_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete_tile"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:clinker_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_gray"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "immersiveengineering:concrete"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "the_vault:vault_bronze"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "the_vault:vault_dust"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ancient_debris"
+      },
+      "weight": 1
+    }
+  ],
+  "ARENA_CHAMPION_STATUE_INTERVAL": 600,
+  "ARENA_CHAMPION_DECAY": {
+    "MIN": 128,
+    "MAX": 512
+  },
+  "OMEGA_STATUE_LOOT": [
+    {
+      "value": {
+        "ITEM": "minecraft:cobblestone"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:andesite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:gravel"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:sand"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dirt"
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:spruce_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_oak_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:acacia_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:birch_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:jungle_log"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_wool"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:obsidian"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:clay"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:soul_sand"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:magma_block"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:purpur_block"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:podzol"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:nether_wart_block"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_sandstone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:bricks"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:terracotta"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone_bricks"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:white_concrete_powder"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_prismarine"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:blackstone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:glass"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "quark:turf"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:midori_block"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:weathered_limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:limestone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "create:dolomite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_white"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:hardened_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:travertine"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_taiga_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "botania:metamorphic_mesa_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:red_rock"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:scoria_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:rocky_stone"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_leaves"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:snow_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:end_stone"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:nether_bricks"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:basalt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_quartz"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "create:gabbro"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0042_space10"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0038_space14"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:spacex_0040_space12"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:light_metal_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "iskallutilities:metal_plate_rivets"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:rusty_iron_plate"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "quark:slate"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:myalite"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "quark:marble"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "byg:black_ice"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "decorative_blocks:rocky_dirt"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:dense_grit_sand_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:slag_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:rebar_concrete_tile"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "engineersdecor:clinker_brick_block"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "enviromats:alabaster_gray"
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "ITEM": "immersiveengineering:concrete"
+      },
+      "weight": 3
+    }
+  ],
+  "OMEGA_STATUE_INTERVAL": 2400
+}

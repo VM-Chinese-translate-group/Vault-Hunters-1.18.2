@@ -1,0 +1,1300 @@
+{
+  "MOD_RESEARCHES": [
+    {
+      "modIds": [
+        "simplybackpacks"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "背包",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "waystones",
+        "usefulrailroads"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "传送石碑",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "torchmaster"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "火炬大师",
+      "cost": 3,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "trashcans"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "垃圾桶",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "dankstorage"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Danks",
+      "cost": 5,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "buildinggadgets"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "建筑小帮手",
+      "cost": 4,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "mininggadgets"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "挖矿小助手",
+      "cost": 6,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "metalbarrels",
+        "ironchest",
+        "storage_overhaul"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "更多的箱子",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "storagedrawers"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "抽屉",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "refinedstorage"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "精致存储",
+      "cost": 4,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "appliedenergistics2"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "应用能源",
+      "cost": 4,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "rftoolsstorage"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "RF工具：存储",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "masonry",
+        "decorative_blocks",
+        "camera",
+        "mcwbridges",
+        "blockcarpentry",
+        "mcwwindows",
+        "mcwroofs",
+        "mcwdoors",
+        "enviromats",
+        "platforms"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "装饰",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "cfm",
+        "supplementaries"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "家具",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "engineersdecor"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "工程师的装饰",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "ironfurnaces"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "更多熔炉",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "immersiveengineering"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "沉浸工程",
+      "cost": 6,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "elevatorid",
+        "movingelevators"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "电梯",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "cookingforblockheads"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "厨师",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "dimstorage"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "维度存储",
+      "cost": 3,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "xnet"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Xnet",
+      "cost": 6,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "modularrouters"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "模块化路由器",
+      "cost": 6,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "rftoolsutility"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "RF工具：实用设备",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "rftoolsbase"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "RF工具：基础",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "ispawner"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "刷怪笼",
+      "cost": 4,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "botania"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "植物魔法",
+      "cost": 12,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "mekanism"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "通用机械",
+      "cost": 12,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "easy_villagers"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "简单村民",
+      "cost": 3,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "rftoolsbuilder"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "采石场",
+      "cost": 14,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "ironjetpacks"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "喷气背包",
+      "cost": 4,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "darkutils"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Dark Utilities",
+      "cost": 6,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "create"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "机械动力",
+      "cost": 6,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "prettypipes"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Pretty Pipes",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "snad"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "子沙",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "fluxnetworks"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": true
+        }
+      },
+      "name": "通量网络",
+      "cost": 8,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "simplylight"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "更多的灯",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "dummmmmmy"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "训练人偶",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "fairylights"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "圣诞彩灯",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "rftoolspower"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "RF工具：能量",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "thermal"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "热力膨胀",
+      "cost": 10,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "industrialforegoing"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "工业先锋",
+      "cost": 20,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "powah"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Powah",
+      "cost": 6,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "mekanismgenerators"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "通用机械发电机",
+      "cost": 8,
+      "usesKnowledge": true
+    }
+  ],
+  "CUSTOM_RESEARCHES": [
+    {
+      "itemRestrictions": {
+        "appliedenergistics2:molecular_assembler": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:formulaic_assemblicator": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "refinedstorage:crafter": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "rftoolsutility:crafter1": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "thermal:machine_crafter": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "create:mechanical_crafter": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "botania:crafting_halo": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "botania:auto_crafting_halo": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "botania:crafty_crate": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "自动化天才",
+      "cost": 100,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "mekanism:portable_qio_dashboard": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_drive_base": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_drive_hyper_dense": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_drive_time_dilating": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_drive_supermassive": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_drive_array": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_dashboard": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_importer": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_exporter": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "mekanism:qio_redstone_adapter": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "通用机械存储系统",
+      "cost": 10,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "create:extendo_grip": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "延长臂",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "industrialforegoing:ore_laser_base": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:laser_drill": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "industrialforegoing:fluid_laser_base": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "激光采矿",
+      "cost": 12,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "mekanism:digital_miner": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "数字型采矿机",
+      "cost": 8,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "immersiveengineering:cloche": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "园艺玻璃罩",
+      "cost": 4,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "thermal:machine_insolator": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "有机灌注器",
+      "cost": 4,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:sword": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:axe": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:dagger": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:helmet": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:boots": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:leggings": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:chestplate": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:vault_magnet_omega": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:paxel_charm": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:repair_core": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:vault_ingot": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:etching": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:fabrication_jewel": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "宝库铁匠",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:drill_arrow": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "archers_paradox:diamond_arrow": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "archers_paradox:quartz_arrow": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "强大的箭头",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:shard_pouch": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Soul Hunting",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:vault_charm_controller": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:vault_charm": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:vault_charm_upgrade_tier_1": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:vault_charm_upgrade_tier_2": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:vault_charm_upgrade_tier_3": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "宝库掠夺",
+      "cost": 6,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:jade_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:cobalt_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:pixie_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:bitter_lemon": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:sour_orange": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:sweet_kiwi": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:mystic_pear": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:vault_stew_mystery": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:lucky_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:treasure_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:power_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:ghost_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:golem_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:sweet_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:hearty_apple": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "宝库能力升级道具",
+      "cost": 2,
+      "usesKnowledge": true
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "tierOutcomes": [
+    {
+      "level": 0,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 0
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 100,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 125,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 150,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 175,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "level": 200,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "level": 225,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "level": 250,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 260,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 35
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 270,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 30
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 280,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 25
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 290,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 300,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 15
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "level": 300,
+      "outcomes": [
+        {
+          "value": {
+            "tier": 1
+          },
+          "weight": 12
+        },
+        {
+          "value": {
+            "tier": 2
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

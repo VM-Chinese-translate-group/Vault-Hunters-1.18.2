@@ -1,0 +1,276 @@
+{
+  "SAVE_PLAYER_SNAPSHOTS": true,
+  "TICK_COUNTER": 30000,
+  "NO_EXIT_CHANCE": 10,
+  "OBELISK_DROP_CHANCE": 2,
+  "ITEM_BLACKLIST": [
+    "minecraft:ender_chest",
+	"industrialforegoing:mob_crusher",
+	"industrialforegoing:mob_slaughter_factory",
+	"dimstorage:dimensional_chest",
+	"darkutils:rune_damage_player",
+	"minecraft:minecart",
+	"minecraft:oak_boat",
+	"minecraft:spruce_boat",
+	"minecraft:acacia_boat",
+	"minecraft:birch_boat",
+	"minecraft:jungle_boat",
+	"minecraft:dark_oak_boat",
+	"byg:aspen_boat",
+	"byg:baobab_boat",
+	"byg:blue_enchanted_boat",
+	"byg:cherry_boat",
+	"byg:cika_boat",
+	"byg:cypress_boat",
+	"byg:ebony_boat",
+	"byg:fir_boat",
+	"byg:green_enchanted_boat",
+	"byg:holly_boat",
+	"byg:jacaranda_boat",
+	"byg:mahogany_boat",
+	"byg:mangrove_boat",
+	"byg:maple_boat",
+	"byg:palm_boat",
+	"byg:pine_boat",
+	"byg:rainbow_eucalyptus_boat",
+	"byg:redwood_boat",
+	"byg:skyris_boat",
+	"byg:willow_boat",
+	"byg:witch_hazel_boat",
+	"byg:zelkova_boat",
+	"the_vault:skill_orb",
+	"endermail:package_controller",
+	"endermail:stamp",
+	"rftoolsutility:charged_porter",
+	"rftoolsutility:advanced_charged_porter",
+	"waystones:waystone",
+	"waystones:mossy_waystone",
+	"waystones:sandy_waystone",
+	"rftoolsutility:matter_transmitter",
+	"rftoolsutility:matter_receiver",
+	"appliedenergistics2:wireless_terminal",
+	"refinedstorageaddons:wireless_crafting_grid",
+	"refinedstorage:wireless_grid",
+	"rftoolsstorage:tablet_scanner",
+	"minecraft:wither_skeleton_skull",
+	"waystones:warp_scroll",
+	"the_vault:key_press",
+	"mekanism:digital_miner",
+	"minecraft:armor_stand",
+	"botania:flugel_eye",
+  	"minecraft:chorus_fruit",
+	"mekanism:cardboard_box",
+    "create:cart_assembler",
+    "create:schematicannon",
+    "create:wrench",
+    "create:deployer",
+    "usefulrailroads:teleport_rail",
+	"minecraft:flint_and_steel",
+	"minecraft:obsidian",
+	"minecraft:fire_charge",
+	"mekanism:personal_chest",
+	"the_vault:cryo_chamber",
+	"mekanism:portable_teleporter",
+	"ispawner:survival_spawner",
+	"the_vault:knowledge_star",
+	"cfm:post_box",
+	"cfm:oak_mail_box",
+	"cfm:spruce_mail_box",
+	"cfm:birch_mail_box",
+	"cfm:jungle_mail_box",
+	"cfm:acacia_mail_box",
+	"cfm:dark_oak_mail_box",
+	"cfm:stripped_oak_mail_box",
+	"cfm:stripped_spruce_mail_box",
+	"cfm:stripped_birch_mail_box",
+	"cfm:stripped_jungle_mail_box",
+	"cfm:stripped_acacia_mail_box",
+	"cfm:stripped_dark_oak_mail_box",
+	"the_vault:vault_cookie",
+	"the_vault:vault_burger",
+	"the_vault:oozing_pizza",
+	"the_vault:vault_stew_mystery",
+	"the_vault:vault_stew_normal",
+	"the_vault:vault_stew_rare",
+	"the_vault:vault_stew_epic",
+	"the_vault:vault_stew_omega",
+	"rftoolsstorage:modular_storage",
+	"rftoolsstorage:storage_scanner",
+	"rftoolsstorage:dimensional_tablet",
+	"rftoolsbuilder:builder",
+	"cfm:post_box",
+	"mekanism:portable_qio_dashboard",
+	"mekanism:quantum_entangloporter"
+  ],
+  "BLOCK_BLACKLIST": [
+    "minecraft:ender_chest",
+	"industrialforegoing:mob_crusher",
+	"industrialforegoing:mob_slaughter_factory",
+	"dimstorage:dimensional_chest",
+	"darkutils:rune_damage_player",
+	"minecraft:minecart",
+	"minecraft:oak_boat",
+	"minecraft:spruce_boat",
+	"minecraft:acacia_boat",
+	"minecraft:birch_boat",
+	"minecraft:jungle_boat",
+	"minecraft:dark_oak_boat",
+	"byg:aspen_boat",
+	"byg:baobab_boat",
+	"byg:blue_enchanted_boat",
+	"byg:cherry_boat",
+	"byg:cika_boat",
+	"byg:cypress_boat",
+	"byg:ebony_boat",
+	"byg:fir_boat",
+	"byg:green_enchanted_boat",
+	"byg:holly_boat",
+	"byg:jacaranda_boat",
+	"byg:mahogany_boat",
+	"byg:mangrove_boat",
+	"byg:maple_boat",
+	"byg:palm_boat",
+	"byg:pine_boat",
+	"byg:rainbow_eucalyptus_boat",
+	"byg:redwood_boat",
+	"byg:skyris_boat",
+	"byg:willow_boat",
+	"byg:witch_hazel_boat",
+	"byg:zelkova_boat",
+	"endermail:package",
+	"waystones:waystone",
+	"waystones:mossy_waystone",
+	"waystones:sandy_waystone",
+	"rftoolsutility:matter_transmitter",
+	"rftoolsutility:matter_receiver",
+	"minecraft:wither_skeleton_skull",
+	"waystones:warp_scroll",
+	"the_vault:key_press",
+	"mekanism:digital_miner",
+	"minecraft:armor_stand",
+	"botania:flugel_eye",
+  	"minecraft:chorus_fruit",
+	"mekanism:cardboard_box",
+    "create:cart_assembler",
+    "create:schematicannon",
+    "create:wrench",
+    "create:deployer",
+    "usefulrailroads:teleport_rail",
+	"minecraft:flint_and_steel",
+	"minecraft:obsidian",
+	"minecraft:fire_charge",
+	"mekanism:personal_chest",
+	"mekanism:portable_teleporter",
+	"ispawner:survival_spawner",
+	"the_vault:knowledge_star",
+	"cfm:post_box",
+	"cfm:oak_mail_box",
+	"cfm:spruce_mail_box",
+	"cfm:birch_mail_box",
+	"cfm:jungle_mail_box",
+	"cfm:acacia_mail_box",
+	"cfm:dark_oak_mail_box",
+	"cfm:stripped_oak_mail_box",
+	"cfm:stripped_spruce_mail_box",
+	"cfm:stripped_birch_mail_box",
+	"cfm:stripped_jungle_mail_box",
+	"cfm:stripped_acacia_mail_box",
+	"cfm:stripped_dark_oak_mail_box",
+	"the_vault:vault_cookie",
+	"the_vault:vault_burger",
+	"the_vault:oozing_pizza",
+	"the_vault:vault_stew_mystery",
+	"the_vault:vault_stew_normal",
+	"the_vault:vault_stew_rare",
+	"the_vault:vault_stew_epic",
+	"the_vault:vault_stew_omega",
+	"rftoolsstorage:modular_storage",
+	"rftoolsstorage:storage_scanner",
+	"rftoolsstorage:dimensional_tablet",
+	"mekanism:portable_qio_dashboard",
+	"mekanism:quantum_entangloporter"
+  ],
+  "VAULT_EXIT_TNL_MIN": 0.5,
+  "VAULT_EXIT_TNL_MAX": 1.0,
+  "MONTHS_TO_TAG_COLOR": {
+    "1": "AQUA",
+    "7": "DARK_AQUA",
+    "13": "YELLOW",
+    "25": "GOLD",
+    "48": "RED"
+  },
+  "VAULT_OBJECTIVES": [
+    {
+      "level": 0,
+      "outcomes": [
+        {
+          "value": "the_vault:summon_and_kill_boss",
+          "weight": 14
+        }
+      ]
+    },
+	{
+		"level": 25,
+		"outcomes": [
+		  {
+			"value": "the_vault:summon_and_kill_boss",
+			"weight": 14
+		  },
+		  {
+			"value": "the_vault:scavenger_hunt",
+			"weight": 2
+		  }
+		]
+	},
+	{
+		"level": 50,
+		"outcomes": [
+		  {
+			"value": "the_vault:summon_and_kill_boss",
+			"weight": 14
+		  },
+		  {
+			"value": "the_vault:scavenger_hunt",
+			"weight": 5
+		  }
+		]
+	}
+  ],
+  "VAULT_COOP_OBJECTIVES": [
+    {
+		"level": 0,
+		"outcomes": [
+		  {
+			"value": "the_vault:summon_and_kill_boss",
+			"weight": 14
+		  }
+		]
+	  },
+	  {
+		  "level": 25,
+		  "outcomes": [
+			{
+			  "value": "the_vault:summon_and_kill_boss",
+			  "weight": 10
+			},
+			{
+			  "value": "the_vault:scavenger_hunt",
+			  "weight": 10
+			}
+		  ]
+	  },
+	  {
+		  "level": 50,
+		  "outcomes": [
+			{
+			  "value": "the_vault:summon_and_kill_boss",
+			  "weight": 10
+			},
+			{
+			  "value": "the_vault:scavenger_hunt",
+			  "weight": 10
+			}
+		  ]
+	  }
+  ]
+}
