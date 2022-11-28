@@ -1,0 +1,95 @@
+{
+  "groupStyles": {
+    "储存(Storage)": {
+      "group": "储存(Storage)",
+      "headerColor": -10758712,
+      "headerTextColor": -1,
+      "x": -10,
+      "y": -25,
+      "boxWidth": 170,
+      "boxHeight": 145,
+      "icon": {
+        "u": 0,
+        "v": 0
+      }
+    },
+    "实用(Utilities)": {
+      "group": "实用(Utilities)",
+      "headerColor": -14336,
+      "headerTextColor": -1,
+      "x": 180,
+      "y": 295,
+      "boxWidth": 170,
+      "boxHeight": 145,
+      "icon": {
+        "u": 16,
+        "v": 0
+      }
+    },
+    "能源(Power)": {
+      "group": "能源(Power)",
+      "headerColor": -1498590,
+      "headerTextColor": -1,
+      "x": 370,
+      "y": -25,
+      "boxWidth": 170,
+      "boxHeight": 145,
+      "icon": {
+        "u": 64,
+        "v": 0
+      }
+    },
+    "资源获取(Farming)": {
+      "group": "资源获取(Farming)",
+      "headerColor": -10626048,
+      "headerTextColor": -1,
+      "x": -10,
+      "y": 135,
+      "boxWidth": 170,
+      "boxHeight": 145,
+      "icon": {
+        "u": 32,
+        "v": 0
+      }
+    },
+    "资源提升(Processing)": {
+      "group": "资源提升(Processing)",
+      "headerColor": -13479226,
+      "headerTextColor": -1,
+      "x": 180,
+      "y": 135,
+      "boxWidth": 170,
+      "boxHeight": 145,
+      "icon": {
+        "u": 48,
+        "v": 0
+      }
+    },
+    "基础建设(Base)": {
+      "group": "基础建设(Base)",
+      "headerColor": -2196693,
+      "headerTextColor": -1,
+      "x": 370,
+      "y": 135,
+      "boxWidth": 170,
+      "boxHeight": 145,
+      "icon": {
+        "u": 80,
+        "v": 0
+      }
+    },
+    "装饰(Decoration)": {
+      "group": "装饰(Decoration)",
+      "headerColor": -2474012,
+      "headerTextColor": -1,
+      "x": 180,
+      "y": -25,
+      "boxWidth": 170,
+      "boxHeight": 145,
+      "icon": {
+        "u": 96,
+        "v": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "defaultUpgradeRarity": "Scrappy",
+  "upgradeMapping": {
+    "Perfected": "Masterful",
+    "Rare": "Scrappy+",
+    "Epic": "Common",
+    "Epic+": "Common+",
+    "Polished": "Scrappy+",
+    "Omega": "Rare+",
+    "Flawless": "Glorious",
+    "Scrappy+": "Scrappy",
+    "Common": "Scrappy",
+    "Crafted": "Handmade",
+    "Masterful": "Flawless",
+    "Scrappy": "Scrappy",
+    "Rare+": "Scrappy+",
+    "Glorious": "Polished",
+    "Common+": "Scrappy"
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "DEFAULT_ROLL": "Crafted",
+  "ROLLS": {
+    "Scrappy": {
+      "POOL": [
+        {
+          "value": "SCRAPPY",
+          "weight": 1
+        }
+      ],
+      "COLOR": 12369084
+    },
+    "Scrappy+": {
+      "POOL": [
+        {
+          "value": "SCRAPPY",
+          "weight": 100
+        },
+        {
+          "value": "COMMON",
+          "weight": 16
+        },
+        {
+          "value": "RARE",
+          "weight": 4
+        },
+        {
+          "value": "EPIC",
+          "weight": 2
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 12369084
+    },
+    "Common": {
+      "POOL": [
+        {
+          "value": "COMMON",
+          "weight": 72
+        }
+      ],
+      "COLOR": 5353215
+    },
+    "Rare": {
+      "POOL": [
+        {
+          "value": "RARE",
+          "weight": 48
+        }
+      ],
+      "COLOR": 16771072
+    },
+    "Epic": {
+      "POOL": [
+        {
+          "value": "EPIC",
+          "weight": 16
+        }
+      ],
+      "COLOR": 16711935
+    },
+    "Common+": {
+      "POOL": [
+        {
+          "value": "COMMON",
+          "weight": 72
+        },
+        {
+          "value": "RARE",
+          "weight": 8
+        },
+        {
+          "value": "EPIC",
+          "weight": 2
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 5353215
+    },
+    "Rare+": {
+      "POOL": [
+        {
+          "value": "RARE",
+          "weight": 48
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 16771072
+    },
+    "Epic+": {
+      "POOL": [
+        {
+          "value": "EPIC",
+          "weight": 16
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 16711935
+    },
+    "Omega": {
+      "POOL": [
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 7012096
+    },
+    "Crafted": {
+      "POOL": [
+        {
+          "value": "SCRAPPY",
+          "weight": 48
+        },
+        {
+          "value": "COMMON",
+          "weight": 20
+        },
+        {
+          "value": "RARE",
+          "weight": 10
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 13483181
+    },
+    "Handmade": {
+      "POOL": [
+        {
+          "value": "SCRAPPY",
+          "weight": 96
+        },
+        {
+          "value": "COMMON",
+          "weight": 20
+        },
+        {
+          "value": "RARE",
+          "weight": 10
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 13483181
+    },
+    "Normal Treasure": {
+      "POOL": [
+        {
+          "value": "SCRAPPY",
+          "weight": 128
+        },
+        {
+          "value": "COMMON",
+          "weight": 8
+        },
+        {
+          "value": "RARE",
+          "weight": 1
+        }
+      ],
+      "COLOR": 482955
+    },
+    "Rare Treasure": {
+      "POOL": [
+        {
+          "value": "COMMON",
+          "weight": 128
+        },
+        {
+          "value": "RARE",
+          "weight": 4
+        },
+        {
+          "value": "EPIC",
+          "weight": 1
+        }
+      ],
+      "COLOR": 489888
+    },
+    "Polished": {
+      "POOL": [
+        {
+          "value": "COMMON",
+          "weight": 40
+        },
+        {
+          "value": "RARE",
+          "weight": 10
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 16768717
+    },
+    "Glorious": {
+      "POOL": [
+        {
+          "value": "COMMON",
+          "weight": 10
+        },
+        {
+          "value": "RARE",
+          "weight": 20
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 16766874
+    },
+    "Flawless": {
+      "POOL": [
+        {
+          "value": "COMMON",
+          "weight": 8
+        },
+        {
+          "value": "RARE",
+          "weight": 20
+        },
+        {
+          "value": "EPIC",
+          "weight": 8
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "COLOR": 16766322
+    },
+    "Masterful": {
+      "POOL": [
+        {
+          "value": "COMMON",
+          "weight": 4
+        },
+        {
+          "value": "RARE",
+          "weight": 12
+        },
+        {
+          "value": "EPIC",
+          "weight": 16
+        },
+        {
+          "value": "OMEGA",
+          "weight": 2
+        }
+      ],
+      "COLOR": 16758318
+    },
+    "Perfected": {
+      "POOL": [
+        {
+          "value": "RARE",
+          "weight": 6
+        },
+        {
+          "value": "EPIC",
+          "weight": 10
+        },
+        {
+          "value": "OMEGA",
+          "weight": 6
+        }
+      ],
+      "COLOR": 16284416
+    }
+  },
+  "TIER": [
+    {
+      "name": "",
+      "color": "65535",
+      "minLevel": 20
+    },
+    {
+      "name": "2",
+      "color": "65535",
+      "minLevel": 100
+    },
+    {
+      "name": "3",
+      "color": "3596191",
+      "minLevel": 250
+    }
+  ]
+}

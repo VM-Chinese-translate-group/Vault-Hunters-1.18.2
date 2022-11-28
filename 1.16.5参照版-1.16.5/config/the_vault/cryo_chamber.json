@@ -1,0 +1,43 @@
+{
+  "INFUSION_TIME": 2,
+  "GROW_ETERNAL_TIME": 10,
+  "UNUSED_TRADER_REWARD_CHANCE": 1.0,
+  "TRADERS_REQ": [
+    20,
+    40,
+    60,
+    80,
+    100,
+    100,
+    120,
+    120,
+    140,
+    140,
+    160,
+    160,
+    180,
+    180,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    250,
+    250,
+    250,
+    250,
+    250,
+    250,
+    300
+  ],
+  "PLAYER_TRADER_REQ_MULTIPLIER": {
+    "iskall85": 0.8,
+    "CaptainSparklez": 0.8,
+    "Hbomb94": 0.7,
+    "PeteZahHutt": 0.6,
+    "Seapeekay": 1.0,
+    "Stressmonster101": 0.5,
+    "AntonioAsh": 0.5
+  }
+}

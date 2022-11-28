@@ -1,0 +1,241 @@
+{
+  "POOL": {
+    "None": [
+      {
+        "value": {
+          "id": "minecraft:golden_apple",
+          "amountMin": 1,
+          "amountMax": 1
+        },
+        "weight": 1
+      }
+    ],
+    "Create": [
+      {"value": {"id": "create:nixie_tube", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "create:brass_hand", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "create:mechanical_drill", "amountMin": 1, "amountMax": 1}, "weight": 6},
+      {"value": {"id": "create:mechanical_saw", "amountMin": 1, "amountMax": 1}, "weight": 6},
+      {"value": {"id": "create:deployer", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "create:mechanical_harvester", "amountMin": 1, "amountMax": 1}, "weight": 6},
+      {"value": {"id": "create:mechanical_plough", "amountMin": 1, "amountMax": 1}, "weight": 6}
+    ],
+    "Easy Villagers": [
+      {"value": {"id": "easy_villagers:villager", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "easy_villagers:trader", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "easy_villagers:farmer", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "easy_villagers:breeder", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "easy_villagers:converter", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "easy_villagers:iron_farm", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
+    "Mekanism Generators": [
+      {"value": {"id": "mekanismgenerators:solar_generator", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "mekanismgenerators:bio_generator", "amountMin": 1, "amountMax": 1}, "weight": 25},
+      {"value": {"id": "mekanismgenerators:advanced_solar_generator", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "mekanismgenerators:heat_generator", "amountMin": 1, "amountMax": 1}, "weight": 25}
+    ],
+    "RFTools Power": [
+      {"value": {"id": "rftoolspower:dimensionalcell", "amountMin": 1, "amountMax": 1}, "weight": 3},
+      {"value": {"id": "rftoolspower:dimensionalcell_advanced", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "rftoolspower:dimensionalcell_simple", "amountMin": 1, "amountMax": 1}, "weight": 6},
+      {"value": {"id": "rftoolsbase:machine_frame", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "rftoolspower:cell1", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "rftoolspower:cell2", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "rftoolspower:blazing_generator", "amountMin": 1, "amountMax": 1}, "weight": 10}
+    ],
+    "Powah": [
+      {"value": {"id": "powah:energy_cell_basic", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "powah:energy_cell_hardened", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "powah:energy_cell_blazing", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "powah:ender_cell_basic", "amountMin": 1, "amountMax": 1}, "weight": 25},
+      {"value": {"id": "powah:ender_cell_hardened", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "powah:energy_cable_basic", "amountMin": 12, "amountMax": 24}, "weight": 40},
+      {"value": {"id": "powah:energy_cable_hardened", "amountMin": 12, "amountMax": 24}, "weight": 30},
+      {"value": {"id": "powah:dielectric_paste", "amountMin": 8, "amountMax": 16}, "weight": 30},
+      {"value": {"id": "powah:solar_panel_starter", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "powah:solar_panel_basic", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "powah:solar_panel_hardened", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "powah:uranite", "amountMin": 32, "amountMax": 64}, "weight": 40}
+    ],
+    "Flux Networks": [
+      {"value": {"id": "fluxnetworks:flux_plug", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "fluxnetworks:flux_point", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "fluxnetworks:basic_flux_storage", "amountMin": 1, "amountMax": 1}, "weight": 6},
+      {"value": {"id": "fluxnetworks:herculean_flux_storage", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "fluxnetworks:flux_controller", "amountMin": 1, "amountMax": 1}, "weight": 4}
+    ],
+    "Chef": [
+      {"value": {"id": "cookingforblockheads:sink", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "cookingforblockheads:oven", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "cookingforblockheads:cooking_table", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "cookingforblockheads:cow_jar", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "cookingforblockheads:fridge", "amountMin": 1, "amountMax": 1}, "weight": 20}
+    ],
+    "Furniture": [
+      {"value": {"id": "cfm:white_sofa", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "cfm:white_trampoline", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "cfm:diving_board", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "supplementaries:globe", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "supplementaries:cage", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "supplementaries:safe", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "supplementaries:clock_block", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "supplementaries:spiston_launcher", "amountMin": 1, "amountMax": 1}, "weight": 6},
+      {"value": {"id": "supplementaries:bellows", "amountMin": 1, "amountMax": 1}, "weight": 6},
+      {"value": {"id": "supplementaries:planter", "amountMin": 1, "amountMax": 1}, "weight": 8}
+    ],
+    "RFTools Storage": [
+      {"value": {"id": "rftoolsstorage:modular_storage", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "rftoolsstorage:storage_scanner", "amountMin": 1, "amountMax": 1}, "weight": 12},
+      {"value": {"id": "rftoolsstorage:storage_module0", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "rftoolsstorage:storage_module1", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "rftoolsstorage:storage_module2", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "rftoolsstorage:storage_module3", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
+    "Drawers": [
+      {"value": {"id": "framedcompactdrawers:framed_full_one", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "framedcompactdrawers:framed_compact_drawer", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "framedcompactdrawers:framed_drawer_controller", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "framedcompactdrawers:framed_slave", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "storagedrawers:obsidian_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "storagedrawers:iron_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "storagedrawers:gold_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 15},
+      {"value": {"id": "storagedrawers:diamond_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "storagedrawers:void_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 4}
+    ],
+    "Pretty Pipes": [
+      {"value": {"id": "storage_overhaul:oak_barrel_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10},
+      {"value": {"id": "storage_overhaul:oak_barrel_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10},
+      {"value": {"id": "storage_overhaul:oak_barrel_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10},
+      {"value": {"id": "storage_overhaul:oak_barrel_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10},
+      {"value": {"id": "storage_overhaul:oak_barrel_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10},
+      {"value": {"id": "storage_overhaul:oak_barrel_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10}
+    ],
+    "More Chests": [
+      {"value": {"id": "storage_overhaul:oak_barrel_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10},
+      {"value": {"id": "storage_overhaul:white_shulker_box", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "storage_overhaul:oak_chest_tier_3", "amountMin": 2, "amountMax": 4}, "weight": 10},
+      {"value": {"id": "metalbarrels:netherite_barrel", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "ironchest:obsidian_chest", "amountMin": 2, "amountMax": 2}, "weight": 10}
+    ],
+    "Refined Storage": [
+      {"value": {"id": "refinedstorage:1k_storage_disk", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "refinedstorage:4k_storage_disk", "amountMin": 1, "amountMax": 1}, "weight": 25},
+      {"value": {"id": "refinedstorage:16k_storage_disk", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "refinedstorage:64k_storage_disk", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "refinedstorage:grid", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "refinedstorage:disk_drive", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "refinedstorage:machine_casing", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "refinedstorage:exporter", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "refinedstorage:importer", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "refinedstorage:speed_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 120},
+      {"value": {"id": "refinedstorage:stack_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 120},
+      {"value": {"id": "refinedstorage:crafting_grid", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "refinedstorage:external_storage", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "refinedstorage:controller", "amountMin": 1, "amountMax": 1}, "weight": 4}
+    ],
+    "Applied Energistics": [
+      {"value": {"id": "appliedenergistics2:drive", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "appliedenergistics2:1k_storage_cell", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "appliedenergistics2:4k_storage_cell", "amountMin": 1, "amountMax": 1}, "weight": 25},
+      {"value": {"id": "appliedenergistics2:16k_storage_cell", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "appliedenergistics2:64k_storage_cell", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "appliedenergistics2:terminal", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "appliedenergistics2:crafting_terminal", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "appliedenergistics2:controller", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "appliedenergistics2:speed_card", "amountMin": 1, "amountMax": 1}, "weight": 140},
+      {"value": {"id": "appliedenergistics2:fuzzy_card", "amountMin": 1, "amountMax": 1}, "weight": 140},
+      {"value": {"id": "appliedenergistics2:export_bus", "amountMin": 1, "amountMax": 1}, "weight": 120},
+      {"value": {"id": "appliedenergistics2:import_bus", "amountMin": 1, "amountMax": 1}, "weight": 120},
+      {"value": {"id": "appliedenergistics2:storage_bus", "amountMin": 1, "amountMax": 1}, "weight": 90}
+    ],
+    "Mekanism": [
+      {"value": {"id": "mekanism:steel_casing", "amountMin": 1, "amountMax": 1}, "weight": 6},
+      {"value": {"id": "mekanism:basic_bin", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "mekanism:advanced_bin", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "mekanism:block_osmium", "amountMin": 1, "amountMax": 1}, "weight": 24},
+      {"value": {"id": "mekanism:basic_fluid_tank", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "mekanism:advanced_fluid_tank", "amountMin": 1, "amountMax": 1}, "weight": 12},
+      {"value": {"id": "mekanism:basic_energy_cube", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "mekanism:advanced_energy_cube", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "mekanism:basic_universal_cable", "amountMin": 16, "amountMax": 32}, "weight": 10},
+      {"value": {"id": "mekanism:advanced_universal_cable", "amountMin": 16, "amountMax": 32}, "weight": 6},
+      {"value": {"id": "mekanism:qio_drive_base", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "mekanism:qio_drive_array", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
+    "Danks": [
+      {"value": {"id": "dankstorage:dank_1", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "dankstorage:dank_2", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
+    "Dark Utilities": [
+      {"value": {"id": "darkutils:blank_plate", "amountMin": 1, "amountMax": 8}, "weight": 128},
+      {"value": {"id": "darkutils:rune_fire", "amountMin": 1, "amountMax": 8}, "weight": 128},
+      {"value": {"id": "darkutils:rune_poison", "amountMin": 1, "amountMax": 8}, "weight": 128},
+      {"value": {"id": "darkutils:rune_weakness", "amountMin": 1, "amountMax": 8}, "weight": 128},
+      {"value": {"id": "darkutils:vector_plate", "amountMin": 1, "amountMax": 4}, "weight": 64},
+      {"value": {"id": "darkutils:vector_plate_fast", "amountMin": 1, "amountMax": 2}, "weight": 32},
+      {"value": {"id": "darkutils:vector_plate_extreme", "amountMin": 1, "amountMax": 1}, "weight": 16}
+    ],
+    "Modular Routers": [
+      {"value": {"id": "modularrouters:blank_module", "amountMin": 1, "amountMax": 8}, "weight": 128},
+      {"value": {"id": "modularrouters:blank_upgrade", "amountMin": 1, "amountMax": 4}, "weight": 86},
+      {"value": {"id": "modularrouters:augment_core", "amountMin": 1, "amountMax": 4}, "weight": 86},
+      {"value": {"id": "modularrouters:item_router", "amountMin": 1, "amountMax": 2}, "weight": 64},
+      {"value": {"id": "modularrouters:stack_augment", "amountMin": 1, "amountMax": 1}, "weight": 32},
+      {"value": {"id": "modularrouters:vacuum_module", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "modularrouters:sender_module_3", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
+    "Mob Spawners": [
+      {"value": {"id": "minecraft:zombie_spawn_egg", "amountMin": 1, "amountMax": 8}, "weight": 32},
+      {"value": {"id": "minecraft:spider_spawn_egg", "amountMin": 1, "amountMax": 8}, "weight": 32},
+      {"value": {"id": "minecraft:skeleton_spawn_egg", "amountMin": 1, "amountMax": 8}, "weight": 32},
+      {"value": {"id": "minecraft:wither_skeleton_spawn_egg", "amountMin": 1, "amountMax": 8}, "weight": 16},
+      {"value": {"id": "minecraft:cave_spider_spawn_egg", "amountMin": 1, "amountMax": 8}, "weight": 16},
+      {"value": {"id": "minecraft:witch_spawn_egg", "amountMin": 1, "amountMax": 8}, "weight": 32},
+      {"value": {"id": "minecraft:phantom_spawn_egg", "amountMin": 1, "amountMax": 8}, "weight": 16},
+      {"value": {"id": "minecraft:blaze_spawn_egg", "amountMin": 1, "amountMax": 8}, "weight": 32},
+      {"value": {"id": "ispawner:cage_dust", "amountMin": 1, "amountMax": 4}, "weight": 1}
+    ],
+    "Backpacks": [
+      {"value": {"id": "simplybackpacks:commonbackpack", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "simplybackpacks:rarebackpack", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
+    "Vault Powerups": [
+      {"value": {"id": "the_vault:hearty_apple", "amountMin": 4, "amountMax": 8}, "weight": 48},
+      {"value": {"id": "the_vault:sweet_apple", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "the_vault:golem_apple", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "the_vault:ghost_apple", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "the_vault:power_apple", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "the_vault:vault_apple", "amountMin": 8, "amountMax": 16}, "weight": 48},
+      {"value": {"id": "the_vault:lucky_apple", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "the_vault:pixie_apple", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "the_vault:sweet_kiwi", "amountMin": 1, "amountMax": 1}, "weight": 8}
+    ],
+    "Industrial Foregoing": [
+      {"value": {"id": "industrialforegoing:tinydryrubber", "amountMin": 4, "amountMax": 29}, "weight": 140},
+      {"value": {"id": "industrialforegoing:dryrubber", "amountMin": 2, "amountMax": 17}, "weight": 45},
+      {"value": {"id": "industrialforegoing:machine_frame_pitty", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "industrialforegoing:machine_frame_simple", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "industrialforegoing:common_black_hole_unit", "amountMin": 1, "amountMax": 1}, "weight": 2}
+    ],
+    "Botania": [
+      {"value": {"id": "botania:manasteel_ingot", "amountMin": 2, "amountMax": 8}, "weight": 24},
+      {"value": {"id": "botania:terrasteel_nugget", "amountMin": 1, "amountMax": 4}, "weight": 8},
+      {"value": {"id": "botania:mana_diamond", "amountMin": 1, "amountMax": 4}, "weight": 20},
+      {"value": {"id": "botania:rune_water", "amountMin": 1, "amountMax": 1}, "weight": 18},
+      {"value": {"id": "botania:rune_fire", "amountMin": 1, "amountMax": 1}, "weight": 18},
+      {"value": {"id": "botania:rune_earth", "amountMin": 1, "amountMax": 1}, "weight": 18},
+      {"value": {"id": "botania:rune_air", "amountMin": 1, "amountMax": 1}, "weight": 18},
+      {"value": {"id": "botania:rune_spring", "amountMin": 1, "amountMax": 1}, "weight": 12},
+      {"value": {"id": "botania:rune_summer", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "botania:rune_autumn", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "botania:rune_winter", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "botania:rune_mana", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "botania:laputa_shard", "amountMin": 1, "amountMax": 1}, "weight": 4},
+      {"value": {"id": "botania:black_lotus", "amountMin": 8, "amountMax": 16}, "weight": 24},
+      {"value": {"id": "botania:blacker_lotus", "amountMin": 8, "amountMax": 16}, "weight": 12},
+      {"value": {"id": "botania:mana_spreader", "amountMin": 1, "amountMax": 1}, "weight": 16},
+      {"value": {"id": "botania:elven_spreader", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "botania:gaia_spreader", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "botania:mana_pearl", "amountMin": 1, "amountMax": 4}, "weight": 20}
+    ]
+  }
+}

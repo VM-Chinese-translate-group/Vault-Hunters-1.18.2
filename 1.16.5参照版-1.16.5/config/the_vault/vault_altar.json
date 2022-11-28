@@ -1,0 +1,154 @@
+{
+  "ITEMS": [
+    {
+      "ITEM_ID": "minecraft:cobblestone",
+      "MIN": 1000,
+      "MAX": 6000
+    },
+    {
+      "ITEM_ID": "minecraft:gold_ingot",
+      "MIN": 300,
+      "MAX": 900
+    },
+    {
+      "ITEM_ID": "minecraft:iron_ingot",
+      "MIN": 400,
+      "MAX": 1300
+    },
+    {
+      "ITEM_ID": "minecraft:sugar_cane",
+      "MIN": 800,
+      "MAX": 1600
+    },
+    {
+      "ITEM_ID": "minecraft:oak_log",
+      "MIN": 400,
+      "MAX": 800
+    },
+    {
+      "ITEM_ID": "minecraft:spruce_log",
+      "MIN": 400,
+      "MAX": 800
+    },
+    {
+      "ITEM_ID": "minecraft:acacia_log",
+      "MIN": 400,
+      "MAX": 800
+    },
+    {
+      "ITEM_ID": "minecraft:jungle_log",
+      "MIN": 400,
+      "MAX": 800
+    },
+    {
+      "ITEM_ID": "minecraft:dark_oak_log",
+      "MIN": 400,
+      "MAX": 800
+    },
+    {
+      "ITEM_ID": "minecraft:apple",
+      "MIN": 400,
+      "MAX": 800
+    },
+    {
+      "ITEM_ID": "minecraft:redstone",
+      "MIN": 400,
+      "MAX": 1000
+    },
+    {
+      "ITEM_ID": "minecraft:ink_sac",
+      "MIN": 300,
+      "MAX": 600
+    },
+    {
+      "ITEM_ID": "minecraft:slime_ball",
+      "MIN": 200,
+      "MAX": 800
+    },
+    {
+      "ITEM_ID": "minecraft:rotten_flesh",
+      "MIN": 500,
+      "MAX": 1500
+    },
+    {
+      "ITEM_ID": "minecraft:blaze_rod",
+      "MIN": 80,
+      "MAX": 190
+    },
+    {
+      "ITEM_ID": "minecraft:brick",
+      "MIN": 500,
+      "MAX": 1500
+    },
+    {
+      "ITEM_ID": "minecraft:bone",
+      "MIN": 500,
+      "MAX": 1500
+    },
+    {
+      "ITEM_ID": "minecraft:spider_eye",
+      "MIN": 150,
+      "MAX": 400
+    },
+    {
+      "ITEM_ID": "minecraft:melon_slice",
+      "MIN": 1000,
+      "MAX": 5000
+    },
+    {
+      "ITEM_ID": "minecraft:pumpkin",
+      "MIN": 1000,
+      "MAX": 5000
+    },
+    {
+      "ITEM_ID": "minecraft:sand",
+      "MIN": 1000,
+      "MAX": 5000
+    },
+    {
+      "ITEM_ID": "minecraft:gravel",
+      "MIN": 1000,
+      "MAX": 5000
+    },
+    {
+      "ITEM_ID": "minecraft:wheat",
+      "MIN": 1000,
+      "MAX": 2000
+    },
+    {
+      "ITEM_ID": "minecraft:wheat_seeds",
+      "MIN": 1000,
+      "MAX": 2000
+    },
+    {
+      "ITEM_ID": "minecraft:carrot",
+      "MIN": 1000,
+      "MAX": 2000
+    },
+    {
+      "ITEM_ID": "minecraft:potato",
+      "MIN": 1000,
+      "MAX": 2000
+    },
+    {
+      "ITEM_ID": "minecraft:obsidian",
+      "MIN": 100,
+      "MAX": 300
+    },
+    {
+      "ITEM_ID": "minecraft:leather",
+      "MIN": 300,
+      "MAX": 800
+    },
+    {
+      "ITEM_ID": "minecraft:string",
+      "MIN": 500,
+      "MAX": 1200
+    }
+  ],
+  "PULL_SPEED": 1.0,
+  "PLAYER_RANGE_CHECK": 32.0,
+  "ITEM_RANGE_CHECK": 8.0,
+  "INFUSION_TIME": 5,
+  "LUCKY_ALTAR_CHANCE": 0.1
+}

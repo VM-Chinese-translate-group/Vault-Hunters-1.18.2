@@ -1,0 +1,111 @@
+{
+  "mobPools": {
+    "ranged": [
+      {
+        "level": 1,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:skeleton",
+              "weight": 1
+            }
+          ]
+        }
+      },
+      {
+        "level": 75,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:skeleton",
+              "weight": 1
+            },
+            {
+              "value": "minecraft:stray",
+              "weight": 1
+            }
+          ]
+        }
+      }
+    ],
+    "melee": [
+      {
+        "level": 1,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:zombie",
+              "weight": 1
+            }
+          ]
+        }
+      },
+      {
+        "level": 50,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:zombie",
+              "weight": 2
+            },
+            {
+              "value": "minecraft:vindicator",
+              "weight": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "raidWaves": [
+    {
+      "value": {
+        "waves": [
+          {
+            "waveMobs": [
+              {
+                "min": 2,
+                "max": 3,
+                "mobPool": "ranged"
+              },
+              {
+                "min": 2,
+                "max": 3,
+                "mobPool": "melee"
+              }
+            ]
+          },
+          {
+            "waveMobs": [
+              {
+                "min": 4,
+                "max": 5,
+                "mobPool": "ranged"
+              },
+              {
+                "min": 4,
+                "max": 6,
+                "mobPool": "melee"
+              }
+            ]
+          },
+          {
+            "waveMobs": [
+              {
+                "min": 6,
+                "max": 7,
+                "mobPool": "ranged"
+              },
+              {
+                "min": 5,
+                "max": 8,
+                "mobPool": "melee"
+              }
+            ]
+          }
+        ]
+      },
+      "weight": 1
+    }
+  ]
+}

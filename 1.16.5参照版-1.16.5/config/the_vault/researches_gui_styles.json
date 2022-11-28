@@ -1,0 +1,384 @@
+{
+  "styles": {
+    "更多的箱子": {
+      "x": 10,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 16
+    },
+    "Pretty Pipes": {
+      "x": 60,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 32
+    },
+    "RF工具：存储": {
+      "x": 10,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 48
+    },
+    "精致存储": {
+      "x": 60,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 64
+    },
+    "应用能源": {
+      "x": 110,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 80
+    },
+    "抽屉": {
+      "x": 110,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 96
+    },
+    "通用机械存储系统": {
+      "x": 10,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 112
+    },
+    "宝库掠夺": {
+      "x": 60,
+      "y": 80,
+      "frameType": "RECTANGULAR",
+      "u": 0,
+      "v": 128
+    },
+    "家具": {
+      "x": 200,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 96,
+      "v": 16
+    },
+    "装饰": {
+      "x": 250,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 96,
+      "v": 32
+    },
+    "更多的灯": {
+      "x": 300,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 96,
+      "v": 48
+    },
+    "厨师": {
+      "x": 200,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 96,
+      "v": 64
+    },
+    "训练人偶": {
+      "x": 250,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 96,
+      "v": 80
+    },
+    "圣诞彩灯": {
+      "x": 300,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 96,
+      "v": 96
+    },
+    "简单村民": {
+      "x": 10,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 32,
+      "v": 16
+    },
+    "子沙": {
+      "x": 60,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 32,
+      "v": 32
+    },
+    "采石场": {
+      "x": 110,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 32,
+      "v": 48
+    },
+    "数字型采矿机": {
+      "x": 10,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 32,
+      "v": 64
+    },
+    "园艺玻璃罩": {
+      "x": 60,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 32,
+      "v": 80
+    },
+    "挖矿小助手": {
+      "x": 110,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 32,
+      "v": 96
+    },
+    "刷怪笼": {
+      "x": 10,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 32,
+      "v": 112
+    },
+    "激光采矿": {
+      "x": 60,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 32,
+      "v": 128
+    },
+    "有机灌注器": {
+      "x": 110,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 176,
+      "v": 208
+    },
+    "机械动力": {
+      "x": 200,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 16
+    },
+    "通用机械": {
+      "x": 250,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 32
+    },
+    "热力膨胀": {
+      "x": 300,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 48
+    },
+    "工业先锋": {
+      "x": 200,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 64
+    },
+    "沉浸工程": {
+      "x": 250,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 80
+    },
+    "工程师的装饰": {
+      "x": 300,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 96
+    },
+    "更多熔炉": {
+      "x": 200,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 112
+    },
+    "RF工具：基础": {
+      "x": 250,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 48,
+      "v": 128
+    },
+    "自动化天才": {
+      "x": 300,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 114,
+      "v": 192
+    },
+    "通量网络": {
+      "x": 390,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 64,
+      "v": 16
+    },
+    "Powah": {
+      "x": 440,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 64,
+      "v": 32
+    },
+    "RF工具：能量": {
+      "x": 490,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "u": 64,
+      "v": 48
+    },
+    "通用机械发电机": {
+      "x": 390,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "u": 64,
+      "v": 64
+    },
+    "Xnet": {
+      "x": 390,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 16
+    },
+    "模块化路由器": {
+      "x": 440,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 32
+    },
+    "Dark Utilities": {
+      "x": 490,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 48
+    },
+    "传送石碑": {
+      "x": 390,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 64
+    },
+    "火炬大师": {
+      "x": 440,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 80
+    },
+    "垃圾桶": {
+      "x": 490,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 96
+    },
+    "电梯": {
+      "x": 390,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 112
+    },
+    "RF工具：实用设备": {
+      "x": 440,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 128
+    },
+    "维度存储": {
+      "x": 490,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "u": 80,
+      "v": 144
+    },
+    "建筑小帮手": {
+      "x": 200,
+      "y": 320,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 16
+    },
+    "植物魔法": {
+      "x": 250,
+      "y": 320,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 32
+    },
+    "喷气背包": {
+      "x": 300,
+      "y": 320,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 48
+    },
+    "背包": {
+      "x": 200,
+      "y": 360,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 64
+    },
+    "Danks": {
+      "x": 250,
+      "y": 360,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 80
+    },
+    "延长臂": {
+      "x": 300,
+      "y": 360,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 96
+    },
+    "强大的箭头": {
+      "x": 200,
+      "y": 400,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 112
+    },
+    "宝库铁匠": {
+      "x": 250,
+      "y": 400,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 128
+    },
+    "宝库能力升级道具": {
+      "x": 300,
+      "y": 400,
+      "frameType": "RECTANGULAR",
+      "u": 16,
+      "v": 144
+    }
+    
+  }
+    
+}

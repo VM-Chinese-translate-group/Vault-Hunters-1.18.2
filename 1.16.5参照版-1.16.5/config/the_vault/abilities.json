@@ -1,0 +1,3227 @@
+{
+  "CLEANSE": {
+    "applyLevelConfiguration": [
+      {
+        "applyRadius": 3,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 600,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 4,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 540,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 5,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 500,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 6,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 460,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 7,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 8,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 9,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 10,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 280,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 11,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 240,
+        "levelRequirement": 5
+      },
+      {
+        "applyRadius": 12,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 200,
+        "levelRequirement": 5
+      }
+    ],
+    "effectLevelConfiguration": [
+      {
+        "possibleEffects": [
+          "minecraft:haste",
+          "minecraft:night_vision"
+        ],
+        "effectAmplifier": 0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 600,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:haste",
+          "minecraft:night_vision"
+        ],
+        "effectAmplifier": 0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 560,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:haste",
+          "minecraft:strength"
+        ],
+        "effectAmplifier": 0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 520,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:haste",
+          "minecraft:strength",
+          "minecraft:saturation"
+        ],
+        "effectAmplifier": 0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 480,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:haste",
+          "minecraft:strength",
+          "minecraft:fire_resistance"
+        ],
+        "effectAmplifier": 0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 440,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:haste",
+          "minecraft:strength",
+          "minecraft:regeneration"
+        ],
+        "effectAmplifier": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:haste",
+          "minecraft:strength",
+          "minecraft:regeneration"
+        ],
+        "effectAmplifier": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:strength",
+          "minecraft:regeneration",
+          "minecraft:luck"
+        ],
+        "effectAmplifier": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:strength",
+          "minecraft:regeneration",
+          "minecraft:luck"
+        ],
+        "effectAmplifier": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 280,
+        "levelRequirement": 25
+      },
+      {
+        "possibleEffects": [
+          "minecraft:strength",
+          "minecraft:regeneration",
+          "minecraft:luck"
+        ],
+        "effectAmplifier": 2,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 240,
+        "levelRequirement": 25
+      }
+    ],
+    "healLevelConfiguration": [
+      {
+        "healthPerEffectRemoved": 0.5,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 600,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 1.0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 560,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 1.5,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 520,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 2.0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 480,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 2.5,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 440,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 3.0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 3.5,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 4.0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 4.5,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 280,
+        "levelRequirement": 25
+      },
+      {
+        "healthPerEffectRemoved": 5.0,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 240,
+        "levelRequirement": 25
+      }
+    ],
+    "immuneLevelConfiguration": [
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 600,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 540,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 500,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 460,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 280,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 240,
+        "levelRequirement": 0
+      },
+      {
+        "immunityDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 200,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Cleanse",
+    "levelConfiguration": [
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 200,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 180,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 160,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 140,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 120,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 100,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 80,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 60,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 40,
+        "levelRequirement": 0
+      },
+      {
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 20,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "DASH": {
+    "buffLevelConfiguration": [
+      {
+        "damageIncreasePerDash": 0.25,
+        "damageIncreaseTickTime": 40,
+        "extraRadius": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 600,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 0.5,
+        "damageIncreaseTickTime": 60,
+        "extraRadius": 2,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 560,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 0.75,
+        "damageIncreaseTickTime": 80,
+        "extraRadius": 3,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 520,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 1.0,
+        "damageIncreaseTickTime": 100,
+        "extraRadius": 4,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 480,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 1.25,
+        "damageIncreaseTickTime": 100,
+        "extraRadius": 5,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 440,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 1.5,
+        "damageIncreaseTickTime": 100,
+        "extraRadius": 6,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 1.75,
+        "damageIncreaseTickTime": 100,
+        "extraRadius": 7,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 2.0,
+        "damageIncreaseTickTime": 100,
+        "extraRadius": 8,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 2.25,
+        "damageIncreaseTickTime": 100,
+        "extraRadius": 9,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 280,
+        "levelRequirement": 25
+      },
+      {
+        "damageIncreasePerDash": 2.5,
+        "damageIncreaseTickTime": 100,
+        "extraRadius": 10,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 240,
+        "levelRequirement": 25
+      }
+    ],
+    "damageLevelConfiguration": [
+      {
+        "attackDamagePercentPerDash": 0.5,
+        "radiusOfAttack": 1.0,
+        "extraRadius": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.55,
+        "radiusOfAttack": 1.0,
+        "extraRadius": 2,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 380,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.6,
+        "radiusOfAttack": 2.0,
+        "extraRadius": 3,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.65,
+        "radiusOfAttack": 2.0,
+        "extraRadius": 4,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 340,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.7,
+        "radiusOfAttack": 3.0,
+        "extraRadius": 5,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.75,
+        "radiusOfAttack": 3.0,
+        "extraRadius": 6,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 300,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.8,
+        "radiusOfAttack": 4.0,
+        "extraRadius": 7,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 280,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.85,
+        "radiusOfAttack": 4.0,
+        "extraRadius": 8,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 260,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.90,
+        "radiusOfAttack": 4.0,
+        "extraRadius": 9,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 240,
+        "levelRequirement": 25
+      },
+      {
+        "attackDamagePercentPerDash": 0.95,
+        "radiusOfAttack": 4.0,
+        "extraRadius": 10,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 220,
+        "levelRequirement": 25
+      }
+    ],
+    "healLevelConfiguration": [
+      {
+        "healPerDash": 1.0,
+        "extraRadius": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 25
+      },
+      {
+        "healPerDash": 2.0,
+        "extraRadius": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 25
+      },
+      {
+        "healPerDash": 3.0,
+        "extraRadius": 2,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 25
+      },
+      {
+        "healPerDash": 4.0,
+        "extraRadius": 2,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 25
+      },
+      {
+        "healPerDash": 5.0,
+        "extraRadius": 3,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 25
+      },
+      {
+        "healPerDash": 6.0,
+        "extraRadius": 3,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 360,
+        "levelRequirement": 25
+      },
+      {
+        "healPerDash": 7.0,
+        "extraRadius": 4,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 25
+      },
+      {
+        "healPerDash": 8.0,
+        "extraRadius": 4,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 0
+      },
+      {
+        "healPerDash": 9.0,
+        "extraRadius": 5,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 320,
+        "levelRequirement": 25
+      },
+      {
+        "healPerDash": 10.0,
+        "extraRadius": 5,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 280,
+        "levelRequirement": 25
+      }
+    ],
+    "name": "Dash",
+    "levelConfiguration": [
+      {
+        "extraRadius": 1,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 200,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 2,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 180,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 3,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 160,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 4,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 140,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 5,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 120,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 6,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 100,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 7,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 80,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 8,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 80,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 9,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 80,
+        "levelRequirement": 0
+      },
+      {
+        "extraRadius": 10,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 60,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "EXECUTE": {
+    "buffLevelConfiguration": [
+      {
+        "regainBuffChance": 0.05,
+        "healthPercentage": 0.05,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.10,
+        "healthPercentage": 0.10,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.15,
+        "healthPercentage": 0.15,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.20,
+        "healthPercentage": 0.20,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.25,
+        "healthPercentage": 0.25,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.30,
+        "healthPercentage": 0.37,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.35,
+        "healthPercentage": 0.29,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.40,
+        "healthPercentage": 0.31,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.45,
+        "healthPercentage": 0.33,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "regainBuffChance": 0.50,
+        "healthPercentage": 0.35,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      }
+    ],
+    "damageLevelConfiguration": [
+      {
+        "damagePercentMissingHealth": 0.1,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 0.2,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 0.3,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 0.4,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 0.5,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 0.6,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 0.7,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 0.8,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 0.9,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      },
+      {
+        "damagePercentMissingHealth": 1.0,
+        "healthPercentage": 0.0,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 50
+      }
+    ],
+    "name": "Execute",
+    "levelConfiguration": [
+      {
+        "healthPercentage": 0.05,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.1,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.15,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.2,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.25,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.27,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.29,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.31,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.33,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "healthPercentage": 0.35,
+        "effectDuration": 100,
+        "effect": "the_vault:execute",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "GHOST_WALK": {
+    "damageLevelConfiguration": [
+      {
+        "damageMultiplierInGhostWalk": 0.5,
+        "durationTicks": 60,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 25
+      },
+      {
+        "damageMultiplierInGhostWalk": 0.75,
+        "durationTicks": 80,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 25
+      },
+      {
+        "damageMultiplierInGhostWalk": 1.0,
+        "durationTicks": 100,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 25
+      },
+      {
+        "damageMultiplierInGhostWalk": 1.25,
+        "durationTicks": 120,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 50
+      },
+      {
+        "damageMultiplierInGhostWalk": 1.5,
+        "durationTicks": 140,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 50
+      },
+      {
+        "damageMultiplierInGhostWalk": 1.75,
+        "durationTicks": 160,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1600,
+        "levelRequirement": 75
+      },
+      {
+        "damageMultiplierInGhostWalk": 2.0,
+        "durationTicks": 180,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 75
+      }
+    ],
+    "parryLevelConfiguration": [
+      {
+        "additionalParryChance": 0.10,
+        "durationTicks": 280,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 25
+      },
+      {
+        "additionalParryChance": 0.20,
+        "durationTicks": 300,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 1,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 25
+      },
+      {
+        "additionalParryChance": 0.3,
+        "durationTicks": 320,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 2,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 25
+      },
+      {
+        "additionalParryChance": 0.4,
+        "durationTicks": 340,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 3,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 50
+      },
+      {
+        "additionalParryChance": 0.5,
+        "durationTicks": 360,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 4,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 50
+      },
+      {
+        "additionalParryChance": 0.6,
+        "durationTicks": 380,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 5,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1600,
+        "levelRequirement": 75
+      },
+      {
+        "additionalParryChance": 0.7,
+        "durationTicks": 400,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 5,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 75
+      }
+    ],
+    "regenerationLevelConfiguration": [
+      {
+        "regenerationAmplifier": 1,
+        "regenerationType": "icon_only",
+        "durationTicks": 120,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 75
+      },
+      {
+        "regenerationAmplifier": 1,
+        "regenerationType": "icon_only",
+        "durationTicks": 160,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 75
+      },
+      {
+        "regenerationAmplifier": 1,
+        "regenerationType": "icon_only",
+        "durationTicks": 200,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 75
+      },
+      {
+        "regenerationAmplifier": 2,
+        "regenerationType": "icon_only",
+        "durationTicks": 240,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 75
+      },
+      {
+        "regenerationAmplifier": 2,
+        "regenerationType": "icon_only",
+        "durationTicks": 280,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1400,
+        "levelRequirement": 75
+      },
+      {
+        "regenerationAmplifier": 2,
+        "regenerationType": "icon_only",
+        "durationTicks": 320,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 75
+      },
+      {
+        "regenerationAmplifier": 3,
+        "regenerationType": "icon_only",
+        "durationTicks": 360,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 75
+      }
+    ],
+    "name": "Ghost Walk",
+    "levelConfiguration": [
+      {
+        "durationTicks": 60,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 80,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 1,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 100,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 2,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 25
+      },
+      {
+        "durationTicks": 120,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 3,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 50
+      },
+      {
+        "durationTicks": 140,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 4,
+        "type": "icon_only",
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1400,
+        "levelRequirement": 50
+      },
+      {
+        "durationTicks": 160,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 5,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 75
+      },
+      {
+        "durationTicks": 180,
+        "effect": "the_vault:ghost_walk",
+        "amplifier": 5,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 75
+      }
+    ]
+  },
+  "MEGA_JUMP": {
+    "knockbackLevelConfiguration": [
+      {
+        "radius": 5.0,
+        "knockbackStrengthMultiplier": 3.0,
+        "height": 3,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 5
+      },
+      {
+        "radius": 6.0,
+        "knockbackStrengthMultiplier": 5.0,
+        "height": 4,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 300,
+        "levelRequirement": 5
+      },
+      {
+        "radius": 7.0,
+        "knockbackStrengthMultiplier": 7.0,
+        "height": 6,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 200,
+        "levelRequirement": 5
+      },
+      {
+        "radius": 8.0,
+        "knockbackStrengthMultiplier": 9.0,
+        "height": 8,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 100,
+        "levelRequirement": 5
+      },
+      {
+        "radius": 9.0,
+        "knockbackStrengthMultiplier": 12.0,
+        "height": 10,
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 60,
+        "levelRequirement": 5
+      }
+    ],
+    "damageLevelConfiguration": [
+      {
+        "radius": 2.0,
+        "percentAttackDamageDealt": 0.2,
+        "knockbackStrengthMultiplier": 0.0,
+        "height": 3,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 500,
+        "levelRequirement": 25
+      },
+      {
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.4,
+        "knockbackStrengthMultiplier": 0.0,
+        "height": 3,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 25
+      },
+      {
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.6,
+        "knockbackStrengthMultiplier": 0.0,
+        "height": 3,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 300,
+        "levelRequirement": 25
+      },
+      {
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.8,
+        "knockbackStrengthMultiplier": 0.0,
+        "height": 3,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 200,
+        "levelRequirement": 25
+      },
+      {
+        "radius": 6.0,
+        "percentAttackDamageDealt": 1.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "height": 3,
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 140,
+        "levelRequirement": 25
+      }
+    ],
+    "breakLevelConfiguration": [
+      {
+        "height": 10,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 200,
+        "levelRequirement": 15
+      },
+      {
+        "height": 14,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 180,
+        "levelRequirement": 15
+      },
+      {
+        "height": 18,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 140,
+        "levelRequirement": 15
+      },
+      {
+        "height": 20,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 100,
+        "levelRequirement": 15
+      },
+      {
+        "height": 22,
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 60,
+        "levelRequirement": 15
+      }
+    ],
+    "name": "Mega Jump",
+    "levelConfiguration": [
+      {
+        "height": 10,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 0
+      },
+      {
+        "height": 11,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 300,
+        "levelRequirement": 0
+      },
+      {
+        "height": 12,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 200,
+        "levelRequirement": 0
+      },
+      {
+        "height": 13,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 100,
+        "levelRequirement": 0
+      },
+      {
+        "height": 15,
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 60,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "RAMPAGE": {
+    "dotLevelConfiguration": [
+      {
+        "dotSecondDuration": 14,
+        "durationTicks": 400,
+        "damageIncrease": 1.5,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 25
+      },
+      {
+        "dotSecondDuration": 13,
+        "durationTicks": 440,
+        "damageIncrease": 1.75,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 25
+      },
+      {
+        "dotSecondDuration": 12,
+        "durationTicks": 480,
+        "damageIncrease": 2.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 25
+      },
+      {
+        "dotSecondDuration": 11,
+        "durationTicks": 520,
+        "damageIncrease": 2.25,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 25
+      },
+      {
+        "dotSecondDuration": 10,
+        "durationTicks": 560,
+        "damageIncrease": 2.5,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "dotSecondDuration": 9,
+        "durationTicks": 600,
+        "damageIncrease": 2.75,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1600,
+        "levelRequirement": 25
+      },
+      {
+        "dotSecondDuration": 8,
+        "durationTicks": 640,
+        "damageIncrease": 3.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1400,
+        "levelRequirement": 25
+      },
+      {
+        "dotSecondDuration": 7,
+        "durationTicks": 680,
+        "damageIncrease": 3.25,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 8,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 25
+      }
+    ],
+    "leechLevelConfiguration": [
+      {
+        "leechPercent": 0.01,
+        "durationTicks": 400,
+        "damageIncrease": 0.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 30
+      },
+      {
+        "leechPercent": 0.01,
+        "durationTicks": 440,
+        "damageIncrease": 0.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 30
+      },
+      {
+        "leechPercent": 0.02,
+        "durationTicks": 480,
+        "damageIncrease": 0.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 30
+      },
+      {
+        "leechPercent": 0.02,
+        "durationTicks": 520,
+        "damageIncrease": 0.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 30
+      },
+      {
+        "leechPercent": 0.02,
+        "durationTicks": 560,
+        "damageIncrease": 0.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 50
+      },
+      {
+        "leechPercent": 0.02,
+        "durationTicks": 600,
+        "damageIncrease": 0.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1600,
+        "levelRequirement": 50
+      },
+      {
+        "leechPercent": 0.03,
+        "durationTicks": 640,
+        "damageIncrease": 0.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1400,
+        "levelRequirement": 50
+      },
+      {
+        "leechPercent": 0.04,
+        "durationTicks": 680,
+        "damageIncrease": 0.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 8,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 50
+      }
+    ],
+    "timeLevelConfiguration": [
+      {
+        "tickTimeIncreasePerHit": 20,
+        "durationTicks": 400,
+        "damageIncrease": 0.2,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 25
+      },
+      {
+        "tickTimeIncreasePerHit": 20,
+        "durationTicks": 440,
+        "damageIncrease": 0.3,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 25
+      },
+      {
+        "tickTimeIncreasePerHit": 20,
+        "durationTicks": 480,
+        "damageIncrease": 0.4,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 25
+      },
+      {
+        "tickTimeIncreasePerHit": 40,
+        "durationTicks": 520,
+        "damageIncrease": 0.5,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 25
+      },
+      {
+        "tickTimeIncreasePerHit": 40,
+        "durationTicks": 560,
+        "damageIncrease": 0.6,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "tickTimeIncreasePerHit": 60,
+        "durationTicks": 600,
+        "damageIncrease": 0.7,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1600,
+        "levelRequirement": 25
+      },
+      {
+        "tickTimeIncreasePerHit": 60,
+        "durationTicks": 640,
+        "damageIncrease": 0.8,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1400,
+        "levelRequirement": 25
+      },
+      {
+        "tickTimeIncreasePerHit": 80,
+        "durationTicks": 680,
+        "damageIncrease": 0.9,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 25
+      }
+    ],
+    "name": "Rampage",
+    "levelConfiguration": [
+      {
+        "durationTicks": 400,
+        "damageIncrease": 0.5,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 440,
+        "damageIncrease": 0.75,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 480,
+        "damageIncrease": 1.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 520,
+        "damageIncrease": 1.25,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 560,
+        "damageIncrease": 1.5,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 50
+      },
+      {
+        "durationTicks": 600,
+        "damageIncrease": 1.75,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1600,
+        "levelRequirement": 50
+      },
+      {
+        "durationTicks": 640,
+        "damageIncrease": 2.0,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1400,
+        "levelRequirement": 50
+      },
+      {
+        "durationTicks": 680,
+        "damageIncrease": 2.25,
+        "effect": "the_vault:rampage",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 8,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1200,
+        "levelRequirement": 50
+      }
+    ]
+  },
+  "SUMMON_ETERNAL": {
+    "countLevelConfiguration": [
+      {
+        "additionalCount": 1,
+        "numberOfEternals": 1,
+        "ancientChance": 0.0,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 1,
+        "numberOfEternals": 1,
+        "ancientChance": 0.05,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3400,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 1,
+        "numberOfEternals": 2,
+        "ancientChance": 0.05,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 1,
+        "numberOfEternals": 2,
+        "ancientChance": 0.1,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3000,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 1,
+        "numberOfEternals": 3,
+        "ancientChance": 0.1,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 2,
+        "numberOfEternals": 3,
+        "ancientChance": 0.15,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2600,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 2,
+        "numberOfEternals": 3,
+        "ancientChance": 0.15,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 2,
+        "numberOfEternals": 4,
+        "ancientChance": 0.2,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2200,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 2,
+        "numberOfEternals": 4,
+        "ancientChance": 0.25,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 7,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "additionalCount": 3,
+        "numberOfEternals": 5,
+        "ancientChance": 0.25,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 9,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 25
+      }
+    ],
+    "damageLevelConfiguration": [
+      {
+        "numberOfEternals": 1,
+        "increasedDamagePercent": 0.2,
+        "ancientChance": 0.0,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 1,
+        "increasedDamagePercent": 0.4,
+        "ancientChance": 0.05,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3400,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 1,
+        "increasedDamagePercent": 0.6,
+        "ancientChance": 0.1,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 1,
+        "increasedDamagePercent": 0.8,
+        "ancientChance": 0.15,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3000,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 1,
+        "increasedDamagePercent": 1.0,
+        "ancientChance": 0.15,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 2,
+        "increasedDamagePercent": 1.2,
+        "ancientChance": 0.2,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2600,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 2,
+        "increasedDamagePercent": 1.4,
+        "ancientChance": 0.3,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 2,
+        "increasedDamagePercent": 1.6,
+        "ancientChance": 0.4,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2200,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 2,
+        "increasedDamagePercent": 1.8,
+        "ancientChance": 0.6,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 7,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 3,
+        "increasedDamagePercent": 2.0,
+        "ancientChance": 0.75,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 9,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 25
+      }
+    ],
+    "debuffLevelConfiguration": [
+      {
+        "numberOfEternals": 1,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 0,
+        "ancientChance": 0.0,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 1,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 0,
+        "ancientChance": 0.05,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3400,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 2,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 1,
+        "ancientChance": 0.05,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 2,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 1,
+        "ancientChance": 0.1,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3000,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 3,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 2,
+        "ancientChance": 0.1,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 3,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 2,
+        "ancientChance": 0.15,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2600,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 3,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 3,
+        "ancientChance": 0.15,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 4,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 3,
+        "ancientChance": 0.2,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2200,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 4,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 4,
+        "ancientChance": 0.25,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 7,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 5,
+        "applyDebuffChance": 1.0,
+        "debuffDurationTicks": 200,
+        "debuffAmplifier": 4,
+        "ancientChance": 0.25,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 9,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 25
+      }
+    ],
+    "name": "Summon Eternal",
+    "levelConfiguration": [
+      {
+        "numberOfEternals": 1,
+        "ancientChance": 0.0,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3600,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 1,
+        "ancientChance": 0.05,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3400,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 2,
+        "ancientChance": 0.05,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3200,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 2,
+        "ancientChance": 0.1,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 3000,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 3,
+        "ancientChance": 0.1,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 4,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2800,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 3,
+        "ancientChance": 0.15,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 5,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2600,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 4,
+        "ancientChance": 0.15,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 4,
+        "ancientChance": 0.2,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 6,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2200,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 5,
+        "ancientChance": 0.25,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 7,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "numberOfEternals": 5,
+        "ancientChance": 0.3,
+        "despawnTime": 2400,
+        "vaultOnly": true,
+        "learningCost": 9,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 25
+      }
+    ]
+  },
+  "TANK": {
+    "parryLevelConfiguration": [
+      {
+        "parryChance": 0.25,
+        "durationTicks": 300,
+        "damageReductionPercent": 0.0,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 25
+      },
+      {
+        "parryChance": 0.30,
+        "durationTicks": 360,
+        "damageReductionPercent": 0.0,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2200,
+        "levelRequirement": 25
+      },
+      {
+        "parryChance": 0.35,
+        "durationTicks": 400,
+        "damageReductionPercent": 0.0,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "parryChance": 0.40,
+        "durationTicks": 500,
+        "damageReductionPercent": 0.0,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "parryChance": 0.45,
+        "durationTicks": 600,
+        "damageReductionPercent": 0.0,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "parryChance": 0.5,
+        "durationTicks": 600,
+        "damageReductionPercent": 0.0,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1900,
+        "levelRequirement": 25
+      }
+    ],
+    "reflectLevelConfiguration": [
+      {
+        "damageReflectChance": 1.0,
+        "damageReflectPercent": 1.5,
+        "durationTicks": 200,
+        "damageReductionPercent": 0.05,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 25
+      },
+      {
+        "damageReflectChance": 1.0,
+        "damageReflectPercent": 1.75,
+        "durationTicks": 300,
+        "damageReductionPercent": 0.08,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2200,
+        "levelRequirement": 25
+      },
+      {
+        "damageReflectChance": 1.0,
+        "damageReflectPercent": 2.0,
+        "durationTicks": 400,
+        "damageReductionPercent": 0.11,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "damageReflectChance": 1.0,
+        "damageReflectPercent": 2.25,
+        "durationTicks": 400,
+        "damageReductionPercent": 0.14,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "damageReflectChance": 1.0,
+        "damageReflectPercent": 2.50,
+        "durationTicks": 400,
+        "damageReductionPercent": 0.17,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 25
+      },
+      {
+        "damageReflectChance": 1.0,
+        "damageReflectPercent": 3.0,
+        "durationTicks": 400,
+        "damageReductionPercent": 0.2,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1900,
+        "levelRequirement": 25
+      }
+    ],
+    "slowLevelConfiguration": [
+      {
+        "slowAreaRadius": 3.0,
+        "slownessAmplifier": 1,
+        "durationTicks": 600,
+        "damageReductionPercent": 0.02,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 15
+      },
+      {
+        "slowAreaRadius": 3.0,
+        "slownessAmplifier": 1,
+        "durationTicks": 720,
+        "damageReductionPercent": 0.04,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2200,
+        "levelRequirement": 15
+      },
+      {
+        "slowAreaRadius": 4.0,
+        "slownessAmplifier": 2,
+        "durationTicks": 800,
+        "damageReductionPercent": 0.06,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 15
+      },
+      {
+        "slowAreaRadius": 4.0,
+        "slownessAmplifier": 2,
+        "durationTicks": 1000,
+        "damageReductionPercent": 0.08,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 15
+      },
+      {
+        "slowAreaRadius": 5.0,
+        "slownessAmplifier": 3,
+        "durationTicks": 1200,
+        "damageReductionPercent": 0.09,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1600,
+        "levelRequirement": 15
+      },
+      {
+        "slowAreaRadius": 5.0,
+        "slownessAmplifier": 4,
+        "durationTicks": 1400,
+        "damageReductionPercent": 0.1,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1400,
+        "levelRequirement": 15
+      }
+    ],
+    "name": "Tank",
+    "levelConfiguration": [
+      {
+        "durationTicks": 600,
+        "damageReductionPercent": 0.25,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2400,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 720,
+        "damageReductionPercent": 0.26,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 800,
+        "damageReductionPercent": 0.27,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 2,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 2000,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 1000,
+        "damageReductionPercent": 0.28,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1800,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 1200,
+        "damageReductionPercent": 0.29,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1600,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 1400,
+        "damageReductionPercent": 0.3,
+        "effect": "the_vault:tank",
+        "amplifier": 0,
+        "type": "icon_only",
+        "learningCost": 3,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1400,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "VEIN_MINER": {
+    "durabilityLevelConfiguration": [
+      {
+        "noDurabilityUsageChance": 0.8,
+        "blockLimit": 4,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 15
+      },
+      {
+        "noDurabilityUsageChance": 0.7,
+        "blockLimit": 8,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 15
+      },
+      {
+        "noDurabilityUsageChance": 0.6,
+        "blockLimit": 16,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 15
+      },
+      {
+        "noDurabilityUsageChance": 0.5,
+        "blockLimit": 32,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 15
+      },
+      {
+        "noDurabilityUsageChance": 0.4,
+        "blockLimit": 64,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 15
+      }
+    ],
+    "fortuneLevelConfiguration": [
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 4,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 20
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 8,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 20
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 16,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 20
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 32,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 20
+      },
+      {
+        "additionalFortuneLevel": 2,
+        "blockLimit": 64,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 20
+      }
+    ],
+    "sizeLevelConfiguration": [
+      {
+        "doubleDurabilityCostChance": 0.05,
+        "blockLimit": 6,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 50
+      },
+      {
+        "doubleDurabilityCostChance": 0.05,
+        "blockLimit": 12,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 50
+      },
+      {
+        "doubleDurabilityCostChance": 0.05,
+        "blockLimit": 24,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 50
+      },
+      {
+        "doubleDurabilityCostChance": 0.05,
+        "blockLimit": 48,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 50
+      },
+      {
+        "doubleDurabilityCostChance": 0.05,
+        "blockLimit": 256,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 50
+      }
+    ],
+    "voidLevelConfigruation": [
+      {
+        "whitelist": [
+          "forge:ores",
+          "the_vault:ore_alexandrite",
+          "the_vault:ore_benitoite",
+          "the_vault:ore_larimar",
+          "the_vault:ore_black_opal",
+          "the_vault:ore_painite",
+          "the_vault:ore_iskallium",
+          "the_vault:ore_gorginite",
+          "the_vault:ore_sparkletine",
+          "the_vault:ore_wutodie",
+          "the_vault:ore_ashium",
+          "the_vault:ore_bomignite",
+          "the_vault:ore_funsoide",
+          "the_vault:ore_tubium",
+          "the_vault:ore_upaline",
+          "the_vault:ore_puffium",
+          "the_vault:ore_echo"
+        ],
+        "blockLimit": 4,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 75
+      },
+      {
+        "whitelist": [
+          "forge:ores",
+          "the_vault:ore_alexandrite",
+          "the_vault:ore_benitoite",
+          "the_vault:ore_larimar",
+          "the_vault:ore_black_opal",
+          "the_vault:ore_painite",
+          "the_vault:ore_iskallium",
+          "the_vault:ore_gorginite",
+          "the_vault:ore_sparkletine",
+          "the_vault:ore_wutodie",
+          "the_vault:ore_ashium",
+          "the_vault:ore_bomignite",
+          "the_vault:ore_funsoide",
+          "the_vault:ore_tubium",
+          "the_vault:ore_upaline",
+          "the_vault:ore_puffium",
+          "the_vault:ore_echo"
+        ],
+        "blockLimit": 8,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 75
+      },
+      {
+        "whitelist": [
+          "forge:ores",
+          "the_vault:ore_alexandrite",
+          "the_vault:ore_benitoite",
+          "the_vault:ore_larimar",
+          "the_vault:ore_black_opal",
+          "the_vault:ore_painite",
+          "the_vault:ore_iskallium",
+          "the_vault:ore_gorginite",
+          "the_vault:ore_sparkletine",
+          "the_vault:ore_wutodie",
+          "the_vault:ore_ashium",
+          "the_vault:ore_bomignite",
+          "the_vault:ore_funsoide",
+          "the_vault:ore_tubium",
+          "the_vault:ore_upaline",
+          "the_vault:ore_puffium",
+          "the_vault:ore_echo"
+        ],
+        "blockLimit": 16,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 75
+      },
+      {
+        "whitelist": [
+          "forge:ores",
+          "the_vault:ore_alexandrite",
+          "the_vault:ore_benitoite",
+          "the_vault:ore_larimar",
+          "the_vault:ore_black_opal",
+          "the_vault:ore_painite",
+          "the_vault:ore_iskallium",
+          "the_vault:ore_gorginite",
+          "the_vault:ore_sparkletine",
+          "the_vault:ore_wutodie",
+          "the_vault:ore_ashium",
+          "the_vault:ore_bomignite",
+          "the_vault:ore_funsoide",
+          "the_vault:ore_tubium",
+          "the_vault:ore_upaline",
+          "the_vault:ore_puffium",
+          "the_vault:ore_echo"
+        ],
+        "blockLimit": 32,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 75
+      },
+      {
+        "whitelist": [
+          "forge:ores",
+          "the_vault:ore_alexandrite",
+          "the_vault:ore_benitoite",
+          "the_vault:ore_larimar",
+          "the_vault:ore_black_opal",
+          "the_vault:ore_painite",
+          "the_vault:ore_iskallium",
+          "the_vault:ore_gorginite",
+          "the_vault:ore_sparkletine",
+          "the_vault:ore_wutodie",
+          "the_vault:ore_ashium",
+          "the_vault:ore_bomignite",
+          "the_vault:ore_funsoide",
+          "the_vault:ore_tubium",
+          "the_vault:ore_upaline",
+          "the_vault:ore_puffium",
+          "the_vault:ore_echo"
+        ],
+        "blockLimit": 64,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 75
+      }
+    ],
+    "name": "Vein Miner",
+    "levelConfiguration": [
+      {
+        "blockLimit": 4,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 8,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 16,
+        "learningCost": 1,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 32,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 64,
+        "learningCost": 2,
+        "behavior": "HOLD_TO_ACTIVATE",
+        "cooldown": 200,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "HUNTER": {
+    "spawnerLevelConfiguration": [
+      {
+        "spawnerRegistryKeys": [
+          "minecraft:mob_spawner",
+          "ispawner:spawner",
+          "ispawner:survival_spawner"
+        ],
+        "searchRadius": 48.0,
+        "color": -12124021,
+        "tickDuration": 100,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 800,
+        "levelRequirement": 25
+      },
+      {
+        "spawnerRegistryKeys": [
+          "minecraft:mob_spawner",
+          "ispawner:spawner",
+          "ispawner:survival_spawner"
+        ],
+        "searchRadius": 54.0,
+        "color": -12124021,
+        "tickDuration": 140,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 600,
+        "levelRequirement": 25
+      },
+      {
+        "spawnerRegistryKeys": [
+          "minecraft:mob_spawner",
+          "ispawner:spawner",
+          "ispawner:survival_spawner"
+        ],
+        "searchRadius": 64.0,
+        "color": -12124021,
+        "tickDuration": 180,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 50
+      }
+    ],
+    "chestsLevelConfiguration": [
+      {
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "searchRadius": 32.0,
+        "color": -1864448,
+        "tickDuration": 100,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 800,
+        "levelRequirement": 0
+      },
+      {
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "searchRadius": 48.0,
+        "color": -1864448,
+        "tickDuration": 140,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 800,
+        "levelRequirement": 0
+      },
+      {
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "searchRadius": 64.0,
+        "color": -1864448,
+        "tickDuration": 180,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 800,
+        "levelRequirement": 0
+      }
+    ],
+    "blocksLevelConfiguration": [
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity"
+        ],
+        "searchRadius": 144.0,
+        "color": -14308352,
+        "tickDuration": 200,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1000,
+        "levelRequirement": 75
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity"
+        ],
+        "searchRadius": 144.0,
+        "color": -14308352,
+        "tickDuration": 300,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1000,
+        "levelRequirement": 75
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity"
+        ],
+        "searchRadius": 144.0,
+        "color": -14308352,
+        "tickDuration": 400,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 1000,
+        "levelRequirement": 75
+      }
+    ],
+    "name": "Hunter",
+    "levelConfiguration": [
+      {
+        "searchRadius": 48.0,
+        "color": -7143424,
+        "tickDuration": 100,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 800,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 54.0,
+        "color": -7143424,
+        "tickDuration": 140,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 600,
+        "levelRequirement": 25
+      },
+      {
+        "searchRadius": 64.0,
+        "color": -7143424,
+        "tickDuration": 180,
+        "learningCost": 1,
+        "behavior": "RELEASE_TO_PERFORM",
+        "cooldown": 400,
+        "levelRequirement": 50
+      }
+    ]
+  }
+}

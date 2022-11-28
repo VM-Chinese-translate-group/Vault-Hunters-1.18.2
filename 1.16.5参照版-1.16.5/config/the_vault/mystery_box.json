@@ -1,0 +1,438 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"mending\",lvl:1s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"sharpness\",lvl:5s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"protection\",lvl:4s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"efficiency\",lvl:5s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"unbreaking\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"fortune\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"silk_touch\",lvl:1s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"feather_falling\",lvl:4s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"depth_strider\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"sweeping\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:golden_carrot",
+        "amountMin": 6,
+        "amountMax": 16
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "minecraft:obsidian",
+        "amountMin": 8,
+        "amountMax": 16
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "minecraft:oak_log",
+        "amountMin": 16,
+        "amountMax": 32
+      },
+      "weight": 36
+    },
+    {
+      "value": {
+        "id": "minecraft:sand",
+        "amountMin": 48,
+        "amountMax": 64
+      },
+      "weight": 36
+    },
+    {
+      "value": {
+        "id": "minecraft:gravel",
+        "amountMin": 48,
+        "amountMax": 64
+      },
+      "weight": 36
+    },
+    {
+      "value": {
+        "id": "minecraft:white_wool",
+        "amountMin": 8,
+        "amountMax": 16
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "minecraft:string",
+        "amountMin": 16,
+        "amountMax": 34
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "minecraft:ender_pearl",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 8
+    },
+    {
+      "value": {
+        "id": "minecraft:experience_bottle",
+        "amountMin": 24,
+        "amountMax": 36
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:bone",
+        "amountMin": 8,
+        "amountMax": 64
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "minecraft:redstone",
+        "amountMin": 24,
+        "amountMax": 32
+      },
+      "weight": 16
+    },
+    {
+      "value": {
+        "id": "minecraft:iron_ore",
+        "amountMin": 12,
+        "amountMax": 18
+      },
+      "weight": 32
+    },
+    {
+      "value": {
+        "id": "minecraft:coal",
+        "amountMin": 24,
+        "amountMax": 32
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "minecraft:lapis_lazuli",
+        "amountMin": 12,
+        "amountMax": 24
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond",
+        "amountMin": 4,
+        "amountMax": 12
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "minecraft:emerald",
+        "amountMin": 16,
+        "amountMax": 32
+      },
+      "weight": 32
+    },
+    {
+      "value": {
+        "id": "minecraft:gold_ore",
+        "amountMin": 12,
+        "amountMax": 20
+      },
+      "weight": 16
+    },
+    {
+      "value": {
+        "id": "minecraft:glass",
+        "amountMin": 32,
+        "amountMax": 64
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "minecraft:golden_apple",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "the_vault:jade_apple",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "the_vault:pixie_apple",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "the_vault:cobalt_apple",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "the_vault:candy_bar",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "the_vault:power_bar",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond_helmet",
+        "nbt": "{Enchantments:[{id:\"protection\",lvl:4s},{id:\"unbreaking\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond_boots",
+        "nbt": "{Enchantments:[{id:\"protection\",lvl:4s},{id:\"unbreaking\",lvl:3s},{id:\"depth_strider\",lvl:3s},{id:\"feather_falling\",lvl:4s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond_leggings",
+        "nbt": "{Enchantments:[{id:\"protection\",lvl:4s},{id:\"unbreaking\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond_chestplate",
+        "nbt": "{Enchantments:[{id:\"protection\",lvl:4s},{id:\"unbreaking\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond_sword",
+        "nbt": "{Enchantments:[{id:\"sharpness\",lvl:5s},{id:\"unbreaking\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond_pickaxe",
+        "nbt": "{Enchantments:[{id:\"efficiency\",lvl:5s},{id:\"unbreaking\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond_axe",
+        "nbt": "{Enchantments:[{id:\"efficiency\",lvl:5s},{id:\"unbreaking\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond_shovel",
+        "nbt": "{Enchantments:[{id:\"efficiency\",lvl:5s},{id:\"unbreaking\",lvl:3s}]}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ancient_debris",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "the_vault:star_essence",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "the_vault:burger_bun",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "the_vault:burger_patty",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "the_vault:mystic_tomato",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "the_vault:mature_cheddar",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_bronze",
+        "amountMin": 2,
+        "amountMax": 4
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "the_vault:skill_essence",
+        "amountMin": 1,
+        "amountMax": 2
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:elytra",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "quark:pickarang",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    }
+  ]
+}

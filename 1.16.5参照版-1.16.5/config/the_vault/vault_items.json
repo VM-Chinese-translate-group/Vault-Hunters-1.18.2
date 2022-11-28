@@ -1,0 +1,14 @@
+{
+  "VAULT_BURGER": {
+    "minExpPercent": 0.0,
+    "maxExpPercent": 0.03
+  },
+  "VAULT_PIZZA": {
+    "minExpPercent": 0.0,
+    "maxExpPercent": 0.01
+  },
+  "VAULT_COOKIE": {
+    "minExp": 1000,
+    "maxExp": 3500
+  }
+}

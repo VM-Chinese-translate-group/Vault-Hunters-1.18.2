@@ -1,0 +1,28 @@
+{
+  "ITEMS": [
+    {
+      "ITEM": "the_vault:helmet",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Normal Treasure\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:chestplate",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Normal Treasure\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:leggings",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Normal Treasure\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:boots",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Normal Treasure\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:sword",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Normal Treasure\"}]}}"
+    },
+    {
+      "ITEM": "the_vault:axe",
+      "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_type\",BaseValue:\"Normal Treasure\"}]}}"
+    } 
+  ]
+}

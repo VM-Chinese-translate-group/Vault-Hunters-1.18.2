@@ -1,0 +1,204 @@
+{
+  "enabled": true,
+  "soulShardTradeCost": 750,
+  "temporaryModifierMinutes": 5,
+  "viewerPositiveModifiers": [
+    {
+      "value": "Gilded",
+      "weight": 6
+    },
+    {
+      "value": "Hoard",
+      "weight": 3
+    },
+    {
+      "value": "Treasure",
+      "weight": 1
+    },
+    {
+      "value": "Lucky",
+      "weight": 6
+    },
+    {
+      "value": "Luckier",
+      "weight": 3
+    },
+    {
+      "value": "Super Lucky",
+      "weight": 1
+    },
+    {
+      "value": "Plentiful",
+      "weight": 6
+    },
+    {
+      "value": "Rich",
+      "weight": 3
+    },
+    {
+      "value": "Copious",
+      "weight": 1
+    },
+    {
+      "value": "Prismatic",
+      "weight": 3
+    },
+    {
+      "value": "Safe Zone",
+      "weight": 6
+    }
+  ],
+  "viewerNegativeModifiers": [
+    {
+      "value": "Frail",
+      "weight": 1
+    },
+    {
+      "value": "Fragile",
+      "weight": 1
+    },
+    {
+      "value": "Destructive",
+      "weight": 1
+    },
+    {
+      "value": "Trapped",
+      "weight": 10
+    },
+    {
+      "value": "Daycare",
+      "weight": 10
+    },
+    {
+      "value": "Unlucky",
+      "weight": 10
+    },
+    {
+      "value": "Super Unlucky",
+      "weight": 4
+    },
+    {
+      "value": "Hunger",
+      "weight": 10
+    },
+    {
+      "value": "Tired",
+      "weight": 10
+    },
+    {
+      "value": "Slowed",
+      "weight": 10
+    },
+    {
+      "value": "Freezing",
+      "weight": 4
+    },
+    {
+      "value": "Withering",
+      "weight": 4
+    },
+    {
+      "value": "Poisonous",
+      "weight": 4
+    }
+  ],
+  "viewerVoteChance": 0.5,
+  "viewerModifiers": [
+    {
+      "value": "Gilded",
+      "weight": 6
+    },
+    {
+      "value": "Hoard",
+      "weight": 3
+    },
+    {
+      "value": "Treasure",
+      "weight": 1
+    },
+    {
+      "value": "Lucky",
+      "weight": 6
+    },
+    {
+      "value": "Luckier",
+      "weight": 3
+    },
+    {
+      "value": "Super Lucky",
+      "weight": 1
+    },
+    {
+      "value": "Plentiful",
+      "weight": 6
+    },
+    {
+      "value": "Rich",
+      "weight": 3
+    },
+    {
+      "value": "Copious",
+      "weight": 1
+    },
+    {
+      "value": "Prismatic",
+      "weight": 3
+    },
+    {
+      "value": "Safe Zone",
+      "weight": 6
+    },
+    {
+      "value": "Frail",
+      "weight": 1
+    },
+    {
+      "value": "Fragile",
+      "weight": 1
+    },
+    {
+      "value": "Destructive",
+      "weight": 1
+    },
+    {
+      "value": "Trapped",
+      "weight": 10
+    },
+    {
+      "value": "Daycare",
+      "weight": 10
+    },
+    {
+      "value": "Unlucky",
+      "weight": 10
+    },
+    {
+      "value": "Super Unlucky",
+      "weight": 4
+    },
+    {
+      "value": "Hunger",
+      "weight": 10
+    },
+    {
+      "value": "Tired",
+      "weight": 10
+    },
+    {
+      "value": "Slowed",
+      "weight": 10
+    },
+    {
+      "value": "Freezing",
+      "weight": 4
+    },
+    {
+      "value": "Withering",
+      "weight": 4
+    },
+    {
+      "value": "Poisonous",
+      "weight": 4
+    }
+  ]
+}
