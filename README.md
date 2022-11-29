@@ -15,5 +15,4 @@ Vault Hunters - 1.18.2的汉化补丁文件 | Chinese patch for Vault Hunter-1.1
 | -------    | ----        | ----        |
 | QuestName1 | MemberName1 | MemberName2 |
 | QuestName1 | MemberName2 | MemberName3 |
-
 | $\cdots$   | $\cdots$    | $\cdots$    |
