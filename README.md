@@ -10,3 +10,10 @@ Vault Hunters - 1.18.2的汉化补丁文件 | Chinese patch for Vault Hunter-1.1
 ### ②  
 - [ ] 挑出config中需要汉化的文件 
 - [ ] 完成config中的汉化 
+## 任务安排  
+| 具体任务    | 负责        | 审核        |
+| -------    | ----        | ----        |
+| QuestName1 | MemberName1 | MemberName2 |
+| QuestName1 | MemberName2 | MemberName3 |
+
+| $\cdots$   | $\cdots$    | $\cdots$    |
