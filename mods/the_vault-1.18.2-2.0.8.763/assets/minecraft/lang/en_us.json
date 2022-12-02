@@ -1,11 +1,11 @@
 {
-  "item.minecraft.potion.effect.time_acceleration_x2": "Potion of Vault Time Acceleration",
-  "item.minecraft.potion.effect.time_acceleration_x3": "Potion of Vault Time Acceleration",
-  "item.minecraft.potion.effect.time_acceleration_x4": "Potion of Vault Time Acceleration",
-  "item.minecraft.splash_potion.effect.time_acceleration_x2": "Splash Potion of Vault Time Acceleration",
-  "item.minecraft.splash_potion.effect.time_acceleration_x3": "Splash Potion of Vault Time Acceleration",
-  "item.minecraft.splash_potion.effect.time_acceleration_x4": "Splash Potion of Vault Time Acceleration",
-  "item.minecraft.lingering_potion.effect.time_acceleration_x2": "Lingering Potion of Vault Time Acceleration",
-  "item.minecraft.lingering_potion.effect.time_acceleration_x3": "Lingering Potion of Vault Time Acceleration",
-  "item.minecraft.lingering_potion.effect.time_acceleration_x4": "Lingering Potion of Vault Time Acceleration"
+  "item.minecraft.potion.effect.time_acceleration_x2": "宝库时间加速药水",
+  "item.minecraft.potion.effect.time_acceleration_x3": "宝库时间加速药水",
+  "item.minecraft.potion.effect.time_acceleration_x4": "宝库时间加速药水",
+  "item.minecraft.splash_potion.effect.time_acceleration_x2": "喷溅型宝库时间加速药水",
+  "item.minecraft.splash_potion.effect.time_acceleration_x3": "喷溅型宝库时间加速药水",
+  "item.minecraft.splash_potion.effect.time_acceleration_x4": "喷溅型宝库时间加速药水",
+  "item.minecraft.lingering_potion.effect.time_acceleration_x2": "滞留型宝库时间加速药水",
+  "item.minecraft.lingering_potion.effect.time_acceleration_x3": "滞留型宝库时间加速药水",
+  "item.minecraft.lingering_potion.effect.time_acceleration_x4": "滞留型宝库时间加速药水"
 }
