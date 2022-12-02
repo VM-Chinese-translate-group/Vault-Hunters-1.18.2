@@ -1,0 +1,118 @@
+{
+  "chests": {
+    "WOODEN": {
+      "COMMON": 10.0,
+      "RARE": 20.0,
+      "EPIC": 40.0,
+      "OMEGA": 80.0
+    },
+    "GILDED": {
+      "COMMON": 30.0,
+      "RARE": 60.0,
+      "EPIC": 92.0,
+      "OMEGA": 128.0
+    },
+    "LIVING": {
+      "COMMON": 30.0,
+      "RARE": 60.0,
+      "EPIC": 92.0,
+      "OMEGA": 128.0
+    },
+    "ORNATE": {
+      "COMMON": 30.0,
+      "RARE": 60.0,
+      "EPIC": 92.0,
+      "OMEGA": 128.0
+    },
+    "TREASURE": {
+      "COMMON": 800.0,
+      "RARE": 1600.0,
+      "EPIC": 2400.0,
+      "OMEGA": 4000.0
+    },
+    "ALTAR": {
+      "COMMON": 30.0,
+      "RARE": 60.0,
+      "EPIC": 92.0,
+      "OMEGA": 128.0
+    }
+  },
+  "blocksMined": {
+    "the_vault:treasure_sand": 1.0,
+    "the_vault:coin_pile": 10.0,
+    "the_vault:ore_alexandrite": 48.0,
+    "the_vault:ore_benitoite": 32.0,
+    "the_vault:ore_larimar": 18.0,
+    "the_vault:ore_black_opal": 120.0,
+    "the_vault:ore_painite": 48.0,
+    "the_vault:ore_iskallium": 128.0,
+    "the_vault:ore_gorginite": 128.0,
+    "the_vault:ore_sparkletine": 128.0,
+    "the_vault:ore_wutodie": 48.0,
+    "the_vault:ore_ashium": 128.0,
+    "the_vault:ore_bomignite": 128.0,
+    "the_vault:ore_funsoide": 128.0,
+    "the_vault:ore_tubium": 128.0,
+    "the_vault:ore_upaline": 128.0,
+    "the_vault:ore_puffium": 128.0,
+    "the_vault:ore_petzanite": 128.0,
+    "the_vault:ore_xenium": 128.0,
+    "the_vault:ore_echo": 512.0
+  },
+  "treasureRoomsOpened": 1600.0,
+  "mobsKilled": {
+    "minecraft:default": 8.0,
+    "the_vault:vault_fighter": 12.0,
+    "minecraft:zombie": 5.0,
+    "minecraft:skeleton": 18.0,
+    "minecraft:drowned": 5.0,
+    "minecraft:stray": 20.0,
+    "minecraft:polar_bear": 64.0,
+    "quark:wraith": 16.0,
+    "minecraft:creeper": 40.0,
+    "minecraft:husk": 5.0,
+    "minecraft:witch": 96.0,
+    "minecraft:slime": 32.0,
+    "the_vault:vault_spider": 24.0,
+    "the_vault:elite_zombie": 1400.0,
+    "the_vault:elite_husk": 1400.0,
+    "the_vault:elite_drowned": 1400.0,
+    "the_vault:elite_skeleton": 2600.0,
+    "the_vault:elite_spider": 1800.0,
+    "the_vault:elite_stray": 2600.0,
+    "the_vault:elite_witch": 2600.0,
+    "the_vault:elite_wither_skeleton": 4000.0 
+  },
+  "completion" : {
+    "boss": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 7000
+    },
+    "scavenger": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 5000
+    },
+    "speedrun": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 0
+    },
+    "monolith": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 2000
+    },
+    "cake": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 9000
+    },
+    "default": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 4000
+    }
+  }
+}

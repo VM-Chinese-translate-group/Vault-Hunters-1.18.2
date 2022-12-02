@@ -1,0 +1,203 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "minecraft:diamond",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 8
+      },
+      "weight": 256
+    },
+    {
+      "value": {
+        "id": "minecraft:iron_ingot",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 8
+      },
+      "weight": 256
+    },
+    {
+      "value": {
+        "id": "minecraft:gold_ingot",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 8
+      },
+      "weight": 256
+    },
+    {
+      "value": {
+        "id": "minecraft:emerald",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 8
+      },
+      "weight": 256
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_larimar",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 192
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_benitoite",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 160
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_alexandrite",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_wutodie",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_painite",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_black_opal",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_iskallium",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_gorginite",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_sparkletine",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_ashium",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_bomignite",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_tubium",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_upaline",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_petzanite",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_xenium",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_echo",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 32
+    },
+    {
+      "value": {
+        "id": "the_vault:gem_pog",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 2
+      },
+      "weight": 8
+    },
+    {
+      "value": {
+        "id": "the_vault:omega_pog",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    }
+    
+  ]
+}

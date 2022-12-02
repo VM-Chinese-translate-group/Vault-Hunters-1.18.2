@@ -1,0 +1,141 @@
+{
+  "descriptions": {
+    "the_vault:default": [
+      {
+        "text": "你很完美无暇.没有buff或debuff"
+      }
+    ],
+    "the_vault:treasure_hunter": [
+      {
+        "text": "献身于掠夺的艺术！\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "50%物品数量\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "50%物品数量\n"
+      },
+      {
+        "text": "+",
+        "color": "dark_red"
+      },
+      {
+        "text": "100%所受伤害"
+      }
+    ],
+    "the_vault:berserker": [
+      {
+        "text": "Fill your soul with a berserking spirit!\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "500%伤害\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "80%最大生命值"
+      }
+    ],
+    "the_vault:commander": [
+      {
+        "text": "Command your Eternals to glorious victories!\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "100% Damage to Eternals\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "50%玩家伤害"
+      }
+    ],
+    "the_vault:ward": [
+      {
+        "text": "Become an absolute unit with a shield!\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "25% Block Chance when wielding a shield\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "50%玩家伤害"
+      }
+    ],
+    "the_vault:barbarian": [
+      {
+        "text": "Release your inner hunger for blood!\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "3 rage",
+        "color": "gold"
+      },
+      {
+        "text": " per hit\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "2.5% Damage per rage point\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "0.5% Healing Efficiency per rage point"
+      }
+    ],
+    "the_vault:vampire": [
+      {
+        "text": "Your vampiric veins pulse strong\n\n"
+      },
+      {
+        "text": "+",
+        "color": "green"
+      },
+      {
+        "text": "5% Life Leech\n"
+      },
+      {
+        "text": "-",
+        "color": "dark_red"
+      },
+      {
+        "text": "Can not be healed through any other means"
+      }
+    ]
+  }
+}

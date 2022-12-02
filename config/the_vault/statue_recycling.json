@@ -1,0 +1,20 @@
+{
+  "defaultRequirement": 100,
+  "playerRequirement": {
+    "stressmonster101": 40,
+    "iskall85": 120,
+    "tubbo_": 300,
+    "CaptainSparklez": 120,
+    "CaptainPuffy": 100,
+    "Hbomb94": 100,
+    "AntonioAsh": 40,
+    "ItsFundy": 120,
+    "5uppps": 200
+  },
+  "itemValues": {
+    "the_vault:vault_player_loot_statue": 2,
+    "the_vault:gift_mega_statue": 5,
+    "the_vault:gift_normal_statue": 3,
+    "the_vault:arena_player_loot_statue": 1
+  }
+}

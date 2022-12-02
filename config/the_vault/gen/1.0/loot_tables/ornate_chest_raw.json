@@ -1,0 +1,380 @@
+{
+    "entries": [
+      {
+        "roll": {
+          "type": "uniform",
+          "min": 4,
+          "max": 6
+        },
+        "pool": [
+          { "weight": 70,
+            "pool": [
+              {
+                  "weight": 12,
+                  "item": {
+                  "id": "minecraft:iron_ingot",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 2
+                    }
+                  }
+              },
+              {
+                  "weight": 16,
+                  "item": {
+                  "id": "the_vault:chromatic_iron_nugget",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 4
+                    }
+                  }
+              },
+              {
+                "weight": 4,
+                "item": {
+                "id": "minecraft:iron_pickaxe",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:iron_sword",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:iron_hoe",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:iron_shovel",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:iron_axe",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 16,
+                "item": {
+                  "id": "minecraft:arrow",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 4
+                    }
+                }
+              },
+              {
+                "weight": 8,
+                "item": {
+                  "id": "the_vault:magnetite",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              }
+            ]
+          },
+          { "weight": 20,
+            "pool": [
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:iron_helmet",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 2
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:iron_chestplate",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 5
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:iron_boots",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                    "id": "minecraft:iron_leggings",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                    "id": "the_vault:chromatic_iron_ingot",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              }
+            ]
+          },
+          { "weight": 8,
+            "pool": [
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:diamond_boots",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },            {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:diamond_leggings",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:diamond_chestplate",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:diamond_helmet",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:diamond_sword",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:diamond_shovel",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:diamond_axe",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:diamond_pickaxe",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              }
+            ]
+          },
+          { "weight": 2,
+            "pool": [
+              {
+                  "weight": 8,
+                  "item": {
+                    "id": "minecraft:netherite_scrap",
+                    "count": {
+                      "type": "uniform",
+                      "min": 1,
+                      "max": 1
+                      }
+                  }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_helmet",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_chestplate",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_leggings",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_boots",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_axe",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_sword",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_pickaxe",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_shovel",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:netherite_hoe",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

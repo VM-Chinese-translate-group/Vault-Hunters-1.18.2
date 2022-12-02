@@ -1,0 +1,4650 @@
+{
+  "keys": [
+    {
+      "id": "the_vault:empty",
+      "name": "Empty",
+      "1.0": {
+        "type": "empty"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing1",
+      "name": "Standing1 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing2",
+      "name": "Standing2 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing3",
+      "name": "Standing3 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing4",
+      "name": "Standing4 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing5",
+      "name": "Standing5 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing6",
+      "name": "Standing6 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing7",
+      "name": "Standing7 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing8",
+      "name": "Standing8 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing9",
+      "name": "Standing9 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing9.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing10",
+      "name": "Standing10 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing10.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing11",
+      "name": "Standing11 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing11.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing12",
+      "name": "Standing12 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/standing12.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing1",
+      "name": "Standing1 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing2",
+      "name": "Standing2 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing3",
+      "name": "Standing3 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing4",
+      "name": "Standing4 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing5",
+      "name": "Standing5 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing6",
+      "name": "Standing6 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing7",
+      "name": "Standing7 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing8",
+      "name": "Standing8 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole1",
+      "name": "Hole1 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hole1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole2",
+      "name": "Hole2 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hole2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole3",
+      "name": "Hole3 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hole3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole4",
+      "name": "Hole4 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hole4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole5",
+      "name": "Hole5 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hole5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole6",
+      "name": "Hole6 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hole6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole7",
+      "name": "Hole7 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hole7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole8",
+      "name": "Hole8 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hole8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole1",
+      "name": "Hole1 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole2",
+      "name": "Hole2 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole3",
+      "name": "Hole3 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole4",
+      "name": "Hole4 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole5",
+      "name": "Hole5 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole6",
+      "name": "Hole6 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole7",
+      "name": "Hole7 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole8",
+      "name": "Hole8 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hole8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall1",
+      "name": "Wall1 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall2",
+      "name": "Wall2 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall3",
+      "name": "Wall3 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall4",
+      "name": "Wall4 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall5",
+      "name": "Wall5 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall6",
+      "name": "Wall6 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall7",
+      "name": "Wall7 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall8",
+      "name": "Wall8 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall9",
+      "name": "Wall9 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall9.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall10",
+      "name": "Wall10 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall10.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall11",
+      "name": "Wall11 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall11.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall12",
+      "name": "Wall12 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/wall12.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall1",
+      "name": "Wall1 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall2",
+      "name": "Wall2 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall3",
+      "name": "Wall3 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall4",
+      "name": "Wall4 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall5",
+      "name": "Wall5 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall6",
+      "name": "Wall6 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall7",
+      "name": "Wall7 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall8",
+      "name": "Wall8 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall9",
+      "name": "Wall9 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/wall9.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow1",
+      "name": "Burrow1 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/burrow1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow2",
+      "name": "Burrow2 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/burrow2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow3",
+      "name": "Burrow3 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/burrow3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow4",
+      "name": "Burrow4 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/burrow4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow5",
+      "name": "Burrow5 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/burrow5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow6",
+      "name": "Burrow6 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/burrow6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow7",
+      "name": "Burrow7 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/burrow7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow8",
+      "name": "Burrow8 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/burrow8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow1",
+      "name": "Burrow1 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow2",
+      "name": "Burrow2 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow3",
+      "name": "Burrow3 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow4",
+      "name": "Burrow4 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow5",
+      "name": "Burrow5 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow6",
+      "name": "Burrow6 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow7",
+      "name": "Burrow7 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow8",
+      "name": "Burrow8 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow9",
+      "name": "Burrow9 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/burrow9.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging1",
+      "name": "Hanging1 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging2",
+      "name": "Hanging2 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging3",
+      "name": "Hanging3 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hanging3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging4",
+      "name": "Hanging4 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hanging4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging5",
+      "name": "Hanging5 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hanging5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging6",
+      "name": "Hanging6 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hanging6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging7",
+      "name": "Hanging7 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hanging7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging8",
+      "name": "Hanging8 Common 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/3x3/hanging8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hanging1",
+      "name": "Hanging1 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hanging2",
+      "name": "Hanging2 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hanging3",
+      "name": "Hanging3 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hanging3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hanging4",
+      "name": "Hanging4 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hanging4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hanging5",
+      "name": "Hanging5 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hanging5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hanging6",
+      "name": "Hanging6 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hanging6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hanging7",
+      "name": "Hanging7 Common 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/hanging7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/standing1",
+      "name": "Standing1 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/standing1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/standing2",
+      "name": "Standing2 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/standing2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/standing3",
+      "name": "Standing3 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/standing3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/standing4",
+      "name": "Standing4 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/standing4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/standing5",
+      "name": "Standing5 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/standing5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/standing6",
+      "name": "Standing6 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/standing6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/standing1",
+      "name": "Standing1 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/standing1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/standing2",
+      "name": "Standing2 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/standing2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/standing3",
+      "name": "Standing3 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/standing3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/standing4",
+      "name": "Standing4 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/standing4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/standing5",
+      "name": "Standing5 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/standing5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/standing6",
+      "name": "Standing6 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/standing6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing1",
+      "name": "Standing1 Rare 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing2",
+      "name": "Standing2 Rare 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing3",
+      "name": "Standing3 Rare 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing4",
+      "name": "Standing4 Rare 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing5",
+      "name": "Standing5 Rare 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing6",
+      "name": "Standing6 Rare 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/wall1",
+      "name": "Wall1 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/wall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/wall2",
+      "name": "Wall2 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/wall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/wall3",
+      "name": "Wall3 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/wall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/wall4",
+      "name": "Wall4 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/wall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/wall5",
+      "name": "Wall5 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/wall5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/wall6",
+      "name": "Wall6 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/wall6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/wall1",
+      "name": "Wall1 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/wall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/wall2",
+      "name": "Wall2 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/wall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/wall3",
+      "name": "Wall3 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/wall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/wall4",
+      "name": "Wall4 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/wall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/wall5",
+      "name": "Wall5 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/wall5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/wall6",
+      "name": "Wall6 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/wall6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hanging1",
+      "name": "Hanging1 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hanging2",
+      "name": "Hanging2 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hanging3",
+      "name": "Hanging3 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hanging3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hanging4",
+      "name": "Hanging4 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hanging4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hanging5",
+      "name": "Hanging5 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hanging5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hanging6",
+      "name": "Hanging6 Rare 3x3 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hanging6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hanging1",
+      "name": "Hanging1 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hanging2",
+      "name": "Hanging2 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hanging3",
+      "name": "Hanging3 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hanging3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hanging4",
+      "name": "Hanging4 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hanging4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hanging5",
+      "name": "Hanging5 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hanging5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hanging6",
+      "name": "Hanging6 Rare 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hanging6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/standing1",
+      "name": "Standing1 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/standing1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/standing2",
+      "name": "Standing2 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/standing2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/standing3",
+      "name": "Standing3 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/standing3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/standing4",
+      "name": "Standing4 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/standing4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/standing5",
+      "name": "Standing5 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/standing5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/standing6",
+      "name": "Standing6 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/standing6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/standing1",
+      "name": "Standing1 Epic 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/standing1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/standing2",
+      "name": "Standing2 Epic 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/standing2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/standing3",
+      "name": "Standing3 Epic 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/standing3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/standing4",
+      "name": "Standing4 Epic 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/standing4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/standing5",
+      "name": "Standing5 Epic 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/standing5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/standing6",
+      "name": "Standing6 Epic 7x7 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/standing6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hanging1",
+      "name": "Hanging1 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hanging2",
+      "name": "Hanging2 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hanging3",
+      "name": "Hanging3 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hanging3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hanging4",
+      "name": "Hanging4 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hanging4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hanging5",
+      "name": "Hanging5 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hanging5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hanging6",
+      "name": "Hanging6 Epic 5x5 Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hanging6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/tunnels/tunnel6",
+      "name": "Tunnel 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/tunnels/tunnel6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/bee1",
+      "name": "Bee 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/bee1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/bee2",
+      "name": "Bee 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/bee2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/bee3",
+      "name": "Bee 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/bee3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/bee4",
+      "name": "Bee 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/bee4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/cliffs1",
+      "name": "Cliffs 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/cliffs1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/cliffs2",
+      "name": "Cliffs 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/cliffs2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/cliffs3",
+      "name": "Cliffs 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/cliffs3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/cliffs4",
+      "name": "Cliffs 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/cliffs4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/glowstone_lakes1",
+      "name": "Glowstone Lakes 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/glowstone_lakes1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/glowstone_lakes2",
+      "name": "Glowstone Lakes 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/glowstone_lakes2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/glowstone_lakes3",
+      "name": "Glowstone Lakes 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/glowstone_lakes3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/glowstone_lakes4",
+      "name": "Glowstone Lakes 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/glowstone_lakes4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/lakes1",
+      "name": "Lakes 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/lakes1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/lakes2",
+      "name": "Lakes 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/lakes2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/lakes3",
+      "name": "Lakes 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/lakes3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/lakes4",
+      "name": "Lakes 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/lakes4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mushroom_forest1",
+      "name": "Mushroom Forest 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/mushroom_forest1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mushroom_forest2",
+      "name": "Mushroom Forest 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/mushroom_forest2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mushroom_forest3",
+      "name": "Mushroom Forest 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/mushroom_forest3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mushroom_forest4",
+      "name": "Mushroom Forest 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/mushroom_forest4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mustard1",
+      "name": "Mustard 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/mustard1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mustard2",
+      "name": "Mustard 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/mustard2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mustard3",
+      "name": "Mustard 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/mustard3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mustard4",
+      "name": "Mustard 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/mustard4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/pirate1",
+      "name": "Pirate 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/pirate1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/pirate2",
+      "name": "Pirate 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/pirate2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/pirate3",
+      "name": "Pirate 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/pirate3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/pirate4",
+      "name": "Pirate 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/pirate4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/rainbow_forest1",
+      "name": "Rainbow Forest 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/rainbow_forest1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/rainbow_forest2",
+      "name": "Rainbow Forest 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/rainbow_forest2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/rainbow_forest3",
+      "name": "Rainbow Forest 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/rainbow_forest3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/common/rainbow_forest4",
+      "name": "Rainbow Forest 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/common/rainbow_forest4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves1",
+      "name": "Crystal Caves 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/crystal_caves1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves2",
+      "name": "Crystal Caves 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/crystal_caves2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves3",
+      "name": "Crystal Caves 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/crystal_caves3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves4",
+      "name": "Crystal Caves 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/crystal_caves4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves5",
+      "name": "Crystal Caves 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/crystal_caves5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/village1",
+      "name": "Village 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/village1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/village2",
+      "name": "Village 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/village2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/village3",
+      "name": "Village 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/village3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/village4",
+      "name": "Village 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/village4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/wildwest1",
+      "name": "Wild West 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/wildwest1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/wildwest2",
+      "name": "Wild West 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/wildwest2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/wildwest3",
+      "name": "Wild West 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/wildwest3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/wildwest4",
+      "name": "Wild West 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/wildwest4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/factory1",
+      "name": "Factory 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/factory1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/challenge_digsite1",
+      "name": "Challenge Digsite 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/challenge_digsite1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/vendor1",
+      "name": "Omega Vendor 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/vendor1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/vendor2",
+      "name": "Omega Vendor 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/vendor2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/vendor3",
+      "name": "Omega Vendor 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/vendor3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/cube",
+      "name": "Omega Cube",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/cube.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/omega_digsite1",
+      "name": "Omega Digsite 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/omega_digsite1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/painting1",
+      "name": "Omega Painting 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/painting1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mine1",
+      "name": "Omega Mine 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/mine1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mine2",
+      "name": "Omega Mine 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/mine2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/blacksmith1",
+      "name": "Omega Blacksmith 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/blacksmith1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/starts/start1",
+      "name": "Start 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/starts/start1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/portals/portal1",
+      "name": "Portal 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/portals/portal1.nbt",
+        "tags": [
+          "the_vault:portal_piece"
+        ]
+      }
+    },
+    {
+      "id": "the_vault:vault/portals/portal2",
+      "name": "Portal 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/portals/portal2.nbt",
+        "tags": [
+          "the_vault:portal_piece"
+        ]
+      }
+    },
+    {
+      "id": "the_vault:vault/portals/portal3",
+      "name": "Portal 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/portals/portal3.nbt",
+        "tags": [
+          "the_vault:portal_piece"
+        ]
+      }
+    },
+    {
+      "id": "the_vault:vault/portals/portal4",
+      "name": "Portal 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/portals/portal4.nbt",
+        "tags": [
+          "the_vault:portal_piece"
+        ]
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/altar1",
+      "name": "Altar 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/altar1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/altar2",
+      "name": "Altar 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/altar2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/altar3",
+      "name": "Altar 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/altar3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/altar4",
+      "name": "Altar 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/altar4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/trap1",
+      "name": "Altar Trap 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/trap1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/treasure1",
+      "name": "Altar Treasure 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/treasure1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/treasure2",
+      "name": "Altar Treasure 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/treasure2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/treasure3",
+      "name": "Altar Treasure 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/treasure3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/treasure4",
+      "name": "Altar Treasure 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/treasure4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/altars/treasure5",
+      "name": "Altar Treasure 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/altars/treasure5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/tunnels/tunnel1",
+      "name": "Tunnel 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/tunnels/tunnel1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/tunnels/tunnel2",
+      "name": "Tunnel 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/tunnels/tunnel2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/tunnels/tunnel3",
+      "name": "Tunnel 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/tunnels/tunnel3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/tunnels/tunnel4",
+      "name": "Tunnel 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/tunnels/tunnel4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/tunnels/tunnel5",
+      "name": "Tunnel 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/tunnels/tunnel5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/douwsky_graveyard",
+      "name": "Douwsky Graveyard",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/epic/douwsky_graveyard.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/douwsky_mushy",
+      "name": "Douwsky Mushy",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/epic/douwsky_mushy.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/burrow1",
+      "name": "Burrow 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/burrow1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/burrow2",
+      "name": "Burrow 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/burrow2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/burrow3",
+      "name": "Burrow 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/burrow3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/burrow4",
+      "name": "Burrow 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/burrow4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/burrow5",
+      "name": "Burrow 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/burrow5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/burrow6",
+      "name": "Burrow 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/burrow6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hole1",
+      "name": "Hole 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hole1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hole2",
+      "name": "Hole 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hole2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hole3",
+      "name": "Hole 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hole3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hole4",
+      "name": "Hole 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hole4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hole5",
+      "name": "Hole 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hole5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hole6",
+      "name": "Hole 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/hole6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/wall1",
+      "name": "Wall 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/wall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/wall2",
+      "name": "Wall 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/wall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/wall3",
+      "name": "Wall 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/wall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/wall4",
+      "name": "Wall 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/wall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/wall5",
+      "name": "Wall 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/wall5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/wall6",
+      "name": "Wall 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/5x5/wall6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/burrow1",
+      "name": "Burrow 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/burrow1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/burrow2",
+      "name": "Burrow 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/burrow2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/burrow3",
+      "name": "Burrow 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/burrow3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/burrow4",
+      "name": "Burrow 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/burrow4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/burrow5",
+      "name": "Burrow 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/burrow5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/burrow6",
+      "name": "Burrow 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/burrow6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hanging1",
+      "name": "Hanging 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hanging2",
+      "name": "Hanging 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hanging3",
+      "name": "Hanging 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hanging3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hanging4",
+      "name": "Hanging 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hanging4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hanging5",
+      "name": "Hanging 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hanging5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hanging6",
+      "name": "Hanging 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hanging6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hole1",
+      "name": "Hole 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hole1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hole2",
+      "name": "Hole 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hole2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hole3",
+      "name": "Hole 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hole3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hole4",
+      "name": "Hole 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hole4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hole5",
+      "name": "Hole 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hole5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hole6",
+      "name": "Hole 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/hole6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/wall1",
+      "name": "Wall 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/wall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/wall2",
+      "name": "Wall 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/wall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/wall3",
+      "name": "Wall 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/wall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/wall4",
+      "name": "Wall 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/wall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/wall5",
+      "name": "Wall 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/wall5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/wall6",
+      "name": "Wall 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/epic/7x7/wall6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/burrow1",
+      "name": "Burrow 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/burrow1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/burrow2",
+      "name": "Burrow 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/burrow2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/burrow3",
+      "name": "Burrow 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/burrow3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/burrow4",
+      "name": "Burrow 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/burrow4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/burrow5",
+      "name": "Burrow 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/burrow5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/burrow6",
+      "name": "Burrow 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/burrow6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hole1",
+      "name": "Hole 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hole1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hole2",
+      "name": "Hole 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hole2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hole3",
+      "name": "Hole 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hole3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hole4",
+      "name": "Hole 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hole4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hole5",
+      "name": "Hole 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hole5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hole6",
+      "name": "Hole 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/3x3/hole6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hole1",
+      "name": "Hole 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hole1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hole2",
+      "name": "Hole 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hole2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hole3",
+      "name": "Hole 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hole3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hole4",
+      "name": "Hole 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hole4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hole5",
+      "name": "Hole 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hole5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hole6",
+      "name": "Hole 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/hole6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/burrow1",
+      "name": "Burrow 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/burrow1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/burrow2",
+      "name": "Burrow 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/burrow2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/burrow3",
+      "name": "Burrow 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/burrow3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/burrow4",
+      "name": "Burrow 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/burrow4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/burrow5",
+      "name": "Burrow 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/burrow5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/burrow6",
+      "name": "Burrow 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/burrow6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hanging1",
+      "name": "Hanging 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hanging2",
+      "name": "Hanging 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hanging3",
+      "name": "Hanging 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hanging3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hanging4",
+      "name": "Hanging 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hanging4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hanging5",
+      "name": "Hanging 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hanging5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hanging6",
+      "name": "Hanging 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hanging6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hole1",
+      "name": "Hole 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hole1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hole2",
+      "name": "Hole 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hole2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hole3",
+      "name": "Hole 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hole3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hole4",
+      "name": "Hole 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hole4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hole5",
+      "name": "Hole 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hole5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hole6",
+      "name": "Hole 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/hole6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/wall1",
+      "name": "Wall 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/wall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/wall2",
+      "name": "Wall 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/wall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/wall3",
+      "name": "Wall 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/wall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/wall4",
+      "name": "Wall 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/wall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/wall5",
+      "name": "Wall 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/wall5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/burrow1",
+      "name": "Burrow 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/burrow1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/burrow2",
+      "name": "Burrow 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/burrow2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/burrow3",
+      "name": "Burrow 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/burrow3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/burrow4",
+      "name": "Burrow 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/burrow4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/burrow5",
+      "name": "Burrow 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/burrow5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/burrow6",
+      "name": "Burrow 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/5x5/burrow6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest1",
+      "name": "Wooden_Chest1 Omega Generic Decor",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/wooden_chest1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin1",
+      "name": "Coin 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/coin1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin2",
+      "name": "Coin 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/coin2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin3",
+      "name": "Coin 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/coin3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin4",
+      "name": "Coin 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/coin4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin5",
+      "name": "Coin 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/coin5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded1",
+      "name": "Gilded 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/gilded1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded2",
+      "name": "Gilded 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/gilded2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded3",
+      "name": "Gilded 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/gilded3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded4",
+      "name": "Gilded 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/gilded4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded5",
+      "name": "Gilded 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/gilded5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded6",
+      "name": "Gilded 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/gilded6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living1",
+      "name": "Living 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/living1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living2",
+      "name": "Living 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/living2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living3",
+      "name": "Living 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/living3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living4",
+      "name": "Living 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/living4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living5",
+      "name": "Living 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/living5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living6",
+      "name": "Living 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/living6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore1",
+      "name": "Ore 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ore1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore2",
+      "name": "Ore 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ore2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore3",
+      "name": "Ore 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ore3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore4",
+      "name": "Ore 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ore4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore5",
+      "name": "Ore 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ore5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore6",
+      "name": "Ore 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ore6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate1",
+      "name": "Ornate 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ornate1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate2",
+      "name": "Ornate 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ornate2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate3",
+      "name": "Ornate 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ornate3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate4",
+      "name": "Ornate 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ornate4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate5",
+      "name": "Ornate 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ornate5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate6",
+      "name": "Ornate 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ornate6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ultramega1",
+      "name": "Ultramega 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ultramega1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ultramega2",
+      "name": "Ultramega 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ultramega2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ultramega3",
+      "name": "Ultramega 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ultramega3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ultramega4",
+      "name": "Ultramega 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/ultramega4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest2",
+      "name": "Wooden Chest 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/wooden_chest2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest3",
+      "name": "Wooden Chest 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/wooden_chest3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest4",
+      "name": "Wooden Chest 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/wooden_chest4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest5",
+      "name": "Wooden Chest 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/wooden_chest5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest6",
+      "name": "Wooden Chest 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/omega/wooden_chest6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/objectives/objective1",
+      "name": "Objective 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/objectives/objective1.nbt",
+        "tags": [
+          "the_vault:objective_piece"
+        ]
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/floating1",
+      "name": "Crystal Caves Floating 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/crystal_caves/floating1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/floating2",
+      "name": "Crystal Caves Floating 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/crystal_caves/floating2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/hanging1",
+      "name": "Crystal Caves Hanging 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/crystal_caves/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/hanging2",
+      "name": "Crystal Caves Hanging 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/crystal_caves/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/standing1",
+      "name": "Crystal Caves Standing 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/crystal_caves/standing1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/standing2",
+      "name": "Crystal Caves Standing 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/crystal_caves/standing2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/meteor1",
+      "name": "Crystal Caves Meteor 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/crystal_caves/meteor1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/portal1",
+      "name": "Village Portal 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/portal1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/portal_tunnel1",
+      "name": "Village Portal Tunnel 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/portal_tunnel1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/portal_tunnel2",
+      "name": "Village Portal Tunnel 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/portal_tunnel2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/portal_tunnel3",
+      "name": "Village Portal Tunnel 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/portal_tunnel3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/pile1",
+      "name": "Village Pile 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/pile1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/pile2",
+      "name": "Village Pile 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/pile2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/pile3",
+      "name": "Village Pile 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/pile3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/pile4",
+      "name": "Village Pile 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/pile4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/door1",
+      "name": "Village Door 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/door1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/door2",
+      "name": "Village Door 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/door2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/door3",
+      "name": "Village Door 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/door3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/door4",
+      "name": "Village Door 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/door4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/wall1",
+      "name": "Village Wall 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/wall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/wall2",
+      "name": "Village Wall 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/wall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/wall3",
+      "name": "Village Wall 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/wall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/wall4",
+      "name": "Village Wall 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/wall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/burrow1",
+      "name": "Village Burrow 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/burrow1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/burrow2",
+      "name": "Village Burrow 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/burrow2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/burrow3",
+      "name": "Village Burrow 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/burrow3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/burrow4",
+      "name": "Village Burrow 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/burrow4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/cell1",
+      "name": "Village Cell 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/cell1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/cell2",
+      "name": "Village Cell 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/cell2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/cell3",
+      "name": "Village Cell 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/cell3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/loo1",
+      "name": "Village Loo 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/loo1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/loo2",
+      "name": "Village Loo 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/loo2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/centerpiece1",
+      "name": "Village Centerpiece 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/centerpiece1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/centerpiece2",
+      "name": "Village Centerpiece 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/centerpiece2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/centerpiece3",
+      "name": "Village Centerpiece 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/centerpiece3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/crossroad_library",
+      "name": "Village Crossroad Library",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/crossroad_library.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/small_library1",
+      "name": "Village Small Library 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/small_library1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/small_library2",
+      "name": "Village Small Library 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/small_library2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/bookshelf1",
+      "name": "Village Bookshelf 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/bookshelf1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/bookshelf2",
+      "name": "Village Bookshelf 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/bookshelf2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/house_spawner1",
+      "name": "Village House Spawner 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/house_spawner1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/center_spawner1",
+      "name": "Center Spawner 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/center_spawner1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner1",
+      "name": "Corner Spawner 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/corner_spawner1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/hanging1",
+      "name": "Hanging 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/hanging2",
+      "name": "Hanging 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/hanging3",
+      "name": "Hanging 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/hanging3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/hanging4",
+      "name": "Hanging 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/hanging4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/hanging5",
+      "name": "Hanging 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/hanging5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/hanging6",
+      "name": "Hanging 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/hanging6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/hanging7",
+      "name": "Hanging 7",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/hanging7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/dragon1",
+      "name": "Dragon 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/dragon1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/plate1",
+      "name": "Wild West Plate 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/plate1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/plate2",
+      "name": "Wild West Plate 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/plate2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/plate3",
+      "name": "Wild West Plate 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/plate3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/small_pile1",
+      "name": "Wild West Small Pile 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/small_pile1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/small_pile2",
+      "name": "Wild West Small Pile 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/small_pile2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/big_pile1",
+      "name": "Wild West Big Pile 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/big_pile1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/big_pile2",
+      "name": "Wild West Big Pile 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/big_pile2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/big_pile3",
+      "name": "Wild West Big Pile 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/big_pile3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall1",
+      "name": "Wild West Stall 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall2",
+      "name": "Wild West Stall 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall3",
+      "name": "Wild West Stall 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall4",
+      "name": "Wild West Stall 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall5",
+      "name": "Wild West Stall 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall6",
+      "name": "Wild West Stall 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall7",
+      "name": "Wild West Stall 7",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall8",
+      "name": "Wild West Stall 8",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall9",
+      "name": "Wild West Stall 9",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/stall9.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/cannon1",
+      "name": "Wild West Cannon 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/cannon1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/cannon2",
+      "name": "Wild West Cannon 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/cannon2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/minecart_pileg1",
+      "name": "Wild West Minecart Pile Gravel 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/minecart_pileg1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/minecart_pileg2",
+      "name": "Wild West Minecart Pile Gravel 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/minecart_pileg2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/minecart_pilep1",
+      "name": "Wild West Minecart Pile Powder 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/minecart_pilep1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/minecart_pilep2",
+      "name": "Wild West Minecart Pile Powder 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/minecart_pilep2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/small_bumbo_pile1",
+      "name": "Wild West Small Bumbo Pile 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/small_bumbo_pile1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/small_bumbo_pile2",
+      "name": "Wild West Small Bumbo Pile 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/small_bumbo_pile2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/big_bumbo_pile1",
+      "name": "Wild West Big Bumbo Pile 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/big_bumbo_pile1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/big_bumbo_pile2",
+      "name": "Wild West Big Bumbo Pile 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/big_bumbo_pile2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/center_basement1",
+      "name": "Wild West Center Basement 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/center_basement1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/center_basement2",
+      "name": "Wild West Center Basement 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/center_basement2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/center_basement3",
+      "name": "Wild West Center Basement 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/center_basement3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/side_basement1",
+      "name": "Wild West Side Basement 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/side_basement1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/side_basement2",
+      "name": "Wild West Side Basement 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/side_basement2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/side_basement3",
+      "name": "Wild West Side Basement 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/wildwest/side_basement3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/factory/spawner_crane1",
+      "name": "Factory Spawner Crane 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/factory/spawner_crane1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/factory/floor_crate1",
+      "name": "Factory Floor Crate 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/factory/floor_crate1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/factory/floor_crate2",
+      "name": "Factory Floor Crate 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/factory/floor_crate2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/factory/floor_crate3",
+      "name": "Factory Floor Crate 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/factory/floor_crate3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/factory/crate_loot1",
+      "name": "Factory Crate Loot 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/factory/crate_loot1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/challenge_digsite/fossil1",
+      "name": "Challenge Digsite Fossil 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/challenge_digsite/fossil1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/challenge_digsite/fossil2",
+      "name": "Challenge Digsite Fossil 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/challenge_digsite/fossil2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/challenge_digsite/fossil3",
+      "name": "Challenge Digsite Fossil 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/challenge_digsite/fossil3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/challenge_digsite/fossil4",
+      "name": "Challenge Digsite Fossil 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/challenge_digsite/fossil4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/fossil1",
+      "name": "Omega Digsite Fossil 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/fossil1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/fossil2",
+      "name": "Omega Digsite Fossil 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/fossil2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/fossil3",
+      "name": "Omega Digsite Fossil 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/fossil3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/fossil4",
+      "name": "Omega Digsite Fossil 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/omega_digsite/fossil4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/cube/puzzle",
+      "name": "Omega Cube Puzzle",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/cube/puzzle.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/floor_bucket1",
+      "name": "Omega Painting Floor Bucket 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/floor_bucket1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/floor_bucket2",
+      "name": "Omega Painting Floor Bucket 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/floor_bucket2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/floor_bucket3",
+      "name": "Omega Painting Floor Bucket 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/floor_bucket3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/floor_bucket4",
+      "name": "Omega Painting Floor Bucket 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/floor_bucket4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/hanging_bucket1",
+      "name": "Omega Painting Hanging Bucket 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/hanging_bucket1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/hanging_bucket2",
+      "name": "Omega Painting Hanging Bucket 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/hanging_bucket2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/hanging_bucket3",
+      "name": "Omega Painting Hanging Bucket 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/hanging_bucket3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/hanging_bucket4",
+      "name": "Omega Painting Hanging Bucket 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/hanging_bucket4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/droplet1",
+      "name": "Omega Painting Droplet 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/droplet1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/droplet2",
+      "name": "Omega Painting Droplet 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/droplet2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/droplet3",
+      "name": "Omega Painting Droplet 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/droplet3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/droplet4",
+      "name": "Omega Painting Droplet 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/droplet4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/droplet5",
+      "name": "Omega Painting Droplet 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/droplet5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/droplet6",
+      "name": "Omega Painting Droplet 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/droplet6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/droplet7",
+      "name": "Omega Painting Droplet 7",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/droplet7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/droplet8",
+      "name": "Omega Painting Droplet 8",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/droplet8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/brush1",
+      "name": "Omega Painting Brush 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/brush1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/brush2",
+      "name": "Omega Painting Brush 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/brush2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/brush3",
+      "name": "Omega Painting Brush 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/brush3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/painting/brush4",
+      "name": "Omega Painting Brush 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/brush4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/fort_house1",
+      "name": "Omega Vendor Fort House 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/fort_house1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/fort_house2",
+      "name": "Omega Vendor Fort House 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/fort_house2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/fort_house3",
+      "name": "Omega Vendor Fort House 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/fort_house3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/treasure_rooms/treasure1",
+      "name": "Treasure 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/treasure_rooms/treasure1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:arena/arena1",
+      "name": "Arena 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/arena/arena1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/x-spot/redstone_spawner1",
+      "name": "Redstone Spawner 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/x-spot/redstone_spawner1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/x-spot/trap_spawners1",
+      "name": "Trap Spawners 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/x-spot/trap_spawners1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/x-spot/palm1",
+      "name": "Palm 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/x-spot/palm1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/x-spot/palm2",
+      "name": "Palm 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/x-spot/palm2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/x-spot/palm3",
+      "name": "Palm 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/x-spot/palm3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/x-spot/palm4",
+      "name": "Palm 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/x-spot/palm4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/x-mark_trap1",
+      "name": "X-mark Trap 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/x-mark_trap1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/x-mark_treasure1",
+      "name": "X-mark Treasure 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/x-mark_treasure1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/minecart1",
+      "name": "Mine Minecart 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/minecart1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/minecart2",
+      "name": "Mine Minecart 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/minecart2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/elevator_hanging1",
+      "name": "Mine Elevator Hanging 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/elevator_hanging1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/elevator_hanging2",
+      "name": "Mine Elevator Hanging 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/elevator_hanging2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/elevator_floor1",
+      "name": "Mine Elevator Floor 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/elevator_floor1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/ore1",
+      "name": "Mine Ore 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/ore1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/ore2",
+      "name": "Mine Ore 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/ore2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/ore3",
+      "name": "Mine Ore 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/ore3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mine/ore4",
+      "name": "Mine Ore 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mine/ore4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/wall/common1",
+      "name": "Common 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/wall/common1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/wall/common2",
+      "name": "Common 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/wall/common2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/wall/common3",
+      "name": "Common 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/wall/common3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/wall/common4",
+      "name": "Common 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/wall/common4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/blacksmith1",
+      "name": "Blacksmith 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/blacksmith1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/factory/center_spawner1",
+      "name": "Center Spawner 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/factory/center_spawner1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:arena/gladiator_arena",
+      "name": "Gladiator Arena",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/arena/gladiator_arena.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing10",
+      "name": "Standing 10",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing10.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing11",
+      "name": "Standing 11",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing11.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing12",
+      "name": "Standing 12",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing12.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing13",
+      "name": "Standing 13",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing13.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing14",
+      "name": "Standing 14",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing14.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing15",
+      "name": "Standing 15",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing15.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing9",
+      "name": "Standing 9",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/common/5x5/standing9.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/farm1",
+      "name": "Farm 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/farm1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/farm2",
+      "name": "Farm 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/farm2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/farm3",
+      "name": "Farm 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/farm3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/farm4",
+      "name": "Farm 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/farm4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/farm5",
+      "name": "Farm 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/farm5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/farm6",
+      "name": "Farm 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/farm6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower1",
+      "name": "Flower 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/flower1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower2",
+      "name": "Flower 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/flower2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower3",
+      "name": "Flower 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/flower3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower4",
+      "name": "Flower 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/flower4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower5",
+      "name": "Flower 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/flower5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower6",
+      "name": "Flower 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/flower6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower7",
+      "name": "Flower 7",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/flower7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower8",
+      "name": "Flower 8",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/flower8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/hole1",
+      "name": "Hole 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/hole1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/hole2",
+      "name": "Hole 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/hole2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/hole3",
+      "name": "Hole 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/hole3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/hole4",
+      "name": "Hole 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/hole4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/hole5",
+      "name": "Hole 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/hole5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile1",
+      "name": "Pile 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/pile1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile2",
+      "name": "Pile 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/pile2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile3",
+      "name": "Pile 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/pile3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile4",
+      "name": "Pile 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/pile4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile5",
+      "name": "Pile 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/pile5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile6",
+      "name": "Pile 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/pile6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile7",
+      "name": "Pile 7",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/pile7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile8",
+      "name": "Pile 8",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/pile8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/structure1",
+      "name": "Structure 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/structure1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/structure2",
+      "name": "Structure 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/structure2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/structure3",
+      "name": "Structure 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/structure3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/structure4",
+      "name": "Structure 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/structure4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/structure5",
+      "name": "Structure 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/farm/structure5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/farm1",
+      "name": "Farm 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/raw/farm1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/quarry1",
+      "name": "Quarry 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/raw/quarry1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/a1",
+      "name": "Quarry Cave A1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/a1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/a2",
+      "name": "Quarry Cave A2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/a2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/a3",
+      "name": "Quarry Cave A3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/a3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/a4",
+      "name": "Quarry Cave A4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/a4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/b1",
+      "name": "Quarry Cave B1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/b1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/b2",
+      "name": "Quarry Cave B2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/b2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/b3",
+      "name": "Quarry Cave B3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/b3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/b4",
+      "name": "Quarry Cave B4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/b4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/c1",
+      "name": "Quarry Cave C1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/c1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/c2",
+      "name": "Quarry Cave C2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/c2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/c3",
+      "name": "Quarry Cave C3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/c3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/c4",
+      "name": "Quarry Cave C4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/c4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/d1",
+      "name": "Quarry Cave D1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/d1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/d2",
+      "name": "Quarry Cave D2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/d2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/d3",
+      "name": "Quarry Cave D3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/d3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/d4",
+      "name": "Quarry Cave D4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/d4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/e1",
+      "name": "Quarry Cave E1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/e1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/e2",
+      "name": "Quarry Cave E2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/e2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/e3",
+      "name": "Quarry Cave E3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/e3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/e4",
+      "name": "Quarry Cave E4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/raw/quarry/e4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/vine1",
+      "name": "Vine 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mush_room/vine1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/vine2",
+      "name": "Vine 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mush_room/vine2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/vine3",
+      "name": "Vine 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mush_room/vine3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/vine4",
+      "name": "Vine 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mush_room/vine4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/vine5",
+      "name": "Vine 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mush_room/vine5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/vine6",
+      "name": "Vine 6",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/mush_room/vine6.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mush_room1",
+      "name": "Mush Room 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/mush_room1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mush_room2",
+      "name": "Mush Room 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/mush_room2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:skyblock/island1",
+      "name": "Island 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/skyblock/island1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing10",
+      "name": "Standing 10",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing10.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing7",
+      "name": "Standing 7",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing7.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing8",
+      "name": "Standing 8",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing8.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing9",
+      "name": "Standing 9",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/rare/7x7/standing9.nbt"
+      }
+    }
+  ]
+}

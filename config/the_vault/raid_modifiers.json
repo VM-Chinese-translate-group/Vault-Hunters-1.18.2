@@ -1,0 +1,1438 @@
+{
+  "DAMAGE_TAKEN_MODIFIERS": [
+    {
+	  "isPercentage": true,
+      "isPositive": false,
+      "name": "damageTaken"
+    }
+  ],
+  "MONSTER_AMOUNT_MODIFIERS": [
+    {
+	  "isPercentage": true,
+      "isPositive": false,
+      "name": "monsterAmount"
+    }
+  ],
+  "MONSTER_SPEED_MODIFIERS": [
+    {
+	  "isPercentage": true,
+      "isPositive": false,
+      "name": "monsterSpeed"
+    }
+  ],
+  "MONSTER_DAMAGE_MODIFIERS": [
+    {
+	  "isPercentage": true,
+      "isPositive": false,
+      "name": "monsterDamage"
+    }
+  ],
+  "MONSTER_HEALTH_MODIFIERS": [
+    {
+	  "isPercentage": true,
+      "isPositive": false,
+      "name": "monsterHealth"
+    }
+  ],
+  "MONSTER_LEVEL_MODIFIERS": [
+    {
+	  "isPercentage": false,
+      "isPositive": false,
+      "name": "monsterLevel"
+    }
+  ],
+  "MODIFIER_DOUBLING_MODIFIERS": [
+    {
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "modifierDoubling"
+    }
+  ],
+  "BLOCK_PLACEMENT_MODIFIERS": [
+    { "_comment": "gildedChests",
+      "block": "the_vault:vault_bonus_chest",
+      "blocksToSpawn": 4,
+      "blockDescription": "Gilded Chests",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "gildedChests"
+    },
+    { "_comment": "unknownOres",
+      "block": "the_vault:ore_unknown",
+      "blocksToSpawn": 12,
+      "blockDescription": "Ores",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "unknownOres"
+    },
+    { "_comment": "diamondMine",
+      "block": "minecraft:diamond_ore",
+      "blocksToSpawn": 20,
+      "blockDescription": "Diamond Mine",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "diamondMine"
+    },
+    { "_comment": "vaultChests",
+      "block": "the_vault:vault_chest",
+      "blocksToSpawn": 5,
+      "blockDescription": "Vault Chests",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultChests"
+    },
+    { "_comment": "compressedBlocks",
+      "block": "the_vault:vault_resource",
+      "blocksToSpawn": 12,
+      "blockDescription": "Compressed Blocks",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "compressedBlocks"
+    },
+    { "_comment": "vaultDiamondBlock",
+      "block": "the_vault:vault_diamond_block",
+      "blocksToSpawn": 1,
+      "blockDescription": "Vault Diamond Blocks",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultDiamondBlock"
+    },
+    { "_comment": "netherite",
+      "block": "minecraft:netherite_block",
+      "blocksToSpawn": 1,
+      "blockDescription": "Netherite Blocks",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "netherite"
+    }
+  ],
+  "ITEM_PLACEMENT_MODIFIERS": [
+    { "_comment": "commonGems",
+      "itemsToSpawn": 10,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:gem_alexandrite",
+            "NBT": "{}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:gem_benitoite",
+            "NBT": "{}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:gem_larimar",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Common Gems",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "commonGems"
+    },
+    { "_comment": "rareGems",
+      "itemsToSpawn": 10,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:gem_wutodie",
+            "NBT": "{}"
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:gem_painite",
+            "NBT": "{}"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:gem_black_opal",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Rare Gems",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "rareGems"
+    },
+    { "_comment": "vaultDiamonds",
+      "itemsToSpawn": 4,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:vault_diamond",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault Diamonds",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultDiamonds"
+    },
+    { "_comment": "wutaxShards",
+      "itemsToSpawn": 16,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:wutax_shard",
+            "NBT": "{}"
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:wutax_crystal",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Wutax Shards",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "wutaxShards"
+    },
+    { "_comment": "vaultBoxes",
+      "itemsToSpawn": 8,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:pandoras_box",
+            "NBT": "{}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:mystery_box",
+            "NBT": "{}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:mod_box",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault Boxes",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultBoxes"
+    },
+    { "_comment": "vaultIngots",
+      "itemsToSpawn": 3,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:vault_ingot",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault Ingots",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultIngots"
+    },
+    { "_comment": "vaultNuggets",
+      "itemsToSpawn": 8,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:vault_nugget",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault Nuggets",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultNuggets"
+    },
+    { "_comment": "vaultSilver",
+      "itemsToSpawn": 16,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:vault_silver",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault Silver",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultSilver"
+    },
+    { "_comment": "vaultGold",
+      "itemsToSpawn": 4,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault Gold",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultGold"
+    },
+    { "_comment": "vaultGear",
+      "itemsToSpawn": 4,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:helmet",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:chestplate",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:leggings",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:boots",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:sword",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:axe",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:idol_benevolent",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:idol_omniscient",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:idol_timekeeper",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:idol_malevolence",
+            "NBT": "{Vault:{Attributes:[{Id:\"the_vault:gear_roll_pool\",BaseValue:\"normal\"}]}}"
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault Gear",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultGear"
+    },
+    { "_comment": "vaultFruits",
+      "itemsToSpawn": 4,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:sweet_kiwi",
+            "NBT": ""
+          },
+          "weight": 26
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:bitter_lemon",
+            "NBT": ""
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:sour_orange",
+            "NBT": ""
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault Fruits",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultFruits"
+    },
+    { "_comment": "vaultXp",
+      "itemsToSpawn": 4,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:vault_burger",
+            "NBT": ""
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:crystal_burger",
+            "NBT": ""
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:vault_stew_mystery",
+            "NBT": ""
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault XP",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultXp"
+    },
+    { "_comment": "vaultOmegas",
+      "itemsToSpawn": 2,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:vault_platinum",
+            "NBT": ""
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:legendary_treasure_omega",
+            "NBT": ""
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:lucky_apple",
+            "NBT": ""
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "ITEM": "the_vault:treasure_apple",
+            "NBT": ""
+          },
+          "weight": 1
+        }
+      ],
+      "itemDescription": "Vault OMEGAs",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "vaultOmegas"
+    },
+    { "_comment": "etchings",
+      "itemsToSpawn": 1,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:etching_fragment",
+            "NBT": ""
+          },
+          "weight": 8
+        }
+      ],
+      "itemDescription": "Etching Fragments",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "etchings"
+    },
+    { "_comment": "banishedSoul",
+      "itemsToSpawn": 1,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:banished_soul",
+            "NBT": ""
+          },
+          "weight": 8
+        }
+      ],
+      "itemDescription": "Banished Souls",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "banishedSoul"
+    },
+    { "_comment": "Rubies",
+      "itemsToSpawn": 1,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:flawed_ruby",
+            "NBT": ""
+          },
+          "weight": 8
+        }
+      ],
+      "itemDescription": "Flawed Rubies",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "Rubies"
+    },
+    { "_comment": "artisanScrolls",
+      "itemsToSpawn": 3,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:artisan_scroll",
+            "NBT": ""
+          },
+          "weight": 8
+        }
+      ],
+      "itemDescription": "Artisan Scrolls",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "artisanScrolls"
+    },
+    { "_comment": "keyPieces",
+      "itemsToSpawn": 2,
+      "itemList": [
+        {
+          "value": {
+            "ITEM": "the_vault:key_piece",
+            "NBT": ""
+          },
+          "weight": 8
+        }
+      ],
+      "itemDescription": "Key Pieces",
+	  "isPercentage": false,
+      "isPositive": true,
+      "name": "keyPieces"
+    }
+  ],
+  "ARTIFACT_FRAGMENT_MODIFIERS": [
+    {
+	  "isPercentage": true,
+      "isPositive": true,
+      "name": "artifactFragment"
+    }
+  ],
+  "positiveLevels": [
+    { "level": 0,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "gildedChests",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "modifier": "vaultChests",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "unknownOres",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "diamondMine",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "modifier": "compressedBlocks",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "wutaxShards",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "vaultNuggets",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "netherite",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "vaultSilver",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "artifactFragment",
+            "minValue": 0.01,
+            "maxValue": 0.05
+          },
+          "weight": 0
+        }
+      ]
+    },
+    { "level": 25,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "gildedChests",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "modifier": "vaultChests",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "unknownOres",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "diamondMine",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "modifier": "compressedBlocks",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "vaultDiamonds",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "modifier": "wutaxShards",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "vaultBoxes",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "vaultNuggets",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "netherite",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "vaultSilver",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "artifactFragment",
+            "minValue": 0.01,
+            "maxValue": 0.05
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "modifier": "vaultGear",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "commonGems",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "rareGems",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "modifier": "vaultXp",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 2
+        }
+      ]
+    },
+    { "level": 100,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "gildedChests",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "modifier": "vaultChests",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "unknownOres",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "diamondMine",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "modifier": "compressedBlocks",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "vaultDiamonds",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "modifier": "wutaxShards",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "vaultBoxes",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "vaultNuggets",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "netherite",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "vaultSilver",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "artifactFragment",
+            "minValue": 0.01,
+            "maxValue": 0.05
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "modifier": "vaultGear",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "rareGems",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "vaultXp",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "modifier": "vaultFruits",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "modifier": "banishedSoul",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "artisanScrolls",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "keyPieces",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "modifierDoubling",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        }
+      ]
+    },
+    { "level": 200,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "gildedChests",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "modifier": "vaultChests",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "unknownOres",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "diamondMine",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "modifier": "compressedBlocks",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "wutaxShards",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "vaultBoxes",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "vaultNuggets",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "netherite",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "vaultSilver",
+            "minValue": 1.0,
+            "maxValue": 4.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "artifactFragment",
+            "minValue": 0.01,
+            "maxValue": 0.05
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "modifier": "vaultGear",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "modifier": "vaultXp",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "modifier": "vaultFruits",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "modifier": "banishedSoul",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "artisanScrolls",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "vaultGold",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "vaultDiamondBlock",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "keyPieces",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "modifierDoubling",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        }
+      ]
+    },
+    { "level": 250,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "gildedChests",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "modifier": "vaultChests",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "unknownOres",
+            "minValue": 1.0,
+            "maxValue": 4.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "diamondMine",
+            "minValue": 1.0,
+            "maxValue": 4.0
+          },
+          "weight": 24
+        },
+        {
+          "value": {
+            "modifier": "compressedBlocks",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "modifier": "wutaxShards",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "vaultBoxes",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "netherite",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "modifier": "vaultSilver",
+            "minValue": 1.0,
+            "maxValue": 8.0
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "modifier": "artifactFragment",
+            "minValue": 0.01,
+            "maxValue": 0.05
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "modifier": "vaultGear",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "modifier": "vaultXp",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "vaultFruits",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "modifier": "banishedSoul",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "artisanScrolls",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "vaultGold",
+            "minValue": 1.0,
+            "maxValue": 3.0
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "modifier": "vaultDiamondBlock",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "keyPieces",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "vaultIngots",
+            "minValue": 1.0,
+            "maxValue": 2.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "modifierDoubling",
+            "minValue": 1.0,
+            "maxValue": 1.0
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "negativeLevels": [
+    {
+      "level": 0,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "monsterAmount",
+            "minValue": 0.10,
+            "maxValue": 0.20
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "monsterLevel",
+            "minValue": 3.0,
+            "maxValue": 10.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "monsterHealth",
+            "minValue": 0.1,
+            "maxValue": 0.2
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "damageTaken",
+            "minValue": 0.05,
+            "maxValue": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "monsterDamage",
+            "minValue": 0.05,
+            "maxValue": 0.1
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "modifier": "monsterSpeed",
+            "minValue": 0.04,
+            "maxValue": 0.08
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "level": 100,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "monsterAmount",
+            "minValue": 0.10,
+            "maxValue": 0.30
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "monsterLevel",
+            "minValue": 5.0,
+            "maxValue": 20.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "monsterHealth",
+            "minValue": 0.15,
+            "maxValue": 0.3
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "damageTaken",
+            "minValue": 0.1,
+            "maxValue": 0.15
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "monsterDamage",
+            "minValue": 0.1,
+            "maxValue": 0.15
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "modifier": "monsterSpeed",
+            "minValue": 0.04,
+            "maxValue": 0.08
+          },
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "level": 250,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "monsterAmount",
+            "minValue": 0.25,
+            "maxValue": 0.5
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "modifier": "monsterLevel",
+            "minValue": 20.0,
+            "maxValue": 40.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "monsterHealth",
+            "minValue": 0.2,
+            "maxValue": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "damageTaken",
+            "minValue": 0.15,
+            "maxValue": 0.3
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "monsterDamage",
+            "minValue": 0.15,
+            "maxValue": 0.5
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "modifier": "monsterSpeed",
+            "minValue": 0.04,
+            "maxValue": 0.08
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

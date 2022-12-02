@@ -1,0 +1,52 @@
+{
+  "operationConfiguration": {
+    "the_vault:reforge_all": {
+      "potentialUseMin": 2,
+      "potentialUseMax": 4,
+      "baseCostMultiplier": 1.0,
+      "negativePotentialCostMultiplier": 1.0
+    },
+    "the_vault:add_modifier": {
+      "potentialUseMin": 4,
+      "potentialUseMax": 7,
+      "baseCostMultiplier": 1.3,
+      "negativePotentialCostMultiplier": 1.2
+    },
+    "the_vault:remove_modifier": {
+      "potentialUseMin": 4,
+      "potentialUseMax": 7,
+      "baseCostMultiplier": 1.3,
+      "negativePotentialCostMultiplier": 1.2
+    },
+    "the_vault:reset_potential": {
+      "potentialUseMin": 0,
+      "potentialUseMax": 0,
+      "baseCostMultiplier": 2.0,
+      "negativePotentialCostMultiplier": 4.0
+    },
+    "the_vault:reforge_repairs": {
+      "potentialUseMin": 10,
+      "potentialUseMax": 20,
+      "baseCostMultiplier": 1.3,
+      "negativePotentialCostMultiplier": 1.6
+    },
+    "the_vault:reforge_implicits": {
+      "potentialUseMin": 3,
+      "potentialUseMax": 7,
+      "baseCostMultiplier": 1.0,
+      "negativePotentialCostMultiplier": 1.0
+    },
+    "the_vault:reforge_all_add_tag": {
+      "potentialUseMin": 5,
+      "potentialUseMax": 8,
+      "baseCostMultiplier": 1.2,
+      "negativePotentialCostMultiplier": 1.2
+    },
+    "the_vault:reforge_tier": {
+      "potentialUseMin": 3,
+      "potentialUseMax": 9,
+      "baseCostMultiplier": 1.1,
+      "negativePotentialCostMultiplier": 1.1
+    }
+  }
+}

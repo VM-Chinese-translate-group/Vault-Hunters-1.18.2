@@ -1,0 +1,5791 @@
+{
+  "HEAL": {
+    "effectLevelConfiguration": [
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 21.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 190,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 22.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 23.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 170,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 24.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 150,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 26.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 27.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 130,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 28.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 29.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 110,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 30.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 100,
+        "levelRequirement": 0
+      },
+      {
+        "removeEffects": [
+          "alexsmobs:earthquake",
+          "alexsmobs:ender_flu",
+          "alexsmobs:exsanguination",
+          "alexsmobs:sunbird_curse",
+          "cofh_core:chilled",
+          "cofh_core:shocked",
+          "cofh_core:sundered",
+          "cofh_core:wrenched",
+          "minecraft:blindness",
+          "minecraft:hunger",
+          "minecraft:instant_damage",
+          "minecraft:levitation",
+          "minecraft:mining_fatigue",
+          "minecraft:nausea",
+          "minecraft:poison",
+          "minecraft:slowness",
+          "minecraft:unluck",
+          "minecraft:weakness",
+          "minecraft:wither",
+          "supplementaries:overencumbered",
+          "the_vault:time_acceleration",
+          "xaerominimap:no_cave_maps_harmful",
+          "xaerominimap:no_entity_radar_harmful",
+          "xaerominimap:no_minimap_harmful",
+          "xaerominimap:no_waypoints_harmful",
+          "xaeroworldmap:no_world_map_harmful"
+        ],
+        "flatLifeHealed": 0.0,
+        "manaCost": 31.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 900,
+        "levelRequirement": 0
+      }
+    ],
+    "groupLevelConfiguration": [
+      {
+        "radius": 5.0,
+        "flatLifeHealed": 4.0,
+        "manaCost": 40.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "flatLifeHealed": 4.0,
+        "manaCost": 35.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 7.0,
+        "flatLifeHealed": 4.0,
+        "manaCost": 30.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 8.0,
+        "flatLifeHealed": 6.0,
+        "manaCost": 45.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 9.0,
+        "flatLifeHealed": 6.0,
+        "manaCost": 40.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 10.0,
+        "flatLifeHealed": 6.0,
+        "manaCost": 35.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 11.0,
+        "flatLifeHealed": 8.0,
+        "manaCost": 50.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 12.0,
+        "flatLifeHealed": 8.0,
+        "manaCost": 45.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 13.0,
+        "flatLifeHealed": 8.0,
+        "manaCost": 40.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 14.0,
+        "flatLifeHealed": 10.0,
+        "manaCost": 55.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 15.0,
+        "flatLifeHealed": 10.0,
+        "manaCost": 50.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 16.0,
+        "flatLifeHealed": 10.0,
+        "manaCost": 45.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Heal",
+    "levelConfiguration": [
+      {
+        "flatLifeHealed": 4.0,
+        "manaCost": 30.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 4.0,
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 4.0,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 6.0,
+        "manaCost": 35.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 6.0,
+        "manaCost": 30.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 6.0,
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 8.0,
+        "manaCost": 40.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 8.0,
+        "manaCost": 35.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 8.0,
+        "manaCost": 30.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 10.0,
+        "manaCost": 45.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 10.0,
+        "manaCost": 40.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "flatLifeHealed": 10.0,
+        "manaCost": 35.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "DASH": {
+    "damageLevelConfiguration": [
+      {
+        "attackDamagePercentPerDash": 0.5,
+        "extraDistance": 3,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 240,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 0.65,
+        "extraDistance": 4,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 220,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 0.8,
+        "extraDistance": 5,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 0.95,
+        "extraDistance": 6,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 1.1,
+        "extraDistance": 7,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 1.25,
+        "extraDistance": 8,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 1.4,
+        "extraDistance": 9,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 1.55,
+        "extraDistance": 10,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 100,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 1.7,
+        "extraDistance": 11,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 80,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 1.85,
+        "extraDistance": 12,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 60,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 2.0,
+        "extraDistance": 13,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 40,
+        "levelRequirement": 0
+      },
+      {
+        "attackDamagePercentPerDash": 2.15,
+        "extraDistance": 14,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 20,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Dash",
+    "levelConfiguration": [
+      {
+        "extraDistance": 3,
+        "manaCost": 6.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 240,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 4,
+        "manaCost": 6.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 220,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 5,
+        "manaCost": 7.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 6,
+        "manaCost": 7.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 7,
+        "manaCost": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 8,
+        "manaCost": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 9,
+        "manaCost": 9.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 10,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 100,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 11,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 80,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 12,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 60,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 13,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 40,
+        "levelRequirement": 0
+      },
+      {
+        "extraDistance": 14,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 20,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "NOVA": {
+    "speedLevelConfiguration": [
+      {
+        "durationTicks": 100,
+        "amplifier": 20,
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 400,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 120,
+        "amplifier": 20,
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 390,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 140,
+        "amplifier": 20,
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 380,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 160,
+        "amplifier": 20,
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 370,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 180,
+        "amplifier": 20,
+        "radius": 7.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 360,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 200,
+        "amplifier": 20,
+        "radius": 7.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 350,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 220,
+        "amplifier": 20,
+        "radius": 8.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 340,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 240,
+        "amplifier": 20,
+        "radius": 8.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 330,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 260,
+        "amplifier": 20,
+        "radius": 9.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 320,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 280,
+        "amplifier": 20,
+        "radius": 9.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 310,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 300,
+        "amplifier": 20,
+        "radius": 10.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 300,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 320,
+        "amplifier": 20,
+        "radius": 10.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 21.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 290,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 340,
+        "amplifier": 20,
+        "radius": 11.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 22.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 280,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 360,
+        "amplifier": 20,
+        "radius": 11.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 23.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 270,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 380,
+        "amplifier": 20,
+        "radius": 12.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 24.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 260,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 400,
+        "amplifier": 20,
+        "radius": 12.0,
+        "percentAttackDamageDealt": 0.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 250,
+        "levelRequirement": 0
+      }
+    ],
+    "damageLevelConfiguration": [
+      {
+        "durationSeconds": 5,
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.5,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 400,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 5,
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.55,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 390,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 6,
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.6,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 380,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 6,
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.65,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 370,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 7,
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.7,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 360,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 7,
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.75,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 350,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 8,
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.8,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 340,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 8,
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.85,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 330,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 9,
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.9,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 320,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 9,
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.95,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 310,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 10,
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.1,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 300,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 10,
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.105,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 21.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 290,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 11,
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.11,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 22.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 280,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 11,
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.115,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 23.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 270,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 12,
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.12,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 24.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 260,
+        "levelRequirement": 0
+      },
+      {
+        "durationSeconds": 12,
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.125,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 250,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Nova",
+    "levelConfiguration": [
+      {
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.25,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 400,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.30,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 390,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.35,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 380,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 3.0,
+        "percentAttackDamageDealt": 0.4,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 370,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.45,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 360,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.5,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 350,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.55,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 340,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 4.0,
+        "percentAttackDamageDealt": 0.6,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 330,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.65,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 320,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.7,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 310,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.75,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 300,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 5.0,
+        "percentAttackDamageDealt": 0.8,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 21.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 290,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.85,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 22.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 280,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.9,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 23.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 270,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "percentAttackDamageDealt": 0.95,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 24.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 260,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "percentAttackDamageDealt": 1.0,
+        "knockbackStrengthMultiplier": 0.0,
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 250,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "EXECUTE": {
+    "name": "Execute",
+    "levelConfiguration": [
+      {
+        "damageHealthPercentage": 0.05,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.1,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.15,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.2,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.25,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.3,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.35,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.4,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.45,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      },
+      {
+        "damageHealthPercentage": 0.5,
+        "effectDurationTicks": 400,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 1200,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "GHOST_WALK": {
+    "name": "Ghost Walk",
+    "levelConfiguration": [
+      {
+        "durationTicks": 40,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 50,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 60,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 70,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 80,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 90,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 100,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 110,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 120,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicks": 130,
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "MEGA_JUMP": {
+    "breakUpLevelConfiguration": [
+      {
+        "height": 5,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 100,
+        "levelRequirement": 0
+      },
+      {
+        "height": 7,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 90,
+        "levelRequirement": 0
+      },
+      {
+        "height": 9,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 80,
+        "levelRequirement": 0
+      },
+      {
+        "height": 11,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 70,
+        "levelRequirement": 0
+      },
+      {
+        "height": 13,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 60,
+        "levelRequirement": 0
+      },
+      {
+        "height": 15,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 50,
+        "levelRequirement": 0
+      },
+      {
+        "height": 17,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 40,
+        "levelRequirement": 0
+      },
+      {
+        "height": 19,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 30,
+        "levelRequirement": 0
+      },
+      {
+        "height": 21,
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 20,
+        "levelRequirement": 0
+      },
+      {
+        "height": 23,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 10,
+        "levelRequirement": 0
+      }
+    ],
+    "breakDownLevelConfiguration": [
+      {
+        "height": 5,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 100,
+        "levelRequirement": 0
+      },
+      {
+        "height": 7,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 90,
+        "levelRequirement": 0
+      },
+      {
+        "height": 9,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 80,
+        "levelRequirement": 0
+      },
+      {
+        "height": 11,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 70,
+        "levelRequirement": 0
+      },
+      {
+        "height": 13,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 60,
+        "levelRequirement": 0
+      },
+      {
+        "height": 15,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 50,
+        "levelRequirement": 0
+      },
+      {
+        "height": 17,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 40,
+        "levelRequirement": 0
+      },
+      {
+        "height": 19,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 30,
+        "levelRequirement": 0
+      },
+      {
+        "height": 21,
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 20,
+        "levelRequirement": 0
+      },
+      {
+        "height": 23,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 10,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Mega Jump",
+    "levelConfiguration": [
+      {
+        "height": 5,
+        "manaCost": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 100,
+        "levelRequirement": 0
+      },
+      {
+        "height": 7,
+        "manaCost": 9.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 90,
+        "levelRequirement": 0
+      },
+      {
+        "height": 9,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 80,
+        "levelRequirement": 0
+      },
+      {
+        "height": 11,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 70,
+        "levelRequirement": 0
+      },
+      {
+        "height": 13,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 60,
+        "levelRequirement": 0
+      },
+      {
+        "height": 15,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 50,
+        "levelRequirement": 0
+      },
+      {
+        "height": 17,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 40,
+        "levelRequirement": 0
+      },
+      {
+        "height": 19,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 30,
+        "levelRequirement": 0
+      },
+      {
+        "height": 21,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 20,
+        "levelRequirement": 0
+      },
+      {
+        "height": 23,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 10,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "RAMPAGE": {
+    "leechLevelConfiguration": [
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.02,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.04,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.06,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.08,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.10,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.12,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.14,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.16,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.18,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.20,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.22,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.24,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.26,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.28,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.30,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.02,
+        "damageIncrease": 0.32,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.34,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.36,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.38,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.40,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.42,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.44,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.46,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.48,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.50,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.52,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.54,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.56,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.58,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.60,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.03,
+        "damageIncrease": 0.62,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "leechPercent": 0.9,
+        "damageIncrease": 0.64,
+        "manaCostPerSecond": 8.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      }
+    ],
+    "chainLevelConfiguration": [
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.02,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.04,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.06,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.08,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.10,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.12,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.14,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.16,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.18,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.20,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.22,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.24,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.26,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.28,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.30,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 2,
+        "damageIncrease": 0.32,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.34,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.36,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.38,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.40,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.42,
+        "manaCostPerSecond": 10.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.44,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.46,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.48,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.50,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.52,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.54,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.56,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.58,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.60,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.62,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalChainCount": 3,
+        "damageIncrease": 0.64,
+        "manaCostPerSecond": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Rampage",
+    "levelConfiguration": [
+      { 
+        "damageIncrease": 0.05,
+        "manaCostPerSecond": 1.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.1,
+        "manaCostPerSecond": 1.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.15,
+        "manaCostPerSecond": 1.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.2,
+        "manaCostPerSecond": 1.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.25,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.3,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.35,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.4,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.45,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.5,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.55,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.6,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.65,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.7,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.75,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.8,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.85,
+        "manaCostPerSecond": 3.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.9,
+        "manaCostPerSecond": 3.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 0.95,
+        "manaCostPerSecond": 3.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.0,
+        "manaCostPerSecond": 3.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.05,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.10,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.15,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.20,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.25,
+        "manaCostPerSecond": 4.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.30,
+        "manaCostPerSecond": 4.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.35,
+        "manaCostPerSecond": 4.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.40,
+        "manaCostPerSecond": 4.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.45,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.50,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.55,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "damageIncrease": 1.60,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "SUMMON_ETERNAL": {
+    "name": "Summon Eternal",
+    "levelConfiguration": [
+      {
+        "numberOfEternals": 1,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 50.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 600,
+        "levelRequirement": 0
+      },
+      {
+        "numberOfEternals": 1,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 50.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 580,
+        "levelRequirement": 0
+      },
+      {
+        "numberOfEternals": 1,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 50.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 560,
+        "levelRequirement": 0
+      },
+      {
+        "numberOfEternals": 2,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 60.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 800,
+        "levelRequirement": 0
+      },
+      {
+        "numberOfEternals": 2,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 60.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 760,
+        "levelRequirement": 0
+      },
+      {
+        "numberOfEternals": 2,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 60.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 720,
+        "levelRequirement": 0
+      },
+      {
+        "numberOfEternals": 3,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 70.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 800,
+        "levelRequirement": 0
+      },
+      {
+        "numberOfEternals": 3,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 70.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 760,
+        "levelRequirement": 0
+      },
+      {
+        "numberOfEternals": 3,
+        "despawnTime": 1200,
+        "ancientChance": 0.0,
+        "vaultOnly": true,
+        "manaCost": 70.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 720,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "TANK": {
+    "projectileLevelConfiguration": [
+      {
+        "percentageReducedProjectileDamage": 0.25,
+        "knockbackResistance": 0.4,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.3,
+        "knockbackResistance": 0.45,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.35,
+        "knockbackResistance": 0.50,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.4,
+        "knockbackResistance": 0.55,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.45,
+        "knockbackResistance": 0.6,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.5,
+        "knockbackResistance": 0.65,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.55,
+        "knockbackResistance": 0.7,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.6,
+        "knockbackResistance": 0.75,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.65,
+        "knockbackResistance": 0.8,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.7,
+        "knockbackResistance": 0.85,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.75,
+        "knockbackResistance": 0.9,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.8,
+        "knockbackResistance": 0.95,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.85,
+        "knockbackResistance": 1.0,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 6.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.9,
+        "knockbackResistance": 1.0,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 6.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 0.95,
+        "knockbackResistance": 1.0,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 6.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageReducedProjectileDamage": 1.0,
+        "knockbackResistance": 1.0,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 7.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      }
+    ],
+    "reflectLevelConfiguration": [
+      {
+        "additionalThornsChance": 0.05,
+        "thornsDamageMultiplier": 0.5,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.06,
+        "thornsDamageMultiplier": 0.55,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.07,
+        "thornsDamageMultiplier": 0.6,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.08,
+        "thornsDamageMultiplier": 0.65,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.09,
+        "thornsDamageMultiplier": 0.7,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.1,
+        "thornsDamageMultiplier": 0.75,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.11,
+        "thornsDamageMultiplier": 0.8,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.12,
+        "thornsDamageMultiplier": 0.85,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.13,
+        "thornsDamageMultiplier": 0.9,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.14,
+        "thornsDamageMultiplier": 0.95,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.15,
+        "thornsDamageMultiplier": 1.0,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.16,
+        "thornsDamageMultiplier": 1.05,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.17,
+        "thornsDamageMultiplier": 1.1,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.18,
+        "thornsDamageMultiplier": 1.15,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.19,
+        "thornsDamageMultiplier": 1.2,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "additionalThornsChance": 0.20,
+        "thornsDamageMultiplier": 1.25,
+        "durationTicksPerHit": 0,
+        "resistancePercentAddedPerHit": 0.0,
+        "resistancePercentCap": 0.0,
+        "manaCostPerSecond": 3.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Tank",
+    "levelConfiguration": [
+      {
+        "durationTicksPerHit": 100,
+        "resistancePercentAddedPerHit": 0.05,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 100,
+        "resistancePercentAddedPerHit": 0.08,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 100,
+        "resistancePercentAddedPerHit": 0.11,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 120,
+        "resistancePercentAddedPerHit": 0.14,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 120,
+        "resistancePercentAddedPerHit": 0.17,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 120,
+        "resistancePercentAddedPerHit": 0.20,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 140,
+        "resistancePercentAddedPerHit": 0.23,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 140,
+        "resistancePercentAddedPerHit": 0.26,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 140,
+        "resistancePercentAddedPerHit": 0.29,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 160,
+        "resistancePercentAddedPerHit": 0.32,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 160,
+        "resistancePercentAddedPerHit": 0.35,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 160,
+        "resistancePercentAddedPerHit": 0.38,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 5.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 180,
+        "resistancePercentAddedPerHit": 0.41,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 6.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 180,
+        "resistancePercentAddedPerHit": 0.44,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 6.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 180,
+        "resistancePercentAddedPerHit": 0.47,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 6.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "durationTicksPerHit": 200,
+        "resistancePercentAddedPerHit": 0.50,
+        "resistancePercentCap": 0.5,
+        "manaCostPerSecond": 7.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "VEIN_MINER": {
+    "durabilityLevelConfiguration": [
+      {
+        "additionalUnbreakingLevel": 1,
+        "blockLimit": 2,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 1,
+        "blockLimit": 4,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 1,
+        "blockLimit": 6,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 1,
+        "blockLimit": 8,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 1,
+        "blockLimit": 10,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 1,
+        "blockLimit": 12,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 1,
+        "blockLimit": 14,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 1,
+        "blockLimit": 16,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 2,
+        "blockLimit": 18,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 2,
+        "blockLimit": 20,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 2,
+        "blockLimit": 22,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 2,
+        "blockLimit": 24,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 2,
+        "blockLimit": 26,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 2,
+        "blockLimit": 28,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 2,
+        "blockLimit": 30,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 2,
+        "blockLimit": 32,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 3,
+        "blockLimit": 34,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 3,
+        "blockLimit": 36,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 3,
+        "blockLimit": 38,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 3,
+        "blockLimit": 40,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 3,
+        "blockLimit": 42,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 3,
+        "blockLimit": 44,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 3,
+        "blockLimit": 46,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 3,
+        "blockLimit": 48,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 4,
+        "blockLimit": 50,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 4,
+        "blockLimit": 52,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 4,
+        "blockLimit": 54,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 4,
+        "blockLimit": 56,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 4,
+        "blockLimit": 58,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 4,
+        "blockLimit": 60,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 4,
+        "blockLimit": 62,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalUnbreakingLevel": 4,
+        "blockLimit": 64,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      }
+    ],
+    "fortuneLevelConfiguration": [
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 2,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 4,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 6,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 8,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 10,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 12,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 14,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 16,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 18,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 20,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 22,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 24,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 26,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 28,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 30,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 32,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 34,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 36,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 38,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 40,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 42,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 44,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 46,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 48,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 50,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 52,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 54,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 56,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 58,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 60,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 62,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "additionalFortuneLevel": 1,
+        "blockLimit": 64,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      }
+    ],
+    "voidLevelConfiguration": [
+      {
+        "blockLimit": 2,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 4,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 6,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 8,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 10,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 12,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 14,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 16,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 18,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 20,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 22,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 24,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 26,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 28,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 30,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 32,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 34,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 36,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 38,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 40,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 42,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 44,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 46,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 48,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 50,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 52,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 54,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 56,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 58,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 60,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 62,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 64,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Vein Miner",
+    "levelConfiguration": [
+      {
+        "blockLimit": 4,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 8,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 12,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 16,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 20,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 24,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 28,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 32,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 36,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 40,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 44,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 48,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 52,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 56,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 60,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 64,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 68,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 72,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 76,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 80,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 84,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 88,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 92,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 96,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 100,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 104,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 108,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 112,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 116,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 120,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 124,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "blockLimit": 128,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "HUNTER": {
+    "blocksLevelConfiguration": [
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 32.0,
+        "color": -14308352,
+        "durationTicks": 10,
+        "chestRegistryKeys": [],
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 34.0,
+        "color": -14308352,
+        "durationTicks": 20,
+        "chestRegistryKeys": [],
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 190,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 36.0,
+        "color": -14308352,
+        "durationTicks": 30,
+        "chestRegistryKeys": [],
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 38.0,
+        "color": -14308352,
+        "durationTicks": 40,
+        "chestRegistryKeys": [],
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 170,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 40.0,
+        "color": -14308352,
+        "durationTicks": 50,
+        "chestRegistryKeys": [],
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 42.0,
+        "color": -14308352,
+        "durationTicks": 60,
+        "chestRegistryKeys": [],
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 150,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 44.0,
+        "color": -14308352,
+        "durationTicks": 70,
+        "chestRegistryKeys": [],
+        "manaCost": 21.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 46.0,
+        "color": -14308352,
+        "durationTicks": 80,
+        "chestRegistryKeys": [],
+        "manaCost": 22.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 130,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 48.0,
+        "color": -14308352,
+        "durationTicks": 90,
+        "chestRegistryKeys": [],
+        "manaCost": 23.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 50.0,
+        "color": -14308352,
+        "durationTicks": 100,
+        "chestRegistryKeys": [],
+        "manaCost": 24.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 110,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 52.0,
+        "color": -14308352,
+        "durationTicks": 110,
+        "chestRegistryKeys": [],
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 100,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 54.0,
+        "color": -14308352,
+        "durationTicks": 120,
+        "chestRegistryKeys": [],
+        "manaCost": 26.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 90,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 56.0,
+        "color": -14308352,
+        "durationTicks": 130,
+        "chestRegistryKeys": [],
+        "manaCost": 27.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 80,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 58.0,
+        "color": -14308352,
+        "durationTicks": 140,
+        "chestRegistryKeys": [],
+        "manaCost": 28.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 70,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 60.0,
+        "color": -14308352,
+        "durationTicks": 150,
+        "chestRegistryKeys": [],
+        "manaCost": 29.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 60,
+        "levelRequirement": 0
+      },
+      {
+        "objectiveRegistryKeys": [
+          "the_vault:obelisk_tile_entity",
+          "the_vault:scavenger_chest_tile_entity",
+          "the_vault:stabilizer_tile_entity",
+          "the_vault:xp_altar_tile_entity",
+          "the_vault:blood_altar_tile_entity",
+          "the_vault:time_altar_tile_entity",
+          "the_vault:soul_altar_tile_entity",
+          "the_vault:vault_treasure_chest_tile_entity",
+          "the_vault:scavenger_altar_tile_entity"
+        ],
+        "searchRadius": 62.0,
+        "color": -14308352,
+        "durationTicks": 160,
+        "chestRegistryKeys": [],
+        "manaCost": 30.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 50,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Hunter",
+    "levelConfiguration": [
+      {
+        "searchRadius": 32.0,
+        "color": -1864448,
+        "durationTicks": 10,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 34.0,
+        "color": -1864448,
+        "durationTicks": 20,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 190,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 36.0,
+        "color": -1864448,
+        "durationTicks": 30,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 38.0,
+        "color": -1864448,
+        "durationTicks": 40,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 170,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 40.0,
+        "color": -1864448,
+        "durationTicks": 50,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 42.0,
+        "color": -1864448,
+        "durationTicks": 60,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 150,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 44.0,
+        "color": -1864448,
+        "durationTicks": 70,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 21.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 46.0,
+        "color": -1864448,
+        "durationTicks": 80,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 22.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 130,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 48.0,
+        "color": -1864448,
+        "durationTicks": 90,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 23.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 50.0,
+        "color": -1864448,
+        "durationTicks": 100,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 24.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 110,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 52.0,
+        "color": -1864448,
+        "durationTicks": 110,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 100,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 54.0,
+        "color": -1864448,
+        "durationTicks": 120,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 26.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 90,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 56.0,
+        "color": -1864448,
+        "durationTicks": 130,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 27.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 80,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 58.0,
+        "color": -1864448,
+        "durationTicks": 140,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 28.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 70,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 60.0,
+        "color": -1864448,
+        "durationTicks": 150,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 29.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 60,
+        "levelRequirement": 0
+      },
+      {
+        "searchRadius": 62.0,
+        "color": -1864448,
+        "durationTicks": 160,
+        "chestRegistryKeys": [
+          "minecraft:chest",
+          "minecraft:trapped_chest",
+          "the_vault:coin_pile",
+          "the_vault:vault_chest_tile_entity"
+        ],
+        "manaCost": 30.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 50,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "FARMER": {
+    "melonLevelConfiguration": [
+      {
+        "tickDelay": 20,
+        "horizontalRange": 3,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 18,
+        "horizontalRange": 4,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 16,
+        "horizontalRange": 5,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 14,
+        "horizontalRange": 6,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 12,
+        "horizontalRange": 7,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 10,
+        "horizontalRange": 8,
+        "verticalRange": 8,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 8,
+        "horizontalRange": 9,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 6,
+        "horizontalRange": 10,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 4,
+        "horizontalRange": 11,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 2,
+        "horizontalRange": 12,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      }
+    ],
+    "cactusLevelConfiguration": [
+      {
+        "tickDelay": 20,
+        "horizontalRange": 3,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 18,
+        "horizontalRange": 4,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 16,
+        "horizontalRange": 5,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 14,
+        "horizontalRange": 6,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 12,
+        "horizontalRange": 7,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 10,
+        "horizontalRange": 8,
+        "verticalRange": 8,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 8,
+        "horizontalRange": 9,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 6,
+        "horizontalRange": 10,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 4,
+        "horizontalRange": 11,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 2,
+        "horizontalRange": 12,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      }
+    ],
+    "animalLevelConfiguration": [
+      {
+        "adultChance": 0.05,
+        "tickDelay": 20,
+        "horizontalRange": 3,
+        "verticalRange": 2,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.1,
+        "tickDelay": 18,
+        "horizontalRange": 4,
+        "verticalRange": 2,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.15,
+        "tickDelay": 16,
+        "horizontalRange": 5,
+        "verticalRange": 2,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.2,
+        "tickDelay": 14,
+        "horizontalRange": 6,
+        "verticalRange": 2,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.25,
+        "tickDelay": 12,
+        "horizontalRange": 7,
+        "verticalRange": 2,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.3,
+        "tickDelay": 10,
+        "horizontalRange": 8,
+        "verticalRange": 8,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.35,
+        "tickDelay": 8,
+        "horizontalRange": 9,
+        "verticalRange": 4,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.4,
+        "tickDelay": 6,
+        "horizontalRange": 10,
+        "verticalRange": 4,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.45,
+        "tickDelay": 4,
+        "horizontalRange": 11,
+        "verticalRange": 4,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "adultChance": 0.5,
+        "tickDelay": 2,
+        "horizontalRange": 12,
+        "verticalRange": 4,
+        "manaCostPerSecond": 4.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Farmer",
+    "levelConfiguration": [
+      {
+        "tickDelay": 20,
+        "horizontalRange": 3,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 18,
+        "horizontalRange": 4,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 16,
+        "horizontalRange": 5,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 14,
+        "horizontalRange": 6,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 12,
+        "horizontalRange": 7,
+        "verticalRange": 2,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 10,
+        "horizontalRange": 8,
+        "verticalRange": 8,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 8,
+        "horizontalRange": 9,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 6,
+        "horizontalRange": 10,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 4,
+        "horizontalRange": 11,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      },
+      {
+        "tickDelay": 2,
+        "horizontalRange": 12,
+        "verticalRange": 4,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 0,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "MANA_SHIELD": {
+    "name": "Mana Shield",
+    "levelConfiguration": [
+      {
+        "percentageDamageAbsorbed": 0.1,
+        "manaCostPerSecond": 1.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 0.2,
+        "manaCostPerSecond": 1.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 0.3,
+        "manaCostPerSecond": 1.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 0.4,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 0.5,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 0.6,
+        "manaCostPerSecond": 2.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 0.7,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 0.8,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 0.9,
+        "manaCostPerSecond": 2.5,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "percentageDamageAbsorbed": 1.0,
+        "manaCostPerSecond": 3.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "TAUNT": {
+    "repelLevelConfiguration": [
+      {
+        "repelForce": 2.0,
+        "radius": 5.0,
+        "durationTicks": 80,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 2.0,
+        "radius": 5.0,
+        "durationTicks": 90,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 3.0,
+        "radius": 5.0,
+        "durationTicks": 100,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 3.0,
+        "radius": 5.0,
+        "durationTicks": 110,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 4.0,
+        "radius": 6.0,
+        "durationTicks": 120,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 4.0,
+        "radius": 6.0,
+        "durationTicks": 130,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 5.0,
+        "radius": 6.0,
+        "durationTicks": 140,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 5.0,
+        "radius": 6.0,
+        "durationTicks": 150,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 6.0,
+        "radius": 7.0,
+        "durationTicks": 160,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 6.0,
+        "radius": 7.0,
+        "durationTicks": 170,
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 7.0,
+        "radius": 7.0,
+        "durationTicks": 180,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 7.0,
+        "radius": 7.0,
+        "durationTicks": 190,
+        "manaCost": 21.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 8.0,
+        "radius": 8.0,
+        "durationTicks": 200,
+        "manaCost": 22.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 8.0,
+        "radius": 8.0,
+        "durationTicks": 210,
+        "manaCost": 23.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 9.0,
+        "radius": 8.0,
+        "durationTicks": 220,
+        "manaCost": 24.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 9.0,
+        "radius": 8.0,
+        "durationTicks": 230,
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 10.0,
+        "radius": 9.0,
+        "durationTicks": 240,
+        "manaCost": 26.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 10.0,
+        "radius": 9.0,
+        "durationTicks": 250,
+        "manaCost": 27.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 11.0,
+        "radius": 10.0,
+        "durationTicks": 260,
+        "manaCost": 28.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "repelForce": 11.0,
+        "radius": 10.0,
+        "durationTicks": 270,
+        "manaCost": 29.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      }
+    ],
+    "name": "Taunt",
+    "levelConfiguration": [
+      {
+        "radius": 5.0,
+        "durationTicks": 80,
+        "manaCost": 10.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 5.0,
+        "durationTicks": 90,
+        "manaCost": 11.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 5.0,
+        "durationTicks": 100,
+        "manaCost": 12.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 5.0,
+        "durationTicks": 110,
+        "manaCost": 13.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 200,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "durationTicks": 120,
+        "manaCost": 14.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "durationTicks": 130,
+        "manaCost": 15.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "durationTicks": 140,
+        "manaCost": 16.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 6.0,
+        "durationTicks": 150,
+        "manaCost": 17.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 180,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 7.0,
+        "durationTicks": 160,
+        "manaCost": 18.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 7.0,
+        "durationTicks": 170,
+        "manaCost": 19.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 7.0,
+        "durationTicks": 180,
+        "manaCost": 20.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 7.0,
+        "durationTicks": 190,
+        "manaCost": 21.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 160,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 8.0,
+        "durationTicks": 200,
+        "manaCost": 22.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 8.0,
+        "durationTicks": 210,
+        "manaCost": 23.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 8.0,
+        "durationTicks": 220,
+        "manaCost": 24.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 8.0,
+        "durationTicks": 230,
+        "manaCost": 25.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 140,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 9.0,
+        "durationTicks": 240,
+        "manaCost": 26.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 9.0,
+        "durationTicks": 250,
+        "manaCost": 27.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 10.0,
+        "durationTicks": 260,
+        "manaCost": 28.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      },
+      {
+        "radius": 10.0,
+        "durationTicks": 270,
+        "manaCost": 29.0,
+        "learningCost": 1,
+        "regretCost": 1,
+        "cooldownTicks": 120,
+        "levelRequirement": 0
+      }
+    ]
+  }
+}

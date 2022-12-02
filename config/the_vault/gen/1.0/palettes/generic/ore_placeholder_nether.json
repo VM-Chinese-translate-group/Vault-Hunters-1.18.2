@@ -1,0 +1,74 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "ORE",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.12,
+          "success": {
+            "the_vault:ore_painite[generated=true]": 40,
+            "the_vault:ore_alexandrite[generated=true]": 80,
+            "the_vault:ore_wutodie[generated=true]": 40,
+            "the_vault:ore_benitoite[generated=true]": 130,
+            "the_vault:ore_larimar[generated=true]": 300,
+            "the_vault:ore_black_opal[generated=true]": 20,
+            "the_vault:ore_echo[generated=true]": 1,
+            "the_vault:ore_iskallium[generated=true]": 15,
+            "the_vault:ore_gorginite[generated=true]": 15,
+            "the_vault:ore_ashium[generated=true]": 15,
+            "the_vault:ore_sparkletine[generated=true]": 15,
+            "the_vault:ore_bomignite[generated=true]": 15,
+            "the_vault:ore_tubium[generated=true]": 15,
+            "the_vault:ore_upaline[generated=true]": 15,
+            "the_vault:ore_xenium[generated=true]": 15,
+            "the_vault:ore_petzanite[generated=true]": 15
+          },
+          "failure": {
+            "minecraft:coal_ore": 20,
+            "minecraft:redstone_ore": 20,
+            "minecraft:lapis_ore": 20,
+            "minecraft:copper_ore": 20,
+            "minecraft:iron_ore": 18,
+            "minecraft:gold_ore": 8,
+            "minecraft:diamond_ore": 5,
+            "minecraft:ancient_debris": 1
+          }
+        },
+        {
+          "level": 11,
+          "probability": 0.19,
+          "success": {
+            "the_vault:ore_painite[generated=true]": 120,
+            "the_vault:ore_alexandrite[generated=true]": 80,
+            "the_vault:ore_wutodie[generated=true]": 40,
+            "the_vault:ore_benitoite[generated=true]": 180,
+            "the_vault:ore_larimar[generated=true]": 300,
+            "the_vault:ore_black_opal[generated=true]": 20,
+            "the_vault:ore_echo[generated=true]": 2,
+            "the_vault:ore_iskallium[generated=true]": 24,
+            "the_vault:ore_gorginite[generated=true]": 24,
+            "the_vault:ore_ashium[generated=true]": 24,
+            "the_vault:ore_sparkletine[generated=true]": 24,
+            "the_vault:ore_bomignite[generated=true]": 24,
+            "the_vault:ore_tubium[generated=true]": 24,
+            "the_vault:ore_upaline[generated=true]": 24,
+            "the_vault:ore_xenium[generated=true]": 24,
+            "the_vault:ore_petzanite[generated=true]": 24
+          },
+          "failure": {
+            "minecraft:coal_ore": 20,
+            "minecraft:redstone_ore": 20,
+            "minecraft:lapis_ore": 20,
+            "minecraft:copper_ore": 20,
+            "minecraft:iron_ore": 18,
+            "minecraft:gold_ore": 8,
+            "minecraft:diamond_ore": 5,
+            "minecraft:ancient_debris": 1
+          }
+        }
+      ]
+    }
+  ]
+}

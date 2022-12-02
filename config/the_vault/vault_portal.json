@@ -1,0 +1,8 @@
+{
+  "VALID_BLOCKS": [
+    "the_vault:vault_stone",
+    "the_vault:polished_vault_stone",
+    "the_vault:vault_cobblestone",
+    "the_vault:final_vault_frame"
+  ]
+}

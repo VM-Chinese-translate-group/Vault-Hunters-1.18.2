@@ -1,0 +1,438 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 16,
+        "max": 20
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+              "weight": 64,
+              "item": {
+              "id": "the_vault:vault_essence",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            },
+            {
+              "weight": 24,
+              "item": {
+              "id": "the_vault:wild_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 24,
+              "item": {
+              "id": "the_vault:amplifying_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+              "id": "the_vault:vault_plating",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+              "id": "the_vault:vault_meat",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+              "id": "the_vault:carbon",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+                }
+              }
+            },
+            {
+              "weight": 24,
+              "item": {
+              "id": "the_vault:regret_chunk",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 32,
+              "item": {
+              "id": "the_vault:vault_diamond",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 32,
+              "item": {
+              "id": "the_vault:magnetite",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            },
+            {
+              "weight": 32,
+              "item": {
+              "id": "the_vault:skill_essence",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+              "weight": 32,
+              "item": {
+              "id": "the_vault:knowledge_star_essence",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+              "id": "the_vault:vault_bronze",
+              "count": {
+                "type": "uniform",
+                "min": 16,
+                "max": 64
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+              "id": "the_vault:driftwood",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 8
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+              "id": "minecraft:netherite_ingot",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+              "id": "minecraft:netherite_scrap",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+              "weight": 64,
+              "item": {
+              "id": "minecraft:diamond",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+              "weight": 32,
+              "item": {
+              "id": "the_vault:vault_nugget",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            }
+            
+           ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:sword",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:axe",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:helmet",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:chestplate",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:leggings",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:boots",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:shield",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "reference": "the_vault:jewel_pool_treasure_0"
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:unidentified_relic_fragment",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:fundamental_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:memory_shard",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:mote_clarity",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:mystery_box",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:crystal_seal_empty",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:eternal_soul",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:driftwood",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 6
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:mote_purity",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:bitter_lemon",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 9,
+              "item": {
+                "id": "the_vault:driftwood",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 6
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:trinket",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

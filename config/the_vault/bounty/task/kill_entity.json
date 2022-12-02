@@ -1,0 +1,349 @@
+{
+  "LEVELS": {
+    "0": {
+      "pool": [
+        {
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 10,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "minecraft:stray",
+            "amount": {
+              "min": 10,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 10,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "minecraft:husk",
+            "amount": {
+              "min": 10,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "minecraft:drowned",
+            "amount": {
+              "min": 10,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "quark:wraith",
+            "amount": {
+              "min": 10,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 10,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_spider",
+            "amount": {
+              "min": 10,
+              "max": 50
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        }
+      ]
+    },
+    "10": {
+      "pool": [
+        {
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 40,
+              "max": 110
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "minecraft:stray",
+            "amount": {
+              "min": 40,
+              "max": 110
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 40,
+              "max": 110
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "minecraft:husk",
+            "amount": {
+              "min": 40,
+              "max": 110
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "minecraft:drowned",
+            "amount": {
+              "min": 40,
+              "max": 110
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "quark:wraith",
+            "amount": {
+              "min": 40,
+              "max": 110
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 40,
+              "max": 110
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_spider",
+            "amount": {
+              "min": 40,
+              "max": 110
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        }
+      ]
+    },
+    "20": {
+      "pool": [
+        {
+          "value": {
+            "value": "minecraft:skeleton",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "minecraft:piglin",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "minecraft:stray",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "minecraft:zombie",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "minecraft:husk",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "minecraft:drowned",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "quark:wraith",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_fighter",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_spider",
+            "amount": {
+              "min": 60,
+              "max": 235
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 3
+        }
+      ],
+      "amount": {
+        "min": 60,
+        "max": 235
+      },
+      "floorToNearestTen": false,
+      "validDimensions": [
+      ],
+      "vaultOnly": true
+    }
+  }
+}

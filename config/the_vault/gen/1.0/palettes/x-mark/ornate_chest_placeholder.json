@@ -1,0 +1,30 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "ORNATE_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.75,
+          "success": {
+            "the_vault:ornate_chest{LootTable:\"the_vault:ornate_chest_lvl0\"}": 1
+          },
+          "failure": {
+            "minecraft:bedrock": 1
+          }
+        },
+        {
+          "level": 11,
+          "probability": 1.0,
+          "success": {
+            "the_vault:ornate_chest{LootTable:\"the_vault:ornate_chest_lvl11\"}": 1
+          },
+          "failure": {
+            "minecraft:bedrock": 1
+          }
+        }
+      ]
+    }
+  ]
+}

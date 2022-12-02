@@ -1,0 +1,252 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "minecraft:blaze_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "id": "minecraft:cave_spider_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "id": "minecraft:creeper_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 15
+    },
+    {
+      "value": {
+        "id": "minecraft:drowned_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "id": "minecraft:elder_guardian_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:enderman_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 15
+    },
+    {
+      "value": {
+        "id": "minecraft:ghast_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "id": "minecraft:guardian_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 7
+    },
+    {
+      "value": {
+        "id": "minecraft:hoglin_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:husk_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "id": "minecraft:magma_cube_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 8
+    },
+    {
+      "value": {
+        "id": "minecraft:phantom_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:piglin_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "id": "minecraft:piglin_brute_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "id": "minecraft:pillager_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "id": "minecraft:raveger_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:shulker_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:skeleton_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "id": "minecraft:slime_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "minecraft:spider_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "id": "minecraft:stray_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "id": "minecraft:vindicator_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:witch_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "minecraft:wither_skeleton_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "id": "minecraft:zoglin_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:zombie_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "id": "minecraft:zombified_piglin_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 12
+    },
+    {
+      "value": {
+        "id": "minecraft:evoker_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "cagerium:iron_golem_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "cagerium:wither_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "cagerium:ender_dragon_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    }
+  ]
+}

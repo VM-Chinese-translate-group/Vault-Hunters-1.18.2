@@ -1,0 +1,180 @@
+{
+  "SKILL_GATES": {
+    "entries": {
+      "Regeneration": {
+        "dependsOn": [],
+        "lockedBy": [
+          "Vampirism"
+        ]
+      },
+      "Vampirism": {
+        "dependsOn": [],
+        "lockedBy": [
+          "Regeneration"
+        ]
+      },
+      "Parry": {
+        "dependsOn": [],
+        "lockedBy": [
+        ]
+      },
+      "Resistance": {
+        "dependsOn": [],
+        "lockedBy": [
+        ]
+      },
+      "Carapace": {
+        "dependsOn": [
+          "Resistance"
+        ],
+        "lockedBy": []
+      },
+      "Ninja": {
+        "dependsOn": [
+          "Parry"
+        ],
+        "lockedBy": []
+      },
+      "Fire Resistance": {
+        "dependsOn": [
+          "Water Breathing"
+        ],
+        "lockedBy": []
+      },
+      "Treasure Hunter": {
+        "dependsOn": [
+          
+        ],
+        "lockedBy": [
+          "Artisan"
+        ]
+      },
+      "Artisan": {
+        "dependsOn": [
+          
+        ],
+        "lockedBy": [
+          "Treasure Hunter"
+        ]
+      },
+      "Careless": {
+        "lockedBy": [
+        ]
+      },
+      "Angel": {
+        "lockedBy": [
+        ]
+      },
+      "Fatal Strike Chance": {
+        "lockedBy": [
+          "Fatal Strike Damage"
+        ]
+      },
+      "Fatal Strike Damage": {
+        "lockedBy": [
+          "Fatal Strike Chance"
+        ]
+      },
+      "Thorns Damage": {
+        "lockedBy": [
+          "Thorns Chance"
+        ]
+      },
+      "Thorns Chance": {
+        "lockedBy": [
+          "Thorns Damage"
+        ]
+      },
+      "Last Stand": {
+        "lockedBy": [
+          "Berserking"
+        ]
+      },
+      "Berserking": {
+        "lockedBy": [
+          "Last Stand"
+        ]
+      },
+      "Weakness Affinity": {
+        "lockedBy": [
+          "Slowness Affinity",
+          "Wither Affinity"
+        ]
+      },
+      "Slowness Affinity": {
+        "lockedBy": [
+          "Weakness Affinity",
+          "Wither Affinity"
+        ]
+      },
+      "Wither Affinity": {
+        "lockedBy": [
+          "Slowness Affinity",
+          "Weakness Affinity"
+        ]
+      },
+      "Mekanism Generators": {
+        "dependsOn": [
+          "Mekanism"
+        ],
+        "ignoreArrow": true
+      },
+      "Digital Miner": {
+        "dependsOn": [
+          "Mekanism"
+        ],
+        "ignoreArrow": true
+      },
+      "Mekanism QIO": {
+        "dependsOn": [
+          "Mekanism"
+        ],
+        "ignoreArrow": true
+      },
+      "Thermal Dynamos": {
+        "dependsOn": [
+          "Thermal Expansion"
+        ],
+        "ignoreArrow": true
+      },
+      "Phytogenic Insulator": {
+        "dependsOn": [
+          "Thermal Expansion"
+        ],
+        "ignoreArrow": true
+      },
+      "Belts": {
+        "dependsOn": [
+          "Double Pouches"
+        ],
+        "ignoreArrow": true
+      },
+      "Double Pouches": {
+        "dependsOn": [
+          "Pouches"
+        ],
+        "ignoreArrow": true
+      },
+      "Backpacks": {
+        "dependsOn": [
+          "Belts"
+        ],
+        "ignoreArrow": true
+      },
+      "Big Backpacks": {
+        "dependsOn": [
+          "Backpacks"
+        ],
+        "ignoreArrow": true
+      },
+      "Automatic Genius": {
+        "dependsOn": [
+          "Applied Energistics",
+          "Refined Storage",
+          "Mekanism QIO"
+        ],
+        "ignoreArrow": true
+      }
+    }
+  }
+}

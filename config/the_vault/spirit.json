@@ -1,0 +1,15 @@
+{
+  "recoveryCostMultiplier": 1.05,
+  "levelCosts": [
+    {
+      "minLevel": 5,
+      "item": "the_vault:vault_silver",
+      "count": 3
+    },
+    {
+      "minLevel": 0,
+      "item": "the_vault:vault_bronze",
+      "count": 20
+    }
+  ]
+}

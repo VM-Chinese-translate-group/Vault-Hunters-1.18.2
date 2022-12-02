@@ -1,0 +1,30 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "GILDED_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl0\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 10,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl10\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 4,
+        "max": 6
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+              "weight": 12,
+              "item": {
+                "id": "the_vault:vault_plating",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "the_vault:carbon_nugget",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "the_vault:magic_silk",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "the_vault:diamond_nugget",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+                }
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+              "id": "the_vault:relic_booster_pack",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "the_vault:silver_scrap",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "the_vault:vault_meat",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "the_vault:vault_essence",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            }                   
+          ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:crystal_seal_empty",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:regret_nugget",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:memory_powder",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:mystery_box",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+                "weight": 2,
+                "item": {
+                  "id": "the_vault:phoenix_dust",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:dreamstone",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "minecraft:wither_skeleton_skull",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:idol_benevolent",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"altar\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:idol_omniscient",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"altar\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:idol_timekeeper",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"altar\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:idol_malevolence",
+                "nbt": "{\"the_vault:gear_roll_type_pool\":\"altar\"}",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "minecraft:elytra",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:gem_echo",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:altar_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

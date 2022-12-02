@@ -1,0 +1,41 @@
+{
+  "COMMENTS": [
+    "// - builtin values may be edited, but not removed",
+    "// - add / remove custom values inside the custom object",
+    "// - custom values override builtin values"
+  ],
+  "colors": {
+    "builtin": {
+      "absorb": "#8EEDD9",
+      "blocks": "#945D38",
+      "chains": "#2B4D29",
+      "chance": "#ffeb07",
+      "cooldown": "#cbe6fe",
+      "damage": "#C23627",
+      "delay": "#8C4916",
+      "distance": "#F2E685",
+      "duration": "#7024ac",
+      "eternals": "#C7FFE7",
+      "fortune": "#661FA3",
+      "heal": "#7DF587",
+      "knockback": "#99184A",
+      "leech": "#cf0000",
+      "levelHi": "#00FF00",
+      "levelLo": "#C23627",
+      "manaCost": "#0353d7",
+      "name": "#FCF5C5",
+      "projectileDamageTaken": "#CFB174",
+      "radius": "#33ff6d",
+      "range": "#0D7A39",
+      "resistance": "#09bfb8",
+      "slowness": "#2B4D29",
+      "text": "#192022",
+      "unbreaking": "#dcc4f0"
+    },
+    "custom": {
+      "castType": "#1e1e1e",
+      "poison": "#299100",
+      "baby": "#f5b2f9"
+    }
+  }
+}

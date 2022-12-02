@@ -1,0 +1,29 @@
+{
+    "tile_processors": [
+      {
+        "type": "reference",
+        "id": "the_vault:village/silverfish_spawner_settings"
+      },
+      {
+        "type": "leveled",
+        "levels": [
+          {
+            "level": 0,
+            "type": "weighted_target",
+            "target": "minecraft:repeating_command_block",
+            "output": {
+              "minecraft:repeating_command_block{ Command: \"/execute if block ~ ~4 ~ minecraft:end_portal_frame[eye=true] run fill ~4 ~4 ~4 ~-4 ~4 ~-4 the_vault:living_chest{LootTable:\\\"the_vault:living_chest_lvl0\\\"} replace minecraft:end_portal_frame\" }": 1
+            }
+          },
+          {
+            "level": 10,
+            "type": "weighted_target",
+            "target": "minecraft:repeating_command_block",
+            "output": {
+              "minecraft:repeating_command_block{ Command: \"/execute if block ~ ~4 ~ minecraft:end_portal_frame[eye=true] run fill ~4 ~4 ~4 ~-4 ~4 ~-4 the_vault:living_chest{LootTable:\\\"the_vault:living_chest_lvl9\\\"} replace minecraft:end_portal_frame\" }": 1
+            }
+          }
+        ]
+      }
+    ]
+  }

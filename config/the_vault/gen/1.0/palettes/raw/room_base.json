@@ -1,0 +1,32 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:raw/wooden_chest_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:raw/gilded_chest_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:raw/living_chest_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:raw/ornate_chest_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:raw/coin_stack_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:raw/ore_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawner_base"
+        }
+    ]
+}

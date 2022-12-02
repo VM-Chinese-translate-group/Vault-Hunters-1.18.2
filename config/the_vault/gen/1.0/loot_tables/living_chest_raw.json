@@ -1,0 +1,283 @@
+{
+    "entries": [
+      {
+        "roll": {
+          "type": "uniform",
+          "min": 4,
+          "max": 6
+        },
+        "pool": [
+          { "weight": 70,
+            "pool": [
+              {
+                  "weight": 16,
+                  "item": {
+                  "id": "minecraft:cooked_porkchop",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                  }
+              },
+              {
+                  "weight": 32,
+                  "item": {
+                  "id": "minecraft:apple",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                  }
+              },
+              {
+                "weight": 12,
+                "item": {
+                "id": "minecraft:feather",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+                }
+              },
+              {
+                "weight": 12,
+                "item": {
+                  "id": "minecraft:string",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 3
+                    }
+                }
+              },
+              {
+                "weight": 12,
+                "item": {
+                  "id": "minecraft:rotten_flesh",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 3
+                    }
+                }
+              },
+              {
+                "weight": 8,
+                "item": {
+                  "id": "minecraft:bone",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 3
+                    }
+                }
+              },
+              {
+                "weight": 2,
+                "item": {
+                  "id": "minecraft:leather",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 2,
+                "item": {
+                  "id": "minecraft:rabbit_hide",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:snowball",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "the_vault:vault_meat",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              }
+            ]
+          },
+          { "weight": 20,
+            "pool": [
+              {
+                "weight": 10,
+                "item": {
+                  "id": "minecraft:potion",
+                  "nbt": "{Potion:\"minecraft:healing\"}",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 3
+                    }
+                }
+              },
+              {
+                "weight": 10,
+                "item": {
+                  "id": "minecraft:experience_bottle",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 5
+                    }
+                }
+              },
+              {
+                "weight": 16,
+                "item": {
+                  "id": "minecraft:ender_pearl",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 12,
+                "item": {
+                  "id": "minecraft:slime_ball",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 6,
+                "item": {
+                  "id": "minecraft:egg",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              }
+            ]
+          },
+          { "weight": 8,
+            "pool": [
+              {
+                  "weight": 16,
+                  "item": {
+                    "id": "minecraft:gunpowder",
+                    "count": {
+                      "type": "uniform",
+                      "min": 1,
+                      "max": 2
+                      }
+                  }
+              },
+              {
+                "weight": 8,
+                "item": {
+                  "id": "minecraft:golden_carrot",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "minecraft:blaze_rod",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 2,
+                "item": {
+                  "id": "minecraft:golden_apple",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              }
+            ]
+          },
+          { "weight": 2,
+            "pool": [
+              {
+                  "weight": 6,
+                  "item": {
+                    "id": "minecraft:shulker_shell",
+                    "count": {
+                      "type": "uniform",
+                      "min": 1,
+                      "max": 1
+                      }
+                  }
+              },
+              {
+                "weight": 4,
+                "item": {
+                  "id": "the_vault:mystery_egg",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 2,
+                "item": {
+                  "id": "minecraft:bundle",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              },
+              {
+                "weight": 1,
+                "item": {
+                  "id": "minecraft:axolotl_bucket",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,154 @@
+{
+  "keys": [
+    {
+      "id": "the_vault:classic_vault_plastic",
+      "name": "Ice",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_plastic.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ice",
+      "name": "Ice",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ice.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ice_cave",
+      "name": "Ice Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ice_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave",
+      "name": "Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_lush_cave",
+      "name": "Lush Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_lush_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_living_cave",
+      "name": "Living Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_living_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_crimson",
+      "name": "Nether Crimson",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_crimson.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_warped",
+      "name": "Nether Warped",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_warped.json"
+    },
+    {
+      "id": "the_vault:classic_vault_desert",
+      "name": "Desert",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_desert.json"
+    },
+    {
+      "id": "the_vault:classic_vault_sandy_cave",
+      "name": "Sandy Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_sandy_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_beach",
+      "name": "Beach",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_beach.json"
+    },
+    {
+      "id": "the_vault:classic_vault_mesa",
+      "name": "Mesa",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_mesa.json"
+    },
+    {
+      "id": "the_vault:classic_vault_deep_mesa",
+      "name": "Deep Mesa",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_deep_mesa.json"
+    },
+    {
+      "id": "the_vault:classic_vault_void",
+      "name": "Void",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_factory_void",
+      "name": "Classic Vault Factory Void",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_factory_void.json"
+    },
+    {
+      "id": "the_vault:diy_vault_lush_cave",
+      "name": "DIY Lush Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_lush_cave.json"
+    },
+    {
+      "id": "the_vault:diy_vault_cave",
+      "name": "DIY Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_cave.json"
+    },
+    {
+      "id": "the_vault:diy_vault_desert",
+      "name": "DIY Desert",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_desert.json"
+    },
+    {
+      "id": "the_vault:diy_vault_ice",
+      "name": "DIY Ice",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_ice.json"
+    },
+    {
+      "id": "the_vault:diy_vault_mesa",
+      "name": "DIY Mesa",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_mesa.json"
+    },
+    {
+      "id": "the_vault:diy_vault_nether_crimson",
+      "name": "DIY Nether Crimson",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_nether_crimson.json"
+    },
+    {
+      "id": "the_vault:diy_vault_nether_warped",
+      "name": "DIY Nether Warped",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_nether_warped.json"
+    },
+    {
+      "id": "the_vault:diy_vault_void",
+      "name": "DIY Void",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_deepslate",
+      "name": "Classic Vault Cave Deepslate",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_deepslate.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_geode",
+      "name": "Classic Vault Cave Geode",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_geode.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_wasteland",
+      "name": "Classic Vault Cave Wasteland",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_wasteland.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave",
+      "name": "Raw Vault Cave",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_end_void",
+      "name": "Classic Vault End Void",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_end_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_blackstone",
+      "name": "Classic Vault Nether Blackstone",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_blackstone.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_soul",
+      "name": "Classic Vault Nether Soul",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_soul.json"
+    }
+  ]
+}

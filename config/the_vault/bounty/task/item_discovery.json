@@ -1,0 +1,376 @@
+{
+  "LEVELS": {
+    "0": {
+      "pool": [
+        {
+          "value": {
+            "value": "the_vault:vault_diamond",
+            "amount": {
+              "min": 4,
+              "max": 18
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_meat",
+            "amount": {
+              "min": 12,
+              "max": 36
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "minecraft:shulker_shell",
+            "amount": {
+              "min": 3,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_essence",
+            "amount": {
+              "min": 15,
+              "max": 36
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:knowledge_star_essence",
+            "amount": {
+              "min": 4,
+              "max": 18
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "value": "the_vault:skill_essence",
+            "amount": {
+              "min": 4,
+              "max": 18
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_red_scroll",
+            "amount": {
+              "min": 4,
+              "max": 18
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_drowned_hide",
+            "amount": {
+              "min": 4,
+              "max": 18
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_zombie_hide",
+            "amount": {
+              "min": 4,
+              "max": 18
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_ripped_page",
+            "amount": {
+              "min": 4,
+              "max": 18
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_pottery_shard",
+            "amount": {
+              "min": 4,
+              "max": 18
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "the_vault:silver_scrap",
+            "amount": {
+              "min": 3,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:hunter_eye",
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_apple",
+            "amount": {
+              "min": 9,
+              "max": 27
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        }
+      ]
+    },
+    "10": {
+      "pool": [
+        {
+          "value": {
+            "value": "the_vault:vault_diamond",
+            "amount": {
+              "min": 8,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_meat",
+            "amount": {
+              "min": 24,
+              "max": 48
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "minecraft:shulker_shell",
+            "amount": {
+              "min": 4,
+              "max": 12
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_essence",
+            "amount": {
+              "min": 8,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:knowledge_star_essence",
+            "amount": {
+              "min": 80,
+              "max": 121
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "value": "the_vault:skill_essence",
+            "amount": {
+              "min": 80,
+              "max": 121
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_red_scroll",
+            "amount": {
+              "min": 8,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_drowned_hide",
+            "amount": {
+              "min": 8,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_zombie_hide",
+            "amount": {
+              "min": 8,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_ripped_page",
+            "amount": {
+              "min": 8,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "value": "the_vault:scavenger_pottery_shard",
+            "amount": {
+              "min": 8,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "the_vault:silver_scrap",
+            "amount": {
+              "min": 8,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:hunter_eye",
+            "amount": {
+              "min": 4,
+              "max": 9
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 2
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_apple",
+            "amount": {
+              "min": 17,
+              "max": 36
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true
+          },
+          "weight": 6
+        }
+      ]
+    }
+  }
+}

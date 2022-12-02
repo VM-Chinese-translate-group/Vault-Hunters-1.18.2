@@ -1,0 +1,91 @@
+{
+  "DAMAGE_TAKEN_MODIFIERS": [
+    {
+      "isPercentage": true,
+      "isPositive": false,
+      "name": "damageTaken"
+    }
+  ],
+  "MONSTER_AMOUNT_MODIFIERS": [
+    {
+      "isPercentage": true,
+      "isPositive": false,
+      "name": "monsterAmount"
+    }
+  ],
+  "MONSTER_DAMAGE_MODIFIERS": [
+    {
+      "isPercentage": true,
+      "isPositive": false,
+      "name": "monsterDamage"
+    }
+  ],
+  "MONSTER_HEALTH_MODIFIERS": [
+    {
+      "isPercentage": true,
+      "isPositive": false,
+      "name": "monsterHealth"
+    }
+  ],
+  "MONSTER_SPEED_MODIFIERS": [
+    {
+      "isPercentage": true,
+      "isPositive": false,
+      "name": "monsterSpeed"
+    }
+  ],
+  "MONSTER_LEVEL_MODIFIERS": [
+    {
+      "isPercentage": false,
+      "isPositive": false,
+      "name": "monsterLevel"
+    }
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "modifiers": [
+        {
+          "value": {
+            "modifier": "monsterAmount",
+            "minValue": 0.2,
+            "maxValue": 0.2
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "monsterDamage",
+            "minValue": 0.1,
+            "maxValue": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "monsterHealth",
+            "minValue": 0.2,
+            "maxValue": 0.2
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "monsterSpeed",
+            "minValue": 0.1,
+            "maxValue": 0.1
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "modifier": "monsterLevel",
+            "minValue": 50,
+            "maxValue": 50
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

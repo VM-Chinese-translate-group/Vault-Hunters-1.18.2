@@ -1,0 +1,66 @@
+{
+    "tile_processors": [
+      {
+        "type": "placeholder",
+        "target": "ORE",
+        "levels": [
+          {
+            "level": 0,
+            "probability": 0.15,
+            "success": {
+              "the_vault:ore_painite[generated=true]": 40,
+              "the_vault:ore_alexandrite[generated=true]": 80,
+              "the_vault:ore_wutodie[generated=true]": 40,
+              "the_vault:ore_benitoite[generated=true]": 130,
+              "the_vault:ore_larimar[generated=true]": 300,
+              "the_vault:ore_black_opal[generated=true]": 20,
+              "the_vault:ore_echo[generated=true]": 1,
+              "the_vault:ore_iskallium[generated=true]": 5,
+              "the_vault:ore_gorginite[generated=true]": 5,
+              "the_vault:ore_ashium[generated=true]": 5,
+              "the_vault:ore_sparkletine[generated=true]": 5,
+              "the_vault:ore_bomignite[generated=true]": 5,
+              "the_vault:ore_tubium[generated=true]": 5,
+              "the_vault:ore_upaline[generated=true]": 5,
+              "the_vault:ore_xenium[generated=true]": 5,
+              "the_vault:ore_petzanite[generated=true]": 5
+            },
+            "failure": {
+              "minecraft:stone": 3,
+              "minecraft:andesite": 1,
+              "minecraft:cobblestone": 1
+            }
+          },
+          {
+            "level": 11,
+            "probability": 0.24,
+            "success": {
+              "the_vault:ore_painite[generated=true]": 120,
+              "the_vault:ore_alexandrite[generated=true]": 80,
+              "the_vault:ore_wutodie[generated=true]": 40,
+              "the_vault:ore_benitoite[generated=true]": 130,
+              "the_vault:ore_larimar[generated=true]": 300,
+              "the_vault:ore_black_opal[generated=true]": 20,
+              "the_vault:ore_echo[generated=true]": 2,
+              "the_vault:ore_iskallium[generated=true]": 8,
+              "the_vault:ore_gorginite[generated=true]": 8,
+              "the_vault:ore_ashium[generated=true]": 8,
+              "the_vault:ore_sparkletine[generated=true]": 8,
+              "the_vault:ore_bomignite[generated=true]": 8,
+              "the_vault:ore_tubium[generated=true]": 8,
+              "the_vault:ore_upaline[generated=true]": 8,
+              "the_vault:ore_xenium[generated=true]": 8,
+              "the_vault:ore_petzanite[generated=true]": 8
+            },
+            "failure": {
+              "minecraft:stone": 3,
+              "minecraft:andesite": 1,
+              "minecraft:cobblestone": 1
+            }
+          }
+        ]
+      }
+    ],
+    "entity_processors": [],
+    "decorators": []
+  }

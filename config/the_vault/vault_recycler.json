@@ -1,0 +1,62 @@
+{
+  "processingTickTime": 20,
+  "additionalOutputRarityChances": {
+    "SCRAPPY": 0.0,
+    "COMMON": 0.05,
+    "RARE": 0.1,
+    "EPIC": 0.15,
+    "OMEGA": 0.2
+  },
+  "gearRecyclingOutput": {
+    "mainOutput": {
+      "chance": 1.0,
+      "stack": {
+        "item": "the_vault:vault_scrap"
+      },
+      "minCount": 4,
+      "maxCount": 8
+    },
+    "extraOutput1": {
+      "chance": 0.5,
+      "stack": {
+        "item": "the_vault:wild_focus"
+      },
+      "minCount": 1,
+      "maxCount": 2
+    },
+    "extraOutput2": {
+      "chance": 0.1,
+      "stack": {
+        "item": "the_vault:faceted_focus"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    }
+  },
+  "trinketRecyclingOutput": {
+    "mainOutput": {
+      "chance": 1.0,
+      "stack": {
+        "item": "the_vault:trinket_scrap"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "extraOutput1": {
+      "chance": 0.2,
+      "stack": {
+        "item": "the_vault:vault_scrap"
+      },
+      "minCount": 1,
+      "maxCount": 3
+    },
+    "extraOutput2": {
+      "chance": 0.01,
+      "stack": {
+        "item": "the_vault:gem_pog"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    }
+  }
+}

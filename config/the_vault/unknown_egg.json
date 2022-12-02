@@ -1,0 +1,156 @@
+{
+  "OVERRIDES": [
+    { "MIN_LEVEL": 0,
+      "EGG_POOL": [
+        {
+          "value": "minecraft:zombie_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:spider_spawn_egg",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 15,
+      "EGG_POOL": [
+        {
+          "value": "minecraft:zombie_spawn_egg",
+          "weight": 8
+        },
+        {
+          "value": "minecraft:spider_spawn_egg",
+          "weight": 2
+        },
+        {
+          "value": "minecraft:creeper_spawn_egg",
+          "weight": 2
+        },
+        {
+          "value": "minecraft:skeleton_spawn_egg",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 30,
+      "EGG_POOL": [
+        {
+          "value": "minecraft:zombie_spawn_egg",
+          "weight": 24
+        },
+        {
+          "value": "minecraft:spider_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:creeper_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:skeleton_spawn_egg",
+          "weight": 2
+        },
+        {
+          "value": "minecraft:witch_spawn_egg",
+          "weight": 1
+        }
+      ]
+    },
+    { "MIN_LEVEL": 50,
+      "EGG_POOL": [
+        {
+          "value": "minecraft:zombie_spawn_egg",
+          "weight": 24
+        },
+        {
+          "value": "minecraft:spider_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:creeper_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:skeleton_spawn_egg",
+          "weight": 2
+        },
+        {
+          "value": "minecraft:witch_spawn_egg",
+          "weight": 1
+        },
+        {
+          "value": "minecraft:husk_spawn_egg",
+          "weight": 6
+        }
+      ]
+    },
+    { "MIN_LEVEL": 115,
+      "EGG_POOL": [
+        {
+          "value": "minecraft:zombie_spawn_egg",
+          "weight": 24
+        },
+        {
+          "value": "minecraft:spider_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:creeper_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:skeleton_spawn_egg",
+          "weight": 2
+        },
+        {
+          "value": "minecraft:witch_spawn_egg",
+          "weight": 1
+        },
+        {
+          "value": "minecraft:husk_spawn_egg",
+          "weight": 6
+        },
+        {
+          "value": "minecraft:stray_spawn_egg",
+          "weight": 6
+        }
+      ]
+    },
+    { "MIN_LEVEL": 255,
+      "EGG_POOL": [
+        {
+          "value": "minecraft:zombie_spawn_egg",
+          "weight": 18
+        },
+        {
+          "value": "minecraft:spider_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:creeper_spawn_egg",
+          "weight": 4
+        },
+        {
+          "value": "minecraft:skeleton_spawn_egg",
+          "weight": 2
+        },
+        {
+          "value": "minecraft:witch_spawn_egg",
+          "weight": 1
+        },
+        {
+          "value": "minecraft:husk_spawn_egg",
+          "weight": 6
+        },
+        {
+          "value": "minecraft:stray_spawn_egg",
+          "weight": 6
+        },
+        {
+          "value": "minecraft:piglin_brute_spawn_egg",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/lush_cave_starts",
+  "rooms": "the_vault:vault/rooms/lush_cave_rooms",
+  "tunnels": "the_vault:vault/tunnels/lush_cave_tunnels",
+  "ambient_light": 0.035,
+  "fog_color": 207872,
+  "grass_color": 8625214,
+  "foliage_color": 6659372,
+  "water_color": 1857581,
+  "water_fog_color": 2718792,
+  "particle": "minecraft:spore_blossom_air",
+  "particle_probability": 0.001
+}

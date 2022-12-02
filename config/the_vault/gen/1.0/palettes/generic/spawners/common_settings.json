@@ -1,0 +1,61 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/generic_settings"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 2 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { PlayerRadius: 10 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner": 4,
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 2 } } } }": 3,
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 3 } } } }": 3
+                        
+                    }
+                },
+                {
+                    "level": 30,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner": 4,
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 3 } } } }": 3,
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 4 } } } }": 3
+                        
+                    }
+                }
+            ]
+        }
+    ]
+}

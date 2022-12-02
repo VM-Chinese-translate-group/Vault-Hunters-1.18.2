@@ -1,0 +1,920 @@
+{
+  "mobPools": {
+    "f1": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:zombie",
+              "weight": 1
+            }
+          ]
+        }
+      }
+    ],
+    "f2": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:zombie",
+              "weight": 4
+            },
+            {
+              "value": "minecraft:husk",
+              "weight": 2
+            }
+          ]
+        }
+      }
+    ],
+    "f3": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:husk",
+              "weight": 4
+            },
+            {
+              "value": "minecraft:stray",
+              "weight": 2
+            }
+          ]
+        }
+      }
+    ],
+    "f4": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:vault_fighter_2",
+              "weight": 4
+            },
+            {
+              "value": "minecraft:stray",
+              "weight": 2
+            }
+          ]
+        }
+      }
+    ],
+    "f5": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:vault_fighter_3",
+              "weight": 4
+            },
+            {
+              "value": "minecraft:stray",
+              "weight": 2
+            }
+          ]
+        }
+      }
+    ],
+    "f6": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:spider",
+              "weight": 4
+            },
+            {
+              "value": "minecraft:stray",
+              "weight": 2
+            }
+          ]
+        }
+      }
+    ],
+    "f7": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:spider",
+              "weight": 4
+            },
+            {
+              "value": "the_vault:vault_fighter_3",
+              "weight": 2
+            }
+          ]
+        }
+      }
+    ],
+    "f8": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:vault_fighter_4",
+              "weight": 4
+            },
+            {
+              "value": "minecraft:stray",
+              "weight": 2
+            }
+          ]
+        }
+      }
+    ],
+    "wutax": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:zombie",
+              "weight": 1
+            }
+          ]
+        }
+      },
+      {
+        "level": 50,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:zombie",
+              "weight": 2
+            },
+            {
+              "value": "minecraft:vindicator",
+              "weight": 1
+            }
+          ]
+        }
+      }
+    ],
+    "fravager": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:ravager",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fvex": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:vex",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fstray": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:stray",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fpillager": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:pillager",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fzombie": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:zombie",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fhusk": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:husk",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fevoker": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:evoker",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fillusioner": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:illusioner",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fguardian": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:vault_guardian",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fboogie": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:boogieman",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fsoulblaze": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:blue_blaze",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "frobot": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:robot",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fspider": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:spider",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "fbrute": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "minecraft:piglin_brute",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "ffighter2": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:vault_fighter_2",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "ffighter3": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:vault_fighter_3",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "ffighter4": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:vault_fighter_4",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ],
+    "ffighter5": [
+      {
+        "level": 0,
+        "mobPool": {
+          "mobs": [
+            {
+              "value": "the_vault:vault_fighter_5",
+              "weight": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "raidWaves": [
+    { "_raid 1": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 16,
+              "max": 24,
+              "mobPool": "fzombie"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 16,
+              "max": 24,
+              "mobPool": "fzombie"
+            },
+            {
+              "min": 3,
+              "max": 6,
+              "mobPool": "fstray"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 16,
+              "max": 24,
+              "mobPool": "fhusk"
+            },
+            {
+              "min": 3,
+              "max": 6,
+              "mobPool": "fstray"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 2": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 12,
+              "max": 16,
+              "mobPool": "ffighter2"
+            },
+            {
+              "min": 4,
+              "max": 6,
+              "mobPool": "fstray"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 14,
+              "max": 18,
+              "mobPool": "ffighter2"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fvex"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fvex"
+            },
+            {
+              "min": 3,
+              "max": 5,
+              "mobPool": "fpillager"
+            },
+            {
+              "min": 10,
+              "max": 12,
+              "mobPool": "ffighter2"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 3": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 10,
+              "max": 12,
+              "mobPool": "ffighter2"
+            },
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fillusioner"
+            },
+            {
+              "min": 3,
+              "max": 6,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 10,
+              "max": 12,
+              "mobPool": "ffighter3"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fvex"
+            },
+            {
+              "min": 3,
+              "max": 6,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 16,
+              "max": 24,
+              "mobPool": "fhusk"
+            },
+            {
+              "min": 4,
+              "max": 8,
+              "mobPool": "fvex"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 4": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fevoker"
+            },
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fillusioner"
+            },
+            {
+              "min": 4,
+              "max": 8,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 10,
+              "max": 12,
+              "mobPool": "ffighter3"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fvex"
+            },
+            {
+              "min": 5,
+              "max": 9,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fguardian"
+            },
+            {
+              "min": 2,
+              "max": 2,
+              "mobPool": "fillusioner"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 5": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 6,
+              "max": 12,
+              "mobPool": "fspider"
+            },
+            {
+              "min": 4,
+              "max": 8,
+              "mobPool": "fstray"
+            },
+            {
+              "min": 3,
+              "max": 6,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 12,
+              "max": 16,
+              "mobPool": "fspider"
+            },
+            {
+              "min": 6,
+              "max": 10,
+              "mobPool": "fstray"
+            },
+            {
+              "min": 3,
+              "max": 6,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fguardian"
+            },
+            {
+              "min": 12,
+              "max": 16,
+              "mobPool": "fspider"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 6": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 2,
+              "max": 2,
+              "mobPool": "fillusioner"
+            },
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fguardian"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 3,
+              "max": 5,
+              "mobPool": "fevoker"
+            },
+            {
+              "min": 4,
+              "max": 8,
+              "mobPool": "fbrute"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 6,
+              "max": 8,
+              "mobPool": "fvex"
+            },
+            {
+              "min": 12,
+              "max": 16,
+              "mobPool": "fbrute"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 7": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fravager"
+            },
+            {
+              "min": 4,
+              "max": 8,
+              "mobPool": "fstray"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 4,
+              "max": 8,
+              "mobPool": "fbrute"
+            },
+            {
+              "min": 8,
+              "max": 12,
+              "mobPool": "ffighter4"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fravager"
+            },
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fguardian"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fpillager"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 8": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 6,
+              "max": 12,
+              "mobPool": "fbrute"
+            },
+            {
+              "min": 6,
+              "max": 12,
+              "mobPool": "fstray"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fillusioner"
+            },
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fravager"
+            },
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fguardian"
+            },
+            {
+              "min": 2,
+              "max": 4,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 14,
+              "max": 16,
+              "mobPool": "fspider"
+            },
+            {
+              "min": 6,
+              "max": 16,
+              "mobPool": "fpillager"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 9": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fravager"
+            },
+            {
+              "min": 4,
+              "max": 6,
+              "mobPool": "fevoker"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fravager"
+            },
+            {
+              "min": 4,
+              "max": 6,
+              "mobPool": "fevoker"
+            },
+            {
+              "min": 6,
+              "max": 10,
+              "mobPool": "fpillager"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 3,
+              "max": 4,
+              "mobPool": "fillusioner"
+            },
+            {
+              "min": 6,
+              "max": 8,
+              "mobPool": "fevoker"
+            }
+          ]
+        }
+      ]
+    },
+    { "_raid 10": [{}],
+      "waves": [
+        {
+          "waveMobs": [
+            {
+              "min": 20,
+              "max": 24,
+              "mobPool": "ffighter5"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fboogie"
+            },
+            {
+              "min": 1,
+              "max": 1,
+              "mobPool": "fsoulblaze"
+            }
+          ]
+        },
+        {
+          "waveMobs": [
+            {
+              "min": 2,
+              "max": 2,
+              "mobPool": "frobot"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

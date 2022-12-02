@@ -1,0 +1,736 @@
+{
+  "MODIFIER_STABILITY": {
+    "craftsBeforeInstability": 5,
+    "instabilityPerCraft": 0.1,
+    "instabilityCap": 0.9,
+    "curseInstabilityThreshold": 0.4,
+    "curseChanceMin": 0.25,
+    "curseChanceMax": 0.75,
+    "curseColor": "#9C6E3B"
+  },
+  "MOTES": {
+    "clarityLevelCost": 1,
+    "purityLevelCost": 2,
+    "sanctityLevelCost": 4
+  },
+  "THEMES": {
+    "the_vault:default": [
+      {
+        "minLevel": 0,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_ice",
+            "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_ice_cave",
+            "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_cave",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_cave_deepslate",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_cave_geode",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_cave_wasteland",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_lush_cave",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_living_cave",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_desert",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_sandy_cave",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_beach",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_mesa",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_deep_mesa",
+            "weight": 4
+          }
+        ]
+      },
+      {
+        "minLevel": 20,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_ice",
+            "weight": 6
+          },
+          {
+            "value": "the_vault:classic_vault_ice_cave",
+            "weight": 6
+          },
+          {
+            "value": "the_vault:classic_vault_cave",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_cave_deepslate",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_cave_geode",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_cave_wasteland",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_lush_cave",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_living_cave",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_desert",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_sandy_cave",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_beach",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_mesa",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_deep_mesa",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_nether_crimson",
+            "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_nether_warped",
+            "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_nether_blackstone",
+            "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_nether_soul",
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "minLevel": 30,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_ice",
+            "weight": 6
+          },
+          {
+            "value": "the_vault:classic_vault_ice_cave",
+            "weight": 6
+          },
+          {
+            "value": "the_vault:classic_vault_cave",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_cave_deepslate",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_cave_geode",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_cave_wasteland",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_lush_cave",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_living_cave",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_desert",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_sandy_cave",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_beach",
+            "weight": 16
+          },
+          {
+            "value": "the_vault:classic_vault_mesa",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_deep_mesa",
+            "weight": 8
+          },
+          {
+            "value": "the_vault:classic_vault_nether_crimson",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_nether_warped",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_nether_blackstone",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_nether_soul",
+            "weight": 4
+          },
+          {
+            "value": "the_vault:classic_vault_void",
+            "weight": 2
+          },
+          {
+            "value": "the_vault:classic_vault_end_void",
+            "weight": 2
+          },
+          {
+            "value": "the_vault:classic_vault_factory_void",
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "the_vault:speedrun": [
+      {
+        "minLevel": 0,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_plastic",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:diy": [
+      {
+        "minLevel": 0,
+        "pool": [
+          {
+            "value": "the_vault:diy_vault_ice",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:diy_vault_cave",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:diy_vault_lush_cave",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:diy_vault_nether_crimson",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:diy_vault_nether_warped",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:diy_vault_desert",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:diy_vault_mesa",
+            "weight": 1
+          },
+          {
+            "value": "the_vault:diy_vault_void",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:raw": [
+      {
+        "minLevel": 0,
+        "pool": [
+          {
+            "value": "the_vault:raw_vault_cave",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "LAYOUTS": [
+    {
+      "minLevel": 0,
+      "pool": [
+        {
+          "value": {
+
+            "type": "circle",
+            "tunnel_span": 1,
+            "radius": 4
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "type": "spiral",
+            "tunnel_span": 1,
+            "half_length": 4,
+            "rotation": "CLOCKWISE_90"
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "type": "infinite",
+            "tunnel_span": 1
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "type": "polygon",
+            "tunnel_span": 1,
+            "vertices": [
+              {
+                "x": -4,
+                "z": 4
+              },
+              {
+                "x": 4,
+                "z": 4
+              },
+              {
+                "x": 4,
+                "z": -4
+              },
+              {
+                "x": -4,
+                "z": -4
+              }
+            ]
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "type": "polygon",
+            "tunnel_span": 1,
+            "vertices": [
+              {
+                "x": -4,
+                "z": 0
+              },
+              {
+                "x": 0,
+                "z": 4
+              },
+              {
+                "x": 4,
+                "z": 0
+              },
+              {
+                "x": 0,
+                "z": -4
+              }
+            ]
+          },
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "minLevel": 10,
+      "pool": [
+        {
+          "value": {
+            "type": "circle",
+            "tunnel_span": 1,
+            "radius": 6
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "type": "spiral",
+            "tunnel_span": 1,
+            "half_length": 4,
+            "rotation": "CLOCKWISE_90"
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "type": "infinite",
+            "tunnel_span": 1
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "type": "polygon",
+            "tunnel_span": 1,
+            "vertices": [
+              {
+                "x": -6,
+                "z": 6
+              },
+              {
+                "x": 6,
+                "z": 6
+              },
+              {
+                "x": 6,
+                "z": -6
+              },
+              {
+                "x": -6,
+                "z": -6
+              }
+            ]
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "type": "polygon",
+            "tunnel_span": 1,
+            "vertices": [
+              {
+                "x": -6,
+                "z": 0
+              },
+              {
+                "x": 0,
+                "z": 6
+              },
+              {
+                "x": 6,
+                "z": 0
+              },
+              {
+                "x": 0,
+                "z": -6
+              }
+            ]
+          },
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "minLevel": 25,
+      "pool": [
+        {
+          "value": {
+            "type": "circle",
+            "tunnel_span": 1,
+            "radius": 8
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "type": "spiral",
+            "tunnel_span": 1,
+            "half_length": 4,
+            "rotation": "CLOCKWISE_90"
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "type": "infinite",
+            "tunnel_span": 1
+          },
+          "weight": 0
+        },
+        {
+          "value": {
+            "type": "polygon",
+            "tunnel_span": 1,
+            "vertices": [
+              {
+                "x": -8,
+                "z": 8
+              },
+              {
+                "x": 8,
+                "z": 8
+              },
+              {
+                "x": 8,
+                "z": -8
+              },
+              {
+                "x": -8,
+                "z": -8
+              }
+            ]
+          },
+          "weight": 100
+        },
+        {
+          "value": {
+            "type": "polygon",
+            "tunnel_span": 1,
+            "vertices": [
+              {
+                "x": -8,
+                "z": 0
+              },
+              {
+                "x": 0,
+                "z": 8
+              },
+              {
+                "x": 8,
+                "z": 0
+              },
+              {
+                "x": 0,
+                "z": -8
+              }
+            ]
+          },
+          "weight": 100
+        }
+      ]
+    }
+  ],
+  "OBJECTIVES": [
+    {
+      "minLevel": 0,
+      "pool": [
+        {
+          "value": {
+            "type": "monolith",
+            "objective_probability": 0.15,
+            "target": {
+              "type": "uniform",
+              "min": 2,
+              "max": 4
+            }
+          },
+          "weight": 8
+        },
+        {
+          "value": {
+            "type": "boss",
+            "objective_probability": 0.15,
+            "target": {
+              "type": "uniform",
+              "min": 3,
+              "max": 6
+            }
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "type": "scavenger",
+            "objective_probability": 0.25
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "minLevel": 10,
+      "pool": [
+        {
+          "value": {
+            "type": "boss",
+            "objective_probability": 0.15,
+            "target": {
+              "type": "uniform",
+              "min": 3,
+              "max": 6
+            }
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "scavenger",
+            "objective_probability": 0.25
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "type": "monolith",
+            "objective_probability": 0.15,
+            "target": {
+              "type": "uniform",
+              "min": 2,
+              "max": 4
+            }
+          },
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "SEALS": {
+    "the_vault:crystal_seal_executioner": [
+      {
+        "level": 0,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "boss",
+          "objective_probability": 0.15,
+          "target": {
+            "type": "uniform",
+            "min": 3,
+            "max": 6
+          }
+        },
+        "layout": {
+          "type": "infinite",
+          "tunnel_span": 1
+        },
+        "theme": {
+          "type": "pool",
+          "id": "the_vault:default"
+        }
+      }
+    ],
+    "the_vault:crystal_seal_hunter": [
+      {
+        "level": 0,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "scavenger",
+          "objective_probability": 0.3
+        },
+        "theme": {
+          "type": "pool",
+          "id": "the_vault:default"
+        }
+      }
+    ],
+    "the_vault:crystal_seal_cake": [
+      {
+        "level": 0,
+        "preventRandomModifiers": true,
+        "canBeModified": false,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "cake",
+          "target": {
+            "type": "uniform",
+            "min": 20,
+            "max": 40
+          }
+        },
+        "layout": {
+          "objective_probability": 0.1,
+          "type": "spiral",
+          "tunnel_span": 1,
+          "half_length": 99,
+          "rotation": "CLOCKWISE_90"
+        }
+      }
+    ],
+    "the_vault:crystal_seal_speedrun": [
+      {
+        "level": 0,
+        "preventRandomModifiers": true,
+        "canBeModified": false,
+        "input": [
+          "the_vault:vault_rock"
+        ],
+        "objective": {
+          "type": "speedrun",
+          "objective_probability": 0.2,
+          "target": {
+            "type": "constant",
+            "count": 3
+          }
+        },
+        "layout": {
+          "type": "polygon",
+          "tunnel_span": 1,
+          "vertices": [
+            {
+              "x": -10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": 10
+            },
+            {
+              "x": 10,
+              "z": 0
+            },
+            {
+              "x": 0,
+              "z": -10
+            }
+          ]
+        },
+        "theme": {
+          "type": "pool",
+          "id": "the_vault:speedrun"
+        },
+        "modifiers": [
+          {
+            "modifier": "the_vault:wild",
+            "count": 3
+          },
+          {
+            "modifier": "the_vault:rotten",
+            "count": 1
+          },
+          {
+            "modifier": "the_vault:afterlife",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,996 @@
+{
+  "HASTE": {
+    "name": "Haste",
+    "levels": [
+      {
+        "effect": "minecraft:haste",
+        "amplifier": 1,
+        "cost": 2,
+        "regretCost": 2,
+        "levelRequirement": 0,
+        "type": "icon_only"
+      },
+      {
+        "effect": "minecraft:haste",
+        "amplifier": 2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 10,
+        "type": "icon_only"
+      },
+      {
+        "effect": "minecraft:haste",
+        "amplifier": 3,
+        "cost": 5,
+        "regretCost": 2,
+        "levelRequirement": 20,
+        "type": "icon_only"
+      }
+    ]
+  },
+  "STRENGTH": {
+    "name": "Strength",
+    "levels": [
+      {
+        "effect": "minecraft:strength",
+        "amplifier": 1,
+        "cost": 2,
+        "regretCost": 2,
+        "levelRequirement": 0,
+        "type": "icon_only"
+      },
+      {
+        "effect": "minecraft:strength",
+        "amplifier": 2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 10,
+        "type": "icon_only"
+      },
+      {
+        "effect": "minecraft:strength",
+        "amplifier": 3,
+        "cost": 5,
+        "regretCost": 2,
+        "levelRequirement": 30,
+        "type": "icon_only"
+      }
+    ]
+  },
+  "SPEED": {
+    "name": "Speed",
+    "levels": [
+      {
+        "effect": "minecraft:speed",
+        "amplifier": 1,
+        "cost": 2,
+        "regretCost": 2,
+        "levelRequirement": 0,
+        "type": "icon_only"
+      },
+      {
+        "effect": "minecraft:speed",
+        "amplifier": 2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 10,
+        "type": "icon_only"
+      },
+      {
+        "effect": "minecraft:speed",
+        "amplifier": 3,
+        "cost": 5,
+        "regretCost": 2,
+        "levelRequirement": 50,
+        "type": "icon_only"
+      }
+    ]
+  },
+  "REACH": {
+    "name": "Reach",
+    "levels": [
+      {
+        "attribute": "forge:reach_distance",
+        "modifier": {
+          "id": "811a6bc0-b660-4111-9455-05fcea2cdf88",
+          "name": "generic.reachDistance I",
+          "amount": 1.0,
+          "operation": 0
+        },
+        "cost": 2,
+        "regretCost": 2,
+        "levelRequirement": 10
+      },
+      {
+        "attribute": "forge:reach_distance",
+        "modifier": {
+          "id": "ec4081bd-f35f-4243-9fa2-c10a480527a8",
+          "name": "generic.reachDistance II",
+          "amount": 2.0,
+          "operation": 0
+        },
+        "cost": 3,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attribute": "forge:reach_distance",
+        "modifier": {
+          "id": "ea59cc8c-1fb2-4af8-af85-b3130180a544",
+          "name": "generic.reachDistance III",
+          "amount": 3.0,
+          "operation": 0
+        },
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 30
+      }
+    ]
+  },
+  "UNBREAKABLE": {
+    "name": "Unbreakable",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.07
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.14
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.21
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.28
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      }
+    ]
+  },
+  "STONE_SKIN": {
+    "name": "Stone Skin",
+    "levels": [
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+          "id": "f759e60c-e393-475b-aa1c-fd0f7f172d95",
+          "name": "attribute.name.generic.knockback_resistance I",
+          "amount": 0.1,
+          "operation": 0
+        },
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+          "id": "30752676-5c82-48b8-8ae7-d6b99e96530d",
+          "name": "attribute.name.generic.knockback_resistance II",
+          "amount": 0.2,
+          "operation": 0
+        },
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 5
+      },
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+          "id": "7816a054-534d-42f9-b249-ddc52a7130c0",
+          "name": "attribute.name.generic.knockback_resistance III",
+          "amount": 0.3,
+          "operation": 0
+        },
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 10
+      },
+      {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "modifier": {
+          "id": "35346803-abf3-4260-b268-b26ecafbafee",
+          "name": "attribute.name.generic.knockback_resistance IV",
+          "amount": 0.4,
+          "operation": 0
+        },
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 20
+      }
+    ]
+  },
+  "CRITICAL_STRIKE": {
+    "name": "Critical Strike",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:critical_hit_chance",
+            "value": 0.25
+          }
+        ],
+        "cost": 1,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:critical_hit_chance",
+            "value": 0.5
+          }
+        ],
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:critical_hit_chance",
+            "value": 0.75
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:critical_hit_chance",
+            "value": 1.0
+          }
+        ],
+        "cost": 4,
+        "regretCost": 1,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "FATAL_STRIKE_CHANCE": {
+    "name": "Fatal Strike Chance",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:fatal_strike_chance",
+            "value": 0.03
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:fatal_strike_chance",
+            "value": 0.06
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:fatal_strike_chance",
+            "value": 0.09
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:fatal_strike_chance",
+            "value": 0.12
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      }
+    ]
+  },
+  "FATAL_STRIKE_DAMAGE": {
+    "name": "Fatal Strike Damage",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:fatal_strike_damage",
+            "value": 1.0
+          }
+        ],
+        "cost": 4,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:fatal_strike_damage",
+            "value": 1.25
+          }
+        ],
+        "cost": 4,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:fatal_strike_damage",
+            "value": 1.5
+          }
+        ],
+        "cost": 4,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:fatal_strike_damage",
+            "value": 1.75
+          }
+        ],
+        "cost": 4,
+        "regretCost": 1,
+        "levelRequirement": 25
+      }
+    ]
+  },
+  "THORNS_CHANCE": {
+    "name": "Thorns Chance",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:thorns_chance",
+            "value": 0.03
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:thorns_chance",
+            "value": 0.06
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:thorns_chance",
+            "value": 0.09
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:thorns_chance",
+            "value": 0.12
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      }
+    ]
+  },
+  "THORNS_DAMAGE": {
+    "name": "Thorns Damage",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:thorns_damage",
+            "value": 0.1
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:thorns_damage",
+            "value": 0.2
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:thorns_damage",
+            "value": 0.3
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:thorns_damage",
+            "value": 0.4
+          }
+        ],
+        "cost": 3,
+        "regretCost": 1,
+        "levelRequirement": 25
+      }
+    ]
+  },
+  "DAMAGE_UNDEAD": {
+    "name": "Undead Mastery",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_undead",
+            "value": 0.1
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_undead",
+            "value": 0.2
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_undead",
+            "value": 0.3
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_undead",
+            "value": 0.4
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_undead",
+            "value": 0.5
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      }
+    ]
+  },
+  "DAMAGE_SPIDERS": {
+    "name": "Arthropod Mastery",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_spiders",
+            "value": 0.1
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_spiders",
+            "value": 0.2
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_spiders",
+            "value": 0.3
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_spiders",
+            "value": 0.4
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_spiders",
+            "value": 0.5
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      }
+    ]
+  },
+  "DAMAGE_ILLAGERS": {
+    "name": "Illager Mastery",
+    "levels": [
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_illagers",
+            "value": 0.1
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_illagers",
+            "value": 0.2
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_illagers",
+            "value": 0.3
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_illagers",
+            "value": 0.4
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      },
+      {
+        "attributes": [
+          {
+            "attribute": "the_vault:damage_illagers",
+            "value": 0.5
+          }
+        ],
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 20
+      }
+    ]
+  },
+  "ANGEL": {
+    "name": "Angel",
+    "levels": [
+      {
+        "cost": 100,
+        "regretCost": 1,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "EXPERIENCED": {
+    "name": "Experienced",
+    "levels": [
+      {
+        "increasedExpPercentage": 0.5,
+        "cost": 1,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 1.0,
+        "cost": 1,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 1.5,
+        "cost": 1,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 2.0,
+        "cost": 1,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 3.0,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 4.0,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 5.0,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 6.0,
+        "cost": 2,
+        "regretCost": 2,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 12.0,
+        "cost": 8,
+        "regretCost": 2,
+        "levelRequirement": 0
+      },
+      {
+        "increasedExpPercentage": 18.0,
+        "cost": 8,
+        "regretCost": 2,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "LUCKY_ALTAR": {
+    "name": "Lucky Altar",
+    "levels": [
+      {
+        "luckyAltarChance": 0.1,
+        "cost": 4,
+        "regretCost": 8,
+        "levelRequirement": 50
+      },
+      {
+        "luckyAltarChance": 0.15,
+        "cost": 4,
+        "regretCost": 16,
+        "levelRequirement": 50
+      },
+      {
+        "luckyAltarChance": 0.2,
+        "cost": 4,
+        "regretCost": 24,
+        "levelRequirement": 50
+      },
+      {
+        "luckyAltarChance": 0.25,
+        "cost": 4,
+        "regretCost": 32,
+        "levelRequirement": 50
+      },
+      {
+        "luckyAltarChance": 0.3,
+        "cost": 4,
+        "regretCost": 40,
+        "levelRequirement": 50
+      }
+    ]
+  },
+  "WEAKNESS_AFFINITY": {
+    "name": "Weakness Affinity",
+    "levels": [
+      {
+        "targetEffect": "minecraft:weakness",
+        "damageIncrease": 0.1,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:weakness",
+        "damageIncrease": 0.2,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:weakness",
+        "damageIncrease": 0.3,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:weakness",
+        "damageIncrease": 0.4,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "WITHER_AFFINITY": {
+    "name": "Wither Affinity",
+    "levels": [
+      {
+        "targetEffect": "minecraft:wither",
+        "damageIncrease": 0.1,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:wither",
+        "damageIncrease": 0.2,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:wither",
+        "damageIncrease": 0.3,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:wither",
+        "damageIncrease": 0.4,
+        "cost": 2,
+        "regretCost": 1,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "SLOWNESS_AFFINITY": {
+    "name": "Slowness Affinity",
+    "levels": [
+      {
+        "targetEffect": "minecraft:slowness",
+        "damageIncrease": 0.1,
+        "cost": 3,
+        "regretCost": 2,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:slowness",
+        "damageIncrease": 0.2,
+        "cost": 3,
+        "regretCost": 2,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:slowness",
+        "damageIncrease": 0.3,
+        "cost": 3,
+        "regretCost": 2,
+        "levelRequirement": 0
+      },
+      {
+        "targetEffect": "minecraft:slowness",
+        "damageIncrease": 0.4,
+        "cost": 3,
+        "regretCost": 2,
+        "levelRequirement": 0
+      }
+    ]
+  },
+  "BARTERING": {
+    "name": "Bartering",
+    "levels": [
+      {
+        "costReduction": 0.1,
+        "cost": 3,
+        "regretCost": 4,
+        "levelRequirement": 50
+      },
+      {
+        "costReduction": 0.2,
+        "cost": 3,
+        "regretCost": 4,
+        "levelRequirement": 50
+      },
+      {
+        "costReduction": 0.3,
+        "cost": 4,
+        "regretCost": 4,
+        "levelRequirement": 50
+      },
+      {
+        "costReduction": 0.4,
+        "cost": 4,
+        "regretCost": 4,
+        "levelRequirement": 50
+      },
+      {
+        "costReduction": 0.5,
+        "cost": 6,
+        "regretCost": 4,
+        "levelRequirement": 50
+      }
+    ]
+  },
+  "BLACKSMITH": {
+    "name": "Blacksmith",
+    "levels": [
+      {
+        "chanceToNotConsumePotential": 0.1,
+        "cost": 3,
+        "regretCost": 4,
+        "levelRequirement": 15
+      },
+      {
+        "chanceToNotConsumePotential": 0.15,
+        "cost": 3,
+        "regretCost": 4,
+        "levelRequirement": 15
+      },
+      {
+        "chanceToNotConsumePotential": 0.2,
+        "cost": 4,
+        "regretCost": 4,
+        "levelRequirement": 15
+      },
+      {
+        "chanceToNotConsumePotential": 0.25,
+        "cost": 4,
+        "regretCost": 4,
+        "levelRequirement": 15
+      }
+    ]
+  },
+  "LAST_STAND": {
+    "name": "Last Stand",
+    "levels": [
+      {
+        "additionalResistance": 0.15,
+        "healthThreshold": 0.2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 30
+      },
+      {
+        "additionalResistance": 0.25,
+        "healthThreshold": 0.2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 30
+      },
+      {
+        "additionalResistance": 0.35,
+        "healthThreshold": 0.2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 30
+      },
+      {
+        "additionalResistance": 0.5,
+        "healthThreshold": 0.2,
+        "cost": 6,
+        "regretCost": 2,
+        "levelRequirement": 30
+      }
+    ]
+  },
+  "BERSERKING": {
+    "name": "Berserking",
+    "levels": [
+      {
+        "damageIncrease": 0.4,
+        "healthThreshold": 0.2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 30
+      },
+      {
+        "damageIncrease": 0.6,
+        "healthThreshold": 0.2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 30
+      },
+      {
+        "damageIncrease": 0.8,
+        "healthThreshold": 0.2,
+        "cost": 4,
+        "regretCost": 2,
+        "levelRequirement": 30
+      },
+      {
+        "damageIncrease": 1.0,
+        "healthThreshold": 0.2,
+        "cost": 6,
+        "regretCost": 2,
+        "levelRequirement": 30
+      }
+    ]
+  }
+}

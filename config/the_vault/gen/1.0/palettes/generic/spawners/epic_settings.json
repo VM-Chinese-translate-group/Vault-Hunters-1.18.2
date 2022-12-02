@@ -1,0 +1,50 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/generic_settings"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 4 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { PlayerRadius: 12 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager:{ UsesLeft:3, Settings: { SpawnDelay: 40 } } } }": 1,
+                        "ispawner:spawner{ Manager:{ UsesLeft:4, Settings: { SpawnDelay: 50 } } } }": 4,
+                        "ispawner:spawner{ Manager:{ UsesLeft:5, Settings: { SpawnDelay: 50 } } } }": 1,
+                        "ispawner:spawner": 20
+                    }
+                }
+            ]
+        }
+    ]
+}

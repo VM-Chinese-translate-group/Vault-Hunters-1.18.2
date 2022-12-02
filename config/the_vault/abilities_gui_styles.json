@@ -1,0 +1,155 @@
+{
+  "styles": {
+    "Hunter": {
+      "x": 418,
+      "y": 0,
+      "specializationStyles": {
+        "Hunter_Blocks": {
+          "icon": "the_vault:gui/abilities/hunter_blocks"
+        }
+      },
+      "icon": "the_vault:gui/abilities/hunter"
+    },
+    "Ghost Walk": {
+      "x": 114,
+      "y": 0,
+      "specializationStyles": {},
+      "icon": "the_vault:gui/abilities/ghost_walk"
+    },
+    "Taunt": {
+      "x": 494,
+      "y": 0,
+      "specializationStyles": {
+        "Taunt_Repel": {
+          "icon": "the_vault:gui/abilities/taunt_repel"
+        }
+      },
+      "icon": "the_vault:gui/abilities/taunt"
+    },
+    "Execute": {
+      "x": 266,
+      "y": 0,
+      "specializationStyles": {},
+      "icon": "the_vault:gui/abilities/execute"
+    },
+    "Mega Jump": {
+      "x": 190,
+      "y": 0,
+      "specializationStyles": {
+        "Mega Jump_Break_Up": {
+          "icon": "the_vault:gui/abilities/mega_jump_break_up"
+        },
+        "Mega Jump_Break_Down": {
+          "icon": "the_vault:gui/abilities/mega_jump_break_down"
+        }
+      },
+      "icon": "the_vault:gui/abilities/mega_jump"
+    },
+    "Summon Eternal": {
+      "x": 380,
+      "y": 0,
+      "specializationStyles": {},
+      "icon": "the_vault:gui/abilities/summon_eternal"
+    },
+    "Nova": {
+      "x": 0,
+      "y": 0,
+      "specializationStyles": {
+        "Nova_Speed": {
+          "icon": "the_vault:gui/abilities/nova_speed"
+        },
+        "Nova_Dot": {
+          "icon": "the_vault:gui/abilities/nova_dot"
+        }
+      },
+      "icon": "the_vault:gui/abilities/nova"
+    },
+    "Mana Shield": {
+      "x": 228,
+      "y": 0,
+      "specializationStyles": {},
+      "icon": "the_vault:gui/abilities/mana_shield"
+    },
+    "Heal": {
+      "x": 304,
+      "y": 0,
+      "specializationStyles": {
+        "Heal_Group": {
+          "icon": "the_vault:gui/abilities/heal_group"
+        },
+        "Heal_Effect": {
+          "icon": "the_vault:gui/abilities/heal_effect"
+        }
+      },
+      "icon": "the_vault:gui/abilities/heal"
+    },
+    "Vein Miner": {
+      "x": 38,
+      "y": 0,
+      "specializationStyles": {
+        "Vein Miner_Fortune": {
+          "icon": "the_vault:gui/abilities/vein_miner_fortune"
+        },
+        "Vein Miner_Durability": {
+          "icon": "the_vault:gui/abilities/vein_miner_durability"
+        },
+        "Vein Miner_Void": {
+          "icon": "the_vault:gui/abilities/vein_miner_void"
+        }
+      },
+      "icon": "the_vault:gui/abilities/vein_miner"
+    },
+    "Tank": {
+      "x": 342,
+      "y": 0,
+      "specializationStyles": {
+        "Tank_Projectile": {
+          "icon": "the_vault:gui/abilities/tank_projectile"
+        },
+        "Tank_Reflect": {
+          "icon": "the_vault:gui/abilities/tank_reflect"
+        }
+      },
+      "icon": "the_vault:gui/abilities/tank"
+    },
+    "Dash": {
+      "x": 152,
+      "y": 0,
+      "specializationStyles": {
+        "Dash_Damage": {
+          "icon": "the_vault:gui/abilities/dash_damage"
+        }
+      },
+      "icon": "the_vault:gui/abilities/dash"
+    },
+    "Rampage": {
+      "x": 76,
+      "y": 0,
+      "specializationStyles": {
+        "Rampage_Leech": {
+          "icon": "the_vault:gui/abilities/rampage_leech"
+        },
+        "Rampage_Chain": {
+          "icon": "the_vault:gui/abilities/rampage_chain"
+        }
+      },
+      "icon": "the_vault:gui/abilities/rampage"
+    },
+    "Farmer": {
+      "x": 456,
+      "y": 0,
+      "specializationStyles": {
+        "Farmer_Melon": {
+          "icon": "the_vault:gui/abilities/farmer_melon"
+        },
+        "Farmer_Cactus": {
+          "icon": "the_vault:gui/abilities/farmer_cactus"
+        },
+        "Farmer_Animal": {
+          "icon": "the_vault:gui/abilities/farmer_animal"
+        }
+      },
+      "icon": "the_vault:gui/abilities/farmer"
+    }
+  }
+}

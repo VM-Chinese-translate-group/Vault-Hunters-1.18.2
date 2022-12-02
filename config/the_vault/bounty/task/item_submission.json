@@ -1,0 +1,194 @@
+{
+  "LEVELS": {
+    "0": {
+      "pool": [
+        {
+          "value": {
+            "value": "minecraft:diamond",
+            "amount": {
+              "min": 16,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "minecraft:netherite_ingot",
+            "amount": {
+              "min": 2,
+              "max": 8
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_essence",
+            "amount": {
+              "min": 4,
+              "max": 17
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "the_vault:chromatic_iron_ingot",
+            "amount": {
+              "min": 64,
+              "max": 128
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "value": "the_vault:polished_vault_stone",
+            "amount": {
+              "min": 64,
+              "max": 512
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_apple",
+            "amount": {
+              "min": 16,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "quark:soul_bead",
+            "amount": {
+              "min": 8,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        }
+      ]
+    },
+    "20": {
+      "pool": [
+        {
+          "value": {
+            "value": "minecraft:diamond",
+            "amount": {
+              "min": 32,
+              "max": 196
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "value": "minecraft:netherite_ingot",
+            "amount": {
+              "min": 8,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_essence",
+            "amount": {
+              "min": 8,
+              "max": 64
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "value": "the_vault:chromatic_iron_ingot",
+            "amount": {
+              "min": 128,
+              "max": 256
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 6
+        },
+        {
+          "value": {
+            "value": "the_vault:polished_vault_stone",
+            "amount": {
+              "min": 128,
+              "max": 512
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "the_vault:vault_apple",
+            "amount": {
+              "min": 16,
+              "max": 96
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        },
+        {
+          "value": {
+            "value": "quark:soul_bead",
+            "amount": {
+              "min": 8,
+              "max": 32
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false
+          },
+          "weight": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "tile_processors": [
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 60}, {id: \"quark:wraith_spawn_egg\", Count: 10}, {id: \"minecraft:skeleton_spawn_egg\", Count: 10, tag: {EntityTag: {id: \"minecraft:skeleton\", HandItems: [{id: \"minecraft:diamond_sword\", Count: 1}, {}]}}}, {id: \"the_vault:vault_fighter_0_egg\", Count: 20} ] } }": 1
+                    }
+                },
+                {
+                    "level": 20,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 57}, {id: \"quark:wraith_spawn_egg\", Count: 10}, {id: \"minecraft:skeleton_spawn_egg\", Count: 9, tag: {EntityTag: {id: \"minecraft:skeleton\", HandItems: [{id: \"minecraft:diamond_sword\", Count: 1}, {}]}}}, {id: \"the_vault:vault_fighter_0_egg\", Count: 19}, {id: \"the_vault:t1_zombie_egg\", Count: 3}, {id: \"the_vault:t1_skeleton_egg\", Count: 1}, {id: \"the_vault:vault_fighter_1_egg\", Count: 1} ] } }": 1
+                    }
+                },
+                {
+                    "level": 25,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 45}, {id: \"quark:wraith_spawn_egg\", Count: 10}, {id: \"minecraft:skeleton_spawn_egg\", Count: 7, tag: {EntityTag: {id: \"minecraft:skeleton\", HandItems: [{id: \"minecraft:diamond_sword\", Count: 1}, {}]}}}, {id: \"the_vault:vault_fighter_0_egg\", Count: 15}, {id: \"the_vault:t1_zombie_egg\", Count: 15}, {id: \"the_vault:t1_skeleton_egg\", Count: 3}, {id: \"the_vault:vault_fighter_1_egg\", Count: 5} ] } }": 1
+                    }
+                },
+                {
+                    "level": 30,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 30}, {id: \"quark:wraith_spawn_egg\", Count: 10}, {id: \"minecraft:skeleton_spawn_egg\", Count: 5, tag: {EntityTag: {id: \"minecraft:skeleton\", HandItems: [{id: \"minecraft:diamond_sword\", Count: 1}, {}]}}}, {id: \"the_vault:vault_fighter_0_egg\", Count: 10}, {id: \"the_vault:t1_zombie_egg\", Count: 30}, {id: \"the_vault:t1_skeleton_egg\", Count: 5}, {id: \"the_vault:vault_fighter_1_egg\", Count: 10} ] } }": 1
+                    }
+                },
+                {
+                    "level": 40,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"minecraft:zombie_spawn_egg\", Count: 6}, {id: \"quark:wraith_spawn_egg\", Count: 10}, {id: \"minecraft:skeleton_spawn_egg\", Count: 9, tag: {EntityTag: {id: \"minecraft:skeleton\", HandItems: [{id: \"minecraft:diamond_sword\", Count: 1}, {}]}}}, {id: \"the_vault:vault_fighter_0_egg\", Count: 2}, {id: \"the_vault:t1_zombie_egg\", Count: 54}, {id: \"the_vault:t1_skeleton_egg\", Count: 1}, {id: \"the_vault:vault_fighter_1_egg\", Count: 18} ] } }": 1
+                    }
+                },
+                {
+                    "level": 50,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Inventory: { Stacks: [ {id: \"quark:wraith_spawn_egg\", Count: 10}, {id: \"the_vault:vault_fighter_0_egg\", Count: 20}, {id: \"the_vault:t1_zombie_egg\", Count: 60}, {id: \"the_vault:t1_skeleton_egg\", Count: 10}, {id: \"the_vault:vault_fighter_1_egg\", Count: 20} ] } }": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
