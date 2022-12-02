@@ -1,9 +1,0 @@
-[
-    {
-      "weight": 1,
-      "value": {
-        "template": "the_vault:vault/decor/x-spot/redstone_spawner1",
-        "palettes": ["the_vault:x-mark/redstone_spawner"]
-      }
-    }
-  ]
