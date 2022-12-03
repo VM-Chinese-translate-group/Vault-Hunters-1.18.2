@@ -1,0 +1,722 @@
+{
+  "modifiers": {
+    "the_vault:modifier_type/chance_artifact": {
+      "the_vault:prosperous": {
+        "properties": {
+          "chance": 0.1
+        },
+        "display": {
+          "name": "Prosperous",
+          "color": "#EBFF8D",
+          "description": "+10% Artifact Chance",
+          "descriptionFormatted": "+%d%% Artifact Chance",
+          "icon": "the_vault:gui/modifiers/more_artifact1"
+        }
+      }
+    },
+    "the_vault:modifier_type/chance_catalyst": {
+      "the_vault:prismatic": {
+        "properties": {
+          "chance": 0.1
+        },
+        "display": {
+          "name": "Prismatic",
+          "color": "#FC00E3",
+          "description": "+10% Catalyst Fragments",
+          "descriptionFormatted": "+%d%% Catalyst Fragments",
+          "icon": "the_vault:gui/modifiers/more_catalyst"
+        }
+      }
+    },
+    "the_vault:modifier_type/chance_chest_trap": {
+      "the_vault:looters_dream": {
+        "properties": {
+          "chance": 0.0
+        },
+        "display": {
+          "name": "Looter's Dream",
+          "color": "#A3E2F5",
+          "description": "No Trap Chance",
+          "icon": "the_vault:gui/modifiers/safezone"
+        }
+      },
+      "the_vault:trapped": {
+        "properties": {
+          "chance": 0.1
+        },
+        "display": {
+          "name": "Trapped",
+          "color": "#D35B00",
+          "description": "+10% Chest Trap Chance",
+          "descriptionFormatted": "+%d%% Chest Trap Chance",
+          "icon": "the_vault:gui/modifiers/trapped"
+        }
+      },
+      "the_vault:minefield": {
+        "properties": {
+          "chance": 0.4
+        },
+        "display": {
+          "name": "Minefield",
+          "color": "#D35B00",
+          "description": "+40% Chest Trap Chance",
+          "descriptionFormatted": "+%d%% Chest Trap Chance",
+          "icon": "the_vault:gui/modifiers/trapped"
+        }
+      }
+    },
+    "the_vault:modifier_type/chance_soul_shard": {
+      "the_vault:haunted": {
+        "properties": {
+          "chance": 0.25
+        },
+        "display": {
+          "name": "Haunted",
+          "color": "#6410A1",
+          "description": "+25% Soul Shard Drop Rate",
+          "descriptionFormatted": "+%d%% Soul Shards",
+          "icon": "the_vault:gui/modifiers/haunted"
+        }
+      }
+    },
+    "the_vault:modifier_type/decorator_add": {
+      "the_vault:coin_pile": {
+        "properties": {
+          "output": "the_vault:placeholder[type=coin_stacks]",
+          "attemptsPerChunk": 16
+        },
+        "display": {
+          "name": "Wealthy",
+          "color": "#ffae00",
+          "description": "+1 Set of Coin Stacks",
+          "icon": "the_vault:gui/modifiers/wealthy"
+        }
+      },
+      "the_vault:gilded": {
+        "properties": {
+          "output": "the_vault:placeholder[type=gilded_chest]",
+          "attemptsPerChunk": 10
+        },
+        "display": {
+          "name": "Gilded",
+          "color": "#FFEC00",
+          "description": "+1 Set of Gilded Chests",
+          "icon": "the_vault:gui/modifiers/gilded"
+        }
+      },
+      "the_vault:living": {
+        "properties": {
+          "output": "the_vault:placeholder[type=living_chest]",
+          "attemptsPerChunk": 10
+        },
+        "display": {
+          "name": "Living",
+          "color": "#38d800",
+          "description": "+1 Set of Living Chests",
+          "icon": "the_vault:gui/modifiers/living"
+        }
+      },
+      "the_vault:ornate": {
+        "properties": {
+          "output": "the_vault:placeholder[type=ornate_chest]",
+          "attemptsPerChunk": 10
+        },
+        "display": {
+          "name": "Ornate",
+          "color": "#c90d73",
+          "description": "+1 Set of Ornate Chests",
+          "icon": "the_vault:gui/modifiers/ornate"
+        }
+      },
+      "the_vault:wild": {
+        "properties": {
+          "output": "the_vault:wild_spawner",
+          "attemptsPerChunk": 16
+        },
+        "display": {
+          "name": "Wild",
+          "color": "#E83F24",
+          "description": "Mobs spawns Wildly inside the vault",
+          "descriptionFormatted": "+1 Set of Wildly Spawned Mobs",
+          "icon": "the_vault:gui/modifiers/crowded"
+        }
+      }
+    },
+    "the_vault:modifier_type/loot_item_quantity": {
+      "the_vault:item_quantity": {
+        "properties": {
+          "percentage": 0.05
+        },
+        "display": {
+          "name": "Opulent",
+          "color": "#38C9C0",
+          "description": "+5% Item Quantity",
+          "descriptionFormatted": "+%d%% Item Quantity",
+          "icon": "the_vault:gui/modifiers/opulent"
+        }
+      }
+    },
+    "the_vault:modifier_type/loot_item_rarity": {
+      "the_vault:item_rarity": {
+        "properties": {
+          "percentage": 0.05
+        },
+        "display": {
+          "name": "Lucky",
+          "color": "#b3ff20",
+          "description": "+5% Item Rarity",
+          "descriptionFormatted": "+%d%% Item Rarity",
+          "icon": "the_vault:gui/modifiers/lucky"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_attribute": {
+      "the_vault:chunky_mobs": {
+        "properties": {
+          "type": "max_health_additive_percentile",
+          "amount": 0.2,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Chunky Mobs",
+          "color": "#dc693c",
+          "description": "+20% Mob Health",
+          "descriptionFormatted": "+%d%% Mob Health",
+          "icon": "the_vault:gui/modifiers/chunky"
+        }
+      },
+      "the_vault:furious_mobs": {
+        "properties": {
+          "type": "attack_damage_additive_percentile",
+          "amount": 0.2,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Furious",
+          "color": "#da6d5a",
+          "description": "+20% Mob Damage",
+          "descriptionFormatted": "+%d%% Mob Damage",
+          "icon": "the_vault:gui/modifiers/furious"
+        }
+      },
+      "the_vault:infuriated_mobs": {
+        "properties": {
+          "type": "speed_additive_percentile",
+          "amount": 0.05,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Infuriated",
+          "color": "#f66868",
+          "description": "+5% Mob Speed",
+          "descriptionFormatted": "+%d%% Mob Speed",
+          "icon": "the_vault:gui/modifiers/speedy_mobs"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_curse_on_hit": {
+      "the_vault:fatiguing": {
+        "properties": {
+          "effect": "minecraft:mining_fatigue",
+          "effectAmplifier": 4,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": 0.1
+        },
+        "display": {
+          "name": "Fatiguing",
+          "color": "#9B3E56",
+          "description": "+10% increased chance mobs Fatigue on hit",
+          "descriptionFormatted": "+%d%% increased chance mobs Fatigue on hit",
+          "icon": "the_vault:gui/modifiers/hex_chaining"
+        }
+      },
+      "the_vault:freezing": {
+        "properties": {
+          "effect": "minecraft:slowness",
+          "effectAmplifier": 5,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": 0.1
+        },
+        "display": {
+          "name": "Freezing",
+          "color": "#2FFBF4",
+          "description": "+10% increased chance mobs Slow on hit",
+          "descriptionFormatted": "+%d%% increased chance mobs Slow on hit",
+          "icon": "the_vault:gui/modifiers/hex_chilling"
+        }
+      },
+      "the_vault:poisonous": {
+        "properties": {
+          "effect": "minecraft:poison",
+          "effectAmplifier": 3,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": 0.1
+        },
+        "display": {
+          "name": "Poisonous",
+          "color": "#84BF17",
+          "description": "+10% increased chance mobs Poison on hit",
+          "descriptionFormatted": "+%d%% increased chance mobs Poison on hit",
+          "icon": "the_vault:gui/modifiers/hex_poison"
+        }
+      },
+      "the_vault:wither": {
+        "properties": {
+          "effect": "minecraft:wither",
+          "effectAmplifier": 5,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": 0.1
+        },
+        "display": {
+          "name": "Withering",
+          "color": "#5A5851",
+          "description": "+10% increased chance mobs Wither on hit",
+          "descriptionFormatted": "+%d%% increased chance mobs Wither on hit",
+          "icon": "the_vault:gui/modifiers/hex_wither"
+        }
+      },
+      "the_vault:voiding": {
+        "properties": {
+          "effect": "the_vault:time_acceleration",
+          "effectAmplifier": 5,
+          "effectDurationTicks": 40,
+          "onHitApplyChance": 0.1
+        },
+        "display": {
+          "name": "Voiding",
+          "color": "#5A5851",
+          "description": "+10% increased chance mobs will void time on hit",
+          "descriptionFormatted": "+%d%% increased chance mobs will void time on hit",
+          "icon": "the_vault:gui/modifiers/hex_wither"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_frenzy": {
+      "the_vault:frenzy": {
+        "properties": {
+          "damage": 3.0,
+          "movementSpeed": 0.1,
+          "doHealthReduction": true
+        },
+        "display": {
+          "name": "Frenzy",
+          "color": "#FC7C5C",
+          "description": "+300% Mob Damage, +10% Mob Speed, Mob Health reduced to 1",
+          "icon": "the_vault:gui/modifiers/frenzy"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_spawn_count": {
+      "the_vault:crowded": {
+        "properties": {
+          "maxMobsAdded": 1
+        },
+        "display": {
+          "name": "Crowded",
+          "color": "#E83F24",
+          "description": "+1 Mob Spawns",
+          "descriptionFormatted": "+%d Mob Spawns",
+          "icon": "the_vault:gui/modifiers/crowded"
+        }
+      },
+      "the_vault:personal_space": {
+        "properties": {
+          "maxMobsAdded": -1
+        },
+        "display": {
+          "name": "Personal Space",
+          "color": "#F9B1FF",
+          "description": "-1 Mob Spawns",
+          "descriptionFormatted": "-%d Mob Spawns",
+          "icon": "the_vault:gui/modifiers/personalspace"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_attribute": {
+      "the_vault:draining": {
+        "properties": {
+          "type": "mana_regen_additive_percentile",
+          "amount": -0.2,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Draining",
+          "color": "#849dc8",
+          "description": "-20% Mana Regeneration",
+          "descriptionFormatted": "-%d%% Mana Regeneration",
+          "icon": "the_vault:gui/modifiers/draining"
+        }
+      },
+      "the_vault:injured": {
+        "properties": {
+          "type": "max_health_additive",
+          "amount": -2.0,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Injured",
+          "color": "#631F1F",
+          "description": "-2 Health",
+          "descriptionFormatted": "-%d Health",
+          "icon": "the_vault:gui/modifiers/injured"
+        }
+      },
+      "the_vault:wounded": {
+        "properties": {
+          "type": "max_health_additive",
+          "amount": -10.0,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Wounded",
+          "color": "#631F1F",
+          "description": "Removes 5 hearts",
+          "descriptionFormatted": "-%d Health",
+          "icon": "the_vault:gui/modifiers/injured"
+        }
+      },
+      "the_vault:drained": {
+        "properties": {
+          "type": "mana_regen_additive_percentile",
+          "amount": -0.7,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Drained",
+          "color": "#849dc8",
+          "description": "-70% Mana Regeneration",
+          "descriptionFormatted": "-%d%% Mana Regeneration",
+          "icon": "the_vault:gui/modifiers/draining"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_durability_damage": {
+      "the_vault:frail": {
+        "properties": {
+          "durabilityDamageTakenMultiplier": 1.2
+        },
+        "display": {
+          "name": "Frail",
+          "color": "#7B7E7F",
+          "description": "+20% Durability Damage",
+          "descriptionFormatted": "+%d%% Durability Damage",
+          "icon": "the_vault:gui/modifiers/frail"
+        }
+      },
+      "the_vault:reinforced": {
+        "properties": {
+          "durabilityDamageTakenMultiplier": 0.9
+        },
+        "display": {
+          "name": "Reinforced",
+          "color": "#9550FF",
+          "description": "-10% Durability Damage",
+          "descriptionFormatted": "-%d%% Durability Damage",
+          "icon": "the_vault:gui/modifiers/reinforced"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_effect": {
+      "the_vault:hunger": {
+        "properties": {
+          "effect": "minecraft:hunger",
+          "effectAmplifier": 6,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Hunger",
+          "color": "#E8DACD",
+          "description": "Hunger",
+          "descriptionFormatted": "+%d Hunger",
+          "icon": "the_vault:gui/modifiers/hunger"
+        }
+      },
+      "the_vault:lucky": {
+        "properties": {
+          "effect": "minecraft:luck",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Lucky",
+          "color": "#b3ff20",
+          "description": "+1 Luck",
+          "descriptionFormatted": "+%d Luck",
+          "icon": "the_vault:gui/modifiers/lucky"
+        }
+      },
+      "the_vault:slowed": {
+        "properties": {
+          "effect": "minecraft:slowness",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Slowed",
+          "color": "#4C6786",
+          "description": "+1 Slowness",
+          "descriptionFormatted": "+%d Slowness",
+          "icon": "the_vault:gui/modifiers/slowed"
+        }
+      },
+      "the_vault:speedy": {
+        "properties": {
+          "effect": "minecraft:speed",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Speedy",
+          "color": "#00CDFF",
+          "description": "+1 Speed",
+          "descriptionFormatted": "+%d Speed",
+          "icon": "the_vault:gui/modifiers/speed"
+        }
+      },
+      "the_vault:stronk": {
+        "properties": {
+          "effect": "minecraft:strength",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Stronk",
+          "color": "#5E12E5",
+          "description": "+1 Strength",
+          "descriptionFormatted": "+%d Strength",
+          "icon": "the_vault:gui/modifiers/stronk"
+        }
+      },
+      "the_vault:tired": {
+        "properties": {
+          "effect": "minecraft:mining_fatigue",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Tired",
+          "color": "#E8E9E1",
+          "description": "+1 Mining Fatigue",
+          "descriptionFormatted": "+%d Mining Fatigue",
+          "icon": "the_vault:gui/modifiers/tired"
+        }
+      },
+      "the_vault:unlucky": {
+        "properties": {
+          "effect": "minecraft:unluck",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Unlucky",
+          "color": "#9F5300",
+          "description": "-1 Luck",
+          "descriptionFormatted": "-%d Luck",
+          "icon": "the_vault:gui/modifiers/unlucky"
+        }
+      },
+      "the_vault:weakened": {
+        "properties": {
+          "effect": "minecraft:weakness",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "Weakened",
+          "color": "#9F5300",
+          "description": "+1 Weakness",
+          "descriptionFormatted": "+%d Weakness",
+          "icon": "the_vault:gui/modifiers/weakness"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_inventory_restore": {
+      "the_vault:afterlife": {
+        "properties": {
+          "preventsArtifact": false,
+          "experienceMultiplierOnDeath": 0.0,
+          "experienceMultiplierOnSuccess": 0.5
+        },
+        "display": {
+          "name": "Afterlife",
+          "color": "#0FA6E3",
+          "description": "All items you entered with will be restored on death; No artifact can be found",
+          "icon": "the_vault:gui/modifiers/afterlife"
+        }
+      },
+      "the_vault:phoenix": {
+        "properties": {
+          "preventsArtifact": false,
+          "experienceMultiplierOnDeath": 0.0,
+          "experienceMultiplierOnSuccess": 1.0
+        },
+        "display": {
+          "name": "Phoenix",
+          "color": "#FF8900",
+          "description": "All items you entered with will be restored on death",
+          "icon": "the_vault:gui/modifiers/phoenix"
+        }
+      },
+      "the_vault:beginners_grace": {
+        "properties": {
+          "preventsArtifact": false,
+          "experienceMultiplierOnDeath": 0.0,
+          "experienceMultiplierOnSuccess": 1.0
+        },
+        "display": {
+          "name": "Beginners Grace",
+          "color": "#FF8900",
+          "description": "All items you entered with will be restored on death; No experience on death",
+          "icon": "the_vault:gui/modifiers/beginners_grace"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_no_exit": {
+      "the_vault:locked": {
+        "properties": {},
+        "display": {
+          "name": "Locked",
+          "color": "#FF0000",
+          "description": "Vault can't be bailed",
+          "icon": "the_vault:gui/modifiers/raffle"
+        }
+      },
+      "the_vault:raffle": {
+        "properties": {},
+        "display": {
+          "name": "Raffle",
+          "color": "#C5001B",
+          "description": "Locks the vault",
+          "icon": "the_vault:gui/modifiers/raffle"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_no_vault_fruit": {
+      "the_vault:rotten": {
+        "properties": {},
+        "display": {
+          "name": "Rotten",
+          "color": "#A0AF5B",
+          "description": "Vault Powerups have no effect",
+          "icon": "the_vault:gui/modifiers/rotten"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_stat": {
+      "the_vault:clumsy": {
+        "properties": {
+          "stat": "block_chance",
+          "multiplier": 0.9
+        },
+        "display": {
+          "name": "Clumsy",
+          "color": "#CB866D",
+          "description": "-10% Parry",
+          "descriptionFormatted": "-%d%% Parry",
+          "icon": "the_vault:gui/modifiers/clumsy"
+        }
+      },
+      "the_vault:inert": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "multiplier": 0.9
+        },
+        "display": {
+          "name": "Inert",
+          "color": "#6DACB5",
+          "description": "-10% Cooldown Reduction",
+          "descriptionFormatted": "-%d%% Cooldown Reduction",
+          "icon": "the_vault:gui/modifiers/inert"
+        }
+      },
+      "the_vault:vulnerable": {
+        "properties": {
+          "stat": "resistance",
+          "multiplier": 0.9
+        },
+        "display": {
+          "name": "Vulnerable",
+          "color": "#CA9A5B",
+          "description": "-10% Resistance",
+          "descriptionFormatted": "-%d%% Resistance",
+          "icon": "the_vault:gui/modifiers/vulnerable"
+        }
+      }
+    },
+    "the_vault:modifier_type/vault_level": {
+      "the_vault:difficult": {
+        "properties": {
+          "levelAdded": 3
+        },
+        "display": {
+          "name": "Difficult",
+          "color": "#E20000",
+          "description": "+3 Vault Level",
+          "descriptionFormatted": "+%d Vault Level",
+          "icon": "the_vault:gui/modifiers/difficult"
+        }
+      },
+      "the_vault:easy": {
+        "properties": {
+          "levelAdded": -3
+        },
+        "display": {
+          "name": "Easy",
+          "color": "#70FF2A",
+          "description": "-3 Vault Level",
+          "descriptionFormatted": "-%d Vault Level",
+          "icon": "the_vault:gui/modifiers/easy"
+        }
+      }
+    },
+    "the_vault:modifier_type/vault_lootable_weight": {
+      "the_vault:plentiful": {
+        "properties": {
+          "type": "ORE",
+          "multiplier": 0.2
+        },
+        "display": {
+          "name": "Plentiful",
+          "color": "#FF85FF",
+          "description": "+20% Vault Ores",
+          "descriptionFormatted": "+%d%% Vault Ores",
+          "icon": "the_vault:gui/modifiers/plentiful"
+        }
+      }
+    },
+    "the_vault:modifier_type/vault_time": {
+      "the_vault:extended": {
+        "properties": {
+          "timeAddedTicks": 1200
+        },
+        "display": {
+          "name": "Extended",
+          "color": "#2F86AE",
+          "description": "+1 minute Vault Time",
+          "descriptionFormatted": "+%d minutes Vault Time",
+          "icon": "the_vault:gui/modifiers/extended"
+        }
+      },
+      "the_vault:rushed": {
+        "properties": {
+          "timeAddedTicks": -1200
+        },
+        "display": {
+          "name": "Rushed",
+          "color": "#FFCD6F",
+          "description": "-1 minute Vault Time",
+          "descriptionFormatted": "-%d minutes Vault Time",
+          "icon": "the_vault:gui/modifiers/rush"
+        }
+      }
+    }
+  }
+}
