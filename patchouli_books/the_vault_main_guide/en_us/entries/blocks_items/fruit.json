@@ -1,0 +1,34 @@
+{
+    "name": "Vault Fruit",
+    "icon": "the_vault:sweet_kiwi",
+    "category": "patchouli:blocks_items_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:text",
+          "text": "When you are running out of time in The Vault, you are able to extend your time by eating $(l)Vault Fruit$(). Vault Fruit grants additional time, but with a penalty. Vault Fruits cannot be eaten when the Modifier $(l)Rotten$() is active."
+        },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:sweet_kiwi",
+          "text": "A $(l)Sweet Kiwi$() grants 5 additional seconds to the Vault Timer with no penalty."
+        },
+
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:bitter_lemon",
+          "text": "A $(l)Bitter Lemon$() grants 30 additional seconds to the Vault Timer at the cost of 3 hearts."
+        },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:mystic_pear",
+          "text": "A $(l)Mystic Pear$() grants 5 additional minutes to the Vault Timer, at the cost of 5-10 hearts and wither effect or poison effect."
+        }
+
+    ]
+
+}

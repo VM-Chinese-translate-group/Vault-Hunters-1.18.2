@@ -1,0 +1,22 @@
+{
+    "name": "Chromatic iron",
+    "icon": "the_vault:raw_chromatic_iron",
+    "category": "patchouli:blocks_items_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+            "type": "patchouli:spotlight",
+            "item":"the_vault:chromatic_iron_ore",
+            "title": "Chromatic Iron",
+            "text": "Chromatic Iron is a fairly rare ore that spawns in big veins, but it is rarely exposed to air. $(br2)When mined, it drops $(l)Raw Chromatic Iron$(). $(br)The amount of Raw Chromatic Iron dropped per ore is affected by fortune."
+        },
+
+        {
+          "type": "patchouli:smelting",
+          "recipe": "the_vault:smelt_raw_chromatic_iron",
+          "text": "When smelted, Raw Chromatic Iron turns into $(l)Chromatic Iron Ingot$(). $(br2)Chromatic Iron Ingot is commonly used in modded recipes."
+        }
+    ]
+
+}

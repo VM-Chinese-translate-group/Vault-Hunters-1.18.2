@@ -1,0 +1,20 @@
+{
+    "name": "God Altars",
+    "icon": "the_vault:xp_altar",
+    "category": "patchouli:the_vault_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:text",
+          "text": "You may stumble upon a $(l)Vault God Altar$() inside the Vault. Each one of the Vault God's has a different requirement to complete and reveal a $(l)Altar Chest.$() $(br) $(li) Idona asks for mob kills $(li) Tenos asks for exp levels $(li) Wendarr asks for time $(li) Velara asks for health$() $(br2)The requirements are scaled to Vault Level."
+        },
+        {
+          "type": "patchouli:text",
+          "text": "When completing an altar, a Vault God Favor might be $(l)gained or lost$(). The chance of gaining a Vault God Favor increases when a Vault God Idol is in the player's offhand: $(li)3% chance with any Idol $(li)6% with a matching Idol $(li)9% with a hallowed matching Idol. $(br2)When a favor is gained, a favor of another Vault God is lost."
+        }
+
+
+    ]
+
+}

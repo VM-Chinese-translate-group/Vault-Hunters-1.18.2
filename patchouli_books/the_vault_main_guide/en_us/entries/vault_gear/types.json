@@ -1,0 +1,95 @@
+{
+    "name": "Gear Types and Rarity",
+    "icon": "the_vault:chestplate",
+    "category": "patchouli:vault_gear",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:text",
+          "text": "Each type of Vault Gear can roll a different $(l)rarity$(). The $(l)better$() the $(l)rarity$(), the more $(l)implicits$(), $(l)prefixes$() and $(l)suffixes$() the gear rolls. $(br2)The $(l)higher$() the $(l)level$() of Vault Gear, which scales with Vault Level when it was found or crafted, the better the $(l)tiers$() of the $(l)implicits$(), $(l)prefixes$() and $(l)suffixes$()."
+        },
+
+        {
+          "type": "patchouli:text",
+          "title": "Available Rarities",
+          "text": "$(li)Scrappy$(li)Common$(li)Rare$(li)Epic$(li)Omega $(br2)A $(l)Scrappy+$() piece of gear may roll a scrappy or above rarity. An $(l)Epic+$() piece of gear may only roll an epic or above rarity. $(br2)Wearing Vault Gear is not restricted to any player level."
+        },
+
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:sword",
+          "title": "Vault Swords",
+          "text": "Vault Swords can be found in Vaults or crafted in the $(l)Vault Forge$(). They can be changed transmog in the $(l)Transmogrification Table$() and upgraded in the $(l)Vault Artisan Station$(). To scrap, smelt them in a furnace or use the $(l)Vault Recycler$() for additional scrap. $(br2)"
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "Vault Swords cannot be used for anything else except combat, like breaking cobwebs."
+        },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:axe",
+          "title": "Vault Axes",
+          "text": "Vault Axes can be found in Vaults or crafted in the $(l)Vault Forge$(). They can be changed transmog in the $(l)Transmogrification Table$() and upgraded in the $(l)Vault Artisan Station$(). To scrap, smelt them in a furnace or use the $(l)Vault Recycler$() for additional scrap. $(br2)"
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "Vault Axes cannot be used for anything else except combat, like breaking logs."
+        },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:shield",
+          "title": "Vault Shields",
+          "text": "Vault Shields can be found in Vaults or crafted in the $(l)Vault Forge$(). They can be changed transmog in the $(l)Transmogrification Table$() and upgraded in the $(l)Vault Artisan Station$(). To scrap, smelt them in a furnace or use the $(l)Vault Recycler$() for additional scrap. $(br2)"
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "Vault Shields work different than a regular Shield. When equipped in the player's offhand, the shield has a chance to block. The player cannot choose to block."
+        },
+
+
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:helmet",
+          "title": "Vault Helmets",
+          "text": "Vault Helmets can be found in Vaults or crafted in the $(l)Vault Forge$(). They can be changed transmog in the $(l)Transmogrification Table$() and upgraded in the $(l)Vault Artisan Station$(). To scrap, smelt them in a furnace or use the $(l)Vault Recycler$() for additional scrap. $(br2)"
+        },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:chestplate",
+          "title": "Vault Chestplates",
+          "text": "Vault Chestplates can be found in Vaults or crafted in the $(l)Vault Forge$(). They can be changed transmog in the $(l)Transmogrification Table$() and upgraded in the $(l)Vault Artisan Station$(). To scrap, smelt them in a furnace or use the $(l)Vault Recycler$() for additional scrap. $(br2)"
+        },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:leggings",
+          "title": "Vault Leggings",
+          "text": "Vault Leggings can be found in Vaults or crafted in the $(l)Vault Forge$(). They can be changed transmog in the $(l)Transmogrification Table$() and upgraded in the $(l)Vault Artisan Station$(). To scrap, smelt them in a furnace or use the $(l)Vault Recycler$() for additional scrap. $(br2)"
+        },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:boots",
+          "title": "Vault Boots",
+          "text": "Vault Boots can be found in Vaults or crafted in the $(l)Vault Forge$(). They can be changed transmog in the $(l)Transmogrification Table$() and upgraded in the $(l)Vault Artisan Station$(). To scrap, smelt them in a furnace or use the $(l)Vault Recycler$() for additional scrap. $(br2)"
+        },
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:echoing_pickaxe",
+          "title": "Vault Pickaxes",
+          "text": "$(l)Vault Pickaxes$() are made from Vault related items, like a Vault Ingot. They can be upgraded in the $(l)Tool Vise$() and can be $(l)enchanted$() with the Vanilla Enchantments Efficiency, Unbreaking, Fortune and Silk Touch."
+        }
+
+    ]
+
+}

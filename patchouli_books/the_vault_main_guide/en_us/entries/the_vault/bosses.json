@@ -1,0 +1,42 @@
+{
+    "name": "Mobs and Bosses",
+    "icon": "minecraft:dragon_head",
+    "category": "patchouli:the_vault_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:text",
+          "text": "A variety of mobs appears inside The Vault. Some mobs don't appear before a certain player level. The health, damage, armor and weapons a mob has is $(l)scaled to player level$(). $(br2)"
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "$(l)Elite Mobs$() are stronger versions of the base mob with a different look that have a different special ability when fought or killed. Killing Elite Mobs yield more Vault exp. $(br2)Another common Vault Mob is the $(l)Vault Dweller$(). Be aware that the Vault Dweller, in regards to other mobs, can jump! $(br2)$(l)Bosses$() appear when all obelisks are activated in the 'Kill the Boss' objective."
+        },
+
+        {
+          "type": "patchouli:entity",
+          "entity": "the_vault:boogieman",
+          "text": "Boogieman is the most common boss. It has a high base health and regenerates health when left untouched."
+        },
+        {
+          "type": "patchouli:entity",
+          "entity": "the_vault:blue_blaze",
+          "text": "A flying boss with ranged attacks and an ability to deflect range attacks. It can teleport up to the player."
+        },
+        {
+          "type": "patchouli:entity",
+          "entity": "the_vault:robot",
+          "text": "A rare boss with a long range of attacks. It has a high attack speed and can do critical attacks."
+        },
+
+        {
+          "type": "patchouli:entity",
+          "entity": "the_vault:monster_eye",
+          "text": "A rare boss that moves around like a slime cube."
+        }
+
+    ]
+
+}

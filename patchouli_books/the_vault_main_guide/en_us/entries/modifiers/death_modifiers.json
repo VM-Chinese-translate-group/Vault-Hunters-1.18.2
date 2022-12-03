@@ -1,0 +1,22 @@
+{
+    "name": "Death Modifiers",
+    "icon": "the_vault:soul_flame",
+    "category": "patchouli:modifiers_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:text",
+          "text": "Modifiers affecting the player's items on death$(br)$(li)$(l)Afterlife$()$(li2)All items you entered with will be restored on death $(li2)Artifacts can be found $(li2)Experience multiplier x0.5$(li)$(l)Phoenix$() $(li2)All items you entered with will be restored on death"
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "$(li)$(l)Beginners Grace$() $(li2)All items you entered with will be restored on death $(li2)No experience on death"
+        }
+
+
+
+    ]
+
+}

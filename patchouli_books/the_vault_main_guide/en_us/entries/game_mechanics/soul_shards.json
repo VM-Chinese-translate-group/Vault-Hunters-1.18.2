@@ -1,0 +1,23 @@
+{
+    "name": "Soul Shards",
+    "icon": "the_vault:soul_shard",
+    "category": "patchouli:game_mechanics_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:spotlight",
+          "item": "the_vault:soul_shard",
+          "text": "$(l)Soul Shards$() are items dropped by mobs in The Vault. They can be automatically collected in unlimited numbers in the $(l)Soul Shard Pouch.$()"
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "Open the $(l)Soul Shard Shop$() (default F7) to exchange Soul Shards for items. The shop refreshes stock every 12 hours and has a server wide stock, meaning if a fellow player buys an item it will be sold out for everyone. $(br2)A $(l)random item$() is always available to buy, where you can even pull an Artifact from."
+        }
+
+
+
+    ]
+
+}

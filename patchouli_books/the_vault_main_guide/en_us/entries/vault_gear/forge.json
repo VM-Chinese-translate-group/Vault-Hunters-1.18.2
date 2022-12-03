@@ -1,0 +1,31 @@
+{
+    "name": "Vault Forge",
+    "icon": "the_vault:vault_forge",
+    "category": "patchouli:vault_gear",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:crafting",
+          "recipe": "crafttweaker:forge",
+          "title": "Vault Forge",
+          "text": ""
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "The $(l)Vault Forge$() is used to create unidentified pieces of Vault Gear like: $(br) $(l)$(li)Vault Helmets $(li)Vault Chestplates $(li)Vault Leggings $(li)Vault Boots $(li)Vault Axes $(li)Vault Swords $(li)Vault Shields $(li)Idols $(li)Trinkets$()"
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "The Gear, Tools and Idols can be crafted with $(l)Vault Alloy$() and $(l)Vault Gold$(). $(br2)$(l)Trinkets$() can only be crafted after they have been $(l)discovered$() from an unidentified Trinket that you find inside The Vault. The Trinkets require $(l)Vault Diamonds$(), $(l)Vault Gold$(), $(l)Extraordinary Alexandrite$(), $(l)Trinket scrap$() and an item $(l)related$() to the use of the Trinket  "
+        },
+        {
+          "type": "patchouli:text",
+          "text": "The $(l)Proficiency$() bar for each item increases with every craft. The $(l)higher$() the Proficiency, the higher the $(l)Tier$() of the item. $(br2)Tiers progress from $(l)Novice$() to $(l)Apprentice$(), to $(l)Master$(), to $(l)Artisan$(), to $(l)Master Artisan$()"
+        }
+
+    ]
+
+}

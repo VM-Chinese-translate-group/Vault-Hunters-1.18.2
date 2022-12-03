@@ -1,0 +1,30 @@
+{
+    "name": "Cooperative Vaults",
+    "icon": "minecraft:player_head",
+    "category": "patchouli:the_vault_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:text",
+          "text": "Running the same Vault with friends is possible when in a party. One player creates a party and invites any player. $(br2)$(l)/party create $(br)$(l)/party invite <playername>$() $(br2)The partymembers and their health show up on the right of the screen $(br2)Disband a party with $(l) /party disband $()"
+        },
+        {
+          "type": "patchouli:text",
+          "text": "Only one Vault Crystal is needed to run a Cooperative Vault. Each player needs to jump in seperately to join The Vault. $(br2)The Vault Level is based on the party leader's Vault Level. When a teammember is 4 levels above the Vault level, they receive a Vault Experience penalty. When 14 levels above the Vault's level, they won't receive any Vault Experience at all."
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "A teamplayer can leave the vault early without failing the objective, but they cannot rejoin once left. When a teamplayer dies, others players are able to safe the player's items by locating the spirit, picking it up and throwing it through the portal. $(br2)$(l)Note this mechanic does not work when playing in Casual Mode or when a crystal has a Soul Flame applied.$()"
+        },
+
+        {
+          "type": "patchouli:crafting",
+          "recipe": "the_vault:spirit_extractor",
+          "text": "Place the spirit, that appears in the portal in the Overworld, on the $(l)Spirit Extractor$() to buy the items back the player had on them when dying, with the use of $(l)Vault Currency$(), Bronze or Gold."
+        }
+
+    ]
+
+}

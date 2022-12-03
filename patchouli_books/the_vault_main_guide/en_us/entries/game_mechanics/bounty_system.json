@@ -1,0 +1,34 @@
+{
+    "name": "The Bounty System",
+    "icon": "the_vault:bounty_block",
+    "category": "patchouli:game_mechanics_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:crafting",
+          "recipe": "the_vault:bounty_block",
+          "text": "$(l)Bounties are $(l)challenges$() that can be completed in order to receive $(l)Vault Experience$(), $(l)Items$() and $(l)Transmogs.$() $(br2)Use the Bounty Table to activate a bounty. Only one bounty can be activated at any time."
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "When a bounty is activated, complete the task as described and claim the rewards in the Bounty Table when completed. $(br2)If you want to cancel a bounty, it can be abandoned for an $(l)Abandon Penalty.$() $(br2)Once completed, there is a small cooldown period for a new bounty to appear. $(br2)Bounties can be rerolled at the costs of Vault Bronze."
+        },
+
+        {
+          "type": "patchouli:text",
+          "title": "Bounty Challenges",
+          "text": "$(li)$(l)Kill Entity$() $(li2) Kill a number of entities inside a defined dimension$(li)$(l)Damage Entity$()$(li2)Deal a certain amount of damage to an entity type$(li)$(l)Completion$() $(li2)Complete Vault Runs based on the objective$(li)$(l)Item Submission$() $(li2)Collect items and submit them into the Bounty Table"
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "$(li)$(l)Item Discovery$() $(li2)Find items of a type in Vault Chests$(li)$(l)Mining$() $(li2)Mine a certain number of ores in The Vault"
+        }
+
+
+
+    ]
+
+}

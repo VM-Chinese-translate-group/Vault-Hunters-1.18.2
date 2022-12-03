@@ -1,0 +1,21 @@
+{
+    "name": "Statues",
+    "icon": "the_vault:loot_statue",
+    "category": "patchouli:blocks_items_category",
+    "read_by_default": "true",
+    "pages": [
+
+        {
+          "type": "patchouli:crafting",
+          "recipe": "the_vault:loot_statue",
+          "title": "Statues",
+          "text": "$(l)Statues$() are craftable figures that generate a $(l)passive income$() of basic blocks. $(br2)Statues can be given a Minecraft in game name to have it render the player's skin.  "
+        },
+
+        {
+          "type": "patchouli:text",
+          "text": "Every statue has 5 random blocks to pick from for it to generate. Once picked, the block cannot be changed. $(br2)The $(l)drop rate$() of a statue can be accelerated by adding an $(l)Acceleration Chip$(). A maximum of 10 Acceleration Chips can be added to each statue."
+        }
+    ]
+
+}
