@@ -645,7 +645,7 @@
   "overlay.requires_research.interact_entity": "你需要先研究 %s 才能与这个实体互动.",
   "container.vault.vault_crate": "Boss箱",
   "container.vault.vault_crate_cake": "蛋糕箱",
-  "container.vault.magnet_table": "Magnet Modification",
+  "container.vault.magnet_table": "磁铁改装台",
   "container.vault.vault_crate_arena": "竞技场板条箱",
   "container.vault.vault_crate_scavenger": "拾荒者板条箱",
   "container.vault.vault_crate_champion": "冠军板条箱",
