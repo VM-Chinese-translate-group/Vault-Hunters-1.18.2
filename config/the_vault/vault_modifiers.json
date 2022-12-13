@@ -8,7 +8,7 @@
         "display": {
           "name": "Prosperous",
           "color": "#EBFF8D",
-          "description": "+10% Artifact Chance",
+          "description": "+10% \u9057\u7269\u6982\u7387",
           "descriptionFormatted": "+%d%% Artifact Chance",
           "icon": "the_vault:gui/modifiers/more_artifact1"
         }
@@ -22,7 +22,7 @@
         "display": {
           "name": "Prismatic",
           "color": "#FC00E3",
-          "description": "+10% Catalyst Fragments",
+          "description": "+10% \u50AC\u5316\u5242\u788E\u7247",
           "descriptionFormatted": "+%d%% Catalyst Fragments",
           "icon": "the_vault:gui/modifiers/more_catalyst"
         }
@@ -36,7 +36,7 @@
         "display": {
           "name": "Looter's Dream",
           "color": "#A3E2F5",
-          "description": "No Trap Chance",
+          "description": "\u65E0\u9677\u9631\u6982\u7387",
           "icon": "the_vault:gui/modifiers/safezone"
         }
       },
@@ -47,7 +47,7 @@
         "display": {
           "name": "Trapped",
           "color": "#D35B00",
-          "description": "+10% Chest Trap Chance",
+          "description": "+10% \u9677\u9631\u50CF\u6982\u7387",
           "descriptionFormatted": "+%d%% Chest Trap Chance",
           "icon": "the_vault:gui/modifiers/trapped"
         }
@@ -59,7 +59,7 @@
         "display": {
           "name": "Minefield",
           "color": "#D35B00",
-          "description": "+40% Chest Trap Chance",
+          "description": "+40% \u9677\u9631\u50CF\u6982\u7387",
           "descriptionFormatted": "+%d%% Chest Trap Chance",
           "icon": "the_vault:gui/modifiers/trapped"
         }
@@ -73,7 +73,7 @@
         "display": {
           "name": "Haunted",
           "color": "#6410A1",
-          "description": "+25% Soul Shard Drop Rate",
+          "description": "+25% \u7075\u9B42\u788E\u7247\u6389\u843D\u6982\u7387",
           "descriptionFormatted": "+%d%% Soul Shards",
           "icon": "the_vault:gui/modifiers/haunted"
         }
@@ -88,7 +88,7 @@
         "display": {
           "name": "Wealthy",
           "color": "#ffae00",
-          "description": "+1 Set of Coin Stacks",
+          "description": "+1 \u94B1\u5E01\u5806",
           "icon": "the_vault:gui/modifiers/wealthy"
         }
       },
@@ -100,7 +100,7 @@
         "display": {
           "name": "Gilded",
           "color": "#FFEC00",
-          "description": "+1 Set of Gilded Chests",
+          "description": "+1 \u9540\u91D1\u5B9D\u7BB1",
           "icon": "the_vault:gui/modifiers/gilded"
         }
       },
@@ -112,7 +112,7 @@
         "display": {
           "name": "Living",
           "color": "#38d800",
-          "description": "+1 Set of Living Chests",
+          "description": "+1 \u6D3B\u5316\u5B9D\u7BB1",
           "icon": "the_vault:gui/modifiers/living"
         }
       },
@@ -124,7 +124,7 @@
         "display": {
           "name": "Ornate",
           "color": "#c90d73",
-          "description": "+1 Set of Ornate Chests",
+          "description": "+1 \u534E\u4E3D\u5B9D\u7BB1",
           "icon": "the_vault:gui/modifiers/ornate"
         }
       },
@@ -136,7 +136,7 @@
         "display": {
           "name": "Wild",
           "color": "#E83F24",
-          "description": "Mobs spawns Wildly inside the vault",
+          "description": "\u602A\u7269\u65E0\u9650\u5236\u5237\u65B0",
           "descriptionFormatted": "+1 Set of Wildly Spawned Mobs",
           "icon": "the_vault:gui/modifiers/crowded"
         }
@@ -150,7 +150,7 @@
         "display": {
           "name": "Opulent",
           "color": "#38C9C0",
-          "description": "+5% Item Quantity",
+          "description": "+5% \u7269\u54C1\u6570\u91CF",
           "descriptionFormatted": "+%d%% Item Quantity",
           "icon": "the_vault:gui/modifiers/opulent"
         }
@@ -164,7 +164,7 @@
         "display": {
           "name": "Lucky",
           "color": "#b3ff20",
-          "description": "+5% Item Rarity",
+          "description": "+5% \u7269\u54C1\u7A00\u6709",
           "descriptionFormatted": "+%d%% Item Rarity",
           "icon": "the_vault:gui/modifiers/lucky"
         }
@@ -180,7 +180,7 @@
         "display": {
           "name": "Chunky Mobs",
           "color": "#dc693c",
-          "description": "+20% Mob Health",
+          "description": "+20% \u602A\u7269\u8840\u91CF",
           "descriptionFormatted": "+%d%% Mob Health",
           "icon": "the_vault:gui/modifiers/chunky"
         }
@@ -194,7 +194,7 @@
         "display": {
           "name": "Furious",
           "color": "#da6d5a",
-          "description": "+20% Mob Damage",
+          "description": "+20% \u602A\u7269\u653B\u51FB",
           "descriptionFormatted": "+%d%% Mob Damage",
           "icon": "the_vault:gui/modifiers/furious"
         }
@@ -208,7 +208,7 @@
         "display": {
           "name": "Infuriated",
           "color": "#f66868",
-          "description": "+5% Mob Speed",
+          "description": "+5% \u602A\u7269\u901F\u5EA6",
           "descriptionFormatted": "+%d%% Mob Speed",
           "icon": "the_vault:gui/modifiers/speedy_mobs"
         }
@@ -225,7 +225,7 @@
         "display": {
           "name": "Fatiguing",
           "color": "#9B3E56",
-          "description": "+10% increased chance mobs Fatigue on hit",
+          "description": "+10% \u589E\u52A0\u602A\u7269\u88AB\u51FB\u4E2D\u65F6\u75B2\u52B3\u6982\u7387",
           "descriptionFormatted": "+%d%% increased chance mobs Fatigue on hit",
           "icon": "the_vault:gui/modifiers/hex_chaining"
         }
@@ -240,7 +240,7 @@
         "display": {
           "name": "Freezing",
           "color": "#2FFBF4",
-          "description": "+10% increased chance mobs Slow on hit",
+          "description": "+10% \u589E\u52A0\u602A\u7269\u88AB\u51FB\u4E2D\u65F6\u7F13\u6162\u6982\u7387",
           "descriptionFormatted": "+%d%% increased chance mobs Slow on hit",
           "icon": "the_vault:gui/modifiers/hex_chilling"
         }
@@ -255,7 +255,7 @@
         "display": {
           "name": "Poisonous",
           "color": "#84BF17",
-          "description": "+10% increased chance mobs Poison on hit",
+          "description": "+10% \u589E\u52A0\u602A\u7269\u88AB\u51FB\u4E2D\u65F6\u4E2D\u6BD2\u6982\u7387",
           "descriptionFormatted": "+%d%% increased chance mobs Poison on hit",
           "icon": "the_vault:gui/modifiers/hex_poison"
         }
@@ -270,7 +270,7 @@
         "display": {
           "name": "Withering",
           "color": "#5A5851",
-          "description": "+10% increased chance mobs Wither on hit",
+          "description": "+10% \u589E\u52A0\u602A\u7269\u88AB\u51FB\u4E2D\u65F6\u51CB\u96F6\u6982\u7387",
           "descriptionFormatted": "+%d%% increased chance mobs Wither on hit",
           "icon": "the_vault:gui/modifiers/hex_wither"
         }
@@ -285,7 +285,7 @@
         "display": {
           "name": "Voiding",
           "color": "#5A5851",
-          "description": "+10% increased chance mobs will void time on hit",
+          "description": "+10% \u589E\u52A0\u602A\u7269\u88AB\u51FB\u4E2D\u65F6\u51CF\u5C11\u65F6\u95F4\u6982\u7387",
           "descriptionFormatted": "+%d%% increased chance mobs will void time on hit",
           "icon": "the_vault:gui/modifiers/hex_wither"
         }
@@ -301,7 +301,7 @@
         "display": {
           "name": "Frenzy",
           "color": "#FC7C5C",
-          "description": "+300% Mob Damage, +10% Mob Speed, Mob Health reduced to 1",
+          "description": "+300% \u602A\u7269\u653B\u51FB, +10%\u602A\u7269\u901F\u5EA6, \u602A\u7269\u8840\u91CF\u51CF\u5C11\u5230 1",
           "icon": "the_vault:gui/modifiers/frenzy"
         }
       }
@@ -314,7 +314,7 @@
         "display": {
           "name": "Crowded",
           "color": "#E83F24",
-          "description": "+1 Mob Spawns",
+          "description": "+1 \u602A\u7269\u751F\u6210",
           "descriptionFormatted": "+%d Mob Spawns",
           "icon": "the_vault:gui/modifiers/crowded"
         }
@@ -326,7 +326,7 @@
         "display": {
           "name": "Personal Space",
           "color": "#F9B1FF",
-          "description": "-1 Mob Spawns",
+          "description": "-1 \u602A\u7269\u751F\u6210",
           "descriptionFormatted": "-%d Mob Spawns",
           "icon": "the_vault:gui/modifiers/personalspace"
         }
@@ -342,7 +342,7 @@
         "display": {
           "name": "Draining",
           "color": "#849dc8",
-          "description": "-20% Mana Regeneration",
+          "description": "-20% \u9B54\u529B\u518D\u751F",
           "descriptionFormatted": "-%d%% Mana Regeneration",
           "icon": "the_vault:gui/modifiers/draining"
         }
@@ -356,7 +356,7 @@
         "display": {
           "name": "Injured",
           "color": "#631F1F",
-          "description": "-2 Health",
+          "description": "-2 \u8840\u91CF",
           "descriptionFormatted": "-%d Health",
           "icon": "the_vault:gui/modifiers/injured"
         }
@@ -370,7 +370,7 @@
         "display": {
           "name": "Wounded",
           "color": "#631F1F",
-          "description": "Removes 5 hearts",
+          "description": "\u51CF\u5C11 5 \u9897\u5FC3",
           "descriptionFormatted": "-%d Health",
           "icon": "the_vault:gui/modifiers/injured"
         }
@@ -384,7 +384,7 @@
         "display": {
           "name": "Drained",
           "color": "#849dc8",
-          "description": "-70% Mana Regeneration",
+          "description": "-70% \u9B54\u529B\u518D\u751F",
           "descriptionFormatted": "-%d%% Mana Regeneration",
           "icon": "the_vault:gui/modifiers/draining"
         }
@@ -398,7 +398,7 @@
         "display": {
           "name": "Frail",
           "color": "#7B7E7F",
-          "description": "+20% Durability Damage",
+          "description": "+20% \u8010\u4E45\u635F\u8017",
           "descriptionFormatted": "+%d%% Durability Damage",
           "icon": "the_vault:gui/modifiers/frail"
         }
@@ -410,7 +410,7 @@
         "display": {
           "name": "Reinforced",
           "color": "#9550FF",
-          "description": "-10% Durability Damage",
+          "description": "-10% \u8010\u4E45\u635F\u8017",
           "descriptionFormatted": "-%d%% Durability Damage",
           "icon": "the_vault:gui/modifiers/reinforced"
         }
@@ -427,7 +427,7 @@
         "display": {
           "name": "Hunger",
           "color": "#E8DACD",
-          "description": "Hunger",
+          "description": "\u9965\u997F",
           "descriptionFormatted": "+%d Hunger",
           "icon": "the_vault:gui/modifiers/hunger"
         }
@@ -442,7 +442,7 @@
         "display": {
           "name": "Lucky",
           "color": "#b3ff20",
-          "description": "+1 Luck",
+          "description": "+1 \u5E78\u8FD0",
           "descriptionFormatted": "+%d Luck",
           "icon": "the_vault:gui/modifiers/lucky"
         }
@@ -457,7 +457,7 @@
         "display": {
           "name": "Slowed",
           "color": "#4C6786",
-          "description": "+1 Slowness",
+          "description": "+1 \u7F13\u6162",
           "descriptionFormatted": "+%d Slowness",
           "icon": "the_vault:gui/modifiers/slowed"
         }
@@ -472,7 +472,7 @@
         "display": {
           "name": "Speedy",
           "color": "#00CDFF",
-          "description": "+1 Speed",
+          "description": "+1 \u901F\u5EA6",
           "descriptionFormatted": "+%d Speed",
           "icon": "the_vault:gui/modifiers/speed"
         }
@@ -487,7 +487,7 @@
         "display": {
           "name": "Stronk",
           "color": "#5E12E5",
-          "description": "+1 Strength",
+          "description": "+1 \u529B\u91CF",
           "descriptionFormatted": "+%d Strength",
           "icon": "the_vault:gui/modifiers/stronk"
         }
@@ -502,7 +502,7 @@
         "display": {
           "name": "Tired",
           "color": "#E8E9E1",
-          "description": "+1 Mining Fatigue",
+          "description": "+1 \u6316\u6398\u75B2\u52B3",
           "descriptionFormatted": "+%d Mining Fatigue",
           "icon": "the_vault:gui/modifiers/tired"
         }
@@ -517,7 +517,7 @@
         "display": {
           "name": "Unlucky",
           "color": "#9F5300",
-          "description": "-1 Luck",
+          "description": "-1 \u5E78\u8FD0",
           "descriptionFormatted": "-%d Luck",
           "icon": "the_vault:gui/modifiers/unlucky"
         }
@@ -532,7 +532,7 @@
         "display": {
           "name": "Weakened",
           "color": "#9F5300",
-          "description": "+1 Weakness",
+          "description": "+1 \u865A\u5F31",
           "descriptionFormatted": "+%d Weakness",
           "icon": "the_vault:gui/modifiers/weakness"
         }
@@ -548,7 +548,7 @@
         "display": {
           "name": "Afterlife",
           "color": "#0FA6E3",
-          "description": "All items you entered with will be restored on death; No artifact can be found",
+          "description": "\u6B7B\u4EA1\u4E0D\u6389\u843D\uFF1B\u4E0D\u80FD\u53D1\u73B0\u9057\u7269",
           "icon": "the_vault:gui/modifiers/afterlife"
         }
       },
@@ -561,7 +561,7 @@
         "display": {
           "name": "Phoenix",
           "color": "#FF8900",
-          "description": "All items you entered with will be restored on death",
+          "description": "\u6B7B\u4EA1\u4E0D\u6389\u843D",
           "icon": "the_vault:gui/modifiers/phoenix"
         }
       },
@@ -574,7 +574,7 @@
         "display": {
           "name": "Beginners Grace",
           "color": "#FF8900",
-          "description": "All items you entered with will be restored on death; No experience on death",
+          "description": "\u6B7B\u4EA1\u4E0D\u6389\u843D\uFF1A\u6B7B\u540E\u65E0\u7ECF\u9A8C",
           "icon": "the_vault:gui/modifiers/beginners_grace"
         }
       }
@@ -585,7 +585,7 @@
         "display": {
           "name": "Locked",
           "color": "#FF0000",
-          "description": "Vault can't be bailed",
+          "description": "\u5B9D\u85CF\u4E0D\u80FD\u5931\u8D25",
           "icon": "the_vault:gui/modifiers/raffle"
         }
       },
@@ -594,7 +594,7 @@
         "display": {
           "name": "Raffle",
           "color": "#C5001B",
-          "description": "Locks the vault",
+          "description": "\u9501\u5B9A\u5B9D\u85CF",
           "icon": "the_vault:gui/modifiers/raffle"
         }
       }
@@ -605,7 +605,7 @@
         "display": {
           "name": "Rotten",
           "color": "#A0AF5B",
-          "description": "Vault Powerups have no effect",
+          "description": "\u5B9D\u85CF\u5145\u80FD\u65E0\u6548\u679C",
           "icon": "the_vault:gui/modifiers/rotten"
         }
       }
@@ -619,7 +619,7 @@
         "display": {
           "name": "Clumsy",
           "color": "#CB866D",
-          "description": "-10% Parry",
+          "description": "-10% \u683C\u6321",
           "descriptionFormatted": "-%d%% Parry",
           "icon": "the_vault:gui/modifiers/clumsy"
         }
@@ -632,7 +632,7 @@
         "display": {
           "name": "Inert",
           "color": "#6DACB5",
-          "description": "-10% Cooldown Reduction",
+          "description": "-10% \u51B7\u5374\u65F6\u95F4\u51CF\u5C11",
           "descriptionFormatted": "-%d%% Cooldown Reduction",
           "icon": "the_vault:gui/modifiers/inert"
         }
@@ -645,7 +645,7 @@
         "display": {
           "name": "Vulnerable",
           "color": "#CA9A5B",
-          "description": "-10% Resistance",
+          "description": "-10% \u6297\u6027\u63D0\u5347",
           "descriptionFormatted": "-%d%% Resistance",
           "icon": "the_vault:gui/modifiers/vulnerable"
         }
@@ -659,7 +659,7 @@
         "display": {
           "name": "Difficult",
           "color": "#E20000",
-          "description": "+3 Vault Level",
+          "description": "+3 \u5B9D\u85CF\u7B49\u7EA7",
           "descriptionFormatted": "+%d Vault Level",
           "icon": "the_vault:gui/modifiers/difficult"
         }
@@ -671,7 +671,7 @@
         "display": {
           "name": "Easy",
           "color": "#70FF2A",
-          "description": "-3 Vault Level",
+          "description": "-3 \u5B9D\u85CF\u7B49\u7EA7",
           "descriptionFormatted": "-%d Vault Level",
           "icon": "the_vault:gui/modifiers/easy"
         }
@@ -686,7 +686,7 @@
         "display": {
           "name": "Plentiful",
           "color": "#FF85FF",
-          "description": "+20% Vault Ores",
+          "description": "+20% \u5B9D\u85CF\u77FF\u7269",
           "descriptionFormatted": "+%d%% Vault Ores",
           "icon": "the_vault:gui/modifiers/plentiful"
         }
@@ -700,7 +700,7 @@
         "display": {
           "name": "Extended",
           "color": "#2F86AE",
-          "description": "+1 minute Vault Time",
+          "description": "+1 \u5206\u949F\u0020\u5B9D\u85CF\u65F6\u95F4",
           "descriptionFormatted": "+%d minutes Vault Time",
           "icon": "the_vault:gui/modifiers/extended"
         }
@@ -712,7 +712,7 @@
         "display": {
           "name": "Rushed",
           "color": "#FFCD6F",
-          "description": "-1 minute Vault Time",
+          "description": "-1 \u5206\u949F\u0020\u5B9D\u85CF\u65F6\u95F4",
           "descriptionFormatted": "-%d minutes Vault Time",
           "icon": "the_vault:gui/modifiers/rush"
         }
