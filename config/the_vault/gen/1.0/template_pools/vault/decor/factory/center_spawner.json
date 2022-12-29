@@ -1,9 +1,0 @@
-[
-    {
-      "weight": 1,
-      "value": {
-        "template": "the_vault:vault/decor/factory/center_spawner1",
-        "palettes": [ "the_vault:factory/center_spawner" ]
-      }
-    }
-  ]

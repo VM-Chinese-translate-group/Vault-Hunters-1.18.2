@@ -1,9 +1,0 @@
-[
-    {
-      "weight": 1,
-      "value": {
-        "template": "the_vault:vault/decor/x-spot/trap_spawners1",
-        "palettes": ["the_vault:x-mark/trap_spawners"]
-      }
-    }
-  ]

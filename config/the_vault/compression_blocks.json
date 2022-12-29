@@ -1,8 +1,0 @@
-{
-  "compressions": [
-    {
-      "targetItemId": "minecraft:cobblestone",
-      "compressionId": "compressed_cobblestone"
-    }
-  ]
-}
