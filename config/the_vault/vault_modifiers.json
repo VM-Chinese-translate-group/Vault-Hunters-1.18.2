@@ -42,7 +42,7 @@
       },
       "the_vault:trapped": {
         "properties": {
-          "chance": 0.1
+          "chance": 1.1
         },
         "display": {
           "name": "Trapped",
@@ -54,7 +54,7 @@
       },
       "the_vault:minefield": {
         "properties": {
-          "chance": 0.4
+          "chance": 1.4
         },
         "display": {
           "name": "Minefield",
@@ -83,7 +83,8 @@
       "the_vault:coin_pile": {
         "properties": {
           "output": "the_vault:placeholder[type=coin_stacks]",
-          "attemptsPerChunk": 16
+          "attemptsPerChunk": 16,
+          "requireConditions": true
         },
         "display": {
           "name": "Wealthy",
@@ -95,7 +96,8 @@
       "the_vault:gilded": {
         "properties": {
           "output": "the_vault:placeholder[type=gilded_chest]",
-          "attemptsPerChunk": 10
+          "attemptsPerChunk": 10,
+          "requireConditions": true
         },
         "display": {
           "name": "Gilded",
@@ -107,7 +109,8 @@
       "the_vault:living": {
         "properties": {
           "output": "the_vault:placeholder[type=living_chest]",
-          "attemptsPerChunk": 10
+          "attemptsPerChunk": 10,
+          "requireConditions": true
         },
         "display": {
           "name": "Living",
@@ -119,7 +122,8 @@
       "the_vault:ornate": {
         "properties": {
           "output": "the_vault:placeholder[type=ornate_chest]",
-          "attemptsPerChunk": 10
+          "attemptsPerChunk": 10,
+          "requireConditions": true
         },
         "display": {
           "name": "Ornate",
@@ -131,7 +135,8 @@
       "the_vault:wild": {
         "properties": {
           "output": "the_vault:wild_spawner",
-          "attemptsPerChunk": 16
+          "attemptsPerChunk": 16,
+          "requireConditions": true
         },
         "display": {
           "name": "Wild",
@@ -139,6 +144,62 @@
           "description": "\u602A\u7269\u65E0\u9650\u5236\u5237\u65B0",
           "descriptionFormatted": "+1 Set of Wildly Spawned Mobs",
           "icon": "the_vault:gui/modifiers/crowded"
+        }
+      },
+      "the_vault:collapsing": {
+        "properties": {
+          "output": "the_vault:vault_bedrock",
+          "attemptsPerChunk": 256,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "Collapsing",
+          "color": "#E83F24",
+          "description": "\u8FD9\u4E2A\u5B9D\u5E93\u4E16\u754C\u770B\u8D77\u6765\u8981\u5D29\u574F\u4E86",
+          "descriptionFormatted": "This vault seem to be collapsing",
+          "icon": "the_vault:gui/modifiers/chaotic"
+        }
+      },
+      "the_vault:volcanic": {
+        "properties": {
+          "output": "minecraft:lava",
+          "attemptsPerChunk": 20,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "Volcanic",
+          "color": "#E83F24",
+          "description": "\u70ED\u70ED\u70ED\u70ED\u70ED\uFF01",
+          "descriptionFormatted": "HOT",
+          "icon": "the_vault:gui/modifiers/volcanic"
+        }
+      },
+      "the_vault:explosive": {
+        "properties": {
+          "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"tnt\"}",
+          "attemptsPerChunk": 16,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "Explosive",
+          "color": "#ff0000",
+          "description": "\u8FD9\u4E2A\u5B9D\u5E93\u4E16\u754C\u4F1A\u7206\u70B8\u54E6",
+          "descriptionFormatted": "This vault is explosive",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "the_vault:shulker": {
+        "properties": {
+          "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"shulkerbullet\"}",
+          "attemptsPerChunk": 24,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "Shulkered",
+          "color": "#CBC3E3",
+          "description": "\u8FD9\u4E2A\u5B9D\u85CF\u4E16\u754C\u7684\u91CD\u529B\u597D\u8F7B",
+          "descriptionFormatted": "This vault is light weight",
+          "icon": "the_vault:gui/modifiers/impossible"
         }
       }
     },
@@ -296,6 +357,7 @@
         "properties": {
           "damage": 3.0,
           "movementSpeed": 0.1,
+          "maxHealth": 2.0,
           "doHealthReduction": true
         },
         "display": {
@@ -681,7 +743,7 @@
       "the_vault:plentiful": {
         "properties": {
           "type": "ORE",
-          "multiplier": 0.2
+          "chance": 0.2
         },
         "display": {
           "name": "Plentiful",
@@ -700,7 +762,7 @@
         "display": {
           "name": "Extended",
           "color": "#2F86AE",
-          "description": "+1 \u5206\u949F\u0020\u5B9D\u85CF\u65F6\u95F4",
+          "description": "+1 \u5206\u949F \u5B9D\u85CF\u65F6\u95F4",
           "descriptionFormatted": "+%d minutes Vault Time",
           "icon": "the_vault:gui/modifiers/extended"
         }
@@ -712,9 +774,70 @@
         "display": {
           "name": "Rushed",
           "color": "#FFCD6F",
-          "description": "-1 \u5206\u949F\u0020\u5B9D\u85CF\u65F6\u95F4",
+          "description": "-1 \u5206\u949F \u5B9D\u85CF\u65F6\u95F4",
           "descriptionFormatted": "-%d minutes Vault Time",
           "icon": "the_vault:gui/modifiers/rush"
+        }
+      }
+    },
+    "the_vault:modifier_type/game_controls": {
+      "the_vault:confused": {
+        "properties": {
+          "forward": true,
+          "backward": true,
+          "jump": true,
+          "swapLeftAndRight": true
+        },
+        "display": {
+          "name": "Confused",
+          "color": "#7738C9",
+          "description": "\u5DE6\u53F3\u98A0\u5012",
+          "descriptionFormatted": "Left and Right swapped",
+          "icon": "the_vault:gui/modifiers/confused"
+        }
+      },
+      "the_vault:crab_walk": {
+        "properties": {
+          "forward": false,
+          "backward": false,
+          "jump": true,
+          "swapLeftAndRight": false
+        },
+        "display": {
+          "name": "Crab Walk",
+          "color": "#7738C9",
+          "description": "\u53EA\u80FD\u6A2A\u7740\u8D70\u8DEF",
+          "descriptionFormatted": "The only way is sideways",
+          "icon": "the_vault:gui/modifiers/crab_walk"
+        }
+      },
+      "the_vault:jupiter_gravity": {
+        "properties": {
+          "forward": true,
+          "backward": true,
+          "jump": false,
+          "swapLeftAndRight": false
+        },
+        "display": {
+          "name": "Jupiter Gravity",
+          "color": "#7738C9",
+          "description": "\u4E0D\u80FD\u8DF3\u8DC3",
+          "descriptionFormatted": "No Jump",
+          "icon": "the_vault:gui/modifiers/jupiter_gravity"
+        }
+      }
+    },
+    "the_vault:modifier_type/experience": {
+      "the_vault:xp_reduction": {
+        "properties": {
+          "addend": -0.25
+        },
+        "display": {
+          "name": "Vault XP Reduction",
+          "color": "#DB7C00",
+          "description": "-25% \u5B9D\u5E93\u7ECF\u9A8C",
+          "descriptionFormatted": "+%d%% Vault XP Gained",
+          "icon": "the_vault:gui/modifiers/impossible"
         }
       }
     }
