@@ -15,15 +15,15 @@
         "amplifier": 2,
         "cost": 4,
         "regretCost": 2,
-        "levelRequirement": 10,
+        "levelRequirement": 25,
         "type": "icon_only"
       },
       {
         "effect": "minecraft:haste",
         "amplifier": 3,
-        "cost": 5,
-        "regretCost": 2,
-        "levelRequirement": 20,
+        "cost": 10,
+        "regretCost": 8,
+        "levelRequirement": 70,
         "type": "icon_only"
       }
     ]
@@ -52,7 +52,7 @@
         "amplifier": 3,
         "cost": 5,
         "regretCost": 2,
-        "levelRequirement": 30,
+        "levelRequirement": 50,
         "type": "icon_only"
       }
     ]
@@ -79,9 +79,9 @@
       {
         "effect": "minecraft:speed",
         "amplifier": 3,
-        "cost": 5,
-        "regretCost": 2,
-        "levelRequirement": 50,
+        "cost": 12,
+        "regretCost": 8,
+        "levelRequirement": 80,
         "type": "icon_only"
       }
     ]
@@ -109,7 +109,7 @@
           "amount": 2.0,
           "operation": 0
         },
-        "cost": 3,
+        "cost": 4,
         "regretCost": 2,
         "levelRequirement": 20
       },
@@ -121,7 +121,7 @@
           "amount": 3.0,
           "operation": 0
         },
-        "cost": 4,
+        "cost": 6,
         "regretCost": 2,
         "levelRequirement": 30
       }

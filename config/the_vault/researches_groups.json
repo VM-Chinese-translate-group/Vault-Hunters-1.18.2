@@ -1,0 +1,118 @@
+{
+  "groups": {
+    "Storage": {
+      "title": "\u5B58\u50A8",
+      "research": [
+        "\u5DE8\u578B\u7BB1\u5B50",
+        "\u7B80\u5355\u5B58\u50A8",
+        "\u7CBE\u81F4\u5B58\u50A8",
+        "\u5E94\u7528\u80FD\u6E90",
+        "\u50A8\u7269\u62BD\u5C49",
+        "\u901A\u7528\u673A\u68B0QIO"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Storage": 0.24
+      }
+    },
+    "BigToys": {
+      "title": "\u5927\u73A9\u5177",
+      "research": [
+        "\u91C7\u77FF\u5C0F\u5DE5\u5177",
+        "\u53E4\u602A\u88C5\u7F6E",
+        "\u6570\u5B57\u578B\u91C7\u77FF\u673A",
+        "\u5EFA\u7B51\u5C0F\u5E2E\u624B"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "BigToys": 12.0
+      }
+    },
+    "Production": {
+      "title": "\u751F\u4EA7",
+      "research": [
+        "\u7B80\u5355\u6751\u6C11",
+        "\u5B50\u6C99",
+        "Cagerium",
+        "\u5237\u602A\u7B3C\u589E\u5F3A",
+        "Phytogenic Insulator",
+        "\u7B80\u5355\u732A\u7075",
+        "\u690D\u7269\u76C6\u683D"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Production": 12.0
+      }
+    },
+    "BigMods": {
+      "title": "\u5927\u578B\u6A21\u7EC4",
+      "research": [
+        "\u673A\u68B0\u52A8\u529B",
+        "\u901A\u7528\u673A\u68B0",
+        "\u70ED\u529B\u81A8\u80C0",
+        "\u690D\u7269\u9B54\u6CD5"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "BigMods": 12.0
+      }
+    },
+    "Power": {
+      "title": "\u7535\u529B",
+      "research": [
+        "\u901A\u91CF\u7F51\u7EDC",
+        "Powah",
+        "\u901A\u7528\u673A\u68B0\u673A\u5668",
+        "\u94C1\u53D1\u7535\u673A"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Power": 6.0
+      }
+    },
+    "QoL": {
+      "title": "\u751F\u6D3B\u8D28\u91CF",
+      "research": [
+        "\u706B\u628A\u5927\u5E08",
+        "\u5783\u573E\u6876",
+        "\u7535\u68AF",
+        "\u4F20\u9001\u77F3\u7891",
+        "\u53E4\u602A\u88C5\u7F6E",
+        "\u5B9D\u85CF\u6307\u5357\u9488"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+      }
+    },
+    "Looting": {
+      "title": "\u62A2\u593A",
+      "research": [
+        "\u5DE5\u5177\u76AE\u5E26",
+        "\u888B\u5B50",
+        "\u53CC\u500D\u888B\u5B50",
+        "\u80CC\u5305",
+        "\u5927\u80CC\u5305",
+        "\u5783\u573E\u7BA1\u7406"
+      ],
+      "globalCostIncrease": 0.0,
+      "groupCostIncrease": {
+        "Looting": 2.0
+      }
+    },
+      "Handling": {
+        "title": "\u5904\u7406",
+        "research": [
+          "Xnet",
+          "\u6A21\u5757\u5316\u8DEF\u7531\u5668",
+          "PipeZ",
+          "\u94C1\u7194\u7089",
+          "\u81EA\u52A8\u5316\u5929\u624D",
+          "Dark Utilities"
+        ],
+        "globalCostIncrease": 0.0,
+        "groupCostIncrease": {
+          "Handling": 5.0
+        }
+    }
+  }
+}
