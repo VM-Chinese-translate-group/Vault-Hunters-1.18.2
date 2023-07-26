@@ -1,0 +1,28 @@
+{
+  "sortnum": 4,
+  "name": "宝库水晶",
+  "icon": "the_vault:vault_crystal",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在获得了$(l)宝库之石$()后，需要将它使用正确的$(l)物品$()来$(l)灌注$()，以制成宝库水晶。$(br2)这一过程需要通过$(l)宝库祭坛$()来完成。宝库祭坛与玩家$(l)绑定$()。$(br2)通过将一个$(l)宝库之石$()放在宝库祭坛上，它将赋予宝库水晶构建出通往宝库世界维度的$(l)大门$()的能力。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_altar",
+      "title": "宝库水晶",
+      "text": "制出宝库水晶时，所需要的物品可以$(l)丢到$()宝库祭坛上，然后需要通过$(l)红石信号$()将其$(l)激活$()。$(br2)需要的物品数量会随着$(l)宝库等级$()而$(l)变化$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:vault_crystal",
+      "title": "宝库水晶",
+      "text": "每个宝库水晶都有一个$(l)目标$()、$(l)主题$()和$(l)布局$()。$(br2)宝库水晶可以通过使用$(l)在宝库中$()收集的部分资源来进行$(l:game_mechanics/crystal_modification)$(l)词缀修饰$()。$(br2)附加到宝库水晶上的$(l)等级$()与制造水晶时$(l)玩家的宝库等级$()一致。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

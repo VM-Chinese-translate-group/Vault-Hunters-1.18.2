@@ -1,0 +1,420 @@
+{
+  "inscriptionRecipes": [
+    {
+      "id": "the_vault:inscription_empty",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:crafted_empty\", data:{color:7012096,model:0}, display:{Name:'{\"text\":\"\u7a7a\u94ed\u6587\",\"color\":\"#FFFFFF\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:inscription_mushroom",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:mushroom\", data:{color:7012096,model:2}, display:{Name:'{\"text\":\"\u8611\u83c7\u623f\u95f4\u94ed\u6587\",\"color\":\"#6AFF00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 5,
+          "ITEM": "the_vault:living_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 324,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:inscription_blacksmith",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:blacksmith\", data:{color:7012096,model:1}, display:{Name:'{\"text\":\"\u94c1\u5320\u94fa\u94ed\u6587\",\"color\":\"#6AFF00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 5,
+          "ITEM": "the_vault:ornate_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 512,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:inscription_mine",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:mine\", data:{color:7012096,model:9}, display:{Name:'{\"text\":\"\u77ff\u4e95\u94ed\u6587\",\"color\":\"#6AFF00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:gem_larimar",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 512,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        }
+      ]
+    },
+    
+    {
+      "id": "the_vault:inscription_library",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:library\", data:{color:7012096,model:3}, display:{Name:'{\"text\":\"\u56fe\u4e66\u9986\u94ed\u6587\",\"color\":\"#6AFF00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 5,
+          "ITEM": "the_vault:gilded_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 324,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:inscription_cove",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:cove\", data:{color:7012096,model:4}, display:{Name:'{\"text\":\"\u6e2f\u6e7e\u94ed\u6587\",\"color\":\"#6AFF00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:bounty_pearl",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 324,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:painting",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:painting\", data:{color:7012096,model:10}, display:{Name:'{\"text\":\"\u6cb9\u753b\u94ed\u6587\",\"color\":\"#6AFF00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:gilded_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:ornate_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:living_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:wooden_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:bounty_pearl",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 324,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:vendor",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:vendor\", data:{color:7012096,model:12}, display:{Name:'{\"text\":\"\u96c6\u5e02\u94ed\u6587\",\"color\":\"#6AFF00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:poisonous_mushroom",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:hunter_eye",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 324,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:inscription_xmark",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:xmark\", data:{color:7012096,model:15}, display:{Name:'{\"text\":\"\u7ea2\u53c9\u94ed\u6587\",\"color\":\"#F09E00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:ornate_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 192,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:dragon_room",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:dragon\", data:{color:7012096,model:7}, display:{Name:'{\"text\":\"\u9f99\u7a9f\u94ed\u6587\",\"color\":\"#F09E00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:bounty_pearl",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 192,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:wild_west",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:wild_west\", data:{color:7012096,model:14}, display:{Name:'{\"text\":\"\u8352\u91ce\u897f\u90e8\u94ed\u6587\",\"color\":\"#F09E00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:gilded_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 192,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:crystal_cave",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:crystal_cave\", data:{color:7012096,model:5}, display:{Name:'{\"text\":\"\u6c34\u6676\u6d1e\u7a74\u94ed\u6587\",\"color\":\"#F09E00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 128,
+          "ITEM": "the_vault:gem_larimar",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:factory",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:factory\", data:{color:7012096,model:8}, display:{Name:'{\"text\":\"\u5de5\u5382\u94ed\u6587\",\"color\":\"#F09E00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "minecraft:netherite_block",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 192,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:village",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:village\", data:{color:7012096,model:13}, display:{Name:'{\"text\":\"\u6751\u5e84\u94ed\u6587\",\"color\":\"#F09E00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:living_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gilded_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:ornate_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        }
+      ]
+    }
+  ]
+}

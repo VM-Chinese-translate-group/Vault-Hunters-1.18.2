@@ -1,0 +1,17 @@
+{
+  "sortnum": 3,
+  "name": "宝库之石",
+  "icon": "the_vault:vault_rock",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在收集到足够多的异色铁后，你需要在$(l)Y轴-5以下$()的区域找到成簇的宝库石。$(br2)挖掘宝库石时，有10%的概率会掉落一个$(l)破损的宝库石$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_rock",
+      "text": "将$(l)破损的宝库石$()与$(l)异色铁$()在工作台中组合，可以做出一个$(l)宝库之石$()。"
+    }
+  ]
+}

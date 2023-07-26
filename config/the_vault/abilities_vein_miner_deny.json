@@ -1,7 +1,0 @@
-{
-  "COMMENTS": [
-    "Resource locations added to DENY_ITEMS will not trigger vein miner when used with vein miner",
-    "Entries in DENY_ITEMS are formatted like minecraft:wooden_pickaxe"
-  ],
-  "DENY_ITEMS": []
-}

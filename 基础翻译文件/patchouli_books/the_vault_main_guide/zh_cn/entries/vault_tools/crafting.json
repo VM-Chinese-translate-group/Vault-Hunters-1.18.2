@@ -1,0 +1,18 @@
+{
+  "sortnum": 4,
+  "name": "制作",
+  "icon": "the_vault:tool_station",
+  "category": "patchouli:vault_tools_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "珠宝需要先制作出来，然后才能够用于强化宝库工具。$(br2)制作的珠宝等级可以$(l)小于或等于$()玩家等级。$(br2)由玩家制作的珠宝与宝库中发现的珠宝相比会$(l)略逊一筹$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:tool_station",
+      "text": "宝库工具和珠宝都是在$(l)工具站$()制作的。$(br2)制作宝库工具时，工具的$(l)基础类型$()和$(l)等级$()都由玩家确定。"
+    }
+  ]
+}

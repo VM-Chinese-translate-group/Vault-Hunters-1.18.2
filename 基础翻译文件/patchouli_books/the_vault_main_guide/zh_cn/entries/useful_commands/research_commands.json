@@ -1,0 +1,27 @@
+{
+  "sortnum": 4,
+  "name": "研究指令",
+  "icon": "the_vault:mod_box",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "可以与$(l)其他玩家$()一起创建研究小组来逐步解锁所有的$(l:skills/researches)$(l)研究$()。$(br2)一起解锁研究，会使研究的成本略有$(l)增加$()。$(br2)在$(l)加入研究小组之前$()解锁的研究$(l)不会$()与他人$(l)分享$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "研究指令",
+      "text": "$(li)$(8)$(l)/the_vault research_team invite <玩家名>$()$(li2)邀请玩家$()$(br)$(li)$(8)$(l)/the_vault research_team accept_invite <玩家名>$()$(li2)接受该玩家的邀请并加入研究小组$()$(br)$(li)$(c:/the_vault research_team list)$(t:单击以执行指令)$(l)/the_vault research_team list$()$(li2)列出小组中所有成员$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "研究指令",
+      "text": "$(li)$(c:/the_vault research_team leave)$(t:单击以执行指令)$(l)/the_vault research_team leave$()$(li2)离开研究小组$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

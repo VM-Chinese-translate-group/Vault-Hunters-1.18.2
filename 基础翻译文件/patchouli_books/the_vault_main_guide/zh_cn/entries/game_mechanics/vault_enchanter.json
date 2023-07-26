@@ -1,0 +1,18 @@
+{
+  "name": "宝藏附魔台",
+  "icon": "the_vault:vault_enchanter",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "宝藏附魔台为你提供了一个$(l)更简单$()、$(l)更少消耗$()的$(l)附魔$()$(l:vault_gear/identification)$(t:Vault Gear)宝库装备$()和$(l:vault_tools/variants)$(t:Vault Tools)宝库工具$()的方式。$(br2)它让你可以放弃附魔台或村民，通过$(l)单个UI$()来进行附魔的$(l)选择$()和$(l)替换$()。$(br2)宝藏附魔台中提供的所有附魔都是其$(l)最大$()等级。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_enchanter",
+      "title": "宝藏附魔台",
+      "text": "放入所选的宝库装备或宝库工具后，就可以选择一个附魔，$(l)费用$()为$(l)5个绿宝石$()和$(l)1个经验等级$()。"
+    }
+  ]
+}

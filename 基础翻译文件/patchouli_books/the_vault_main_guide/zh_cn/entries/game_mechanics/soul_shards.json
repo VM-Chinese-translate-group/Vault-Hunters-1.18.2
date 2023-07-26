@@ -1,0 +1,30 @@
+{
+  "name": "灵魂碎片",
+  "icon": "the_vault:soul_shard",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在宝库中，$(l)击杀怪物$()会获得一定数量的灵魂碎片。$(br2)$(l)碎片袋$()可以用于存储$(l)无限$()数量的灵魂碎片。$(br2)灵魂碎片可以用于合成$(l:game_mechanics/crystal_modification#banished_souls)$(t:放逐的灵魂)$(l)放逐的灵魂$()，以降低宝库世界的等级。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_diffuser",
+      "title": "宝库灵魂分解器",
+      "text": "宝库中获得的许多物品都有一定的$(l)灵魂价值$()。$(br2)这些物品可以在宝库灵魂分解器中$(l)分解$()成$(l)灵魂粉尘$()。$(br2)灵魂粉尘可以$(l)合成$()为灵魂碎片。"
+    },
+    {
+      "anchor": "black_market",
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:black_market",
+      "title": "黑市",
+      "text": "黑市是一个特殊$(l)商店$()，玩家可以使用灵魂碎片$(l)购买$()物品。$(br2)每位玩家可购买的物品都是$(l)独立的$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "黑市",
+      "text": "$(br)所有物品都有$(l)自己的价格范围$()。未知物品可以是商店中的$(l)任意$()一个可购买的物品，价格为$(l)1,500$()灵魂碎片。$(br2)购买一个物品会清除其对应格，使其$(l)缺货$()。$(br2)黑市每$(l)2小时$()会$(l)重置$()一次库存，即刷新出$(l)3个新的$()可购买物品。"
+    }
+  ]
+}

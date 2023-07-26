@@ -1,0 +1,135 @@
+{
+  "ETCHINGS": {
+    "the_vault:assassin": {
+      "weight": 100,
+      "name": "\u523a\u5ba2",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "increasedFatalStrikeChance": 0.4
+      }
+    },
+    "the_vault:blood": {
+      "weight": 100,
+      "name": "\u8840\u6db2",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "increasedDamage": 2.0
+      }
+    },
+    "the_vault:dragon": {
+      "weight": 100,
+      "name": "\u98de\u9f99",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "increasedDamage": 0.5
+      }
+    },
+    "the_vault:dream": {
+      "weight": 100,
+      "name": "\u7f8e\u68a6",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "increasedDamage": 0.5,
+        "increasedResistance": 0.1,
+        "increasedItemRarity": 0.25,
+        "increasedBlockChance": 0.1,
+        "effect": "minecraft:haste",
+        "addedAmplifier": 2
+      }
+    },
+    "the_vault:dryad": {
+      "weight": 100,
+      "name": "\u6811\u5996",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "extraHealth": 20.0
+      }
+    },
+    "the_vault:golem": {
+      "weight": 100,
+      "name": "\u5080\u5121",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "additionalResistanceCap": 0.2
+      }
+    },
+    "the_vault:rift": {
+      "weight": 100,
+      "name": "\u88c2\u9699",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "cooldownMultiplier": 0.5
+      }
+    },
+    "the_vault:treasure": {
+      "weight": 100,
+      "name": "\u5b9d\u85cf",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "increasedItemRarity": 2.0
+      }
+    },
+    "the_vault:vampire": {
+      "weight": 100,
+      "name": "\u5438\u8840\u9b3c",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {
+        "increasedLeech": 0.05
+      }
+    },
+    "the_vault:divinity": {
+      "weight": 100,
+      "name": "\u795e\u6027",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {}
+    },
+    "the_vault:phoenix": {
+      "weight": 100,
+      "name": "\u51e4\u51f0",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {}
+    },
+    "the_vault:zod": {
+      "weight": 100,
+      "name": "\u6cf0\u5766",
+      "effectText": "\u6548\u679c\u6587\u672c",
+      "color": 6084886,
+      "vendorMinValue": 10,
+      "vendorMaxValue": 50,
+      "config": {}
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "name": "任务目标",
+  "icon": "the_vault:obelisk",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "本章节涵盖了宝库中所有可能出现的任务目标。$(br2)对宝库水晶使用$(l)印记$()会$(l)强制指定$()宝库的任务目标，同时，没有添加印记的宝库水晶会随机在任务目标中选择$(l)其中之一$()。$(br2)在完成宝库的任务目标后，会奖励一个对应任务目标的$(l)完成板条箱$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "猎人：目标",
+      "text": "$(br)$(l)猎人$()技能的$(l)任务目标$()特化可以被用来寻找宝库中的任务目标。$(br2)这个任务目标包括$(l)神之祭坛$()，更多信息请点击$(l:the_vault/altars)这里$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "目标的概率",
+      "text": "$(li)$(l)等级0-9时$(br)100%点亮石碑$(br)$(li)$(l)等级10-19时$()$(br)50%点亮石碑，50%圣水竞速$(br)$(li)$(l)等级20-49$()$(br)33%点亮石碑，33%圣水竞速，33%拾荒者猎人$(br)$(li)$(l)等级50以上时$()$(br)25%点亮石碑，25%圣水竞速，25%拾荒者猎人，25%猎杀守卫者"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:monolith",
+      "title": "点亮石碑",
+      "text": "点亮所需的$(l)远古石碑$()。$(br2)远古石碑可以在所有房间生成，并不一定在视线范围内。$(br2)当所有远古石碑都被点亮后，通过入口$(l)离开$()宝库以完成任务目标。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:lodestone",
+      "title": "圣水竞速",
+      "text": "通过掠夺宝箱，挖掘矿物和击杀怪物来填满$(l)圣水条$()。$(br2)每个行为所贡献的圣水值$(l)在每个宝库中都是不同的$()。$(br2)$(l)紫色的圣水小球$()会指示一个行动提供了多少圣水值，并且$(l)不$()需要被捡起来。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_sage",
+      "title": "圣水竞速",
+      "text": "当条被填满时，找到一个$(l)天然磁石$()来完成宝库。$(br2)在$(l)多人合作$()的圣水竞速宝库中，每个玩家都需要找到他们自己的天然磁石。$(br2)$(l)智者印记$()可以被用来强制指定圣水竞速作为任务目标。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:scavenger_altar",
+      "title": "拾荒者猎人",
+      "text": "收集所有所需的物品并将物品提交至$(l)拾荒者祭坛$()。$(br2)屏幕顶部正中显示的HUD会展示去哪里获得所需物品。$(br2)多余的拾荒者物品不能在其他宝库中使用。将他们放入$(l)灵魂分解器$()以获得$(l)灵魂粉尘$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_hunter",
+      "title": "拾荒者猎人",
+      "text": "当所有的拾荒者物品都被找到时，它们可以在拾荒者祭坛上被提交。$(br2)在$(l)多人合作()的宝库中，每个玩家都会有属于$(l)自己$()的一套物品要收集。$(br2)$(l)猎人印记$()可以被用来强制指定拾荒者猎人作为任务目标。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:obelisk",
+      "title": "猎杀守卫者",
+      "text": "找到所需的$(l)方尖碑$()并激活它们来召唤$(l)宝库守护者$()。$(br2)HUD中各个方尖碑下方显示了每个方尖碑需要击败多少宝库守护者。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_executioner",
+      "title": "猎杀守卫者",
+      "text": "$(l)一旦$()所有方尖碑被$(l)激活$()，并且所有守卫者都被$(l)击败$()，这一目标$(l)就$()完成了。玩家将会被自动地$(l)传送$()出宝库。$(br2)$(l)行刑者印记$()可以被用来强制指定猎杀守卫者作为任务目标。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cake",
+      "title": "蛋糕猎人",
+      "text": "找到散落在房间里的蛋糕。$(br2)当玩家靠近蛋糕时屏幕上会出现$(l)粉红色的雾$()。$(br2)蛋糕的数量是$(l)无限的$()。对于每个房间，玩家都会离起始房间更远，因为这个目标的宝库是$(l)螺旋形$()的房间模式。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_cake",
+      "title": "蛋糕猎人",
+      "text": "每个房间都有10％的概率生成一个能让使用它的玩家完成宝库的$(l)蛋糕箱基座$()。$(br2)在$(l)多人合作$()的宝库中，每个玩家需要找到他们自己的蛋糕箱基座以完成宝库。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cake",
+      "title": "蛋糕猎人",
+      "text": "蛋糕猎人任务目标$(l)不能$()在宝库水晶上被$(l)随机$()选中。$(br2)$(l)糕点师印记$()可以用于强制指定蛋糕猎人为任务目标。这是开启蛋糕猎人任务目标的$(l)唯一方法$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_cake",
+      "title": "蛋糕猎人",
+      "text": "蛋糕猎人有一些$(l)词缀$()，在找到蛋糕时会$(l)被添加$()。$(br)$(li)$(l)美味$()$(li2)+1%掉落物数量$()$(li)$(l)甜蜜$()$(li2)+1%掉落物稀有度$()$(li)$(l)沉重$()$(li2)+1%怪物血量$()$(li)$(l)愤怒$()$(li2)+1%怪物伤害$()"
+    },
+    {
+      "anchor": "architect",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_architect",
+      "title": "建筑师宝库",
+      "text": "建筑师宝库$(l)没有任务目标$()。$(br2)将宝库水晶与$(l)建筑师印记$()结合在一起之后，它变成了一个由铭文搭建的宝库。$(br2)完成度越高，$(l)生成$()的宝库区块越多。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:scavenger_goblet",
+      "title": "最终挑战",
+      "text": "准备好迎接$(l)最终挑战$()了？$(br2)未完待续......"
+    }
+  ]
+}

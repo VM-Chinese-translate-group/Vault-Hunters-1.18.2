@@ -1,0 +1,31 @@
+{
+  "sortnum": 6,
+  "name": "词缀",
+  "icon": "the_vault:modifier_workbench",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "当$(l)发现$()或$(l:vault_gear/crafting)$(l)合成$()一件宝库装备后，可以对其进行重铸。$(br2)装备重铸的范围包括从调整装备的$(t:基础属性、前缀和后缀)$(l)词缀$()到改变装备$(l:vault_gear/variants#affixes_and_repairs)$(t:修复槽)$(l)修复槽$()的数量。$(br2)这些装备的词缀可以在$(l)宝藏锻造台$()和$(l)词缀工作台$()当中进行修改。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_artisan_station",
+      "title": "宝藏锻造台",
+      "text": "在宝藏锻造台中可以使用$(l)透镜$()强化宝库装备，这需要消耗$(l)宝库青铜$()和$(l)宝库金属板$()。$(br2)透镜有对应的插槽。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:modifier_workbench",
+      "title": "词缀工作台",
+      "text": "$(l)词缀工作台$()可以让玩家为装备$(l)添加$()特定的前缀或后缀。$(br2)你可以为$(l)武器$()、$(l)护甲$()和$(l)工具$()添加$(l)一个$()词缀。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:modifier_discovery",
+      "title": "词缀档案",
+      "text": "$(l)不是$()所有词缀效果都能用在宝库装备上。$(br2)部分词缀是通过玩家$(l)等级$()解锁的。$(br2)其他词缀则可以通过在高于$(l)60级$()的宝库的$(l:the_vault/layout#dungeons)$(t:地牢)地牢$()中找到的$(l)词缀档案$()进行学习。"
+    }
+  ]
+}

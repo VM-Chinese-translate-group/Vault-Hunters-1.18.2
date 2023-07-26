@@ -1,0 +1,28 @@
+{
+  "sortnum": 3,
+  "name": "制作",
+  "icon": "the_vault:vault_forge",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "除了可以在宝库中作为$(l:the_vault/loot)$(l)战利品$()被$(l)找到$()，宝库装备还可以被$(l)制作$()。$(br2)它被制作时的等级可以$(l)小于等于$()玩家等级。$(br2)这让玩家可以自行选择如何$(l)提升$()他们的装备。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_forge",
+      "title": "宝库熔炉",
+      "text": "所有$(l:vault_gear/variants)$(l)类型$()的装备都可以在宝库熔炉中制作。$(br2)$(l)饰品$()只有在$(l)发现后$()才能制作。制作出的饰品总是只能使用20次。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "熟练度",
+      "text": "$(br)每件装备的熟练度会随着$(l)每次制作$()而$(l)提升$()。$(br2)熟练度$(l)越高$()，宝库装备的$(l)等阶$()就越高。等阶越高，宝库装备刷出$(l)更高稀有度的概率$()就越高。$(br2)等阶从$(l)新手$()到$(l)学徒$()，$(l)大师$()，$(l)工匠$()，最后到$(l)大师工匠$()逐步提升。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

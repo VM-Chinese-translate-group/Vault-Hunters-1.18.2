@@ -1,0 +1,18 @@
+{
+  "name": "效果晶石",
+  "icon": "the_vault:pylon",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果晶石可以在宝库中发现。$(br2)它们会给予玩家一个$(l)暂时的增益效果$()。效果晶石提供的$(l)效果类型$()以及$(l)持续时间$()会在它的$(l)上方$()显示。$(br2)可以$(l)右键点击$()效果晶石来$(l)使用$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:pylon",
+      "title": "效果",
+      "text": "效果晶石可能提供的$(l)效果$()包括：$(br)$(li)生命恢复$()$(li)生命提升$()$(li)恢复所有魔力$()$(li)迅捷$()$(li)力量$()$(li)掉落物数量$()$(li)掉落物稀有度$()"
+    }
+  ]
+}

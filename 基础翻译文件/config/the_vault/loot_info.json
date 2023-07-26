@@ -1,0 +1,126 @@
+{
+  "excludeFromTooltip": [
+    "the_vault:test_table"
+  ],
+  "info": {
+    "the_vault:living_chest_raw": {
+      "display": "\u539f\u59cb\u6d3b\u5316\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:living_chest_raw": {"level": 0}
+      }
+    },
+    "the_vault:wooden_chest_raw": {
+      "display": "\u539f\u59cb\u6728\u5236\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:wooden_chest_raw": {"level": 0}
+      }
+    },
+    "the_vault:coin_pile": {
+      "display": "\u94b1\u5e01\u5806",
+      "lootTableKeys": {
+        "the_vault:coin_pile_lvl0": {"level": 0},
+        "the_vault:coin_pile_lvl30": {"level": 30}
+      }
+    },
+    "the_vault:wooden_chest": {
+      "display": "\u6728\u5236\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:wooden_chest_lvl0_v2":  {"level": 0},
+        "the_vault:wooden_chest_lvl10_v2":  {"level": 10},
+        "the_vault:wooden_chest_lvl24_v2": {"level": 24},
+        "the_vault:wooden_chest_lvl30_v2": {"level": 30}
+      }
+    },
+    "the_vault:cube_block": {
+      "display": "\u9b54\u65b9\u65b9\u5757",
+      "lootTableKeys": {
+        "the_vault:cube_block_lvl0": {"level": 0}
+      }
+    },
+    "the_vault:gilded_chest_raw": {
+      "display": "\u539f\u59cb\u9540\u91d1\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:gilded_chest_raw": {"level": 0}
+      }
+    },
+    "the_vault:living_chest": {
+      "display": "\u6d3b\u5316\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:living_chest_lvl0_v2": {"level": 0},
+        "the_vault:living_chest_lvl14_v2": {"level": 14},
+        "the_vault:living_chest_lvl21_v2": {"level": 21},
+        "the_vault:living_chest_lvl30_v2": {"level": 30},
+        "the_vault:living_chest_lvl41_v2": {"level": 41},
+        "the_vault:living_chest_lvl54_v2": {"level": 54},
+        "the_vault:living_chest_lvl75_v2": {"level": 75}
+      }
+    },
+    "the_vault:treasure_sand": {
+      "display": "\u5b9d\u85cf\u6c99",
+      "lootTableKeys": {
+        "the_vault:treasure_sand_lvl0": {"level": 0}
+      }
+    },
+    "the_vault:treasure_chest": {
+      "display": "\u81f3\u5c0a\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:treasure_chest_lvl0": {"level": 0},
+        "the_vault:treasure_chest_lvl50": {"level": 50}
+      }
+    },
+    "the_vault:completion_crate": {
+      "display": "\u5b8c\u6210\u677f\u6761\u7bb1",
+      "lootTableKeys": {
+        "the_vault:completion_lvl0": {"level": 0},
+        "the_vault:completion_lvl27": {"level": 20}
+      }
+    },
+    "the_vault:ornate_chest_raw": {
+      "display": "\u539f\u59cb\u534e\u4e3d\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:ornate_chest_raw": {"level": 0}
+      }
+    },
+    "the_vault:ornate_chest": {
+      "display": "\u534e\u4e3d\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:ornate_chest_lvl0_v2": {"level": 0},
+        "the_vault:ornate_chest_lvl13_v2": {"level": 13},
+        "the_vault:ornate_chest_lvl27_v2": {"level": 27},
+        "the_vault:ornate_chest_lvl39_v2": {"level": 39},
+        "the_vault:ornate_chest_lvl50_v2": {"level": 50},
+        "the_vault:ornate_chest_lvl65_v2": {"level": 65}
+      }
+    },
+    "the_vault:gilded_chest": {
+      "display": "\u9540\u91d1\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:gilded_chest_lvl0_v2": {"level": 0},
+        "the_vault:gilded_chest_lvl11_v2": {"level": 11},
+        "the_vault:gilded_chest_lvl24_v2": {"level": 24},
+        "the_vault:gilded_chest_lvl35_v2": {"level": 35}
+      }
+    },
+    "the_vault:gilded_strongbox": {
+      "display": "\u5f3a\u5316\u9540\u91d1\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:gilded_strongbox_lvl50_v2": {"level": 50}
+      }
+    },
+    "the_vault:ornate_strongbox": {
+      "display": "\u5f3a\u5316\u534e\u4e3d\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:ornate_strongbox_lvl50_v2": {"level": 50},
+        "the_vault:ornate_strongbox_lvl65_v2": {"level": 65}
+      }
+    },
+    "the_vault:living_strongbox": {
+      "display": "\u5f3a\u5316\u6d3b\u5316\u5b9d\u7bb1",
+      "lootTableKeys": {
+        "the_vault:living_strongbox_lvl50_v2": {"level": 50},
+        "the_vault:living_strongbox_lvl54_v2": {"level": 54},
+        "the_vault:living_strongbox_lvl75_v2": {"level": 75}
+      }
+    }
+  }
+}

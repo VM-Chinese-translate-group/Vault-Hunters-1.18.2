@@ -1,0 +1,17 @@
+{
+  "sortnum": 3,
+  "name": "维拉拉的愤怒",
+  "icon": "the_vault:scavenger_drowned_eye",
+  "category": "patchouli:vault_potions_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "宝库药剂是$(l)唯一$()一种$(l)不会$()激怒宝库生命之神——$(l)维拉拉$()的药剂种类。$(br2)当使用$(l)任何其他$()种类的药剂时，维拉拉会将$(l)维拉拉的愤怒$()$(l:the_vault/modifiers)词缀$()添加到宝库世界，将祂的$(l)愤怒$()投射到你身上。$(br2)这会降低$(l)20%$()的$(l)治疗效率$()，并且最多可以降低$(l)80%$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

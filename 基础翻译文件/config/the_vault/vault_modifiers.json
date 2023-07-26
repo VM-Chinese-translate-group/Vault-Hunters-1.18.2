@@ -1,0 +1,1355 @@
+{
+  "modifiers": {
+    "the_vault:modifier_type/chance_artifact": {
+      "the_vault:prosperous": {
+        "properties": {
+          "chance": "0.1"
+        },
+        "display": {
+          "name": "\u7e41\u8363",
+          "color": "#EBFF8D",
+          "description": "+10% \u6587\u7269\u6982\u7387",
+          "descriptionFormatted": "+%d%% \u6587\u7269\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/more_artifact1"
+        }
+      }
+    },
+    "the_vault:modifier_type/chance_catalyst": {
+      "the_vault:prismatic": {
+        "properties": {
+          "chance": "0.1"
+        },
+        "display": {
+          "name": "\u68f1\u955c",
+          "color": "#FC00E3",
+          "description": "+10% \u50ac\u5316\u5242\u788e\u7247",
+          "descriptionFormatted": "+%d%% \u50ac\u5316\u5242\u788e\u7247",
+          "icon": "the_vault:gui/modifiers/more_catalyst"
+        }
+      }
+    },
+    "the_vault:modifier_type/chance_chest_trap": {
+      "the_vault:looters_dream": {
+        "properties": {
+          "chance": "-100"
+        },
+        "display": {
+          "name": "\u730e\u624b\u4e4b\u68a6",
+          "color": "#A3E2F5",
+          "description": "\u65e0\u9677\u9631\u7bb1",
+          "icon": "the_vault:gui/modifiers/safezone"
+        }
+      },
+      "the_vault:beginners_insurance": {
+        "properties": {
+          "chance": "-100"
+        },
+        "display": {
+          "name": "\u65b0\u624b\u4fdd\u9669",
+          "color": "#A3E2F5",
+          "description": "\u9677\u9631\u7bb1\u4e0d\u4f1a\u88ab\u89e6\u53d1",
+          "icon": "the_vault:gui/modifiers/safezone"
+        }
+      },
+      "the_vault:trapped": {
+        "properties": {
+          "chance": "0.05"
+        },
+        "display": {
+          "name": "\u8fdb\u9000\u4e3a\u96be",
+          "color": "#D35B00",
+          "description": "+5% \u9677\u9631\u7bb1\u6982\u7387",
+          "descriptionFormatted": "+%d%% \u9677\u9631\u7bb1\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/trapped"
+        }
+      },
+      "the_vault:minefield": {
+        "properties": {
+          "chance": "0.4"
+        },
+        "display": {
+          "name": "\u9677\u9631\u96f7\u533a",
+          "color": "#D35B00",
+          "description": "+40% \u9677\u9631\u7bb1\u6982\u7387",
+          "descriptionFormatted": "+%d%% \u9677\u9631\u7bb1\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/trapped"
+        }
+      },
+      "the_vault:tenos_favour_3": {
+        "properties": {
+          "chance": "-0.01",
+          "reputation": {
+            "addendPerLevel": "-0.01"
+          }
+        },
+        "display": {
+          "name": "\u7279\u8bfa\u65af\u7684\u9752\u7750",
+          "color": "#55FFFF",
+          "description": "-1% \u9677\u9631\u7bb1\u6982\u7387",
+          "descriptionFormatted": "-%d%% \u9677\u9631\u7bb1\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/tenos"
+        }
+      }
+    },
+    "the_vault:modifier_type/chance_soul_shard": {
+      "the_vault:cake_haunted": {
+        "properties": {
+          "chance": "0.1"
+        },
+        "display": {
+          "name": "\u7075\u9b42\u7f20\u7ed5",
+          "color": "#6410A1",
+          "description": "+10% \u7075\u9b42\u788e\u7247\u6389\u843d\u7387",
+          "descriptionFormatted": "+%d%% \u7075\u9b42\u788e\u7247\u6389\u843d\u7387",
+          "icon": "the_vault:gui/modifiers/haunted"
+        }
+      },
+      "the_vault:haunted": {
+        "properties": {
+          "chance": "0.5"
+        },
+        "display": {
+          "name": "\u7075\u9b42\u7f20\u7ed5",
+          "color": "#6410A1",
+          "description": "+50% \u7075\u9b42\u788e\u7247\u6389\u843d\u7387",
+          "descriptionFormatted": "+%d%% \u7075\u9b42\u788e\u7247\u6389\u843d\u7387",
+          "icon": "the_vault:gui/modifiers/haunted"
+        }
+      },
+      "the_vault:idona_favour_2": {
+        "properties": {
+          "chance": "0.01",
+          "reputation": {
+            "addendPerLevel": "0.01"
+          }
+        },
+        "display": {
+          "name": "\u4f0a\u591a\u7eb3\u7684\u9752\u7750",
+          "color": "#FF5555",
+          "description": "+1% \u7075\u9b42\u788e\u7247\u6389\u843d\u7387",
+          "descriptionFormatted": "+%d%% \u7075\u9b42\u788e\u7247\u6389\u843d\u7387",
+          "icon": "the_vault:gui/modifiers/idona"
+        }
+      }
+    },
+    "the_vault:modifier_type/decorator_add": {
+      "the_vault:coin_pile": {
+        "properties": {
+          "output": "the_vault:placeholder[type=coin_stacks]",
+          "attemptsPerChunk": 12,
+          "requireConditions": true
+        },
+        "display": {
+          "name": "\u94b1\u5e01\u5806",
+          "color": "#ffae00",
+          "description": "+1 \u94b1\u5e01\u5806",
+          "icon": "the_vault:gui/modifiers/wealthy"
+        }
+      },
+      "the_vault:gilded": {
+        "properties": {
+          "output": "the_vault:placeholder[type=gilded_chest]",
+          "attemptsPerChunk": 8,
+          "requireConditions": true
+        },
+        "display": {
+          "name": "\u9540\u91d1\u589e\u5e45",
+          "color": "#FFEC00",
+          "description": "+1 \u9540\u91d1\u5b9d\u7bb1",
+          "icon": "the_vault:gui/modifiers/gilded_chests"
+        }
+      },
+      "the_vault:living": {
+        "properties": {
+          "output": "the_vault:placeholder[type=living_chest]",
+          "attemptsPerChunk": 8,
+          "requireConditions": true
+        },
+        "display": {
+          "name": "\u6d3b\u5316\u589e\u5e45",
+          "color": "#38d800",
+          "description": "+1 \u6d3b\u5316\u5b9d\u7bb1",
+          "icon": "the_vault:gui/modifiers/living_chests"
+        }
+      },
+      "the_vault:ornate": {
+        "properties": {
+          "output": "the_vault:placeholder[type=ornate_chest]",
+          "attemptsPerChunk": 8,
+          "requireConditions": true
+        },
+        "display": {
+          "name": "\u534e\u4e3d\u589e\u5e45",
+          "color": "#c90d73",
+          "description": "+1 \u534e\u4e3d\u5b9d\u7bb1",
+          "icon": "the_vault:gui/modifiers/ornate_chests"
+        }
+      },
+      "the_vault:wild": {
+        "properties": {
+          "output": "the_vault:wild_spawner",
+          "attemptsPerChunk": 16,
+          "requireConditions": true
+        },
+        "display": {
+          "name": "\u72c2\u66b4",
+          "color": "#E83F24",
+          "description": "\u602a\u7269\u65e0\u9650\u5236\u5237\u65b0",
+          "descriptionFormatted": "+1 \u72c2\u66b4\u602a\u7269\u7fa4",
+          "icon": "the_vault:gui/modifiers/crowded"
+        }
+      },
+      "the_vault:collapsing": {
+        "properties": {
+          "output": "the_vault:vault_bedrock",
+          "attemptsPerChunk": 256,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "\u574d\u584c",
+          "color": "#E83F24",
+          "description": "\u8fd9\u4e2a\u5b9d\u5e93\u4e16\u754c\u770b\u8d77\u6765\u8981\u584c\u4e86",
+          "descriptionFormatted": "\u8fd9\u4e2a\u5b9d\u5e93\u4e16\u754c\u770b\u8d77\u6765\u8981\u584c\u4e86",
+          "icon": "the_vault:gui/modifiers/chaotic"
+        }
+      },
+      "the_vault:volcanic": {
+        "properties": {
+          "output": "minecraft:lava",
+          "attemptsPerChunk": 20,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "\u706b\u5c71",
+          "color": "#E83F24",
+          "description": "\u70ed\u70ed\u70ed\u70ed\u70ed\uff01",
+          "descriptionFormatted": "\u708e\u70ed",
+          "icon": "the_vault:gui/modifiers/volcanic"
+        }
+      },
+      "the_vault:explosive": {
+        "properties": {
+          "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"tnt\"}",
+          "attemptsPerChunk": 16,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "\u7206\u70b8",
+          "color": "#ff0000",
+          "description": "\u8fd9\u4e2a\u5b9d\u5e93\u4e16\u754c\u4f1a\u7206\u70b8\u54e6",
+          "descriptionFormatted": "\u8fd9\u4e2a\u5b9d\u5e93\u4e16\u754c\u6781\u6613\u7206\u70b8",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "the_vault:shulker": {
+        "properties": {
+          "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"shulkerbullet\"}",
+          "attemptsPerChunk": 24,
+          "requireConditions": false
+        },
+        "display": {
+          "name": "\u6f5c\u5f71",
+          "color": "#CBC3E3",
+          "description": "\u8fd9\u4e2a\u5b9d\u85cf\u4e16\u754c\u7684\u91cd\u529b\u597d\u8f7b",
+          "descriptionFormatted": "\u8fd9\u4e2a\u5b9d\u85cf\u4e16\u754c\u7684\u91cd\u529b\u597d\u8f7b",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      }
+    },
+    "the_vault:modifier_type/loot_item_quantity": {
+      "the_vault:item_quantity": {
+        "properties": {
+          "percentage": "0.1"
+        },
+        "display": {
+          "name": "\u5962\u534e",
+          "color": "#38C9C0",
+          "description": "+10% \u6389\u843d\u7269\u6570\u91cf",
+          "descriptionFormatted": "+%d%% \u6389\u843d\u7269\u6570\u91cf",
+          "icon": "the_vault:gui/modifiers/opulent"
+        }
+      },
+      "the_vault:cake_item_quantity": {
+        "properties": {
+          "percentage": "0.01"
+        },
+        "display": {
+          "name": "\u7f8e\u5473",
+          "color": "#38C9C0",
+          "description": "+1% \u6389\u843d\u7269\u6570\u91cf",
+          "descriptionFormatted": "+%d%% \u6389\u843d\u7269\u6570\u91cf",
+          "icon": "the_vault:gui/modifiers/opulent"
+        }
+      },
+      "the_vault:poor": {
+        "properties": {
+          "percentage": "-0.25"
+        },
+        "display": {
+          "name": "\u8d2b\u7620",
+          "color": "#38C9C0",
+          "description": "-25% \u6389\u843d\u7269\u6570\u91cf",
+          "descriptionFormatted": "-%d%% \u6389\u843d\u7269\u6570\u91cf",
+          "icon": "the_vault:gui/modifiers/poor"
+        }
+      },
+      "the_vault:tenos_favour_2": {
+        "properties": {
+          "percentage": "0.01",
+          "reputation": {
+            "addendPerLevel": "0.01"
+          }
+        },
+        "display": {
+          "name": "\u7279\u8bfa\u65af\u7684\u9752\u7750",
+          "color": "#55FFFF",
+          "description": "+1% \u6389\u843d\u7269\u6570\u91cf",
+          "descriptionFormatted": "+%d%% \u6389\u843d\u7269\u6570\u91cf",
+          "icon": "the_vault:gui/modifiers/tenos"
+        }
+      }
+    },
+    "the_vault:modifier_type/loot_item_rarity": {
+      "the_vault:cake_item_rarity": {
+        "properties": {
+          "percentage": "0.01"
+        },
+        "display": {
+          "name": "\u751c\u871c",
+          "color": "#b3ff20",
+          "description": "+1% \u7269\u54c1\u7a00\u6709\u5ea6",
+          "descriptionFormatted": "+%d%% \u7269\u54c1\u7a00\u6709\u5ea6",
+          "icon": "the_vault:gui/modifiers/lucky"
+        }
+      },
+      "the_vault:item_rarity": {
+        "properties": {
+          "percentage": "0.2"
+        },
+        "display": {
+          "name": "\u5e78\u8fd0",
+          "color": "#b3ff20",
+          "description": "+20% \u7269\u54c1\u7a00\u6709\u5ea6",
+          "descriptionFormatted": "+%d%% \u7269\u54c1\u7a00\u6709\u5ea6",
+          "icon": "the_vault:gui/modifiers/lucky"
+        }
+      },
+      "the_vault:unlucky": {
+        "properties": {
+          "percentage": "-0.5"
+        },
+        "display": {
+          "name": "\u9709\u8fd0",
+          "color": "#b3ff20",
+          "description": "-50% \u7269\u54c1\u7a00\u6709\u5ea6",
+          "descriptionFormatted": "-%d%% \u7269\u54c1\u7a00\u6709\u5ea6",
+          "icon": "the_vault:gui/modifiers/unlucky"
+        }
+      },
+      "the_vault:tenos_favour_1": {
+        "properties": {
+          "percentage": "0.01",
+          "reputation": {
+            "addendPerLevel": "0.01"
+          }
+        },
+        "display": {
+          "name": "\u7279\u8bfa\u65af\u7684\u9752\u7750",
+          "color": "#55FFFF",
+          "description": "+1% \u7269\u54c1\u7a00\u6709\u5ea6",
+          "descriptionFormatted": "+%d%% \u7269\u54c1\u7a00\u6709\u5ea6",
+          "icon": "the_vault:gui/modifiers/tenos"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_attribute": {
+      "the_vault:chunky_mobs": {
+        "properties": {
+          "type": "max_health_additive_percentile",
+          "amount": "0.1",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u7ed3\u5b9e\u602a\u7269",
+          "color": "#dc693c",
+          "description": "+10% \u602a\u7269\u751f\u547d\u503c",
+          "descriptionFormatted": "+%d%% \u602a\u7269\u751f\u547d\u503c",
+          "icon": "the_vault:gui/modifiers/chunky"
+        }
+      },
+      "the_vault:cake_chunky_mobs": {
+        "properties": {
+          "type": "max_health_additive_percentile",
+          "amount": "0.01",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u539a\u5b9e",
+          "color": "#dc693c",
+          "description": "+1% \u602a\u7269\u751f\u547d\u503c",
+          "descriptionFormatted": "+%d%% \u602a\u7269\u751f\u547d\u503c",
+          "icon": "the_vault:gui/modifiers/chunky"
+        }
+      },
+      "the_vault:furious_mobs": {
+        "properties": {
+          "type": "attack_damage_additive_percentile",
+          "amount": "0.1",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u66b4\u6012",
+          "color": "#da6d5a",
+          "description": "+10% \u602a\u7269\u4f24\u5bb3",
+          "descriptionFormatted": "+%d%% \u602a\u7269\u4f24\u5bb3",
+          "icon": "the_vault:gui/modifiers/furious"
+        }
+      },
+      "the_vault:cake_furious_mobs": {
+        "properties": {
+          "type": "attack_damage_additive_percentile",
+          "amount": "0.01",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u6124\u6012",
+          "color": "#da6d5a",
+          "description": "+1% \u602a\u7269\u4f24\u5bb3",
+          "descriptionFormatted": "+%d%% \u602a\u7269\u4f24\u5bb3",
+          "icon": "the_vault:gui/modifiers/frenzy"
+        }
+      },
+      "the_vault:infuriated_mobs": {
+        "properties": {
+          "type": "speed_additive_percentile",
+          "amount": "0.05",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u8fc5\u731b\u602a\u7269",
+          "color": "#f66868",
+          "description": "+5% \u602a\u7269\u79fb\u901f",
+          "descriptionFormatted": "+%d%% \u602a\u7269\u79fb\u901f",
+          "icon": "the_vault:gui/modifiers/rapid_mobs"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_curse_on_hit": {
+      "the_vault:fatiguing": {
+        "properties": {
+          "effect": "minecraft:mining_fatigue",
+          "effectAmplifier": 4,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": "0.1"
+        },
+        "display": {
+          "name": "\u75b2\u52b3",
+          "color": "#9B3E56",
+          "description": "+10% \u88ab\u51fb\u4e2d\u65f6\u75b2\u52b3\u6982\u7387",
+          "descriptionFormatted": "+%d%% \u88ab\u51fb\u4e2d\u65f6\u75b2\u52b3\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/hex_chaining"
+        }
+      },
+      "the_vault:freezing": {
+        "properties": {
+          "effect": "minecraft:slowness",
+          "effectAmplifier": 5,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": "0.1"
+        },
+        "display": {
+          "name": "\u51db\u51bd",
+          "color": "#2FFBF4",
+          "description": "+10% \u88ab\u51fb\u4e2d\u65f6\u7f13\u6162\u6982\u7387",
+          "descriptionFormatted": "+%d%% \u88ab\u51fb\u4e2d\u65f6\u7f13\u6162\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/hex_chilling"
+        }
+      },
+      "the_vault:poisonous": {
+        "properties": {
+          "effect": "minecraft:poison",
+          "effectAmplifier": 1,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": "0.1"
+        },
+        "display": {
+          "name": "\u5267\u6bd2",
+          "color": "#84BF17",
+          "description": "+10% \u88ab\u51fb\u4e2d\u65f6\u4e2d\u6bd2\u6982\u7387",
+          "descriptionFormatted": "+%d%% \u88ab\u51fb\u4e2d\u65f6\u4e2d\u6bd2\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/hex_poison"
+        }
+      },
+      "the_vault:wither": {
+        "properties": {
+          "effect": "minecraft:wither",
+          "effectAmplifier": 2,
+          "effectDurationTicks": 200,
+          "onHitApplyChance": "0.1"
+        },
+        "display": {
+          "name": "\u51cb\u96f6",
+          "color": "#5A5851",
+          "description": "+10% \u88ab\u51fb\u4e2d\u65f6\u51cb\u96f6\u6982\u7387",
+          "descriptionFormatted": "+%d%% \u88ab\u51fb\u4e2d\u65f6\u51cb\u96f6\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/hex_wither"
+        }
+      },
+      "the_vault:voiding": {
+        "properties": {
+          "effect": "the_vault:time_acceleration",
+          "effectAmplifier": 5,
+          "effectDurationTicks": 40,
+          "onHitApplyChance": "0.1"
+        },
+        "display": {
+          "name": "\u865a\u7a7a",
+          "color": "#5A5851",
+          "description": "+10% \u88ab\u51fb\u4e2d\u65f6\u51cf\u5c11\u65f6\u95f4\u7684\u6982\u7387",
+          "descriptionFormatted": "+%d%% \u88ab\u51fb\u4e2d\u65f6\u51cf\u5c11\u65f6\u95f4\u7684\u6982\u7387",
+          "icon": "the_vault:gui/modifiers/hex_wither"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_frenzy": {
+      "the_vault:frenzy": {
+        "properties": {
+          "damage": "3",
+          "movementSpeed": "0.1",
+          "maxHealth": "2",
+          "doHealthReduction": true
+        },
+        "display": {
+          "name": "\u6012\u4e0d\u53ef\u904f",
+          "color": "#FC7C5C",
+          "description": "+300% \u602a\u7269\u4f24\u5bb3\uff0c+10% \u602a\u7269\u901f\u5ea6\uff0c\u602a\u7269\u751f\u547d\u503c\u51cf\u5c11\u52301",
+          "icon": "the_vault:gui/modifiers/frenzy"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_spawn_count": {
+      "the_vault:crowded": {
+        "properties": {
+          "maxMobsAdded": 1
+        },
+        "display": {
+          "name": "\u62e5\u6324",
+          "color": "#E83F24",
+          "description": "+1 \u602a\u7269\u751f\u6210",
+          "descriptionFormatted": "+%d \u602a\u7269\u751f\u6210",
+          "icon": "the_vault:gui/modifiers/crowded"
+        }
+      },
+      "the_vault:personal_space": {
+        "properties": {
+          "maxMobsAdded": -1
+        },
+        "display": {
+          "name": "\u79c1\u4eba\u7a7a\u95f4",
+          "color": "#F9B1FF",
+          "description": "-1 \u602a\u7269\u751f\u6210",
+          "descriptionFormatted": "-%d \u602a\u7269\u751f\u6210",
+          "icon": "the_vault:gui/modifiers/personalspace"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_attribute": {
+      "the_vault:draining": {
+        "properties": {
+          "type": "mana_regen_additive_percentile",
+          "amount": "-0.1",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u67af\u7aed",
+          "color": "#849dc8",
+          "description": "-10% \u9b54\u529b\u518d\u751f",
+          "descriptionFormatted": "-%d%% \u9b54\u529b\u518d\u751f",
+          "icon": "the_vault:gui/modifiers/draining"
+        }
+      },
+      "the_vault:injured": {
+        "properties": {
+          "type": "max_health_additive",
+          "amount": "-2",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u53d7\u4f24",
+          "color": "#631F1F",
+          "description": "-2 \u751f\u547d\u503c",
+          "descriptionFormatted": "-%d \u751f\u547d\u503c",
+          "icon": "the_vault:gui/modifiers/injured"
+        }
+      },
+      "the_vault:wounded": {
+        "properties": {
+          "type": "max_health_additive",
+          "amount": "-10",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u91cd\u4f24",
+          "color": "#631F1F",
+          "description": "\u51cf\u5c115\u9897\u5fc3",
+          "descriptionFormatted": "-%d \u751f\u547d\u503c",
+          "icon": "the_vault:gui/modifiers/injured"
+        }
+      },
+      "the_vault:drained": {
+        "properties": {
+          "type": "mana_regen_additive_percentile",
+          "amount": "-0.7",
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "\u5e72\u6db8",
+          "color": "#849dc8",
+          "description": "-70% \u9b54\u529b\u518d\u751f",
+          "descriptionFormatted": "-%d%% \u9b54\u529b\u518d\u751f",
+          "icon": "the_vault:gui/modifiers/draining"
+        }
+      },
+      "the_vault:idona_favour_1": {
+        "properties": {
+          "type": "attack_damage_additive_percentile",
+          "amount": "0.01",
+          "attributeStackingStrategy": "STACK",
+          "reputation": {
+            "addendPerLevel": "0.01"
+          }
+        },
+        "display": {
+          "name": "\u4f0a\u591a\u7eb3\u7684\u9752\u7750",
+          "color": "#FF5555",
+          "description": "+1% \u653b\u51fb\u4f24\u5bb3",
+          "descriptionFormatted": "+%d%% \u653b\u51fb\u4f24\u5bb3",
+          "icon": "the_vault:gui/modifiers/idona"
+        }
+      },
+      "the_vault:velara_favour_3": {
+        "properties": {
+          "type": "max_health_additive_percentile",
+          "amount": "0.01",
+          "attributeStackingStrategy": "STACK",
+          "reputation": {
+            "addendPerLevel": "0.01"
+          }
+        },
+        "display": {
+          "name": "\u7ef4\u62c9\u62c9\u7684\u9752\u7750",
+          "color": "#FF5555",
+          "description": "+1% \u6700\u5927\u751f\u547d\u503c",
+          "descriptionFormatted": "+%d%% \u6700\u5927\u751f\u547d\u503c",
+          "icon": "the_vault:gui/modifiers/velara"
+        }
+      },
+      "the_vault:wendarr_favour_1": {
+        "properties": {
+          "type": "mana_regen_additive_percentile",
+          "amount": "0.01",
+          "attributeStackingStrategy": "STACK",
+          "reputation": {
+            "addendPerLevel": "0.01"
+          }
+        },
+        "display": {
+          "name": "\u6587\u8fbe\u7684\u9752\u7750",
+          "color": "#FFAA00",
+          "description": "+1% \u9b54\u529b\u6062\u590d",
+          "descriptionFormatted": "+%d%% \u9b54\u529b\u6062\u590d",
+          "icon": "the_vault:gui/modifiers/wendarr"
+        }
+      },
+      "the_vault:wendarr_favour_2": {
+        "properties": {
+          "type": "mana_max_additive_percentile",
+          "amount": "0.01",
+          "attributeStackingStrategy": "STACK",
+          "reputation": {
+            "addendPerLevel": "0.01"
+          }
+        },
+        "display": {
+          "name": "\u6587\u8fbe\u7684\u9752\u7750",
+          "color": "#FFAA00",
+          "description": "+1% \u6700\u5927\u9b54\u529b\u503c",
+          "descriptionFormatted": "+%d%% \u6700\u5927\u9b54\u529b\u503c",
+          "icon": "the_vault:gui/modifiers/wendarr"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_durability_damage": {
+      "the_vault:frail": {
+        "properties": {
+          "durabilityDamageTakenMultiplier": "1.2"
+        },
+        "display": {
+          "name": "\u8106\u5f31",
+          "color": "#7B7E7F",
+          "description": "+20% \u8010\u4e45\u635f\u8017",
+          "descriptionFormatted": "+%d%% \u8010\u4e45\u635f\u8017",
+          "icon": "the_vault:gui/modifiers/frail"
+        }
+      },
+      "the_vault:reinforced": {
+        "properties": {
+          "durabilityDamageTakenMultiplier": "0.9"
+        },
+        "display": {
+          "name": "\u5f3a\u5316",
+          "color": "#9550FF",
+          "description": "-10% \u8010\u4e45\u635f\u8017",
+          "descriptionFormatted": "-%d%% \u8010\u4e45\u635f\u8017",
+          "icon": "the_vault:gui/modifiers/reinforced"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_effect": {
+      "the_vault:hunger": {
+        "properties": {
+          "effect": "minecraft:hunger",
+          "effectAmplifier": 6,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "\u9965\u997f",
+          "color": "#E8DACD",
+          "description": "\u9965\u997f\u6548\u679c",
+          "descriptionFormatted": "+%d \u9965\u997f\u6548\u679c",
+          "icon": "the_vault:gui/modifiers/hunger"
+        }
+      },
+      "the_vault:lucky": {
+        "properties": {
+          "effect": "minecraft:luck",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "\u5e78\u8fd0",
+          "color": "#b3ff20",
+          "description": "+1 \u5e78\u8fd0",
+          "descriptionFormatted": "+%d \u5e78\u8fd0",
+          "icon": "the_vault:gui/modifiers/lucky"
+        }
+      },
+      "the_vault:slowed": {
+        "properties": {
+          "effect": "minecraft:slowness",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "\u51cf\u901f",
+          "color": "#4C6786",
+          "description": "+1 \u7f13\u6162",
+          "descriptionFormatted": "+%d \u7f13\u6162",
+          "icon": "the_vault:gui/modifiers/slowed"
+        }
+      },
+      "the_vault:slowed_t2": {
+        "properties": {
+          "effect": "minecraft:slowness",
+          "effectAmplifier": 2,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "2\u9636\u51cf\u901f",
+          "color": "#4C6786",
+          "description": "+2 \u7f13\u6162",
+          "descriptionFormatted": "+%d \u7f13\u6162",
+          "icon": "the_vault:gui/modifiers/slowed"
+        }
+      },
+      "the_vault:speedy": {
+        "properties": {
+          "effect": "minecraft:speed",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "\u8fc5\u6377",
+          "color": "#00CDFF",
+          "description": "+1 \u901f\u5ea6",
+          "descriptionFormatted": "+%d \u901f\u5ea6",
+          "icon": "the_vault:gui/modifiers/speed"
+        }
+      },
+      "the_vault:stronk": {
+        "properties": {
+          "effect": "minecraft:strength",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "\u5f3a\u58ee",
+          "color": "#5E12E5",
+          "description": "+1 \u529b\u91cf",
+          "descriptionFormatted": "+%d \u529b\u91cf",
+          "icon": "the_vault:gui/modifiers/stronk"
+        }
+      },
+      "the_vault:tired": {
+        "properties": {
+          "effect": "minecraft:mining_fatigue",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "\u75b2\u60eb",
+          "color": "#E8E9E1",
+          "description": "+1 \u6316\u6398\u75b2\u52b3",
+          "descriptionFormatted": "+%d \u6316\u6398\u75b2\u52b3",
+          "icon": "the_vault:gui/modifiers/tired"
+        }
+      },
+      "the_vault:tired_t2": {
+        "properties": {
+          "effect": "minecraft:mining_fatigue",
+          "effectAmplifier": 3,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "2\u9636\u75b2\u60eb",
+          "color": "#E8E9E1",
+          "description": "+3 \u6316\u6398\u75b2\u52b3",
+          "descriptionFormatted": "+%d \u6316\u6398\u75b2\u52b3",
+          "icon": "the_vault:gui/modifiers/tired"
+        }
+      },
+      "the_vault:weakened": {
+        "properties": {
+          "effect": "minecraft:weakness",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "\u865a\u5f31",
+          "color": "#9F5300",
+          "description": "+1 \u865a\u5f31",
+          "descriptionFormatted": "+%d \u865a\u5f31",
+          "icon": "the_vault:gui/modifiers/weakness"
+        }
+      },
+      "the_vault:weakened_t2": {
+        "properties": {
+          "effect": "minecraft:weakness",
+          "effectAmplifier": 3,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "2\u9636\u865a\u5f31",
+          "color": "#9F5300",
+          "description": "+3 \u865a\u5f31",
+          "descriptionFormatted": "+%d \u865a\u5f31",
+          "icon": "the_vault:gui/modifiers/weakness"
+        }
+      },
+      "the_vault:weakened_t3": {
+        "properties": {
+          "effect": "minecraft:weakness",
+          "effectAmplifier": 6,
+          "operator": "add",
+          "type": "icon_only"
+        },
+        "display": {
+          "name": "3\u9636\u865a\u5f31",
+          "color": "#9F5300",
+          "description": "+6 \u865a\u5f31",
+          "descriptionFormatted": "+%d \u865a\u5f31",
+          "icon": "the_vault:gui/modifiers/weakness"
+        }
+      },
+      "the_vault:velara_favour_1": {
+        "properties": {
+          "effect": "minecraft:regeneration",
+          "effectAmplifier": 1,
+          "operator": "add",
+          "type": "icon_only",
+          "reputation": {
+            "addendPerLevel": "0.02"
+          }
+        },
+        "display": {
+          "name": "\u7ef4\u62c9\u62c9\u7684\u9752\u7750",
+          "color": "#55FF55",
+          "description": "+1 \u751f\u547d\u6062\u590d",
+          "descriptionFormatted": "+%d \u751f\u547d\u6062\u590d",
+          "icon": "the_vault:gui/modifiers/velara"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_inventory_restore": {
+      "the_vault:afterlife": {
+        "properties": {
+          "preventsArtifact": false,
+          "experienceMultiplierOnDeath": "0",
+          "experienceMultiplierOnSuccess": "0.5",
+          "isInstantRevival": false
+        },
+        "display": {
+          "name": "\u6765\u751f",
+          "color": "#0FA6E3",
+          "description": "\u5982\u679c\u5728\u5b9d\u5e93\u4e16\u754c\u4e2d\u6b7b\u4ea1\uff0c\u4f60\u80fd\u4fdd\u7559\u4f60\u7684\u7269\u54c1\uff0c\u4f46\u4f1a\u53d7\u5230\u8010\u4e45\u60e9\u7f5a\u3002",
+          "icon": "the_vault:gui/modifiers/afterlife"
+        }
+      },
+      "the_vault:phoenix": {
+        "properties": {
+          "preventsArtifact": false,
+          "experienceMultiplierOnDeath": "0",
+          "experienceMultiplierOnSuccess": "1",
+          "isInstantRevival": true
+        },
+        "display": {
+          "name": "\u51e4\u51f0",
+          "color": "#FF8900",
+          "description": "\u5982\u679c\u5728\u5b9d\u5e93\u4e16\u754c\u4e2d\u6b7b\u4ea1\uff0c\u4f60\u4f1a\u7acb\u5373\u539f\u5730\u590d\u6d3b\uff0c\u51e4\u51f0\u8bcd\u7f00\u4e5f\u5c06\u7acb\u5373\u5931\u6548",
+          "icon": "the_vault:gui/modifiers/phoenix"
+        }
+      },
+      "the_vault:beginners_grace": {
+        "properties": {
+          "preventsArtifact": false,
+          "experienceMultiplierOnDeath": "0",
+          "experienceMultiplierOnSuccess": "1",
+          "isInstantRevival": false
+        },
+        "display": {
+          "name": "\u65b0\u624b\u6069\u60e0",
+          "color": "#FF8900",
+          "description": "\u5982\u679c\u5728\u5b9d\u5e93\u4e16\u754c\u4e2d\u6b7b\u4ea1\uff0c\u4f60\u80fd\u4fdd\u7559\u4f60\u7684\u7269\u54c1\uff0c\u4f46\u4f1a\u53d7\u5230\u8010\u4e45\u60e9\u7f5a\u3002",
+          "icon": "the_vault:gui/modifiers/beginners_grace"
+        }
+      },
+      "the_vault:casual": {
+        "properties": {
+          "preventsArtifact": false,
+          "experienceMultiplierOnDeath": "0",
+          "experienceMultiplierOnSuccess": "1",
+          "isInstantRevival": false
+        },
+        "display": {
+          "name": "\u4f11\u95f2\u6a21\u5f0f",
+          "color": "#FF8900",
+          "description": "\u5982\u679c\u5728\u5b9d\u5e93\u4e16\u754c\u4e2d\u6b7b\u4ea1\uff0c\u4f60\u80fd\u4fdd\u7559\u4f60\u7684\u7269\u54c1\uff0c\u4f46\u4f1a\u53d7\u5230\u8010\u4e45\u60e9\u7f5a\u3002",
+          "icon": "the_vault:gui/modifiers/beginners_grace"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_no_exit": {
+      "the_vault:locked": {
+        "properties": {},
+        "display": {
+          "name": "\u9501\u5b9a",
+          "color": "#FF0000",
+          "description": "\u4e0d\u80fd\u63d0\u524d\u79bb\u5f00\u5b9d\u5e93\u4e16\u754c",
+          "icon": "the_vault:gui/modifiers/raffle"
+        }
+      },
+      "the_vault:raffle": {
+        "properties": {},
+        "display": {
+          "name": "\u201c\u4e2d\u5956\u201d",
+          "color": "#C5001B",
+          "description": "\u4e0d\u80fd\u79bb\u5f00\u5b9d\u5e93",
+          "icon": "the_vault:gui/modifiers/raffle"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_no_vault_fruit": {
+      "the_vault:rotten": {
+        "properties": {},
+        "display": {
+          "name": "\u8150\u70c2",
+          "color": "#A0AF5B",
+          "description": "\u5b9d\u5e93\u98df\u7269\u65e0\u6548\u679c",
+          "icon": "the_vault:gui/modifiers/rotten"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_stat": {
+      "the_vault:clumsy": {
+        "properties": {
+          "stat": "block_chance",
+          "addend": "-0.1"
+        },
+        "display": {
+          "name": "\u7b28\u62d9",
+          "color": "#CB866D",
+          "description": "-10% \u683c\u6321",
+          "descriptionFormatted": "-%d%% \u683c\u6321",
+          "icon": "the_vault:gui/modifiers/clumsy"
+        }
+      },
+      "the_vault:inert": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "addend": "-0.1"
+        },
+        "display": {
+          "name": "\u8fdf\u949d",
+          "color": "#6DACB5",
+          "description": "-10% \u51b7\u5374\u7f29\u51cf",
+          "descriptionFormatted": "-%d%% \u51b7\u5374\u7f29\u51cf",
+          "icon": "the_vault:gui/modifiers/inert"
+        }
+      },
+      "the_vault:vulnerable": {
+        "properties": {
+          "stat": "resistance",
+          "addend": "-0.1"
+        },
+        "display": {
+          "name": "\u8106\u5f31",
+          "color": "#CA9A5B",
+          "description": "-10% \u6297\u6027\u63d0\u5347",
+          "descriptionFormatted": "-%d%% \u6297\u6027\u63d0\u5347",
+          "icon": "the_vault:gui/modifiers/vulnerable"
+        }
+      },
+      "the_vault:idona_favour_3": {
+        "properties": {
+          "stat": "leech",
+          "addend": "0.005",
+          "reputation": {
+            "addendPerLevel": "0.0002"
+          }
+        },
+        "display": {
+          "name": "\u4f0a\u591a\u7eb3\u7684\u9752\u7750",
+          "color": "#FF5555",
+          "description": "+0.5% \u5438\u8840",
+          "descriptionFormatted": "+%d%% \u5438\u8840",
+          "icon": "the_vault:gui/modifiers/idona"
+        }
+      },
+      "the_vault:antiheal": {
+        "properties": {
+          "stat": "healing_effectiveness",
+          "addend": "-0.2"
+        },
+        "display": {
+          "name": "\u7ef4\u62c9\u62c9\u7684\u6124\u6012",
+          "color": "#849dc8",
+          "description": "-20% \u6cbb\u7597\u6548\u7387",
+          "descriptionFormatted": "-%d%% \u6cbb\u7597\u6548\u7387",
+          "icon": "the_vault:gui/modifiers/velara"
+        }
+      },
+      "the_vault:velara_favour_2": {
+        "properties": {
+          "stat": "healing_effectiveness",
+          "addend": "0.01",
+          "reputation": {
+            "addendPerLevel": "0.01"
+          }
+        },
+        "display": {
+          "name": "\u7ef4\u62c9\u62c9\u7684\u9752\u7750",
+          "color": "#FF5555",
+          "description": "+1% \u6cbb\u7597\u6548\u679c",
+          "descriptionFormatted": "+%d%% \u6cbb\u7597\u6548\u679c",
+          "icon": "the_vault:gui/modifiers/velara"
+        }
+      },
+      "the_vault:wendarr_favour_3": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "addend": "0.005",
+          "reputation": {
+            "addendPerLevel": "0.005"
+          }
+        },
+        "display": {
+          "name": "\u6587\u8fbe\u7684\u9752\u7750",
+          "color": "#FF5555",
+          "description": "+0.5% \u51b7\u5374\u7f29\u51cf",
+          "descriptionFormatted": "+%d%% \u51b7\u5374\u7f29\u51cf",
+          "icon": "the_vault:gui/modifiers/wendarr"
+        }
+      }
+    },
+    "the_vault:modifier_type/vault_level": {
+      "the_vault:difficult": {
+        "properties": {
+          "levelAdded": 3
+        },
+        "display": {
+          "name": "\u56f0\u96be",
+          "color": "#E20000",
+          "description": "+3 \u5b9d\u5e93\u4e16\u754c\u7b49\u7ea7",
+          "descriptionFormatted": "+%d \u5b9d\u5e93\u4e16\u754c\u7b49\u7ea7",
+          "icon": "the_vault:gui/modifiers/difficult"
+        }
+      },
+      "the_vault:easy": {
+        "properties": {
+          "levelAdded": -3
+        },
+        "display": {
+          "name": "\u7b80\u5355",
+          "color": "#70FF2A",
+          "description": "-3 \u5b9d\u5e93\u4e16\u754c\u7b49\u7ea7",
+          "descriptionFormatted": "-%d \u5b9d\u5e93\u4e16\u754c\u7b49\u7ea7",
+          "icon": "the_vault:gui/modifiers/easy"
+        }
+      }
+    },
+    "the_vault:modifier_type/vault_lootable_weight": {
+      "the_vault:plentiful": {
+        "properties": {
+          "type": "ORE",
+          "chance": "0.2"
+        },
+        "display": {
+          "name": "\u5bcc\u8db3",
+          "color": "#FF85FF",
+          "description": "+20% \u5b9d\u5e93\u77ff\u77f3\u4ea7\u51fa",
+          "descriptionFormatted": "+%d%% \u5b9d\u5e93\u77ff\u77f3\u4ea7\u51fa",
+          "icon": "the_vault:gui/modifiers/plentiful"
+        }
+      }
+    },
+    "the_vault:modifier_type/vault_time": {
+      "the_vault:extended": {
+        "properties": {
+          "timeAddedTicks": 1200
+        },
+        "display": {
+          "name": "\u5ef6\u957f",
+          "color": "#2F86AE",
+          "description": "+1\u5206\u949f\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4",
+          "descriptionFormatted": "+%d\u5206\u949f\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4",
+          "icon": "the_vault:gui/modifiers/extended"
+        }
+      },
+      "the_vault:shortened": {
+        "properties": {
+          "timeAddedTicks": -1200
+        },
+        "display": {
+          "name": "\u7f29\u77ed",
+          "color": "#2F86AE",
+          "description": "-1\u5206\u949f\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4",
+          "descriptionFormatted": "-%d\u5206\u949f\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4",
+          "icon": "the_vault:gui/modifiers/rush"
+        }
+      },
+      "the_vault:cherry": {
+        "properties": {
+          "timeAddedTicks": 600
+        },
+        "display": {
+          "name": "\u6a31\u6843",
+          "color": "#2F86AE",
+          "description": "+30\u79d2\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4",
+          "descriptionFormatted": "+%d\u79d2\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4",
+          "icon": "the_vault:gui/modifiers/extended"
+        }
+      },
+      "the_vault:rushed": {
+        "properties": {
+          "timeAddedTicks": -1200
+        },
+        "display": {
+          "name": "\u614c\u4e71",
+          "color": "#FFCD6F",
+          "description": "-1 \u5206\u949f\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4",
+          "descriptionFormatted": "-%d \u5206\u949f\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4",
+          "icon": "the_vault:gui/modifiers/rush"
+        }
+      }
+    },
+    "the_vault:modifier_type/game_controls": {
+      "the_vault:confused": {
+        "properties": {
+          "forward": true,
+          "backward": true,
+          "jump": true,
+          "swapLeftAndRight": true
+        },
+        "display": {
+          "name": "\u6df7\u4e71",
+          "color": "#7738C9",
+          "description": "\u5de6\u53f3\u98a0\u5012",
+          "descriptionFormatted": "\u5de6\u53f3\u98a0\u5012",
+          "icon": "the_vault:gui/modifiers/confused"
+        }
+      },
+      "the_vault:crab_walk": {
+        "properties": {
+          "forward": false,
+          "backward": false,
+          "jump": true,
+          "swapLeftAndRight": false
+        },
+        "display": {
+          "name": "\u87f9\u884c",
+          "color": "#7738C9",
+          "description": "\u53ea\u80fd\u6a2a\u7740\u8d70\u8def",
+          "descriptionFormatted": "\u53ea\u80fd\u6a2a\u7740\u8d70\u8def",
+          "icon": "the_vault:gui/modifiers/crab_walk"
+        }
+      },
+      "the_vault:jupiter_gravity": {
+        "properties": {
+          "forward": true,
+          "backward": true,
+          "jump": false,
+          "swapLeftAndRight": false
+        },
+        "display": {
+          "name": "\u6cf0\u5c71\u538b\u9876",
+          "color": "#7738C9",
+          "description": "\u4e0d\u80fd\u8df3\u8dc3",
+          "descriptionFormatted": "\u4e0d\u80fd\u8df3\u8dc3",
+          "icon": "the_vault:gui/modifiers/jupiter_gravity"
+        }
+      }
+    },
+    "the_vault:modifier_type/experience": {
+      "the_vault:xp_reduction": {
+        "properties": {
+          "addend": "-0.25"
+        },
+        "display": {
+          "name": "\u5b9d\u5e93\u7ecf\u9a8c\u51cf\u5c11",
+          "color": "#DB7C00",
+          "description": "-25% \u5b9d\u5e93\u7ecf\u9a8c",
+          "descriptionFormatted": "+%d%% \u5b9d\u5e93\u7ecf\u9a8c",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "the_vault:xp_gain": {
+        "properties": {
+          "addend": "0.2"
+        },
+        "display": {
+          "name": "\u9002\u5e94",
+          "color": "#DB7C00",
+          "description": "+20% \u5b9d\u5e93\u7ecf\u9a8c",
+          "descriptionFormatted": "+%d%% \u5b9d\u5e93\u7ecf\u9a8c",
+          "icon": "the_vault:gui/modifiers/experienced"
+        }
+      }
+    },
+    "the_vault:modifier_type/inline_pool": {
+      "the_vault:chaos": {
+        "properties": {
+          "pool": "the_vault:chaos",
+          "level": 0
+        },
+        "display": {
+          "name": "\u6df7\u6c8c",
+          "color": "#DB7C00",
+          "description": "\u6df7\u6c8c\u7684\u7ecf\u5386",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      },
+      "the_vault:random_negative": {
+        "properties": {
+          "pool": "the_vault:random_negative",
+          "level": 0
+        },
+        "display": {
+          "name": "\u968f\u673a\u8d1f\u9762",
+          "color": "#fe3333",
+          "description": "\u672a\u77e5\u7684\u8d1f\u9762\u8bcd\u7f00",
+          "icon": "the_vault:gui/modifiers/impossible"
+        }
+      }
+    },
+    "the_vault:modifier_type/decorator_cascade": {
+      "the_vault:gilded_cascade": {
+        "properties": {
+          "filter": "the_vault:gilded_chest",
+          "chance": "0.25"
+        },
+        "display": {
+          "name": "\u9540\u91d1",
+          "color": "#FFEC00",
+          "description": "+25% \u9540\u91d1\u5b9d\u7bb1",
+          "descriptionFormatted": "+%d%% \u9540\u91d1\u5b9d\u7bb1",
+          "icon": "the_vault:gui/modifiers/gilded"
+        }
+      },
+      "the_vault:living_cascade": {
+        "properties": {
+          "filter": "the_vault:living_chest",
+          "chance": "0.25"
+        },
+        "display": {
+          "name": "\u6d3b\u5316",
+          "color": "#38d800",
+          "description": "+25% \u6d3b\u5316\u5b9d\u7bb1",
+          "descriptionFormatted": "+%d%% \u6d3b\u5316\u5b9d\u7bb1",
+          "icon": "the_vault:gui/modifiers/living"
+        }
+      },
+      "the_vault:ornate_cascade": {
+        "properties": {
+          "filter": "the_vault:ornate_chest",
+          "chance": "0.25"
+        },
+        "display": {
+          "name": "\u534e\u4e3d",
+          "color": "#c90d73",
+          "description": "+25% \u534e\u4e3d\u5b9d\u7bb1",
+          "descriptionFormatted": "+%d%% \u534e\u4e3d\u5b9d\u7bb1",
+          "icon": "the_vault:gui/modifiers/ornate"
+        }
+      },
+      "the_vault:wooden_cascade": {
+        "properties": {
+          "filter": "the_vault:wooden_chest",
+          "chance": "0.25"
+        },
+        "display": {
+          "name": "\u6728\u5236",
+          "color": "#c7b281",
+          "description": "+25% \u6728\u5236\u5b9d\u7bb1",
+          "descriptionFormatted": "+%d%% \u6728\u5236\u5b9d\u7bb1",
+          "icon": "the_vault:gui/modifiers/wooden"
+        }
+      },
+      "the_vault:coin_cascade": {
+        "properties": {
+          "filter": "the_vault:coin_pile",
+          "chance": "0.25"
+        },
+        "display": {
+          "name": "\u5bcc\u88d5",
+          "color": "#ffae00",
+          "description": "+25% \u94b1\u5e01\u5806",
+          "descriptionFormatted": "+%d%% \u94b1\u5e01\u5806",
+          "icon": "the_vault:gui/modifiers/wealthy"
+        }
+      },
+      "the_vault:spawner_cascade": {
+        "properties": {
+          "filter": "the_vault:spawner_cascade",
+          "chance": "0.3"
+        },
+        "display": {
+          "name": "\u5927\u91cf\u751f\u6210",
+          "color": "#c90d73",
+          "description": "+30% \u5237\u602a\u7b3c",
+          "descriptionFormatted": "+%d%% \u5237\u602a\u7b3c",
+          "icon": "the_vault:gui/modifiers/wealhty"
+        }
+      }
+    }
+  }
+}
