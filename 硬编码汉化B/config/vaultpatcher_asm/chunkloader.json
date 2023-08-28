@@ -1,0 +1,16 @@
+[
+  {
+    "authors": "ByF",
+    "name": "chunkloader",
+    "desc": "Hardcode",
+    "mods": "chunkymcchunkface"
+  },
+  {
+    "target_class": {
+      "name": "com.mrbysco.chunkymcchunkface.blocks.ChunkLoaderBlock",
+      "method": ""
+    },
+    "key": "Chunk Loader",
+    "value": "用于常加载区块"
+  }
+]

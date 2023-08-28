@@ -1,0 +1,376 @@
+{
+  "tags": {
+    "Defensive": {
+      "tags": [
+        "ModArmor",
+        "ModKnockbackResistance",
+        "ModCritHitMitigation",
+        "focusArmor"
+      ],
+      "display": "\u9632\u5fa1",
+      "color": 7973817,
+      "weight": 0
+    },
+    "ResDmg": {
+      "tags": [
+        "focusResistance",
+        "focusDamage"
+      ],
+      "display": "\u6297\u6027\u63d0\u5347/\u4f24\u5bb3",
+      "color": 16760832,
+      "weight": 0
+    },
+    "Mana": {
+      "tags": [
+        "ModMana",
+        "ModManaRegen"
+      ],
+      "display": "\u9b54\u529b",
+      "color": 65535,
+      "weight": 0
+    },
+    "Looting": {
+      "tags": [
+        "ModItemRarity",
+        "ModItemQuantity"
+      ],
+      "display": "\u6218\u5229\u54c1",
+      "color": 15639054,
+      "weight": 0
+    },
+    "Offensive": {
+      "tags": [
+        "ModOnHitAddition",
+        "ModAttackDamage",
+        "ModFatalStrikeDamage",
+        "ModDamageIncrease",
+        "ModTypedDamageIncrease",
+        "ModFatalStrikeChance",
+        "ModAttackSpeedPercent"
+      ],
+      "display": "\u653b\u51fb",
+      "color": 12782347,
+      "weight": 0
+    },
+    "OnHit": {
+      "tags": [
+        "ModOnHitAddition"
+      ],
+      "display": "\u53d7\u51fb\u89e6\u53d1",
+      "color": 16740864,
+      "weight": 0
+    },
+    "Resistance": {
+      "tags": [
+        "focusResistance"
+      ],
+      "display": "\u6297\u6027",
+      "color": 16760832,
+      "weight": 10
+    },
+    "Lucky Hit": {
+      "tags": [
+        "focusLuckyHitChance"
+      ],
+      "display": "\u5e78\u8fd0\u4e00\u51fb",
+      "color": 7206307,
+      "weight": 10
+    },
+    "Slowness Cloud": {
+      "tags": [
+        "focusSlownessCloud"
+      ],
+      "display": "\u7f13\u6162\u6548\u679c\u4e91",
+      "color": 7400423,
+      "weight": 10
+    },
+    "Chilling Cloud": {
+      "tags": [
+        "focusChillingCloud"
+      ],
+      "display": "\u971c\u51bb\u6548\u679c\u4e91",
+      "color": 3138042,
+      "weight": 10
+    },
+    "Poison Cloud": {
+      "tags": [
+        "focusPoisonCloud"
+      ],
+      "display": "\u5267\u6bd2\u6548\u679c\u4e91",
+      "color": 4236591,
+      "weight": 10
+    },
+    "Healing Cloud": {
+      "tags": [
+        "focusHealingCloud"
+      ],
+      "display": "\u751f\u547d\u6062\u590d\u6548\u679c\u4e91",
+      "color": 16150747,
+      "weight": 10
+    },
+    "Fear Cloud": {
+      "tags": [
+        "focusFearCloud"
+      ],
+      "display": "\u6050\u60e7\u6548\u679c\u4e91",
+      "color": 2818160,
+      "weight": 10
+    },
+    "Health": {
+      "tags": [
+        "focusHealth"
+      ],
+      "display": "\u751f\u547d\u503c",
+      "color": 2293541,
+      "weight": 10
+    },
+    "HealingEff": {
+      "tags": [
+        "focusHealingEff"
+      ],
+      "display": "\u6cbb\u7597\u6548\u7387",
+      "color": 9371426,
+      "weight": 10
+    },
+    "Armor": {
+      "tags": [
+        "focusArmor"
+      ],
+      "display": "\u62a4\u7532\u503c",
+      "color": 4766456,
+      "weight": 10
+    },
+    "ManaRegen": {
+      "tags": [
+        "focusManaRegen"
+      ],
+      "display": "\u9b54\u529b\u518d\u751f",
+      "color": 65535,
+      "weight": 10
+    },
+    "Trap Disarming": {
+      "tags": [
+        "focusTrapDisarming"
+      ],
+      "display": "\u9677\u9631\u89e3\u9664",
+      "color": 8471551,
+      "weight": 10
+    },
+    "Cooldown": {
+      "tags": [
+        "focusCooldown"
+      ],
+      "display": "\u51b7\u5374",
+      "color": 63668,
+      "weight": 10
+    },
+    "Durability": {
+      "tags": [
+        "focusDurability"
+      ],
+      "display": "\u8010\u4e45\u5ea6",
+      "color": 14668030,
+      "weight": 10
+    },
+    "Damage": {
+      "tags": [
+        "focusDamage"
+      ],
+      "display": "\u4f24\u5bb3\u767e\u5206\u6bd4",
+      "color": 16739072,
+      "weight": 10
+    },
+    "Soul Hunting": {
+      "tags": [
+        "focusSoulChance"
+      ],
+      "display": "\u7075\u9b42\u788e\u7247\u6389\u843d\u7387",
+      "color": 4653308,
+      "weight": 10
+    },
+    "Chaining": {
+      "tags": [
+        "focusChaining"
+      ],
+      "display": "\u8fde\u9501",
+      "color": 6119096,
+      "weight": 10
+    },
+    "ManaAdditive": {
+      "tags": [
+        "focusManaAdd"
+      ],
+      "display": "\u6700\u5927\u9b54\u529b\u503c",
+      "color": 65535,
+      "weight": 10
+    },
+    "ManaPercentile": {
+      "tags": [
+        "focusManaPercentile"
+      ],
+      "display": "\u6700\u5927\u9b54\u529b\u503c\u767e\u5206\u6bd4",
+      "color": 65535,
+      "weight": 10
+    },
+    "Soulbound": {
+      "tags": [
+        "focusSoulbound"
+      ],
+      "display": "\u7075\u9b42\u7ed1\u5b9a",
+      "color": 9856253,
+      "weight": 10
+    },
+    "MiningSpeed": {
+      "tags": [
+        "focusMiningSpeed"
+      ],
+      "display": "\u6316\u6398\u901f\u5ea6",
+      "color": 4766456,
+      "weight": 10
+    },
+    "Copiously": {
+      "tags": [
+        "focusCopiously"
+      ],
+      "display": "\u5bcc\u8db3",
+      "color": 16205696,
+      "weight": 10
+    },
+    "MagnetRange": {
+      "tags": [
+        "focusMagnetRange"
+      ],
+      "display": "\u8303\u56f4",
+      "color": 16364415,
+      "weight": 10
+    },
+    "MagnetVelocity": {
+      "tags": [
+        "focusMagnetVelocity"
+      ],
+      "display": "\u901f\u5ea6",
+      "color": 14608287,
+      "weight": 10
+    },
+    "AttackDamage": {
+      "tags": [
+        "focusAttackDamage"
+      ],
+      "display": "\u653b\u51fb\u4f24\u5bb3",
+      "color": 13116966,
+      "weight": 10
+    },
+    "Stunning": {
+      "tags": [
+        "focusStun"
+      ],
+      "display": "\u51fb\u6655",
+      "color": 1681124,
+      "weight": 10
+    },
+    "Shocking": {
+      "tags": [
+        "focusShocking"
+      ],
+      "display": "\u9707\u51fb",
+      "color": 1681124,
+      "weight": 10
+    },
+    "Block": {
+      "tags": [
+        "focusBlock"
+      ],
+      "display": "\u683c\u6321\u6982\u7387",
+      "color": 16109454,
+      "weight": 10
+    },
+    "ThornsDamage": {
+      "tags": [
+        "focusThornsDamage"
+      ],
+      "display": "\u8346\u68d8\u4f24\u5bb3",
+      "color": 15507136,
+      "weight": 10
+    },
+    "Sweeping": {
+      "tags": [
+        "focusSweeping"
+      ],
+      "display": "\u6a2a\u626b\u653b\u51fb\u6982\u7387",
+      "color": 14727777,
+      "weight": 10
+    },
+    "DamageIllagers": {
+      "tags": [
+        "focusDamageIllager"
+      ],
+      "display": "\u707e\u5384\u4f24\u5bb3",
+      "color": 40882,
+      "weight": 10
+    },
+    "DamageSpiders": {
+      "tags": [
+        "focusDamageSpiders"
+      ],
+      "display": "\u8282\u80a2\u4f24\u5bb3",
+      "color": 8281694,
+      "weight": 10
+    },
+    "DamageUndead": {
+      "tags": [
+        "focusDamageUndead"
+      ],
+      "display": "\u4ea1\u7075\u4f24\u5bb3",
+      "color": 16382128,
+      "weight": 10
+    },
+    "DamageNether": {
+      "tags": [
+        "focusDamageNether"
+      ],
+      "display": "\u4e0b\u754c\u4f24\u5bb3",
+      "color": 16757889,
+      "weight": 10
+    },
+    "ItemQuantity": {
+      "tags": [
+        "focusItemQuantity"
+      ],
+      "display": "\u7269\u54c1\u6570\u91cf",
+      "color": 15239698,
+      "weight": 10
+    },
+    "ItemRarity": {
+      "tags": [
+        "focusItemRarity"
+      ],
+      "display": "\u7269\u54c1\u7a00\u6709\u5ea6",
+      "color": 15054873,
+      "weight": 10
+    },
+    "Immunity": {
+      "tags": [
+        "focusImmunity"
+      ],
+      "display": "\u514d\u75ab",
+      "color": 15589836,
+      "weight": 10
+    },
+    "AOE": {
+      "tags": [
+        "focusEffectRadius"
+      ],
+      "display": "\u6548\u679c\u4e91",
+      "color": 15319925,
+      "weight": 10
+    },
+    "Reach": {
+      "tags": [
+        "focusReach"
+      ],
+      "display": "\u89e6\u53ca\u8ddd\u79bb",
+      "color": 8706047,
+      "weight": 5
+    }
+  }
+}

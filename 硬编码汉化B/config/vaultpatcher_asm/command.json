@@ -1,0 +1,1232 @@
+[
+  {
+    "authors": "ByF",
+    "name": "command",
+    "desc": "Hardcode",
+    "mods": "the_vault"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.CrystalCommand",
+      "method": ""
+    },
+    "key": "Unknown Modifier: ",
+    "value": "未知修饰语: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.CrystalCommand",
+      "method": ""
+    },
+    "key": "Not holding crystal!",
+    "value": "需要手持宝库水晶!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.DebugCommand",
+      "method": ""
+    },
+    "key": "Item already corrupted",
+    "value": "该物品已经损毁"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.DebugCommand",
+      "method": ""
+    },
+    "key": "Not holding VaultGear item",
+    "value": "需要手持宝库装备"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.DebugCommand",
+      "method": ""
+    },
+    "key": "Unknown etching set: ",
+    "value": "未知蚀刻套装: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.DebugCommand",
+      "method": ""
+    },
+    "key": "Unknown ability: ",
+    "value": "未知能力id: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.DebugCommand",
+      "method": ""
+    },
+    "key": "Altar Level: ",
+    "value": "祭坛等级: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.EternalCommand",
+      "method": ""
+    },
+    "key": "Specified eternal does not exist!",
+    "value": "指定的永生者不存在!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.EternalCommand",
+      "method": ""
+    },
+    "key": "Eternal set!",
+    "value": "已设置永生者!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.EternalCommand",
+      "method": ""
+    },
+    "key": "Not holding cryochamber!",
+    "value": "需要手持低温箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.EternalCommand",
+      "method": ""
+    },
+    "key": "Eternals:",
+    "value": "永生者:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.EternalCommand",
+      "method": ""
+    },
+    "key": "Copy UUID",
+    "value": "复制 UUID"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.EternalCommand",
+      "method": ""
+    },
+    "key": "Eternal removed!",
+    "value": "已移除永生者!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.GearDebugCommand",
+      "method": ""
+    },
+    "key": "No gear data found on item.",
+    "value": "该物品上找不到宝库装备相关信息"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.GearDebugCommand",
+      "method": ""
+    },
+    "key": "Could not add modifier of tag ",
+    "value": "不能添加以下标签的修饰语: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.GearDebugCommand",
+      "method": ""
+    },
+    "key": "No modifiers remaining to remove.",
+    "value": "没有可移除的修饰语"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.GearDebugCommand",
+      "method": ""
+    },
+    "key": "No empty modifier slots remaining.",
+    "value": "没有空闲修饰语槽位"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.GearDebugCommand",
+      "method": ""
+    },
+    "key": "Unknown roll type ",
+    "value": "未知的铸造等级id: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.GearDebugCommand",
+      "method": ""
+    },
+    "key": "Known roll types: ",
+    "value": "铸造等级列表: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.GearDebugCommand",
+      "method": ""
+    },
+    "key": "No vaultgear held in hand",
+    "value": "未手持宝库装备"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.GearDebugCommand",
+      "method": ""
+    },
+    "key": "Not vaultgear in hand",
+    "value": "未手持宝库装备"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.InternalCommand",
+      "method": ""
+    },
+    "key": "Unknown research",
+    "value": "未知研究"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.OpenVaultSnapshotCommand",
+      "method": ""
+    },
+    "key": "Click to open",
+    "value": "点击打开"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "You are not in a party!",
+    "value": "你目前不在宝库队伍中!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "Members: ",
+    "value": "队伍成员: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "This player is already in another party.",
+    "value": "该玩家在另一个宝库队伍中。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "Inviting ",
+    "value": "正在邀请 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": " to the party.",
+    "value": " 加入宝库队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "Click to accept!",
+    "value": "点击以接受邀请!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "Run '",
+    "value": "输入 '"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "' to accept their invite!",
+    "value": "'以接受邀请!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": " has invited you to their party.",
+    "value": " 邀请你加入他的宝库队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "You already are in a party!",
+    "value": "你已经在宝库队伍中!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "This player has left their party.",
+    "value": "该玩家离开了宝库队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "Successfully added ",
+    "value": "成功将 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": " to the party.",
+    "value": " 添加至宝库队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "You have been added to ",
+    "value": "你加入了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "'s party.",
+    "value": " 的宝库队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "You are not invited to ",
+    "value": "你没有被邀请加入 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": " was removed from the party.",
+    "value": " 被从宝库队伍中移除。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "You have been removed from ",
+    "value": "你被踢出了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "This player not in your party.",
+    "value": "该玩家不在你的宝库队伍中。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "Successfully created a party.",
+    "value": "成功创建了一个宝库队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "You are already in a party! Please leave or disband it first.",
+    "value": "你已经嫁加入了一个宝库队伍! 请先离开或解散当前的队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": " has left the party.",
+    "value": " 离开了宝库队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "Successfully left the party.",
+    "value": "成功离开了宝库队伍。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PartyCommand",
+      "method": ""
+    },
+    "key": "The party was disbanded.",
+    "value": "宝库队伍已解散。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PointsResetCommand",
+      "method": ""
+    },
+    "key": "WARNING: THIS CANNOT BE UNDONE! If you are absolutely sure you want to reset ",
+    "value": "警告: 此操作不能撤销! 如果你确认重置 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PointsResetCommand",
+      "method": ""
+    },
+    "key": " points, click here or run the command again..",
+    "value": " 点数, 请点击这里再次执行此命令.."
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PointsResetCommand",
+      "method": ""
+    },
+    "key": "You have reset ",
+    "value": "已重置 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.PointsResetCommand",
+      "method": ""
+    },
+    "key": " points",
+    "value": " 点数"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ReloadConfigsCommand",
+      "method": ""
+    },
+    "key": "Gen Configs reloaded!",
+    "value": "生成参数已重载!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ReloadConfigsCommand",
+      "method": ""
+    },
+    "key": "Configs reloaded, with errors!",
+    "value": "参数已重载,但是出现了一些问题!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ReloadConfigsCommand",
+      "method": ""
+    },
+    "key": "Configs reloaded!",
+    "value": "参数已重载!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "You can't invite yourself!",
+    "value": "不能邀请自己!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "Invited ",
+    "value": "邀请了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": " to the research-sharing team.",
+    "value": "加入研究小组。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": " invited ",
+    "value": " 邀请了 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": " invited you to a research-sharing team.",
+    "value": " 邀请了你加入他的研究小组。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "Click to accept!",
+    "value": "点击接受邀请!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "Run '",
+    "value": "输入 '"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "' to accept their invite!",
+    "value": "' 接受邀请!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": " is already part of ",
+    "value": " 已经是"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": " team!",
+    "value": "研究小组的一员了!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "your",
+    "value": "你的"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "a",
+    "value": "其它"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "Unable to accept a invite! You are already in a research-sharing team!",
+    "value": "无法接受邀请! 你已经在其它的研究小组了!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "Unable to accept a invite! You were not invited by ",
+    "value": "无法接受邀请! 你没有收到该玩家的邀请: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "Successfully joined a research-sharing team!",
+    "value": "成功加入研究小组!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": " joined the research-sharing team.",
+    "value": " 加入了研究小组。"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "Successfully left your research-sharing team!",
+    "value": "成功离开了当前研究小组!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "You are not in a research-sharing team!",
+    "value": "你当前不属于任何研究小组!"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.ResearchTeamCommand",
+      "method": ""
+    },
+    "key": "You are sharing new researches with:",
+    "value": "你正在和以下玩家共享研究进度:"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.SnapshotCommand",
+      "method": ""
+    },
+    "key": "Restored ",
+    "value": "恢复了"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.SnapshotCommand",
+      "method": ""
+    },
+    "key": "'s snapshot",
+    "value": " 的物品栏快照"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.SnapshotCommand",
+      "method": ""
+    },
+    "key": "Failed to restore ",
+    "value": "未能成功恢复 "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.SnapshotCommand",
+      "method": ""
+    },
+    "key": "Unable to find player's IGN: ",
+    "value": "找不到玩家: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.SnapshotCommand",
+      "method": ""
+    },
+    "key": "No snapshot exists for ",
+    "value": "玩家的快照列表为空: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.SnapshotCommand",
+      "method": ""
+    },
+    "key": "Timestamps",
+    "value": "时间戳"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.SnapshotCommand",
+      "method": ""
+    },
+    "key": "Click to get restore command for this timestamp",
+    "value": "点击获取恢复该时间戳对应快照的命令"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.SpirittCommand",
+      "method": ""
+    },
+    "key": "Unable to find player's IGN: ",
+    "value": "找不到玩家: "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.command.VaultGodSayCommand",
+      "method": ""
+    },
+    "key": "[VG] ",
+    "value": "[宝库之神] "
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultAlchemyTableConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires Level %s",
+    "value": "需要等级 %s"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultAlchemyTableConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires discovery in the Alchemy Archives",
+    "value": "需要先在炼金档案台中发现对应词条"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Dash",
+    "value": "冲刺"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Summon Eternal",
+    "value": "召唤永生者"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Farmer",
+    "value": "农民"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Ghost Walk",
+    "value": "鬼影步"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Heal",
+    "value": "治疗"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Hunter",
+    "value": "猎人"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Mana Shield",
+    "value": "魔力护盾"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Mega Jump",
+    "value": "超级跳"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Nova",
+    "value": "超新星"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Totem",
+    "value": "图腾"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Rampage",
+    "value": "狂暴"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Empower",
+    "value": "强化"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Taunt",
+    "value": "嘲讽"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Execute",
+    "value": "处决"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearTierConfig",
+      "method": ""
+    },
+    "key": "Empower",
+    "value": "强化"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearWorkbenchConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires Level %s",
+    "value": "需要等级 %s"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.gear.VaultGearWorkbenchConfig$UnlockCategory",
+      "method": ""
+    },
+    "key": "Requires discovery in the Modifier Archives",
+    "value": "需要先在词缀档案台中发现对应词条"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Dash: Bullet",
+    "value": "冲刺: 子弹"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Dash: Warp",
+    "value": "冲刺: 交换"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Dash",
+    "value": "冲刺"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Empower: Ice Armor",
+    "value": "强化: 冰霜护体"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Empower: Slowness Aura",
+    "value": "强化: 缓慢光环"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Empower",
+    "value": "强化"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Farmer: Cultivator",
+    "value": "农民: 耕种"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Farmer: Gardener",
+    "value": "农民: 栽培"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Farmer: Rancher",
+    "value": "农民: 畜牧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Farmer",
+    "value": "农民"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Ghost Walk: Spirit",
+    "value": "鬼影步: 灵影步"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Ghost Walk",
+    "value": "鬼影步"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Heal: Aid",
+    "value": "治疗: 群体"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Heal: Cleanse",
+    "value": "治疗: 净化"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Heal",
+    "value": "治疗"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Observer",
+    "value": "猎人: 观察者"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Wooden",
+    "value": "猎人: 木质宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Gilded",
+    "value": "猎人: 镀金宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Living",
+    "value": "猎人: 活化宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Ornate",
+    "value": "猎人: 华丽宝箱"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter: Coins",
+    "value": "猎人: 钱币堆"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Hunter",
+    "value": "猎人"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Javelin: Piercing",
+    "value": "标枪: 穿刺"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Javelin: Scatter",
+    "value": "标枪: 散射"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Javelin: Sight",
+    "value": "标枪: 声呐"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Javelin",
+    "value": "标枪"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mana Shield: Retribution",
+    "value": "魔力护盾: 回击"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mana Shield",
+    "value": "魔力护盾"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mega Jump: Drill",
+    "value": "超级跳: 钻探"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mega Jump: Dig",
+    "value": "超级跳: 挖掘"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Mega Jump",
+    "value": "超级跳"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Nova: Frost",
+    "value": "超新星: 霜冻"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Nova: Poison",
+    "value": "超新星: 剧毒"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Nova",
+    "value": "超新星"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Rampage: Vampire",
+    "value": "狂暴: 吸血鬼"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Rampage: Chain",
+    "value": "狂暴: 连锁"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Rampage",
+    "value": "狂暴"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Shell: Porcupine",
+    "value": "龟甲: 豪猪"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Shell: Quill",
+    "value": "龟甲: 翎羽"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Shell",
+    "value": "龟甲"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Stonefall: Coldsnap",
+    "value": "石落: 冰结"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Stonefall",
+    "value": "石落"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Taunt: Fear",
+    "value": "嘲讽: 恐惧"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Taunt: Charm",
+    "value": "嘲讽: 魅惑"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.AbilitiesConfig",
+      "method": ""
+    },
+    "key": "Taunt",
+    "value": "嘲讽"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "Levels: 0/10/20/30/40/50",
+    "value": "等级: 0/10/20/30/40/50"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "Levels: 0/10/20",
+    "value": "等级: 0/10/20"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "Levels: 0/1",
+    "value": "等级: 0/1"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "Levels: 0",
+    "value": "等级: 0"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "%s (Level: %d+)",
+    "value": "%s (等级: %d+)"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": "%d to %d",
+    "value": "%d - %d"
+  },
+  {
+    "target_class": {
+      "name": "iskallia.vault.config.LootInfoConfig$TooltipLinesProvider",
+      "method": ""
+    },
+    "key": " (ERROR)",
+    "value": " (错误)"
+  }
+]

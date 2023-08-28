@@ -1,0 +1,17 @@
+{
+  "sortnum": 1,
+  "name": "介绍",
+  "icon": "create:brass_hand",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "宝藏猎人是一个$(l)角色养成动作类RPG$()游戏。$(br2)它的游戏时长在设定上$(l)很长$()，并且拥有许多的辅助功能设置，以$(l)自定义$()整个流程的游戏体验。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "介绍",
+      "text": "$(br)在这个整合包中，游戏目标是通过探索$(l)宝库$()来通关。宝库位于$(l)另一维度$()中，玩家可以$(l)临时$()进入其中。$(br2)各个宝库中有可以增强游戏性的$(l)战利品$()。$(br2)探索宝库还可以获得$(l)宝库经验$()。升级是此整合包中的一大关键元素。"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "sortnum": 2,
+    "name": "宝库世界",
+    "description": "宝库世界有许多谜团需要解开。对于每个宝库，都有$(l)大量知识$()可供了解。",
+    "icon": "the_vault:vault_crystal"
+}

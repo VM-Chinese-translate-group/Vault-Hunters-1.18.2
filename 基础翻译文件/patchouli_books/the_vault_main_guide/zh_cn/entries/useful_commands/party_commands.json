@@ -1,0 +1,18 @@
+{
+  "sortnum": 3,
+  "name": "小队指令",
+  "icon": "minecraft:player_head",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "玩家可以创建和管理$(l:the_vault/cooperative_vaults#parties)$(t:小队)小队$()，以进行$(l)合作$()宝库。$(br2)有一个$(l)$(l:useful_commands/gamerule_commands)游戏规则$()来确定玩家是否$(l)需要$()在$(l)同一个小队$()中才能进入合作宝库。$(br2)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "小队指令",
+      "text": "$(li)$(c:/party create)$(t:单击以执行指令)$(l)/party create$()$(li2)创建一个小队$()$(br)$(li)$(8)$(l)/party invite <玩家名>$()$(li2)邀请该玩家加入小队$()$(br)$(li)$(8)$(l)/party remove <玩家名>$()$(li2)将该玩家踢出小队$()$(br)$(li)$(c:/party disband)$(t:单击以执行指令)$(l)/party disband$()$(li2)解散小队$()"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "sortnum": 4,
+  "name": "专精",
+  "icon": "fairylights:witch_light{color:8991416}",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "专精是$(l)不$()需要消耗魔力的$(l)被动$()能力。$(br2)专精可通过花费$(l)专精点$()来进行$(l)学习$()或$(l)升级$()，每$(l)提升$()5级时可以获取1点专精点。$(br2)每个专精都有不同的$(l)属性$()，会随着专精的等级而$(l)变化$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:neuralizer",
+      "title": "专精重置棒",
+      "text": "$(l)遗忘$()专精是十分昂贵的。$(br2)右键点击消耗专精重置棒，就可以立刻$(l)重置所有$()专精。"
+    }
+  ]
+}

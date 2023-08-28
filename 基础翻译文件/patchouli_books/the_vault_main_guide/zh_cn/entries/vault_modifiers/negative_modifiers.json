@@ -1,0 +1,40 @@
+{
+  "sortnum": 2,
+  "name": "负面宝库词缀",
+  "icon": "the_vault:trinket{vaultGearData:[L;4980174741243706682L,920500155886778059L,1514722424829573162L,5928572538477319491L,2676634361676693832L,23103583915527717L,1409363459118813270L,1391649128524L],vaultUses:24}",
+  "category": "patchouli:modifiers_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "负面词缀会对以玩家$(l)不利$()的方式影响宝库。$(br2)玩家$(l)不能$()控制宝库中哪些负面词缀会生效。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "负面宝库词缀",
+      "text": "$(br)负面词缀可能在$(l)未修饰的$()宝库中$(l)随机$()刷出。$(br2)而且，它们在有着来生词缀的宝库中同样可以刷出。$(br2)部分词缀也可能作为对宝库水晶使用$(l:game_mechanics/crystal_modification#vault_catalysts)$(t:宝库催化剂)$(l)宝库催化剂$()的后果出现。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:zombie_head",
+      "title": "怪物词缀",
+      "text": "怪物词缀会影响宝库中的怪物。$(br2)其中有的可能会在你进入房间时召唤怪物，有的则可能$(l)提高$()怪物造成的$(l)伤害$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "怪物词缀",
+      "text": "$(li)$(l)狂暴$()$(li2)+1狂暴怪物群$(br)$(li)$(l)结实怪物$()$(li2)+10%怪物生命值$(br)$(li)$(l)暴怒$()$(li2)+10%怪物伤害$(br)$(li)$(l)迅猛怪物$()$(li2)+5%怪物速度"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:experience_bottle",
+      "title": "其他词缀",
+      "text": "$(li)$(l)缩短$()$(li2)-1分钟宝库探索时间$(br)$(li)$(l)脆弱$()$(li2)+20%耐久损耗$(br)$(li)$(l)进退为难$()$(li2)+5%陷阱箱概率"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "其他词缀",
+      "text": "$(li)$(l)枯竭$()$(li2)-10%魔力再生$(br)$(li)$(l)维拉拉的愤怒$()$(li2)-20%治疗效率$(br)$(li)$(l)宝库经验减少$()$(li2)-25%宝库经验$(li2)仅在空岛宝库中才会出现"
+    }
+  ]
+}

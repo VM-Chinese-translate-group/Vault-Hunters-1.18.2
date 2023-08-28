@@ -1,0 +1,250 @@
+{
+  "itemEffects": [
+    {
+      "itemId": "the_vault:jade_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:haste",
+          "amplifier": 3,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "itemId": "the_vault:cobalt_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:fire_resistance",
+          "amplifier": 1,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        },
+        {
+          "effectId": "botania:feather_feet",
+          "amplifier": 1,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "itemId": "the_vault:pixie_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:slow_falling",
+          "amplifier": 2,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        },
+        {
+          "effectId": "minecraft:jump_boost",
+          "amplifier": 2,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "itemId": "the_vault:candy_bar",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:speed",
+          "amplifier": 5,
+          "duration": 600,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "itemId": "the_vault:power_bar",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:strength",
+          "amplifier": 4,
+          "duration": 600,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "itemId": "the_vault:lucky_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:luck",
+          "amplifier": 1,
+          "duration": 600,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "powerup"
+    },
+    {
+      "itemId": "the_vault:treasure_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:luck",
+          "amplifier": 5,
+          "duration": 300,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "powerup"
+    },
+    {
+      "itemId": "the_vault:power_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:strength",
+          "amplifier": 2,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "powerup"
+    },
+    {
+      "itemId": "the_vault:ghost_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "the_vault:parry",
+          "amplifier": 15,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "powerup"
+    },
+    {
+      "itemId": "the_vault:golem_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "the_vault:resistance",
+          "amplifier": 10,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "powerup"
+    },
+    {
+      "itemId": "the_vault:sweet_apple",
+      "absorption": false,
+      "absorptionAmount": 0.0,
+      "effects": [
+        {
+          "effectId": "minecraft:speed",
+          "amplifier": 2,
+          "duration": 2400,
+          "ambient": false,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ],
+      "type": "powerup"
+    },
+    {
+      "itemId": "the_vault:hearty_apple",
+      "absorption": true,
+      "absorptionAmount": 2.0,
+      "effects": [],
+      "type": "powerup"
+    }
+  ],
+  "descriptions": {
+    "the_vault:candy_bar": [
+      "\u7ed9\u4e88\u4f60\u901f\u5ea65\uff0c\u6301\u7eed30\u79d2"
+    ],
+    "the_vault:lucky_apple": [
+      "\u5b9d\u5e93\u4e4b\u529b\uff01",
+      "\u7ed9\u4e88\u4f60+1\u8fd0\u6c14\uff0c\u6301\u7eed30\u79d2"
+    ],
+    "the_vault:cobalt_apple": [
+      "\u201c\u7ed9\u4e88\u4f60\u706b\u7130\u514d\u75ab\u5e76\u514d\u75ab\u4efb\u4f55\u6454\u843d\u4f24\u5bb3\uff0c\u6301\u7eed2\u5206\u949f"
+    ],
+    "the_vault:golem_apple": [
+      "\u5b9d\u5e93\u4e4b\u529b\uff01",
+      "\u7ed9\u4e88\u4f60+10%\u6297\u6027\uff0c\u6301\u7eed2\u5206\u949f"
+    ],
+    "the_vault:power_bar": [
+      "\u7ed9\u4e88\u4f60\u529b\u91cf4\uff0c\u6301\u7eed30\u79d2"
+    ],
+    "the_vault:sweet_apple": [
+      "\u5b9d\u5e93\u4e4b\u529b\uff01",
+      "\u7ed9\u4e88\u4f60+2\u901f\u5ea6\uff0c\u6301\u7eed2\u5206\u949f"
+    ],
+    "the_vault:power_apple": [
+      "\u5b9d\u5e93\u4e4b\u529b\uff01",
+      "\u7ed9\u4e88\u4f60+2\u529b\u91cf\uff0c\u6301\u7eed2\u5206\u949f"
+    ],
+    "the_vault:jade_apple": [
+      "\u7ed9\u4e88\u4f60\u6025\u8feb3\u7684\u6548\u679c\uff0c\u6301\u7eed2\u5206\u949f"
+    ],
+    "the_vault:treasure_apple": [
+      "\u5b9d\u5e93\u4e4b\u529b\uff01",
+      "\u7ed9\u4e88\u4f60+5\u5e78\u8fd0\uff0c\u6301\u7eed15\u79d2",
+      " ",
+      "\u201c\u5c31\u662f\u4f60\u628a\u9b3c\u5b50\u5f15\u5230\u8fd9\u513f\u6765\u7684\uff1f\u201d"
+
+    ],
+    "the_vault:pixie_apple": [
+      "\u7ed9\u4e88\u4f60\u901f\u5ea65\u3001\u8df3\u8dc3\u63d0\u53472\u548c\u7f13\u964d\uff0c\u6301\u7eed2\u5206\u949f"
+    ],
+    "the_vault:ghost_apple": [
+      "\u5b9d\u5e93\u4e4b\u529b\uff01",
+      "\u7ed9\u4e88\u4f60+15%\u683c\u6321\uff0c\u6301\u7eed2\u5206\u949f"
+    ],
+    "the_vault:hearty_apple": [
+      "\u7ed9\u4e88\u4f60+1\u9897\u4e34\u65f6\u5fc3"
+    ]
+  }
+}

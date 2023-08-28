@@ -1,0 +1,27 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "PYLON",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.00,
+          "success": {
+            "the_vault:pylon{Config:{type:effect,effect:regeneration,amplifier:3,duration:300,color:695fe80d,description:\"\u63d0\u4f9b+3\u7ea7\u518d\u751f\u6548\u679c \u6301\u7eed15\u79d2\"}}": 2,
+            "the_vault:pylon{Config:{type:effect,effect:speed,amplifier:1,duration:3600,color:69e115f3,description:\"\u63d0\u4f9b+1\u7ea7\u901f\u5ea6\u6548\u679c \u6301\u7eed3\u5206\u949f\"}}": 4,
+            "the_vault:pylon{Config:{type:effect,effect:strength,amplifier:1,duration:3600,color:69e21b1b,description:\"\u63d0\u4f9b+1\u7ea7\u529b\u91cf\u6548\u679c \u6301\u7eed3\u5206\u949f\"}}": 4,
+            "the_vault:pylon{Config:{type:mana,missingManaPercent:1.0,color:692060b7,description:\"\u6062\u590d\u6240\u6709\u9b54\u529b\u503c\"}}": 6,
+            "the_vault:pylon{Config:{type:time,ticks:1200,color:69FFFF00,description:\"\u589e\u52a01\u5206\u949f\u5b9d\u5e93\u63a2\u7d22\u65f6\u95f4\"}}": 1,
+            "the_vault:pylon{Config:{type:attribute,attribute:generic.max_health,amount:8.0,operation:ADDITION,duration:2400,color:6900FF00,description:\"\u83b7\u5f974\u9897\u989d\u5916\u7ea2\u5fc3 \u6301\u7eed2\u5206\u949f\"}}": 4,
+            "the_vault:pylon{Config:{type:stat,stat:ITEM_RARITY,addend:0.20,duration:1200,color:69ff9c00,description:\"+20%\u7269\u54c1\u7a00\u6709\u5ea6 \u6301\u7eed1\u5206\u949f\"}}": 1,
+            "the_vault:pylon{Config:{type:stat,stat:ITEM_QUANTITY,addend:0.20,duration:1200,color:69ff9c00,description:\"+20%\u7269\u54c1\u6570\u91cf \u6301\u7eed1\u5206\u949f\"}}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

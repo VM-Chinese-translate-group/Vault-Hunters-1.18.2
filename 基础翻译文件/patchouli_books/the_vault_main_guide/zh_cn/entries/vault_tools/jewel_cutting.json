@@ -1,0 +1,19 @@
+{
+  "sortnum": 5,
+  "name": "珠宝切割",
+  "icon": "the_vault:vault_jewel_cutting_station",
+  "category": "patchouli:vault_tools_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "珠宝可在$(l)珠宝切割站$()中进行切割。$(br2)通过$(l)消耗$()一定的$(l)银废料$()和$(l)宝库铜币$()，珠宝的$(l)大小$()可被$(l)减小$()，最低可以减小到10。$(br2)"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_jewel_cutting_station",
+      "title": "珠宝切割站",
+      "text": "在默认情况下，切割操作会有$(l)50%$()的概率$(l)失败$()，将会以$(l)移除$()一个$(l)词缀$()的方式降低珠宝的稀有度。$(br2)如果珠宝已经是$(l)破烂品质$()且切割失败，它将会$(l)碎裂$()成一些材料。"
+    }
+  ]
+}

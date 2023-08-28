@@ -1,0 +1,3139 @@
+{
+  "modifierGroup": {
+    "IMPLICIT": [
+      { "attribute": "the_vault:ability_power",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:base_ap",
+
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 24,
+            "weight": 100,
+            "value": {
+              "min": 5.0,
+              "max": 10.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 11,
+            "maxLevel": 37,
+            "weight": 100,
+            "value": {
+              "min": 11.0,
+              "max": 15.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 25,
+            "maxLevel": 49,
+            "weight": 100,
+            "value": {
+              "min": 16.0,
+              "max": 20.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 38,
+            "maxLevel": 60,
+            "weight": 100,
+            "value": {
+              "min": 21.0,
+              "max": 25.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 26.0,
+              "max": 30.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 61,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 31.0,
+              "max": 35.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 70,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 36.0,
+              "max": 40.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 83,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 41.0,
+              "max": 45.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 96,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 46.0,
+              "max": 50.0,
+              "step": 0.5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:durability",
+        "group": "BaseDurability",
+        "identifier": "the_vault:base_durability",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 800,
+              "max": 1600,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 21,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 1601,
+              "max": 2400,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 42,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 2401,
+              "max": 3200,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 63,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 3201,
+              "max": 4000,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 88,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 4001,
+              "max": 5000,
+              "step": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:soulbound",
+        "group": "BaseSoulbound",
+        "identifier": "the_vault:base_soulbound",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:soulbound",
+        "group": "BaseSoulbound",
+        "identifier": "the_vault:base_no_soulbound",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "flag": false
+            }
+          }
+        ]
+      }
+      
+    ],
+    "PREFIX": [
+      { "attribute": "the_vault:soul_chance",
+        "group": "ModSoulChance",
+        "identifier": "the_vault:mod_soul_chance",
+        "tags": [
+          "focusSoulChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.1,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 28,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 45,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.31,
+              "max": 0.4,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.41,
+              "max": 0.5,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.51,
+              "max": 0.7,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.71,
+              "max": 1.0,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:ability_power_percent",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_ability_increase",
+        "tags": [
+          "focusAbilityDamage"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 86,
+            "weight": 200,
+            "value": {
+              "min": 0.04,
+              "max": 0.07,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 42,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.08,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 68,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.12,
+              "max": 0.15,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 87,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.16,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.31,
+              "max": 0.5,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:durability",
+        "group": "ModDurability",
+        "identifier": "the_vault:mod_durability",
+        "tags": [
+          "focusDurability",
+          "noLegendary"
+        ],
+        "tiers": [
+          {
+            "minLevel": 11,
+            "maxLevel": 66,
+            "weight": 600,
+            "value": {
+              "min": 400,
+              "max": 800,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 28,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 801,
+              "max": 1600,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 46,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 1601,
+              "max": 2400,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 67,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 2401,
+              "max": 3200,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 89,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 3201,
+              "max": 4000,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 4001,
+              "max": 6000,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 6001,
+              "max": 8000,
+              "step": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_nova",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerNova"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Nova_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_frostnova",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerNova"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Nova_Slow",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_poisonnova",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerNova"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Nova_Dot",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_veinminer",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerVeinMiner"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Vein_Miner_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_veinminerdura",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerVeinMiner"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Vein_Miner_Durability",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_veinminervoid",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerVeinMiner"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Vein_Miner_Void",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_heal",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerHeal"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Heal_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_healgroup",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerHeal"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Heal_Group",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_healcleanse",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerHeal"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Heal_Cleanse",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_dash",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerDash"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Dash_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_dashbullet",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerDash"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Dash_Damage",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_dashwarp",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerDash"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Dash_Warp",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_ghostwalk",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerGhostWalk"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Ghost_Walk",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_ghostwalkspirit",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerGhostWalk"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Ghost_Walk_Spirit",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_megajump",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerMegaJump"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Mega_Jump_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_megajumpdig",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerMegaJump"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Mega_Jump_Break_Down",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_rampage",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerRampage"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Rampage_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_rampageleech",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerRampage"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Rampage_Leech",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_rampagechain",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerRampage"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Rampage_Chain",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_smite",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerSmite"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Smite_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_smitearchon",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerSmite"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Smite_Archon",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_empower",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerEmpower"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Empower_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_empowericearmor",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerEmpower"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Empower_Ice_Armor",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_hunter",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerHunter"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Hunter",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_manashield",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerManaShield"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Mana_Shield_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_manashieldretribution",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerManaShield"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Mana_Shield_Retribution",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_taunt",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerTaunt"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Taunt_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_tauntrepel",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerTaunt"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Taunt_Repel",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_tauntcharm",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerTaunt"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Taunt_Charm",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_stonefall",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerStonefall"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Stonefall_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_stonefallsnow",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerStonefall"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Stonefall_Snow",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_stonefallcold",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerStonefall"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Stonefall_Cold",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_totem",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerTotem"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Totem_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_totemwrath",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerTotem"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Totem_Player_Damage",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_totemmana",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerTotem"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Totem_Mana_Regen",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_totemhatred",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerTotem"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Totem_Mob_Damage",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_javelin",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerJavelin"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Javelin_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_javelinpiercing",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerJavelin"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Javelin_Piercing",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_javelinscatter",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerJavelin"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Javelin_Scatter",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_javelinsight",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerJavelin"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Javelin_Sight",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_shell",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerShell"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Shell_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_shellporcupine",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerShell"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Shell_Porcupine",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_shellquill",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerShell"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Shell_Quill",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_fireball",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerFireball"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Fireball_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { 
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_fireballvolley",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerFireball"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Fireball_Volley",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_fireballshot",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerFireball"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Fireball_Fireshot",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_battlecry",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerBattleCry"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Battle_Cry_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_battlecry_spectral",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerBattleCrySpectral"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Battle_Cry_Spectral_Strike",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_battlecry_lucky",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerBattleCryLucky"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Battle_Cry_Lucky_Strike",
+              "levelChange": 1
+            }
+          }
+        ]
+      }
+    ],
+    "SUFFIX": [
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:mod_healing_cloud",
+        "tags": [
+          "focusHealingCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "tooltipDisplayName": "\u751f\u547d\u6062\u590d",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 80,
+              "radius": 4.0,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "tooltipDisplayName": "\u751f\u547d\u6062\u590d II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "tooltipDisplayName": "\u751f\u547d\u6062\u590d III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 5.0,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "tooltipDisplayName": "\u751f\u547d\u6062\u590d IV",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 5.0,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "tooltipDisplayName": "\u751f\u547d\u6062\u590d V",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 240,
+              "radius": 5.0,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:mod_poison_cloud",
+        "tags": [
+          "focusPoisonCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u5267\u6bd2",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:poison",
+                  "duration": 60,
+                  "amplifier": 3,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 4236591,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u5267\u6bd2 II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:poison",
+                  "duration": 60,
+                  "amplifier": 5,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4.0,
+              "color": 4236591,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u5267\u6bd2 III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:poison",
+                  "duration": 60,
+                  "amplifier": 7,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4.0,
+              "color": 4236591,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u5267\u6bd2 IV",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:poison",
+                  "duration": 60,
+                  "amplifier": 9,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 240,
+              "radius": 4.0,
+              "color": 4236591,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u5267\u6bd2 V",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:poison",
+                  "duration": 60,
+                  "amplifier": 12,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 300,
+              "radius": 4.0,
+              "color": 4236591,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:mod_slowness_cloud",
+        "tags": [
+          "focusSlownessCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u7f13\u6162",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 7400423,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u7f13\u6162 II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4.0,
+              "color": 7400423,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u7f13\u6162 III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4.0,
+              "color": 7400423,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u7f13\u6162 IV",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 140,
+                  "amplifier": 1,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 240,
+              "radius": 4.0,
+              "color": 7400423,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u7f13\u6162 V",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 140,
+                  "amplifier": 1,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 300,
+              "radius": 4.0,
+              "color": 7400423,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:mod_fear_cloud",
+        "tags": [
+          "focusFearCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:taunt_repel_mob",
+                  "duration": 60,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 2818160,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7 II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:taunt_repel_mob",
+                  "duration": 60,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4.0,
+              "color": 2818160,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7 III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:taunt_repel_mob",
+                  "duration": 60,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4.0,
+              "color": 2818160,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7 IV",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:taunt_repel_mob",
+                  "duration": 120,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 260,
+              "radius": 4.0,
+              "color": 2818160,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7 V",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:taunt_repel_mob",
+                  "duration": 120,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 300,
+              "radius": 4.0,
+              "color": 2818160,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:mod_chilling_cloud",
+        "tags": [
+          "focusChillingCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u971c\u51bb",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u971c\u51bb II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4.0,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u971c\u51bb III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4.0,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u971c\u51bb IV",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 1,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 240,
+              "radius": 4.0,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u971c\u51bb V",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 1,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 300,
+              "radius": 4.0,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:area_of_effect",
+        "group": "ModEffectRadius",
+        "identifier": "the_vault:mod_area_of_effect",
+        "tags": [
+          "focusEffectRadius"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 62,
+            "weight": 100,
+            "value": {
+              "min": 0.03,
+              "max": 0.07,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 40,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.08,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 63,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.12,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 89,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.17,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.26,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.27,
+              "max": 0.32,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:cooldown_reduction",
+        "group": "ModCooldownReduction",
+        "identifier": "the_vault:mod_cooldown_reduction",
+        "tags": [
+          "focusCooldown"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.07,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 22,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.08,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 43,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.12,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 70,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.17,
+              "max": 0.21,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 85,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.22,
+              "max": 0.25,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 92,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.26,
+              "max": 0.28,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.29,
+              "max": 0.32,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.33,
+              "max": 0.36,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:healing_effectiveness",
+      "group": "ModHealth",
+      "identifier": "the_vault:mod_healing_efficiency",
+      "tags": [
+        "focusHealingEff"
+      ],
+      "tiers": [
+        {
+          "minLevel": 0,
+          "maxLevel": 65,
+          "weight": 10,
+          "value": {
+            "min": 0.05,
+            "max": 0.1,
+            "step": 0.01
+          }
+        },
+        {
+          "minLevel": 25,
+          "maxLevel": 81,
+          "weight": 10,
+          "value": {
+            "min": 0.11,
+            "max": 0.18,
+            "step": 0.01
+          }
+        },
+        {
+          "minLevel": 46,
+          "maxLevel": -1,
+          "weight": 10,
+          "value": {
+            "min": 0.19,
+            "max": 0.26,
+            "step": 0.01
+          }
+        },
+        {
+          "minLevel": 66,
+          "maxLevel": -1,
+          "weight": 10,
+          "value": {
+            "min": 0.27,
+            "max": 0.32,
+            "step": 0.01
+          }
+        },
+        {
+          "minLevel": 82,
+          "maxLevel": -1,
+          "weight": 10,
+          "value": {
+            "min": 0.33,
+            "max": 0.37,
+            "step": 0.01
+          }
+        },
+        {
+          "minLevel": 98,
+          "maxLevel": -1,
+          "weight": 10,
+          "value": {
+            "min": 0.38,
+            "max": 0.42,
+            "step": 0.01
+          }
+        },
+        {
+          "minLevel": 101,
+          "maxLevel": -1,
+          "weight": 10,
+          "value": {
+            "min": 0.43,
+            "max": 0.55,
+            "step": 0.01
+          }
+        },
+        {
+          "minLevel": 102,
+          "maxLevel": -1,
+          "weight": 10,
+          "value": {
+            "min": 0.56,
+            "max": 0.7,
+            "step": 0.01
+          }
+        }
+      ]
+      },
+
+      { "attribute": "the_vault:lucky_hit_chance",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:mod_lucky_hit_chance",
+        "tags": [
+          "focusLuckyHitChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.04,
+              "max": 0.06,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.07,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.14,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.17,
+              "max": 0.2,
+              "step": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "CRAFTED_PREFIX": [
+      { "attribute": "the_vault:durability",
+        "group": "ModDurability",
+        "identifier": "the_vault:crafted_durability",
+        "tags": [
+          "focusDurability",
+          "noLegendary"
+        ],
+        "tiers": [
+          {
+            "minLevel": 11,
+            "maxLevel": 66,
+            "weight": 600,
+            "value": {
+              "min": 400,
+              "max": 800,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 28,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 801,
+              "max": 1600,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 46,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 1601,
+              "max": 2400,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 67,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 2401,
+              "max": 3200,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 89,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 3201,
+              "max": 4000,
+              "step": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:soul_chance",
+        "group": "ModSoulChance",
+        "identifier": "the_vault:crafted_soul_chance",
+        "tags": [
+          "focusSoulChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.1,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 28,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 45,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.31,
+              "max": 0.4,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.41,
+              "max": 0.5,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:ability_power_percent",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:crafted_ability_increase",
+        "tags": [
+          "focusAbilityDamage"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 86,
+            "weight": 200,
+            "value": {
+              "min": 0.04,
+              "max": 0.07,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 42,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.08,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 68,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.12,
+              "max": 0.15,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 87,
+            "maxLevel": -1,
+            "weight": 200,
+            "value": {
+              "min": 0.16,
+              "max": 0.2,
+              "step": 0.01
+            }
+          }
+        ]
+      }
+    ],
+    "CRAFTED_SUFFIX": [
+      { "attribute": "the_vault:healing_effectiveness",
+        "group": "ModHealth",
+        "identifier": "the_vault:crafted_healing_efficiency",
+        "tags": [
+          "focusHealingEff"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 65,
+            "weight": 10,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 25,
+            "maxLevel": 81,
+            "weight": 10,
+            "value": {
+              "min": 0.11,
+              "max": 0.18,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 46,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.19,
+              "max": 0.26,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 66,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.27,
+              "max": 0.32,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 82,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.33,
+              "max": 0.37,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 98,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.38,
+              "max": 0.42,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.43,
+              "max": 0.55,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.56,
+              "max": 0.7,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:crafted_healing_cloud",
+        "tags": [
+          "focusHealingCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "tooltipDisplayName": "\u751f\u547d\u6062\u590d",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 80,
+              "radius": 4.0,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "tooltipDisplayName": "\u751f\u547d\u6062\u590d II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "tooltipDisplayName": "\u751f\u547d\u6062\u590d III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:instant_health",
+                  "duration": 20,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 5.0,
+              "color": 16150747,
+              "affectsOwner": true,
+              "triggerChance": 0.02
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:crafted_poison_cloud",
+        "tags": [
+          "focusPoisonCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u5267\u6bd2",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:poison",
+                  "duration": 60,
+                  "amplifier": 3,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 4236591,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u5267\u6bd2 II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:poison",
+                  "duration": 60,
+                  "amplifier": 5,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4.0,
+              "color": 4236591,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u5267\u6bd2 III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:poison",
+                  "duration": 60,
+                  "amplifier": 7,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4.0,
+              "color": 4236591,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:crafted_slowness_cloud",
+        "tags": [
+          "focusSlownessCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u7f13\u6162",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 7400423,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u7f13\u6162 II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4.0,
+              "color": 7400423,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u7f13\u6162 III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4.0,
+              "color": 7400423,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:crafted_fear_cloud",
+        "tags": [
+          "focusFearCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:taunt_repel_mob",
+                  "duration": 60,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 2818160,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7 II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:taunt_repel_mob",
+                  "duration": 60,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4.0,
+              "color": 2818160,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7 III",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:taunt_repel_mob",
+                  "duration": 60,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4.0,
+              "color": 2818160,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_cloud",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:crafted_chilling_cloud",
+        "tags": [
+          "focusChillingCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u971c\u51bb",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 120,
+              "radius": 4.0,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 32,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u971c\u51bb II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 160,
+              "radius": 4.0,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "tooltipDisplayName": "\u6050\u60e7 II",
+              "potion": "minecraft:empty",
+              "additionalEffects": [
+                {
+                  "effect": "the_vault:chilled",
+                  "duration": 140,
+                  "amplifier": 0,
+                  "showParticles": true,
+                  "showIcon": true
+                }
+              ],
+              "duration": 200,
+              "radius": 4.0,
+              "color": 3138042,
+              "affectsOwner": false,
+              "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+
+
+
+
+      { "attribute": "the_vault:area_of_effect",
+        "group": "ModEffectRadius",
+        "identifier": "the_vault:crafted_area_of_effect",
+        "tags": [
+          "focusEffectRadius"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 62,
+            "weight": 100,
+            "value": {
+              "min": 0.03,
+              "max": 0.07,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 40,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.08,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 63,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.12,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 89,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.17,
+              "max": 0.2,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+
+      { "attribute": "the_vault:cooldown_reduction",
+        "group": "ModCooldownReduction",
+        "identifier": "the_vault:crafted_cooldown_reduction",
+        "tags": [
+          "focusCooldown"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.07,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 22,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.08,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 43,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.12,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 70,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.17,
+              "max": 0.21,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 85,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.22,
+              "max": 0.25,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 92,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.26,
+              "max": 0.28,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.29,
+              "max": 0.32,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.33,
+              "max": 0.36,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+
+      { "attribute": "the_vault:lucky_hit_chance",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:crafted_lucky_hit_chance",
+        "tags": [
+          "focusLuckyHitChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.04,
+              "max": 0.06,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.07,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.09,
+              "max": 0.1,
+              "step": 0.01
+            }
+          }
+        ]
+      }
+
+
+    ],
+    "ABILITY_ENHANCEMENT": []
+  }
+}

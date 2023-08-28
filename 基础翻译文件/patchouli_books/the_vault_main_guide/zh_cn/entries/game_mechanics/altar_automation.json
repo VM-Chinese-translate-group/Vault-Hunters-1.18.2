@@ -1,0 +1,28 @@
+{
+  "name": "祭坛自动化",
+  "icon": "the_vault:altar_conduit",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "有一种自动完成$(l:getting_started/vault_crystal)$(t:Vault Altar)$(l)宝库祭坛$()制作的方式，但它由一项$(l:skills/researches)$(l)研究$()锁定。$(br2)在制作好一个$(l)祭坛导管$()之后，将它放在一个$(l)精致存储$()或$(l)应用能源$()的$(l)控制器$()上来与其连接。$(br2)每名玩家只有$(l)一个$()祭坛导管是可用的。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vaultintegrations:altar_conduit",
+      "title": "祭坛导管",
+      "text": "绑定后，将祭坛导管放置在宝库祭坛$(l)上方$()，就可以自动完成所需的材料。$(br2)添加到$(l)黑名单$()中的物品不会被传输。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "vaultintegrations:speed_enhancement",
+      "title": "强化",
+      "text": "可以向祭坛导管添加强化，以$(l)提高$()其$(l)效率$()。$(br)$(li)$(l)速度强化$()$(li2)增加速度$(br)$(li)$(l)堆叠强化$()$(li2)增加运输物品的数量$(br)$(li)$(l)传输强化$()$(li2)立即传送物品"
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

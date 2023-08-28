@@ -1,0 +1,349 @@
+{
+  "keys": [
+    {
+      "id": "the_vault:classic_vault_plastic",
+      "name": "\u5851\u6599",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_plastic.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ice",
+      "name": "\u51b0\u96ea",
+      "color": 5364991,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ice.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ice_cave",
+      "name": "\u51b0\u96ea\u6d1e\u7a74",
+      "color": 5364991,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ice_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave",
+      "name": "\u6d1e\u7a74",
+      "color": 9932424,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_lush_cave",
+      "name": "\u7e41\u8302\u6d1e\u7a74",
+      "color": 4427270,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_lush_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_living_cave",
+      "name": "\u8702\u871c\u6d1e\u7a74",
+      "color": 16111110,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_living_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_crimson",
+      "name": "\u7eef\u7ea2\u4e0b\u754c",
+      "color": 16719128,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_crimson.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_warped",
+      "name": "\u8be1\u5f02\u4e0b\u754c",
+      "color": 6602192,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_warped.json"
+    },
+    {
+      "id": "the_vault:classic_vault_desert",
+      "name": "\u6c99\u6f20",
+      "color": 15852472,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_desert.json"
+    },
+    {
+      "id": "the_vault:classic_vault_sandy_cave",
+      "name": "\u6c99\u5b50\u6d1e\u7a74",
+      "color": 15852472,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_sandy_cave.json"
+    },
+    {
+      "id": "the_vault:classic_vault_beach",
+      "name": "\u7eff\u6d32",
+      "color": 14873528,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_beach.json"
+    },
+    {
+      "id": "the_vault:classic_vault_mesa",
+      "name": "\u6076\u5730",
+      "color": 14840320,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_mesa.json"
+    },
+    {
+      "id": "the_vault:classic_vault_deep_mesa",
+      "name": "\u6df1\u5c42\u6076\u5730",
+      "color": 14840320,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_deep_mesa.json"
+    },
+    {
+      "id": "the_vault:classic_vault_void",
+      "name": "\u865a\u7a7a",
+      "color": 1313588,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_factory_void",
+      "name": "\u865a\u7a7a\u5de5\u5382",
+      "color": 8057652,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_factory_void.json"
+    },
+    {
+      "id": "the_vault:diy_vault_lush_cave",
+      "name": "\u81ea\u5b9a\u4e49\u7e41\u8302\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_lush_cave.json"
+    },
+    {
+      "id": "the_vault:diy_vault_cave",
+      "name": "\u81ea\u5b9a\u4e49\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_cave.json"
+    },
+    {
+      "id": "the_vault:diy_vault_desert",
+      "name": "\u81ea\u5b9a\u4e49\u6c99\u6f20",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_desert.json"
+    },
+    {
+      "id": "the_vault:diy_vault_ice",
+      "name": "\u81ea\u5b9a\u4e49\u51b0\u96ea",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_ice.json"
+    },
+    {
+      "id": "the_vault:diy_vault_mesa",
+      "name": "\u81ea\u5b9a\u4e49\u6076\u5730",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_mesa.json"
+    },
+    {
+      "id": "the_vault:diy_vault_nether_crimson",
+      "name": "\u81ea\u5b9a\u4e49\u7eef\u7ea2\u4e0b\u754c",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_nether_crimson.json"
+    },
+    {
+      "id": "the_vault:diy_vault_nether_warped",
+      "name": "\u81ea\u5b9a\u4e49\u8be1\u5f02\u4e0b\u754c",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_nether_warped.json"
+    },
+    {
+      "id": "the_vault:diy_vault_void",
+      "name": "\u81ea\u5b9a\u4e49\u865a\u7a7a",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_deepslate",
+      "name": "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+      "color": 594432,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_deepslate.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_geode",
+      "name": "\u6676\u7c07\u6d1e\u7a74",
+      "color": 6231630,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_geode.json"
+    },
+    {
+      "id": "the_vault:classic_vault_cave_wasteland",
+      "name": "\u8352\u5730\u6d1e\u7a74",
+      "color": 7488811,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_cave_wasteland.json"
+    },
+    {
+      "id": "the_vault:classic_vault_end_void",
+      "name": "\u865a\u7a7a\u672b\u5730",
+      "color": 5769258,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_end_void.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_blackstone",
+      "name": "\u6697\u9ed1\u4e0b\u754c",
+      "color": 8587306,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_blackstone.json"
+    },
+    {
+      "id": "the_vault:classic_vault_nether_soul",
+      "name": "\u7075\u9b42\u4e0b\u754c",
+      "color": 3417881,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_soul.json"
+    },
+    {
+      "id": "the_vault:classic_vault_sweet",
+      "name": "\u751c\u871c\u9886\u57df",
+      "color": 16273280,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_sweet.json"
+    },
+    {
+      "id": "the_vault:classic_vault_festive",
+      "name": "\u8282\u65e5",
+      "color": 16711808,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_festive.json"
+    },
+    {
+      "id": "the_vault:classic_vault_gingerbread",
+      "name": "\u59dc\u997c",
+      "color": 8800023,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_gingerbread.json"
+    },
+    {
+      "id": "the_vault:classic_vault_mushroom",
+      "name": "\u8611\u83c7",
+      "color": 10027008,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_mushroom.json"
+    },
+    {
+      "id": "the_vault:classic_vault_flooded",
+      "name": "\u88ab\u6df9\u6ca1",
+      "color": 7775663,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_flooded.json"
+    },
+    {
+      "id": "the_vault:classic_vault_fairy_ring",
+      "name": "\u7cbe\u7075\u6307\u73af",
+      "color": 12245105,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_fairy_ring.json"
+    },
+    {
+      "id": "the_vault:classic_vault_poison",
+      "name": "\u5267\u6bd2",
+      "color": 13217235,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_poison.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_lvl10",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u6d1e\u7a74 10\u7ea7",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl10.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_lvl20",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u6d1e\u7a74 20\u7ea7",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl20.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_lvl30",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u6d1e\u7a74 30\u7ea7",
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl30.json"
+    },
+    {
+      "id": "the_vault:diy_vault_blank",
+      "name": "\u5efa\u7b51\u5e08",
+      "1.0": "config/the_vault/gen/1.0/themes/diy_vault_blank.json"
+    },
+    {
+      "id": "the_vault:classic_vault_easter_egg",
+      "name": "\u590d\u6d3b\u8282\u5f69\u86cb",
+      "color": 16777100,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_easter_egg.json"
+    },
+    {
+      "id": "the_vault:classic_vault_easter_pastel",
+      "name": "\u590d\u6d3b\u8282\u7c89\u9970",
+      "color": 16766676,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_easter_pastel.json"
+    },
+    {
+      "id": "the_vault:classic_vault_white",
+      "name": "\u4f0a\u65af\u5361\u7684\u6700\u7231",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_white.json"
+    },
+    {
+      "id": "the_vault:classic_vault_shipwreck",
+      "name": "\u6c89\u8239",
+      "color": 13623024,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_shipwreck.json"
+    },
+    {
+      "id": "the_vault:classic_vault_haunted",
+      "name": "\u95f9\u9b3c",
+      "color": 5086371,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_haunted.json"
+    },
+    {
+      "id": "the_vault:classic_vault_sea_floor",
+      "name": "\u6d77\u5e95",
+      "color": 6353107,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_sea_floor.json"
+    },
+    {
+      "id": "the_vault:classic_vault_blood_moon",
+      "name": "\u8840\u6708",
+      "color": 10161689,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_blood_moon.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_granite",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u82b1\u5c97\u5ca9\u6d1e\u7a74",
+      "color": 12744790,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_granite.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_granite_lvl10",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u82b1\u5c97\u5ca9\u6d1e\u7a74 10\u7ea7",
+      "color": 12744790,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_granite_lvl10.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_granite_lvl20",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u82b1\u5c97\u5ca9\u6d1e\u7a74 20\u7ea7",
+      "color": 12744790,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_granite_lvl20.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_granite_lvl30",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u82b1\u5c97\u5ca9\u6d1e\u7a74 30\u7ea7",
+      "color": 12744790,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_granite_lvl30.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_diorite",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u95ea\u957f\u5ca9\u6d1e\u7a74",
+      "color": 15461355,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_diorite.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_diorite_lvl10",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u95ea\u957f\u5ca9\u6d1e\u7a74 10\u7ea7",
+      "color": 15461355,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_diorite_lvl10.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_diorite_lvl20",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u95ea\u957f\u5ca9\u6d1e\u7a74 20\u7ea7",
+      "color": 15461355,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_diorite_lvl20.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_diorite_lvl30",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u95ea\u957f\u5ca9\u6d1e\u7a74 30\u7ea7",
+      "color": 15461355,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_diorite_lvl30.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_andersite",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u5b89\u5c71\u5ca9\u6d1e\u7a74",
+      "color": 12434877,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_andersite_lvl10",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u5b89\u5c71\u5ca9\u6d1e\u7a74 10\u7ea7",
+      "color": 12434877,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite_lvl10.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_andersite_lvl20",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u5b89\u5c71\u5ca9\u6d1e\u7a74 20\u7ea7",
+      "color": 12434877,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite_lvl20.json"
+    },
+    {
+      "id": "the_vault:raw_vault_cave_andersite_lvl30",
+      "name": "\u539f\u59cb\u5b9d\u5e93\u5b89\u5c71\u5ca9\u6d1e\u7a74 30\u7ea7",
+      "color": 12434877,
+      "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite_lvl30.json"
+    }
+  ]
+}

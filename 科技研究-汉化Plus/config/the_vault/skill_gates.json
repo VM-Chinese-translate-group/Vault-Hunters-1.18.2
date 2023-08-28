@@ -1,0 +1,235 @@
+{
+  "SKILL_GATES": {
+    "entries": {
+      "Regeneration": {
+        "dependsOn": [],
+        "lockedBy": [{ "type": "constant", "id": "Vampirism" }]
+      },
+      "Vampirism": {
+        "dependsOn": [],
+        "lockedBy": [{ "type": "constant", "id": "Regeneration" }]
+      },
+      "Parry": { "dependsOn": [], "lockedBy": [] },
+      "Resistance": { "dependsOn": [], "lockedBy": [] },
+      "Carapace": {
+        "dependsOn": [{ "type": "constant", "id": "Resistance" }],
+        "lockedBy": []
+      },
+      "Ninja": {
+        "dependsOn": [{ "type": "constant", "id": "Parry" }],
+        "lockedBy": []
+      },
+      "Fire_Resistance": {
+        "dependsOn": [{ "type": "constant", "id": "Water_Breathing" }],
+        "lockedBy": []
+      },
+      "Treasure_Hunter": {
+        "dependsOn": [],
+        "lockedBy": [{ "type": "constant", "id": "Artisan" }]
+      },
+      "Artisan": { "dependsOn": [], "lockedBy": [] },
+      "Careless": { "lockedBy": [], "dependsOn": [] },
+      "Angel": { "lockedBy": [], "dependsOn": [] },
+      "Fatal_Strike_Chance": {
+        "lockedBy": [{ "type": "constant", "id": "Fatal_Strike_Damage" }],
+        "dependsOn": []
+      },
+      "Fatal_Strike_Damage": {
+        "lockedBy": [{ "type": "constant", "id": "Fatal_Strike_Chance" }],
+        "dependsOn": []
+      },
+      "Thorns_Damage": {
+        "lockedBy": [{ "type": "constant", "id": "Thorns_Chance" }],
+        "dependsOn": []
+      },
+      "Thorns_Chance": {
+        "lockedBy": [{ "type": "constant", "id": "Thorns_Damage" }],
+        "dependsOn": []
+      },
+      "Last_Stand": {
+        "lockedBy": [{ "type": "constant", "id": "Berserking" }],
+        "dependsOn": []
+      },
+      "Berserking": {
+        "lockedBy": [{ "type": "constant", "id": "Last_Stand" }],
+        "dependsOn": []
+      },
+      "Nucleus": {
+        "lockedBy": [{ "type": "constant", "id": "Daze" }],
+        "dependsOn": []
+      },
+      "Daze": {
+        "lockedBy": [{ "type": "constant", "id": "Nucleus" }],
+        "dependsOn": []
+      },
+      "Weakness_Affinity": {
+        "lockedBy": [
+          { "type": "constant", "id": "Slowness_Affinity" },
+          { "type": "constant", "id": "Wither_Affinity" }
+        ],
+        "dependsOn": []
+      },
+      "Slowness_Affinity": {
+        "lockedBy": [
+          { "type": "constant", "id": "Weakness_Affinity" },
+          { "type": "constant", "id": "Wither_Affinity" }
+        ],
+        "dependsOn": []
+      },
+      "Wither_Affinity": {
+        "lockedBy": [
+          { "type": "constant", "id": "Slowness_Affinity" },
+          { "type": "constant", "id": "Weakness_Affinity" }
+        ],
+        "dependsOn": []
+      },
+      "\u901a\u7528\u673a\u68b0\u53d1\u7535\u673a": {
+        "dependsOn": [{ "type": "constant", "id": "\u901a\u7528\u673a\u68b0" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u6570\u5b57\u578b\u91c7\u77ff\u673a": {
+        "dependsOn": [{ "type": "constant", "id": "\u901a\u7528\u673a\u68b0" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u901a\u7528\u673a\u68b0QIO": {
+        "dependsOn": [{ "type": "constant", "id": "\u901a\u7528\u673a\u68b0" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u70ed\u529b\u53d1\u7535\u673a": {
+        "dependsOn": [{ "type": "constant", "id": "\u70ed\u529b\u81a8\u80c0" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u6709\u673a\u704c\u6ce8\u5668": {
+        "dependsOn": [{ "type": "constant", "id": "\u70ed\u529b\u81a8\u80c0" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u6218\u5229\u54c1\u76ae\u5e26": {
+        "dependsOn": [{ "type": "constant", "id": "\u53cc\u91cd\u53e3\u888b" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u53cc\u91cd\u53e3\u888b": {
+        "dependsOn": [],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u5c0f\u80cc\u5305": {
+        "dependsOn": [{ "type": "constant", "id": "\u6218\u5229\u54c1\u76ae\u5e26" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u5927\u80cc\u5305": {
+        "dependsOn": [{ "type": "constant", "id": "\u5c0f\u80cc\u5305" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u690d\u7269\u9b54\u6cd5\u9b54\u529b\u8f6c\u6362\u5668": {
+        "dependsOn": [{ "type": "constant", "id": "\u690d\u7269\u9b54\u6cd5" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u9ad8\u7ea7\u5b9d\u5e93\u836f\u5242": {
+        "dependsOn": [{ "type": "constant", "id": "\u4e2d\u7ea7\u5b9d\u5e93\u836f\u5242" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u9876\u7ea7\u5b9d\u5e93\u836f\u5242": {
+        "dependsOn": [{ "type": "constant", "id": "\u9ad8\u7ea7\u5b9d\u5e93\u836f\u5242" }],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u81ea\u52a8\u5316\u5929\u624d": {
+        "dependsOn": [
+          { "type": "constant", "id": "\u5de8\u578b\u7bb1\u5b50" },
+          { "type": "constant", "id": "\u7b80\u6613\u5b58\u50a8\u7f51\u7edc" },
+          { "type": "constant", "id": "\u50a8\u7269\u62bd\u5c49" },
+          { "type": "constant", "id": "\u901a\u7528\u673a\u68b0QIO" },
+          { "type": "constant", "id": "\u7cbe\u81f4\u5b58\u50a8" },
+          { "type": "constant", "id": "\u5e94\u7528\u80fd\u6e90" },
+          { "type": "constant", "id": "\u53cc\u91cd\u53e3\u888b" },
+          { "type": "constant", "id": "\u6218\u5229\u54c1\u76ae\u5e26" },
+          { "type": "constant", "id": "\u5c0f\u80cc\u5305" },
+          { "type": "constant", "id": "\u5927\u80cc\u5305" },
+          { "type": "constant", "id": "\u5e9f\u54c1\u5904\u7406" },
+          { "type": "constant", "id": "\u94c1\u53d1\u7535\u673a" },
+          { "type": "constant", "id": "Powah" },
+          { "type": "constant", "id": "\u901a\u91cf\u7f51\u7edc" },
+          { "type": "constant", "id": "\u70ed\u529b\u53d1\u7535\u673a" },
+          { "type": "constant", "id": "\u901a\u7528\u673a\u68b0\u53d1\u7535\u673a" },
+          { "type": "constant", "id": "\u690d\u7269\u9b54\u6cd5\u9b54\u529b\u8f6c\u6362\u5668" },
+          { "type": "constant", "id": "Xnet" },
+          { "type": "constant", "id": "\u6a21\u5757\u5316\u8def\u7531\u5668" },
+          { "type": "constant", "id": "Pipez" },
+          { "type": "constant", "id": "\u66f4\u591a\u7194\u7089" },
+          { "type": "constant", "id": "Dark Utilities" },
+          { "type": "constant", "id": "\u690d\u7269\u9b54\u6cd5" },
+          { "type": "constant", "id": "\u901a\u7528\u673a\u68b0" },
+          { "type": "constant", "id": "\u70ed\u529b\u81a8\u80c0" },
+          { "type": "constant", "id": "\u673a\u68b0\u52a8\u529b" },
+          { "type": "constant", "id": "\u6307\u8def\u77f3" },
+          { "type": "constant", "id": "\u706b\u628a\u5927\u5e08" },
+          { "type": "constant", "id": "\u5783\u573e\u6876" },
+          { "type": "constant", "id": "\u7535\u68af" },
+          { "type": "constant", "id": "\u5b9d\u85cf\u7f57\u76d8" },
+          { "type": "constant", "id": "\u796d\u575b\u81ea\u52a8\u5316" },
+          { "type": "constant", "id": "\u5efa\u7b51\u5c0f\u5e2e\u624b" },
+          { "type": "constant", "id": "\u53e4\u602a\u88c5\u7f6e" },
+          { "type": "constant", "id": "\u91c7\u77ff\u5c0f\u5de5\u5177" },
+          { "type": "constant", "id": "\u6570\u5b57\u578b\u91c7\u77ff\u673a" },
+          { "type": "constant", "id": "\u7b80\u6613\u6751\u6c11" },
+          { "type": "constant", "id": "\u7b80\u6613\u732a\u7075" },
+          { "type": "constant", "id": "\u690d\u7269\u76c6\u683d" },
+          { "type": "constant", "id": "\u5b50\u6c99" },
+          { "type": "constant", "id": "Cagerium" },
+          { "type": "constant", "id": "\u5237\u602a\u7b3c" },
+          { "type": "constant", "id": "\u6709\u673a\u704c\u6ce8\u5668" },
+          { "type": "constant", "id": "\u4e2d\u7ea7\u5b9d\u5e93\u836f\u5242" },
+          { "type": "constant", "id": "\u9ad8\u7ea7\u5b9d\u5e93\u836f\u5242" },
+          { "type": "constant", "id": "\u9876\u7ea7\u5b9d\u5e93\u836f\u5242" }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "\u796d\u575b\u81ea\u52a8\u5316": {
+        "dependsOn": [
+          { "type": "either", "gates": [
+              { "type": "constant", "id": "\u7cbe\u81f4\u5b58\u50a8" },
+              { "type": "constant", "id": "\u5e94\u7528\u80fd\u6e90" }
+            ]
+          }
+        ],
+        "ignoreArrow": true,
+        "lockedBy": []
+      },
+      "Methodical": {
+        "lockedBy": [{ "type": "constant", "id": "Depleted" }],
+        "dependsOn": []
+      },
+      "Depleted": {
+        "lockedBy": [{ "type": "constant", "id": "Methodical" }],
+        "dependsOn": []
+      },
+      "Blizzard": {
+        "lockedBy": [{ "type": "constant", "id": "Frostbite" }],
+        "dependsOn": []
+      },
+      "Frostbite": {
+        "lockedBy": [{ "type": "constant", "id": "Blizzard" }],
+        "dependsOn": []
+      },
+      "Blight": {
+        "lockedBy": [{ "type": "constant", "id": "Toxic_Reaction" }],
+        "dependsOn": []
+      },
+      "Toxic_Reaction": {
+        "lockedBy": [{ "type": "constant", "id": "Blight" }],
+        "dependsOn": []
+      }
+    }
+  }
+}

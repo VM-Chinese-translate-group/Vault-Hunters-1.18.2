@@ -1,0 +1,205 @@
+{
+  "EFFECT_AURAS": [
+    {
+      "effect": {
+        "type": "effect",
+        "effect": "minecraft:regeneration",
+        "amplifier": 0
+      },
+      "name": "Regeneration",
+      "displayName": "\u751f\u547d\u6062\u590d",
+      "description": "\u83b7\u5f97\u751f\u547d\u6062\u590d+1\u7684\u5149\u73af",
+      "iconPath": "the_vault:textures/entity/aura/aura_regeneration.png",
+      "radius": 12.0
+    },
+    {
+      "effect": {
+        "type": "effect",
+        "effect": "minecraft:haste",
+        "amplifier": 0
+      },
+      "name": "Haste1",
+      "displayName": "\u6025\u8feb1",
+      "description": "\u83b7\u5f97\u6025\u8feb+1\u7684\u5149\u73af",
+      "iconPath": "the_vault:textures/entity/aura/aura_haste.png",
+      "radius": 12.0
+    },
+    {
+      "effect": {
+        "type": "effect",
+        "effect": "minecraft:haste",
+        "amplifier": 1
+      },
+      "name": "Haste2",
+      "displayName": "\u6025\u8feb2",
+      "description": "\u83b7\u5f97\u6025\u8feb+2\u7684\u5149\u73af",
+      "iconPath": "the_vault:textures/entity/aura/aura_haste_2.png",
+      "radius": 12.0
+    },
+    {
+      "effect": {
+        "type": "effect",
+        "effect": "minecraft:speed",
+        "amplifier": 0
+      },
+      "name": "Speed1",
+      "displayName": "\u901f\u5ea61",
+      "description": "\u83b7\u5f97\u901f\u5ea6+1\u7684\u5149\u73af",
+      "iconPath": "the_vault:textures/entity/aura/aura_speed.png",
+      "radius": 12.0
+    },
+    {
+      "effect": {
+        "type": "effect",
+        "effect": "minecraft:speed",
+        "amplifier": 1
+      },
+      "name": "Speed2",
+      "displayName": "\u901f\u5ea62",
+      "description": "\u83b7\u5f97\u901f\u5ea6+2\u7684\u5149\u73af",
+      "iconPath": "the_vault:textures/entity/aura/aura_speed_2.png",
+      "radius": 12.0
+    },
+    {
+      "effect": {
+        "type": "effect",
+        "effect": "minecraft:strength",
+        "amplifier": 0
+      },
+      "name": "Strength1",
+      "displayName": "\u529b\u91cf1",
+      "description": "\u83b7\u5f97\u529b\u91cf+1\u7684\u5149\u73af",
+      "iconPath": "the_vault:textures/entity/aura/aura_strength.png",
+      "radius": 12.0
+    },
+    {
+      "effect": {
+        "type": "effect",
+        "effect": "minecraft:strength",
+        "amplifier": 1
+      },
+      "name": "Strength2",
+      "displayName": "\u529b\u91cf2",
+      "description": "\u83b7\u5f97\u529b\u91cf+2\u7684\u5149\u73af",
+      "iconPath": "the_vault:textures/entity/aura/aura_strength_2.png",
+      "radius": 12.0
+    },
+    {
+      "effect": {
+        "type": "effect",
+        "effect": "minecraft:saturation",
+        "amplifier": 1
+      },
+      "name": "Saturation",
+      "displayName": "\u9971\u548c",
+      "description": "\u83b7\u5f97\u9971\u548c\u7684\u5149\u73af",
+      "iconPath": "the_vault:textures/entity/aura/aura_saturation.png",
+      "radius": 12.0
+    }
+  ],
+  "PARRY_AURAS": [
+  ],
+  "RESISTANCE_AURAS": [
+    {
+      "additionalResistance": 0.1,
+      "name": "Resistance",
+      "displayName": "\u6297\u6027\u63d0\u5347",
+      "description": "\u5149\u73af\u4e2d\u7684\u73a9\u5bb6\u83b7\u5f97+10%\u6297\u6027\u63d0\u5347",
+      "iconPath": "the_vault:textures/entity/aura/aura_resistance_10.png",
+      "radius": 10.0
+    }
+  ],
+  "TAUNT_AURAS": [
+    {
+      "tauntInterval": 100,
+      "name": "Taunt",
+      "displayName": "\u5632\u8bbd",
+      "description": "\u5468\u671f\u6027\u5632\u8bbd\u9644\u8fd1\u7684\u654c\u4eba",
+      "iconPath": "the_vault:textures/entity/aura/aura_taunt.png",
+      "radius": 16.0
+    }
+  ],
+  "MOB_EFFECT_AURAS": [
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0,
+      "name": "Mob_Slowness",
+      "displayName": "\u8fdf\u7f13",
+      "description": "\u5bf9\u8303\u56f4\u5185\u7684\u654c\u4eba\u65bd\u52a0\u7f13\u61623\u6548\u679c",
+      "iconPath": "the_vault:textures/entity/aura/aura_slowness_3.png",
+      "radius": 16.0
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 1,
+      "name": "Mob_Weakness",
+      "displayName": "\u865a\u5f31",
+      "description": "\u5bf9\u8303\u56f4\u5185\u7684\u654c\u4eba\u65bd\u52a0\u865a\u5f311\u6548\u679c",
+      "iconPath": "the_vault:textures/entity/aura/aura_weakness.png",
+      "radius": 16.0
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 2,
+      "name": "Mob_Weakness2",
+      "displayName": "\u865a\u5f31",
+      "description": "\u5bf9\u8303\u56f4\u5185\u7684\u654c\u4eba\u65bd\u52a0\u865a\u5f312\u6548\u679c",
+      "iconPath": "the_vault:textures/entity/aura/aura_weakness_2.png",
+      "radius": 16.0
+    }
+  ],
+  "availableAuras": [
+    {
+      "value": "Regeneration",
+      "weight": 2
+    },
+    {
+      "value": "Haste1",
+      "weight": 12
+    },
+    {
+      "value": "Haste2",
+      "weight": 8
+    },
+    {
+      "value": "Speed1",
+      "weight": 16
+    },
+    {
+      "value": "Speed2",
+      "weight": 8
+    },
+    {
+      "value": "Strength1",
+      "weight": 12
+    },
+    {
+      "value": "Strength2",
+      "weight": 6
+    },
+    {
+      "value": "Saturation",
+      "weight": 4
+    },
+    {
+      "value": "Resistance",
+      "weight": 12
+    },
+    {
+      "value": "Taunt",
+      "weight": 8
+    },
+    {
+      "value": "Mob_Slowness",
+      "weight": 12
+    },
+    {
+      "value": "Mob_Weakness",
+      "weight": 16
+    },
+    {
+      "value": "Mob_Weakness2",
+      "weight": 12
+    }
+  ]
+}
