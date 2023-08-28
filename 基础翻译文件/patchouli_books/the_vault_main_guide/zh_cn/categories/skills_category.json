@@ -1,6 +1,0 @@
-{
-    "sortnum": 4,
-    "name": "能力",
-    "description": "能力是宝库猎人的$(l)重要$()组成部分。它们让玩家可以使用某些$(l)技能$()或与$(l)高级机械$()进行$(l)交互$()。",
-    "icon": "the_vault:scavenger_wizard_wand"
-}

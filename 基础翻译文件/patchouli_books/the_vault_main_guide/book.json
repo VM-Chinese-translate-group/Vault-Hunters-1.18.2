@@ -1,9 +1,0 @@
-{
-    "name": "宝藏猎人",
-    "landing_text": "官方的“宝藏猎人”百科全书",
-    "book_texture": "patchouli:textures/gui/book_gray.png",
-    "model": "patchouli:book_gray",
-    "show_progress": "false",
-    "show_toasts": "false",
-    "version": 3
-}
