@@ -27,14 +27,14 @@ AllowNoIcons=yes
 Uninstallable=no
 VersionInfoVersion={#MyAppVersion}                                                
 VersionInfoCopyright={#MyAppPublisher}
-VersionInfoDescription=±¦²ØÁÔÈË3rd_ºº»¯°²×°°ü
+VersionInfoDescription=å®è—çŒäºº3rd_æ±‰åŒ–å®‰è£…åŒ…
 LicenseFile=LICENSE.txt
 InfoBeforeFile=Inno setup before.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 OutputDir=Out_Put
-OutputBaseFilename=Minecraft_±¦²ØÁÔÈË3rd_{#ModPackVersion}°æ±¾ºº»¯°²×°°ü_V{#MyCnVersion}
+OutputBaseFilename=Minecraft_å®è—çŒäºº3rd_{#ModPackVersion}ç‰ˆæœ¬æ±‰åŒ–å®‰è£…åŒ…_V{#MyCnVersion}
 SetupIconFile=pack.ico
 Compression=lzma
 SolidCompression=yes
@@ -45,26 +45,26 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.isl"
 
 [Types]
-Name: xz; Description:"ºº»¯°²×°´îÅäI"; Flags: iscustom     
-Name: jc ;Description:"ºº»¯°²×°´îÅäII";  
-Name: fwq ;Description:"·şÎñÆ÷ÅäÖÃ";     
+Name: xz; Description:"æ±‰åŒ–å®‰è£…æ­é…I"; Flags: iscustom     
+Name: jc ;Description:"æ±‰åŒ–å®‰è£…æ­é…II";  
+Name: fwq ;Description:"æœåŠ¡å™¨é…ç½®";     
 
 [Components]
 Name: a; Description: "A.3.11.0-config" ; Types: jc xz fwq ; Flags: fixed 
-Name: b; Description: "B.²âÊÔÅäÖÃ£º¼«µÍ»­ÖÊ+×ÊÔ´°üÓ¦ÓÃ" 
-Name: c; Description: "C.Ó²±àÂëºº»¯I" ; Types: xz
-Name: d; Description: "D.Ó²±àÂëºº»¯II" ; Types: jc 
+Name: b; Description: "B.æµ‹è¯•é…ç½®ï¼šæä½ç”»è´¨+èµ„æºåŒ…åº”ç”¨" 
+Name: c; Description: "C.ç¡¬ç¼–ç æ±‰åŒ–I" ; Types: xz
+Name: d; Description: "D.ç¡¬ç¼–ç æ±‰åŒ–II" ; Types: jc 
 
 [Files]
 Source: "3.11.0-data\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: a;
-Source: "Êµ»úÅäÖÃ\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: b; 
-Source: "Ó²±àÂëºº»¯\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: c;
-Source: "Ó²±àÂëºº»¯2\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: d;
+Source: "å®æœºé…ç½®\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: b; 
+Source: "ç¡¬ç¼–ç æ±‰åŒ–\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: c;
+Source: "ç¡¬ç¼–ç æ±‰åŒ–2\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs ; Components: d;
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Run]
-; ´ò¿ªÄ¬ÈÏä¯ÀÀÆ÷²¢·ÃÎÊÖ¸¶¨ÍøÖ·
-Filename: "{cmd}"; Parameters: "/c start https://modrinth.com/mod/vmupdate/version/ctqXPRyR"; Flags: shellexec postinstall ; Description: "ÕûºÏ°üºº»¯¸üĞÂ¼ì²âÄ£×éÏÂÔØ"
-Filename: "{cmd}"; Parameters: "/c start https://modrinth.com/mod/vault-patcher/version/1.2.10"; Flags: shellexec postinstall ; Description: "C×é¼şµÄÄ£×éÏÂÔØ(¶şÑ¡Ò»)"
-Filename: "{cmd}"; Parameters: "/c start https://modrinth.com/mod/vault-patcher/version/1.2.13"; Flags: shellexec postinstall ; Description: "D×é¼şµÄÄ£×éÏÂÔØ(¶şÑ¡Ò»)"
-Filename: "{cmd}"; Parameters: "/c start https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/4437109"; Flags: shellexec postinstall; Description: "I18nÄ£×éºº»¯ÏÂÔØ"
+; æ‰“å¼€é»˜è®¤æµè§ˆå™¨å¹¶è®¿é—®æŒ‡å®šç½‘å€
+Filename: "{cmd}"; Parameters: "/c start https://modrinth.com/mod/vmupdate/version/nGQBRXDO"; Flags: shellexec postinstall ; Description: "ä¸‹è½½æ•´åˆåŒ…æ±‰åŒ–æ›´æ–°æ¨¡ç»„"
+Filename: "{cmd}"; Parameters: "/c start https://modrinth.com/mod/vault-patcher/version/1.2.10"; Flags: shellexec postinstall ; Description: "Cç»„ä»¶çš„æ¨¡ç»„ä¸‹è½½(äºŒé€‰ä¸€)"
+Filename: "{cmd}"; Parameters: "/c start https://modrinth.com/mod/vault-patcher/version/1.2.13"; Flags: shellexec postinstall ; Description: "Dç»„ä»¶çš„æ¨¡ç»„ä¸‹è½½(äºŒé€‰ä¸€)"
+Filename: "{cmd}"; Parameters: "/c start https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/4975638"; Flags: shellexec postinstall; Description: "I18næ¨¡ç»„æ±‰åŒ–ä¸‹è½½"
