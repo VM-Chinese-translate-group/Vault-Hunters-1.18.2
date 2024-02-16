@@ -1,0 +1,232 @@
+{
+  "CHARMS": {
+    "the_vault:small_idona": {
+      "weight": 100,
+      "god": "IDONA",
+      "name": "\u4f18\u5f02\u4f0a\u591a\u7eb3\u62a4\u7b26",
+      "particleLoc": "particle/charm/small_idona",
+      "color": 16733525,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 5,
+      "maxAffinity": 15,
+      "config": {
+        "key": "the_vault:idona_affinity"
+      }
+    },
+    "the_vault:large_idona": {
+      "weight": 100,
+      "god": "IDONA",
+      "name": "\u8d85\u7fa4\u4f0a\u591a\u7eb3\u62a4\u7b26",
+      "particleLoc": "particle/charm/large_idona",
+      "color": 16733525,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 16,
+      "maxAffinity": 25,
+      "config": {
+        "key": "the_vault:idona_affinity"
+      }
+    },
+    "the_vault:grand_idona": {
+      "weight": 100,
+      "god": "IDONA",
+      "name": "\u5962\u534e\u4f0a\u591a\u7eb3\u62a4\u7b26",
+      "particleLoc": "particle/charm/grand_idona",
+      "color": 16733525,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 26,
+      "maxAffinity": 35,
+      "config": {
+        "key": "the_vault:idona_affinity"
+      }
+    },
+    "the_vault:majestic_idona": {
+      "weight": 100,
+      "god": "IDONA",
+      "name": "\u7765\u7768\u4f0a\u591a\u7eb3\u62a4\u7b26",
+      "particleLoc": "particle/charm/majestic_idona",
+      "color": 16733525,
+      "majesticColor": 7340288,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 36,
+      "maxAffinity": 50,
+      "config": {
+        "key": "the_vault:idona_affinity"
+      }
+    },
+    "the_vault:small_tenos": {
+      "weight": 100,
+      "god": "TENOS",
+      "name": "\u4f18\u5f02\u7279\u8bfa\u65af\u62a4\u7b26",
+      "particleLoc": "particle/charm/small_tenos",
+      "color": 5636095,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 5,
+      "maxAffinity": 15,
+      "config": {
+        "key": "the_vault:tenos_affinity"
+      }
+    },
+    "the_vault:large_tenos": {
+      "weight": 100,
+      "god": "TENOS",
+      "name": "\u8d85\u7fa4\u7279\u8bfa\u65af\u62a4\u7b26",
+      "particleLoc": "particle/charm/large_tenos",
+      "color": 5636095,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 16,
+      "maxAffinity": 25,
+      "config": {
+        "key": "the_vault:tenos_affinity"
+      }
+    },
+    "the_vault:grand_tenos": {
+      "weight": 100,
+      "god": "TENOS",
+      "name": "\u5962\u534e\u7279\u8bfa\u65af\u62a4\u7b26",
+      "particleLoc": "particle/charm/grand_tenos",
+      "color": 5636095,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 26,
+      "maxAffinity": 35,
+      "config": {
+        "key": "the_vault:tenos_affinity"
+      }
+    },
+    "the_vault:majestic_tenos": {
+      "weight": 100,
+      "god": "TENOS",
+      "name": "\u7765\u7768\u7279\u8bfa\u65af\u62a4\u7b26",
+      "particleLoc": "particle/charm/majestic_tenos",
+      "color": 5636095,
+      "majesticColor": 11403263,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 36,
+      "maxAffinity": 50,
+      "config": {
+        "key": "the_vault:tenos_affinity"
+      }
+    },
+    "the_vault:small_velara": {
+      "weight": 100,
+      "god": "VELARA",
+      "name": "\u4f18\u5f02\u7ef4\u62c9\u62c9\u62a4\u7b26",
+      "particleLoc": "particle/charm/small_velara",
+      "color": 5635925,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 5,
+      "maxAffinity": 15,
+      "config": {
+        "key": "the_vault:velara_affinity"
+      }
+    },
+    "the_vault:large_velara": {
+      "weight": 100,
+      "god": "VELARA",
+      "name": "\u8d85\u7fa4\u7ef4\u62c9\u62c9\u62a4\u7b26",
+      "particleLoc": "particle/charm/large_velara",
+      "color": 5635925,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 16,
+      "maxAffinity": 25,
+      "config": {
+        "key": "the_vault:velara_affinity"
+      }
+    },
+    "the_vault:grand_velara": {
+      "weight": 100,
+      "god": "VELARA",
+      "name": "\u5962\u534e\u7ef4\u62c9\u62c9\u62a4\u7b26",
+      "particleLoc": "particle/charm/grand_velara",
+      "color": 5635925,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 26,
+      "maxAffinity": 35,
+      "config": {
+        "key": "the_vault:velara_affinity"
+      }
+    },
+    "the_vault:majestic_velara": {
+      "weight": 100,
+      "god": "VELARA",
+      "name": "\u7765\u7768\u7ef4\u62c9\u62c9\u62a4\u7b26",
+      "particleLoc": "particle/charm/majestic_velara",
+      "color": 5635925,
+      "majesticColor": 16735932,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 36,
+      "maxAffinity": 50,
+      "config": {
+        "key": "the_vault:velara_affinity"
+      }
+    },
+    "the_vault:small_wendarr": {
+      "weight": 100,
+      "god": "WENDARR",
+      "name": "\u4f18\u5f02\u6587\u8fbe\u5c14\u62a4\u7b26",
+      "particleLoc": "particle/charm/small_wendarr",
+      "color": 16755200,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 5,
+      "maxAffinity": 15,
+      "config": {
+        "key": "the_vault:wendarr_affinity"
+      }
+    },
+    "the_vault:large_wendarr": {
+      "weight": 100,
+      "god": "WENDARR",
+      "name": "\u8d85\u7fa4\u6587\u8fbe\u5c14\u62a4\u7b26",
+      "particleLoc": "particle/charm/large_wendarr",
+      "color": 16755200,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 16,
+      "maxAffinity": 25,
+      "config": {
+        "key": "the_vault:wendarr_affinity"
+      }
+    },
+    "the_vault:grand_wendarr": {
+      "weight": 100,
+      "god": "WENDARR",
+      "name": "\u5962\u534e\u6587\u8fbe\u5c14\u62a4\u7b26",
+      "particleLoc": "particle/charm/grand_wendarr",
+      "color": 16755200,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 26,
+      "maxAffinity": 35,
+      "config": {
+        "key": "the_vault:wendarr_affinity"
+      }
+    },
+    "the_vault:majestic_wendarr": {
+      "weight": 100,
+      "god": "WENDARR",
+      "name": "\u7765\u7768\u6587\u8fbe\u5c14\u62a4\u7b26",
+      "particleLoc": "particle/charm/majestic_wendarr",
+      "color": 16755200,
+      "majesticColor": 16766208,
+      "minUses": 6,
+      "maxUses": 20,
+      "minAffinity": 36,
+      "maxAffinity": 50,
+      "config": {
+        "key": "the_vault:wendarr_affinity"
+      }
+    }
+  }
+}

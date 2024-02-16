@@ -1,0 +1,13 @@
+{
+    "mods": [
+      "the_vault-asm",
+      "other_mods",
+      "the_vault-dynamic"
+    ],
+    "debug_mode": {
+        "is_enable": false,
+		"use_cache": true,
+        "output_format": "<source> -> <target> in <class> M-[<ordinal>]",
+        "output_mode": 0
+    }
+}

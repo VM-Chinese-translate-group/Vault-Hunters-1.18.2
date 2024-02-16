@@ -1,0 +1,539 @@
+{
+  "titles": {
+    "PREFIX": {
+      "clearprefix": {
+        "display": {
+          "TAB_LIST": {
+            "text": "",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": ""
+          }
+        },
+        "cost": 1
+      },
+      "grand": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u50b2\u6162\u7684",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "\u50b2\u6162\u7684",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "commander": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u6307\u6325\u5b98",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "\u6307\u6325\u5b98",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "mega": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u5de8\u5927\u7684",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "\u5de8\u5927\u7684",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "slayer": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u6740\u624b",
+            "color": "#f04848"
+          },
+          "CHAT": {
+            "text": "\u6740\u624b",
+            "color": "#f04848"
+          }
+        },
+        "cost": 1
+      },
+      "omega": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u7ec8\u7109\u7ea7",
+            "color": "#6AFF00"
+          },
+          "CHAT": {
+            "text": "\u7ec8\u7109\u7ea7",
+            "color": "#6AFF00"
+          }
+        },
+        "cost": 1
+      },
+      "epic": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u53f2\u8bd7\u7ea7",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u53f2\u8bd7\u7ea7",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "shady": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u9b3c\u9b3c\u795f\u795f\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u9b3c\u9b3c\u795f\u795f\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "scrappy": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u7834\u70c2\u7ea7",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u7834\u70c2\u7ea7",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "fantastic": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u4e86\u4e0d\u8d77\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u4e86\u4e0d\u8d77\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "stunning": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u60ca\u4eba\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u60ca\u4eba\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "gorgeous": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u7f8e\u4e3d\u52a8\u4eba\u7684",
+            "color": "#ff64e7"
+          },
+          "CHAT": {
+            "text": "\u7f8e\u4e3d\u52a8\u4eba\u7684",
+            "color": "#ff64e7"
+          }
+        },
+        "cost": 1
+      },
+      "humble": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u5351\u5fae\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u5351\u5fae\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "of_doom": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u672b\u65e5\u4e4b",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u672b\u65e5\u4e4b",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_great": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u4f1f\u5927\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u4f1f\u5927\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_geezer": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u53e4\u602a\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u53e4\u602a\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_plonker": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u7b28\u86cb",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u7b28\u86cb",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_eternal": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u6c38\u751f\u8005",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u6c38\u751f\u8005",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_magnificent": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u6770\u51fa\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u6770\u51fa\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_brave": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u52c7\u6562\u8005",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u52c7\u6562\u8005",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_wise": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u667a\u8005",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u667a\u8005",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_gray": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u9634\u6c89\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u9634\u6c89\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_terrible": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u53ef\u6015\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u53ef\u6015\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_noob": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u65b0\u624b",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u65b0\u624b",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_creator": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u521b\u9020\u73a9\u5bb6",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u521b\u9020\u73a9\u5bb6",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_redstoner": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u7ea2\u77f3\u73a9\u5bb6",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u7ea2\u77f3\u73a9\u5bb6",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_slab": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u5efa\u7b51\u73a9\u5bb6",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u5efa\u7b51\u73a9\u5bb6",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_explorer": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u63a2\u7d22\u8005",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u63a2\u7d22\u8005",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_hunter": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u730e\u4eba",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u730e\u4eba",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_treasure_hunter": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u8d85\u7ea7\u5b9d\u85cf\u730e\u4eba",
+            "color": "#ffc926"
+          },
+          "CHAT": {
+            "text": "\u8d85\u7ea7\u5b9d\u85cf\u730e\u4eba",
+            "color": "#ffc926"
+          }
+        },
+        "cost": 1
+      },
+      "of_destruction": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u6bc1\u706d\u4e4b",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u6bc1\u706d\u4e4b",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "of_chaos": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u6df7\u6c8c\u4e4b",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u6df7\u6c8c\u4e4b",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "of_the_stars": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u6765\u81ea\u661f\u661f\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u6765\u81ea\u661f\u661f\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "of_the_ancients": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u6765\u81ea\u8fdc\u53e4\u7684",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u6765\u81ea\u8fdc\u53e4\u7684",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      }
+    },
+    "SUFFIX": {
+      "clearsuffix": {
+        "display": {
+          "TAB_LIST": {
+            "text": "",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": ""
+          }
+        },
+        "cost": 1
+      },
+      "sir": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u5148\u751f",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "\u5148\u751f",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "lord": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u52cb\u7235",
+            "color": "#e4fcff"
+          },
+          "CHAT": {
+            "text": "\u52cb\u7235",
+            "color": "#e4fcff"
+          }
+        },
+        "cost": 1
+      },
+      "lady": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u5973\u58eb",
+            "color": "#e4fcff"
+          },
+          "CHAT": {
+            "text": "\u5973\u58eb",
+            "color": "#e4fcff"
+          }
+        },
+        "cost": 1
+      },
+      "captain": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u8239\u957f",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "\u8239\u957f",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "baron": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u7537\u7235",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "\u7537\u7235",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "master": {
+        "display": {
+          "TAB_LIST": {
+            "text": "\u5927\u5e08",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "\u5927\u5e08",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      }
+    }
+  }
+}

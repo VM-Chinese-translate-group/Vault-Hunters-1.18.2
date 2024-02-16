@@ -1,0 +1,66 @@
+{
+  "name": "战利品",
+  "icon": "the_vault:vault_diamond",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你可以从$(l)宝箱$()、$(l)钱币堆$()、$(l)矿石$()以及$(l)$(l:the_vault/treasure_rooms)宝藏房$()中收集到不同种类的战利品。$(br2)当你完成一个$(l)$(l:the_vault/objectives)目标$()后，会获得一个$(l)完成板条箱$()，其中有一些非常珍贵的资源。$(br2)当玩家的等级高出宝库世界的等级$(l)4级$()时，会受到一个影响战利品数量的$(l)惩罚$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "兴趣点",
+      "text": "$(br)宝库房间内散布着各种各样的兴趣点，每个都包含$(l)不同种类的$()战利品。$(br2)每个宝箱都有不同的$(l)等阶$()，代表着宝箱里物品的稀有度。宝箱的等阶可能为$(l)普通$()、$(l)稀有$()、$(l)史诗$()或$(l)终焉$()。$(br2)共有几种常见的$(l)宝箱种类$()，会在下文中详细介绍。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:vault_gold",
+      "title": "钱币堆",
+      "text": "钱币堆中包含许多$(l)宝库铜币$()和$(l)宝库银币$()，甚至还可能有$(l)宝库金币$()。$(br2)根据宝库世界等级的不同，钱币堆的大小可能$(l)不同$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ore_larimar{type:'vault_stone'}",
+      "title": "宝库矿石",
+      "text": "$(l)宝库矿石$()兴趣点可能包含各种宝库矿石。$(br2)从常见的$(l)海纹矿石$()到传说级的$(l)共鸣矿石$()都可能出现。$(br2)从宝库矿石中获得的$(l)宝库宝石$()可以用于各种$(l)合成$()配方。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:wooden_chest",
+      "title": "木制宝箱",
+      "text": "作为各个宝库中$(l)最常见的$()宝箱，木制宝箱含有非常多种$(l)经常会用到$()的物品。$(br2)其中也会有$(l)悬赏珍珠$()，可以用于刷新$(l:game_mechanics/bounty_system)悬赏$()。在更高等级后，其中还会有$(l)催化剂碎片$()和$(l)晶石$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:gilded_chest",
+      "title": "镀金宝箱",
+      "text": "镀金宝箱中存有的主要是$(l)贵重物品$()。$(br2)其中包括宝库钻石、宝库精华和珠宝，以及稀有的$(l)钥匙碎片$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:living_chest",
+      "title": "活化宝箱",
+      "text": "活化宝箱中存有的主要是$(l)游戏进程物品$()。$(br2)其中包含知识精华、汉堡原料和$(l:the_vault/vault_fruit)宝库水果$()，以及偶尔出现的$(l)神秘蛋$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ornate_chest",
+      "title": "华丽宝箱",
+      "text": "华丽宝箱中存有的主要是$(l)装备$()和$(l)制作用品$()。$(br2)其中包含各种锭、碳和透镜，甚至可能有$(l)未鉴定的宝库装备$()或者$(l)饰品$()。"
+    },
+    {
+      "anchor": "treasure_chests",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:treasure_chest",
+      "title": "至尊宝箱",
+      "text": "出现在$(l:the_vault/treasure_rooms)$(l)宝藏房$()之中的至尊宝箱会产出十分$(l)稀有$()的物品，有些物品在其他地方$(l)无法获得$()。$(br2)其中包含各种微核和宝库装备，并且可能有$(l)终焉宝库装备$()、$(l)饰品$()或者$(l)机会透镜$()。$(br2)这些物品$(l)不会$()受物品数量和物品稀有度影响。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:gilded_strongbox",
+      "title": "强化宝箱",
+      "text": "强化宝箱是镀金、活化和华丽宝箱的$(l)硬化$()版本。它们会在$(l)50级$()及以上时出现。$(br2)强化宝箱$(l)无法$()打开，因此必须$(l)破坏$()。不像常见的宝箱，强化宝箱$(l)不会被切片$()。$(br2)强化宝箱包含其常见宝箱种类$(l)2.5倍$()的战利品。"
+    }
+  ]
+}
