@@ -1,0 +1,370 @@
+{
+  "listings": [
+    {
+      "modelId": "the_vault:gear/armor/soulflame/helmet",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/soulflame/chestplate",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/soulflame/leggings",
+      "cost": 10
+    },
+    {
+      "modelId": "the_vault:gear/armor/soulflame/boots",
+      "cost": 5
+    },
+    {
+      "modelId": "the_vault:gear/armor/goldflame/helmet",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/goldflame/chestplate",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/goldflame/leggings",
+      "cost": 10
+    },
+    {
+      "modelId": "the_vault:gear/armor/goldflame/boots",
+      "cost": 5
+    },
+    {
+      "modelId": "the_vault:gear/armor/penguin/helmet",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/penguin/chestplate",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/penguin/leggings",
+      "cost": 10
+    },
+    {
+      "modelId": "the_vault:gear/armor/penguin/boots",
+      "cost": 5
+    },
+    {
+      "modelId": "the_vault:gear/armor/scarecrow/helmet",
+      "cost": 10
+    },
+    {
+      "modelId": "the_vault:gear/armor/scarecrow/chestplate",
+      "cost": 10
+    },
+    {
+      "modelId": "the_vault:gear/armor/scarecrow/leggings",
+      "cost": 4
+    },
+    {
+      "modelId": "the_vault:gear/armor/scarecrow/boots",
+      "cost": 4
+    },
+    {
+      "modelId": "the_vault:gear/sword/nightfall",
+      "cost": 4
+    },
+    {
+      "modelId": "the_vault:gear/sword/glorem_glipsum",
+      "cost": 4
+    },
+    {
+      "modelId": "the_vault:gear/axe/greathammer",
+      "cost": 4
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"omega\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u7ec8\u7109\u7ea7\",\"color\":\"#6AFF00\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"epic\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u53f2\u8bd7\u7ea7\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"shady\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u9b3c\u9b3c\u795f\u795f\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"scrappy\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u7834\u70c2\u7ea7\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"fantastic\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u4e86\u4e0d\u8d77\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"stunning\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u60ca\u4eba\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"gorgeous\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u7f8e\u4e3d\u52a8\u4eba\u7684\",\"color\":\"#ff64e7\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"sir\", display:{Name:'{\"text\":\"\u540e\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u5148\u751f\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"lord\", display:{Name:'{\"text\":\"\u540e\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u52cb\u7235\",\"color\":\"#e4fcff\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"lady\", display:{Name:'{\"text\":\"\u540e\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u5973\u58eb\",\"color\":\"#e4fcff\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"captain\", display:{Name:'{\"text\":\"\u540e\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u8239\u957f\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"baron\", display:{Name:'{\"text\":\"\u540e\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u7537\u7235\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"master\", display:{Name:'{\"text\":\"\u540e\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u5927\u5e08\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"grand\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u50b2\u6162\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"commander\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u6307\u6325\u5b98\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"mega\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u5de8\u5927\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"humble\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u5351\u5fae\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"slayer\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u6740\u624b\",\"color\":\"#f04848\"}]}'}}"
+      },
+      "cost": 2	
+    },                     
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"of_doom\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u672b\u65e5\u4e4b\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_great\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u4f1f\u5927\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_geezer\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u53e4\u602a\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_plonker\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u7b28\u86cb\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_eternal\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u6c38\u751f\u8005\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_magnificent\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u6770\u51fa\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_brave\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u52c7\u6562\u8005\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_wise\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u667a\u8005\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_gray\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u9634\u6c89\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_terrible\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u53ef\u6015\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_noob\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u65b0\u624b\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_creator\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u521b\u9020\u73a9\u5bb6\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_redstoner\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u7ea2\u77f3\u73a9\u5bb6\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_slab\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u5efa\u7b51\u73a9\u5bb6\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_explorer\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u63a2\u7d22\u8005\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_hunter\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u730e\u4eba\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_treasure_hunter\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u8d85\u7ea7\u5b9d\u85cf\u730e\u4eba\",\"color\":\"#ffc926\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"of_chaos\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u6df7\u6c8c\u4e4b\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"of_destruction\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u6bc1\u706d\u4e4b\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"of_the_stars\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u6765\u81ea\u661f\u661f\u7684\",\"color\":\"#AAAAAA\"}]}'}}"
+      },
+      "cost": 2	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"of_the_ancients\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u6765\u81ea\u8fdc\u53e4\u7684\", \"color\":\"#FF0000\"}]}'}}"
+      },
+      "cost": 2	
+    },
+
+
+
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"clearprefix\", display:{Name:'{\"text\":\"\u6e05\u9664\u524d\u7f00\"}'}}"
+      },
+      "cost": 0	
+    },
+    {
+      "stack": {
+        "item": "the_vault:title_scroll",
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"clearsuffix\", display:{Name:'{\"text\":\"\u6e05\u9664\u540e\u7f00\"}'}}"
+      },
+      "cost": 0	
+    }
+  ]
+}

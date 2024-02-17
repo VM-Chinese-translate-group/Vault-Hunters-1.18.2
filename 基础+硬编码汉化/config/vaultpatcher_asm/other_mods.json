@@ -1,0 +1,497 @@
+[
+    {
+        "name": "宝藏猎人硬编码汉化-其他模组部分",
+        "desc": "其他模组的部分硬编码汉化。版本V2.5.6",
+        "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
+        "mods": "others",
+        "dynamic": false
+    },
+    {
+        "target_class": {
+            "name": "net.creeperhost.ftbbackups.BackupHandler",
+            "method": ""
+        },
+        "key": "Backup finished in ",
+        "value": "服务器备份完成，耗时 "
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.block.item.CategorizedBlockItem",
+            "method": "m_7373_"
+        },
+        "pairs": [
+            {
+                "key": "Category: ",
+                "value": "类型："
+            },
+            {
+                "key": "Base Block of ",
+                "value": "基础方块类型："
+            },
+            {
+                "key": "Hint: ",
+                "value": "提示："
+            },
+            {
+                "key": "Can be transformed into other",
+                "value": "可以转化为其它方块，"
+            },
+            {
+                "key": "blocks using ",
+                "value": "使用"
+            },
+            {
+                "key": "Stonecutter",
+                "value": "切石机"
+            },
+            {
+                "key": ".",
+                "value": "进行转化。"
+            },
+            {
+                "key": "Base Block: ",
+                "value": "基础方块："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.AsphaltBlockCategory",
+            "method": ""
+        },
+        "key": "Asphalt",
+        "value": "沥青"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.CrystalBlockCategory",
+            "method": ""
+        },
+        "key": "Crystal",
+        "value": "水晶"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.GelatinBlockCategory",
+            "method": ""
+        },
+        "key": "Gelatin",
+        "value": "凝胶"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.IndustrialBlockCategory",
+            "method": ""
+        },
+        "key": "Industrial",
+        "value": "工业"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.LabBlockCategory",
+            "method": ""
+        },
+        "key": "Laboratory",
+        "value": "实验室"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.MetalsBlockCategory",
+            "method": ""
+        },
+        "key": "Metals",
+        "value": "金属"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.NaturalBlockCategory",
+            "method": ""
+        },
+        "key": "Natural",
+        "value": "自然"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.PastelBlockCategory",
+            "method": ""
+        },
+        "key": "Pastel",
+        "value": "蜡笔"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.PlasticBlockCategory",
+            "method": ""
+        },
+        "key": "Plastic",
+        "value": "塑料"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.category.block.SheetMetalBlockCategory",
+            "method": ""
+        },
+        "key": "Sheet Metal",
+        "value": "金属板"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.auxiliaryblocks.init.ModBlocks",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "Iskall's Favorite Block",
+                "value": "伊斯卡最喜欢的方块"
+            },
+            {
+                "key": "Blue",
+                "value": "蓝色"
+            },
+            {
+                "key": "Chrome",
+                "value": "铬银色"
+            },
+            {
+                "key": "Cyan",
+                "value": "青色"
+            },
+            {
+                "key": "Dark Gray",
+                "value": "深灰色"
+            },
+            {
+                "key": "Dark Metallic",
+                "value": "深金属色"
+            },
+            {
+                "key": "Gray",
+                "value": "灰色"
+            },
+            {
+                "key": "Green",
+                "value": "绿色"
+            },
+            {
+                "key": "Light Gray",
+                "value": "浅灰色"
+            },
+            {
+                "key": "Light Metallic",
+                "value": "浅金属色"
+            },
+            {
+                "key": "Metallic",
+                "value": "金属色"
+            },
+            {
+                "key": "Red",
+                "value": "红色"
+            },
+            {
+                "key": "Yellow",
+                "value": "黄色"
+            },
+            {
+                "key": "Black",
+                "value": "黑色"
+            },
+            {
+                "key": "Indigo",
+                "value": "靛蓝色"
+            },
+            {
+                "key": "Orange",
+                "value": "橙色"
+            },
+            {
+                "key": "Violet",
+                "value": "紫色"
+            },
+            {
+                "key": "White",
+                "value": "白色"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vaultintegrations.block.item.AltarConduitBlockItem",
+            "method": "onItemUseFirst"
+        },
+        "pairs": [
+            {
+                "key": "You do not have access to this controller.",
+                "value": "你没有访问此控制器的权限。"
+            },
+            {
+                "key": "The Altar Conduit has been bound to the Controller at: x%s, y%s, z%s",
+                "value": "已将祭坛导管绑定到位于x%s、y%s、z%s的控制器"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vaultintegrations.block.AltarConduitBlock",
+            "method": "m_6402_"
+        },
+        "key": "Unable to place the Altar Conduit. You already have one placed in the world at ",
+        "value": "无法放置祭坛导管。你已经在世界中放置了一个，位于"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vaultintegrations.client.gui.screen.AltarConduitScreen",
+            "method": ""
+        },
+        "key": "Blacklisted Items:",
+        "value": "黑名单物品："
+    },
+    {
+        "target_class": {
+            "name": "com.mrbysco.chunkymcchunkface.blocks.ChunkLoaderBlock",
+            "method": ""
+        },
+        "key": "Chunk Loader",
+        "value": "区块加载器"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.ispawner.item.nbt.SpawnData",
+            "method": "appendTooltip"
+        },
+        "key": "Spawner Charges: ",
+        "value": "刷怪笼物品："
+    },
+    {
+        "target_class": {
+            "name": "iskallia.ispawner.item.SpawnerControllerItem",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "Bound to spawner.",
+                "value": "已绑定到刷怪笼。"
+            },
+            {
+                "key": "Spawned mobs.",
+                "value": "已生成生物。"
+            },
+            {
+                "key": "Spawner Controller",
+                "value": "刷怪笼控制器"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.ispawner.screen.SurvivalSpawnerScreen",
+            "method": ""
+        },
+        "key": "Charges: ",
+        "value": "生成数："
+    },
+    {
+        "target_class": {
+            "name": "iskallia.ispawner.world.spawner.SpawnerController$Mode",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "Spawning Spaces",
+                "value": "刷怪空间"
+            },
+            {
+                "key": "Spawn Remote",
+                "value": "远程刷怪"
+            },
+            {
+                "key": "Relocator",
+                "value": "重定位"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.ispawner.world.spawner.SpawnerSettings$Mode",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "Redstone Pulse",
+                "value": "红石脉冲激活"
+            },
+            {
+                "key": "Redstone On",
+                "value": "红石控制激活"
+            },
+            {
+                "key": "Always On",
+                "value": "始终激活"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.items.ItemFurnace",
+            "method": "m_7373_"
+        },
+        "key": "Cooktime: ",
+        "value": "熔炼时间："
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.items.ItemMillionFurnace",
+            "method": "m_7373_"
+        },
+        "key": "Cooktime: ",
+        "value": "熔炼时间："
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.items.ItemFurnaceCopy",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "Settings applied",
+                "value": "熔炉设置已应用"
+            },
+            {
+                "key": "Right-click to copy settings",
+                "value": "右击以复制熔炉设置"
+            },
+            {
+                "key": "Sneak & right-click to apply settings",
+                "value": "潜行右击以应用熔炉设置"
+            },
+            {
+                "key": "Down: ",
+                "value": "下："
+            },
+            {
+                "key": "Up: ",
+                "value": "上："
+            },
+            {
+                "key": "North: ",
+                "value": "北："
+            },
+            {
+                "key": "South: ",
+                "value": "南："
+            },
+            {
+                "key": "West: ",
+                "value": "西："
+            },
+            {
+                "key": "East: ",
+                "value": "东："
+            },
+            {
+                "key": "Auto Input: ",
+                "value": "自动输入："
+            },
+            {
+                "key": "Auto Output: ",
+                "value": "自动输出："
+            },
+            {
+                "key": "Redstone Mode: ",
+                "value": "红石模式："
+            },
+            {
+                "key": "Redstone Value: ",
+                "value": "红石值："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.items.ItemLinker",
+            "method": ""
+        },
+        "pairs": [
+            {
+                "key": "Sneak & right-click on a furnace to save it",
+                "value": "潜行右击熔炉以将其保存"
+            },
+            {
+                "key": "Sneak & right-click on your Rainbow Furnace to add the saved furnace and/or show how many furnaces are still missing",
+                "value": "潜行右击彩虹熔炉以添加所保存的熔炉，并/或显示仍需要熔炉的数量"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "ironfurnaces.blocks.furnaces.BlockIronFurnaceBase",
+            "method": ""
+        },
+        "key": "Settings copied",
+        "value": "熔炉设置已复制"
+    },
+    {
+        "target_class": {
+            "name": "net.p3pp3rf1y.sophisticatedcore.client.gui.StorageScreenBase",
+            "method": "lambda$addSortButtons$5"
+        },
+        "key": "Sorted",
+        "value": "已整理"
+    },
+    {
+        "target_class": {
+            "name": "com.codetaylor.mc.enercell.command.ReloadConfigsCommand",
+            "method": ""
+        },
+        "key": "Configs reloaded!",
+        "value": "配置文件已重载！"
+    },
+    {
+        "target_class": {
+            "name": "com.codetaylor.mc.enercell.item.EnercellBlockItem",
+            "method": "m_7373_"
+        },
+        "key": "Energy: %s / %s",
+        "value": "能量：%s / %s"
+    },
+    {
+        "target_class": {
+            "name": "com.codetaylor.mc.enercell.client.gui.screen.EnercellScreen",
+            "method": "renderEnergyTooltip"
+        },
+        "pairs": [
+            {
+                "key": "Energy: %s / %s",
+                "value": "能量：%s / %s"
+            },
+            {
+                "key": "  Charge: %s/s",
+                "value": "  充能：%s/s"
+            },
+            {
+                "key": "  Input:  %s/s",
+                "value": "  输入：%s/s"
+            },
+            {
+                "key": "  Output: %s/s",
+                "value": "  输出：%s/s"
+            },
+            {
+                "key": "  Total:  %s/s",
+                "value": "  总计：%s/s"
+            },
+            {
+                "key": "  Total:  -%s/s",
+                "value": "  总计：-%s/s"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "net.mehvahdjukaar.cagerium.common.CageriumBlockTile",
+            "method": "onInteract"
+        },
+        "key": "Does not fit in here",
+        "value": "与此设备不适配"
+    }
+]

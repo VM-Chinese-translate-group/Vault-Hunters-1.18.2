@@ -1,0 +1,2357 @@
+{
+  "groupDescriptions": {
+    "the_vault:horde": {
+      "description": [
+        {
+          "text": "\u96c6\u7fa4\u602a\u7269",
+          "color": "$name"
+        },
+        {
+          "text": "\u901a\u5e38\u559c\u6b22\u5927\u91cf\u805a\u96c6\u5728\u4e00\u8d77\uff0c\u4ed6\u4eec\u7684\u603b\u4f53\u5c5e\u6027\u8f83\u4f4e\u3002",
+          "color": "$text"
+        }
+      ]
+    },
+    "the_vault:assassin": {
+      "description": [
+        {
+          "text": "\u523a\u5ba2\u602a\u7269",
+          "color": "$name"
+        },
+        {
+          "text": "\u4f24\u5bb3\u9ad8\u4f46\u5355\u6b21\u751f\u6210\u6570\u91cf\u8f83\u5c11\uff0c\u662f\u9700\u8981\u8ba4\u771f\u5bf9\u5f85\u7684\u5a01\u80c1\u3002\u4ed6\u4eec\u6bd4\u96c6\u7fa4\u602a\u7269\u4f24\u5bb3\u66f4\u9ad8\u3002",
+          "color": "$text"
+        }
+      ]
+    },
+    "the_vault:tank": {
+      "description": [
+        {
+          "text": "\u5766\u514b\u602a\u7269",
+          "color": "$name"
+        },
+        {
+          "text": "\u662f\u4e00\u79cd\u8003\u9a8c\u4f60\u5bf9\u5355\u4f24\u5bb3\u7684\u9ad8\u8840\u91cf\u5927\u5757\u5934\uff0c\u4ed6\u4eec\u5355\u6b21\u751f\u6210\u6570\u91cf\u975e\u5e38\u5c11\uff0c\u56e0\u6b64\u4f60\u80fd\u591f\u4e13\u5fc3\u5bf9\u6297\u4ed6\u4eec\u3002",
+          "color": "$text"
+        }
+      ]
+    },
+    "the_vault:dungeon": {
+      "description": [
+        {
+          "text": "\u5730\u7262\u602a\u7269",
+          "color": "$name"
+        },
+        {
+          "text": "\u6bd4\u5b83\u4eec\u7684\u5e38\u89c4\u53d8\u4f53\u5f3a\u5f97\u591a\uff0c\u5e76\u4e14\u5f3a\u5ea6\u968f\u7740\u5730\u7262\u96be\u5ea6\u800c\u53d8\u5316\u3002",
+          "color": "$text"
+        }
+      ]
+    },
+    "the_vault:fighter": {
+      "description": [
+        {
+          "text": "\u5b9d\u5e93\u5c45\u6c11",
+          "color": "$name"
+        },
+        {
+          "text": "\u662f\u5b9d\u5e93\u4e2d\u7684\u539f\u4f4f\u6c11\uff0c\u5c06\u4f1a\u7ed9\u56f0\u96be\u96be\u5ea6\u53ca\u4ee5\u4e0a\u7684\u73a9\u5bb6\u5e26\u6765\u73af\u5883\u5a01\u80c1\u3002",
+          "color": "$text"
+        }
+      ]
+    }
+  },
+  "entities": [
+    {
+      "entityId": "the_vault:miner_zombie_t0",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:miner_zombie_t1",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:miner_zombie_t2",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:miner_zombie_t3",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:miner_zombie_t4",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 80,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:miner_zombie_t5",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 90,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74",
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t1_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74",
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 30,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t2_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74",
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t3_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74",
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "rottencreatures:undead_miner",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "quark:wraith",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "alexsmobs:rocky_roller",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6d1e\u7a74",
+        "\u8352\u5730\u6d1e\u7a74",
+        "\u6df1\u677f\u5ca9\u6d1e\u7a74",
+        "\u6676\u7c07\u6d1e\u7a74"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:husk",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t1_husk",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t2_husk",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t3_husk",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:creeper",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t1_creeper",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t2_creeper",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t3_creeper",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "rottencreatures:mummy",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mummy_t0",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mummy_t1",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 80,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mummy_t2",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u6c99\u6f20",
+        "\u6c99\u8d28\u6d1e\u7a74",
+        "\u6076\u5730",
+        "\u6df1\u5c42\u6076\u5730"
+      ],
+      "minLevel": 90,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_green_gummy_soldier",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u751c\u871c\u9886\u57df",
+        "\u59dc\u997c",
+        "\u8282\u65e5",
+        "\u590d\u6d3b\u8282\u5f69\u86cb",
+        "\u590d\u6d3b\u8282\u86cb\u7cd5"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_blue_gummy_soldier",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u751c\u871c\u9886\u57df",
+        "\u59dc\u997c",
+        "\u8282\u65e5",
+        "\u590d\u6d3b\u8282\u5f69\u86cb",
+        "\u590d\u6d3b\u8282\u86cb\u7cd5"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_yellow_gummy_soldier",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u751c\u871c\u9886\u57df",
+        "\u59dc\u997c",
+        "\u8282\u65e5",
+        "\u590d\u6d3b\u8282\u5f69\u86cb",
+        "\u590d\u6d3b\u8282\u86cb\u7cd5"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_red_gummy_soldier",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u751c\u871c\u9886\u57df",
+        "\u59dc\u997c",
+        "\u8282\u65e5",
+        "\u590d\u6d3b\u8282\u5f69\u86cb",
+        "\u590d\u6d3b\u8282\u86cb\u7cd5"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "alexsmobs:bunfungus",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u590d\u6d3b\u8282\u5f69\u86cb",
+        "\u590d\u6d3b\u8282\u86cb\u7cd5",
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:rabbit",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u590d\u6d3b\u8282\u5f69\u86cb",
+        "\u590d\u6d3b\u8282\u86cb\u7cd5"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "auxiliaryblocks:gingerbread_man",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u59dc\u997c",
+        "\u8282\u65e5"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "auxiliaryblocks:gingerbread_man_small",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u59dc\u997c",
+        "\u8282\u65e5"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "auxiliaryblocks:snowdood",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u59dc\u997c",
+        "\u8282\u65e5"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_spider",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:overgrown_zombie_t0",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:overgrown_zombie_t1",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:overgrown_zombie_t2",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:overgrown_zombie_t3",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:overgrown_zombie_t4",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 80,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:overgrown_zombie_t5",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 90,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t3_zombie",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:slime",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2",
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "alexsmobs:alligator_snapping_turtle",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mushroom_t0",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mushroom_t1",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mushroom_t2",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mushroom_t3",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mushroom_t4",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 80,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:mushroom_t5",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 90,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "rottencreatures:swampy",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2",
+        "\u7e41\u8302\u6d1e\u7a74",
+        "\u8702\u871c\u6d1e\u7a74"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:deathcap",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:smolcap",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7cbe\u7075\u6307\u73af",
+        "\u8611\u83c7",
+        "\u5267\u6bd2"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:shulker",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u672b\u5730\u865a\u7a7a",
+        "\u5de5\u5382\u865a\u7a7a",
+        "\u865a\u7a7a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:deep_dark_silverfish",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u672b\u5730\u865a\u7a7a",
+        "\u5de5\u5382\u865a\u7a7a",
+        "\u865a\u7a7a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:enderman",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u672b\u5730\u865a\u7a7a",
+        "\u5de5\u5382\u865a\u7a7a",
+        "\u865a\u7a7a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:deep_dark_piglin",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u672b\u5730\u865a\u7a7a",
+        "\u5de5\u5382\u865a\u7a7a",
+        "\u865a\u7a7a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:deep_dark_zombie",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u672b\u5730\u865a\u7a7a",
+        "\u5de5\u5382\u865a\u7a7a",
+        "\u865a\u7a7a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:deep_dark_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u672b\u5730\u865a\u7a7a",
+        "\u5de5\u5382\u865a\u7a7a",
+        "\u865a\u7a7a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "alexsmobs:soul_vulture",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u672b\u5730\u865a\u7a7a",
+        "\u5de5\u5382\u865a\u7a7a",
+        "\u865a\u7a7a"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:deep_dark_horror",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u672b\u5730\u865a\u7a7a",
+        "\u5de5\u5382\u865a\u7a7a",
+        "\u865a\u7a7a"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:polar_bear",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:stray",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:shiver",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t1_stray",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t2_stray",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t3_stray",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:winter_wolf",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "alexsmobs:tusklin",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "rottencreatures:glacial_hunter",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:winterwalker_t0",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:winterwalker_t1",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:winterwalker_t2",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:winterwalker_t3",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:winterwalker_t4",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 80,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:winterwalker_t5",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u51b0\u96ea",
+        "\u51b0\u96ea\u6d1e\u7a74"
+      ],
+      "minLevel": 90,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:piglin",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t1_piglin",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 40,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t2_piglin",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t3_piglin",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_fighter",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_fighter_1",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_fighter_2",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_fighter_3",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 30,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:vault_fighter_4",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:magma_cube",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:piglin_brute",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "quark:foxhound",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:wither_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 30,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:blaze",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 40,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t1_wither_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t2_wither_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 70,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t3_wither_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 80,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "rottencreatures:burned",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eef\u7ea2\u4e0b\u754c",
+        "\u7075\u9b42\u4e0b\u754c",
+        "\u8be1\u5f02\u4e0b\u754c",
+        "\u6697\u9ed1\u4e0b\u754c"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "minecraft:drowned",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t1_drowned",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t2_drowned",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t3_drowned",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:skeleton_pirate_t0",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:skeleton_pirate_t1",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 20,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:skeleton_pirate_t2",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 50,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:skeleton_pirate_t3",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:skeleton_pirate_t4",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 80,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:skeleton_pirate_t5",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 90,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "ecologics:coconut_crab",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "alexsmobs:mantis_shrimp",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "rottencreatures:dead_beard",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u7eff\u6d32",
+        "\u7f20\u9b42",
+        "\u6df9\u6ca1",
+        "\u6c89\u8239",
+        "\u6d77\u5e8a"
+      ],
+      "minLevel": 65,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_black_widow_spider",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_spider",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_zombie",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_skeleton",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_piglin",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_piglin_brute",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_pillager",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_vindicator",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:dungeon_witch",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t1_zombie",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    },
+    {
+      "entityId": "the_vault:t2_zombie",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          }
+        ]
+      },
+      "themes": [
+        "\u4efb\u610f"
+      ],
+      "minLevel": 0,
+      "drops": [
+      ]
+    }
+  ],
+  "hiddenGroups": [
+    "the_vault:skeleton",
+    "the_vault:zombie",
+    "the_vault:creeper",
+    "the_vault:drowned",
+    "the_vault:enderman",
+    "the_vault:husk",
+    "the_vault:stray",
+    "the_vault:spider",
+    "the_vault:wither_skeleton",
+    "the_vault:mobs",
+    "the_vault:winterwalker",
+    "the_vault:overgrown_zombie",
+    "the_vault:mob_type/nether",
+    "the_vault:mushroom",
+    "the_vault:piglin"
+  ]
+}
