@@ -7,13 +7,13 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "当$(l)发现$()或$(l:vault_gear/crafting)$(l)制作$()一件宝库装备后，可以对其进行修饰。$(br2)装备修饰的范围可以从调整装备的$(t:属性、前缀和后缀)$(l)词缀$()到改变装备$(l:vault_gear/variants#affixes_and_repairs)$(t:修复槽)$(l)修复槽$()的数量。$(br2)这些装备词缀可以在$(l)宝藏锻造台$()和$(l)词缀工作台$()当中进行修改。"
+      "text": "当$(l)发现$()或$(l:vault_gear/crafting)$(l)制作$()一件宝库装备后，可以对其进行修饰。$(br2)装备修饰的范围可以从调整装备的$(t:属性、前缀和后缀)$(l)词缀$()到改变装备$(l:vault_gear/variants#affixes_and_repairs)$(t:修复槽)$(l)修复槽$()的数量。$(br2)这些装备词缀可以在$(l)宝库工作站$()和$(l)词缀工作台$()当中进行修改。"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "the_vault:vault_artisan_station",
-      "title": "宝藏锻造台",
-      "text": "在宝藏锻造台中可以使用$(l)透镜$()强化宝库装备，这需要消耗$(l)宝库铜币$()和$(l)宝库金属板$()。$(br2)透镜有对应的插槽。"
+      "title": "宝库工作站",
+      "text": "在宝库工作站中可以使用$(l)透镜$()强化宝库装备，这需要消耗$(l)宝库铜币$()和$(l)宝库金属板$()。$(br2)透镜有对应的插槽。"
     },
     {
       "type": "patchouli:crafting",

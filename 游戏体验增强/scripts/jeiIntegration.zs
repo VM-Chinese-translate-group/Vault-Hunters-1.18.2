@@ -7,7 +7,7 @@ import mods.jei.component.JeiDrawable;
 import crafttweaker.api.resource.ResourceLocation;
 import crafttweaker.api.item.IItemStack;
 
-var armourCat = JeiCategory.create<Custom>("artisan_station", new TextComponent("宝藏熔炉"), <item:the_vault:vault_forge>, [<item:the_vault:vault_forge>]) as Custom;
+var armourCat = JeiCategory.create<Custom>("artisan_station", new TextComponent("宝库锻炉"), <item:the_vault:vault_forge>, [<item:the_vault:vault_forge>]) as Custom;
 armourCat.background = JeiDrawable.blank(180, 30) as JeiDrawable;
 
 armourCat.addDrawable(4, 5, JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);

@@ -1,7 +1,7 @@
 [
     {
         "name": "宝藏猎人主要硬编码汉化-asm部分",
-        "desc": "主要asm硬编码汉化替换。版本V2.5.6",
+        "desc": "主要asm硬编码汉化替换。版本V2.5.7",
         "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
         "mods": "the_vault",
         "dynamic": false
@@ -463,10 +463,6 @@
             {
                 "key": "Painting Room",
                 "value": "彩绘房间"
-            },
-            {
-                "key": "Vendor Room",
-                "value": "集市房间"
             },
             {
                 "key": "Velara",
@@ -957,6 +953,10 @@
             {
                 "key": "Architect",
                 "value": "“建筑师”"
+            },
+            {
+                "key": "Herald",
+                "value": "“先驱者”"
             }
         ]
     },
@@ -2955,10 +2955,6 @@
             {
                 "key": "Vault Objectives",
                 "value": "宝库目标"
-            },
-            {
-                "key": "Elixir Vaults",
-                "value": "圣水宝库"
             },
             {
                 "key": "Sealing your crystals",
@@ -7495,83 +7491,6 @@
             {
                 "key": "Unique",
                 "value": "独一无二"
-            }
-        ]
-    },
-    {
-        "target_class": {
-            "name": "iskallia.vault.config.gear.VaultGearTypeConfig$RollType",
-            "method": "getName",
-            "local": "Gname"
-        },
-        "pairs": [
-            {
-                "key": "Scrappy",
-                "value": "破烂"
-            },
-            {
-                "key": "Common",
-                "value": "普通"
-            },
-            {
-                "key": "Rare",
-                "value": "稀有"
-            },
-            {
-                "key": "Epic",
-                "value": "史诗"
-            },
-            {
-                "key": "Scrappy+",
-                "value": "破烂+"
-            },
-            {
-                "key": "Common+",
-                "value": "普通+"
-            },
-            {
-                "key": "Rare+",
-                "value": "稀有+"
-            },
-            {
-                "key": "Epic+",
-                "value": "史诗+"
-            },
-            {
-                "key": "Omega",
-                "value": "终焉"
-            },
-            {
-                "key": "Beginner",
-                "value": "初学者"
-            },
-            {
-                "key": "Novice",
-                "value": "新手"
-            },
-            {
-                "key": "Maker",
-                "value": "手工匠"
-            },
-            {
-                "key": "Apprentice",
-                "value": "学徒"
-            },
-            {
-                "key": "Smith",
-                "value": "铁匠"
-            },
-            {
-                "key": "Artisan",
-                "value": "大师"
-            },
-            {
-                "key": "Master Artisan",
-                "value": "宗师"
-            },
-            {
-                "key": "Gladiator",
-                "value": "角斗士"
             }
         ]
     },

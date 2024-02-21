@@ -12,8 +12,8 @@
     {
       "type": "patchouli:crafting",
       "recipe": "the_vault:vault_forge",
-      "title": "宝藏熔炉",
-      "text": "所有$(l:vault_gear/variants)$(l)类型$()的装备都可以在宝藏熔炉中制作。$(br2)$(l)饰品$()只有在$(l)发现后$()才能制作。制作出的饰品总是只能使用20次。"
+      "title": "宝库锻炉",
+      "text": "所有$(l:vault_gear/variants)$(l)类型$()的装备都可以在宝库锻炉中制作。$(br2)$(l)饰品$()只有在$(l)发现后$()才能制作。制作出的饰品总是只能使用20次。"
     },
     {
       "type": "patchouli:text",

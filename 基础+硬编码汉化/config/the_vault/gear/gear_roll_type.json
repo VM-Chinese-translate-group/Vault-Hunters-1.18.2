@@ -1,0 +1,274 @@
+{
+  "defaultRoll": "\u7834\u70c2+",
+  "rolls": {
+    "\u7834\u70c2": {
+      "pool": [
+        {
+          "value": "SCRAPPY",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "\u666e\u901a": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "\u7a00\u6709": {
+      "pool": [
+        {
+          "value": "RARE",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "\u53f2\u8bd7": {
+      "pool": [
+        {
+          "value": "EPIC",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "\u7ec8\u7109": {
+      "pool": [
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 7012096
+    },
+    "\u7834\u70c2+": {
+      "pool": [
+        {
+          "value": "SCRAPPY",
+          "weight": 80
+        },
+        {
+          "value": "COMMON",
+          "weight": 10
+        },
+        {
+          "value": "RARE",
+          "weight": 6
+        },
+        {
+          "value": "EPIC",
+          "weight": 3
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "\u666e\u901a+": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 90
+        },
+        {
+          "value": "RARE",
+          "weight": 6
+        },
+        {
+          "value": "EPIC",
+          "weight": 3
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 5353215
+    },
+    "\u7a00\u6709+": {
+      "pool": [
+        {
+          "value": "RARE",
+          "weight": 96
+        },
+        {
+          "value": "EPIC",
+          "weight": 3
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16771072
+    },
+    "\u53f2\u8bd7+": {
+      "pool": [
+        {
+          "value": "EPIC",
+          "weight": 99
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16711935
+    },
+    "\u521d\u5b66\u8005": {
+      "pool": [
+        {
+          "value": "SCRAPPY",
+          "weight": 80
+        },
+        {
+          "value": "COMMON",
+          "weight": 10
+        },
+        {
+          "value": "RARE",
+          "weight": 6
+        }
+      ],
+      "color": 16773068
+    },
+    "\u65b0\u624b": {
+      "pool": [
+        {
+          "value": "SCRAPPY",
+          "weight": 40
+        },
+        {
+          "value": "COMMON",
+          "weight": 40
+        },
+        {
+          "value": "RARE",
+          "weight": 12
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        }
+      ],
+      "color": 16769960
+    },
+    "\u624b\u5de5\u5320": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 40
+        },
+        {
+          "value": "RARE",
+          "weight": 16
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        }
+      ],
+      "color": 16767367
+    },
+    "\u5b66\u5f92": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 32
+        },
+        {
+          "value": "RARE",
+          "weight": 16
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16762703
+    },
+    "\u94c1\u5320": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 24
+        },
+        {
+          "value": "RARE",
+          "weight": 16
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16760628
+    },
+    "\u5927\u5e08": {
+      "pool": [
+        {
+          "value": "RARE",
+          "weight": 20
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16758297
+    },
+    "\u5b97\u5e08": {
+      "pool": [
+        {
+          "value": "EPIC",
+          "weight": 8
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16754688
+    },
+    "\u89d2\u6597\u58eb": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 15
+        },
+        {
+          "value": "RARE",
+          "weight": 6
+        },
+        {
+          "value": "EPIC",
+          "weight": 3
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 5353215
+    }
+  }
+}

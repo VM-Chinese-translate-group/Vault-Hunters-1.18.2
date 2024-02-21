@@ -1,0 +1,77 @@
+{
+  "defaultCraftedPool": "\u7834\u70c2",
+  "legendaryModifierChance": 0.03,
+  "potentialUsedPerCraft": {
+    "min": 0,
+    "max": 8
+  },
+  "potentialIncreasePerLevel": 0.015,
+  "potentialRanges": {
+    "SCRAPPY": {
+      "min": 30,
+      "max": 50
+    },
+    "COMMON": {
+      "min": 50,
+      "max": 70
+    },
+    "RARE": {
+      "min": 70,
+      "max": 90
+    },
+    "EPIC": {
+      "min": 90,
+      "max": 115
+    },
+    "OMEGA": {
+      "min": 115,
+      "max": 140
+    }
+  },
+  "potentialModifiers": {
+    "\u521d\u5b66\u8005": 1.0,  
+    "\u65b0\u624b": 1.0,
+    "\u624b\u5de5\u5320": 1.0,
+    "\u5b66\u5f92": 1.0,
+    "\u94c1\u5320": 1.0,
+    "\u5927\u5e08": 1.0,
+    "\u5b97\u5e08": 1.0
+  },
+  "totalMaximumProficiency": 2147483647,
+  "totalCategoryProficiency": 5000,
+  "proficiencyPotentialMultiplier": 1.1,
+  "proficiencyPerCraft": {
+    "min": 5,
+    "max": 10
+  },
+  "proficiencyPools": [
+    {
+      "minProficiency": 0,
+      "pool": "\u521d\u5b66\u8005"
+    },
+    {
+      "minProficiency": 100,
+      "pool": "\u65b0\u624b"
+    },
+    {
+      "minProficiency": 400,
+      "pool": "\u624b\u5de5\u5320"
+    },
+    {
+      "minProficiency": 800,
+      "pool": "\u5b66\u5f92"
+    },
+    {
+      "minProficiency": 2000,
+      "pool": "\u94c1\u5320"
+    },
+    {
+      "minProficiency": 3600,
+      "pool": "\u5927\u5e08"
+    },
+    {
+      "minProficiency": 4800,
+      "pool": "\u5b97\u5e08"
+    }
+  ]
+}
