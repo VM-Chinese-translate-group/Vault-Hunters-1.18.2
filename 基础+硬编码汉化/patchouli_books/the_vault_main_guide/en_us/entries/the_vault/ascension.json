@@ -1,0 +1,32 @@
+{
+  "name": "Ascension",
+  "icon": "the_vault:soul_flame",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ascension Vault is a special type of vaults. Ascension Vault and its stacks are bound with player, and its $(l:the_vault/objectives)Vault Objective$() can only be randomly selected between Elixir and Scavenger. $(br2)Every times Ascension Vault is completed, player will get 1 $(l)Stack of Ascension$(), which can be checked on $(l)Soul Flames$() or Ascension Vault Crystal."
+    },
+    {
+      "anchor": "soul_flame",
+      "type": "patchouli:crafting",
+      "item": "the_vault:soul_flame",
+      "title": "Soul Flame",
+      "text": "将Soul Flame添加到$(l)65+级$()未修饰的Vault Crystal上，会为宝库添加$(l)Flame$()词缀，将宝库变为Ascension Vault。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:soul_plaque",
+      "title": "Soul Plaque",
+      "text": "The $(l)Stack of Ascension$()没有上限，每层会增加$(l)2%$()的完成Vault Objective的难度。如果玩家没有完成宝库或死亡，则Stack of Ascension会归零，并获得一个记录有玩家名和score的$(l)Soul Plaque$()。score越高，Soul Plaque的品质越高。$(br2)Soul Plaque可以放置在世界中，作为你$(l)荣誉的象征$()。"
+    },
+    {
+      "anchor": "ember",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ember",
+      "title": "Ember",
+      "text": "获得$(l)Soul Plaque$()的同时，如果你的score足够高，你还会获得一些$(l)Ember$()。$(br2)Ember可以在$(l)Ascension Forge$()中购买特殊transmogs与$(l)Title Scroll$()。$(br2)$(l)Title Scroll$()允许玩家在自己的玩家名标签上添加一个$(l)Title$()，前缀和后缀都有，而且真的很酷！你也可以随时清除Title。"
+    }
+  ]
+}

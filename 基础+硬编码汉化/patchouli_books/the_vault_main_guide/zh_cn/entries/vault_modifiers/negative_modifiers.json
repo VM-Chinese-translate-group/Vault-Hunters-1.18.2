@@ -12,29 +12,61 @@
     {
       "type": "patchouli:text",
       "title": "负面宝库词缀",
-      "text": "$(br)负面词缀可能在$(l)未修饰的$()宝库中$(l)随机$()刷出。$(br2)而且，它们在有着来生词缀的宝库中同样可以刷出。$(br2)部分词缀也可能作为对宝库水晶使用$(l:game_mechanics/crystal_modification#vault_catalysts)$(t:宝库催化剂)$(l)宝库催化剂$()的后果出现。"
+      "text": "$(br)负面词缀可能在$(l)未修饰的$()宝库中$(l)随机$()刷出。$(br2)它们在有来生词缀的宝库中同样可以刷出。$(br2)部分词缀也可能因为对宝库水晶使用$(l:game_mechanics/crystal_modification#vault_catalysts)$(t:宝库催化剂)$(l)宝库催化剂$()而出现。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:gilded_chest",
+      "title": "战利品词缀",
+      "text": "$(br)战利品词缀会影响在宝库中获得的战利品。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "战利品词缀",
+      "text": "$(li)$(l)贫瘠/荒芜$()$(li2)+10%/-25%/50%物品数量$(br)$(li)$(l)霉运$()$(li2)-50%物品稀有度"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:zombie_head",
       "title": "怪物词缀",
-      "text": "怪物词缀会影响宝库中的怪物。$(br2)其中有的可能会在你进入房间时召唤怪物，有的则可能$(l)提高$()怪物造成的$(l)伤害$()。"
+      "text": "$(br)怪物词缀会影响宝库中的怪物。$(br2)有的会在你进入房间时生成怪物，有的可能$(l)增强$()怪物的$(l)属性$()。"
     },
     {
       "type": "patchouli:text",
       "title": "怪物词缀",
-      "text": "$(li)$(l)野生$()$(li2)+1野生怪物群$(br)$(li)$(l)结实怪物$()$(li2)+10%怪物生命值$(br)$(li)$(l)暴怒$()$(li2)+10%怪物伤害$(br)$(li)$(l)迅猛怪物$()$(li2)+5%怪物速度"
+      "text": "$(li)$(l)野生$()$(li2)+1野生怪物群$(br)$(li)$(l)突击$()$(li2)+20%怪物生成$(br)$(li)$(l)拥挤$()$(li2)+1怪物生成$(br)$(li)$(l)大量生成$()$(li2)+30%刷怪笼"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "怪物词缀",
+      "text": "$(li)$(l)结实怪物$()$(li2)+10%怪物生命值$(br)$(li)$(l)暴怒怪物/无情怪物/残暴怪物$()$(li2)+10%/20%/50%怪物伤害$(br)$(li)$(l)迅猛怪物$()$(li2)+5%怪物移速"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "怪物词缀",
+      "text": "$(li)$(l)致命$()$(li2)此宝库中的怪物攻击永远暴击$(br)$(li)$(l)冠军之家$()$(li2)+10%冠军生成率"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:player_head",
+      "title": "玩家词缀",
+      "text": "$(br)玩家词缀会影响玩家的基础属性，或为玩家提供减益效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "玩家词缀",
+      "text": "$(li)$(l)枯竭$()$(li2)-10%魔力再生$(br)$(li)$(l)受伤$()$(li2)-2生命值$(br)$(li)$(l)维拉拉的愤怒$()$(li2)-20%治疗效率$(br)$(li)$(l)宝库经验减少$()$(li2)-25%宝库经验$(li2)仅在空岛的原始宝库中出现"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "玩家词缀",
+      "text": "$(li)$(l)脆弱$()$(li2)+20%耐久损耗$(br)$(li)$(l)迟钝$()$(li2)-10%冷却缩减$(br)$(li)$(l)脆弱$()$(li2)-10%抗性提升$(br)$(li)$(l)严重创伤$()$(li2)-20%治疗效率"
     },
     {
       "type": "patchouli:spotlight",
       "item": "minecraft:experience_bottle",
       "title": "其他词缀",
-      "text": "$(li)$(l)缩短$()$(li2)-1分钟宝库探索时间$(br)$(li)$(l)脆弱$()$(li2)+20%耐久损耗$(br)$(li)$(l)进退为难$()$(li2)+5%陷阱箱概率"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "其他词缀",
-      "text": "$(li)$(l)枯竭$()$(li2)-10%魔力再生$(br)$(li)$(l)维拉拉的愤怒$()$(li2)-20%治疗效率$(br)$(li)$(l)宝库经验减少$()$(li2)-25%宝库经验$(li2)仅在空岛宝库中才会出现"
+      "text": "$(li)$(l)缩短$()$(li2)-1分钟宝库探索时间$(br)$(li)$(l)困难$()$(li2)+3级宝库世界等级"
     }
   ]
 }

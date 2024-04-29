@@ -1,29 +1,25 @@
 {
   "sortnum": 2,
-  "name": "词缀",
+  "name": "药剂词缀",
   "icon": "the_vault:alchemy_table",
   "category": "patchouli:vault_potions_category",
   "read_by_default": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "（已过时）宝库药剂可以增加$(l)词缀$()。$(br2)宝库药剂的$(l)等阶$()越$(l)高$()，它可以容纳词缀的槽位就越多。$(br2)不同槽位数对应的等阶如下：$(br)$(li)0：$(l)小瓶$()$(li)1：$(l)魔法$()$(li)2：$(l)混合$()$(li)3：$(l)精酿$()"
+      "text": "宝库药剂可以添加$(l)1个强大的词缀$()。$(br2)宝库药剂的$(l)等阶越高$()，它所添加的词缀等级就越高。"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "the_vault:alchemy_table",
       "title": "炼药桌",
-      "text": "（已过时）在炼药桌上，你可以消耗$(l)宝库金币$()和$(l)毒蘑菇$()来为宝库药水$(l)增加$()想要的效果。$(br2)在$(l)喝下$()宝库药水的同时，相应的词缀效果会生效$(l)20秒$()。"
+      "text": "在炼药桌上，你可以消耗$(l)宝库金币$()和$(l)宝库钻石$()来为宝库药剂$(l)添加$()想要的效果。$(br2)每$(l)消耗$()宝库药剂的1层充能，词缀效果会生效一次。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:alchemy_archive",
       "title": "炼药档案台",
-      "text": "$(l)不是$()所有词缀效果都能用在宝库药剂上。$(br2)部分词缀是通过玩家$(l)等级$()解锁的。$(br2)其他词缀则可以通过在任意宝库的$(l:the_vault/layout#dungeons)$(t:地牢)地牢$()中找到的$(l)炼药档案台$()进行学习。"
-    },
-    {
-      "type": "patchouli:text",
-      "text": ""
+      "text": "$(l)不是$()所有可用的词缀效果都能添加到宝库药剂上。$(br2)部分词缀通过玩家$(l)等级$()解锁。$(br2)其他词缀则可以通过在任意宝库的$(l:the_vault/treasure_rooms#dungeons)$(t:地牢)地牢$()中找到的$(l)炼药档案台$()进行学习。"
     }
   ]
 }

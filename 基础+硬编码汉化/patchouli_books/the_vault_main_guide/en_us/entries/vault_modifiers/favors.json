@@ -1,0 +1,48 @@
+{
+  "sortnum": 4,
+  "name": "Favors",
+  "icon": "the_vault:small_charm",
+  "category": "patchouli:modifiers_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Favors是玩家$(l)completed or failed$() god altar challenge时为宝库添加的vault modifiers。$(br2)Positive favors的名称大多相同，其具体属性往往需要查看modifier的详细信息。$(br2)Negative favors往往会使宝库$(l)更加困难$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:idol_malevolence",
+      "title": "Idona的Favor",
+      "text": "完成恶意之神Idona的god altar获得的vault modifiers。可能的效果有：$(li2)+50% Attack Damage$(li2)+50% Ability Power$(li2)+0.5% Leech"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:idol_omniscient",
+      "title": "Tenos的Favor",
+      "text": "完成博识之神Tenos的god altar获得的vault modifiers。可能的效果有：$(li2)-1% Trap Chance$(li2)+25% Item Quantity$(li2)+50% Item Quality"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:idol_benevolent",
+      "title": "Velara的Favor",
+      "text": "完成仁爱之神Velara的god altar获得的vault modifiers。可能的效果有：$(li2)+1% Max Health$(li2)+1 Regeneration$(li2)+50% Healing Efficiency"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:idol_timekeeper",
+      "title": "Wendarr的Favor",
+      "text": "完成时间之神Wendarr的god altar获得的vault modifiers。可能的效果有：$(li2)+100% Mana Regen$(li2)+50% Cooldown Reduciton$(li2)+2 Speed"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_skeleton_skull",
+      "title": "Negative Favors",
+      "text": "$(br)God altar任务失败时为宝库添加的vault modifiers，提供较强的debuff。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Negative Favors",
+      "text": "$(li)$(l)魔力流失$()$(li2)不再恢复Mana$()$(br)$(li)$(l)乏力$()$(li2)-80% Healing Efficiency$()$(br)$(li)$(l)无形$()$(li2)部分怪物免疫所有伤害$()$(br)$(li)$(l)无魂$()$(li2)怪物不会掉落Soul Shards$()$(br)$(li)$(l)消散$()$(li2)受到伤害直接减少Max Health$()"
+    }
+  ]
+}

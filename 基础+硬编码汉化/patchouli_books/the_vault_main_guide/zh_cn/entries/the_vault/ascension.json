@@ -1,0 +1,37 @@
+{
+  "name": "升华",
+  "icon": "the_vault:soul_flame",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "升华宝库是一种特殊的宝库类型。升华宝库及其层数与玩家绑定，其$(l:the_vault/objectives)宝库目标$()只能在“圣水”或“拾荒者”中随机选择。$(br2)玩家每次完成升华宝库时，会获得1层$(l)升华层数$()。升华层数可以在$(l)灵魂之火$()或升华宝库水晶上查看。"
+    },
+    {
+      "anchor": "soul_flame",
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:soul_flame",
+      "title": "灵魂之火",
+      "text": "将灵魂之火添加到$(l)65+级$()未修饰的宝库水晶上，会为宝库添加$(l)火焰$()词缀，将宝库变为升华宝库。$(br2)$(l)升华层数$()没有上限，每层会增加$(l)2%$()的完成宝库目标的难度。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:soul_plaque",
+      "title": "灵魂之匾",
+      "text": "如果玩家没有完成宝库或死亡，则升华层数会归零，并获得一个记录有玩家名和分数的$(l)灵魂之匾$()。$(br2)分数越高，灵魂之匾的品质越高。$(br2)灵魂之匾可以放置在世界中，作为你$(l)荣誉的象征$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ember",
+      "title": "余烬",
+      "text": "获得$(l)灵魂之匾$()的同时，如果你的分数足够高，你还会获得一些$(l)余烬$()。$(br2)余烬可以在$(l)升华锻炉$()中购买特殊幻形与$(l)称号卷轴$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ascension_forge",
+      "title": "升华锻炉",
+      "text": "余烬可以在$(l)升华锻炉$()中购买特殊幻形与$(l)称号卷轴$()。$(br2)$(l)称号卷轴$()允许玩家在自己的玩家名标签上添加一个$(l)称号$()，前缀和后缀都有，而且真的很酷！你也可以随时清除称号。"
+    }
+  ]
+}

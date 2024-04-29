@@ -2,7 +2,8 @@
     "mods": [
       "the_vault-asm",
       "other_mods",
-      "the_vault-dynamic"
+      "the_vault-dynamic",
+      "the_vault-dynamic_2"
     ],
     "debug_mode": {
         "is_enable": false,

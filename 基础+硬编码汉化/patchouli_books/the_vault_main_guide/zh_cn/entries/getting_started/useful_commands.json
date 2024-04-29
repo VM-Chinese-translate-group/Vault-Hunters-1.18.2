@@ -1,12 +1,12 @@
 {
   "sortnum": 7,
-  "name": "实用指令",
+  "name": "实用命令",
   "icon": "supplementaries:hanging_sign_oak",
   "category": "patchouli:getting_started_category",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "有很多的指令可以用来$(l)提升$()玩家在宝藏猎人中的$(l)整体体验$()。$(br2)这些指令可以从$(l)这本书$()中$(l)直接$()执行。"
+      "text": "有很多的命令可以用来$(l)提升$()玩家在宝藏猎人中的$(l)整体体验$()。$(br2)这些命令可以从$(l)这本书$()中$(l)直接$()执行。"
     },
     {
       "type": "patchouli:relations",

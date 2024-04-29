@@ -1,0 +1,19 @@
+{
+  "sortnum": 8,
+  "name": "Quest",
+  "icon": "the_vault:quest_book",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:quest_book",
+      "title": "Quest Book",
+      "text": "There is a $(l)Quest System$() in Vault Hunters, which is the main guide in game. Whether a beginner or experienced vault hunter, we recommend you to completely read every description of quests and complete them in order. $(br2)You can press $(t:\"]\" by default and can be modified in Key Binding)$(l)the corresponding key$() to open quest screen, or Right-click with Quest Book."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Quest",
+      "text": "$(br)Quests are unlocked $(l)in order$(). Each quest has its own $(l)Quest Description$(), which introduces a $(l)game mechanic$() you need to understand at your current game stage. $(br2)After completing quests you can open Quest screen to $(l)claim rewards$(). Some rewards are $(l)quite valuable$(), so try your best to complete them!"
+    }
+  ]
+}

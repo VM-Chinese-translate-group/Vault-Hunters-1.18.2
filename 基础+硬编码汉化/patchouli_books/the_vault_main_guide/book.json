@@ -1,6 +1,6 @@
 {
-    "name": "宝藏猎人",
-    "landing_text": "官方的“宝藏猎人”百科全书。",
+    "name": "宝藏猎人指南",
+    "landing_text": "官方的“宝藏猎人3”百科全书。$(br2)VM汉化组翻译与增补",
     "book_texture": "patchouli:textures/gui/book_gray.png",
     "model": "patchouli:book_gray",
     "show_progress": "false",

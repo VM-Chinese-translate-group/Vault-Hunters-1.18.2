@@ -1,28 +1,28 @@
 {
   "sortnum": 1,
-  "name": "难度指令",
+  "name": "难度命令",
   "icon": "the_vault:scavenger_skeleton_skull",
   "category": "patchouli:useful_commands_category",
   "read_by_default": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "难度可以根据玩家的偏好设置，以调整$(l:the_vault/mobs)$(l)怪物$()的$(l)生成规模$()。$(br2)这会更改它们的$(l)生命值$()和$(l)伤害$()，但并$(l)不$()影响在宝库中获得的$(l)战利品$()。这由一个单独的$(l:useful_commands/gamerule_commands#vaultloot)$(t:游戏规则：宝库战利品)$(l)游戏规则$()控制。$(br2)从$(l)困难$()难度起，$(l)宝库战士$()会偶尔向玩家投掷$(l)砖块$()。"
+      "text": "难度可以根据玩家的偏好设置，以调整$(l:the_vault/mobs)$(l)怪物$()的$(l)基础属性$()。$(br2)这会更改它们的$(l)生命值$()和$(l)伤害$()，但并$(l)不$()影响在宝库中获得的$(l)战利品$()。这由一个单独的$(l:useful_commands/gamerule_commands#vaultloot)$(t:游戏规则：宝库战利品)$(l)游戏规则$()控制。$(br2)从$(l)困难$()难度起，$(l)宝库战士$()会偶尔向玩家投掷$(l)砖块$()。"
     },
     {
       "type": "patchouli:text",
-      "title": "难度指令",
-      "text": "$(br)宝库的可选难度有：$(br)$(li)$(l)小菜一碟$()$(li2)0.25倍怪物生成$()$(li)$(l)简单$()$(li2)0.5倍怪物生成$()$(li)$(l)普通$()$(li2)0.75倍怪物生成$()$(li)$(l)困难$()$(li2)1倍怪物生成$()$(li)$(l)极难$()$(li2)2倍怪物生成$()$(li)$(l)蓄意暴揍$()$(li2)4倍怪物生成$()"
+      "title": "难度命令",
+      "text": "$(br)宝藏猎人的可选难度有：$(br)$(li)$(l)小菜一碟$()$(li2)0.25倍怪物基础属性$()$(li)$(l)简单$()$(li2)0.5倍怪物基础属性$()$(li)$(l)普通$()$(li2)0.75倍怪物基础属性$()$(li)$(l)困难$()$(li2)1倍怪物基础属性$()$(li)$(l)极难$()$(li2)2倍怪物基础属性$()$(li)$(l)蓄意暴揍$()$(li2)4倍怪物基础属性$()"
     },
     {
       "type": "patchouli:text",
-      "title": "难度指令",
-      "text": "$(li)$(8)$(l)/the_vault$(br)difficulty$(br)<难度>$()$(li2)为玩家设置全局宝库难度$()$(br2)可选参数：$(li)$(c:/the_vault difficulty piece_of_cake)$(t:单击以执行指令)小菜一碟$()$(li)$(c:/the_vault difficulty easy)$(t:单击以执行指令)简单$()$(li)$(c:/the_vault difficulty normal)$(t:单击以执行指令)普通$(/c)$(/t) $(8)（默认）$()$()$(li)$(c:/the_vault difficulty hard)$(t:单击以执行指令)困难$()$(li)$(c:/the_vault difficulty impossible)$(t:单击以执行指令)极难$()$(li)$(c:/the_vault difficulty fragged)$(t:单击以执行指令)蓄意暴揍$()"
+      "title": "难度命令",
+      "text": "$(li)$(8)$(l)/the_vault difficulty <难度>$()$(li2)为所有玩家设置的全局宝库难度$()$(br2)可选参数：$(li)$(c:/the_vault difficulty piece_of_cake)$(t:单击以执行命令)小菜一碟$()$(li)$(c:/the_vault difficulty easy)$(t:单击以执行命令)简单$()$(li)$(c:/the_vault difficulty normal)$(t:单击以执行命令)普通$()$()$(li)$(c:/the_vault difficulty hard)$(t:单击以执行命令)困难$(/c)$(/t)$(8)（默认）$()$(li)$(c:/the_vault difficulty impossible)$(t:单击以执行命令)极难$()$(li)$(c:/the_vault difficulty fragged)$(t:单击以执行命令)蓄意暴揍$()"
     },
     {
       "type": "patchouli:text",
-      "title": "难度指令",
-      "text": "$(li)$(8)$(l)/the_vault$(br)local_difficulty$(br)<难度>$()$(li2)设置玩家的个人宝库难度$()$(br2)可选的参数：$(li)$(c:/the_vault local_difficulty @p piece_of_cake)$(t:单击以执行指令)小菜一碟$()$(li)$(c:/the_vault local_difficulty @p easy)$(t:单击以执行指令)简单$()$(li)$(c:/the_vault local_difficulty @p normal)$(t:单击以执行指令)普通$(/c)$(/t) $(8)（默认）$()$()$(li)$(c:/the_vault local_difficulty @p hard)$(t:单击以执行指令)困难$()$(li)$(c:/the_vault local_difficulty @p impossible)$(t:单击以执行指令)极难$()$(li)$(c:/the_vault local_difficulty @p fragged)$(t:单击以执行指令)蓄意暴揍$()"
+      "title": "难度命令",
+      "text": "$(li)$(8)$(l)/the_vault local_difficulty <难度>$()$(li2)设置玩家自己的宝库难度$()$(br2)可选的参数：$(li)$(c:/the_vault local_difficulty @p piece_of_cake)$(t:单击以执行命令)小菜一碟$()$(li)$(c:/the_vault local_difficulty @p easy)$(t:单击以执行命令)简单$()$(li)$(c:/the_vault local_difficulty @p normal)$(t:单击以执行命令)普通$()$()$(li)$(c:/the_vault local_difficulty @p hard)$(t:单击以执行命令)困难$(/c)$(/t)$(8)（默认）$()$(li)$(c:/the_vault local_difficulty @p impossible)$(t:单击以执行命令)极难$()$(li)$(c:/the_vault local_difficulty @p fragged)$(t:单击以执行命令)蓄意暴揍$()"
     }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "name": "Artifact",
+  "icon": "the_vault:unidentified_artifact",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Artifacts are 文明残片 of the Vault，也是留给所有Vault Hunters的困难谜题。$(br2)The final goal of all Vault Hunters is 收集$(l)25种$()独一无二的Artifacts，完成Artifact谜题，最后挑战并战胜Herald。$(br2)达到20级之后，当你$(l)完成宝库$()时，$(l)Unidentified Artifact$()会有5%的概率出现在complete crates中。当你达到$(l)50级以上$()时，这个概率会提升至20%。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:artifact_projector_block",
+      "title": "Artifact Tome",
+      "text": "$(br)Artifact Tome是记录Artifact谜题的神秘典籍，Vault Hunters可以依靠$(l)Artifact Tome$()完成Artifact谜题。$(l)将Artifact Tome放置在世界中，其上方会显示5x5的Artifact谜题，将Artifact放置在其$(l)对应位置$()，再右击Artifact Tome即可完成谜题。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:omega_pog",
+      "title": "终极POG",
+      "text": "$(br)你需要收集全部25种Artifacts，而鉴定Artifact时可能出现重复的Artifact。$(br2)你可以将重复的Artifact与$(l)Omega POG$()在铁砧中组合，将其重置为新的Unidentified Artifact。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_herald",
+      "title": "Seal of Herald",
+      "text": "$(br)完成谜题可以获得$(l)Seal of Herald$()，这是挑战宝库的final boss, $(l)Herald$()的钥匙。$(br2)Seal of Herald可以通过Artifact Tome$(l)无限$()获取。Herald Vault的挑战方法详见$(l:the_vault/objectives#herald)$(l)战胜先驱者$()。"
+    }
+  ]
+}

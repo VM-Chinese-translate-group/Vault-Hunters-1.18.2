@@ -1,6 +1,6 @@
 {
   "sortnum": 3,
-  "name": "小队指令",
+  "name": "小队命令",
   "icon": "minecraft:player_head",
   "category": "patchouli:useful_commands_category",
   "read_by_default": "true",
@@ -11,8 +11,8 @@
     },
     {
       "type": "patchouli:text",
-      "title": "小队指令",
-      "text": "$(li)$(c:/party create)$(t:单击以执行指令)$(l)/party create$()$(li2)创建一个小队$()$(br)$(li)$(8)$(l)/party invite <玩家名>$()$(li2)邀请该玩家加入小队$()$(br)$(li)$(8)$(l)/party remove <玩家名>$()$(li2)将该玩家踢出小队$()$(br)$(li)$(c:/party disband)$(t:单击以执行指令)$(l)/party disband$()$(li2)解散小队$()"
+      "title": "小队命令",
+      "text": "$(li)$(c:/party create)$(t:单击以执行命令)$(l)/party create$()$(li2)创建一个小队$()$(br)$(li)$(8)$(l)/party invite <玩家名>$()$(li2)邀请该玩家加入小队$()$(br)$(li)$(8)$(l)/party remove <玩家名>$()$(li2)将该玩家踢出小队$()$(br)$(li)$(c:/party disband)$(t:单击以执行命令)$(l)/party disband$()$(li2)解散小队$()"
     }
   ]
 }

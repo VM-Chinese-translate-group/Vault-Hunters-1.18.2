@@ -1,0 +1,33 @@
+[
+    {
+        "name": "宝藏猎人主要硬编码汉化-动态替换部分2",
+        "desc": "硬编码半匹配部分。版本V2.5.7",
+        "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
+        "mods": "the_vault",
+        "dynamic": true
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.ItemLegendaryTreasure",
+            "method": "m_7373_"
+        },
+        "pairs": [
+            {
+                "key": "COMMON",
+                "value": "@普通"
+            },
+            {
+                "key": "RARE",
+                "value": "@稀有"
+            },
+            {
+                "key": "EPIC",
+                "value": "@史诗"
+            },
+            {
+                "key": "OMEGA",
+                "value": "@终焉"
+            }
+        ]
+    }
+]

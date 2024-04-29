@@ -1,6 +1,6 @@
 {
     "sortnum": 8,
     "name": "宝库词缀",
-    "description": "所有未修饰的宝库水晶都会在玩家进入宝库时$(l)随机生成$()宝库词缀。$(br2)宝库词缀会在很大程度上影响宝库中的体验。$(br2)宝库词缀包括$(l)正面$()和$(l)负面$()词缀，以及$(l)诅咒$()。诅咒只会出现在$(l:game_mechanics/crystal_modification)$(l)修饰过的$()宝库中。",
+    "description": "所有未修饰的宝库水晶都会在玩家进入宝库时$(l)随机生成$()宝库词缀。$(br2)宝库词缀会在很大程度上影响宝库中的体验。$(br2)宝库词缀包括$(l)正面$()和$(l)负面$()词缀，以及$(l)诅咒$()和$(l)祝福$()。诅咒只会出现在$(l:game_mechanics/crystal_modification)$(l)修饰过的$()宝库中。",
     "icon": "the_vault:vault_catalyst"
 }

@@ -12,9 +12,9 @@ import crafttweaker.api.item.IItemStack;
 
 // Book
 
-//craftingTable.addShaped("book_latest", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_tutorial" as string}), [<item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string})]);
+//craftingTable.addShaped("book_latest", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_everything" as string}), [<item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string})]);
 
-//craftingTable.addShaped("book_legacy", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string}), [<item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_tutorial" as string})]);
+//craftingTable.addShaped("book_legacy", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string}), [<item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_everything" as string})]);
 
 
 // Item Infos
@@ -395,7 +395,7 @@ JEI.addCategory(mysteryHostileEgg);
 // Vendor
 
 var vendor = JeiCategory.create<Custom>("vendor_shop", new TextComponent("商店基座"), <item:the_vault:shop_pedestal>, [<item:the_vault:shop_pedestal>]) as Custom;
-vendor.background = JeiDrawable.blank(175, 90) as JeiDrawable;
+vendor.background = JeiDrawable.blank(175, 135) as JeiDrawable;
 
 for i in 0 .. 5 {
     vendor.addDrawable(4, 5 + (i * 21), JeiDrawable.of(new ResourceLocation("create", "textures/gui/jei/widgets.png") as ResourceLocation, 0, 0, 18, 18) as JeiDrawable);

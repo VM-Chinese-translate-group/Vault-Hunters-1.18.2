@@ -1,19 +1,19 @@
 {
   "sortnum": 5,
-  "name": "回收",
+  "name": "装备回收",
   "icon": "the_vault:vault_recycler",
   "category": "patchouli:vault_gear_category",
   "read_by_default": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "宝库装备能被回收成为$(l)少量$()资源。$(br2)这可能会产出$(l)宝库废料$()、$(l)磁铁矿$()、$(l)饰品废料$()或其他材料，取决于所熔炼的装备类型。$(br2)$(l)未鉴定的$()宝库装备同样能被回收。"
+      "text": "宝库装备能被回收成为$(l)少量$()资源。$(br2)可能产出$(l)宝库废料$()、$(l)磁铁矿$()、$(l)饰品废料$()或其他材料，取决于所熔炼的装备类型。$(br2)$(l)未鉴定的$()宝库装备同样能被回收。"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "the_vault:vault_recycler",
       "title": "宝库回收器",
-      "text": "这一切都是在宝库回收器中完成的。$(br2)宝库装备的$(l)耐久度$()下降得越多，回收获得的$(l)材料$()就越$(l)少$()。"
+      "text": "回收都是在宝库回收器中完成的。$(br2)宝库装备的$(l)耐久度$()下降得越多，回收获得的$(l)材料$()就越$(l)少$()。"
     }
   ]
 }

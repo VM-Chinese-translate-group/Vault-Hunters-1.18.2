@@ -1,6 +1,6 @@
 {
   "sortnum": 2,
-  "name": "游戏规则指令",
+  "name": "游戏规则命令",
   "icon": "minecraft:clock",
   "category": "patchouli:useful_commands_category",
   "read_by_default": "true",
@@ -12,29 +12,35 @@
     {
       "anchor": "vaultmode",
       "type": "patchouli:text",
-      "title": "游戏规则指令",
-      "text": "$(li)$(8)$(l)/gamerule$(br)vaultMode$(br)<模式>$()$(li2)改变玩家在宝库中$(l:game_mechanics/spirits)死亡$()的事件$()$(br2)可选参数：$(li)$(c:/gamerule vaultMode CASUAL)$(t:单击以执行指令)休闲$()$(li2)保留宝库中死亡时的物品$()$(li)$(c:/gamerule vaultMode NORMAL)$(t:单击以执行指令)普通$(/c)$(/t) $(8)（默认）$()$(li2)宝库中死亡后生成灵魂$()$(li)$(c:/gamerule vaultMode HARDCORE)$(t:单击以执行指令)硬核$()$(li2)宝库中死亡后不生成灵魂$()"
+      "title": "游戏规则命令",
+      "text": "$(li)$(8)$(l)/gamerule vaultMode <模式>$()$(li2)改变玩家在宝库中$(l:game_mechanics/spirits)死亡$()的事件$()$(br2)可选参数：$(li)$(c:/gamerule vaultMode CASUAL)$(t:单击以执行命令)休闲$()$(li2)保留宝库中死亡时的物品$()$(li)$(c:/gamerule vaultMode NORMAL)$(t:单击以执行命令)普通$(/c)$(/t)$(8)（默认）$()$(li2)宝库中死亡后生成灵魂$()$(li)$(c:/gamerule vaultMode HARDCORE)$(t:单击以执行命令)硬核$()$(li2)宝库中死亡后不生成灵魂$()"
     },
     {
       "anchor": "vaultloot",
       "type": "patchouli:text",
-      "title": "游戏规则指令",
-      "text": "$(li)$(8)$(l)/gamerule$(br)vaultLoot$(br)<战利品>$()$(li2)改变宝库中所有宝箱里的$(l:the_vault/loot)战利品$()的数量$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultLoot NORMAL)$(t:单击以执行指令)普通$(/c)$(/t) $(8)（默认）$()$(li2)1倍宝库战利品$()$(li)$(c:/gamerule vaultLoot PLENTY)$(t:单击以执行指令)丰富$()$(li2)2倍宝库战利品$()$(li)$(c:/gamerule vaultLoot EXTREME)$(t:单击以执行指令)巨量$()$(li2)3倍宝库战利品$()"
+      "title": "游戏规则命令",
+      "text": "$(li)$(8)$(l)/gamerule vaultLoot <战利品>$()$(li2)改变宝库中所有宝箱里的$(l:the_vault/loot)战利品$()的数量$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultLoot NORMAL)$(t:单击以执行命令)普通$(/c)$(/t)$(8)（默认）$()$(li2)1倍宝库战利品$()$(li)$(c:/gamerule vaultLoot PLENTY)$(t:单击以执行命令)丰富$()$(li2)2倍宝库战利品$()$(li)$(c:/gamerule vaultLoot EXTREME)$(t:单击以执行命令)巨量$()$(li2)3倍宝库战利品$()"
     },
     {
       "type": "patchouli:text",
-      "title": "游戏规则指令",
-      "text": "$(li)$(8)$(l)/gamerule$(br)vaultCrystalMode$(br)<水晶模式>$()$(li2)改变宝库祭坛的材料花费$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultCrystalMode INFINITY)$(t:单击以执行指令)无尽$()$(li2)$(t:宝库祭坛仍然需要通过\n红石信号激活才能制作)宝库祭坛无需材料$()$(li)$(c:/gamerule vaultCrystalMode NORMAL)$(t:单击以执行指令)普通$(/c)$(/t) $(8)（默认）$()$(li2)1倍宝库祭坛材料花费$()$(li)$(c:/gamerule vaultCrystalMode EXTREME)$(t:单击以执行指令)巨量$()$(li2)2倍宝库祭坛材料花费$()$(li)$(c:/gamerule vaultCrystalMode GRINDY)$(t:单击以执行指令)劳神$()$(li2)3倍宝库祭坛材料花费$()"
+      "title": "游戏规则命令",
+      "text": "$(li)$(8)$(l)/gamerule vaultCrystalMode <水晶模式>$()$(li2)改变宝库祭坛的材料花费$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultCrystalMode INFINITY)$(t:单击以执行命令)无尽$()$(li2)$(t:宝库祭坛仍然需要通过\n红石信号激活才能制作)宝库祭坛无需材料$()$(li)$(c:/gamerule vaultCrystalMode NORMAL)$(t:单击以执行命令)普通$(/c)$(/t)$(8)（默认）$()$(li2)1倍宝库祭坛材料花费$()$(li)$(c:/gamerule vaultCrystalMode EXTREME)$(t:单击以执行命令)巨量$()$(li2)2倍宝库祭坛材料花费$()$(li)$(c:/gamerule vaultCrystalMode GRINDY)$(t:单击以执行命令)劳神$()$(li2)3倍宝库祭坛材料花费$()"
     },
     {
       "type": "patchouli:text",
-      "title": "游戏规则指令",
-      "text": "$(li)$(8)$(l)/gamerule$(br)vaultAllowWaypoints$(br)<true/false>$()$(li2)改变是否允许在宝库中设置路径点。$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultAllowWaypoints true)$(t:单击以执行指令)是$()$(li2)允许设置$()$(li)$(c:/gamerule vaultAllowWaypoints false)$(t:单击以执行指令)否$(/c)$(/t) $(8)（默认）$()$(li2)不允许设置$()"
+      "title": "游戏规则命令",
+      "text": "$(li)$(8)$(l)/gamerule vaultAllowWaypoints <true/false>$()$(li2)改变是否允许在宝库中设置路径点$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultAllowWaypoints true)$(t:单击以执行命令)是$()$(li2)允许设置$()$(li)$(c:/gamerule vaultAllowWaypoints false)$(t:单击以执行命令)否$(/c)$(/t)$(8)（默认）$()$(li2)不允许设置$()"
     },
     {
       "type": "patchouli:text",
-      "title": "游戏规则指令",
-      "text": "$(li)$(8)$(l)/gamerule$(br)vaultJoinRequireParty$(br)<true/false>$()$(li2)改变玩家是否必须在同一小队中才能$(l:the_vault/cooperative_vaults)合作$()进入同一个宝库。$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultJoinRequireParty true)$(t:单击以执行指令)是$()$(li2)需要在同一小队$()$(li)$(c:/gamerule vaultJoinRequireParty false)$(t:单击以执行指令)否$(/c)$(/t) $(8)（默认）$()$(li2)不需要在同一小队$()"
+      "title": "游戏规则命令",
+      "text": "$(li)$(8)$(l)/gamerule vaultJoinRequireParty <true/false>$()$(li2)改变玩家是否必须在同一小队中才能$(l:the_vault/cooperative_vaults)合作$()进入同一个宝库$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultJoinRequireParty true)$(t:单击以执行命令)是$()$(li2)需要在同一小队$()$(li)$(c:/gamerule vaultJoinRequireParty false)$(t:单击以执行命令)否$(/c)$(/t)$(8)（默认）$()$(li2)不需要在同一小队$()"
+    },
+    {
+      "anchor": "vaultBoostPenalty",
+      "type": "patchouli:text",
+      "title": "游戏规则命令",
+      "text": "$(li)$(8)$(l)/gamerule vaultBoostPenalty <true/false>$()$(li2)改变玩家是否在超出宝库等级时受到经验惩罚$()$()$(br2)可选参数：$(li)$(c:/gamerule vaultBoostPenalty true)$(t:单击以执行命令)是$()$(li2)启用经验惩罚$()$(li)$(c:/gamerule vaultBoostPenalty false)$(t:单击以执行命令)否$(/c)$(/t)$(8)（默认）$()$(li2)禁用经验惩罚$()"
     }
   ]
 }

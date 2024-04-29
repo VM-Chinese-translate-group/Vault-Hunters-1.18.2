@@ -1,6 +1,6 @@
 {
     "sortnum": 9,
-    "name": "实用指令",
-    "description": "有很多指令可以$(l)改变$()玩家在宝藏猎人中的$(l)整体体验$()。$(br2)这些指令可以$(l)在这本书中直接执行$()。",
+    "name": "实用命令",
+    "description": "有很多命令可以$(l)改变$()玩家在宝藏猎人中的$(l)整体体验$()。$(br2)这些命令可以$(l)在这本书中直接执行$()。",
     "icon": "supplementaries:hanging_sign_oak"
 }

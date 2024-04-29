@@ -1,0 +1,30 @@
+{
+  "name": "文物",
+  "icon": "the_vault:unidentified_artifact",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "文物是宝库世界的文明残片，也是留给所有宝藏猎人的困难谜题。$(br2)宝藏猎人们的终极目标是收集$(l)25种$()独一无二的文物，完成文物谜题，最终完成先驱者的挑战。$(br2)20级之后，当你$(l)完成宝库$()时，$(l)未鉴定的文物$()会有5%的概率出现在完成板条箱中。当你达到$(l)50级以上$()时，这个概率会提升至20%。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:artifact_projector_block",
+      "title": "文物之书台",
+      "text": "$(br)文物之书是记录$(l)文物谜题$()的神秘典籍。$(br2)将文物之书台放置在世界中，其上方会显示5x5的文物谜题，将文物放置在其$(l)对应位置$()，再右击文物之书台即可完成谜题。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:omega_pog",
+      "title": "终极POG",
+      "text": "$(br)你需要收集全部25种文物，而鉴定文物时可能出现重复的文物。$(br2)你可以将重复的文物与$(l)终极POG$()在铁砧中组合，将其重置为新的未鉴定的文物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_herald",
+      "title": "先驱者印记",
+      "text": "$(br)完成谜题可以获得$(l)先驱者印记$()，这是挑战宝库的终极BOSS——$(l)先驱者$()的钥匙。$(br2)先驱者印记可以通过文物之书台$(l)无限$()获取。先驱者宝库的挑战方法详见$(l:the_vault/objectives#herald)$(l)战胜先驱者$()。"
+    }
+  ]
+}
