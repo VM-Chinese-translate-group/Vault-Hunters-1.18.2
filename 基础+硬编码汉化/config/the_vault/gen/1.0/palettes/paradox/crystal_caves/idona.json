@@ -1,0 +1,400 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:light_gray_frameless_glass",
+      "output": {
+        "auxiliaryblocks:red_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lime_frameless_glass",
+      "output": {
+        "auxiliaryblocks:red_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:magenta_frameless_glass",
+      "output": {
+        "auxiliaryblocks:red_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:orange_frameless_glass",
+      "output": {
+        "auxiliaryblocks:red_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:pink_frameless_glass",
+      "output": {
+        "auxiliaryblocks:red_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:purple_frameless_glass",
+      "output": {
+        "auxiliaryblocks:red_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:yellow_frameless_glass",
+      "output": {
+        "auxiliaryblocks:red_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:purple_stained_glass_pane",
+      "output": {
+        "minecraft:red_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:blue_stained_glass_pane",
+      "output": {
+        "minecraft:red_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:yellow_stained_glass_pane",
+      "output": {
+        "minecraft:red_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:orange_stained_glass_pane",
+      "output": {
+        "minecraft:red_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lime_stained_glass_pane",
+      "output": {
+        "minecraft:red_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_stained_glass_pane",
+      "output": {
+        "minecraft:red_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:pink_stained_glass_pane",
+      "output": {
+        "minecraft:red_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:magenta_stained_glass_pane",
+      "output": {
+        "minecraft:red_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lime_gelatin",
+      "output": {
+        "auxiliaryblocks:red_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:purple_gelatin",
+      "output": {
+        "auxiliaryblocks:red_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:yellow_gelatin",
+      "output": {
+        "auxiliaryblocks:red_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_green",
+      "output": {
+        "auxiliaryblocks:red_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:blue_crystal",
+      "output": {
+        "auxiliaryblocks:red_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:green_crystal",
+      "output": {
+        "auxiliaryblocks:red_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:indigo_crystal",
+      "output": {
+        "auxiliaryblocks:red_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:orange_crystal",
+      "output": {
+        "auxiliaryblocks:red_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:violet_crystal",
+      "output": {
+        "auxiliaryblocks:red_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:dry_grass",
+      "output": {
+        "botania:scorched_grass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:moss_block",
+      "output": {
+        "minecraft:nether_wart_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=lower]",
+      "output": {
+        "architects_palette:osseous_skull": 2,
+        "minecraft:black_candle[lit=true,candles=2]": 1,
+        "minecraft:black_candle[lit=true,candles=3]": 1,
+        "minecraft:red_candle[lit=true,candles=2]": 1,
+        "minecraft:red_candle[lit=true,candles=3]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=upper]",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lilac[half=lower]",
+      "output": {
+        "architects_palette:osseous_skull": 2,
+        "minecraft:black_candle[lit=true,candles=2]": 1,
+        "minecraft:black_candle[lit=true,candles=3]": 1,
+        "minecraft:red_candle[lit=true,candles=2]": 1,
+        "minecraft:red_candle[lit=true,candles=3]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lilac[half=upper]",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:poppy",
+      "output": {
+        "minecraft:player_head[rotation=0]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=1]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=2]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=3]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=4]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=5]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=6]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=7]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=8]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=9]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=10]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=11]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=12]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=13]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=14]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=15]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "architects_palette:bone_nub[facing=down]": 16,
+        "quark:red_corundum_cluster[facing=up]": 16
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_fire_coral",
+      "output": {
+        "minecraft:player_head[rotation=0]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=1]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=2]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=3]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=4]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=5]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=6]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=7]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=8]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=9]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=10]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=11]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=12]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=13]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=14]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=15]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "architects_palette:bone_nub[facing=down]": 16,
+        "quark:red_corundum_cluster[facing=up]": 16
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_bubble_coral",
+      "output": {
+        "minecraft:player_head[rotation=0]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=1]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=2]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=3]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=4]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=5]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=6]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=7]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=8]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=9]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=10]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=11]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=12]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=13]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=14]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=15]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "architects_palette:bone_nub[facing=down]": 16,
+        "quark:red_corundum_cluster[facing=up]": 16
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_brain_coral",
+      "output": {
+        "minecraft:player_head[rotation=0]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=1]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=2]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=3]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=4]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=5]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=6]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=7]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=8]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=9]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=10]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=11]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=12]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=13]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=14]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=15]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "architects_palette:bone_nub[facing=down]": 16,
+        "quark:red_corundum_cluster[facing=up]": 16
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_brain_coral_fan",
+      "output": {
+        "minecraft:player_head[rotation=0]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=1]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=2]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=3]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=4]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=5]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=6]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=7]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=8]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=9]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=10]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=11]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=12]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=13]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=14]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=15]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "architects_palette:bone_nub[facing=down]": 16,
+        "quark:red_corundum_cluster[facing=up]": 16
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_bubble_coral_fan",
+      "output": {
+        "minecraft:player_head[rotation=0]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=1]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=2]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=3]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=4]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=5]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=6]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=7]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=8]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=9]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=10]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=11]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=12]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=13]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=14]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "minecraft:player_head[rotation=15]{display:{Name:\"{\\\"text\\\":\\\"\u5934\u9885\\\"}\"},SkullOwner:{Id:[I;-967193132,-466204297,-1498950319,-1900097605],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlMzg1NWY5NTJjZDRhMDNjMTQ4YTk0NmUzZjgxMmE1OTU1YWQzNWNiY2I1MjYyN2VhNGFjZDQ3ZDMwODEifX19\"}]}}}": 1,
+        "architects_palette:bone_nub[facing=down]": 16,
+        "quark:red_corundum_cluster[facing=up]": 16
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:magenta_double_flower[half=lower]",
+      "output": {
+        "botania:red_double_flower[half=lower]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:magenta_double_flower[half=upper]",
+      "output": {
+        "botania:red_double_flower[half=upper]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:light_gray_double_flower[half=lower]",
+      "output": {
+        "botania:red_double_flower[half=lower]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:light_gray_double_flower[half=upper]",
+      "output": {
+        "botania:red_double_flower[half=upper]": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

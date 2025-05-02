@@ -21,7 +21,9 @@
         "Mining Gadgets",
         "Weirding Gadgets",
         "Digital Miner",
-        "Building Gadgets"
+        "Building Gadgets",
+        "Laser Bridges",
+        "Entangled"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {

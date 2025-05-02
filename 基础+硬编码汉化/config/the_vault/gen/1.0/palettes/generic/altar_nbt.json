@@ -13,12 +13,27 @@
           "modifierFailurePool": "the_vault:altar_curses",
           "lootPool": [
             {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:bitter_lemon"
+              }
+            },
+            {
               "weight": 10,
               "item": {
-                "id": "the_vault:god_token",
-                "nbt": {
-                  "type": "velara"
-                }
+                "id": "the_vault:mango"
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:sour_orange"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit"
               }
             }
           ],
@@ -40,12 +55,27 @@
           "weight": 1,
           "lootPool": [
             {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:bitter_lemon"
+              }
+            },
+            {
               "weight": 10,
               "item": {
-                "id": "the_vault:god_token",
-                "nbt": {
-                  "type": "tenos"
-                }
+                "id": "the_vault:mango"
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:sour_orange"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit"
               }
             }
           ]
@@ -66,12 +96,27 @@
           "weight": 1,
           "lootPool": [
             {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:bitter_lemon"
+              }
+            },
+            {
               "weight": 10,
               "item": {
-                "id": "the_vault:god_token",
-                "nbt": {
-                  "type": "wendarr"
-                }
+                "id": "the_vault:mango"
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:sour_orange"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit"
               }
             }
           ]
@@ -92,12 +137,27 @@
           "weight": 1,
           "lootPool": [
             {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:bitter_lemon"
+              }
+            },
+            {
               "weight": 10,
               "item": {
-                "id": "the_vault:god_token",
-                "nbt": {
-                  "type": "idona"
-                }
+                "id": "the_vault:mango"
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:sour_orange"
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit"
               }
             }
           ]
@@ -157,15 +217,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:horde",
-                "count": {
-                  "type": "uniform",
-                  "min": 98,
-                  "max": 200
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 98,
+                    "max": 200
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -174,15 +237,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:assassin",
-                "count": {
-                  "type": "uniform",
-                  "min": 32,
-                  "max": 50
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 32,
+                    "max": 50
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u523a\u5ba2\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -191,15 +257,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:tank",
-                "count": {
-                  "type": "uniform",
-                  "min": 8,
-                  "max": 16
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 8,
+                    "max": 16
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5766\u514b\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -208,15 +277,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:fighter",
-                "count": {
-                  "type": "uniform",
-                  "min": 16,
-                  "max": 32
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 16,
+                    "max": 32
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5b9d\u5e93\u6218\u58eb",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -225,15 +297,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:dungeon",
-                "count": {
-                  "type": "uniform",
-                  "min": 5,
-                  "max": 14
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 5,
+                    "max": 14
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5730\u7262\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -242,15 +317,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:gilded",
-                "count": {
-                  "type": "uniform",
-                  "min": 10,
-                  "max": 21
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 10,
+                    "max": 21
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -259,15 +337,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:living",
-                "count": {
-                  "type": "uniform",
-                  "min": 10,
-                  "max": 21
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 10,
+                    "max": 21
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -276,15 +357,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:ornate",
-                "count": {
-                  "type": "uniform",
-                  "min": 10,
-                  "max": 21
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 10,
+                    "max": 21
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -293,15 +377,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "the_vault:wooden_chest",
-                "count": {
-                  "type": "uniform",
-                  "min": 32,
-                  "max": 70
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 32,
+                    "max": 70
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -310,15 +397,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 16,
-                  "max": 40
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 16,
+                    "max": 40
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -327,15 +417,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:player_ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 4,
-                  "max": 9
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 4,
+                    "max": 9
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u72ec\u7279\u7684\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -344,15 +437,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "{Tags:[\"vault_champion\"]}",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 3
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 3
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u51a0\u519b",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -373,15 +469,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:horde",
-                "count": {
-                  "type": "uniform",
-                  "min": 70,
-                  "max": 140
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 70,
+                    "max": 140
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -390,15 +489,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:assassin",
-                "count": {
-                  "type": "uniform",
-                  "min": 20,
-                  "max": 36
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 20,
+                    "max": 36
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u523a\u5ba2\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -407,15 +509,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:tank",
-                "count": {
-                  "type": "uniform",
-                  "min": 4,
-                  "max": 10
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 4,
+                    "max": 10
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5766\u514b\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -424,15 +529,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:fighter",
-                "count": {
-                  "type": "uniform",
-                  "min": 16,
-                  "max": 34
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 16,
+                    "max": 34
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5b9d\u5e93\u6218\u58eb",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -441,15 +549,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:dungeon",
-                "count": {
-                  "type": "uniform",
-                  "min": 3,
-                  "max": 6
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 3,
+                    "max": 6
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5730\u7262\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -458,15 +569,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "{Tags:[\"vault_champion\"]}",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 2
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 2
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u51a0\u519b",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -475,15 +589,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:gilded",
-                "count": {
-                  "type": "uniform",
-                  "min": 11,
-                  "max": 16
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 11,
+                    "max": 16
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -492,15 +609,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:living",
-                "count": {
-                  "type": "uniform",
-                  "min": 11,
-                  "max": 16
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 11,
+                    "max": 16
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -509,15 +629,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:ornate",
-                "count": {
-                  "type": "uniform",
-                  "min": 11,
-                  "max": 16
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 11,
+                    "max": 16
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -526,15 +649,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:wooden",
-                "count": {
-                  "type": "uniform",
-                  "min": 24,
-                  "max": 40
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 24,
+                    "max": 40
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -543,15 +669,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 16,
-                  "max": 34
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 16,
+                    "max": 34
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -560,15 +689,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:player_ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 4
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 2,
+                    "max": 4
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u72ec\u7279\u7684\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -589,15 +721,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:horde",
-                "count": {
-                  "type": "uniform",
-                  "min": 90,
-                  "max": 160
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 90,
+                    "max": 160
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -606,15 +741,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:assassin",
-                "count": {
-                  "type": "uniform",
-                  "min": 28,
-                  "max": 50
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 28,
+                    "max": 50
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u523a\u5ba2\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -623,15 +761,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:tank",
-                "count": {
-                  "type": "uniform",
-                  "min": 6,
-                  "max": 12
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 6,
+                    "max": 12
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5766\u514b\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -640,15 +781,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:fighter",
-                "count": {
-                  "type": "uniform",
-                  "min": 24,
-                  "max": 42
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 24,
+                    "max": 42
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5b9d\u5e93\u6218\u58eb",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -657,15 +801,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:dungeon",
-                "count": {
-                  "type": "uniform",
-                  "min": 4,
-                  "max": 9
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 4,
+                    "max": 9
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5730\u7262\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -674,15 +821,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "{Tags:[\"vault_champion\"]}",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 3
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 3
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u51a0\u519b",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -691,15 +841,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:gilded",
-                "count": {
-                  "type": "uniform",
-                  "min": 12,
-                  "max": 21
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 12,
+                    "max": 21
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -708,15 +861,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:living",
-                "count": {
-                  "type": "uniform",
-                  "min": 12,
-                  "max": 21
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 12,
+                    "max": 21
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -725,15 +881,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:ornate",
-                "count": {
-                  "type": "uniform",
-                  "min": 12,
-                  "max": 21
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 12,
+                    "max": 21
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -742,15 +901,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:wooden",
-                "count": {
-                  "type": "uniform",
-                  "min": 32,
-                  "max": 55
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 32,
+                    "max": 55
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -759,15 +921,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 20,
-                  "max": 38
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 20,
+                    "max": 38
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -776,15 +941,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:player_ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 7
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 2,
+                    "max": 7
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u72ec\u7279\u7684\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -805,15 +973,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:horde",
-                "count": {
-                  "type": "uniform",
-                  "min": 140,
-                  "max": 240
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 140,
+                    "max": 240
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -822,15 +993,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:assassin",
-                "count": {
-                  "type": "uniform",
-                  "min": 36,
-                  "max": 60
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 36,
+                    "max": 60
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u523a\u5ba2\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -839,15 +1013,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:tank",
-                "count": {
-                  "type": "uniform",
-                  "min": 8,
-                  "max": 14
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 8,
+                    "max": 14
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5766\u514b\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -856,15 +1033,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:fighter",
-                "count": {
-                  "type": "uniform",
-                  "min": 28,
-                  "max": 50
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 28,
+                    "max": 50
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5b9d\u5e93\u6218\u58eb",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -873,15 +1053,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:dungeon",
-                "count": {
-                  "type": "uniform",
-                  "min": 6,
-                  "max": 10
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 6,
+                    "max": 10
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5730\u7262\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -890,15 +1073,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "{Tags:[\"vault_champion\"]}",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 3
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 3
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u51a0\u519b",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -907,15 +1093,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:gilded",
-                "count": {
-                  "type": "uniform",
-                  "min": 18,
-                  "max": 30
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 18,
+                    "max": 30
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -924,15 +1113,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:living",
-                "count": {
-                  "type": "uniform",
-                  "min": 18,
-                  "max": 30
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 18,
+                    "max": 30
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -941,15 +1133,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:ornate",
-                "count": {
-                  "type": "uniform",
-                  "min": 18,
-                  "max": 30
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 18,
+                    "max": 30
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -958,15 +1153,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:wooden",
-                "count": {
-                  "type": "uniform",
-                  "min": 40,
-                  "max": 80
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 40,
+                    "max": 80
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -975,15 +1173,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 34,
-                  "max": 50
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 34,
+                    "max": 50
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -992,15 +1193,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:player_ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 9
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 2,
+                    "max": 9
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u72ec\u7279\u7684\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1021,15 +1225,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:horde",
-                "count": {
-                  "type": "uniform",
-                  "min": 160,
-                  "max": 260
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 160,
+                    "max": 260
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1038,15 +1245,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:assassin",
-                "count": {
-                  "type": "uniform",
-                  "min": 40,
-                  "max": 65
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 40,
+                    "max": 65
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u523a\u5ba2\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1055,15 +1265,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:tank",
-                "count": {
-                  "type": "uniform",
-                  "min": 8,
-                  "max": 16
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 8,
+                    "max": 16
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5766\u514b\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1072,15 +1285,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:fighter",
-                "count": {
-                  "type": "uniform",
-                  "min": 28,
-                  "max": 52
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 28,
+                    "max": 52
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5b9d\u5e93\u6218\u58eb",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1089,15 +1305,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "@the_vault:dungeon",
-                "count": {
-                  "type": "uniform",
-                  "min": 6,
-                  "max": 12
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 6,
+                    "max": 12
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u5730\u7262\u602a\u7269",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1106,15 +1325,18 @@
               "taskPool": {
                 "type": "kill_entity",
                 "filter": "{Tags:[\"vault_champion\"]}",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 4
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 4
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u51fb\u6740\u51a0\u519b",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1123,15 +1345,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:gilded",
-                "count": {
-                  "type": "uniform",
-                  "min": 18,
-                  "max": 34
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 18,
+                    "max": 34
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1140,15 +1365,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:living",
-                "count": {
-                  "type": "uniform",
-                  "min": 18,
-                  "max": 34
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 18,
+                    "max": 34
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1157,15 +1385,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:ornate",
-                "count": {
-                  "type": "uniform",
-                  "min": 18,
-                  "max": 34
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 18,
+                    "max": 34
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1174,15 +1405,18 @@
               "taskPool": {
                 "type": "loot_chest",
                 "filter": "@the_vault:wooden",
-                "count": {
-                  "type": "uniform",
-                  "min": 40,
-                  "max": 100
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 40,
+                    "max": 100
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1191,15 +1425,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 34,
-                  "max": 54
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 34,
+                    "max": 54
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1
@@ -1208,15 +1445,18 @@
               "taskPool": {
                 "type": "mine_block",
                 "filter": "@the_vault:player_ores[generated=true]",
-                "count": {
-                  "type": "uniform",
-                  "min": 3,
-                  "max": 9
+                "counter": {
+                  "type": "target",
+                  "target": {
+                    "type": "uniform",
+                    "min": 3,
+                    "max": 9
+                  }
                 },
                 "renderer": {
                   "type": "god_altar",
                   "title": "\u6316\u6398\u72ec\u7279\u7684\u5b9d\u5e93\u77ff\u77f3",
-                  "bar": "${current}/${target}"
+                  "hint": "${current}/${target}"
                 }
               },
               "weight": 1

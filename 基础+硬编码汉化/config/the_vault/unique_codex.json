@@ -1,0 +1,843 @@
+{
+  "introduction": {
+    "index": {
+      "HEAD": [
+        "the_vault:jester",
+        "the_vault:warbound_helmet",
+        "the_vault:stormcrown"
+      ],
+      "CHEST": [
+        "the_vault:castle",
+        "the_vault:crystalplate",
+        "the_vault:frozen_throne"
+      ],
+      "LEGS": [
+        "the_vault:crashguards",
+        "the_vault:swarmwalkers"
+      ],
+      "FEET": [
+        "the_vault:pacifist_sandals",
+        "the_vault:frostguards"
+      ],
+      "SWORD": [
+        "the_vault:iskallibur",
+        "the_vault:inflated_justice",
+        "the_vault:honey_stick"
+      ],
+      "SHIELD": [
+        "the_vault:grim",
+        "the_vault:ivy",
+        "the_vault:pestilence_wall",
+        "the_vault:gladiator_buckler"
+      ],
+      "FOCUS": [
+        "the_vault:frozen_orb"
+      ],
+      "WAND": [
+        "the_vault:baguette",
+        "the_vault:chainlash",
+        "the_vault:inferno_reach"
+      ],
+      "JEWEL": [
+        "the_vault:kaleidoscope",
+        "the_vault:manabloom",
+        "the_vault:pax"
+      ]
+    }
+  },
+  "pages": [
+    {
+      "title": {
+        "description": {
+          "text": "\u5c0f\u4e11\u5e3d",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u611f\u89c9\u5f88\u5e78\u8fd0\u5417\uff1f\n",
+            "color": "$text"
+          },
+          {
+            "text": "\u5c0f\u4e11\u5e3d",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u4f1a\u5237\u51fa\u4e24\u4e2a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5e78\u8fd0\u4e00\u51fb",
+            "color": "$luckyHit"
+          },
+          {
+            "text": "\u8bcd\u7f00\uff01",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5b9e\u9a8c\u5ba4",
+            "color": "#7D520E"
+          }
+
+        ]
+      },
+      "uniqueId": "the_vault:jester"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u6218\u754c\u5934\u76d4",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u8fd9\u4e2a\u5934\u76d4\u4f1a\u4e3a\u4f60\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u6563\u5c04\u6807\u67aa",
+            "color": "$knockback"
+          },
+          {
+            "text": "\u63d0\u4f9b\u989d\u5916\u7684\u529b\u91cf\uff01",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u88ad\u51fb\u5b9d\u5e93",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:warbound_helmet"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u98ce\u66b4\u4e4b\u51a0",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u5145\u6ee1\u96f7\u7535\u4e4b\u529b\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u98ce\u66b4\u4e4b\u51a0",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u53ef\u4ee5\u6539\u53d8",
+            "color": "$text"
+          },
+          {
+            "text": "\u98ce\u66b4\u7bad",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u7684\u4f7f\u7528\u65b9\u5f0f\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u88ad\u51fb\u5b9d\u5e93",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:stormcrown"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u6c34\u6676\u7532",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u7531\u4f1f\u5927\u5deb\u5e08\u7684\u7070\u70ec\u953b\u9020\u800c\u6210\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u6c34\u6676\u7532",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u53ef\u4ee5\u5f3a\u5316\u4f60\u7684\u6240\u6709\u6280\u80fd\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5b9e\u9a8c\u5ba4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:crystalplate"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u5821\u5792",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u7a7f\u4e0a\u8fd9\u4ef6\u91cd\u578b\u76d4\u7532\uff0c\u5c31\u80fd\u4e0d\u52a8\u5982\u5c71\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u88ad\u51fb\u5b9d\u5e93",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:castle"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u51b0\u5c01\u738b\u5ea7",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u8fd9\u4ef6\u9b54\u6cd5\u76d4\u7532\u80fd\u5f3a\u5316\u6765\u81ea\u4f60\u5185\u5fc3\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u5bd2\u51b0",
+            "color": "$chilled"
+          },
+          {
+            "text": "\u4e4b\u529b\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u6751\u5e84",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:frozen_throne"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u7f13\u9707\u62a4\u817f",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u5982\u679c\u4f60\u559c\u6b22\u98de\u7fd4\uff0c\u8fd9\u4ef6\u62a4\u817f\u80fd\u5e2e\u4f60\u907f\u514d\u4e8b\u6545\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5b9e\u9a8c\u5ba4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:crashguards"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u8702\u7fa4\u884c\u8005",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u7a7f\u4e0a\u8fd9\u6761\u9b54\u6cd5\u7d27\u8eab\u88e4\uff0c\u50cf\u98ce\u4e00\u6837\u5954\u8dd1\uff01",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u88ad\u51fb\u5b9d\u5e93",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:swarmwalkers"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u548c\u5e73\u4e3b\u4e49\u51c9\u978b",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u4e0d\u613f\u6253\u6253\u6740\u6740\uff1f\u90a3\u4e48",
+            "color": "$text"
+          },
+          {
+            "text": "\u548c\u5e73\u4e3b\u4e49\u51c9\u978b",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u5bf9\u60a8\u6765\u8bf4\u5c31\u975e\u5e38\u5b9e\u7528\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5b9e\u9a8c\u5ba4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:pacifist_sandals"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u9632\u51bb\u9774",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u9632\u51bb\u9774\u63d0\u4f9b\u4e86\u4e00\u4e2a\u72ec\u7279\u7684\u529f\u80fd\uff0c\u65e0\u8bba\u4f60\u8d70\u5230\u54ea\u91cc\u90fd\u4f1a\u7559\u4e0b\u4e00\u6761\u971c\u51bb\u7684\u8f68\u8ff9\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5de5\u5382",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:frostguards"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u4f0a\u65af\u5361\u5229\u5e03\u5c14",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u5728\u6218\u6597\u4e2d\u6325\u821e",
+            "color": "$text"
+          },
+          {
+            "text": "\u4f0a\u65af\u5361\u5229\u5e03\u5c14",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u4f1a\u8ba9\u4f60\u53d8\u5f97\u66f4\u52a0\u5f3a\u58ee\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "X\u6807\u8bb0\u623f\u95f4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:iskallibur"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u6b63\u4e49\u81a8\u80c0",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u5c0f\u5c0f\u7684\u5f88\u8ba8\u538c\uff1f\u90a3\u4e48",
+            "color": "$text"
+          },
+          {
+            "text": "\u6b63\u4e49\u81a8\u80c0",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u4f1a\u662f\u4f60\u6700\u597d\u7684\u670b\u53cb\uff0c\u5b83\u53ef\u4ee5\u8fdb\u884c\u8303\u56f4\u653b\u51fb\uff0c\u5e76\u4e14\u4f1a\u63d0\u5347",
+            "color": "$text"
+          },
+          {
+            "text": "\u5e7c\u4f53",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u4f24\u5bb3\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u88ad\u51fb\u5b9d\u5e93",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:inflated_justice"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u8702\u871c\u68d2",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u9ad8\u6982\u7387\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u9707\u51fb",
+            "color": "$shocking"
+          },
+          {
+            "text": "\u53ef\u4ee5\u6709\u6548\u5730\u8ba9\u602a\u7269\u8fdc\u79bb\u4f60\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u6751\u5e84",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:honey_stick"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u9634\u68ee\u4e4b\u76fe",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u7528\u8fd9\u53ef\u6015\u7684\u5384\u8fd0\u4e4b\u76fe\u5413\u8dd1\u602a\u7269\u4eec\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u88ad\u51fb\u5b9d\u5e93",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:grim"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u73ab\u7470\u68d8\u85e4",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u5982\u679c",
+            "color": "$text"
+          },
+          {
+            "text": "\u8346\u68d8",
+            "color": "$thornsDamage"
+          },
+          {
+            "text": "\u662f\u4f60\u6700\u559c\u6b22\u7684\u6740\u602a\u65b9\u5f0f\uff0c\u90a3\u4e48\u6ca1\u6709\u4ec0\u4e48\u76fe\u724c\u6bd4",
+            "color": "$text"
+          },
+          {
+            "text": "\u73ab\u7470\u68d8\u85e4",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u66f4\u597d\u4e86\u3002\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "X\u6807\u8bb0\u623f\u95f4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:ivy"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u761f\u75ab\u4e4b\u5899",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u8fd9\u4e2a\u62e5\u6709\u72ec\u7279\u6784\u6210\u7684\u76fe\u724c\u53ef\u4ee5\u4e3a\u4f60\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u65e0\u5e8f\u675f\u7f1a",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u9644\u52a0\u6bd2\u6027",
+            "color": "$poison"
+          },
+          {
+            "text": "\u3002\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5b9e\u9a8c\u5ba4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:pestilence_wall"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u89d2\u6597\u58eb\u5706\u76fe",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u6325\u821e\u8fd9\u9762\u7531",
+            "color": "$text"
+          },
+          {
+            "text": "\u6218\u58eb\u94f8\u9020\u7684",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u5706\u76fe\uff0c\u53d8\u5f97\u66f4\u52a0\u8fc5\u901f\u3001\u66f4\u52a0\u6124\u6012\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u6751\u5e84",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:gladiator_buckler"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u70bc\u72f1\u4e4b\u89e6",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "",
+            "color": "$text"
+          },
+          {
+            "text": "\u70bc\u72f1\u4e4b\u89e6",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u662f\u6700\u5f3a\u7684\u706b\u5deb\u5e08\u6240\u4f7f\u7528\u7684\u6cd5\u6756\uff0c\u5b83\u80fd\u5f3a\u5316\u4f60\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u706b\u7403\u672f",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u88ad\u51fb\u5b9d\u5e93",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:inferno_reach"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u94fe\u97ad",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u8fd9\u4e2a\u5947\u602a\u7684\u9b54\u6756\u901a\u8fc7",
+            "color": "$text"
+          },
+          {
+            "text": "\u8fde\u9501",
+            "color": "$chains"
+          },
+          {
+            "text": "\u6765\u5f3a\u5316\u4f60\u7684\u653b\u51fb\uff0c\u5927\u5927\u589e\u52a0\u4e86\u653b\u51fb\u8303\u56f4\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5b9e\u9a8c\u5ba4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:chainlash"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u6cd5\u68cd",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u997f\u4e86\u5417\uff1f\u8fd9\u6839\u65b0\u9c9c\u51fa\u7089\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u6cd5\u68cd",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u4e0d\u7ba1\u4ec0\u4e48\u65f6\u5019\u5c1d\u8d77\u6765\u90fd\u975e\u5e38\u7f8e\u5473\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5b9e\u9a8c\u5ba4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:baguette"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u971c\u51bb\u4e4b\u7403",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u5982\u679c\u4f60\u559c\u6b22\u73a9",
+            "color": "$text"
+          },
+          {
+            "text": "\u51b0",
+            "color": "$chilled"
+          },
+          {
+            "text": "\uff0c\u90a3\u6ca1\u6709\u4ec0\u4e48\u6bd4",
+            "color": "$text"
+          },
+          {
+            "text": "\u971c\u51bb\u4e4b\u7403",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u66f4\u597d\u4e86\u3002\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u88ad\u51fb\u5b9d\u5e93",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:frozen_orb"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u4e07\u82b1\u7b52",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u8fd9\u4e2a\u72ec\u7279\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u73e0\u5b9d",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u5177\u6709\u591a\u79cd\u7279\u6027\uff0c\u53ef\u4ee5\u8ba9\u4f60\u7684\u5de5\u5177\u96c6\u591a\u79cd\u529f\u80fd\u4e8e\u4e00\u8eab\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5b9e\u9a8c\u5ba4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:kaleidoscope"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u9b54\u529b\u7efd\u653e",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u4f7f\u7528\u62e5\u6709",
+            "color": "$text"
+          },
+          {
+            "text": "\u9b54\u529b\u7efd\u653e",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\u7684\u5de5\u5177\u641c\u522e\u5b9d\u7bb1\u6536\u76ca\u66f4\u9ad8\uff0c\u56e0\u4e3a\u5b83\u5728\u641c\u522e\u65f6\u4f1a\u63d0\u5347\u9b54\u529b\u518d\u751f\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "X\u6807\u8bb0\u623f\u95f4",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:manabloom"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "\u591a\u529f\u80fd\u7403",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "\u53ea\u9700\u8fd9\u4e00\u9897\u72ec\u7279\u7684",
+            "color": "$text"
+          },
+          {
+            "text": "\u73e0\u5b9d",
+            "color": "#7D520E"
+          },
+          {
+            "text": "\uff0c\u5c31\u80fd\u8ba9\u5de5\u5177\u62e5\u6709\u5404\u79cd\u529f\u80fd\u3002",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n\u6389\u843d\u4e8e\uff1a",
+            "color": "$text"
+          },
+          {
+            "text": "\u5de5\u5382",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:pax"
+    }
+  ]
+}

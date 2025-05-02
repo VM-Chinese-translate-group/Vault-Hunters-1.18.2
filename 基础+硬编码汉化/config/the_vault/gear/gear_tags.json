@@ -16,7 +16,7 @@
         "focusResistance",
         "focusDamage"
       ],
-      "display": "\u6297\u6027\u63d0\u5347/\u4f24\u5bb3",
+      "display": "\u6297\u6027/\u4f24\u5bb3",
       "color": 16760832,
       "weight": 0
     },
@@ -90,6 +90,14 @@
       ],
       "display": "\u971c\u51bb\u6548\u679c\u4e91",
       "color": 3138042,
+      "weight": 10
+    },
+    "Heart Frag Change": {
+      "tags": [
+        "focusHitHearts"
+      ],
+      "display": "\u7ea2\u5fc3\u788e\u7247\u6982\u7387",
+      "color": 2293541,
       "weight": 10
     },
     "Poison Cloud": {
@@ -184,7 +192,7 @@
       "tags": [
         "focusSoulChance"
       ],
-      "display": "\u7075\u9b42\u788e\u7247\u6389\u843d\u7387",
+      "display": "\u7075\u9b42\u6570\u91cf",
       "color": 4653308,
       "weight": 10
     },
@@ -224,7 +232,7 @@
       "tags": [
         "focusMagnetRange"
       ],
-      "display": "\u8303\u56f4",
+      "display": "\u62fe\u53d6\u8303\u56f4",
       "color": 16364415,
       "weight": 10
     },
@@ -232,7 +240,7 @@
       "tags": [
         "focusMagnetVelocity"
       ],
-      "display": "\u901f\u5ea6",
+      "display": "\u5438\u5f15\u901f\u5ea6",
       "color": 14608287,
       "weight": 10
     },
@@ -248,7 +256,7 @@
       "tags": [
         "focusStun"
       ],
-      "display": "\u51fb\u6655",
+      "display": "\u7729\u6655\u653b\u51fb",
       "color": 1681124,
       "weight": 10
     },
@@ -280,7 +288,7 @@
       "tags": [
         "focusSweeping"
       ],
-      "display": "\u6a2a\u626b\u653b\u51fb\u6982\u7387",
+      "display": "\u6a2a\u626b\u653b\u51fb",
       "color": 14727777,
       "weight": 10
     },
@@ -290,7 +298,7 @@
       ],
       "display": "\u707e\u5384\u4f24\u5bb3",
       "color": 40882,
-      "weight": 10
+      "weight": 0
     },
     "DamageSpiders": {
       "tags": [
@@ -298,7 +306,7 @@
       ],
       "display": "\u8282\u80a2\u4f24\u5bb3",
       "color": 8281694,
-      "weight": 10
+      "weight": 0
     },
     "DamageUndead": {
       "tags": [
@@ -306,7 +314,7 @@
       ],
       "display": "\u4ea1\u7075\u4f24\u5bb3",
       "color": 16382128,
-      "weight": 10
+      "weight": 0
     },
     "DamageNether": {
       "tags": [
@@ -314,7 +322,7 @@
       ],
       "display": "\u4e0b\u754c\u4f24\u5bb3",
       "color": 16757889,
-      "weight": 10
+      "weight": 0
     },
     "DamageChampion": {
       "tags": [

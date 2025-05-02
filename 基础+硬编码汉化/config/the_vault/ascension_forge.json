@@ -1,6 +1,38 @@
 {
   "listings": [
     {
+      "modelId": "the_vault:gear/armor/phoenix_soulflame/helmet",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/phoenix_soulflame/chestplate",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/phoenix_soulflame/leggings",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/phoenix_soulflame/boots",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/phoenix_goldflame/helmet",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/phoenix_goldflame/chestplate",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/phoenix_goldflame/leggings",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/armor/phoenix_goldflame/boots",
+      "cost": 25
+    },
+    {
       "modelId": "the_vault:gear/armor/soulflame/helmet",
       "cost": 25
     },
@@ -71,6 +103,18 @@
     {
       "modelId": "the_vault:gear/sword/glorem_glipsum",
       "cost": 4
+    },
+    {
+      "modelId": "the_vault:gear/sword/soulflame",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/wand/soul",
+      "cost": 25
+    },
+    {
+      "modelId": "the_vault:gear/focus/soulorb",
+      "cost": 25
     },
     {
       "modelId": "the_vault:gear/axe/greathammer",
@@ -317,7 +361,7 @@
     {
       "stack": {
         "item": "the_vault:title_scroll",
-        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_treasure_hunter\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u8d85\u7ea7\u5b9d\u85cf\u730e\u4eba\",\"color\":\"#ffc926\"}]}'}}"
+        "nbt": "{Affix:\"PREFIX\",TitleId:\"the_treasure_hunter\", display:{Name:'{\"text\":\"\u524d\u7f00\u79f0\u53f7\uff1a\", \"extra\":[{\"text\":\"\u73cd\u5b9d\u730e\u4eba\",\"color\":\"#ffc926\"}]}'}}"
       },
       "cost": 2	
     },

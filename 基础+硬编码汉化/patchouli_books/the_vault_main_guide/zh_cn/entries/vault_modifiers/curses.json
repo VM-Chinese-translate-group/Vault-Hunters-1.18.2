@@ -7,55 +7,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "诅咒会以对玩家$(l)严重不利$()的方式影响宝库。$(br2)诅咒只能在宝库水晶已经被$(l)宝库催化剂$()、$(l)铭文$()或$(l)凋灵骷髅头颅$()等进行$(l:game_mechanics/crystal_modification)$(l)修饰$()以后才能生效。"
+      "text": "$(br)诅咒会影响宝库，对玩家$(l)十分不利$()。$(br2)在宝库水晶被$(l)宝库催化剂$()、$(l)铭文$()等进行$(l:game_mechanics/crystal_modification)$(l)修饰$()时。如果超过了水晶的容量，则有概率添加一个诅咒。"
     },
     {
       "type": "patchouli:text",
       "title": "诅咒",
-      "text": "$(br)宝库水晶上$(l)骷髅头$()的数量代表该水晶上出现的诅咒词缀的$(l)数量$()。$(br2)宝库的诅咒$(l)能$()使用$(l:game_mechanics/crystal_modification#motes)$(t:微核)$(l)微核$()来查看和修改。"
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "minecraft:player_head",
-      "title": "玩家诅咒",
-      "text": "玩家诅咒会影响玩家在宝库中的$(l)属性$()。$(br2)这些诅咒可能会给你施加$(l)挖掘疲劳$()、降低$(l)魔力再生$()等各种效果。"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "玩家诅咒",
-      "text": "$(li)$(l)饥饿$()$(li2)+1饥饿效果$()$(br)$(li)$(l)挖掘疲劳$()$(li2)+1挖掘疲劳$()$(br)$(li)$(l)减速$()$(li2)+1缓慢$()$(br)$(li)$(l)虚弱$()$(li2)+1虚弱$()$(br)$(li)$(l)迟钝$()$(li2)-10%冷却缩减$()"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "玩家诅咒",
-      "text": "$(li)$(l)重伤$()$(li2)-10生命值$()$(br)$(li)$(l)干涸$()$(li2)-70%魔力再生$()$(br)$(li)$(l)完全狂暴$()$(li2)+300%怪物伤害，+10%怪物速度$()$(li2)怪物生命值减少到1"
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "minecraft:map",
-      "title": "生成诅咒",
-      "text": "生成诅咒会影响$(l)宝库$()进行$(l)生成$()的方式。$(br2)这可能会将宝库的出口$(l)锁住$()，也可能在宝库中随机生成$(l)TNT$()。"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "生成诅咒",
-      "text": "$(li)$(l)坍塌$()$(li2)基岩替代部分宝库方块$()$(br)$(li)$(l)火山$()$(li2)熔岩逐渐填满整个宝库$()$(br)$(li)$(l)爆炸$()$(li2)小心宝库中的TNT$()"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "生成诅咒",
-      "text": "$(li)$(l)潜影$()$(li2)宝库中随机生成潜影弹$()$(br)$(li)$(l)锁定$()$(li2)在$(l:the_vault/objectives)目标$()完成之前，宝库出口将锁定，无法提前离开宝库$()"
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "minecraft:experience_bottle",
-      "title": "其他诅咒",
-      "text": "$(li)$(l)腐烂$()$(li2)$(l:the_vault/vault_fruits)宝库水果$()无法食用$()"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "其他诅咒",
-      "text": "$(li)$(l)泰山压顶$()$(li2)玩家无法跳跃$()$(br)$(li)$(l)蟹行$()$(li2)玩家只能左右移动$()$(br)$(li)$(l)混乱$()$(li2)玩家的移动将会颠倒$()$(br2)$(br)*只会在使用$(l)凋灵骷髅头颅$()的情况下生效"
+      "text": "$(br)宝库水晶上$(l)骷髅头$()的数量代表该水晶上出现的诅咒词缀的$(l)数量$()。$(br2)每个诅咒都会减少宝库的计时器，即宝库的可探索时间。"
     }
   ]
 }

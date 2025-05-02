@@ -27,24 +27,45 @@
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
+          },
+          {
+            "type": "lucky_altar",
+            "luckyAltarChance": 0.4,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "lucky_altar",
+            "luckyAltarChance": 0.5,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
           }
         ]
       },
       {
         "type": "tiered",
         "id": "Bartering",
-        "name": "\u780d\u4ef7",
+        "name": "\u4ee5\u7269\u6613\u7269",
         "tiers": [
           {
             "type": "shop_pedestal",
-            "costReduction": 0.25,
+            "costReduction": 0.15,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "shop_pedestal",
-            "costReduction": 0.5,
+            "costReduction": 0.3,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "shop_pedestal",
+            "costReduction": 0.45,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -133,8 +154,32 @@
         "tiers": [
           {
             "type": "gear_attribute",
-            "attribute": "the_vault:durability_wear_reduction",
-            "value": 0.06,
+            "attribute": "the_vault:durability_wear_reduction_cap",
+            "value": 0.05,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "gear_attribute",
+            "attribute": "the_vault:durability_wear_reduction_cap",
+            "value": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "gear_attribute",
+            "attribute": "the_vault:durability_wear_reduction_cap",
+            "value": 0.15,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "gear_attribute",
+            "attribute": "the_vault:durability_wear_reduction_cap",
+            "value": 0.2,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -142,31 +187,7 @@
           {
             "type": "gear_attribute",
             "attribute": "the_vault:durability_wear_reduction",
-            "value": 0.12,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "gear_attribute",
-            "attribute": "the_vault:durability_wear_reduction",
-            "value": 0.18,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "gear_attribute",
-            "attribute": "the_vault:durability_wear_reduction",
-            "value": 0.24,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "gear_attribute",
-            "attribute": "the_vault:durability_wear_reduction",
-            "value": 0.3,
+            "value": 0.25,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -232,25 +253,25 @@
       {
         "type": "tiered",
         "id": "Mystic",
-        "name": "\u79d8\u672f",
+        "name": "\u6c34\u6676\u79d8\u58eb",
         "tiers": [
           {
             "type": "mystic",
-            "instabilityChanceReduction": 0.12,
+            "additionalCrystalVolume": 10,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "mystic",
-            "instabilityChanceReduction": 0.24,
+            "additionalCrystalVolume": 20,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "mystic",
-            "instabilityChanceReduction": 0.36,
+            "additionalCrystalVolume": 30,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0
@@ -260,7 +281,7 @@
       {
         "type": "tiered",
         "id": "Infuser",
-        "name": "\u704c\u6ce8\u5e08",
+        "name": "\u704c\u6ce8\u5e08\uff08\u5df2\u5f03\u7528\uff09",
         "tiers": [
           {
             "type": "infuser",
@@ -316,7 +337,7 @@
       {
         "type": "tiered",
         "id": "Fortunate",
-        "name": "\u6b27\u6c14\u7206\u68da",
+        "name": "\u597d\u8fd0",
         "tiers": [
           {
             "type": "fortunate",
@@ -341,22 +362,8 @@
         "tiers": [
           {
             "type": "jeweler",
-            "numberOfFreeCuts": 1,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "jeweler",
-            "numberOfFreeCuts": 2,
-            "learnPointCost": 1,
-            "regretPointCost": 0,
-            "unlockLevel": 0
-          },
-          {
-            "type": "jeweler",
-            "numberOfFreeCuts": 3,
-            "learnPointCost": 1,
+            "additionalIdentifiedJewels": 1,
+            "learnPointCost": 2,
             "regretPointCost": 0,
             "unlockLevel": 0
           }
@@ -387,6 +394,30 @@
             "type": "marketer",
             "timeReductionInMinutes": 0,
             "numberOfRolls": 3,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "marketer",
+            "timeReductionInMinutes": 0,
+            "numberOfRolls": 4,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "marketer",
+            "timeReductionInMinutes": 0,
+            "numberOfRolls": 5,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          },
+          {
+            "type": "marketer",
+            "timeReductionInMinutes": 0,
+            "numberOfRolls": 6,
             "learnPointCost": 1,
             "regretPointCost": 0,
             "unlockLevel": 0

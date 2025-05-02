@@ -1,15 +1,14 @@
 [
     {
         "name": "宝藏猎人硬编码汉化-其他模组部分",
-        "desc": "其他模组的部分硬编码汉化。版本V2.5.6",
+        "desc": "其他模组的部分硬编码汉化。版本V2.6.5",
         "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
         "mods": "others",
         "dynamic": false
     },
     {
         "target_class": {
-            "name": "net.creeperhost.ftbbackups.BackupHandler",
-            "method": ""
+            "name": "net.creeperhost.ftbbackups.BackupHandler"
         },
         "key": "Backup finished in ",
         "value": "服务器备份完成，耗时 "
@@ -56,88 +55,77 @@
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.AsphaltBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.AsphaltBlockCategory"
         },
         "key": "Asphalt",
         "value": "沥青"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.CrystalBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.CrystalBlockCategory"
         },
         "key": "Crystal",
         "value": "水晶"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.GelatinBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.GelatinBlockCategory"
         },
         "key": "Gelatin",
         "value": "凝胶"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.IndustrialBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.IndustrialBlockCategory"
         },
         "key": "Industrial",
         "value": "工业"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.LabBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.LabBlockCategory"
         },
         "key": "Laboratory",
         "value": "实验室"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.MetalsBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.MetalsBlockCategory"
         },
         "key": "Metals",
         "value": "金属"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.NaturalBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.NaturalBlockCategory"
         },
         "key": "Natural",
         "value": "自然"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.PastelBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.PastelBlockCategory"
         },
         "key": "Pastel",
         "value": "蜡笔"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.PlasticBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.PlasticBlockCategory"
         },
         "key": "Plastic",
         "value": "塑料"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.category.block.SheetMetalBlockCategory",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.category.block.SheetMetalBlockCategory"
         },
         "key": "Sheet Metal",
         "value": "金属板"
     },
     {
         "target_class": {
-            "name": "iskallia.auxiliaryblocks.init.ModBlocks",
-            "method": ""
+            "name": "iskallia.auxiliaryblocks.init.ModBlocks"
         },
         "pairs": [
             {
@@ -216,8 +204,7 @@
     },
     {
         "target_class": {
-            "name": "iskallia.vaultintegrations.block.item.AltarConduitBlockItem",
-            "method": "onItemUseFirst"
+            "name": "iskallia.vaultintegrations.block.item.AltarConduitBlockItem"
         },
         "pairs": [
             {
@@ -232,24 +219,21 @@
     },
     {
         "target_class": {
-            "name": "iskallia.vaultintegrations.block.AltarConduitBlock",
-            "method": "m_6402_"
+            "name": "iskallia.vaultintegrations.block.AltarConduitBlock"
         },
         "key": "Unable to place the Altar Conduit. You already have one placed in the world at ",
         "value": "无法放置祭坛导管。你已经在世界中放置了一个，位于"
     },
     {
         "target_class": {
-            "name": "iskallia.vaultintegrations.client.gui.screen.AltarConduitScreen",
-            "method": ""
+            "name": "iskallia.vaultintegrations.client.gui.screen.AltarConduitScreen"
         },
         "key": "Blacklisted Items:",
         "value": "黑名单物品："
     },
     {
         "target_class": {
-            "name": "com.mrbysco.chunkymcchunkface.blocks.ChunkLoaderBlock",
-            "method": ""
+            "name": "com.mrbysco.chunkymcchunkface.blocks.ChunkLoaderBlock"
         },
         "key": "Chunk Loader",
         "value": "区块加载器"
@@ -493,5 +477,33 @@
         },
         "key": "Does not fit in here",
         "value": "与此设备不适配"
+    },
+    {
+        "target_class": {
+            "name": "io.iridium.vaultarhud.VaultarHUDOverlay"
+        },
+        "key": "Recipe",
+        "value": "配方"
+    },
+    {
+        "target_class": {
+            "name": "com.supermartijn642.core.TextComponents",
+            "method": "string",
+            "local": "Vtext"
+        },
+        "pairs": [
+            {
+                "key": "Overworld",
+                "value": "主世界"
+            },
+            {
+                "key": "The Nether",
+                "value": "下界"
+            },
+            {
+                "key": "The End",
+                "value": "末地"
+            }
+        ]
     }
 ]

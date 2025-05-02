@@ -1,19 +1,19 @@
 {
   "sortnum": 5,
-  "name": "珠宝切割",
-  "icon": "the_vault:vault_jewel_cutting_station",
+  "name": "珠宝制作",
+  "icon": "the_vault:jewel_crafting_table",
   "category": "patchouli:vault_tools_category",
   "read_by_default": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "珠宝可在$(l)珠宝切割站$()中进行切割。$(br2)通过$(l)消耗$()一定的$(l)银废料$()和$(l)宝库金币$()，可随机减少$(l)1-4点$()珠宝的$(l)大小$()，最低可以减小到10。$(br2)在默认情况下，切割操作会$(l)移除$()珠宝上的1个$(l)工具词缀$()，即降低1级珠宝的稀有度。"
+      "text": "可以使用$(l)珠宝制作台$()制作珠宝并用于强化宝库工具。$(br2)珠宝制作台只能制作破损品质的珠宝，但可以选择任意“狂热”词缀、工具能力词缀（斧的能力、锹的能力、镐的能力）以及“自动熔炼”、“粉碎”和“流体销毁”。拥有这些词缀的珠宝无法从珠宝袋中获得。"
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "the_vault:vault_jewel_cutting_station",
-      "title": "珠宝切割站",
-      "text": "$(br)如果珠宝只剩余1个词缀，它将会$(l)碎裂$()成一些材料。$(br2)$(l)珠宝匠$()专精可以提供最多3次不移除词缀的自由切割。"
+      "recipe": "the_vault:jewel_crafting_table",
+      "title": "珠宝制作台",
+      "text": "$(br)选择的词缀不同，制作的珠宝的大小$(l)不同$()。"
     }
   ]
 }

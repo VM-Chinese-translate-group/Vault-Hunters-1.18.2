@@ -19,6 +19,12 @@
       "type": "patchouli:text",
       "title": "研究",
       "text": "$(br)宝藏猎人UI顶部的第五个标签为研究标签页，你可以在此处查看和解锁研究。$(br2)部分研究有其$(l)前置研究$()，需要先解锁前置的研究才能解锁。$(br2)你可以与其他玩家创建研究小组来一起$(l)分享$()研究成果，详见$(l:useful_commands/research_commands)$(l)研究命令$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:knowledge_brew",
+      "title": "知识精酿",
+      "text": "你可以通过饮用其他玩家制作的$(l)知识精酿$()来快速解锁研究。$(br2)玩家制作知识精酿时，精酿会记录该玩家当前已解锁的研究。其他玩家饮用时，将会立即解锁记录的研究。"
     }
   ]
 }

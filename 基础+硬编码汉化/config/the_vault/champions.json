@@ -1,0 +1,271 @@
+{
+  "defaultChampionChance": 0.01,
+  "entityChampionChance": {
+    "@the_vault:dungeon": 0.02,
+    "@the_vault:tank": 0.02,
+    "@the_vault:horde": -10.0,
+    "the_vault:smolcap": -10.0,
+    "minecraft:villager": -10.0,
+    "minecraft:chicken": -10.0,
+    "minecraft:armor_stand": -10.0,
+    "rottencreatures:flying_scarab": -10.0,
+    "minecraft:cod": -10.0,
+    "minecraft:salmon": -10.0,
+    "minecraft:tropical_fish": -10.0,
+    "minecraft:axolotl": -10.0,
+    "minecraft:pufferfish": -10.0,
+    "rottencreatures:scarab": -10.0,
+    "minecraft:shulker": -10.0,
+    "minecraft:shulker_bullet": -10.0,
+    "minecraft:slime": -10.0,
+    "minecraft:silverfish": -10.0,
+    "the_vault:blood_silverfish": -10.0,
+    "minecraft:magma_cube": -10.0,
+    "rottencreatures:zombie_lackey": -10.0,
+    "rottencreatures:skeleton_lackey": -10.0,
+    "alexsmobs:catfish": -10.0,
+    "the_vault:blood_slime": -10.0,
+    "@the_vault:bosses": -10.0,
+    "@the_vault:elite": -10.0,
+    "the_vault:vault_spider_baby": -10.0,
+    "the_vault:boogieman": -10.0
+  },
+  "defaultAttributeOverrides": [
+    {
+      "NAME": "minecraft:generic.max_health",
+      "VALUE": 6.0,
+      "OPERATOR": "multiply"
+    },
+    {
+      "NAME": "minecraft:generic.attack_damage",
+      "VALUE": 2.0,
+      "OPERATOR": "multiply"
+    },
+    {
+      "NAME": "the_vault:generic.crit_chance",
+      "VALUE": 0.3,
+      "OPERATOR": "set"
+    },
+    {
+      "NAME": "minecraft:generic.knockback_resistance",
+      "VALUE": 0.8,
+      "OPERATOR": "set"
+    }
+  ],
+  "entityAttributeOverrides": {
+    "@the_vault:horde": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "VALUE": 10.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "VALUE": 2.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "VALUE": 0.3,
+        "OPERATOR": "set"
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "VALUE": 0.8,
+        "OPERATOR": "set"
+      }
+    ],
+    "@the_vault:tank": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "VALUE": 3.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "VALUE": 2.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "VALUE": 0.3,
+        "OPERATOR": "set"
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "VALUE": 0.8,
+        "OPERATOR": "set"
+      }
+    ],
+    "@the_vault:dungeon": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "VALUE": 3.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "VALUE": 2.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "VALUE": 0.3,
+        "OPERATOR": "set"
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "VALUE": 0.8,
+        "OPERATOR": "set"
+      }
+    ]
+  },
+  "entityAffixesData": {
+    "@the_vault:mobs": [
+      {
+        "value": "{amplifier:1,chance:1.0f,duration:60,mob_effect:\"minecraft:poison\",name:\"\u5267\u6bd2\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,duration:20,mob_effect:\"the_vault:mana_steal\",name:\"\u9b54\u529b\u7a83\u53d6\u5149\u73af\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,chance:1.0f,duration:80,mob_effect:\"the_vault:mana_steal\",name:\"\u9b54\u529b\u7a83\u53d6\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:4,chance:1.0f,duration:100,mob_effect:\"the_vault:vulnerable\",name:\"\u6613\u4f24\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,chance:1.0f,duration:80,mob_effect:\"the_vault:freeze\",name:\"\u51b0\u51bb\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:weakness\",name:\"\u865a\u5f31\u6253\u51fb\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,duration:40,mob_effect:\"the_vault:freeze\",name:\"\u51b0\u51bb\u5149\u73af\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,duration:40,mob_effect:\"the_vault:vulnerable\",name:\"\u6613\u4f24\u5149\u73af\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:resistance\",name:\"\u52a0\u56fa\",range:5,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:speed\",name:\"\u52a0\u901f\",range:5,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 2.0
+      },
+      {
+        "value": "{amplifier:3,duration:20,mob_effect:\"minecraft:strength\",name:\"\u529b\u91cf\u63d0\u5347\",range:4,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:0,duration:80,mob_effect:\"the_vault:immortality\",name:\"\u514d\u75ab\",range:10,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 2.0
+      },
+      {
+        "value": "{leech_percentage:5.0f,name:\"\u5438\u8840\",type:\"leech_on_hit\"}",
+        "weight": 4.0
+      }
+    ],
+    "@the_vault:dungeon": [
+      {
+        "value": "{amplifier:1,chance:1.0f,duration:60,mob_effect:\"minecraft:poison\",name:\"\u5267\u6bd2\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,duration:20,mob_effect:\"the_vault:mana_steal\",name:\"\u9b54\u529b\u7a83\u53d6\u5149\u73af\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,chance:1.0f,duration:80,mob_effect:\"the_vault:mana_steal\",name:\"\u9b54\u529b\u7a83\u53d6\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,chance:1.0f,duration:80,mob_effect:\"the_vault:freeze\",name:\"\u51b0\u51bb\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:weakness\",name:\"\u865a\u5f31\u6253\u51fb\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,duration:40,mob_effect:\"the_vault:freeze\",name:\"\u51b0\u51bb\u5149\u73af\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:resistance\",name:\"\u52a0\u56fa\",range:5,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:speed\",name:\"\u52a0\u901f\",range:5,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 2.0
+      },
+      {
+        "value": "{amplifier:3,duration:20,mob_effect:\"minecraft:strength\",name:\"\u529b\u91cf\u63d0\u5347\",range:4,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:0,duration:80,mob_effect:\"the_vault:immortality\",name:\"\u514d\u75ab\",range:10,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 2.0
+      },
+      {
+        "value": "{leech_percentage:5.0f,name:\"\u5438\u8840\",type:\"leech_on_hit\"}",
+        "weight": 4.0
+      }
+    ],
+    "@the_vault:illagers": [
+      {
+        "value": "{amplifier:1,chance:1.0f,duration:60,mob_effect:\"minecraft:poison\",name:\"\u5267\u6bd2\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,duration:20,mob_effect:\"the_vault:mana_steal\",name:\"\u9b54\u529b\u7a83\u53d6\u5149\u73af\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,chance:1.0f,duration:80,mob_effect:\"the_vault:mana_steal\",name:\"\u9b54\u529b\u7a83\u53d6\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,chance:1.0f,duration:80,mob_effect:\"the_vault:freeze\",name:\"\u51b0\u51bb\",type:\"on_hit_apply_potion\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:weakness\",name:\"\u865a\u5f31\u6253\u51fb\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:1,duration:40,mob_effect:\"the_vault:freeze\",name:\"\u51b0\u51bb\u5149\u73af\",range:5,target:\"player\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:resistance\",name:\"\u52a0\u56fa\",range:5,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:2,duration:20,mob_effect:\"minecraft:speed\",name:\"\u52a0\u901f\",range:5,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 2.0
+      },
+      {
+        "value": "{amplifier:3,duration:20,mob_effect:\"minecraft:strength\",name:\"\u529b\u91cf\u63d0\u5347\",range:4,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 4.0
+      },
+      {
+        "value": "{amplifier:0,duration:80,mob_effect:\"the_vault:immortality\",name:\"\u514d\u75ab\",range:10,target:\"mob\",type:\"potion_aura\"}",
+        "weight": 2.0
+      },
+      {
+        "value": "{leech_percentage:5.0f,name:\"\u5438\u8840\",type:\"leech_on_hit\"}",
+        "weight": 4.0
+      }
+    ]
+  }
+}

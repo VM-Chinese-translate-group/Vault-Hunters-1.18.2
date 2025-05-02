@@ -132,22 +132,6 @@
             "learnPointCost": 4,
             "regretPointCost": 4,
             "unlockLevel": 0
-          },
-          {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 3,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
-          },
-          {
-            "type": "effect",
-            "effect": "minecraft:speed",
-            "amplifier": 4,
-            "learnPointCost": 4,
-            "regretPointCost": 4,
-            "unlockLevel": 0
           }
         ]
       },
@@ -185,6 +169,53 @@
             "regretPointCost": 4,
             "unlockLevel": 75,
             "id": "reach_3"
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Purist",
+        "name": "\u7eaf\u7cb9",
+        "tiers": [
+          {
+            "type": "purist",
+            "rarities": [ "SCRAPPY" ],
+            "slots": [ "HEAD", "CHEST", "LEGS", "FEET" ],
+            "count": 1,
+            "damageIncrease": 0.025,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "purist",
+            "rarities": [ "SCRAPPY" ],
+            "slots": [ "HEAD", "CHEST", "LEGS", "FEET" ],
+            "count": 1,
+            "damageIncrease": 0.05,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "purist",
+            "rarities": [ "SCRAPPY" ],
+            "slots": [ "HEAD", "CHEST", "LEGS", "FEET" ],
+            "count": 1,
+            "damageIncrease": 0.075,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          },
+          {
+            "type": "purist",
+            "rarities": [ "SCRAPPY" ],
+            "slots": [ "HEAD", "CHEST", "LEGS", "FEET" ],
+            "count": 1,
+            "damageIncrease": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0
           }
         ]
       },
@@ -434,50 +465,55 @@
       {
         "type": "grouped",
         "id": "Masteries",
-        "name": "\u9a7e\u9a6d",
+        "name": "\u638c\u63a7",
         "maxSpentLearnPoints": 10,
         "children": [
           {
             "type": "tiered",
-            "id": "Nether_Mastery",
-            "name": "\u4e0b\u754c\u9a7e\u9a6d",
+            "id": "Horde_Mastery",
+            "name": "\u96c6\u7fa4\u638c\u63a7",
             "tiers": [
               {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_nether",
-                "value": 0.25,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_nether",
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
                 "value": 0.5,
+                "enemy": "@the_vault:mob_type/horde",
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
               },
               {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_nether",
-                "value": 0.75,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_nether",
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
                 "value": 1.0,
+                "enemy": "@the_vault:mob_type/horde",
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
               },
               {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_nether",
-                "value": 1.25,
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
+                "value": 1.5,
+                "enemy": "@the_vault:mob_type/horde",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
+                "value": 2.0,
+                "enemy": "@the_vault:mob_type/horde",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "SOUL_CHANCE",
+                "value": 2.5,
+                "enemy": "@the_vault:mob_type/horde",
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -486,45 +522,50 @@
           },
           {
             "type": "tiered",
-            "id": "Undead_Mastery",
-            "name": "\u4ea1\u7075\u9a7e\u9a6d",
+            "id": "Assassin_Mastery",
+            "name": "\u523a\u5ba2\u638c\u63a7",
             "tiers": [
               {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_undead",
+                "type": "player_stat",
+                "stat": "STUN_CHANCE",
+                "value": 0.05,
+                "enemy": "@the_vault:mob_type/assassin",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "STUN_CHANCE",
+                "value": 0.1,
+                "enemy": "@the_vault:mob_type/assassin",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "STUN_CHANCE",
+                "value": 0.15,
+                "enemy": "@the_vault:mob_type/assassin",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "STUN_CHANCE",
+                "value": 0.2,
+                "enemy": "@the_vault:mob_type/assassin",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "STUN_CHANCE",
                 "value": 0.25,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_undead",
-                "value": 0.5,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_undead",
-                "value": 0.75,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_undead",
-                "value": 1.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_undead",
-                "value": 1.25,
+                "enemy": "@the_vault:mob_type/assassin",
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -533,45 +574,50 @@
           },
           {
             "type": "tiered",
-            "id": "Arthropod_Mastery",
-            "name": "\u8282\u80a2\u9a7e\u9a6d",
+            "id": "Dungeon_Mastery",
+            "name": "\u5730\u7262\u638c\u63a7",
             "tiers": [
               {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_spiders",
+                "type": "player_stat",
+                "stat": "RESISTANCE",
+                "value": 0.05,
+                "enemy": "@the_vault:mob_type/dungeon",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "RESISTANCE",
+                "value": 0.1,
+                "enemy": "@the_vault:mob_type/dungeon",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "RESISTANCE",
+                "value": 0.15,
+                "enemy": "@the_vault:mob_type/dungeon",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "RESISTANCE",
+                "value": 0.2,
+                "enemy": "@the_vault:mob_type/dungeon",
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "player_stat",
+                "stat": "RESISTANCE",
                 "value": 0.25,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_spiders",
-                "value": 0.5,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_spiders",
-                "value": 0.75,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_spiders",
-                "value": 1.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_spiders",
-                "value": 1.25,
+                "enemy": "@the_vault:mob_type/dungeon",
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -580,45 +626,45 @@
           },
           {
             "type": "tiered",
-            "id": "Illager_Mastery",
-            "name": "\u707e\u5384\u9a7e\u9a6d",
+            "id": "Champion_Mastery",
+            "name": "\u51a0\u519b\u638c\u63a7",
             "tiers": [
               {
                 "type": "gear_attribute",
-                "attribute": "the_vault:damage_illagers",
-                "value": 0.25,
+                "attribute": "the_vault:damage_champion",
+                "value": 0.1,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
               },
               {
                 "type": "gear_attribute",
-                "attribute": "the_vault:damage_illagers",
+                "attribute": "the_vault:damage_champion",
+                "value": 0.2,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_champion",
+                "value": 0.3,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_champion",
+                "value": 0.4,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "unlockLevel": 0
+              },
+              {
+                "type": "gear_attribute",
+                "attribute": "the_vault:damage_champion",
                 "value": 0.5,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_illagers",
-                "value": 0.75,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_illagers",
-                "value": 1.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "unlockLevel": 0
-              },
-              {
-                "type": "gear_attribute",
-                "attribute": "the_vault:damage_illagers",
-                "value": 1.25,
                 "learnPointCost": 2,
                 "regretPointCost": 1,
                 "unlockLevel": 0
@@ -800,7 +846,7 @@
             "type": "low_health_damage",
             "damageIncrease": 0.2,
             "healthThreshold": 0.2,
-            "effect": "the_vault:beserking",
+            "effect": "the_vault:berserking",
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -809,7 +855,7 @@
             "type": "low_health_damage",
             "damageIncrease": 0.4,
             "healthThreshold": 0.2,
-            "effect": "the_vault:beserking",
+            "effect": "the_vault:berserking",
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -818,7 +864,7 @@
             "type": "low_health_damage",
             "damageIncrease": 0.6,
             "healthThreshold": 0.2,
-            "effect": "the_vault:beserking",
+            "effect": "the_vault:berserking",
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -827,7 +873,7 @@
             "type": "low_health_damage",
             "damageIncrease": 0.8,
             "healthThreshold": 0.2,
-            "effect": "the_vault:beserking",
+            "effect": "the_vault:berserking",
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -931,7 +977,206 @@
 
         ]
       },
+      {
+        "type": "tiered",
+        "id": "Prime_Amplification",
+        "name": "\u521d\u7ea7\u589e\u5e45",
+        "tiers": [
+          {
+            "type": "high_health_gear_attribute",
+            "attribute": "the_vault:area_of_effect",
+            "healthThreshold": 0.8,
+            "value": 0.05,
+            "effect": "the_vault:prime_amplification",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "primeamp_1"
+          },
+          {
+            "type": "high_health_gear_attribute",
+            "attribute": "the_vault:area_of_effect",
+            "healthThreshold": 0.8,
+            "value": 0.1,
+            "effect": "the_vault:prime_amplification",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "primeamp_2"
+          },
+          {
+            "type": "high_health_gear_attribute",
+            "attribute": "the_vault:area_of_effect",
+            "healthThreshold": 0.8,
+            "value": 0.15,
+            "effect": "the_vault:prime_amplification",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "primeamp_3"
+          },
+          {
+            "type": "high_health_gear_attribute",
+            "attribute": "the_vault:area_of_effect",
+            "healthThreshold": 0.8,
+            "value": 0.2,
+            "effect": "the_vault:prime_amplification",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "primeamp_4"
+          },
+          {
+            "type": "high_health_gear_attribute",
+            "attribute": "the_vault:area_of_effect",
+            "healthThreshold": 0.8,
+            "value": 0.25,
+            "effect": "the_vault:prime_amplification",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "primeamp_5"
+          },
+          {
+            "type": "high_health_gear_attribute",
+            "attribute": "the_vault:area_of_effect",
+            "healthThreshold": 0.8,
+            "value": 0.3,
+            "effect": "the_vault:prime_amplification",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "primeamp_6"
+          },
+          {
+            "type": "high_health_gear_attribute",
+            "attribute": "the_vault:area_of_effect",
+            "healthThreshold": 0.8,
+            "value": 0.35,
+            "effect": "the_vault:prime_amplification",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "primeamp_7"
+          },
+          {
+            "type": "high_health_gear_attribute",
+            "attribute": "the_vault:area_of_effect",
+            "healthThreshold": 0.8,
+            "value": 0.4,
+            "effect": "the_vault:prime_amplification",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "primeamp_8"
+          }
 
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Bountiful_Harvest",
+        "name": "\u4e30\u6536",
+        "tiers": [
+          {
+            "type": "low_health_gear_attribute",
+            "attribute": "the_vault:item_quantity",
+            "healthThreshold": 0.2,
+            "value": 0.05,
+            "effect": "the_vault:bountiful_harvest",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "bountifulharvest_1"
+          },
+          {
+            "type": "low_health_gear_attribute",
+            "attribute": "the_vault:item_quantity",
+            "healthThreshold": 0.2,
+            "value": 0.1,
+            "effect": "the_vault:bountiful_harvest",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "bountifulharvest_2"
+          },
+          {
+            "type": "low_health_gear_attribute",
+            "attribute": "the_vault:item_quantity",
+            "healthThreshold": 0.2,
+            "value": 0.15,
+            "effect": "the_vault:bountiful_harvest",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "bountifulharvest_3"
+          },
+          {
+            "type": "low_health_gear_attribute",
+            "attribute": "the_vault:item_quantity",
+            "healthThreshold": 0.2,
+            "value": 0.2,
+            "effect": "the_vault:bountiful_harvest",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "bountifulharvest_4"
+          }
+
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Treasure_Seeker",
+        "name": "\u5bfb\u5b9d\u4eba",
+        "tiers": [
+          {
+            "type": "low_health_gear_attribute",
+            "attribute": "the_vault:item_rarity",
+            "healthThreshold": 0.2,
+            "value": 0.05,
+            "effect": "the_vault:treasure_seeker",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "bountifulharvest_1"
+          },
+          {
+            "type": "low_health_gear_attribute",
+            "attribute": "the_vault:item_rarity",
+            "healthThreshold": 0.2,
+            "value": 0.1,
+            "effect": "the_vault:treasure_seeker",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "bountifulharvest_2"
+          },
+          {
+            "type": "low_health_gear_attribute",
+            "attribute": "the_vault:item_rarity",
+            "healthThreshold": 0.2,
+            "value": 0.15,
+            "effect": "the_vault:treasure_seeker",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "bountifulharvest_3"
+          },
+          {
+            "type": "low_health_gear_attribute",
+            "attribute": "the_vault:item_rarity",
+            "healthThreshold": 0.2,
+            "value": 0.2,
+            "effect": "the_vault:treasure_seeker",
+            "learnPointCost": 1,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "bountifulharvest_4"
+          }
+
+        ]
+      },
       {
         "type": "tiered",
         "id": "Stoneskin",
@@ -1626,6 +1871,7 @@
           }
         ]
       },
+      
       {
         "type": "tiered",
         "id": "Nucleus",
@@ -1679,6 +1925,244 @@
       },
       {
         "type": "tiered",
+        "id": "Hunters_Instinct",
+        "name": "\u730e\u624b\u672c\u80fd",
+        "tiers": [
+          {
+            "type": "cast_on_kill",
+            "filter": [
+              "{}"
+            ],
+            "ability": "Hunter_Base",
+            "probability": 0.005,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Arcana",
+        "name": "\u5965\u79d8",
+        "tiers": [
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:mana_regen",
+            "value": 0.2,
+            "effect": "the_vault:arcana",
+            "durationTicks": 80,
+            "maxStacks": 2,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "arcana_1"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:mana_regen",
+            "value": 0.2,
+            "effect": "the_vault:arcana",
+            "durationTicks": 120,
+            "maxStacks": 4,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "arcana_2"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:mana_regen",
+            "value": 0.2,
+            "effect": "the_vault:arcana",
+            "durationTicks": 160,
+            "maxStacks": 6,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "arcana_3"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:mana_regen",
+            "value": 0.2,
+            "effect": "the_vault:arcana",
+            "durationTicks": 200,
+            "maxStacks": 8,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "arcana_4"
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Blazing",
+        "name": "\u70c8\u7130",
+        "tiers": [
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.02,
+            "effect": "the_vault:blazing",
+            "durationTicks": 80,
+            "maxStacks": 4,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "blazing_1"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.02,
+            "effect": "the_vault:blazing",
+            "durationTicks": 120,
+            "maxStacks": 6,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "blazing_2"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.02,
+            "effect": "the_vault:blazing",
+            "durationTicks": 160,
+            "maxStacks": 8,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "blazing_3"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:movement_speed",
+            "value": 0.02,
+            "effect": "the_vault:blazing",
+            "durationTicks": 200,
+            "maxStacks": 10,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "blazing_4"
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Lucky_Momentum",
+        "name": "\u5e78\u8fd0\u52a8\u91cf",
+        "tiers": [
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:lucky_hit_chance",
+            "value": 0.01,
+            "effect": "the_vault:lucky_momentum",
+            "durationTicks": 80,
+            "maxStacks": 2,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 25,
+            "id": "lucky_momentum_1"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:lucky_hit_chance",
+            "value": 0.01,
+            "effect": "the_vault:lucky_momentum",
+            "durationTicks": 120,
+            "maxStacks": 4,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 25,
+            "id": "lucky_momentum_2"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:lucky_hit_chance",
+            "value": 0.01,
+            "effect": "the_vault:lucky_momentum",
+            "durationTicks": 160,
+            "maxStacks": 6,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 25,
+            "id": "lucky_momentum_3"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:lucky_hit_chance",
+            "value": 0.01,
+            "effect": "the_vault:lucky_momentum",
+            "durationTicks": 200,
+            "maxStacks": 8,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 25,
+            "id": "lucky_momentum_4"
+          }
+        ]
+      },
+      {
+        "type": "tiered",
+        "id": "Frenzy",
+        "name": "\u5c3d\u72c2",
+        "tiers": [
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:attack_speed_percent",
+            "value": 0.025,
+            "effect": "the_vault:frenzy",
+            "durationTicks": 80,
+            "maxStacks": 4,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "frenzy_1"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:attack_speed_percent",
+            "value": 0.025,
+            "effect": "the_vault:frenzy",
+            "durationTicks": 120,
+            "maxStacks": 6,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "frenzy_2"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:attack_speed_percent",
+            "value": 0.025,
+            "effect": "the_vault:frenzy",
+            "durationTicks": 160,
+            "maxStacks": 8,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "frenzy_3"
+          },
+          {
+            "type": "stacking_gear_attribute",
+            "attribute": "the_vault:attack_speed_percent",
+            "value": 0.025,
+            "effect": "the_vault:frenzy",
+            "durationTicks": 200,
+            "maxStacks": 10,
+            "learnPointCost": 2,
+            "regretPointCost": 1,
+            "unlockLevel": 0,
+            "id": "frenzy_4"
+          }
+        ]
+      },
+      {
+        "type": "tiered",
         "id": "Blight",
         "name": "\u67af\u840e",
         "tiers": [
@@ -1690,7 +2174,7 @@
             ],
             "effect": "minecraft:weakness",
             "amplifier": 10,
-            "duration": 40,
+            "duration": 100,
             "probability": 1.0,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1704,7 +2188,7 @@
             ],
             "effect": "minecraft:weakness",
             "amplifier": 12,
-            "duration": 60,
+            "duration": 120,
             "probability": 1.0,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1718,7 +2202,7 @@
             ],
             "effect": "minecraft:weakness",
             "amplifier": 14,
-            "duration": 80,
+            "duration": 140,
             "probability": 1.0,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1732,7 +2216,7 @@
             ],
             "effect": "minecraft:weakness",
             "amplifier": 16,
-            "duration": 100,
+            "duration": 160,
             "probability": 1.0,
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1795,7 +2279,7 @@
           }
         ]
       },
-
+      
 
       {
         "type": "grouped",

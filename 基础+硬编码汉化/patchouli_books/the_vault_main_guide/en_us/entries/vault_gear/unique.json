@@ -1,0 +1,19 @@
+{
+  "sortnum": 8,
+  "name": "独特珍品",
+  "icon": "the_vault:chestplate{clientCache: {rollType: \"Unique\"}}",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)独特$()是一种特殊的宝库装备品质，也代表着一类独一无二的宝库装备。$(br2)独特珍品十分稀有，每个都有不同的获取方法，也都有各自的装备特点。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:unique_codex",
+      "title": "独特珍品辞典",
+      "text": "$(br)你可以制作一个$(l)独特珍品辞典$()以查看所有独特珍品的信息。$(br2)如果你获取过对应的独特珍品，你还能从中查看它的获取方式。"
+    }
+  ]
+}

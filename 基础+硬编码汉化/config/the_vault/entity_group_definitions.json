@@ -1,0 +1,81 @@
+{
+  "groups": [
+    {
+      "id": "@the_vault:horde",
+      "icon": "the_vault:gui/mob_groups/horde",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u96c6\u7fa4\u602a\u7269"
+    },
+    {
+      "id": "@the_vault:assassin",
+      "icon": "the_vault:gui/mob_groups/assassin",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u523a\u5ba2\u602a\u7269"
+    },
+    {
+      "id": "@the_vault:tank",
+      "icon": "the_vault:gui/mob_groups/tank",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u5766\u514b\u602a\u7269"
+    },
+    {
+      "id": "@the_vault:fighter",
+      "icon": "the_vault:gui/mob_groups/dweller",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u5b9d\u5e93\u5c45\u6c11"
+    },
+    {
+      "id": "@the_vault:dungeon",
+      "icon": "the_vault:gui/mob_groups/dungeon",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u5730\u7262\u602a\u7269"
+    },
+    {
+      "id": "@the_vault:guardians",
+      "icon": "the_vault:gui/mob_groups/guardians",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u5b9d\u5e93\u5b88\u536b"
+    },
+    {
+      "id": "@the_vault:illagers",
+      "icon": "the_vault:gui/mob_groups/illagers",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u707e\u5384\u6751\u6c11"
+    },
+    {
+      "id": "@the_vault:mob_type/champion",
+      "icon": "the_vault:gui/mob_groups/champion",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u51a0\u519b"
+    },
+    {
+      "id": "@the_vault:minions",
+      "icon": "the_vault:gui/mob_groups/minions",
+      "color": "#FF0000",
+      "showHealthbar": true,
+      "displayName": "\u4e0b\u5c5e\u602a\u7269"
+    },
+    {
+      "id": "@the_vault:elite",
+      "icon": "the_vault:gui/mob_groups/elites",
+      "color": "#FF0000",
+      "showHealthbar": false,
+      "displayName": "\u7cbe\u82f1"
+    },
+    {
+      "id": "@the_vault:bosses",
+      "icon": "the_vault:gui/mob_groups/boss",
+      "color": "#FF0000",
+      "showHealthbar": false,
+      "displayName": "\u9996\u9886"
+    }
+  ]
+}

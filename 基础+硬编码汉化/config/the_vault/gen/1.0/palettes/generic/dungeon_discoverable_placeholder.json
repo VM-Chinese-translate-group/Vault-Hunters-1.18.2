@@ -1,0 +1,95 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "DUNGEON_DISCOVERABLE",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.25,
+          "success": {
+            "the_vault:modifier_discovery": 0,
+            "the_vault:enhancement_altar": 0,
+            "the_vault:alchemy_archive": 5
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 60,
+          "probability": 0.35,
+          "success": {
+            "the_vault:modifier_discovery": 8,
+            "the_vault:enhancement_altar": 0,
+            "the_vault:alchemy_archive": 2
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "the_vault:enhancement_altar",
+          "output": {
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:15,max:25},filter:[\"WOODEN\",\"LIVING\",\"GILDED\",\"ORNATE\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:8,max:14},filter:[\"WOODEN\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u6728\u5236\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:3,max:6},filter:[\"LIVING\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u6d3b\u5316\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:3,max:6},filter:[\"GILDED\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u9540\u91d1\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:3,max:6},filter:[\"ORNATE\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u534e\u4e3d\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:break_blocks,range:{type:uniform,min:5,max:10},filter:[\"@the_vault:ores\"],display:\"{'text':'\u6316\u6398%s\u4e2a\u77ff\u77f3'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:kill_mobs,range:{type:uniform,min:10,max:25},filter:[\"@the_vault:mobs\"],display:\"{'text':'\u51fb\u6740%s\u53ea\u602a\u7269'}\"}}": 1
+          }
+        },
+        {
+          "level": 30,
+          "type": "weighted_target",
+          "target": "the_vault:enhancement_altar",
+          "output": {
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:25,max:35},filter:[\"WOODEN\",\"LIVING\",\"GILDED\",\"ORNATE\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:14,max:20},filter:[\"WOODEN\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u6728\u5236\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:6,max:9},filter:[\"LIVING\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u6d3b\u5316\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:6,max:9},filter:[\"GILDED\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u9540\u91d1\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:6,max:9},filter:[\"ORNATE\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u534e\u4e3d\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:break_blocks,range:{type:uniform,min:10,max:15},filter:[\"@the_vault:ores\"],display:\"{'text':'\u6316\u6398%s\u4e2a\u77ff\u77f3'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:kill_mobs,range:{type:uniform,min:10,max:15},filter:[\"@the_vault:mobs\"],display:\"{'text':'\u51fb\u6740%s\u53ea\u602a\u7269'}\"}}": 1
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "the_vault:enhancement_altar",
+          "output": {
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:35,max:45},filter:[\"WOODEN\",\"LIVING\",\"GILDED\",\"ORNATE\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:20,max:26},filter:[\"WOODEN\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u6728\u5236\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:9,max:12},filter:[\"LIVING\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u6d3b\u5316\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:9,max:12},filter:[\"GILDED\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u9540\u91d1\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:9,max:12},filter:[\"ORNATE\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u534e\u4e3d\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:break_blocks,range:{type:uniform,min:15,max:20},filter:[\"@the_vault:ores\"],display:\"{'text':'\u6316\u6398%s\u4e2a\u77ff\u77f3'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:kill_mobs,range:{type:uniform,min:15,max:20},filter:[\"@the_vault:mobs\"],display:\"{'text':'\u51fb\u6740%s\u53ea\u602a\u7269'}\"}}": 1
+          }
+        },
+        {
+          "level": 65,
+          "type": "weighted_target",
+          "target": "the_vault:enhancement_altar",
+          "output": {
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:45,max:55},filter:[\"WOODEN\",\"LIVING\",\"GILDED\",\"ORNATE\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:26,max:32},filter:[\"WOODEN\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u6728\u5236\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:12,max:15},filter:[\"LIVING\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u6d3b\u5316\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:12,max:15},filter:[\"GILDED\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u9540\u91d1\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:loot_chests,range:{type:uniform,min:12,max:15},filter:[\"ORNATE\"],display:\"{'text':'\u641c\u522e%s\u4e2a\u534e\u4e3d\u5b9d\u7bb1'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:break_blocks,range:{type:uniform,min:20,max:25},filter:[\"@the_vault:ores\"],display:\"{'text':'\u6316\u6398%s\u4e2a\u77ff\u77f3'}\"}}": 1,
+            "the_vault:enhancement_altar{config:{type:kill_mobs,range:{type:uniform,min:20,max:25},filter:[\"@the_vault:mobs\"],display:\"{'text':'\u51fb\u6740%s\u53ea\u602a\u7269'}\"}}": 1
+          }
+        }
+      ]
+    }
+  ]
+}

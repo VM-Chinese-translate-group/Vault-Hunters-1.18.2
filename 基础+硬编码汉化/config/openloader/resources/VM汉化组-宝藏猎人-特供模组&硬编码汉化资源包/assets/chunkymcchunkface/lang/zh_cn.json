@@ -1,0 +1,14 @@
+{
+  "block.chunkymcchunkface.chunk_loader": "区块驱块",
+  "chunkymcchunkface.blocks.text": "允许的方块例如%s",
+  "chunkymcchunkface.command.disable": "禁用坐标 %s %s %s 处的区块加载器",
+  "chunkymcchunkface.command.disable.error": "在禁用坐标 %s %s %s 处的区块加载器时出错",
+  "chunkymcchunkface.command.disableall": "禁用维度<%s>中所有激活的区块加载器",
+  "chunkymcchunkface.command.disableall.empty": "由于维度<%s>中没有已知激活的区块加载器，因此无法禁用区块加载器",
+  "chunkymcchunkface.command.list": "在维度<%s>的区块加载器",
+  "chunkymcchunkface.command.list.empty": "<%s>中没有已知的区块加载器",
+  "chunkymcchunkface.extend.text": "在区块加载器下面使用允许的方块建造一个金字塔，来扩大加载的区域",
+  "chunkymcchunkface.shift.text": "按住SHIFT键查看更多信息",
+  "key.chunkymcchunkface.category": "区块驱块",
+  "key.chunkymcchunkface.show_bounds": "显示区块加载器影响范围"
+}

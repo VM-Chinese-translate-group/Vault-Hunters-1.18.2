@@ -1,0 +1,144 @@
+{
+  "taskWeights": [
+    {
+      "value": "AnyVaultOre",
+      "weight": 10
+    },
+    {
+      "value": "AnyChestLoot",
+      "weight": 10
+    },
+    {
+      "value": "WoodenChestLoot",
+      "weight": 10
+    },
+    {
+      "value": "GildedChestLoot",
+      "weight": 6
+    },
+    {
+      "value": "OrnateChestLoot",
+      "weight": 6
+    },
+    {
+      "value": "LivingChestLoot",
+      "weight": 6
+    },
+    {
+      "value": "AnyVaultMobs",
+      "weight": 10
+    }
+  ],
+  "taskConfigs": {
+    "the_vault:loot_chests": {
+      "AnyChestLoot": {
+        "range": {
+          "min": 15,
+          "max": 25
+        },
+        "increasePerLevel": 0.04,
+        "registryKeyFilter": [
+          "the_vault:wooden_chest",
+          "the_vault:gilded_chest",
+          "the_vault:living_chest",
+          "the_vault:ornate_chest"
+        ],
+        "display": "{\"text\":\"\u641c\u522e%s\u4e2a\u5b9d\u7bb1\"}"
+      }
+    },
+    "the_vault:loot_wooden": {
+      "WoodenChestLoot": {
+        "range": {
+          "min": 8,
+          "max": 14
+        },
+        "increasePerLevel": 0.04,
+        "registryKeyFilter": [
+          "the_vault:wooden_chest",
+        ],
+        "display": "{\"text\":\"\u641c\u522e%s\u4e2a\u6728\u5236\u5b9d\u7bb1\"}"
+      }
+    },
+    "the_vault:loot_gilded": {
+      "GildedChestLoot": {
+        "range": {
+          "min": 3,
+          "max": 6
+        },
+        "increasePerLevel": 0.04,
+        "registryKeyFilter": [
+          "the_vault:gilded_chest"
+        ],
+        "display": "{\"text\":\"\u641c\u522e%s\u4e2a\u9540\u91d1\u5b9d\u7bb1\"}"
+      }
+    },
+    "the_vault:loot_ornate": {
+      "OrnateChestLoot": {
+        "range": {
+          "min": 3,
+          "max": 6
+        },
+        "increasePerLevel": 0.04,
+        "registryKeyFilter": [
+          "the_vault:ornate_chest"
+        ],
+        "display": "{\"text\":\"\u641c\u522e%s\u4e2a\u534e\u4e3d\u5b9d\u7bb1\"}"
+      }
+    },
+    "the_vault:loot_living": {
+      "LivingChestLoot": {
+        "range": {
+          "min": 3,
+          "max": 6
+        },
+        "increasePerLevel": 0.04,
+        "registryKeyFilter": [
+          "the_vault:living_chest"
+        ],
+        "display": "{\"text\":\"\u641c\u522e%s\u4e2a\u6d3b\u5316\u5b9d\u7bb1\"}"
+      }
+    },
+    "the_vault:break_blocks": {
+      "AnyVaultOre": {
+        "range": {
+          "min": 5,
+          "max": 10
+        },
+        "increasePerLevel": 0.04,
+        "registryKeyFilter": [
+          "the_vault:ore_alexandrite",
+          "the_vault:ore_ashium",
+          "the_vault:ore_benitoite",
+          "the_vault:ore_black_opal",
+          "the_vault:ore_bomignite",
+          "the_vault:ore_echo",
+          "the_vault:ore_gorginite",
+          "the_vault:ore_iskallium",
+          "the_vault:ore_larimar",
+          "the_vault:ore_painite",
+          "the_vault:ore_petzanite",
+          "the_vault:ore_puffium",
+          "the_vault:ore_sparkletine",
+          "the_vault:ore_tubium",
+          "the_vault:ore_upaline",
+          "the_vault:ore_wutodie",
+          "the_vault:ore_xenium"
+        ],
+        "display": "{\"text\":\"\u6316\u6398%s\u4e2a\u5b9d\u5e93\u77ff\u77f3\"}"
+      }
+    },
+    "the_vault:kill_mobs": {
+      "AnyVaultMobs": {
+        "range": {
+          "min": 10,
+          "max": 25
+        },
+        "increasePerLevel": 0.04,
+        "registryKeyFilter": [
+
+        ],
+        "display": "{\"text\":\"\u51fb\u6740%s\u53ea\u602a\u7269\"}"
+      }
+    }
+  }
+}

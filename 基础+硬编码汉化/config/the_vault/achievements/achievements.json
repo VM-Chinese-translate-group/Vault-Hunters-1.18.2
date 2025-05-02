@@ -1,0 +1,82 @@
+{
+  "achievements": {
+    "delegate": {
+      "id": "achivement_tree",
+      "renderer": {
+        "overview": {
+          "dragging": false
+        },
+        "details": {
+          "dragging": false
+        },
+        "modifiers": {},
+        "type": "achievement"
+      },
+      "type": "achievement"
+    },
+    "operating": false,
+    "children": [
+      {
+        "delegate": {
+          "id": "kill_20_zombies",
+          "renderer": {
+            "name": "\u51fb\u674020\u53ea\u50f5\u5c38",
+            "description": "\u51fb\u674020\u53ea\u50f5\u5c38\u7684\u793a\u4f8b\u63cf\u8ff0\u3002",
+            "icon": "the_vault:textures/gui/achievements/altar.png",
+            "position": [
+              0.0,
+              0.0
+            ],
+            "hidden": false,
+            "type": "achievement"
+          },
+          "filter": "@the_vault:zombie",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 20,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        },
+        "operating": false,
+        "children": [
+          {
+            "delegate": {
+              "renderer": {
+                "type": "achievement"
+              },
+              "transmogs": [
+                "the_vault:gear/armor/angel/helmet",
+                "the_vault:gear/armor/angel/chestplate",
+                "the_vault:gear/armor/angel/leggings",
+                "the_vault:gear/armor/angel/boots"
+              ],
+              "consumed": false,
+              "type": "transmog_reward"
+            },
+            "operating": false,
+            "children": [],
+            "type": "node"
+          },
+          {
+            "delegate": {
+              "title": "\u51fb\u674020\u53ea\u50f5\u5c38",
+              "message": "${player}\u5b8c\u6210\u4e86${title}！",
+              "icon": "the_vault:textures/gui/achievements/altar.png",
+              "consumed": false,
+              "type": "achievement_complete"
+            },
+            "operating": false,
+            "children": [],
+            "type": "node"
+          }
+        ],
+        "type": "node"
+      }
+    ],
+    "type": "node"
+  }
+}

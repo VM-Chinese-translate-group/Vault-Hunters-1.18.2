@@ -1,0 +1,3792 @@
+{
+  "tasks": [
+    { "id": "complete_5_blackout_bingo_vaults_in_15_minutes",
+      "renderer": {
+        "name": "\u572815\u5206\u949f\u4ee5\u5185\u5b8c\u6210\u65ad\u7535\u7684Bingo\u5b9d\u5e93",
+        "icon": "the_vault:textures/gui/modifiers/bingo.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 10,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "bingo_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "bingo"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "elapsed": 0,
+              "duration": 18000,
+              "type": "vault_timed"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "kill_2000_tanks",
+      "renderer": {
+        "name": "\u51fb\u6740\u5766\u514b\u602a\u7269",
+        "icon": "the_vault:textures/gui/bingo/killtank.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:tank",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_25000_wooden_chests",
+      "renderer": {
+        "name": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:wooden",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 25000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "submit_100000_larimar",
+    "renderer": {
+      "name": "\u63d0\u4ea4\u6d77\u7eb9\u5b9d\u77f3",
+      "stack": {
+        "id": "the_vault:gem_larimar",
+        "count": 1
+      },
+      "type": "team"
+    },
+    "children": [],
+    "operating": false,
+    "item": "the_vault:gem_larimar",
+    "counter": {
+      "variables": {},
+      "target": {
+        "count": 100000,
+        "type": "constant"
+      },
+      "type": "target"
+    },
+    "type": "collection"
+    },
+    { "id": "kill_500_champions",
+      "renderer": {
+        "name": "\u51fb\u6740\u51a0\u519b",
+        "icon": "the_vault:textures/gui/bingo/killchampion.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:mob_type/champion",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 500,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+
+    { "id": "loot_10000_gilded_chests",
+    "renderer": {
+      "name": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
+      "icon": "the_vault:textures/gui/bingo/gilded.png",
+      "type": "team"
+    },
+    "children": [
+      {
+        "children": [],
+        "operating": false,
+        "filter": "@the_vault:gilded",
+        "counter": {
+          "variables": {},
+          "target": {
+            "count": 10000,
+            "type": "constant"
+          },
+          "type": "target"
+        },
+        "type": "loot_chest"
+      }
+    ],
+    "mode": "ALL",
+    "type": "multi_vault"
+    },
+    { "id": "submit_1000_echo_gems",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u5171\u9e23\u5b9d\u77f3",
+        "stack": {
+          "id": "the_vault:gem_echo",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:gem_echo",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "kill_50000_horde_mobs",
+    "renderer": {
+      "name": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
+      "icon": "the_vault:textures/gui/bingo/killhorde.png",
+      "type": "team"
+    },
+    "children": [
+      {
+        "children": [],
+        "operating": false,
+        "filter": "@the_vault:horde",
+        "counter": {
+          "variables": {},
+          "target": {
+            "count": 50000,
+            "type": "constant"
+          },
+          "type": "target"
+        },
+        "type": "kill_entity"
+      }
+    ],
+    "mode": "ALL",
+    "type": "multi_vault"
+    },
+    { "id": "complete_3_vaults_killing_4000_mobs",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5b9d\u5e93\u5e76\u81f3\u5c11\u51fb\u67402,500\u53ea\u602a\u7269",
+        "icon": "the_vault:textures/gui/bingo/killmobs.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 2500,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "kill_entity"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "submit_1000_knowledge_stars",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u77e5\u8bc6\u4e4b\u661f",
+        "stack": {
+          "id": "the_vault:knowledge_star",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:knowledge_star",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+
+
+    { "id": "submit_50000_vault_scrap",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u5b9d\u5e93\u5e9f\u6599",
+        "stack": {
+          "id": "the_vault:vault_scrap",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:vault_scrap",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 100000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "complete_5_solo_brazier_vaults_no_damage_taken",
+    "renderer": {
+      "name": "\u5b8c\u6210\u5355\u4eba\u706b\u76c6\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+      "icon": "the_vault:textures/item/brazier_complete.png",
+      "type": "team"
+    },
+    "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "monolith"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "take_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 15,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_cake_vault_eating_100_cakes",
+      "renderer": {
+        "name": "\u5b8c\u6210\u86cb\u7cd5\u5b9d\u5e93\u5e76\u81f3\u5c11\u5403\u6389100\u4e2a\u86cb\u7cd5",
+        "icon": "the_vault:textures/gui/bingo/cake_layer.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 100,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "cake_objective"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "loot_10000_living_chests",
+      "renderer": {
+        "name": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/living.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:living",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 10000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "submit_500_companion_gemstones",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u540c\u4f34\u5b9d\u77f3",
+        "stack": {
+          "id": "vhsmp:mystic_gemstone",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "vhsmp:mystic_gemstone",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 500,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+
+    { "id": "loot_12500_coin_piles",
+      "renderer": {
+        "name": "\u5728\u5b9d\u5e93\u4e2d\u641c\u522e\u94b1\u5e01\u5806",
+        "icon": "the_vault:textures/gui/bingo/lootcoins.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "the_vault:coin_pile[size=1]",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 20000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "mine_block"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_10000_ornate_chests",
+      "renderer": {
+        "name": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/ornate.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:ornate",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 10000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "submit_burgers",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u54b8\u5473\u8c6a\u534e\u829d\u58eb\u6c49\u5821",
+        "stack": {
+          "id": "the_vault:salty_deluxe_cheese_burger",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:salty_deluxe_cheese_burger",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 10000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_2500_pogs",
+      "renderer": {
+        "name": "\u63d0\u4ea4POG",
+        "stack": {
+          "id": "the_vault:gem_pog",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:gem_pog",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 2500,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "complete_10_scavenger_vaults_in_10_minutes",
+      "renderer": {
+        "name": "\u572810\u5206\u949f\u4ee5\u5185\u5b8c\u6210\u62fe\u8352\u8005\u5b9d\u5e93",
+        "icon": "the_vault:textures/item/scav_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "scavenger"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "elapsed": 0,
+              "duration": 12000,
+              "type": "vault_timed"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 10,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+
+
+    { "id": "complete_5_solo_elixir_vaults_no_damage_dealt",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5355\u4eba\u5723\u6c34\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+        "icon": "the_vault:textures/item/elixir_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "elixir"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "deal_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+       ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 5,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "submit_3000_platinum",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u94c2\u5e01",
+        "stack": {
+          "id": "the_vault:vault_platinum",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:vault_platinum",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 3000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "open_100_treasure_doors",
+      "renderer": {
+        "name": "Open Treasure Doors",
+        "icon": "the_vault:textures/gui/bingo/treasure_doors.png",
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "pre": "the_vault:treasure_door[open=false]",
+      "post": "the_vault:treasure_door[open=true]",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 100,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "interact_block"
+    },
+    { "id": "kill_2000_dungeon_mobs",
+      "renderer": {
+        "name": "\u51fb\u6740\u5730\u7262\u602a\u7269",
+        "icon": "the_vault:textures/gui/bingo/killdungeon.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:dungeon",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "complete_3_vaults_looting_2500_chests",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5b9d\u5e93\u5e76\u81f3\u5c11\u641c\u522e2,500\u4e2a\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "filter": [
+                "@the_vault:living",
+                "@the_vault:wooden",
+                "@the_vault:ornate",
+                "@the_vault:gilded"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 2500,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "loot_chest"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 3,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    
+    
+
+
+
+
+
+
+
+    { "id": "complete_5_blackout_bingo_vaults_in_15_minutes_reclaim_1",
+      "renderer": {
+        "name": "Complete Blackout Bingo Vaults using less than 15 minutes of the timer",
+        "icon": "the_vault:textures/gui/modifiers/bingo.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 10,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "bingo_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "bingo"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "elapsed": 0,
+              "duration": 18000,
+              "type": "vault_timed"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 2,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_blackout_bingo_vaults_in_15_minutes_reclaim_2",
+      "renderer": {
+        "name": "Complete Blackout Bingo Vaults using less than 15 minutes of the timer",
+        "icon": "the_vault:textures/gui/modifiers/bingo.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 10,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "bingo_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "bingo"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "elapsed": 0,
+              "duration": 18000,
+              "type": "vault_timed"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 3,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+
+    { "id": "kill_2000_tanks_reclaim_1",
+      "renderer": {
+        "name": "Kill Tanks",
+        "icon": "the_vault:textures/gui/bingo/killtank.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:tank",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2100,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "kill_2000_tanks_reclaim_2",
+      "renderer": {
+        "name": "Kill Tanks",
+        "icon": "the_vault:textures/gui/bingo/killtank.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:tank",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2200,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "kill_2000_tanks_reclaim_3",
+      "renderer": {
+        "name": "Kill Tanks",
+        "icon": "the_vault:textures/gui/bingo/killtank.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:tank",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2300,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "kill_2000_tanks_reclaim_4",
+      "renderer": {
+        "name": "Kill Tanks",
+        "icon": "the_vault:textures/gui/bingo/killtank.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:tank",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2400,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "kill_2000_tanks_reclaim_5",
+      "renderer": {
+        "name": "Kill Tanks",
+        "icon": "the_vault:textures/gui/bingo/killtank.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:tank",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2500,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+
+    { "id": "loot_25000_wooden_chests_reclaim_1",
+      "renderer": {
+        "name": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:wooden",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 26000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_25000_wooden_chests_reclaim_2",
+      "renderer": {
+        "name": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:wooden",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 27000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_25000_wooden_chests_reclaim_3",
+      "renderer": {
+        "name": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:wooden",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 28000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_25000_wooden_chests_reclaim_4",
+      "renderer": {
+        "name": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:wooden",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 29000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_25000_wooden_chests_reclaim_5",
+      "renderer": {
+        "name": "\u641c\u522e\u6728\u5236\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:wooden",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 30000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+
+    { "id": "kill_500_champions_reclaim_1",
+      "renderer": {
+        "name": "\u51fb\u6740\u51a0\u519b",
+        "icon": "the_vault:textures/gui/bingo/killchampion.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:mob_type/champion",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 600,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "kill_500_champions_reclaim_2",
+      "renderer": {
+        "name": "\u51fb\u6740\u51a0\u519b",
+        "icon": "the_vault:textures/gui/bingo/killchampion.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:mob_type/champion",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 700,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "kill_500_champions_reclaim_3",
+      "renderer": {
+        "name": "\u51fb\u6740\u51a0\u519b",
+        "icon": "the_vault:textures/gui/bingo/killchampion.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:mob_type/champion",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 800,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "submit_100000_larimar_reclaim_2",
+    "renderer": {
+      "name": "\u63d0\u4ea4\u7ea2\u7845\u787c\u94dd\u9499",
+      "stack": {
+        "id": "the_vault:gem_painite",
+        "count": 1
+      },
+      "type": "team"
+    },
+    "children": [],
+    "operating": false,
+    "item": "the_vault:gem_painite",
+    "counter": {
+      "variables": {},
+      "target": {
+        "count": 15000,
+        "type": "constant"
+      },
+      "type": "target"
+    },
+    "type": "collection"
+    },
+    { "id": "submit_100000_larimar_reclaim_3",
+    "renderer": {
+      "name": "\u63d0\u4ea4\u7d2b\u7fe0\u7389",
+      "stack": {
+        "id": "the_vault:gem_alexandrite",
+        "count": 1
+      },
+      "type": "team"
+    },
+    "children": [],
+    "operating": false,
+    "item": "the_vault:gem_alexandrite",
+    "counter": {
+      "variables": {},
+      "target": {
+        "count": 15000,
+        "type": "constant"
+      },
+      "type": "target"
+    },
+    "type": "collection"
+    },
+    { "id": "submit_100000_larimar_reclaim_4",
+    "renderer": {
+      "name": "\u63d0\u4ea4\u84dd\u9525",
+      "stack": {
+        "id": "the_vault:gem_benitoite",
+        "count": 1
+      },
+      "type": "team"
+    },
+    "children": [],
+    "operating": false,
+    "item": "the_vault:gem_benitoite",
+    "counter": {
+      "variables": {},
+      "target": {
+        "count": 100000,
+        "type": "constant"
+      },
+      "type": "target"
+    },
+    "type": "collection"
+    },
+
+
+
+
+
+
+    { "id": "loot_10000_gilded_chests_reclaim_1",
+    "renderer": {
+      "name": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
+      "icon": "the_vault:textures/gui/bingo/gilded.png",
+      "type": "team"
+    },
+    "children": [
+      {
+        "children": [],
+        "operating": false,
+        "filter": "@the_vault:gilded",
+        "counter": {
+          "variables": {},
+          "target": {
+            "count": 11000,
+            "type": "constant"
+          },
+          "type": "target"
+        },
+        "type": "loot_chest"
+      }
+    ],
+    "mode": "ALL",
+    "type": "multi_vault"
+    },
+    { "id": "loot_10000_gilded_chests_reclaim_2",
+    "renderer": {
+      "name": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
+      "icon": "the_vault:textures/gui/bingo/gilded.png",
+      "type": "team"
+    },
+    "children": [
+      {
+        "children": [],
+        "operating": false,
+        "filter": "@the_vault:gilded",
+        "counter": {
+          "variables": {},
+          "target": {
+            "count": 12000,
+            "type": "constant"
+          },
+          "type": "target"
+        },
+        "type": "loot_chest"
+      }
+    ],
+    "mode": "ALL",
+    "type": "multi_vault"
+    },
+    { "id": "loot_10000_gilded_chests_reclaim_3",
+    "renderer": {
+      "name": "\u641c\u522e\u9540\u91d1\u5b9d\u7bb1",
+      "icon": "the_vault:textures/gui/bingo/gilded.png",
+      "type": "team"
+    },
+    "children": [
+      {
+        "children": [],
+        "operating": false,
+        "filter": "@the_vault:gilded",
+        "counter": {
+          "variables": {},
+          "target": {
+            "count": 13000,
+            "type": "constant"
+          },
+          "type": "target"
+        },
+        "type": "loot_chest"
+      }
+    ],
+    "mode": "ALL",
+    "type": "multi_vault"
+    },
+
+    { "id": "kill_50000_horde_mobs_reclaim_1",
+    "renderer": {
+      "name": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
+      "icon": "the_vault:textures/gui/bingo/killhorde.png",
+      "type": "team"
+    },
+    "children": [
+      {
+        "children": [],
+        "operating": false,
+        "filter": "@the_vault:horde",
+        "counter": {
+          "variables": {},
+          "target": {
+            "count": 51000,
+            "type": "constant"
+          },
+          "type": "target"
+        },
+        "type": "kill_entity"
+      }
+    ],
+    "mode": "ALL",
+    "type": "multi_vault"
+    },
+    { "id": "kill_50000_horde_mobs_reclaim_2",
+    "renderer": {
+      "name": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
+      "icon": "the_vault:textures/gui/bingo/killhorde.png",
+      "type": "team"
+    },
+    "children": [
+      {
+        "children": [],
+        "operating": false,
+        "filter": "@the_vault:horde",
+        "counter": {
+          "variables": {},
+          "target": {
+            "count": 52000,
+            "type": "constant"
+          },
+          "type": "target"
+        },
+        "type": "kill_entity"
+      }
+    ],
+    "mode": "ALL",
+    "type": "multi_vault"
+    },
+    { "id": "kill_50000_horde_mobs_reclaim_3",
+    "renderer": {
+      "name": "\u51fb\u6740\u96c6\u7fa4\u602a\u7269",
+      "icon": "the_vault:textures/gui/bingo/killhorde.png",
+      "type": "team"
+    },
+    "children": [
+      {
+        "children": [],
+        "operating": false,
+        "filter": "@the_vault:horde",
+        "counter": {
+          "variables": {},
+          "target": {
+            "count": 53000,
+            "type": "constant"
+          },
+          "type": "target"
+        },
+        "type": "kill_entity"
+      }
+    ],
+    "mode": "ALL",
+    "type": "multi_vault"
+    },
+
+    { "id": "complete_3_vaults_killing_4000_mobs_reclaim_1",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5b9d\u5e93\u5e76\u81f3\u5c11\u51fb\u67402,500\u53ea\u602a\u7269",
+        "icon": "the_vault:textures/gui/bingo/killmobs.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 2500,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "kill_entity"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 2,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_3_vaults_killing_4000_mobs_reclaim_2",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5b9d\u5e93\u5e76\u81f3\u5c11\u51fb\u67402,500\u53ea\u602a\u7269",
+        "icon": "the_vault:textures/gui/bingo/killmobs.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 2500,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "kill_entity"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 2,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 3,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+
+    { "id": "submit_1000_echo_gems_reclaim_1",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u9ed1\u6b27\u6cca",
+        "stack": {
+          "id": "the_vault:gem_black_opal",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:gem_black_opal",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 15000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_1000_echo_gems_reclaim_2",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u5b9d\u5e93\u94bb\u77f3",
+        "stack": {
+          "id": "the_vault:vault_diamond",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:vault_diamond",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 30000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_1000_knowledge_stars_reclaim_1",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u6a21\u7ec4\u76f2\u76d2",
+        "stack": {
+          "id": "the_vault:mod_box",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:mod_box",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 20000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_1000_knowledge_stars_reclaim_2",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u94ed\u6587\u788e\u7247",
+        "stack": {
+          "id": "the_vault:inscription_piece",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:inscription_piece",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 4000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+
+
+    { "id": "complete_5_solo_brazier_vaults_no_damage_taken_reclaim_1",
+    "renderer": {
+      "name": "\u5b8c\u6210\u5355\u4eba\u706b\u76c6\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+      "icon": "the_vault:textures/item/brazier_complete.png",
+      "type": "team"
+    },
+    "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "monolith"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "take_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 20,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_solo_brazier_vaults_no_damage_taken_reclaim_2",
+    "renderer": {
+      "name": "\u5b8c\u6210\u5355\u4eba\u706b\u76c6\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+      "icon": "the_vault:textures/item/brazier_complete.png",
+      "type": "team"
+    },
+    "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "monolith"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "take_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 25,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_solo_brazier_vaults_no_damage_taken_reclaim_3",
+    "renderer": {
+      "name": "\u5b8c\u6210\u5355\u4eba\u706b\u76c6\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+      "icon": "the_vault:textures/item/brazier_complete.png",
+      "type": "team"
+    },
+    "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "monolith"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "take_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 30,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_solo_brazier_vaults_no_damage_taken_reclaim_4",
+    "renderer": {
+      "name": "\u5b8c\u6210\u5355\u4eba\u706b\u76c6\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+      "icon": "the_vault:textures/item/brazier_complete.png",
+      "type": "team"
+    },
+    "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "monolith"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "take_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 35,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_solo_brazier_vaults_no_damage_taken_reclaim_5",
+    "renderer": {
+      "name": "\u5b8c\u6210\u5355\u4eba\u706b\u76c6\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+      "icon": "the_vault:textures/item/brazier_complete.png",
+      "type": "team"
+    },
+    "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "monolith"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "take_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 40,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+
+    { "id": "complete_cake_vault_eating_100_cakes_reclaim_1",
+      "renderer": {
+        "name": "\u5b8c\u6210\u86cb\u7cd5\u5b9d\u5e93\u5e76\u5403\u6389\u81f3\u5c11105\u4e2a\u86cb\u7cd5",
+        "icon": "the_vault:textures/gui/bingo/cake_layer.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 105,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "cake_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "cake"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_cake_vault_eating_100_cakes_reclaim_2",
+      "renderer": {
+        "name": "\u5b8c\u6210\u86cb\u7cd5\u5b9d\u5e93\u5e76\u5403\u6389\u81f3\u5c11110\u4e2a\u86cb\u7cd5",
+        "icon": "the_vault:textures/gui/bingo/cake_layer.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 110,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "cake_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "cake"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_cake_vault_eating_100_cakes_reclaim_3",
+      "renderer": {
+        "name": "\u5b8c\u6210\u86cb\u7cd5\u5b9d\u5e93\u5e76\u5403\u6389\u81f3\u5c11115\u4e2a\u86cb\u7cd5",
+        "icon": "the_vault:textures/gui/bingo/cake_layer.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 115,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "cake_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "cake"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_cake_vault_eating_100_cakes_reclaim_4",
+      "renderer": {
+        "name": "\u5b8c\u6210\u86cb\u7cd5\u5b9d\u5e93\u5e76\u5403\u6389\u81f3\u5c11120\u4e2a\u86cb\u7cd5",
+        "icon": "the_vault:textures/gui/bingo/cake_layer.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 120,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "cake_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "cake"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_cake_vault_eating_100_cakes_reclaim_5",
+      "renderer": {
+        "name": "\u5b8c\u6210\u86cb\u7cd5\u5b9d\u5e93\u5e76\u5403\u6389\u81f3\u5c11125\u4e2a\u86cb\u7cd5",
+        "icon": "the_vault:textures/gui/bingo/cake_layer.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 125,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "cake_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "cake"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_cake_vault_eating_100_cakes_reclaim_6",
+      "renderer": {
+        "name": "\u5b8c\u6210\u86cb\u7cd5\u5b9d\u5e93\u5e76\u5403\u6389\u81f3\u5c11130\u4e2a\u86cb\u7cd5",
+        "icon": "the_vault:textures/gui/bingo/cake_layer.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 130,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "cake_objective"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "cake"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 1,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+
+    { "id": "loot_10000_living_chests_reclaim_1",
+      "renderer": {
+        "name": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/living.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:living",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 11000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_10000_living_chests_reclaim_2",
+      "renderer": {
+        "name": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/living.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:living",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 12000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_10000_living_chests_reclaim_3",
+      "renderer": {
+        "name": "\u641c\u522e\u6d3b\u5316\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/living.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:living",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 13000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+
+    { "id": "submit_50000_vault_scrap_reclaim_1",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u5b9d\u5e93\u91d1\u5c5e\u677f",
+        "stack": {
+          "id": "the_vault:vault_plating",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:vault_plating",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 50000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_50000_vault_scrap_reclaim_2",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u72c2\u91ce\u900f\u955c",
+        "stack": {
+          "id": "the_vault:wild_focus",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:wild_focus",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 25000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_50000_vault_scrap_reclaim_3",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u589e\u5f3a\u900f\u955c",
+        "stack": {
+          "id": "the_vault:amplifying_focus",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:amplifying_focus",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 20000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_50000_vault_scrap_reclaim_4",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u5931\u6548\u900f\u955c",
+        "stack": {
+          "id": "the_vault:nullifying_focus",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:nullifying_focus",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 15000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_50000_vault_scrap_reclaim_5",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u6df7\u6c8c\u900f\u955c",
+        "stack": {
+          "id": "the_vault:chaotic_focus",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:chaotic_focus",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 10000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_500_companion_gemstones_reclaim_1",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u795e\u79d8\u86cb",
+        "stack": {
+          "id": "the_vault:mystery_egg",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:mystery_egg",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 2500,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_500_companion_gemstones_reclaim_2",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u9057\u5931\u60ac\u8d4f",
+        "stack": {
+          "id": "the_vault:lost_bounty",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:lost_bounty",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 250,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+
+
+
+    { "id": "loot_12500_coin_piles_reclaim_1",
+      "renderer": {
+        "name": "\u5728\u5b9d\u5e93\u4e2d\u641c\u522e\u94b1\u5e01\u5806",
+        "icon": "the_vault:textures/gui/bingo/lootcoins.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "the_vault:coin_pile[size=1]",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 22500,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "mine_block"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_12500_coin_piles_reclaim_2",
+      "renderer": {
+        "name": "\u5728\u5b9d\u5e93\u4e2d\u641c\u522e\u94b1\u5e01\u5806",
+        "icon": "the_vault:textures/gui/bingo/lootcoins.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "the_vault:coin_pile[size=1]",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 25000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "mine_block"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_12500_coin_piles_reclaim_3",
+      "renderer": {
+        "name": "\u5728\u5b9d\u5e93\u4e2d\u641c\u522e\u94b1\u5e01\u5806",
+        "icon": "the_vault:textures/gui/bingo/lootcoins.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "the_vault:coin_pile[size=1]",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 27500,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "mine_block"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+
+    { "id": "loot_10000_ornate_chests_reclaim_1",
+      "renderer": {
+        "name": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/ornate.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:ornate",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 11000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_10000_ornate_chests_reclaim_2",
+      "renderer": {
+        "name": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/ornate.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:ornate",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 12000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "loot_10000_ornate_chests_reclaim_3",
+      "renderer": {
+        "name": "\u641c\u522e\u534e\u4e3d\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/ornate.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:ornate",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 13000,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "loot_chest"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+
+    { "id": "complete_10_scavenger_vaults_in_10_minutes_reclaim_1",
+      "renderer": {
+        "name": "\u572810\u5206\u949f\u4ee5\u5185\u5b8c\u6210\u62fe\u8352\u8005\u5b9d\u5e93",
+        "icon": "the_vault:textures/item/scav_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "scavenger"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "elapsed": 0,
+              "duration": 12000,
+              "type": "vault_timed"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 12,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_10_scavenger_vaults_in_10_minutes_reclaim_2",
+      "renderer": {
+        "name": "\u572810\u5206\u949f\u4ee5\u5185\u5b8c\u6210\u62fe\u8352\u8005\u5b9d\u5e93",
+        "icon": "the_vault:textures/item/scav_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "scavenger"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "elapsed": 0,
+              "duration": 12000,
+              "type": "vault_timed"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 14,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_10_scavenger_vaults_in_10_minutes_reclaim_3",
+      "renderer": {
+        "name": "\u572810\u5206\u949f\u4ee5\u5185\u5b8c\u6210\u62fe\u8352\u8005\u5b9d\u5e93",
+        "icon": "the_vault:textures/item/scav_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "scavenger"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "elapsed": 0,
+              "duration": 12000,
+              "type": "vault_timed"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 16,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_10_scavenger_vaults_in_10_minutes_reclaim_4",
+      "renderer": {
+        "name": "\u572810\u5206\u949f\u4ee5\u5185\u5b8c\u6210\u62fe\u8352\u8005\u5b9d\u5e93",
+        "icon": "the_vault:textures/item/scav_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "scavenger"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "elapsed": 0,
+              "duration": 12000,
+              "type": "vault_timed"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 18,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+
+    { "id": "submit_burgers_reclaim_1",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u50ac\u5316\u5242\u788e\u7247",
+        "stack": {
+          "id": "the_vault:vault_catalyst_fragment",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:vault_catalyst_fragment",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 5000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_burgers_reclaim_2",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u7cd6\u6d46\u5b9d\u5e93\u4e4b\u77f3",
+        "stack": {
+          "id": "the_vault:crystal_seal_cake",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:crystal_seal_cake",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 200,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_burgers_reclaim_3",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u6df7\u6c8c\u5b9d\u5e93\u4e4b\u77f3",
+        "stack": {
+          "id": "the_vault:vault_catalyst_chaos",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:vault_catalyst_chaos",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 200,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_2500_pogs_reclaim_1",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u7cbe\u70bc\u78b3",
+        "stack": {
+          "id": "the_vault:carbon",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:carbon",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 50000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_2500_pogs_reclaim_2",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u5f02\u8272\u94c1\u952d",
+        "stack": {
+          "id": "the_vault:chromatic_iron_ingot",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:chromatic_iron_ingot",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 50000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+    { "id": "submit_2500_pogs_reclaim_3",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u91ce\u751f\u6768\u6843",
+        "stack": {
+          "id": "the_vault:star_fruit",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:star_fruit",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 25,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    },
+
+    { "id": "complete_5_solo_elixir_vaults_no_damage_dealt_reclaim_1",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5355\u4eba\u5723\u6c34\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+        "icon": "the_vault:textures/item/elixir_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "elixir"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "deal_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+       ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 7,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_solo_elixir_vaults_no_damage_dealt_reclaim_2",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5355\u4eba\u5723\u6c34\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+        "icon": "the_vault:textures/item/elixir_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "elixir"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "deal_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+       ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 9,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_solo_elixir_vaults_no_damage_dealt_reclaim_3",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5355\u4eba\u5723\u6c34\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+        "icon": "the_vault:textures/item/elixir_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "elixir"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "deal_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+       ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 11,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_solo_elixir_vaults_no_damage_dealt_reclaim_4",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5355\u4eba\u5723\u6c34\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+        "icon": "the_vault:textures/item/elixir_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "elixir"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "deal_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+       ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 13,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_5_solo_elixir_vaults_no_damage_dealt_reclaim_5",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5355\u4eba\u5723\u6c34\u5b9d\u5e93\u5e76\u4e0d\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3",
+        "icon": "the_vault:textures/item/elixir_complete.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "objective": [
+                "elixir"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "predicate": "GREATER_OR_EQUAL_TO",
+                "type": "target"
+              },
+              "type": "finish_vault"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "filter": "@the_vault:mobs",
+              "phase": "POST_MITIGATION",
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 0.0,
+                  "type": "constant"
+                },
+                "predicate": "EQUAL",
+                "type": "target"
+              },
+              "type": "deal_damage"
+            }
+          ],
+          "mode": "SOLO",
+          "type": "single_vault"
+        }
+       ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 15,
+          "type": "constant"
+        },
+        "predicate": "GREATER_OR_EQUAL_TO",
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+
+
+    { "id": "open_100_treasure_doors_reclaim_1",
+      "renderer": {
+        "name": "\u6253\u5f00\u5546\u95e8",
+        "icon": "the_vault:textures/gui/bingo/vendoor.png",
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "pre": "the_vault:vendor_door[open=false]",
+      "post": "the_vault:vendor_door[open=true]",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 100,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "interact_block"
+    },
+    { "id": "open_100_treasure_doors_reclaim_2",
+      "renderer": {
+        "name": "\u6253\u5f00\u5546\u95e8",
+        "icon": "the_vault:textures/gui/bingo/vendoor.png",
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "pre": "the_vault:vendor_door[open=false]",
+      "post": "the_vault:vendor_door[open=true]",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 150,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "interact_block"
+    },
+    { "id": "open_100_treasure_doors_reclaim_3",
+      "renderer": {
+        "name": "\u6253\u5f00\u5546\u95e8",
+        "icon": "the_vault:textures/gui/bingo/vendoor.png",
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "pre": "the_vault:vendor_door[open=false]",
+      "post": "the_vault:vendor_door[open=true]",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 200,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "interact_block"
+    },
+    { "id": "open_100_treasure_doors_reclaim_4",
+      "renderer": {
+        "name": "\u6253\u5f00\u5546\u95e8",
+        "icon": "the_vault:textures/gui/bingo/vendoor.png",
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "pre": "the_vault:vendor_door[open=false]",
+      "post": "the_vault:vendor_door[open=true]",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 250,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "interact_block"
+    },
+
+    { "id": "kill_2000_dungeon_mobs_reclaim_1",
+      "renderer": {
+        "name": "\u51fb\u6740\u5730\u7262\u602a\u7269",
+        "icon": "the_vault:textures/gui/bingo/killdungeon.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:dungeon",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2250,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+    { "id": "kill_2000_dungeon_mobs_reclaim_2",
+      "renderer": {
+        "name": "\u51fb\u6740\u5730\u7262\u602a\u7269",
+        "icon": "the_vault:textures/gui/bingo/killdungeon.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [],
+          "operating": false,
+          "filter": "@the_vault:dungeon",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 2500,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        }
+      ],
+      "mode": "ALL",
+      "type": "multi_vault"
+    },
+
+    { "id": "complete_3_vaults_looting_2500_chests_reclaim_1",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5b9d\u5e93\u5e76\u81f3\u5c11\u641c\u522e2,750\u4e2a\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "filter": [
+                "@the_vault:living",
+                "@the_vault:wooden",
+                "@the_vault:ornate",
+                "@the_vault:gilded"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 2750,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "loot_chest"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 3,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_3_vaults_looting_2500_chests_reclaim_2",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5b9d\u5e93\u5e76\u81f3\u5c11\u641c\u522e3,000\u4e2a\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "filter": [
+                "@the_vault:living",
+                "@the_vault:wooden",
+                "@the_vault:ornate",
+                "@the_vault:gilded"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 3000,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "loot_chest"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 3,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_3_vaults_looting_2500_chests_reclaim_2",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5b9d\u5e93\u5e76\u81f3\u5c11\u641c\u522e3,250\u4e2a\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "filter": [
+                "@the_vault:living",
+                "@the_vault:wooden",
+                "@the_vault:ornate",
+                "@the_vault:gilded"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 3250,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "loot_chest"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 3,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+    { "id": "complete_3_vaults_looting_2500_chests_reclaim_3",
+      "renderer": {
+        "name": "\u5b8c\u6210\u5b9d\u5e93\u5e76\u81f3\u5c11\u641c\u522e3,500\u4e2a\u5b9d\u7bb1",
+        "icon": "the_vault:textures/gui/bingo/wooden.png",
+        "type": "team"
+      },
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "operating": false,
+              "filter": [
+                "@the_vault:living",
+                "@the_vault:wooden",
+                "@the_vault:ornate",
+                "@the_vault:gilded"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 3500,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "loot_chest"
+            },
+            {
+              "children": [],
+              "operating": false,
+              "completion": [
+                "COMPLETED"
+              ],
+              "counter": {
+                "variables": {},
+                "target": {
+                  "count": 1,
+                  "type": "constant"
+                },
+                "type": "target"
+              },
+              "type": "finish_vault"
+            }
+          ],
+          "mode": "OWNER",
+          "type": "single_vault"
+        }
+      ],
+      "operating": false,
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 3,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "repeated"
+    },
+
+
+    { "id": "submit_3000_platinum_reclaim_1",
+      "renderer": {
+        "name": "\u63d0\u4ea4\u7075\u9b42\u788e\u7247",
+        "stack": {
+          "id": "the_vault:soul_shard",
+          "count": 1
+        },
+        "type": "team"
+      },
+      "children": [],
+      "operating": false,
+      "item": "the_vault:soul_shard",
+      "counter": {
+        "variables": {},
+        "target": {
+          "count": 5000000,
+          "type": "constant"
+        },
+        "type": "target"
+      },
+      "type": "collection"
+    }
+    
+  ],
+  "width": 5
+}

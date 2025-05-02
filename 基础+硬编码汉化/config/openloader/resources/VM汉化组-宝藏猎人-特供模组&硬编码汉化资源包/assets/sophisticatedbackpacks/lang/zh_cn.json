@@ -1,0 +1,12 @@
+{
+    "item.sophisticatedbackpacks.backpack": "口袋",
+    "block.sophisticatedbackpacks.backpack": "口袋",
+    "item.sophisticatedbackpacks.iron_backpack": "双重口袋",
+    "block.sophisticatedbackpacks.iron_backpack": "双重口袋",
+    "item.sophisticatedbackpacks.gold_backpack": "战利品皮带",
+    "block.sophisticatedbackpacks.gold_backpack": "战利品皮带",
+    "item.sophisticatedbackpacks.diamond_backpack": "小背包",
+    "block.sophisticatedbackpacks.diamond_backpack": "小背包",
+    "item.sophisticatedbackpacks.netherite_backpack": "大背包",
+    "block.sophisticatedbackpacks.netherite_backpack": "大背包"
+}

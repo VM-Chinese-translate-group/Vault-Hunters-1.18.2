@@ -1,0 +1,332 @@
+{
+  "values": {
+    "starter": {
+      "model": "the_vault:deck/starter_deck#inventory",
+      "name": "\u65b0\u624b\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 0,
+        "max": 0
+      },
+      "layout": [
+        {
+          "value": [
+            "OOO",
+            "OOO",
+            "OOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "large": {
+      "model": "the_vault:deck/large#inventory",
+      "name": "\u5927\u578b\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 1,
+        "max": 1
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOO",
+            "OOXOO",
+            "OOOOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "double": {
+      "model": "the_vault:deck/double#inventory",
+      "name": "\u53cc\u500d\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 1,
+        "max": 1
+      },
+      "layout": [
+        {
+          "value": [
+            "OOXXXOO",
+            "OOXOXOO",
+            "OOXXXOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "merchant": {
+      "model": "the_vault:deck/merchant#inventory",
+      "name": "\u5546\u4eba\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 2,
+        "max": 2
+      },
+      "layout": [
+        {
+          "value": [
+            "XXOOXX",
+            "XOOOOX",
+            "OOOOOO",
+            "XOOOOX",
+            "XXOOXX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "expanded": {
+      "model": "the_vault:deck/starter_deck#inventory",
+      "name": "\u6269\u5c55\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 2,
+        "max": 2
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOO",
+            "OOOO",
+            "OOOO",
+            "OOOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "gdungeon": {
+      "model": "the_vault:deck/starter_deck#inventory",
+      "name": "\u8fb9\u754c\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOXOXOX",
+            "OOOOOOO",
+            "OOOOOOO",
+            "XOXOXOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "ldungeon": {
+      "model": "the_vault:deck/starter_deck#inventory",
+      "name": "\u8611\u83c7\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOO",
+            "OOOOOOO",
+            "XXOOOXX",
+            "XXOOOXX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "odungeon": {
+      "model": "the_vault:deck/starter_deck#inventory",
+      "name": "\u94c1\u7827\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOO",
+            "XOOOOOX",
+            "XXOOOXX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "treasure": {
+      "model": "the_vault:deck/treasure#inventory",
+      "name": "\u73cd\u5b9d\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 4,
+        "max": 4
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOO",
+            "OOOOOOO",
+            "OOOOOOO",
+            "OOXXXOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "black": {
+      "model": "the_vault:deck/black#inventory",
+      "name": "\u7eaf\u9ed1\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OXOOOOOXO",
+            "OXOOOOOXO",
+            "OXOOOOOXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "lost": {
+      "model": "the_vault:deck/lost#inventory",
+      "name": "\u9057\u5931\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 4,
+        "max": 4
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOXOO",
+            "OOOOOOXXO",
+            "OOXOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "champion": {
+      "model": "the_vault:deck/champion#inventory",
+      "name": "\u51a0\u519b\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 2,
+        "max": 2
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOO",
+            "OOOO",
+            "OOOO",
+            "OOOO",
+            "XOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "extended": {
+      "model": "the_vault:deck/champion#inventory",
+      "name": "\u51a0\u519b\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 2,
+        "max": 2
+      },
+      "layout": [
+        {
+          "value": [
+            "X",
+            "X",
+            "X",
+            "XOOO",
+            "XOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "runic": {
+      "model": "the_vault:deck/champion#inventory",
+      "name": "\u7b26\u6587\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOXOXOOO",
+            "XXOXOXOXX",
+            "XXOXOXOXX",
+            "XXOXOXOXX",
+            "XXOXOXOXX",
+            "OXOXOXOXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "bishop": {
+      "model": "the_vault:deck/champion#inventory",
+      "name": "\u8c61\u68cb\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OXOXOXOXO",
+            "XOXOXOXOX",
+            "OXOXOXOXO",
+            "XOXOXOXOX",
+            "OXOXOXOXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "belt": {
+      "model": "the_vault:deck/champion#inventory",
+      "name": "\u8170\u5e26\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOOOO",
+            "OXXXXXXXO",
+            "OXXXXXXXO",
+            "OXXXXXXXO",
+            "OXXXXXXXO",
+            "OOOOOOOOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "scam": {
+      "model": "the_vault:deck/champion#inventory",
+      "name": "\uff1f\uff1f\u5361\u7ec4\u5305",
+      "essence": {
+        "min": 5,
+        "max": 5
+      },
+      "layout": [
+        {
+          "value": [
+            "OXXXXXXXX",
+            "XXXXXXXXX",
+            "XXXXXXXXX",
+            "XXXOXXXXX",
+            "XXXXXXXXX",
+            "XXXXXXXXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    }
+  }
+}

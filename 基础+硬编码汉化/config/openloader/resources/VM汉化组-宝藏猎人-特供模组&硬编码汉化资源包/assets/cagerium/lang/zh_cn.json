@@ -1,0 +1,18 @@
+{
+  "item.cagerium.wither_spawn_egg": "凋灵刷怪蛋",
+  "item.cagerium.ender_dragon_spawn_egg": "末影龙刷怪蛋",
+  "item.cagerium.iron_golem_spawn_egg": "铁傀儡刷怪蛋",
+  "item.cagerium.skeleton_key": "骷髅钥匙",
+  "tooltip.cagerium.skeleton_key": "使用以移除一个Cagerium升级",
+  "block.cagerium.cage": "生物笼",
+  "block.cagerium.plate": "绑定板",
+  "block.cagerium.terrarium": "生物育养箱",
+  "item.cagerium.ominous_skull": "不详头颅",
+  "item.cagerium.binding_gemstone": "绑定宝石",
+  "item.cagerium.binding_wood_plate": "绑定木板",
+  "item.cagerium.burning_upgrade": "燃烧升级",
+  "item.cagerium.capacity_upgrade": "容量升级",
+  "tooltip.cagerium.burning": "燃烧升级",
+  "tooltip.cagerium.upgrade": "容量升级：%s",
+  "tooltip.cagerium.invalid": "无效"
+}

@@ -1,0 +1,3736 @@
+{
+  "keys": [
+    {
+      "id": "the_vault:empty",
+      "name": "\u5851\u6599\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/empty.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/plastic_rooms",
+      "name": "\u5851\u6599\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/plastic_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_rooms",
+      "name": "\u6d1e\u7a74\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/desert_rooms",
+      "name": "\u6c99\u6f20\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/desert_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/sandy_cave_rooms",
+      "name": "\u6c99\u8d28\u6d1e\u7a74\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/sandy_cave_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/sandy_cave_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/beach_rooms",
+      "name": "\u6c99\u6ee9\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/beach_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/beach_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ice_rooms",
+      "name": "\u51b0\u96ea\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ice_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ice_cave_rooms",
+      "name": "\u51b0\u96ea\u6d1e\u7a74\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/ice_cave_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ice_cave_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/lush_cave_common_rooms",
+      "name": "\u7e41\u8302\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/lush_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/lush_cave_rooms",
+      "name": "\u7e41\u8302\u6d1e\u7a74\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/lush_cave_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/living_cave_rooms",
+      "name": "\u6d3b\u5316\u6d1e\u7a74\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/living_cave_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/living_cave_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/mesa_rooms",
+      "name": "\u6076\u5730\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/mesa_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/deep_mesa_rooms",
+      "name": "\u6df1\u5c42\u6076\u5730\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/deep_mesa_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/deep_mesa_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nether_crimson_rooms",
+      "name": "\u4e0b\u754c\u7eef\u7ea2\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nether_crimson_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nether_warped_rooms",
+      "name": "\u4e0b\u754c\u8be1\u5f02\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nether_warped_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/void_rooms",
+      "name": "\u865a\u7a7a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/void_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/sweet_rooms",
+      "name": "\u751c\u871c\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/sweet_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/festive_rooms",
+      "name": "\u8282\u65e5\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/festive_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/gingerbread_rooms",
+      "name": "\u59dc\u997c\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/gingerbread_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/mushroom_rooms",
+      "name": "\u8611\u83c7\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/mushroom_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/easter_pastel_rooms",
+      "name": "\u590d\u6d3b\u8282\u86cb\u7cd5\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/easter_pastel_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/easter_egg_rooms",
+      "name": "\u590d\u6d3b\u8282\u5f69\u86cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/easter_egg_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/shipwreck_rooms",
+      "name": "\u6c89\u8239\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/shipwreck_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/flooded_rooms",
+      "name": "\u6df9\u6ca1\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/flooded_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/fairy_ring_rooms",
+      "name": "\u4ed9\u5b50\u6307\u73af\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/fairy_ring_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/poison_rooms",
+      "name": "\u5267\u6bd2\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/poison_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/season_spring_rooms",
+      "name": "\u6625\u5b63\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_spring_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/season_summer_rooms",
+      "name": "\u590f\u5b63\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_summer_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/season_fall_rooms",
+      "name": "\u79cb\u5b63\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_fall_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/season_winter_rooms",
+      "name": "\u51ac\u5b63\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_winter_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/aurora_cave_rooms",
+      "name": "\u6781\u5149\u6d1e\u7a74\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/aurora_cave_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/plastic_starts",
+      "name": "\u5851\u6599\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/plastic_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/cave_starts",
+      "name": "\u6d1e\u7a74\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/cave_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/desert_starts",
+      "name": "\u6c99\u6f20\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/desert_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/sandy_cave_starts",
+      "name": "\u6c99\u8d28\u6d1e\u7a74\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/sandy_cave_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/sandy_cave_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/beach_starts",
+      "name": "\u6c99\u6ee9\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/beach_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/beach_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/ice_starts",
+      "name": "\u51b0\u96ea\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/ice_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/ice_cave_starts",
+      "name": "\u51b0\u96ea\u6d1e\u7a74\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/ice_cave_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/ice_cave_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/lush_cave_starts",
+      "name": "\u7e41\u8302\u6d1e\u7a74\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/lush_cave_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/living_cave_starts",
+      "name": "\u6d3b\u5316\u6d1e\u7a74\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/living_cave_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/living_cave_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/mesa_starts",
+      "name": "\u6076\u5730\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/mesa_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/deep_mesa_starts",
+      "name": "\u6df1\u5c42\u6076\u5730\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/deep_mesa_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/deep_mesa_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/nether_crimson_starts",
+      "name": "\u4e0b\u754c\u7eef\u7ea2\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/nether_crimson_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/nether_warped_starts",
+      "name": "\u4e0b\u754c\u8be1\u5f02\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/nether_warped_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/void_starts",
+      "name": "\u865a\u7a7a\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/void_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/sweet_starts",
+      "name": "\u751c\u871c\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/sweet_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/festive_starts",
+      "name": "\u8282\u65e5\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/festive_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/gingerbread_starts",
+      "name": "\u59dc\u997c\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/gingerbread_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/mushroom_starts",
+      "name": "\u8611\u83c7\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/mushroom_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/easter_pastel_starts",
+      "name": "\u590d\u6d3b\u8282\u86cb\u7cd5\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/easter_pastel_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/easter_egg_starts",
+      "name": "\u590d\u6d3b\u8282\u5f69\u86cb\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/easter_egg_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/shipwreck_starts",
+      "name": "\u6c89\u8239\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/shipwreck_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/flooded_starts",
+      "name": "\u6df9\u6ca1\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/flooded_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/fairy_ring_starts",
+      "name": "\u4ed9\u5b50\u6307\u73af\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/fairy_ring_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/poison_starts",
+      "name": "\u5267\u6bd2\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/poison_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/season_spring_starts",
+      "name": "\u6625\u5b63\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/season_spring_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/season_summer_starts",
+      "name": "\u590f\u5b63\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/season_summer_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/season_fall_starts",
+      "name": "\u79cb\u5b63\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/season_fall_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/wendarr_starts",
+      "name": "\u6587\u8fbe\u5c14\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/wendarr_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/tenos_starts",
+      "name": "\u7279\u8bfa\u65af\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/tenos_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/velara_starts",
+      "name": "\u7ef4\u62c9\u62c9\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/velara_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/idona_starts",
+      "name": "\u4f0a\u591a\u7eb3\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/idona_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/intermediary_starts",
+      "name": "\u4e2d\u7ee7\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/intermediary_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/season_winter_starts",
+      "name": "\u51ac\u5b63\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/season_winter_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/aurora_cave_starts",
+      "name": "\u6781\u5149\u6d1e\u7a74\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/aurora_cave_starts.json"
+    },
+    {
+      "id": "the_vault:vault/portals/portals",
+      "name": "\u8d77\u59cb\u4f20\u9001\u95e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/portals/portals.json"
+    },
+    {
+      "id": "the_vault:vault/portals/personal_vault_portals",
+      "name": "\u79c1\u4eba\u5b9d\u5e93\u4f20\u9001\u95e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/portals/personal_vault_portals.json"
+    },
+    {
+      "id": "the_vault:boss_dimension/boss_start_portals",
+      "name": "\u9996\u9886\u7ef4\u5ea6\u8d77\u59cb\u4f20\u9001\u95e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/boss_dimension/boss_start_portals.json"
+    },
+    {
+      "id": "the_vault:boss_dimension/arena_gate_frame_outline",
+      "name": "\u9996\u9886\u7ef4\u5ea6\u7ade\u6280\u573a\u5927\u95e8\u6846\u67b6\u8f6e\u5ed3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/boss_dimension/arena_gate_frame_outline.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/tunnels",
+      "name": "\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/plastic_tunnels",
+      "name": "\u5851\u6599\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/plastic_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/cave_tunnels",
+      "name": "\u6d1e\u7a74\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/cave_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/desert_tunnels",
+      "name": "\u6c99\u6f20\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/desert_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/sandy_cave_tunnels",
+      "name": "\u6c99\u8d28\u6d1e\u7a74\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/sandy_cave_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/sandy_cave_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/beach_tunnels",
+      "name": "\u6c99\u6ee9\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/beach_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/beach_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/ice_tunnels",
+      "name": "\u51b0\u96ea\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/ice_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/ice_cave_tunnels",
+      "name": "\u51b0\u96ea\u6d1e\u7a74\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/ice_cave_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/ice_cave_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/lush_cave_tunnels",
+      "name": "\u7e41\u8302\u6d1e\u7a74\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/lush_cave_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/living_cave_tunnels",
+      "name": "\u6d3b\u5316\u6d1e\u7a74\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/living_cave_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/living_cave_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/mesa_tunnels",
+      "name": "\u6076\u5730\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/mesa_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/deep_mesa_tunnels",
+      "name": "\u6df1\u5c42\u6076\u5730\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/deep_mesa_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/deep_mesa_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/nether_crimson_tunnels",
+      "name": "\u4e0b\u754c\u7eef\u7ea2\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/nether_crimson_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/nether_warped_tunnels",
+      "name": "\u4e0b\u754c\u8be1\u5f02\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/nether_warped_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/void_tunnels",
+      "name": "\u865a\u7a7a\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/void_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/sweet_tunnels",
+      "name": "\u751c\u871c\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/sweet_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/festive_tunnels",
+      "name": "\u8282\u65e5\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/festive_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/gingerbread_tunnels",
+      "name": "\u59dc\u997c\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/gingerbread_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/mushroom_tunnels",
+      "name": "\u8611\u83c7\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/mushroom_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/easter_pastel_tunnels",
+      "name": "\u590d\u6d3b\u8282\u86cb\u7cd5\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/easter_pastel_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/easter_egg_tunnels",
+      "name": "\u590d\u6d3b\u8282\u5f69\u86cb\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/easter_egg_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/shipwreck_tunnels",
+      "name": "\u6c89\u8239\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/shipwreck_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/flooded_tunnels",
+      "name": "\u6df9\u6ca1\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/flooded_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/fairy_ring_tunnels",
+      "name": "\u4ed9\u5b50\u6307\u73af\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/fairy_ring_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/poison_tunnels",
+      "name": "\u5267\u6bd2\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/poison_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/season_spring_tunnels",
+      "name": "\u6625\u5b63\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/season_spring_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/season_summer_tunnels",
+      "name": "\u590f\u5b63\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/season_summer_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/season_fall_tunnels",
+      "name": "\u79cb\u5b63\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/season_fall_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/season_winter_tunnels",
+      "name": "\u51ac\u5b63\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/season_winter_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/aurora_cave_tunnels",
+      "name": "\u6781\u5149\u6d1e\u7a74\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/aurora_cave_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/altars/altars",
+      "name": "\u796d\u575b",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/altars/altars.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/3x3/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/3x3/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/3x3/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/3x3/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/3x3/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/3x3/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/3x3/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/3x3/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/3x3/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/3x3/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/5x5/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/5x5/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/5x5/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/5x5/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/5x5/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/iron/5x5/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/iron/5x5/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/5x5/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/5x5/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/5x5/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/5x5/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/5x5/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/5x5/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/5x5/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/7x7/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/7x7/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/7x7/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/7x7/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/7x7/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/7x7/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/7x7/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/7x7/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/gold/7x7/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/gold/7x7/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/5x5/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/5x5/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/5x5/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/5x5/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/5x5/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/5x5/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/5x5/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/7x7/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/7x7/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/7x7/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/7x7/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/7x7/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/7x7/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/7x7/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/7x7/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/diamond/7x7/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/diamond/7x7/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/3x3/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/3x3/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/3x3/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/3x3/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/3x3/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/3x3/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/5x5/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/common/5x5/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/common/5x5/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/3x3/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/3x3/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/3x3/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/3x3/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/3x3/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/3x3/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/5x5/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/5x5/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/5x5/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/7x7/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/7x7/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/7x7/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/7x7/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/rare/7x7/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/rare/7x7/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/5x5/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/5x5/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/5x5/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/standing1",
+      "name": "Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/7x7/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/7x7/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/wall1",
+      "name": "Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/7x7/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/burrow1",
+      "name": "Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/7x7/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/epic/7x7/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/epic/7x7/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest1",
+      "name": "\u6728\u5236 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/wooden_chest1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest2",
+      "name": "\u6728\u5236 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/wooden_chest2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest3",
+      "name": "\u6728\u5236 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/wooden_chest3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest4",
+      "name": "\u6728\u5236 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/wooden_chest4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest5",
+      "name": "\u6728\u5236 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/wooden_chest5.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/wooden_chest6",
+      "name": "\u6728\u5236 6",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/wooden_chest6.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore6",
+      "name": "\u77ff\u77f3 6",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ore6.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate1",
+      "name": "\u534e\u4e3d 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ornate1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate2",
+      "name": "\u534e\u4e3d 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ornate2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate3",
+      "name": "\u534e\u4e3d 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ornate3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate4",
+      "name": "\u534e\u4e3d 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ornate4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate5",
+      "name": "\u534e\u4e3d 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ornate5.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living1",
+      "name": "\u6d3b\u5316 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/living1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living2",
+      "name": "\u6d3b\u5316 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/living2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living4",
+      "name": "\u6d3b\u5316 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/living4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living5",
+      "name": "\u6d3b\u5316 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/living5.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living6",
+      "name": "\u6d3b\u5316 6",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/living6.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded2",
+      "name": "\u9540\u91d1 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/gilded2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded3",
+      "name": "\u9540\u91d1 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/gilded3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded4",
+      "name": "\u9540\u91d1 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/gilded4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded5",
+      "name": "\u9540\u91d1 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/gilded5.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded6",
+      "name": "\u9540\u91d1 6",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/gilded6.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin1",
+      "name": "\u94b1\u5e01 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/coin1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin2",
+      "name": "\u94b1\u5e01 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/coin2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin3",
+      "name": "\u94b1\u5e01 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/coin3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin4",
+      "name": "\u94b1\u5e01 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/coin4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/coin5",
+      "name": "\u94b1\u5e01 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/coin5.json"
+    },
+    {
+      "id": "the_vault:vault/objectives/objective1",
+      "name": "\u76ee\u6807 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/objectives/objective1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/gilded1",
+      "name": "\u9540\u91d1 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/gilded1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/living3",
+      "name": "\u6d3b\u5316 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/living3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore1",
+      "name": "\u77ff\u77f3 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ore1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore2",
+      "name": "\u77ff\u77f3 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ore2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore3",
+      "name": "\u77ff\u77f3 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ore3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore4",
+      "name": "\u77ff\u77f3 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ore4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ore5",
+      "name": "\u77ff\u77f3 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ore5.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ornate6",
+      "name": "\u534e\u4e3d 6",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ornate6.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ultramega1",
+      "name": "\u8d85\u5927 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ultramega1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ultramega2",
+      "name": "\u8d85\u5927 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ultramega2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ultramega3",
+      "name": "\u8d85\u5927 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ultramega3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/omega/ultramega4",
+      "name": "\u8d85\u5927 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/omega/ultramega4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/floating1",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Floating 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/floating1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/floating2",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Floating 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/floating2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/floating3",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Floating 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/floating3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/hanging1",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/hanging2",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Hanging 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/hanging2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/hanging3",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Hanging 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/hanging3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/standing1",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/standing2",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Standing 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/standing2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/standing3",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Standing 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/standing3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/crystal_caves/meteor1",
+      "name": "\u6c34\u6676\u6d1e\u7a74 Meteor 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/crystal_caves/meteor1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/portal1",
+      "name": "\u6751\u5e84\u4f20\u9001\u95e8 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/portal1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/door1",
+      "name": "\u6751\u5e84\u95e8 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/door1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/pile1",
+      "name": "\u6751\u5e84 Pile 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/pile1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/wall1",
+      "name": "\u6751\u5e84 Wall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/wall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/burrow1",
+      "name": "\u6751\u5e84 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/cell1",
+      "name": "\u6751\u5e84 Cell 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/cell1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/centerpiece1",
+      "name": "\u6751\u5e84 Centerpiece 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/centerpiece1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/crossroad_decor1",
+      "name": "\u6751\u5e84 Crossroad Decor 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/crossroad_decor1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/small_library1",
+      "name": "\u6751\u5e84 Small \u56fe\u4e66\u9986 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/small_library1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/bookshelf1",
+      "name": "\u6751\u5e84 Bookshelf 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/bookshelf1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/house_spawner1",
+      "name": "\u6751\u5e84 House Spawner 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/house_spawner1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/loo1",
+      "name": "\u6751\u5e84 Loo 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/loo1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/loo2",
+      "name": "\u6751\u5e84 Loo 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/loo2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge_rooms",
+      "name": "\u6311\u6218\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves",
+      "name": "\u6c34\u6676\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/digsite",
+      "name": "\u6316\u6398\u4e4b\u5730",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/digsite.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/dragon",
+      "name": "\u9f99\u7a9f",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/factory",
+      "name": "\u5de5\u5382",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/raid/rooms",
+      "name": "\u88ad\u51fb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/raid/base_rooms",
+      "name": "\u88ad\u51fb",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/base_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/raid/orcish_rooms",
+      "name": "\u88ad\u51fb",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/orcish_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/raid/easter_rooms",
+      "name": "\u88ad\u51fb",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/easter_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/raid/base_objective_orcish_rooms",
+      "name": "\u88ad\u51fb",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/base_objective_orcish_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/raid/base_objective_easter_rooms",
+      "name": "\u88ad\u51fb",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/base_objective_easter_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/raid/infinite_objective_orcish_rooms",
+      "name": "\u88ad\u51fb",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/infinite_objective_orcish_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/raid/infinite_objective_easter_rooms",
+      "name": "\u88ad\u51fb",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/infinite_objective_easter_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/orcish_starts",
+      "name": "\u517d\u4eba\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/orcish_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/orcish_tunnels",
+      "name": "\u517d\u4eba\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/orcish_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/starts/easter_starts",
+      "name": "\u590d\u6d3b\u8282\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/easter_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/easter_tunnels",
+      "name": "\u590d\u6d3b\u8282\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/easter_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/laboratory",
+      "name": "\u5b9e\u9a8c\u5ba4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/laboratory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/village",
+      "name": "\u6751\u5e84",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/wildwest",
+      "name": "\u8352\u91ce\u897f\u90e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/challenge_rooms",
+      "name": "\u6df7\u6c8c\u6311\u6218\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/challenge/village",
+      "name": "\u6df7\u6c8c\u6751\u5e84",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/challenge/wildwest",
+      "name": "\u6df7\u6c8c\u8352\u91ce\u897f\u90e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/challenge/x-mark",
+      "name": "\u6df7\u6c8cX\u6807\u8bb0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/challenge/x-mark.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/challenge_rooms",
+      "name": "\u6587\u8fbe\u5c14\u6311\u6218\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/challenge/crystal_caves",
+      "name": "\u6587\u8fbe\u5c14\u6c34\u6676\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/challenge/dragon",
+      "name": "\u6587\u8fbe\u5c14\u9f99\u7a9f",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/challenge/factory",
+      "name": "\u6587\u8fbe\u5c14\u5de5\u5382",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/challenge/village",
+      "name": "\u6587\u8fbe\u5c14\u6751\u5e84",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/challenge/wildwest",
+      "name": "\u6587\u8fbe\u5c14\u8352\u91ce\u897f\u90e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/challenge/x-mark",
+      "name": "\u6587\u8fbe\u5c14X\u6807\u8bb0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge/x-mark.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/challenge_rooms",
+      "name": "\u7279\u8bfa\u65af\u6311\u6218\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/challenge/crystal_caves",
+      "name": "\u7279\u8bfa\u65af\u6c34\u6676\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/challenge/dragon",
+      "name": "\u7279\u8bfa\u65af\u9f99\u7a9f",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/challenge/factory",
+      "name": "\u7279\u8bfa\u65af\u5de5\u5382",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/challenge/village",
+      "name": "\u7279\u8bfa\u65af\u6751\u5e84",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/challenge/wildwest",
+      "name": "\u7279\u8bfa\u65af\u8352\u91ce\u897f\u90e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/challenge/x-mark",
+      "name": "\u7279\u8bfa\u65afX\u6807\u8bb0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/challenge/x-mark.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/challenge_rooms",
+      "name": "\u7ef4\u62c9\u62c9\u6311\u6218\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/challenge/crystal_caves",
+      "name": "\u7ef4\u62c9\u62c9\u6c34\u6676\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/challenge/dragon",
+      "name": "\u7ef4\u62c9\u62c9\u9f99\u7a9f",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/challenge/factory",
+      "name": "\u7ef4\u62c9\u62c9\u5de5\u5382",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/challenge/village",
+      "name": "\u7ef4\u62c9\u62c9\u6751\u5e84",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/challenge/wildwest",
+      "name": "\u7ef4\u62c9\u62c9\u8352\u91ce\u897f\u90e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/challenge/x-mark",
+      "name": "\u7ef4\u62c9\u62c9X\u6807\u8bb0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge/x-mark.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/challenge_rooms",
+      "name": "\u4f0a\u591a\u7eb3\u6311\u6218\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/challenge/crystal_caves",
+      "name": "\u4f0a\u591a\u7eb3\u6c34\u6676\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/challenge/dragon",
+      "name": "\u4f0a\u591a\u7eb3\u9f99\u7a9f",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/challenge/factory",
+      "name": "\u4f0a\u591a\u7eb3\u5de5\u5382",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/challenge/village",
+      "name": "\u4f0a\u591a\u7eb3\u6751\u5e84",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/challenge/wildwest",
+      "name": "\u4f0a\u591a\u7eb3\u8352\u91ce\u897f\u90e8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/challenge/x-mark",
+      "name": "\u4f0a\u591a\u7eb3X\u6807\u8bb0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/challenge/x-mark.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/center_spawner1",
+      "name": "Center Spawner 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/center_spawner1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner1",
+      "name": "Corner Spawner 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner2",
+      "name": "Corner Spawner 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner3",
+      "name": "Corner Spawner 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner4",
+      "name": "Corner Spawner 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/hanging1",
+      "name": "Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/trap_plate1",
+      "name": "\u8352\u91ce\u897f\u90e8 Trap Plate 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/trap_plate1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/small_pile1",
+      "name": "\u8352\u91ce\u897f\u90e8 Small Pile 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/small_pile1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/small_pile2",
+      "name": "\u8352\u91ce\u897f\u90e8 Small Pile 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/small_pile2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/big_pile1",
+      "name": "\u8352\u91ce\u897f\u90e8 Big Pile 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/big_pile1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/big_pile2",
+      "name": "\u8352\u91ce\u897f\u90e8 Big Pile 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/big_pile2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall1",
+      "name": "\u8352\u91ce\u897f\u90e8 Stall 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/stall1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/stall2",
+      "name": "\u8352\u91ce\u897f\u90e8 Stall 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/stall2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/minecart_gravel1",
+      "name": "\u8352\u91ce\u897f\u90e8 \u77ff\u8f66 Gravel 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/minecart_gravel1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/minecart_powder1",
+      "name": "\u8352\u91ce\u897f\u90e8 \u77ff\u8f66 Powder 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/minecart_powder1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/small_bumbo_pile1",
+      "name": "\u8352\u91ce\u897f\u90e8 Small Bumbo Pile 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/small_bumbo_pile1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/big_bumbo_pile1",
+      "name": "\u8352\u91ce\u897f\u90e8 Big Bumbo Pile 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/big_bumbo_pile1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/center_basement1",
+      "name": "\u8352\u91ce\u897f\u90e8 Center Basement 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/center_basement1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/wildwest/side_basement1",
+      "name": "\u8352\u91ce\u897f\u90e8 Side Basement 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/wildwest/side_basement1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/factory/spawner_crane1",
+      "name": "\u5de5\u5382 Spawner Crane 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/factory/spawner_crane1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/factory/floor_crate1",
+      "name": "\u5de5\u5382 Floor Crate 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/factory/floor_crate1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/factory/crate1",
+      "name": "\u5de5\u5382 Crate 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/factory/crate1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/challenge_digsite/fossil1",
+      "name": "\u6311\u6218\u6316\u6398\u4e4b\u5730 Fossil 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/challenge_digsite/fossil1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/omega_digsite/fossil1",
+      "name": "\u7ec8\u7109\u6316\u6398\u4e4b\u5730 Fossil 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/omega_digsite/fossil1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/cube",
+      "name": "\u9b54\u65b9",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/digsite",
+      "name": "\u6316\u6398\u4e4b\u5730",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/digsite.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/digsite2",
+      "name": "\u6316\u6398\u4e4b\u5730",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/vendor",
+      "name": "\u96c6\u5e02",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/painting",
+      "name": "\u5f69\u7ed8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mine",
+      "name": "\u77ff\u4e95",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/blacksmith",
+      "name": "\u953b\u9020\u57ce\u5821",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega_rooms",
+      "name": "\u7ec8\u7109\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/cube",
+      "name": "\u6587\u8fbe\u5c14\u9b54\u65b9",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/digsite2",
+      "name": "\u6587\u8fbe\u5c14\u6316\u6398\u4e4b\u5730",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/vendor",
+      "name": "\u6587\u8fbe\u5c14\u96c6\u5e02",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/painting",
+      "name": "\u6587\u8fbe\u5c14\u5f69\u7ed8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/mine",
+      "name": "\u6587\u8fbe\u5c14\u77ff\u4e95",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/blacksmith",
+      "name": "\u6587\u8fbe\u5c14\u953b\u9020\u57ce\u5821",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega_rooms",
+      "name": "\u6587\u8fbe\u5c14\u7ec8\u7109\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/mush_room",
+      "name": "\u6587\u8fbe\u5c14\u8611\u83c7\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/library",
+      "name": "\u6587\u8fbe\u5c14\u56fe\u4e66\u9986",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/cove",
+      "name": "\u6587\u8fbe\u5c14\u6e2f\u6e7e",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/cove.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/cube",
+      "name": "\u7279\u8bfa\u65af\u9b54\u65b9",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/digsite2",
+      "name": "\u7279\u8bfa\u65af\u6316\u6398\u4e4b\u5730",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/vendor",
+      "name": "\u7279\u8bfa\u65af\u96c6\u5e02",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/painting",
+      "name": "\u7279\u8bfa\u65af\u5f69\u7ed8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/mine",
+      "name": "\u7279\u8bfa\u65af\u77ff\u4e95",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/blacksmith",
+      "name": "\u7279\u8bfa\u65af\u953b\u9020\u57ce\u5821",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega_rooms",
+      "name": "\u7279\u8bfa\u65af\u7ec8\u7109\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/mush_room",
+      "name": "\u7279\u8bfa\u65af\u8611\u83c7\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/library",
+      "name": "\u7279\u8bfa\u65af\u56fe\u4e66\u9986",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/cove",
+      "name": "\u7279\u8bfa\u65af\u6e2f\u6e7e",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/cove.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/cube",
+      "name": "\u7ef4\u62c9\u62c9\u9b54\u65b9",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/digsite2",
+      "name": "\u7ef4\u62c9\u62c9\u6316\u6398\u4e4b\u5730",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/vendor",
+      "name": "\u7ef4\u62c9\u62c9\u96c6\u5e02",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/painting",
+      "name": "\u7ef4\u62c9\u62c9\u5f69\u7ed8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/mine",
+      "name": "\u7ef4\u62c9\u62c9\u77ff\u4e95",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/blacksmith",
+      "name": "\u7ef4\u62c9\u62c9\u953b\u9020\u57ce\u5821",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega_rooms",
+      "name": "\u7ef4\u62c9\u62c9\u7ec8\u7109\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/mush_room",
+      "name": "\u7ef4\u62c9\u62c9\u8611\u83c7\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/library",
+      "name": "\u7ef4\u62c9\u62c9\u56fe\u4e66\u9986",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/cove",
+      "name": "\u7ef4\u62c9\u62c9\u6e2f\u6e7e",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/cove.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/cube",
+      "name": "\u4f0a\u591a\u7eb3\u9b54\u65b9",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/digsite2",
+      "name": "\u4f0a\u591a\u7eb3\u6316\u6398\u4e4b\u5730",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/vendor",
+      "name": "\u4f0a\u591a\u7eb3\u96c6\u5e02",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/painting",
+      "name": "\u4f0a\u591a\u7eb3\u5f69\u7ed8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/mine",
+      "name": "\u4f0a\u591a\u7eb3\u77ff\u4e95",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/blacksmith",
+      "name": "\u4f0a\u591a\u7eb3\u953b\u9020\u57ce\u5821",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega_rooms",
+      "name": "\u4f0a\u591a\u7eb3\u7ec8\u7109\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/mush_room",
+      "name": "\u4f0a\u591a\u7eb3\u8611\u83c7\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/library",
+      "name": "\u4f0a\u591a\u7eb3\u56fe\u4e66\u9986",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/cove",
+      "name": "\u4f0a\u591a\u7eb3\u6e2f\u6e7e",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/cove.json"
+    },
+    {
+      "id": "the_vault:vault/decor/cube/puzzle",
+      "name": "\u7ec8\u7109\u9b54\u65b9 Puzzle",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/cube/puzzle.json"
+    },
+    {
+      "id": "the_vault:vault/decor/painting/floor_bucket1",
+      "name": "\u7ec8\u7109\u5f69\u7ed8 Floor Bucket 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/painting/floor_bucket1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/painting/brush1",
+      "name": "\u7ec8\u7109\u5f69\u7ed8 Brush 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/painting/brush1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/painting/hanging1",
+      "name": "\u7ec8\u7109\u5f69\u7ed8 Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/painting/hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/fort_house1",
+      "name": "\u7ec8\u7109\u96c6\u5e02 Fort House 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/vendor/fort_house1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/omega/vendor",
+      "name": "\u6df7\u6c8c\u96c6\u5e02",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/omega/painting",
+      "name": "\u6df7\u6c8c\u5f69\u7ed8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/omega/blacksmith",
+      "name": "\u6df7\u6c8c\u953b\u9020\u57ce\u5821",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/omega_rooms",
+      "name": "\u6df7\u6c8c\u7ec8\u7109\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/omega/mush_room",
+      "name": "\u6df7\u6c8c\u8611\u83c7\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/omega/library",
+      "name": "\u6df7\u6c8c\u56fe\u4e66\u9986",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/treasure_rooms/treasure_rooms",
+      "name": "\u5b9d\u85cf\u5ba4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/treasure_rooms/treasure_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/vendor_rooms/vendor_rooms",
+      "name": "\u96c6\u5e02\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/vendor_rooms/vendor_rooms.json"
+    },
+    {
+      "id": "the_vault:arena/arena",
+      "name": "\u7ade\u6280\u573a",
+      "1.0": "config/the_vault/gen/1.0/template_pools/arena/arena.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_common_rooms",
+      "name": "\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/living_cave_common_rooms",
+      "name": "\u6d3b\u5316\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/living_cave_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/living_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/desert_common_rooms",
+      "name": "\u6c99\u6f20\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/desert_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/sandy_cave_common_rooms",
+      "name": "\u6c99\u8d28\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/sandy_cave_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/sandy_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/beach_common_rooms",
+      "name": "\u6c99\u6ee9\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/beach_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/beach_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ice_common_rooms",
+      "name": "\u51b0\u96ea\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ice_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ice_cave_common_rooms",
+      "name": "\u51b0\u96ea\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/ice_cave_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ice_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/mesa_common_rooms",
+      "name": "\u6076\u5730\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/mesa_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/deep_mesa_common_rooms",
+      "name": "\u6df1\u5c42\u6076\u5730\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/deep_mesa_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/deep_mesa_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nether_crimson_common_rooms",
+      "name": "\u4e0b\u754c\u7eef\u7ea2\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nether_crimson_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nether_warped_common_rooms",
+      "name": "\u4e0b\u754c\u8be1\u5f02\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nether_warped_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/void_common_rooms",
+      "name": "\u865a\u7a7a\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/void_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/mushroom_common_rooms",
+      "name": "\u8611\u83c7\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/mushroom_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/easter_pastel_common_rooms",
+      "name": "\u590d\u6d3b\u8282\u86cb\u7cd5\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/easter_pastel_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/easter_egg_common_rooms",
+      "name": "\u590d\u6d3b\u8282\u5f69\u86cb\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/easter_egg_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/shipwreck_common_rooms",
+      "name": "\u6c89\u8239\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/shipwreck_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/flooded_common_rooms",
+      "name": "\u6df9\u6ca1\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/flooded_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/fairy_ring_common_rooms",
+      "name": "\u4ed9\u5b50\u6307\u73af\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/fairy_ring_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/poison_common_rooms",
+      "name": "\u5267\u6bd2\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/poison_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/season_spring_common_rooms",
+      "name": "\u6625\u5b63\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_spring_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/season_summer_common_rooms",
+      "name": "\u590f\u5b63\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_summer_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/season_fall_common_rooms",
+      "name": "\u79cb\u5b63\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_fall_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/season_winter_common_rooms",
+      "name": "\u51ac\u5b63\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_winter_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/aurora_cave_common_rooms",
+      "name": "\u6781\u5149\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/aurora_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/decor/x-mark/redstone_spawner",
+      "name": "Redstone Spawner",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/x-mark/redstone_spawner.json"
+    },
+    {
+      "id": "the_vault:vault/decor/x-mark/trap_spawners",
+      "name": "Trap Spawners",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/x-mark/trap_spawners.json"
+    },
+    {
+      "id": "the_vault:vault/decor/x-mark/palm1",
+      "name": "\u68d5\u6988",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/x-mark/palm1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/x-mark",
+      "name": "X\u6807\u8bb0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/x-mark.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mine/minecart1",
+      "name": "\u77ff\u4e95 \u77ff\u8f66 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mine/minecart1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mine/ore1",
+      "name": "\u77ff\u4e95 \u77ff\u77f3 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mine/ore1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mine/ore2",
+      "name": "\u77ff\u4e95 \u77ff\u77f3 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mine/ore2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mine/elevator_hanging1",
+      "name": "\u77ff\u4e95 \u7535\u68af Hanging 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mine/elevator_hanging1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mine/elevator_floor1",
+      "name": "\u77ff\u4e95 \u7535\u68af Floor 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mine/elevator_floor1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_deepslate_common_rooms",
+      "name": "\u6d1e\u7a74\u6df1\u677f\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_deepslate_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_deepslate_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_geode_common_rooms",
+      "name": "\u6d1e\u7a74\u7d2b\u6676\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_geode_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_geode_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_wasteland_common_rooms",
+      "name": "\u6d1e\u7a74\u8352\u5730\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_wasteland_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_wasteland_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/cave_deepslate_starts",
+      "name": "\u6d1e\u7a74\u6df1\u677f\u5ca9\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/cave_deepslate_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/cave_deepslate_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/cave_geode_starts",
+      "name": "\u6d1e\u7a74\u7d2b\u6676\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/cave_geode_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/cave_geode_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/cave_wasteland_starts",
+      "name": "\u6d1e\u7a74\u8352\u5730\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/cave_wasteland_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/cave_wasteland_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/cave_deepslate_tunnels",
+      "name": "\u6d1e\u7a74\u6df1\u677f\u5ca9\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/cave_deepslate_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/cave_deepslate_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/cave_geode_tunnels",
+      "name": "\u6d1e\u7a74\u7d2b\u6676\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/cave_geode_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/cave_geode_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/cave_wasteland_tunnels",
+      "name": "\u6d1e\u7a74\u8352\u5730\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/cave_wasteland_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/cave_wasteland_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_deepslate_rooms",
+      "name": "\u6d1e\u7a74\u6df1\u677f\u5ca9\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_deepslate_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_deepslate_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_geode_rooms",
+      "name": "\u6d1e\u7a74\u7d2b\u6676\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_geode_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_geode_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_wasteland_rooms",
+      "name": "\u6d1e\u7a74\u8352\u5730\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_wasteland_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_wasteland_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/decor/factory/center_spawner",
+      "name": "Center Spawner",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/decor/factory/center_spawner.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/factory/center_spawner.json"
+    },
+    {
+      "id": "the_vault:arena/gladiator_arena",
+      "name": "\u89d2\u6597\u58eb\u7ade\u6280\u573a",
+      "1.0": "config/the_vault/gen/1.0/template_pools/arena/gladiator_arena.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/farm1",
+      "name": "\u519c\u573a 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/farm/farm1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/flower1",
+      "name": "Flower 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/farm/flower1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/hole1",
+      "name": "Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/farm/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/pile1",
+      "name": "Pile 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/farm/pile1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/structure1",
+      "name": "Structure 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/farm/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_common_rooms",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_rooms_lvl0",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u623f\u95f4 LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms_lvl0.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/resources_lvl0",
+      "name": "\u8d44\u6e90 LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources_lvl0.json"
+    },
+    {
+      "id": "the_vault:vault/starts/raw_cave_starts",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/raw_cave_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/raw_cave_tunnels",
+      "name": "\u539f\u59cb\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/raw_cave_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/quarry",
+      "name": "\u539f\u59cb\u91c7\u77f3\u573a",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/quarry.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/farm",
+      "name": "\u519c\u573a",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/farm.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/cave_a",
+      "name": "\u91c7\u77f3\u573a\u6d1e\u7a74 A",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/quarry/cave_a.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/cave_b",
+      "name": "\u91c7\u77f3\u573a\u6d1e\u7a74 B",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/quarry/cave_b.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/cave_c",
+      "name": "\u91c7\u77f3\u573a\u6d1e\u7a74 C",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/quarry/cave_c.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/cave_d",
+      "name": "\u91c7\u77f3\u573a\u6d1e\u7a74 D",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/quarry/cave_d.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/cave_e",
+      "name": "\u91c7\u77f3\u573a\u6d1e\u7a74 E",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/quarry/cave_e.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/vine",
+      "name": "\u8611\u83c7\u623f\u95f4 Vine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mush_room/vine.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/big_floor_mushroom",
+      "name": "\u8611\u83c7\u623f\u95f4 Big Floor \u8611\u83c7",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mush_room/big_floor_mushroom.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/big_wall_mushroom",
+      "name": "\u8611\u83c7\u623f\u95f4 Big Wall \u8611\u83c7",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mush_room/big_wall_mushroom.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/bigger_wall_mushroom",
+      "name": "\u8611\u83c7\u623f\u95f4 Bigger Wall \u8611\u83c7",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mush_room/bigger_wall_mushroom.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/floor_mushroom",
+      "name": "\u8611\u83c7\u623f\u95f4 Floor \u8611\u83c7",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mush_room/floor_mushroom.json"
+    },
+    {
+      "id": "the_vault:vault/decor/mush_room/wall_mushroom",
+      "name": "\u8611\u83c7\u623f\u95f4 Wall \u8611\u83c7",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/mush_room/wall_mushroom.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/end_void_common_rooms",
+      "name": "\u672b\u5730\u865a\u7a7a\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/end_void_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/end_void_rooms",
+      "name": "\u672b\u5730\u865a\u7a7a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/end_void_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nether_blackstone_common_rooms",
+      "name": "\u4e0b\u754c\u9ed1\u77f3\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nether_blackstone_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nether_blackstone_rooms",
+      "name": "\u4e0b\u754c\u9ed1\u77f3\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nether_blackstone_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nether_soul_common_rooms",
+      "name": "\u4e0b\u754c\u7075\u9b42\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nether_soul_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nether_soul_rooms",
+      "name": "\u4e0b\u754c\u7075\u9b42\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nether_soul_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mush_room",
+      "name": "\u8611\u83c7\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/starts/end_void_starts",
+      "name": "\u672b\u5730\u865a\u7a7a\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/end_void_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/nether_blackstone_starts",
+      "name": "\u4e0b\u754c\u9ed1\u77f3\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/nether_blackstone_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/nether_soul_starts",
+      "name": "\u4e0b\u754c\u7075\u9b42\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/nether_soul_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/end_void_tunnels",
+      "name": "\u672b\u5730\u865a\u7a7a\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/end_void_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/nether_blackstone_tunnels",
+      "name": "\u4e0b\u754c\u9ed1\u77f3\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/nether_blackstone_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/nether_soul_tunnels",
+      "name": "\u4e0b\u754c\u7075\u9b42\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/nether_soul_tunnels.json"
+    },
+    {
+      "id": "the_vault:skyblock/island",
+      "name": "\u5c9b\u5c7f",
+      "1.0": "config/the_vault/gen/1.0/template_pools/skyblock/island.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/factory_void_common_rooms",
+      "name": "\u5de5\u5382\u865a\u7a7a\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/factory_void_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/factory_void_rooms",
+      "name": "\u5de5\u5382\u865a\u7a7a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/factory_void_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/factory_void_starts",
+      "name": "\u5de5\u5382\u865a\u7a7a\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/factory_void_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/factory_void_tunnels",
+      "name": "\u5de5\u5382\u865a\u7a7a\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/factory_void_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/nether",
+      "name": "\u539f\u59cb\u4e0b\u754c",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/nether.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/quarry/compressed_pile1",
+      "name": "\u91c7\u77f3\u573a Compressed Pile 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/quarry/compressed_pile1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/festive_common_rooms",
+      "name": "\u8282\u65e5\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/festive_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/sweet_common_rooms",
+      "name": "\u751c\u871c\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/sweet_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/chromatic_caves/spawner_pedestal1",
+      "name": "Spawner Pedestal 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/chromatic_caves/spawner_pedestal1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_resource_rooms",
+      "name": "\u6d1e\u7a74\u8d44\u6e90\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_resource_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/chromatic_caves",
+      "name": "\u5f02\u8272\u94c1\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/chromatic_caves.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/5x5/standing1",
+      "name": "\u77ff\u77f3 5x5 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/5x5/hole1",
+      "name": "\u77ff\u77f3 5x5 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/5x5/burrow1",
+      "name": "\u77ff\u77f3 5x5 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/standing1",
+      "name": "\u77ff\u77f3 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/hole1",
+      "name": "\u77ff\u77f3 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/burrow1",
+      "name": "\u77ff\u77f3 7x7 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/7x7/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/burrow1",
+      "name": "\u77ff\u77f3 9x9 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/ore/9x9/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/5x5/standing1",
+      "name": "Reference \u77ff\u77f3 5x5 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/5x5/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/5x5/hole1",
+      "name": "Reference \u77ff\u77f3 5x5 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/5x5/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/5x5/burrow1",
+      "name": "Reference \u77ff\u77f3 5x5 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/5x5/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/standing1",
+      "name": "Reference \u77ff\u77f3 7x7 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/standing_c1",
+      "name": "Reference \u77ff\u77f3 7x7 Standing Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/standing_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/hole1",
+      "name": "Reference \u77ff\u77f3 7x7 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/hole_c1",
+      "name": "Reference \u77ff\u77f3 7x7 Hole Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/hole_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/burrow1",
+      "name": "Reference \u77ff\u77f3 7x7 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/burrow_c1",
+      "name": "Reference \u77ff\u77f3 7x7 Burrow Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/burrow_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/standing1",
+      "name": "Reference \u77ff\u77f3 9x9 Standing 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/standing1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/standing_c1",
+      "name": "Reference \u77ff\u77f3 9x9 Standing Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/standing_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/hole1",
+      "name": "Reference \u77ff\u77f3 9x9 Hole 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/hole1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/hole_c1",
+      "name": "Reference \u77ff\u77f3 9x9 Hole Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/hole_c1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/burrow1",
+      "name": "Reference \u77ff\u77f3 9x9 Burrow 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/burrow1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/burrow_c1",
+      "name": "Reference \u77ff\u77f3 9x9 Burrow Chest 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/burrow_c1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/chromatic_caves_regular",
+      "name": "\u5f02\u8272\u94c1\u6d1e\u7a74\u975e\u539f\u59cb",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/chromatic_caves_regular.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/gingerbread_common_rooms",
+      "name": "\u59dc\u997c\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/gingerbread_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/modded_caves",
+      "name": "\u539f\u59cb\u6a21\u7ec4\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/modded_caves.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard1/structure1",
+      "name": "Highlighter Mustard1\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard1/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard1/structure2",
+      "name": "Highlighter Mustard1\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard1/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard1/structure3",
+      "name": "Highlighter Mustard1\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard1/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard_s/structure1",
+      "name": "Highlighter Mustard Shared\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard_s/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard2/structure1",
+      "name": "Highlighter Mustard2\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard2/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard2/structure2",
+      "name": "Highlighter Mustard2\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard2/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard3/structure1",
+      "name": "Highlighter Mustard3\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard3/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard3/structure2",
+      "name": "Highlighter Mustard3\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard3/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard3/structure3",
+      "name": "Highlighter Mustard3\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard3/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard4/structure1",
+      "name": "Highlighter Mustard4\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard4/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard4/structure2",
+      "name": "Highlighter Mustard4\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard4/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mustard4/structure3",
+      "name": "Highlighter Mustard4\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mustard4/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes1/structure1",
+      "name": "Highlighter Lakes1\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes1/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes1/structure2",
+      "name": "Highlighter Lakes1\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes1/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes1/structure3",
+      "name": "Highlighter Lakes1\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes1/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes1/structure4",
+      "name": "Highlighter Lakes1\u7ed3\u6784 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes1/structure4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes2/structure1",
+      "name": "Highlighter Lakes2\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes2/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes2/structure2",
+      "name": "Highlighter Lakes2\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes2/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes2/structure3",
+      "name": "Highlighter Lakes2\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes2/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes2/structure4",
+      "name": "Highlighter Lakes2\u7ed3\u6784 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes2/structure4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes3/structure1",
+      "name": "Highlighter Lakes3\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes3/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes3/structure2",
+      "name": "Highlighter Lakes3\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes3/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes3/structure3",
+      "name": "Highlighter Lakes3\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes3/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes3/structure4",
+      "name": "Highlighter Lakes3\u7ed3\u6784 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes3/structure4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes4/structure1",
+      "name": "Highlighter Lakes4\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes4/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes4/structure2",
+      "name": "Highlighter Lakes4\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes4/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes4/structure3",
+      "name": "Highlighter Lakes4\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes4/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/lakes4/structure4",
+      "name": "Highlighter Lakes4\u7ed3\u6784 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/lakes4/structure4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/mushroom4/structure1",
+      "name": "Highlighter \u8611\u83c74\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/mushroom4/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate1/structure1",
+      "name": "Highlighter Pirate1\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate1/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate1/structure2",
+      "name": "Highlighter Pirate1\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate1/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate1/structure3",
+      "name": "Highlighter Pirate1\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate1/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate1/structure4",
+      "name": "Highlighter Pirate1\u7ed3\u6784 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate1/structure4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate1/bridge1",
+      "name": "Highlighter Pirate1 Bridge 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate1/bridge1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate2/structure1",
+      "name": "Highlighter Pirate2\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate2/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate2/structure2",
+      "name": "Highlighter Pirate2\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate2/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate2/structure3",
+      "name": "Highlighter Pirate2\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate2/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate2/structure5",
+      "name": "Highlighter Pirate2\u7ed3\u6784 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate2/structure5.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate3/structure1",
+      "name": "Highlighter Pirate3\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate3/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate3/structure2",
+      "name": "Highlighter Pirate3\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate3/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate3/structure3",
+      "name": "Highlighter Pirate3\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate3/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate3/structure4",
+      "name": "Highlighter Pirate3\u7ed3\u6784 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate3/structure4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate4/structure1",
+      "name": "Highlighter Pirate4\u7ed3\u6784 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate4/structure1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate4/structure2",
+      "name": "Highlighter Pirate4\u7ed3\u6784 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate4/structure2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/highlighter/pirate4/structure3",
+      "name": "Highlighter Pirate4\u7ed3\u6784 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/highlighter/pirate4/structure3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/library",
+      "name": "\u56fe\u4e66\u9986",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/chromatic_caves/spawner_tree1",
+      "name": "Spawner Tree 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/chromatic_caves/spawner_tree1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/lush_cave_resource_rooms",
+      "name": "\u7e41\u8302\u6d1e\u7a74\u8d44\u6e90\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/lush_cave_resource_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/diamond_caves",
+      "name": "\u539f\u59cb\u94bb\u77f3\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/diamond_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/emerald_caves",
+      "name": "\u7eff\u5b9d\u77f3\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/emerald_caves.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/end/island_structure",
+      "name": "\u539f\u59cb\u672b\u5730\u5c9b\u5c7f\u7ed3\u6784",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/end/island_structure.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/end",
+      "name": "\u539f\u59cb\u672b\u5730",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/end.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_rooms_lvl10",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u623f\u95f4 LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/resources_lvl10",
+      "name": "\u8d44\u6e90 LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_rooms_lvl20",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u623f\u95f4 LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/resources_lvl20",
+      "name": "\u8d44\u6e90 LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_rooms_lvl30",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u623f\u95f4 LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_rooms_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/resources_lvl30",
+      "name": "\u8d44\u6e90 LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/resources_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/decor/raw/farm/cave1",
+      "name": "\u539f\u59cb\u519c\u573a\u6d1e\u7a74 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/raw/farm/cave1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blank_common_rooms",
+      "name": "\u7a7a\u767d\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blank_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/blank_tunnels",
+      "name": "\u7a7a\u767d\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/blank_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/starts/blank_starts",
+      "name": "\u7a7a\u767d\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/blank_starts.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/cove",
+      "name": "\u6e2f\u6e7e",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/cove.json"
+    },
+    {
+      "id": "the_vault:vault/decor/factory/bucket_loot1",
+      "name": "Bucket Loot 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/factory/bucket_loot1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/diamond_caves_regular",
+      "name": "\u666e\u901a\u94bb\u77f3\u6d1e\u7a74",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/diamond_caves_regular.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village1/corner_nw",
+      "name": "\u6751\u5e841 Catacomb NW",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village1/corner_nw.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village1/corner_ne",
+      "name": "\u6751\u5e841 Catacomb NE",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village1/corner_ne.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village1/corner_sw",
+      "name": "\u6751\u5e841 Catacomb SW",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village1/corner_sw.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village1/corner_se",
+      "name": "\u6751\u5e841 Catacomb SE",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village1/corner_se.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village2/corner_nw",
+      "name": "\u6751\u5e842 Catacomb NW",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village2/corner_nw.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village2/corner_ne",
+      "name": "\u6751\u5e842 Catacomb NE",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village2/corner_ne.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village2/corner_sw",
+      "name": "\u6751\u5e842 Catacomb SW",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village2/corner_sw.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village2/corner_se",
+      "name": "\u6751\u5e842 Catacomb SE",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village2/corner_se.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village3/corner_nw",
+      "name": "\u6751\u5e843 Catacomb NW",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village3/corner_nw.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village3/corner_ne",
+      "name": "\u6751\u5e843 Catacomb NE",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village3/corner_ne.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village3/corner_sw",
+      "name": "\u6751\u5e843 Catacomb SW",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village3/corner_sw.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/village3/corner_se",
+      "name": "\u6751\u5e843 Catacomb SE",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/village3/corner_se.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/white_common_rooms",
+      "name": "\u767d\u8272\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/white_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/white_rooms",
+      "name": "\u767d\u8272\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/white_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/white_starts",
+      "name": "\u767d\u8272\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/white_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/white_tunnels",
+      "name": "\u767d\u8272\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/white_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/standing_a1",
+      "name": "Reference \u77ff\u77f3 7x7 Standing Alt 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/standing_a1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/hole_a1",
+      "name": "Reference \u77ff\u77f3 7x7 Hole Alt 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/hole_a1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/standing_a1",
+      "name": "Reference \u77ff\u77f3 9x9 Standing Alt 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/standing_a1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/hole_a1",
+      "name": "Reference \u77ff\u77f3 9x9 Hole Alt 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/hole_a1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/haunted_rooms",
+      "name": "\u7f20\u9b42\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/haunted_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/haunted_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/haunted_starts",
+      "name": "\u7f20\u9b42\u8d77\u59cb\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/haunted_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/haunted_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/haunted_tunnels",
+      "name": "\u7f20\u9b42\u901a\u9053",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/haunted_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/haunted_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/haunted_common_rooms",
+      "name": "\u7f20\u9b42\u666e\u901a\u623f\u95f4",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/haunted_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/haunted_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/sea_floor_common_rooms",
+      "name": "\u6d77\u5e8a\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/sea_floor_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/sea_floor_rooms",
+      "name": "\u6d77\u5e8a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/sea_floor_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/sea_floor_starts",
+      "name": "\u6d77\u5e8a\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/sea_floor_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/sea_floor_tunnels",
+      "name": "\u6d77\u5e8a\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/sea_floor_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/trove",
+      "name": "\u57cb\u85cf\u7684\u5b9d\u85cf",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/trove.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blood_moon_common_rooms",
+      "name": "\u8840\u6708\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blood_moon_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blood_moon_rooms",
+      "name": "\u8840\u6708\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blood_moon_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/blood_moon_starts",
+      "name": "\u8840\u6708\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/blood_moon_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/blood_moon_tunnels",
+      "name": "\u8840\u6708\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/blood_moon_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/flesh_common_rooms",
+      "name": "\u8089\u98df\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/flesh_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/flesh_rooms",
+      "name": "\u8089\u98df\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/flesh_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/flesh_starts",
+      "name": "\u8089\u98df\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/flesh_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/flesh_tunnels",
+      "name": "\u8089\u98df\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/flesh_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blood_common_rooms",
+      "name": "\u8840\u5e55\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blood_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blood_rooms",
+      "name": "\u8840\u5e55\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blood_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/blood_starts",
+      "name": "\u8840\u5e55\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/blood_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/blood_tunnels",
+      "name": "\u8840\u5e55\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/blood_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blood_ash_rooms",
+      "name": "\u8840\u5e55\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blood_ash_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/blood_ash_starts",
+      "name": "\u8840\u5e55\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/blood_ash_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/blood_ash_tunnels",
+      "name": "\u8840\u5e55\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/blood_ash_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/wendarr_tunnels",
+      "name": "\u6587\u8fbe\u5c14\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/wendarr_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/tenos_tunnels",
+      "name": "\u7279\u8bfa\u65af\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/tenos_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/velara_tunnels",
+      "name": "\u7ef4\u62c9\u62c9\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/velara_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/idona_tunnels",
+      "name": "\u4f0a\u591a\u7eb3\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/idona_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/intermediary_tunnels",
+      "name": "\u4e2d\u7ee7\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/intermediary_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr_common_rooms",
+      "name": "\u6587\u8fbe\u5c14\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr_rooms",
+      "name": "\u6587\u8fbe\u5c14\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos_common_rooms",
+      "name": "\u7279\u8bfa\u65af\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos_rooms",
+      "name": "\u7279\u8bfa\u65af\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara_common_rooms",
+      "name": "\u7ef4\u62c9\u62c9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara_rooms",
+      "name": "\u7ef4\u62c9\u62c9\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona_common_rooms",
+      "name": "\u4f0a\u591a\u7eb3\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona_rooms",
+      "name": "\u4f0a\u591a\u7eb3\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/intermediary_common_rooms",
+      "name": "\u4e2d\u7ee7\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/intermediary_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/intermediary_rooms",
+      "name": "\u4e2d\u7ee7\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/intermediary_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_common_rooms",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u82b1\u5c97\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_rooms_lvl0",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u82b1\u5c97\u5ca9\u623f\u95f4 LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_rooms_lvl0.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_rooms_lvl10",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u82b1\u5c97\u5ca9\u623f\u95f4 LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_rooms_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_rooms_lvl20",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u82b1\u5c97\u5ca9\u623f\u95f4 LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_rooms_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_granite_rooms_lvl30",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u82b1\u5c97\u5ca9\u623f\u95f4 LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_granite_rooms_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/starts/raw_cave_granite_starts",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u82b1\u5c97\u5ca9\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/raw_cave_granite_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/raw_cave_granite_tunnels",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u82b1\u5c97\u5ca9\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/raw_cave_granite_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_common_rooms",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u95ea\u957f\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_rooms_lvl0",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u95ea\u957f\u5ca9\u623f\u95f4 LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_rooms_lvl0.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_rooms_lvl10",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u95ea\u957f\u5ca9\u623f\u95f4 LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_rooms_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_rooms_lvl20",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u95ea\u957f\u5ca9\u623f\u95f4 LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_rooms_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_diorite_rooms_lvl30",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u95ea\u957f\u5ca9\u623f\u95f4 LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_diorite_rooms_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/starts/raw_cave_diorite_starts",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u95ea\u957f\u5ca9\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/raw_cave_diorite_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/raw_cave_diorite_tunnels",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u95ea\u957f\u5ca9\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/raw_cave_diorite_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_common_rooms",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u5b89\u5c71\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_rooms_lvl0",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u5b89\u5c71\u5ca9\u623f\u95f4 LVL 0",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_rooms_lvl0.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_rooms_lvl10",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u5b89\u5c71\u5ca9\u623f\u95f4 LVL 10",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_rooms_lvl10.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_rooms_lvl20",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u5b89\u5c71\u5ca9\u623f\u95f4 LVL 20",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_rooms_lvl20.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw_cave_andersite_rooms_lvl30",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u5b89\u5c71\u5ca9\u623f\u95f4 LVL 30",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw_cave_andersite_rooms_lvl30.json"
+    },
+    {
+      "id": "the_vault:vault/starts/raw_cave_andersite_starts",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u5b89\u5c71\u5ca9\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/raw_cave_andersite_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/raw_cave_andersite_tunnels",
+      "name": "\u539f\u59cb\u6d1e\u7a74\u5b89\u5c71\u5ca9\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/raw_cave_andersite_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/pillager_rooms",
+      "name": "\u63a0\u593a\u8005\u5730\u7262\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/pillager_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/spider_rooms",
+      "name": "\u8718\u86db\u5730\u7262\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/spider_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/skeleton_rooms",
+      "name": "\u9ab7\u9ac5\u5730\u7262\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/skeleton_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/piglin_rooms",
+      "name": "\u732a\u7075\u5730\u7262\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/piglin_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/witch_rooms",
+      "name": "\u5973\u5deb\u5730\u7262\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/witch_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/zombie_rooms",
+      "name": "\u50f5\u5c38\u5730\u7262\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/zombie_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos_common_rooms",
+      "name": "\u6df7\u6c8c\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos_rooms",
+      "name": "\u6df7\u6c8c\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/chaos_starts",
+      "name": "\u6df7\u6c8c\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/chaos_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/chaos_tunnels",
+      "name": "\u6df7\u6c8c\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/chaos_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/lush_cave_common_rooms",
+      "name": "\u6df7\u6c8c\u7e41\u8302\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/lush_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/cave_common_rooms",
+      "name": "\u6df7\u6c8c\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/living_cave_common_rooms",
+      "name": "\u6df7\u6c8c\u6d3b\u5316\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/living_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/desert_common_rooms",
+      "name": "\u6df7\u6c8c\u6c99\u6f20\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/desert_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/sandy_cave_common_rooms",
+      "name": "\u6df7\u6c8c\u6c99\u8d28\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/sandy_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/beach_common_rooms",
+      "name": "\u6df7\u6c8c\u6c99\u6ee9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/beach_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/ice_common_rooms",
+      "name": "\u6df7\u6c8c\u51b0\u96ea\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/ice_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/ice_cave_common_rooms",
+      "name": "\u6df7\u6c8c\u51b0\u96ea\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/ice_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/mesa_common_rooms",
+      "name": "\u6df7\u6c8c\u6076\u5730\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/mesa_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/deep_mesa_common_rooms",
+      "name": "\u6df7\u6c8c\u6df1\u5c42\u6076\u5730\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/deep_mesa_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/nether_crimson_common_rooms",
+      "name": "\u6df7\u6c8c\u4e0b\u754c\u7eef\u7ea2\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/nether_crimson_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/nether_warped_common_rooms",
+      "name": "\u6df7\u6c8c\u4e0b\u754c\u8be1\u5f02\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/nether_warped_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/void_common_rooms",
+      "name": "\u6df7\u6c8c\u865a\u7a7a\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/void_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/mushroom_common_rooms",
+      "name": "\u6df7\u6c8c\u8611\u83c7\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/mushroom_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/easter_pastel_common_rooms",
+      "name": "\u6df7\u6c8c\u590d\u6d3b\u8282\u86cb\u7cd5\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/easter_pastel_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/easter_egg_common_rooms",
+      "name": "\u6df7\u6c8c\u590d\u6d3b\u8282\u5f69\u86cb\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/easter_egg_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/shipwreck_common_rooms",
+      "name": "\u6df7\u6c8c\u6c89\u8239\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/shipwreck_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/flooded_common_rooms",
+      "name": "\u6df7\u6c8c\u6df9\u6ca1\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/flooded_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/fairy_ring_common_rooms",
+      "name": "\u6df7\u6c8c\u4ed9\u5b50\u6307\u73af\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/fairy_ring_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/poison_common_rooms",
+      "name": "\u6df7\u6c8c\u5267\u6bd2\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/poison_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/cave_deepslate_common_rooms",
+      "name": "\u6df7\u6c8c\u6d1e\u7a74\u6df1\u677f\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/cave_deepslate_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/cave_geode_common_rooms",
+      "name": "\u6df7\u6c8c\u6d1e\u7a74\u7d2b\u6676\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/cave_geode_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/cave_wasteland_common_rooms",
+      "name": "\u6df7\u6c8c\u6d1e\u7a74\u8352\u5730\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/cave_wasteland_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/raw_cave_common_rooms",
+      "name": "\u6df7\u6c8c\u539f\u59cb\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/raw_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/end_void_common_rooms",
+      "name": "\u6df7\u6c8c\u672b\u5730\u865a\u7a7a\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/end_void_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/nether_blackstone_common_rooms",
+      "name": "\u6df7\u6c8c\u4e0b\u754c\u9ed1\u77f3\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/nether_blackstone_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/nether_soul_common_rooms",
+      "name": "\u6df7\u6c8c\u4e0b\u754c\u7075\u9b42\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/nether_soul_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/factory_void_common_rooms",
+      "name": "\u6df7\u6c8c\u5de5\u5382\u865a\u7a7a\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/factory_void_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/festive_common_rooms",
+      "name": "\u6df7\u6c8c\u8282\u65e5\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/festive_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/sweet_common_rooms",
+      "name": "\u6df7\u6c8c\u751c\u871c\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/sweet_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/gingerbread_common_rooms",
+      "name": "\u6df7\u6c8c\u59dc\u997c\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/gingerbread_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/blank_common_rooms",
+      "name": "\u6df7\u6c8c\u7a7a\u767d\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/blank_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/white_common_rooms",
+      "name": "\u6df7\u6c8c\u767d\u8272\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/white_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/haunted_common_rooms",
+      "name": "\u6df7\u6c8c\u7f20\u9b42\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/haunted_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/sea_floor_common_rooms",
+      "name": "\u6df7\u6c8c\u6d77\u5e8a\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/sea_floor_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/blood_moon_common_rooms",
+      "name": "\u6df7\u6c8c\u8840\u6708\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/blood_moon_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/flesh_common_rooms",
+      "name": "\u6df7\u6c8c\u8089\u98df\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/flesh_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/aurora_cave_common_rooms",
+      "name": "\u6df7\u6c8c\u6781\u5149\u6d1e\u7a74\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/aurora_cave_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/raw_cave_granite_common_rooms",
+      "name": "\u6df7\u6c8c\u539f\u59cb\u6d1e\u7a74\u82b1\u5c97\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/raw_cave_granite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/raw_cave_diorite_common_rooms",
+      "name": "\u6df7\u6c8c\u539f\u59cb\u6d1e\u7a74\u95ea\u957f\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/raw_cave_diorite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/raw_cave_andersite_common_rooms",
+      "name": "\u6df7\u6c8c\u539f\u59cb\u6d1e\u7a74\u5b89\u5c71\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/raw_cave_andersite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/plastic_rooms",
+      "name": "\u6df7\u6c8c\u5851\u6599\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/plastic_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/season_spring_common_rooms",
+      "name": "\u6df7\u6c8c\u6625\u5b63\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/season_spring_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/season_summer_common_rooms",
+      "name": "\u6df7\u6c8c\u590f\u5b63\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/season_summer_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/season_fall_common_rooms",
+      "name": "\u6df7\u6c8c\u79cb\u5b63\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/season_fall_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/season_winter_common_rooms",
+      "name": "\u6df7\u6c8c\u51ac\u5b63\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/season_winter_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/bee1",
+      "name": "Bee1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/bee1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/bee2",
+      "name": "Bee1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/bee2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/bee3",
+      "name": "Bee1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/bee3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/bee4",
+      "name": "Bee1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/bee4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/cliffs1",
+      "name": "Cliffs1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/cliffs1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/cliffs2",
+      "name": "Cliffs2 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/cliffs2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/cliffs3",
+      "name": "Cliffs3 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/cliffs3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/cliffs4",
+      "name": "Cliffs4 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/cliffs4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/glowstone_lakes1",
+      "name": "Glowstone Lakes1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/glowstone_lakes1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/glowstone_lakes2",
+      "name": "Glowstone Lakes2 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/glowstone_lakes2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/glowstone_lakes3",
+      "name": "Glowstone Lakes3 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/glowstone_lakes3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/glowstone_lakes4",
+      "name": "Glowstone Lakes4 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/glowstone_lakes4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/lakes1",
+      "name": "Lakes1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/lakes1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/lakes2",
+      "name": "Lakes2 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/lakes2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/lakes3",
+      "name": "Lakes3 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/lakes3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/lakes4",
+      "name": "Lakes4 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/lakes4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mushroom_forest1",
+      "name": "\u8611\u83c7\u68ee\u67971 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/mushroom_forest1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mushroom_forest2",
+      "name": "\u8611\u83c7\u68ee\u67972 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/mushroom_forest2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mushroom_forest3",
+      "name": "\u8611\u83c7\u68ee\u67973 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/mushroom_forest3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mushroom_forest4",
+      "name": "\u8611\u83c7\u68ee\u67974 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/mushroom_forest4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mustard1",
+      "name": "Mustard1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/mustard1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mustard2",
+      "name": "Mustard2 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/mustard2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mustard3",
+      "name": "Mustard3 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/mustard3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/mustard4",
+      "name": "Mustard4 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/mustard4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/pirate1",
+      "name": "Pirate1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/pirate1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/pirate2",
+      "name": "Pirate2 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/pirate2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/pirate3",
+      "name": "Pirate3 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/pirate3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/pirate4",
+      "name": "Pirate4 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/pirate4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/rainbow_forest1",
+      "name": "Rainbow Forest1 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/rainbow_forest1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/rainbow_forest2",
+      "name": "Rainbow Forest2 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/rainbow_forest2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/rainbow_forest3",
+      "name": "Rainbow Forest3 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/rainbow_forest3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/rainbow_forest4",
+      "name": "Rainbow Forest4 \u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/rainbow_forest4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/ore1",
+      "name": "\u77ff\u77f3\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/ore1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/ore2",
+      "name": "\u77ff\u77f3\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/ore2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/ore3",
+      "name": "\u77ff\u77f3\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/ore3.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/common/ore4",
+      "name": "\u77ff\u77f3\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/common/ore4.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/special/boss",
+      "name": "\u9996\u9886\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/special/boss.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb1",
+      "name": "Catacomb 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb2",
+      "name": "Catacomb 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb3",
+      "name": "Catacomb 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb4",
+      "name": "Catacomb 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb5",
+      "name": "Catacomb 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb5.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb6",
+      "name": "Catacomb 6",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb6.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb7",
+      "name": "Catacomb 7",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb7.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb8",
+      "name": "Catacomb 8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb8.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos_cake_rooms",
+      "name": "\u6df7\u6c8c\u86cb\u7cd5\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos_cake_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/chaos_cake_starts",
+      "name": "\u6df7\u6c8c\u86cb\u7cd5\u8d77\u59cb\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/chaos_cake_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/chaos_cake_tunnels",
+      "name": "\u6df7\u6c8c\u86cb\u7cd5\u901a\u9053",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/chaos_cake_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_raw_common_rooms",
+      "name": "\u6d1e\u7a74\u539f\u59cb\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_raw_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_granite_common_rooms",
+      "name": "\u6d1e\u7a74\u82b1\u5c97\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_granite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_diorite_common_rooms",
+      "name": "\u6d1e\u7a74\u95ea\u957f\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_diorite_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/cave_andersite_common_rooms",
+      "name": "\u6d1e\u7a74\u5b89\u5c71\u5ca9\u666e\u901a\u623f\u95f4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/cave_andersite_common_rooms.json"
+    }
+  ]
+}

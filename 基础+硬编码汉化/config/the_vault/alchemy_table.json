@@ -128,74 +128,10 @@
         "VIAL": "{amount:0.2f}"
       }
     },
-    { "effectId": "speed_potion",
-      "type": "potion",
-      "effectName": "\u79fb\u52a8\u901f\u5ea6\u63d0\u5347",
-      "tooltip": "+1\u901f\u5ea6 \u6301\u7eed%1$s\u79d2",
-      "color": "#fcdd67",
-      "craftingCosts": {
-        "VIAL": [
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "POTION": [
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "MIXTURE": [
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "BREW": [
-          {
-            "AMOUNT": 64,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 64,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ]
-        
-      },
-      "unlockCategory": "GRANTED",
-      "typeSettings": {
-        "BREW": "{amplifier:0,duration:500,potion:\"minecraft:speed\"}",
-        "POTION": "{amplifier:0,duration:300,potion:\"minecraft:speed\"}",
-        "MIXTURE": "{amplifier:0,duration:400,potion:\"minecraft:speed\"}",
-        "VIAL": "{amplifier:0,duration:200,potion:\"minecraft:speed\"}"
-      }
-    },
     { "effectId": "speed_potion_2",
       "type": "potion",
-      "effectName": "\u79fb\u52a8\u901f\u5ea6\u63d0\u5347 2\u7ea7",
-      "tooltip": "+2\u901f\u5ea6 \u6301\u7eed%1$s\u79d2",
+      "effectName": "\u79fb\u52a8\u901f\u5ea6\u63d0\u53472",
+      "tooltip": "+2\u7ea7\u901f\u5ea6\uff0c\u6301\u7eed%1$s\u79d2",
       "color": "#ffd63b",
       "craftingCosts": {
         "VIAL": [
@@ -250,16 +186,16 @@
       },
       "unlockCategory": "VAULT_DISCOVERY",
       "typeSettings": {
-        "BREW": "{amplifier:0,duration:500,potion:\"minecraft:speed\"}",
-        "POTION": "{amplifier:0,duration:300,potion:\"minecraft:speed\"}",
-        "MIXTURE": "{amplifier:0,duration:400,potion:\"minecraft:speed\"}",
-        "VIAL": "{amplifier:0,duration:200,potion:\"minecraft:speed\"}"
+        "BREW": "{amplifier:1,duration:500,potion:\"minecraft:speed\"}",
+        "POTION": "{amplifier:1,duration:300,potion:\"minecraft:speed\"}",
+        "MIXTURE": "{amplifier:1,duration:400,potion:\"minecraft:speed\"}",
+        "VIAL": "{amplifier:1,duration:200,potion:\"minecraft:speed\"}"
       }
     },
-    { "effectId": "regeneration_potion",
+    { "effectId": "jump_boost_4",
       "type": "potion",
-      "effectName": "\u751f\u547d\u6062\u590d",
-      "tooltip": "+1\u751f\u547d\u6062\u590d \u6301\u7eed%1$s\u79d2",
+      "effectName": "\u8df3\u8dc3\u63d0\u5347",
+      "tooltip": "+4\u7ea7\u8df3\u8dc3\u63d0\u5347\uff0c\u6301\u7eed%1$s\u79d2",
       "color": "#CD5CAB",
       "craftingCosts": {
         "VIAL": [
@@ -313,6 +249,70 @@
         
       },
       "unlockCategory": "GRANTED",
+      "typeSettings": {
+        "BREW": "{amplifier:3,duration:500,potion:\"minecraft:jump_boost\"}",
+        "POTION": "{amplifier:3,duration:300,potion:\"minecraft:jump_boost\"}",
+        "MIXTURE": "{amplifier:3,duration:400,potion:\"minecraft:jump_boost\"}",
+        "VIAL": "{amplifier:3,duration:200,potion:\"minecraft:jump_boost\"}"
+      }
+    },
+    { "effectId": "regeneration_potion",
+      "type": "potion",
+      "effectName": "\u751f\u547d\u6062\u590d",
+      "tooltip": "+1\u7ea7\u751f\u547d\u6062\u590d\uff0c\u6301\u7eed%1$s\u79d2",
+      "color": "#84f339",
+      "craftingCosts": {
+        "VIAL": [
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:vault_diamond",
+            "NBT": "{}"
+          }
+        ],
+        "POTION": [
+          {
+            "AMOUNT": 16,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 16,
+            "ITEM": "the_vault:vault_diamond",
+            "NBT": "{}"
+          }
+        ],
+        "MIXTURE": [
+          {
+            "AMOUNT": 32,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 32,
+            "ITEM": "the_vault:vault_diamond",
+            "NBT": "{}"
+          }
+        ],
+        "BREW": [
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:vault_diamond",
+            "NBT": "{}"
+          }
+        ]
+        
+      },
+      "unlockCategory": "VAULT_DISCOVERY",
       "typeSettings": {
         "BREW": "{amplifier:0,duration:1200,potion:\"minecraft:regeneration\"}",
         "POTION": "{amplifier:0,duration:600,potion:\"minecraft:regeneration\"}",
@@ -376,18 +376,18 @@
         ]
         
       },
-      "unlockCategory": "GRANTED",
+      "unlockCategory": "VAULT_DISCOVERY",
       "typeSettings": {
-        "BREW": "{amount:10.0f}",
-        "MIXTURE": "{amount:8.0f}",
-        "POTION": "{amount:6.0f}",
-        "VIAL": "{amount:4.0f}"
+        "BREW": "{amount:20.0f}",
+        "MIXTURE": "{amount:16.0f}",
+        "POTION": "{amount:12.0f}",
+        "VIAL": "{amount:8.0f}"
       }
     },
     { "effectId": "cooldown_reduction",
       "type": "cooldown_reduction",
       "effectName": "\u5373\u65f6\u51b7\u5374\u7f29\u51cf",
-      "tooltip": "\u51cf\u5c11%s%%\u5f53\u524d\u6280\u80fd\u51b7\u5374",
+      "tooltip": "\u7acb\u5373\u51cf\u5c11%s%%\u51b7\u5374\u65f6\u95f4",
       "color": "#00f5b2",
       "craftingCosts": {
         "VIAL": [
@@ -442,80 +442,16 @@
       },
       "unlockCategory": "VAULT_DISCOVERY",
       "typeSettings": {
-        "BREW": "{amount:0.8f}",
-        "MIXTURE": "{amount:0.6f}",
+        "BREW": "{amount:0.7f}",
+        "MIXTURE": "{amount:0.55f}",
         "POTION": "{amount:0.4f}",
-        "VIAL": "{amount:0.2f}"
-      }
-    },
-    { "effectId": "immortality_potion",
-      "type": "potion",
-      "effectName": "\u4e0d\u673d",
-      "tooltip": "\u83b7\u5f97\u4e0d\u673d \u6301\u7eed%1$s\u79d2",
-      "color": "#001F3F",
-      "craftingCosts": {
-        "VIAL": [
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "POTION": [
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "MIXTURE": [
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "BREW": [
-          {
-            "AMOUNT": 64,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 64,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ]
-        
-      },
-      "unlockCategory": "VAULT_DISCOVERY",
-      "typeSettings": {
-        "BREW": "{amplifier:0,duration:200,potion:\"the_vault:immortality\"}",
-        "POTION": "{amplifier:0,duration:120,potion:\"the_vault:immortality\"}",
-        "MIXTURE": "{amplifier:0,duration:160,potion:\"the_vault:immortality\"}",
-        "VIAL": "{amplifier:0,duration:80,potion:\"the_vault:immortality\"}"
+        "VIAL": "{amount:0.25f}"
       }
     },
     { "effectId": "cast_cleanse",
       "type": "cast_ability",
       "effectName": "\u51c0\u5316",
-      "tooltip": "\u81ea\u52a8\u91ca\u653e%2$s\u7ea7%1$s",
+      "tooltip": "\u7acb\u5373\u4f7f\u7528%2$s\u7ea7%1$s\u6280\u80fd",
       "color": "#FFEDBD",
       "craftingCosts": {
         "VIAL": [
@@ -578,8 +514,8 @@
     },
     { "effectId": "cast_frostnova",
       "type": "cast_ability",
-      "effectName": "\u971c\u51bb\u65b0\u661f\u7206\u53d1",
-      "tooltip": "\u81ea\u52a8\u91ca\u653e%2$s\u7ea7%1$s",
+      "effectName": "\u971c\u51bb\u65b0\u661f",
+      "tooltip": "\u7acb\u5373\u4f7f\u7528%2$s\u7ea7%1$s\u6280\u80fd",
       "color": "#00f0e2",
       "craftingCosts": {
         "VIAL": [
@@ -643,7 +579,7 @@
     { "effectId": "cast_totem_spirit",
       "type": "cast_ability",
       "effectName": "\u7075\u9b42\u56fe\u817e",
-      "tooltip": "\u751f\u6210\u4e00\u4e2a%2$s\u7ea7%1$s",
+      "tooltip": "\u7acb\u5373\u751f\u6210\u4e00\u4e2a%2$s\u7ea7%1$s",
       "color": "#92afd7",
       "craftingCosts": {
         "VIAL": [
@@ -698,17 +634,17 @@
       },
       "unlockCategory": "VAULT_DISCOVERY",
       "typeSettings": {
-        "BREW": "{abilityId:\"totem_spirit_6\"}",
-        "MIXTURE": "{abilityId:\"totem_spirit_5\"}",
-        "POTION": "{abilityId:\"totem_spirit_4\"}",
-        "VIAL": "{abilityId:\"totem_spirit_3\"}"
+        "BREW": "{abilityId:\"totem_spirit_10\"}",
+        "MIXTURE": "{abilityId:\"totem_spirit_8\"}",
+        "POTION": "{abilityId:\"totem_spirit_6\"}",
+        "VIAL": "{abilityId:\"totem_spirit_4\"}"
       }
     },
     { "effectId": "cast_totem_hatred",
       "type": "cast_ability",
       "effectName": "\u4ec7\u6068\u56fe\u817e",
-      "tooltip": "\u751f\u6210\u4e00\u4e2a%2$s\u7ea7%1$s",
-      "color": "#5c2483",
+      "tooltip": "\u7acb\u5373\u751f\u6210\u4e00\u4e2a%2$s\u7ea7%1$s",
+      "color": "#c330be",
       "craftingCosts": {
         "VIAL": [
           {
@@ -771,8 +707,8 @@
     { "effectId": "cast_totem_wrath",
       "type": "cast_ability",
       "effectName": "\u72c2\u6012\u56fe\u817e",
-      "tooltip": "\u751f\u6210\u4e00\u4e2a%2$s\u7ea7%1$s",
-      "color": "#f79f06",
+      "tooltip": "\u7acb\u5373\u751f\u6210\u4e00\u4e2a%2$s\u7ea7%1$s",
+      "color": "#ec440f",
       "craftingCosts": {
         "VIAL": [
           {
@@ -835,7 +771,7 @@
     { "effectId": "cast_taunt_charm",
       "type": "cast_ability",
       "effectName": "\u9b45\u60d1",
-      "tooltip": "\u81ea\u52a8\u91ca\u653e%2$s\u7ea7%1$s\u6280\u80fd",
+      "tooltip": "\u7acb\u5373\u4f7f\u7528%2$s\u7ea7%1$s\u6280\u80fd",
       "color": "#ff59e2",
       "craftingCosts": {
         "VIAL": [
@@ -899,7 +835,7 @@
     { "effectId": "cast_taunt",
       "type": "cast_ability",
       "effectName": "\u5632\u8bbd",
-      "tooltip": "\u81ea\u52a8\u91ca\u653e%2$s\u7ea7%1$s\u6280\u80fd",
+      "tooltip": "\u7acb\u5373\u4f7f\u7528%2$s\u7ea7%1$s\u6280\u80fd",
       "color": "#dedede",
       "craftingCosts": {
         "VIAL": [
@@ -963,8 +899,8 @@
     { "effectId": "cast_fear",
       "type": "cast_ability",
       "effectName": "\u6050\u60e7",
-      "tooltip": "\u81ea\u52a8\u91ca\u653e%2$s\u7ea7%1$s\u6280\u80fd",
-      "color": "#a5d3bd",
+      "tooltip": "\u7acb\u5373\u4f7f\u7528%2$s\u7ea7%1$s\u6280\u80fd",
+      "color": "#3a3a3a",
       "craftingCosts": {
         "VIAL": [
           {
@@ -1024,74 +960,10 @@
         "VIAL": "{abilityId:\"fear_2\"}"
       }
     },
-    { "effectId": "cast_mega_jump",
-      "type": "cast_ability",
-      "effectName": "\u8d85\u7ea7\u8df3",
-      "tooltip": "\u81ea\u52a8\u91ca\u653e%2$s\u7ea7%1$s\u6280\u80fd",
-      "color": "#FFEDBD",
-      "craftingCosts": {
-        "VIAL": [
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 8,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "POTION": [
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 16,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "MIXTURE": [
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 32,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ],
-        "BREW": [
-          {
-            "AMOUNT": 64,
-            "ITEM": "the_vault:vault_gold",
-            "NBT": "{}"
-          },
-          {
-            "AMOUNT": 64,
-            "ITEM": "the_vault:vault_diamond",
-            "NBT": "{}"
-          }
-        ]
-        
-      },
-      "unlockCategory": "VAULT_DISCOVERY",
-      "typeSettings": {
-        "BREW": "{abilityId:\"mega_jump_7\"}",
-        "MIXTURE": "{abilityId:\"mega_jump_6\"}",
-        "POTION": "{abilityId:\"mega_jump_5\"}",
-        "VIAL": "{abilityId:\"mega_jump_4\"}"
-      }
-    },
     { "effectId": "cast_mega_drill",
       "type": "cast_ability",
       "effectName": "\u8d85\u7ea7\u6316\u6398",
-      "tooltip": "\u81ea\u52a8\u91ca\u653e%2$s\u7ea7%1$s\u6280\u80fd",
+      "tooltip": "\u7acb\u5373\u4f7f\u7528%2$s\u7ea7%1$s\u6280\u80fd",
       "color": "#cccccc",
       "craftingCosts": {
         "VIAL": [

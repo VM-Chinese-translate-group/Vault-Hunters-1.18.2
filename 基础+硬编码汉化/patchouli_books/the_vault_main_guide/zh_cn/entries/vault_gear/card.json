@@ -1,0 +1,40 @@
+{
+  "sortnum": 7,
+  "name": "卡牌",
+  "icon": "the_vault:card{data: {tier: 1b, entries: [{name: '{\"text\":\"攻击伤害卡\"}', groups: [\"Offensive\", \"Stat\", \"Foil\"], model: \"the_vault:card/icon/attack_damage#inventory\", colors: [\"RED\"], modifier: {type: \"gear\", config: {pool: [{tier: 1b, config: '{\"min\":1.0,\"max\":1.0,\"step\":0.5}'}, {tier: 2b, config: '{\"min\":2.0,\"max\":2.0,\"step\":0.5}'}, {tier: 3b, config: '{\"min\":3.0,\"max\":3.0,\"step\":0.5}'}, {tier: 4b, config: '{\"min\":4.0,\"max\":4.0,\"step\":0.5}'}, {tier: 5b, config: '{\"min\":5.0,\"max\":5.0,\"step\":0.5}'}], attribute: \"the_vault:attack_damage\", maxTier: 5b}, values: [{tier: 1b, value: 1.0d}, {tier: 2b, value: 2.0d}, {tier: 3b, value: 3.0d}, {tier: 4b, value: 4.0d}, {tier: 5b, value: 5.0d}]}}]}}",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(br)$(l)卡牌$()是一种可以在各种方面提供各种增益的道具。每张卡牌有不同的颜色、类型、效果与触发要求。$(br2)当达到卡牌上所标注的$(l)触发要求$()时，卡牌就会为你提供增益。$(br2)卡牌可以使用$(l)卡牌精华提取器$()进行升级，最高为$(l)5级$()，升级后卡牌的效果会增强。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:booster_pack{id: \"the_vault:stat_pack\"}",
+      "title": "补充包",
+      "text": "卡牌可以通过打开$(l)补充包$()获得。补充包可以从完成板条箱中获得。$(br2)补充包有很多不同种类，特定种类的补充包可以开出特定类型的卡牌。$(br2)每种补充包都有超级版本和闪耀版本，获取的卡牌品质更高。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "卡牌/补充包类型",
+      "text": "$(li)$(l)数值$()$(li2)提升基础属性$(li)$(l)资源$()$(li2)增加物品到完成板条箱中$(li)$(l)奥术$()$(li2)提高已学习的技能等级$(li)$(l)时空$()$(li2)激活随机的传奇级宝库词缀$(li)$(l)进阶$()$(li2)更高级的数值卡，搭配使用时效果强大$(li)$(l)狂野$()$(li2)无效果的卡牌"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:card_essence_extractor",
+      "title": "卡牌精华提取器",
+      "text": "用于将不需要的卡牌粉碎成精华。将卡牌放在左侧栏位并提供红石信号即可粉碎卡牌。$(br2)精华会存储在提取器中，使用右侧栏位可以消耗精华升级卡牌。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:card_deck{id: \"starter\", data: {cards: [{pos: [B; 0B, 0B]}, {pos: [B; 1B, 0B]}, {pos: [B; 2B, 0B]}, {pos: [B; 0B, 1B]}, {pos: [B; 1B, 1B]}, {pos: [B; 2B, 1B]}, {pos: [B; 0B, 2B]}, {pos: [B; 1B, 2B]}, {pos: [B; 2B, 2B]}]}, clientCache: {hasModifierLEGENDARY: 0b, state: [B;]}}",
+      "title": "卡组包",
+      "text": "$(br)卡牌需要通过卡组包才能生效。使用$(l)卡组包$()可以设置自己的卡组，将卡组包佩戴在饰品栏就可以获得增益。$(br2)卡组包中的卡牌能提供的总增益可以在卡组包的物品信息或卡组包GUI界面左侧查看。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br)卡组包也可能有自己的$(l)词缀$()，在卡牌满足一定条件时，可以为你的卡牌提供额外的增益效果。"
+    }
+  ]
+}

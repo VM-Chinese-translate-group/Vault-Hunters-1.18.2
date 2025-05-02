@@ -1,0 +1,42 @@
+{
+  "name": "其他实用物品",
+  "icon": "the_vault:scavenger_skeleton_soul_charm",
+  "category": "patchouli:other_misc_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "宝库世界还有许多各种各样的实用物品，可能会为你的宝藏猎人之旅提供一定的帮助。如果你想知道某个物品的来源和作用，请活用你物品栏界面右侧的$(l)JEI$()吧！"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:mod_box",
+      "title": "模组盲盒",
+      "text": "如果你没有解锁任何研究，使用时，你会获得几个$(l)知识碎片$()；如果你解锁了为模组盲盒添加$(l)奖励物品$()的研究，那么你会获得这些模组对应的部分物品。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:infinite_water_bucket",
+      "title": "无限水桶",
+      "text": "可以$(l)无限放置水源$()的水桶，但是无法收回水源，使用时注意防涝XD"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_compass",
+      "title": "宝库指南针",
+      "text": "在宝库中始终$(l)指向返回传送门$()。需要解锁$(l)对应研究$()才能正常使用。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:old_notes",
+      "title": "古旧笔记",
+      "text": "十分珍贵的笔记，是前代宝藏猎人记录下的神秘挑战。完成所记录的挑战可能获得一些$(l)特殊幻形$()。$(br2)哦对了，你完成挑战的时候不用带着它。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:velvet_bed",
+      "title": "天鹅绒床",
+      "text": "睡起来很舒服的床。没什么特殊的。$(br2)对，就这样。"
+    }
+  ]
+}

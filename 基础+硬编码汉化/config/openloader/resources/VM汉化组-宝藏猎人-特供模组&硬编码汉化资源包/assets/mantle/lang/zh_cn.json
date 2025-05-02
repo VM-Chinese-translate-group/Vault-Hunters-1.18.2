@@ -1,0 +1,49 @@
+{
+  "mantle:tooltip.cooktime": "烹饪时间：%ds",
+  "config.mantle.extraHeartRenderer": "启用额外生命值渲染器",
+
+  "command.mantle.view_tag.success": "'%2$s'的%1$s标签的值：",
+
+  "command.mantle.tags_for.success": "'%2$s'的%1$s标签：",
+  "command.mantle.tags_for.not_found": "未知的%s注册值'%s'",
+  "command.mantle.tags_for.no_held_block": "所持物品不是方块",
+  "command.mantle.tags_for.no_held_entity": "所持物品不是刷怪蛋",
+  "command.mantle.tags_for.no_held_potion": "所持物品不是药水",
+  "command.mantle.tags_for.no_held_fluid": "无法获取所持物品的流体",
+  "command.mantle.tags_for.no_held_enchantment": "所持物品不可附魔",
+  "command.mantle.tags_for.no_targeted_entity": "范围内没有实体",
+  "command.mantle.tags_for.no_targeted_block_entity": "没有指向的方块实体",
+  "command.mantle.tags_for.no_tags": "没有标签",
+  "command.mantle.book_test.not_found": "没有ID为%s的书",
+
+  "command.mantle.dump_tag.success": "已将合并的%s标签'%s'输出到控制台日志",
+  "command.mantle.dump_tag.read_error": "读取标签为'%2$s'的%1$s时出错：",
+  "command.mantle.dump_tag.success_log": "已将合并的%s标签'%s'导出到'%s'",
+  "command.mantle.dump_all_tags.success": "已将所有标签导出到'%s'",
+  "command.mantle.dump_all_tags.type_success": "已将所有%s标签导出到'%s'",
+
+  "command.mantle.dump_loot_modifiers.success_log": "已将合并的全局战利品属性输出到控制台日志",
+  "command.mantle.dump_loot_modifiers.success_save": "已将合并的全局战利品属性导出到'%s'",
+  "command.mantle.dump_loot_modifiers.read_error": "读取全局战利品属性时出错",
+
+  "command.mantle.harvest_tiers.success_log": "已将排序的等级输出到控制台日志",
+  "command.mantle.harvest_tiers.success_save": "已将排序的等级导出到'%s'",
+  "command.mantle.harvest_tiers.success_list": "挖掘等级：",
+  "command.mantle.harvest_tiers.tag": "%s：方块标签%s",
+  "command.mantle.harvest_tiers.no_tag": "%s：无标签",
+
+  "command.mantle.tag.empty": "空",
+  "command.mantle.registry.not_found": "未知的注册表'%s'",
+  "command.mantle.tag.not_found": "未知的%s标签'%s'",
+
+  "command.mantle.tag_preference.empty_tag": "没有对%s标签%s的偏好",
+  "command.mantle.tag_preference.preference": "%s标签%s的偏好值是%s",
+
+  "gui.mantle.fluid.hold_shift": "按住§e§oShift§r§7以桶为单位显示流体",
+  "gui.mantle.fluid.kilobucket": "%skB",
+  "gui.mantle.fluid.bucket": "%sB",
+  "gui.mantle.fluid.millibucket": "%smB",
+
+  "block.mantle.tank.drained": "输出%smB的%s",
+  "block.mantle.tank.filled": "输入%smB的%s"
+}

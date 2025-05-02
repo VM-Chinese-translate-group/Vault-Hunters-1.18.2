@@ -1,103 +1,65 @@
-{
-  "name": "水晶词缀修饰",
+  {
+  "name": "水晶修饰",
   "icon": "the_vault:augment",
   "category": "patchouli:game_mechanics_category",
   "read_by_default": "true",
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "制作一个宝库水晶后，可以对其进行$(l)词缀修饰$()，以改变你的宝库体验。$(br2)词缀修饰通过$(l)铁砧$()进行，会消耗一定（原版的）经验等级。向水晶添加数个宝库词缀会导致其$(l)不稳定性$()升高。"
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:crystal_workbench",
+      "text": "制作一个宝库水晶后，可以对其进行$(l)修饰$()，以改变你的宝库体验。$(br2)词缀修饰通过$(l)水晶工作台$()进行。"
     },
     {
       "type": "patchouli:text",
-      "title": "不稳定性",
-      "text": "$(br)宝库水晶的不稳定性越高，它$(l)受诅咒$()或$(l)无法修饰$()的概率就会越高。这只会在进行$(l)改变$()水晶不稳定性的词缀修饰时发生。$(br2)宝库水晶有75%的概率$(l)受诅咒$()，增加一个随机的诅咒词缀。宝库水晶上的诅咒数量由$(l)骷髅头$()的数量表示。"
+      "title": "容量",
+      "text": "$(br)宝库水晶有一个$(l)容量指示$()，等级越高，水晶的容量就越大。修饰水晶会消耗容量。$(br2)你可以超出水晶的容量，但每次超出容量都会为宝库添加一个$(l)诅咒$()。$(br2)宝库水晶的诅咒$(l)不可去除$()，诅咒数量由$(l)骷髅头$()的数量表示。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:capstone_dungeon_hunter",
+      "title": "拱顶石",
+      "text": "向水晶添加拱顶石可以为水晶添加一个特定的$(l)宝库词缀$()，并给水晶添加“拱顶”，使水晶$(l)不可修饰$()。每个水晶只能添加1个拱顶石。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:crystal_seal_executioner",
       "title": "印记",
-      "text": "所有的$(l)$(l:the_vault/objectives)宝库目标$()都可以通过向水晶添加印记以指定。但已经使用催化剂等方式修饰过的水晶无法添加印记。$(br2)印记可以由玩家$(l)制作$()。$(br2)游戏中有$(l)所有种类的目标$()对应的印记。“蛋糕猎人”目标$(l)只能$()通过印记出现。"
+      "text": "向水晶添加印记可以指定水晶的$(l)$(l:the_vault/objectives)宝库目标$()。印记没有大小，不会占用水晶的容量。$(br2)游戏中有$(l)所有种类的一般目标$()对应的印记。印记全部都可以$(l)制作$()。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:augment",
       "title": "主题组件",
-      "text": "添加主题组件可以强制指定一个$(l)主题$()。$(br2)主题组件是稀有物品，有20%的概率从$(l)完成板条箱$()中获得。$(br2)主题组件上标记的主题与$(l)所完成的宝库$()的主题$(l)相同$()。$(br2)"
+      "text": "添加主题组件可以指定一个$(l)主题$()。$(br2)主题组件是稀有物品，有20%的概率从$(l)完成板条箱$()中获得。$(br2)主题组件上标记的主题与$(l)所完成的宝库$()的主题$(l)相同$()。"
     },
     {
       "anchor": "vault_catalysts",
-      "type": "patchouli:crafting",
-      "recipe": "the_vault:vault_catalyst",
-      "title": "宝库催化剂",
-      "text": "催化剂碎片很常见，可以在20+级未修饰的宝库中的$(l)木制宝箱$()中找到。$(br2)碎片可以组合成宝库催化剂。"
-    },
-    {
       "type": "patchouli:spotlight",
-      "item": "the_vault:vault_catalyst",
+      "item": "the_vault:vault_catalyst_fragment",
       "title": "宝库催化剂",
-      "text": "添加宝库催化剂可以添加数个$(l)宝库词缀$()。$(br2)这会增加宝库水晶的$(l)不稳定性$()，$(l)每$()添加一个词缀增加$(l)5%$()。$(br2)在将催化剂添加到宝库水晶上之前，你需要先$(l)灌注$()它。"
+      "text": "催化剂碎片很常见，可以在20+级未修饰的宝库中的$(l)木制宝箱$()中找到。$(br2)碎片可以在$(l)催化剂灌注台$()中与其他材料制作成宝库催化剂。"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "the_vault:catalyst_infusion_table",
       "title": "宝库催化剂",
-      "text": "灌注需要在$(l)催化剂灌注台$()完成，并且需要$(l)神秘精华$()。$(br2)灌注会添加一个$(l)正面$()词缀，并且经常会再添加一个$(l)随机负面$()词缀。"
+      "text": "制作催化剂需要在$(l)催化剂灌注台$()完成。$(br2)你可以为制作的催化剂选择一个$(l)正面$()词缀，催化剂会附带一个$(l)挑战层数$()词缀，略微加强怪物的数值。"
     },
     {
       "type": "patchouli:spotlight",
-      "item": "the_vault:vault_catalyst_chaos",
-      "title": "混沌宝库催化剂",
-      "text": "混沌宝库催化剂可以从$(l:the_vault/loot#treasure_chests)至尊宝箱$()和$(l:game_mechanics/soul_shards#black_market)黑市$()中获得，并能提供一个十分$(l)狂野$()的宝库体验。$(br2)它会为宝库添加$(l)30到50个随机$(l:the_vault/modifiers)词缀$()，$(l)正面$()或$(l)负面$()词缀都有可能。"
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "the_vault:inscription{data:{completion:0.07f,instability:0.012f,model:0,time:693}}",
+      "item": "the_vault:inscription{data:{entries:[{pool:\"the_vault:vault/rooms/challenge/x-mark\",count:1,color:15769088}],model:15,size:10}}",
       "title": "铭文",
-      "text": "铭文可以在活化宝箱中找到，$(l)铭文碎片$()可以在木制宝箱和活化宝箱中找到。$(br2)每个铭文拥有随机的$(l)完成度$()、$(l)时间$()和$(l)不稳定性$()。“完成度”机制意味着宝库中$(l)未完成$()的部分会被替换为$(l)基岩$()，而且有可能替换掉宝箱。"
+      "text": "铭文可以在活化宝箱中找到，$(l)铭文碎片$()可以在木制宝箱和活化宝箱中找到。$(br2)每个铭文含有1个$(l)终焉房间$()或$(l)挑战房间$()。"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "the_vault:inscription_table",
       "title": "铭文",
-      "text": "铭文可以使用铭文碎片在$(l)铭文台$()中制作。$(br2)$(l)空白$()铭文和$(l)房间$()铭文都可以制作。"
+      "text": "铭文可以使用铭文碎片在$(l)铭文台$()中制作。"
     },
     {
-      "type": "patchouli:spotlight",
-      "item": "the_vault:inscription{data:{completion:0.07f,instability:0.012f,model:0,time:2273,entries:[{color:7012096,count:1,pool:'the_vault:vault/rooms/omega/mush_room'}],model:2}}",
-      "title": "房间铭文",
-      "text": "房间铭文是含有一个$(l)终焉房间$()或$(l)挑战房间$()的铭文。$(br2)将房间铭文添加到$(l)宝库水晶$()上，可以将其绑定到$(l:the_vault/objectives#architect)$(l)建筑师宝库$()中。$(br2)添加$(l)其它$()不含房间的空白铭文可以增加建筑师宝库的$(l)时间$()和$(l)完成度$()。"
-    },
-    {
-      "anchor": "motes",
-      "type": "patchouli:spotlight",
-      "item": "the_vault:mote_clarity",
-      "title": "微核",
-      "text": "微核可用于显示或移除水晶上的诅咒。你也可以将它添加到$(l)未修饰的$()宝库水晶上。$(br)$(li)$(l)纯净微核$()$(li2)显示所有诅咒$()$(li)$(l)纯洁微核$()$(li2)随机移除一个诅咒$()$(li)$(l)圣洁微核$()$(li2)移除所有诅咒$()"
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "minecraft:wither_skeleton_skull",
-      "title": "凋灵骷髅头颅",
-      "text": "将一个凋灵骷髅头颅与宝库水晶组合，会为水晶添加一个$(l:vault_modifiers/curses)$(l)诅咒$()。$(br2)当你想让你的宝库之旅拥有$(l)更多挑战性$()时，可以尝试这么做！"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "the_vault:plunderer_pearl",
-      "title": "盗贼珍珠",
-      "text": "$(l:vault_modifiers/positive_modifiers/item_modifiers)$(t:战利品词缀)$(l)盗贼$()是一个只能通过盗贼珍珠添加的宝库词缀，会让该宝库无法获得宝库经验，但会增加10%的物品数量和20%的宝库矿石数量，同时降低10%获得文物的概率。$(br2)盗贼珍珠只能添加到$(l)未修饰的$()水晶上。"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "the_vault:wardens_pearl",
-      "title": "监守珍珠",
-      "text": "$(l:vault_modifiers/positive_modifiers/saving_grace_modifiers)$(t:物品保存词缀)$(l)来生$()是一个只能通过监守珍珠添加的宝库词缀，可以避免死亡后的物品丢失，但会减少50%获得的宝库经验。$(br2)监守珍珠只能添加到$(l)未修饰的$()水晶上。"
-    },
-    {
-      "type": "patchouli:crafting",
-      "recipe": "the_vault:banished_soul",
-      "title": "放逐之魂",
-      "text": "将放逐之魂添加到宝库水晶上，可$(l)降低$()宝库世界的$(l)等级$()。$(br2)注意，当玩家的宝库等级比宝库世界的等级高出$(l)1级以上$()时，会受到宝库经验的$(l)惩罚$()。$(br2)放逐之魂也可以添加到$(l)宝库装备$()上以降低其等级。"
+      "type": "patchouli:text",
+      "text": "将铭文添加到$(l)宝库水晶$()上，可以将其含有的房间添加到宝库中。向水晶添加铭文可以$(l)无视$()水晶的限制。$(br2)制作出的铭文默认拥有10点大小，会占用水晶的10点容量。大小更小的铭文可以从宝藏室或完成板条箱中获得。$(br2)如果宝库水晶上至少添加了1个铭文，在起始房间会绘制一张通向铭文房间的$(l)地图$()供玩家记忆。"
     }
   ]
 }

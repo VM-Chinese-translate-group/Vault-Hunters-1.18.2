@@ -1,8 +1,8 @@
 # Vault-Hunters-3rd-Edition
 Vault Hunters 3rd Edition 的汉化补丁文件 | Chinese patch for Vault Hunter 3rd Edition
 ***
-**当前支持的整合包版本：3.13**  
-**当前最新汉化包发布版本：V2.5.6**
+**当前支持的整合包版本：3.18.1.0**  
+**当前最新汉化包发布版本：V2.5.7**
 
 ## 版权声明
 详见**LICENSE.txt**  

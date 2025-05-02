@@ -14,9 +14,15 @@
     },
     {
       "type": "patchouli:spotlight",
+      "item": "the_vault:mentors_brew",
+      "title": "导师精酿",
+      "text": "你可以通过饮用其他玩家制作的$(l)导师精酿$()来快速提高宝库等级。$(br2)玩家制作导师精酿时，精酿会记录该玩家的当前等级。其他玩家饮用时，将会立即提升到记录的等级。"
+    },
+    {
+      "type": "patchouli:spotlight",
       "item": "the_vault:crispy_deluxe_cheese_burger",
       "title": "宝库汉堡",
-      "text": "你也可以通过$(l)食用$()宝库汉堡来获得宝库经验。$(br2)合成的汉堡所需的$(l)原料越多$()，获得的$(l)宝库经验越多$()。"
+      "text": "你也可以通过食用$(l)宝库汉堡$()来获得宝库经验。$(br2)宝库汉堡可以从$(l)黑市$()或宝库的$(l)商店室$()中购买。"
     }
   ]
 }

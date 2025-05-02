@@ -1,0 +1,54 @@
+{
+  "name": "远古铜",
+  "icon": "the_vault:ancient_copper_ingot",
+  "category": "patchouli:other_misc_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)远古铜$()是一系列材料的统称。它们是来自远古宝库的某种金属，拥有一些神奇的力量。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ancient_copper_ingot",
+      "title": "远古铜锭",
+      "text": "$(l)远古铜锭$()是一种可以在镀金宝箱中发现的宝库装饰品。$(br2)它看似没有什么作用，但可以用来制作一些提升你$(l)生活质量$()的小东西。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "the_vault:ancient_copper_golem",
+      "title": "远古铜傀儡",
+      "text": "一种神奇的远古生物！它拥有所有$(l)铜质方块$()的特性：会锈蚀，可以涂蜡。击杀它会掉落一些绿宝石和铜块，你可能会需要的。"
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "远古铜傀儡",
+      "multiblock": {
+        "pattern": [
+          [
+            "T",
+            "B"
+          ],
+          [
+            " ",
+            "A"
+          ]
+        ],
+        "mapping": {
+          "T": "the_vault:ancient_copper_trapdoor",
+          "B": "the_vault:ancient_copper_block",
+          "A": "the_vault:ancient_copper_button"
+        },
+        "symmetrical": false
+      },
+      "enable_visualize": true,
+      "text": "你可以搭建这个$(l)多方块结构$()来生成远古铜傀儡。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ancient_copper_conduit_block",
+      "title": "远古铜潮涌核心",
+      "text": "$(br)它有$(l)非常神奇$()的潮涌能量！$(br2)在下雨天，你可以将它$(l)丢到水里$()，它可以立刻释放潮涌能量，将雨和水$(l)震回$()天上！非常好用。"
+    }
+  ]
+}

@@ -16,15 +16,15 @@
     },
     {
       "type": "patchouli:spotlight",
-      "item": "the_vault:omega_pog",
-      "title": "终极POG",
-      "text": "$(br)你需要收集全部25种文物，而鉴定文物时可能出现重复的文物。$(br2)你可以将重复的文物与$(l)终极POG$()在铁砧中组合，将其重置为新的未鉴定的文物。"
+      "item": "the_vault:artifact_fragment",
+      "title": "文物碎片",
+      "text": "$(br)你需要收集全部25种文物，而鉴定文物时可能出现重复的文物。$(br2)你可以将重复的文物$(l)丢进火里$()，把它烧成文物碎片，4个文物碎片可以合成1个文物。"
     },
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:crystal_seal_herald",
       "title": "先驱者印记",
-      "text": "$(br)完成谜题可以获得$(l)先驱者印记$()，这是挑战宝库的终极BOSS——$(l)先驱者$()的钥匙。$(br2)先驱者印记可以通过文物之书台$(l)无限$()获取。先驱者宝库的挑战方法详见$(l:the_vault/objectives#herald)$(l)战胜先驱者$()。"
+      "text": "$(br)完成谜题可以获得$(l)先驱者印记$()，这是挑战宝库世界的最终首领——$(l)先驱者$()的钥匙。$(br2)先驱者印记可以通过文物之书台$(l)无限$()获取。先驱者宝库的挑战方法详见$(l:the_vault/objectives#herald)$(l)战胜先驱者$()。"
     }
   ]
 }

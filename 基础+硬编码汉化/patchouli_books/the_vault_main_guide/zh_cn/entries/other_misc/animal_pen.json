@@ -1,0 +1,28 @@
+{
+  "name": "动物棚",
+  "icon": "the_vault:animal_pen",
+  "category": "patchouli:other_misc_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "喂养动物是件很麻烦的事，$(l)动物棚$()为你提供了一种优秀的喂养动物的$(l)单方块解决方案$()。$(br2)你可以制作动物罐，捕捉足够数量的动物，然后将它们都放进动物棚中。这样你就可以便捷喂养动物和收集资源了。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:animal_jar",
+      "title": "动物罐",
+      "text": "手持动物罐右击动物即可将动物捕捉进动物罐中。每种动物罐只能存放1种动物。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:animal_pen",
+      "title": "动物棚",
+      "text": "将动物棚放置下来，然后用装有动物的动物罐右击，即可把动物放进去。左击与右击动物棚都可以模拟对动物的操作。$(br2)潜行时可查看动物棚的详细信息。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可以一次喂给动物一组食物，但喂食有一定冷却时间。$(br2)动物棚里的动物越多，其上显示的动物模型就越大。$(br2)某些动物的动物棚可以用特殊方式收集资源，例如用空桶可以收集鸡和海龟的蛋，用剪刀或玻璃瓶可以收集蜜蜂的蜜脾或蜂蜜瓶。"
+    }
+  ]
+}

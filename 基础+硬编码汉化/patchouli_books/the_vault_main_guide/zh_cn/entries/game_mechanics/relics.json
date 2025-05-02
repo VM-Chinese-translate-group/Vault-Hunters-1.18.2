@@ -1,23 +1,18 @@
 {
-  "name": "遗物",
-  "icon": "the_vault:vault_relic{VaultModelId:\"the_vault:relic/dragon/statue\"}",
+  "name": "古董",
+  "icon": "the_vault:antique{antique:\"the_vault:gem_king\"}",
   "category": "patchouli:game_mechanics_category",
   "read_by_default": "true",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "遗物是来自宝库之神的古老物品。$(br2)$(l)每种$()完成的遗物套装可以在所有宝库中提供$(l)额外30秒$()的$(l)探索时间$()。$(br2)遗物碎片可以通过$(l)遗物补充包$()和$(l)未鉴定的遗物碎片$()获得，其中每个遗物补充包有$(l)10%$()的概率开出遗物碎片。"
+      "text": "古董是来自宝库的古老物品。$(br2)每种古董的数量都$(l)不同$()，标注在其右下角，凑齐一套古董并右击使用可以获得所标注的$(l)对应奖励$()。$(br2)古董的搜寻方式多种多样，你可以自行探索。"
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "the_vault:relic_pedestal",
-      "title": "遗物基座",
-      "text": "$(br)当你$(l)收集完$()一套遗物中$(l)所有的$()遗物碎片，你就可以把它们组装成对应的$(l)遗物$()。$(br2)组装遗物需要$(l)遗物基座$()。"
-    },
-    {
-      "type": "patchouli:text",
-      "title": "遗物组装",
-      "text": "$(br)要组装遗物，你需要在遗物基座中$(l)选择$()正确的遗物，然后提交需要的所有碎片。$(br2)重复的遗物也可组装，但不会重复增加探索时间。你可以将它在熔炉中熔炼成$(l)苦涩柠檬$()。"
+      "recipe": "the_vault:antique_collector_book",
+      "title": "古董集邮册",
+      "text": "$(br)你可以用$(l)古董集邮册$()轻松收纳所有古董，还可以查看有哪些古董种类。类似碎片袋，集邮册也可以自动存储古董。$(br2)将古董放入集邮册后，就可以查看该古董的搜寻线索。"
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "block.ispawner.spawner": "刷怪笼",
+  "block.ispawner.survival_spawner": "生存刷怪笼",
+  "item.ispawner.spawner_controller": "刷怪笼控制器",
+  "item.ispawner.cage_dust": "笼子粉尘",
+  "item.ispawner.cage_piece": "笼子碎片",
+  "item.ispawner.spawn_egg": "刷怪蛋",
+  "container.spawner": "刷怪笼",
+  "container.survival_spawner": "生存刷怪笼"
+}

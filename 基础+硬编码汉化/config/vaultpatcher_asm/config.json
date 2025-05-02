@@ -1,14 +1,19 @@
 {
     "mods": [
-      "the_vault-asm",
-      "other_mods",
-      "the_vault-dynamic",
-      "the_vault-dynamic_2"
+        "the_vault-asm",
+        "other_mods",
+        "the_vault-dynamic",
+        "the_vault-dynamic_2"
     ],
+    "class_patch": false,
     "debug_mode": {
         "is_enable": false,
-		"use_cache": true,
-        "output_format": "<source> -> <target> in <class> M-[<ordinal>]",
-        "output_mode": 0
+        "use_cache": true,
+        "output_format": "<source> -> <target> in <class> ORDINAL[<ordinal>] | <info>",
+        "output_mode": 0,
+        "hide_pairs": 7,
+        "output_node_debug": false,
+        "export_class": false,
+        "missing_warn": true
     }
 }

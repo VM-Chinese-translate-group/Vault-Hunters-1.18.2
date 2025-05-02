@@ -1,0 +1,15 @@
+{
+  "translations": {
+    "the_vault.gear_attribute.effect_avoidance.avoidance": "%s\u62b5\u6297",
+    "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects": "\u6548\u679c",
+    "the_vault.boss_rune_effect.light_melee": "\u8fd1\u6218\u653b\u51fb",
+    "the_vault.boss_rune_effect.heavy_melee": "\u91cd\u8fd1\u6218\u653b\u51fb",
+    "the_vault.boss_rune_effect.light_ranged": "\u8303\u56f4\u653b\u51fb",
+    "the_vault.boss_rune_effect.heavy_ranged": "\u91cd\u8303\u56f4\u653b\u51fb",
+    "the_vault.boss_rune_effect.aoe_attack": "\u8303\u56f4\u6548\u679c\u653b\u51fb",
+    "the_vault.boss_rune_effect.buff_effect": "\u589e\u76ca\u6548\u679c",
+    "the_vault.boss_rune_effect.on-hit_effect": "\u547d\u4e2d\u6548\u679c",
+    "the_vault.boss_rune_effect.attribute_health": "\u989d\u5916\u751f\u547d\u503c",
+    "the_vault.boss_rune_effect.attribute_dmg": "\u4f24\u5bb3\u63d0\u5347"
+  }
+}

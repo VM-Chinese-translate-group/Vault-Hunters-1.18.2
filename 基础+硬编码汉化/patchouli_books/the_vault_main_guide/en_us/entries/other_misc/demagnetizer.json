@@ -1,0 +1,18 @@
+{
+  "name": "去磁器",
+  "icon": "the_vault:demagnetizer",
+  "category": "patchouli:other_misc_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:demagnetizer",
+      "text": "去磁器可以$(l)屏蔽$()一定范围内的磁铁使其失效！使用红石信号$(l)激活$()可以将其禁用。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:debagnetizer",
+      "text": "背包屏蔽器可以$(l)阻止$()一定范围内玩家背包中的拾取升级自动拾取物品！使用红石信号$(l)激活$()可以将其禁用。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Special Vault Rocks",
+  "icon": "the_vault:crystal_seal_cake",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "特殊的宝库之石",
+      "text": "$(br)普通的宝库之石在宝库祭坛上制作出普通的、未修饰但可修饰的宝库水晶，特殊的宝库之石在宝库祭坛上制作出预设好的、无法修饰的宝库水晶。$(br2)部分特殊的宝库之石是可制作的，另一部分是探索中可获得的。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:crystal_seal_cake",
+      "title": "糖浆宝库之石",
+      "text": "糖浆宝库之石可以制作成蛋糕宝库水晶，可以开启以$(l)$(l:the_vault/objectives#cake)蛋糕猎人$()为宝库目标的蛋糕宝库。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:vault_catalyst_chaos",
+      "title": "混沌宝库之石",
+      "text": "混沌宝库之石可以制作成混沌宝库水晶，可以开启混沌宝库。$(br2)混沌宝库会为宝库添加完全随机的30个宝库词缀，获得完全混沌的宝库体验。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:plunderer_pearl",
+      "title": "盗贼宝库之石",
+      "text": "盗贼宝库之石可以制作成盗贼宝库水晶，为水晶添加$(l)盗贼$()词缀，使宝库不会产生经验，并降低10%获得文物的概率，但会增加10%的战利品和20%的宝库矿石生成。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:wardens_pearl",
+      "title": "监守者宝库之石",
+      "text": "监守者宝库之石可以制作成监守宝库水晶，为水晶添加$(l)来生$()词缀，阻止死亡时的物品丢失。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:plunderer_pearl",
+      "title": "建筑师宝库之石",
+      "text": "建筑师宝库之石可以制作成神圣悖论的建筑宝库水晶，进入$(l:the_vault/objectives#divine_paradox)神圣悖论$()的建造领域。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:wardens_pearl",
+      "title": "悖论宝库之石",
+      "text": "悖论宝库之石可以制作成神圣悖论的探索宝库水晶，进入$(l)神圣悖论$()的探索领域。探索领域每20小时只能探索1次。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:soul_flame",
+      "title": "挑战者宝库之石",
+      "text": "挑战者宝库之石可以制作成升华宝库水晶，为水晶添加$(l)升华$()，开启$(l)$(l:the_vault/ascension)升华宝库挑战$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_herald",
+      "title": "先驱者宝库之石",
+      "text": "先驱者宝库之石可以制作成先驱者宝库水晶，开启宝藏猎人的$(l)最终挑战$()——战胜先驱者。"
+    }
+  ]
+}

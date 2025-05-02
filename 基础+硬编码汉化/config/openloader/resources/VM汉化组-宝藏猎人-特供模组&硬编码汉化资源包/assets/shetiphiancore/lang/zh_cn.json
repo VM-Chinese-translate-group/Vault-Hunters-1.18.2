@@ -1,0 +1,117 @@
+{
+    "_comment": "------------------------------------- ShetiPhianCore zh_cn.json Localization -------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "info.down": "下",
+    "info.up": "上",
+    "info.north": "北",
+    "info.south": "南",
+    "info.west": "西",
+    "info.east": "东",
+    "info.bottom": "底",
+    "info.top": "顶",
+    "info.back": "后",
+    "info.front": "前",
+    "info.left": "左",
+    "info.right": "右",
+
+    "gui.side_disabled": "禁用",
+
+    "color.white": "白色",
+    "color.orange": "橙色",
+    "color.magenta": "品红色",
+    "color.light_blue": "淡蓝色",
+    "color.yellow": "黄色",
+    "color.lime": "黄绿色",
+    "color.pink": "粉红色",
+    "color.gray": "灰色",
+    "color.light_gray": "淡灰色",
+    "color.cyan": "青色",
+    "color.purple": "紫色",
+    "color.blue": "蓝色",
+    "color.brown": "棕色",
+    "color.green": "绿色",
+    "color.red": "红色",
+    "color.black": "黑色",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.shetiphian.holdshift": "§2按下SHIFT查看更多信息",
+    "info.shetiphian.creativeolny": "§e创造模式专用",
+    "info.shetiphian.guide": "Fruzstrated的指导手册",
+    "info.shetiphian.unused": "未使用的物品",
+
+    "error.shetiphian.team.noteam": "你们不在同一个team团队",
+    "error.shetiphian.team.wrong": "目标属于另一个team团队",
+
+    "info.shetiphian.texture.missing": "材质数据丢失",
+    "info.shetiphian.texture.invalid": "材质方块丢失",
+    "info.shetiphian.texture.defaulted": "使用默认的材质",
+
+    "_comment": "------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!",
+    "shetiphiancore.team.create.success": "team团队创建成功",
+    "shetiphiancore.team.create.fail.inteam": "你必须先离开当前的team团队",
+    "shetiphiancore.team.create.fail.exists": "该名称的team团队已存在",
+
+    "shetiphiancore.team.rename.success": "%1$s已重命名为%2$s",
+    "shetiphiancore.team.rename.fail.same": "已跳过重命名，设置为相同名称",
+
+    "shetiphiancore.team.invite.send.success": "邀请已发送",
+    "shetiphiancore.team.invite.send.fail.member": "玩家已经是成员了",
+    "shetiphiancore.team.invite.send.fail.pending": "玩家已经有一个挂起的%1$steam团队邀请",
+    "shetiphiancore.team.invite.receive.notice": "你已被邀请加入%1$s（在接下来的%3$s分钟内使用%2$s以接受）",
+    "shetiphiancore.team.invite.accept.success": "你已经是%1$s的成员了",
+    "shetiphiancore.team.invite.accept.success.notice": "%1$s已加入team团队",
+    "shetiphiancore.team.invite.accept.fail.permissions": "无法加入，因为邀请你的玩家不再具有添加成员的权限",
+    "shetiphiancore.team.invite.accept.fail.member": "你已经是该team团队的成员",
+    "shetiphiancore.team.invite.accept.fail.inteam": "无法接受邀请，必须先离开当前的team团队",
+    "shetiphiancore.team.invite.accept.fail.noinvite": "没有可接受的team团队邀请",
+
+    "shetiphiancore.team.leave.success": "你已离开team团队",
+    "shetiphiancore.team.leave.success.notice": "%1$s已离开team团队",
+    "shetiphiancore.team.leave.fail.leader": "领袖必须转让或解散",
+
+    "shetiphiancore.team.kick.success": "玩家已被踢出team团队",
+    "shetiphiancore.team.kick.success.notice": "你已被踢出你的team团队",
+    "shetiphiancore.team.kick.fail.rank": "你只能踢出比你等级低的玩家",
+    "shetiphiancore.team.kick.fail.team": "该玩家不是你的team团队的成员",
+
+    "shetiphiancore.team.rank.promote.success": "成员晋级成功",
+    "shetiphiancore.team.rank.promote.success.notice": "你已晋级为team团队管理员",
+    "shetiphiancore.team.rank.promote.fail.manager": "成员已经是管理员了",
+    "shetiphiancore.team.rank.promote.fail.not_member": "无法晋级不是成员的玩家",
+
+    "shetiphiancore.team.rank.demote.success": "成员降级成功",
+    "shetiphiancore.team.rank.demote.success.notice": "你已降级，不再是team团队的管理员了",
+    "shetiphiancore.team.rank.demote.success.self": "你已成功降级自己",
+
+    "shetiphiancore.team.transfer.success": "领袖成功转让",
+    "shetiphiancore.team.transfer.success.notice": "你现在是%1$s的领袖了",
+    "shetiphiancore.team.transfer.fail.self": "转让中止：无法转让给自己",
+
+    "shetiphiancore.team.disband.success": "%1$s已解散",
+    "shetiphiancore.team.disband.fail": "你不是team团队领袖",
+
+    "shetiphiancore.team.no_teams": "当前没有team团队",
+    "shetiphiancore.team.members.empty": "team团队没有成员",
+    "shetiphiancore.team.members.error.noteam": "当前没有team团队",
+
+    "shetiphiancore.team.error.no_team": "你不在team团队中",
+    "shetiphiancore.team.error.not_manager.self": "你不是team团队管理员",
+    "shetiphiancore.team.error.not_manager.other": "玩家不是team团队管理员",
+
+    "shetiphiancore.team.sysadmin.kick.success": "玩家已被从team团队中移出",
+    "shetiphiancore.team.sysadmin.kick.inform": "管理员已将您从%1$s中移出",
+    "shetiphiancore.team.sysadmin.add.success": "玩家已被加入team团队",
+    "shetiphiancore.team.sysadmin.add.inform": "你已被加入%1$s",
+    "shetiphiancore.team.sysadmin.transfer.fail": "转让中止：用户已经是领袖",
+    "shetiphiancore.team.sysadmin.disband.success": "team团队已被解散，所有玩家都被踢出",
+    "shetiphiancore.team.sysadmin.disband.inform": "一名管理员已解散%1$s，你不再在team团队中了",
+
+    "_comment": "------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!",
+    "fluid.tile.lava": "熔岩",
+    "fluid.tile.water": "水",
+    "item.dyePowder.green": "绿色染料",
+    "item.dyePowder.red": "红色染料",
+    "item.dyePowder.yellow": "黄色染料"
+}

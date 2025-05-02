@@ -1,0 +1,18 @@
+{
+  "tooltip.cucumber.hold_shift_for_info": "按住§e§oSHIFT§r§7查看信息",
+  "tooltip.cucumber.uses_left": "%s 剩余使用次数",
+  "tooltip.cucumber.one_use_left": "1 剩余使用次数",
+  "tooltip.cucumber.unlimited_uses": "无限使用次数",
+  "tooltip.cucumber.hold_ctrl_for_tags": "按住CTRL查看标签",
+  "tooltip.cucumber.hold_alt_for_nbt": "按住ALT查看NBT",
+  "tooltip.cucumber.failed_to_load_nbt": "加载NBT失败",
+  "tooltip.cucumber.block_tags": "方块标签：",
+  "tooltip.cucumber.item_tags": "物品标签：",
+  "tooltip.cucumber.not_yet_implemented": "尚未完善",
+  "tooltip.cucumber.close": "关闭",
+  "tooltip.cucumber.back": "返回",
+  "tooltip.cucumber.forward": "向前",
+
+  "message.cucumber.filled_energy": "这个%s消耗了你的能量！",
+  "message.cucumber.filled_energy_error": "这个%s不能消耗你的能量。"
+}
