@@ -122,15 +122,18 @@
         }
     },
     "Alchemy": {
-      "title": "\u70bc\u91d1\u672f",
+      "title": "\u5b9d\u5e93\u5347\u7ea7",
       "research": [
         "Potions",
         "Mixtures",
-        "Brews"
+        "Brews",
+        "Vault Compass",
+        "Map Markers",
+        "Big Boi Map"
       ],
       "globalCostIncrease": 0.0,
       "groupCostIncrease": {
-        "Alchemy": 5.0
+        "Alchemy": 4.0
       }
   }
   }

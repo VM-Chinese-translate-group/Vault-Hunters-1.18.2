@@ -2422,7 +2422,7 @@
       "name": {
         "text": "\u6298\u8dc3\u5361"
       },
-      "model": "the_vault:card/icon/dash#inventory",
+      "model": "the_vault:card/icon/dash_warp#inventory",
       "groups": [
         "Arcane",
         "Utility"
@@ -2462,7 +2462,7 @@
       "name": {
         "text": "\u51b2\u523a\u5361"
       },
-      "model": "the_vault:card/icon/dash_warp#inventory",
+      "model": "the_vault:card/icon/dash#inventory",
       "groups": [
         "Arcane",
         "Utility"

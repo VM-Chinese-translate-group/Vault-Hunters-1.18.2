@@ -471,7 +471,7 @@
           {
             "item": {
               "item": "the_vault:inscription",
-              "nbt": "{pool:\"the_vault:mushroom\", data:{color:7012096,model:2}, display:{Name:'{\"text\":\"\u8611\u83c7\u94ed\u6587\",\"color\":\"#6AFF00\"}' }}"
+              "nbt": "{pool:\"the_vault:mushroom\", data:{color:7012096,model:2}}"
             },
             "weight": 1.0
           }

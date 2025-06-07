@@ -1552,6 +1552,18 @@
           "descriptionFormatted": "-%d%%\u8010\u4e45\u5ea6\u635f\u8017",
           "icon": "the_vault:gui/modifiers/reinforced"
         }
+      },
+      "the_vault:no_durability_damage": {
+        "properties": {
+          "durabilityDamageTakenMultiplier": 0.0
+        },
+        "display": {
+          "name": "\u65e0\u8010\u4e45\u5ea6\u635f\u8017",
+          "color": "#9550FF",
+          "description": "\u73a9\u5bb6\u5728\u6b64\u5b9d\u5e93\u4e2d\u4e0d\u4f1a\u635f\u8017\u8010\u4e45\u5ea6",
+          "descriptionFormatted": "\u73a9\u5bb6\u5728\u6b64\u5b9d\u5e93\u4e2d\u4e0d\u4f1a\u635f\u8017\u8010\u4e45\u5ea6",
+          "icon": "the_vault:gui/modifiers/reinforced"
+        }
       }
     },
     "the_vault:modifier_type/player_effect": {
@@ -2528,6 +2540,18 @@
           "descriptionFormatted": "+%d%%\u5b9d\u5e93\u7ecf\u9a8c",
           "icon": "the_vault:gui/modifiers/experienced"
         }
+      },
+      "the_vault:ignore_modifier_extended": {
+        "properties": {
+          "addend": -0.5
+        },
+        "display": {
+          "name": "\u6587\u8fbe\u5c14\u7684\u6311\u6218",
+          "color": "#d89e01",
+          "description": "\u5b9d\u5e93\u8bcd\u7f00\u201c\u5ef6\u957f\u201d\u5728\u6b64\u5b9d\u5e93\u4e2d\u4e0d\u751f\u6548",
+          "descriptionFormatted": "\u5b9d\u5e93\u8bcd\u7f00\u201c\u5ef6\u957f\u201d\u5728\u6b64\u5b9d\u5e93\u4e2d\u4e0d\u751f\u6548",
+          "icon": "the_vault:gui/modifiers/god_token_wendarr"
+        }
       }
     },
     "the_vault:modifier_type/inline_pool": {
@@ -2875,7 +2899,8 @@
             "the_vault:beginners_grace": 1,
             "the_vault:no_ores": 1,
             "the_vault:no_reward": 1,
-            "the_vault:no_souls": 1
+            "the_vault:no_souls": 1,
+            "the_vault:no_durability_damage": 1
           }
         },
         "display": {
@@ -2925,6 +2950,22 @@
           "name": "\u5c0f\u95e8\u730e\u4eba",
           "color": "#bbf333",
           "description": "\u663e\u793a\u5b9d\u5e93\u4e2d\u7684\u6240\u6709\u95e8\uff01",
+          "icon": "the_vault:gui/modifiers/door_hunter"
+        }
+      },
+      "the_vault:objective_hunter": {
+        "properties": {
+          "children": {
+            "the_vault:scavenger_altar": 1,
+            "the_vault:lodestone": 1,
+            "the_vault:monolith": 1,
+            "the_vault:grid_gateway": 1
+          }
+        },
+        "display": {
+          "name": "\u76ee\u6807\u730e\u4eba",
+          "color": "#bbf333",
+          "description": "\u663e\u793a\u5b9d\u5e93\u4e2d\u7684\u6240\u6709\u5b9d\u5e93\u76ee\u6807\u65b9\u5757\uff01",
           "icon": "the_vault:gui/modifiers/door_hunter"
         }
       },
@@ -3004,7 +3045,6 @@
         "properties": {
           "children": {
             "the_vault:furious_mobs": 1,
-            "the_vault:chunky_mobs": 1,
             "the_vault:cake_layer_mobspeed": 1,
             "the_vault:cake_mob_increase": 1
           }
@@ -3012,7 +3052,7 @@
         "display": {
           "name": "\u540c\u4f34\u6311\u6218",
           "color": "#ba0000",
-          "description": "\u6bcf\u7ea7\u589e\u52a010%\u602a\u7269\u4f24\u5bb3\u3001\u602a\u7269\u751f\u547d\u503c\u548c\u602a\u7269\u751f\u6210\u6570\u91cf\uff0c\u589e\u52a01.5%\u602a\u7269\u79fb\u901f",
+          "description": "\u6bcf\u7ea7\u589e\u52a010%%\u602a\u7269\u4f24\u5bb3\u548c\u602a\u7269\u751f\u6210\u6570\u91cf\uff0c\u589e\u52a01.5%%\u602a\u7269\u79fb\u901f",
           "icon": "the_vault:gui/modifiers/companion_challenge"
         }
       },
@@ -3020,7 +3060,6 @@
         "properties": {
           "children": {
             "the_vault:furious_mobs": 1,
-            "the_vault:chunky_mobs": 1,
             "the_vault:cake_layer_mobspeed": 1,
             "the_vault:cake_mob_increase": 1
           }
@@ -3028,7 +3067,7 @@
         "display": {
           "name": "\u6311\u6218\u5c42\u6570",
           "color": "#ba0000",
-          "description": "\u6bcf\u7ea7\u589e\u52a010%\u602a\u7269\u4f24\u5bb3\u3001\u602a\u7269\u751f\u547d\u503c\u548c\u602a\u7269\u751f\u6210\u6570\u91cf\uff0c\u589e\u52a01.5%\u602a\u7269\u79fb\u901f",
+          "description": "\u6bcf\u7ea7\u589e\u52a010%%\u602a\u7269\u4f24\u5bb3\u548c\u602a\u7269\u751f\u6210\u6570\u91cf\uff0c\u589e\u52a01.5%%\u602a\u7269\u79fb\u901f",
           "icon": "the_vault:gui/modifiers/challenging"
         }
       },

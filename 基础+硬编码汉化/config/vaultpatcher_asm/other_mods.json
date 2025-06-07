@@ -1,17 +1,10 @@
 [
     {
         "name": "宝藏猎人硬编码汉化-其他模组部分",
-        "desc": "其他模组的部分硬编码汉化。版本V2.6.5",
+        "desc": "其他模组的部分硬编码汉化。版本V2.6.8",
         "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
         "mods": "others",
         "dynamic": false
-    },
-    {
-        "target_class": {
-            "name": "net.creeperhost.ftbbackups.BackupHandler"
-        },
-        "key": "Backup finished in ",
-        "value": "服务器备份完成，耗时 "
     },
     {
         "target_class": {

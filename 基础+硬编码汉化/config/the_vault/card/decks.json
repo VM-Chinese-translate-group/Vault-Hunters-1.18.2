@@ -75,7 +75,7 @@
       ]
     },
     "expanded": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "the_vault:deck/expanded#inventory",
       "name": "\u6269\u5c55\u5361\u7ec4\u5305",
       "essence": {
         "min": 2,
@@ -94,7 +94,7 @@
       ]
     },
     "gdungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "the_vault:deck/edge#inventory",
       "name": "\u8fb9\u754c\u5361\u7ec4\u5305",
       "essence": {
         "min": 3,
@@ -113,7 +113,7 @@
       ]
     },
     "ldungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "the_vault:deck/mushroom#inventory",
       "name": "\u8611\u83c7\u5361\u7ec4\u5305",
       "essence": {
         "min": 3,
@@ -132,7 +132,7 @@
       ]
     },
     "odungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "the_vault:deck/anvil#inventory",
       "name": "\u94c1\u7827\u5361\u7ec4\u5305",
       "essence": {
         "min": 3,
@@ -246,7 +246,7 @@
       ]
     },
     "runic": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "the_vault:deck/runic#inventory",
       "name": "\u7b26\u6587\u5361\u7ec4\u5305",
       "essence": {
         "min": 3,
@@ -267,7 +267,7 @@
       ]
     },
     "bishop": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "the_vault:deck/bishop#inventory",
       "name": "\u8c61\u68cb\u5361\u7ec4\u5305",
       "essence": {
         "min": 3,
@@ -287,7 +287,7 @@
       ]
     },
     "belt": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "the_vault:deck/belt#inventory",
       "name": "\u8170\u5e26\u5361\u7ec4\u5305",
       "essence": {
         "min": 3,
@@ -308,7 +308,7 @@
       ]
     },
     "scam": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "the_vault:deck/mystery#inventory",
       "name": "\uff1f\uff1f\u5361\u7ec4\u5305",
       "essence": {
         "min": 5,

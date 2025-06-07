@@ -86,12 +86,32 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
+          "AMOUNT": 1,
           "ITEM": "the_vault:ornate_chest_scroll",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 8,
+          "AMOUNT": 1,
+          "ITEM": "the_vault:living_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gilded_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:wooden_chest_scroll",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
           "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },
@@ -267,7 +287,7 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 12,
+          "AMOUNT": 16,
           "ITEM": "the_vault:vault_gold",
           "NBT": "{}"
         },

@@ -1,7 +1,8 @@
 {
   "pools": {
     "the_vault:default": [
-      { "level": 0,
+      {
+        "level": 0,
         "type": "bingo",
         "width": 4,
         "height": 4,
@@ -365,7 +366,6 @@
             },
             "weight": 100.0
           },
-
           {
             "type": "kill_entity",
             "filter": "@the_vault:guardians",
@@ -1630,14 +1630,6 @@
             ],
             "weight": 10.0
           },
-
-
-
-
-
-
-
-
           {
             "type": "find_vault_room",
             "counter": {
@@ -1942,8 +1934,6 @@
             ],
             "weight": 10.0
           },
-
-
           {
             "type": "take_no_damage",
             "children": [
@@ -1989,10 +1979,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -2038,10 +2026,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -2087,10 +2073,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -2136,11 +2120,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
-
           {
             "type": "take_no_damage",
             "children": [
@@ -2170,13 +2151,18 @@
             "type": "find_vault_room",
             "filter": [
               "the_vault:vault/rooms/omega/mush_room1",
+              "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/omega_digsite2",
               "the_vault:vault/rooms/omega/library1",
+              "the_vault:vault/rooms/omega/library2",
               "the_vault:vault/rooms/omega/mine1",
               "the_vault:vault/rooms/omega/mine2",
-              "the_vault:vault/rooms/omega/painting1"
+              "the_vault:vault/rooms/omega/painting1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -2193,13 +2179,18 @@
               "type": "room_generation",
               "filter": [
                 "the_vault:vault/rooms/omega/mush_room1",
+                "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/omega_digsite2",
                 "the_vault:vault/rooms/omega/library1",
+                "the_vault:vault/rooms/omega/library2",
                 "the_vault:vault/rooms/omega/mine1",
                 "the_vault:vault/rooms/omega/mine2",
-                "the_vault:vault/rooms/omega/painting1"
+                "the_vault:vault/rooms/omega/painting1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -2209,10 +2200,6 @@
             },
             "weight": 100.0
           },
-
-
-
-
           {
             "type": "take_damage",
             "filter": "@the_vault:mobs",
@@ -2239,7 +2226,6 @@
             },
             "weight": 100.0
           }
-
         ],
         "firstBingo": [
           {
@@ -2249,10 +2235,19 @@
             },
             "message": [
               "",
-              {"text": "BINGO\uff01", "color": "#bbf333"},
-              {"text": "\u6dfb\u52a0\u4e86", "color": "gray"},
+              {
+                "text": "BINGO\uff01",
+                "color": "#bbf333"
+              },
+              {
+                "text": "\u6dfb\u52a0\u4e86",
+                "color": "gray"
+              },
               "${modifiers}",
-              {"text": "\u3002", "color": "gray"}
+              {
+                "text": "\u3002",
+                "color": "gray"
+              }
             ],
             "weight": 100.0
           }
@@ -2265,16 +2260,26 @@
             },
             "message": [
               "",
-              {"text": "BINGO\uff01", "color": "#bbf333"},
-              {"text": "\u6dfb\u52a0\u4e86", "color": "gray"},
+              {
+                "text": "BINGO\uff01",
+                "color": "#bbf333"
+              },
+              {
+                "text": "\u6dfb\u52a0\u4e86",
+                "color": "gray"
+              },
               "${modifiers}",
-              {"text": "\u3002", "color": "gray"}
+              {
+                "text": "\u3002",
+                "color": "gray"
+              }
             ],
             "weight": 100.0
           }
         ]
       },
-      { "level": 75,
+      {
+        "level": 75,
         "type": "bingo",
         "width": 4,
         "height": 4,
@@ -2638,7 +2643,6 @@
             },
             "weight": 100.0
           },
-
           {
             "type": "kill_entity",
             "filter": "@the_vault:guardians",
@@ -3903,14 +3907,6 @@
             ],
             "weight": 10.0
           },
-
-
-
-
-
-
-
-
           {
             "type": "find_vault_room",
             "counter": {
@@ -4215,8 +4211,6 @@
             ],
             "weight": 10.0
           },
-
-
           {
             "type": "take_no_damage",
             "children": [
@@ -4262,10 +4256,8 @@
                 ]
               }
             ],
-            
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -4311,10 +4303,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -4360,10 +4350,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -4409,11 +4397,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
-
           {
             "type": "take_no_damage",
             "children": [
@@ -4443,13 +4428,18 @@
             "type": "find_vault_room",
             "filter": [
               "the_vault:vault/rooms/omega/mush_room1",
+              "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
               "the_vault:vault/rooms/omega/cove1",
               "the_vault:vault/rooms/omega/omega_digsite2",
               "the_vault:vault/rooms/omega/library1",
+              "the_vault:vault/rooms/omega/library2",
               "the_vault:vault/rooms/omega/mine1",
               "the_vault:vault/rooms/omega/mine2",
-              "the_vault:vault/rooms/omega/painting1"
+              "the_vault:vault/rooms/omega/painting1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -4466,13 +4456,18 @@
               "type": "room_generation",
               "filter": [
                 "the_vault:vault/rooms/omega/mush_room1",
+                "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/omega_digsite2",
                 "the_vault:vault/rooms/omega/library1",
+                "the_vault:vault/rooms/omega/library2",
                 "the_vault:vault/rooms/omega/mine1",
                 "the_vault:vault/rooms/omega/mine2",
-                "the_vault:vault/rooms/omega/painting1"
+                "the_vault:vault/rooms/omega/painting1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -4482,10 +4477,6 @@
             },
             "weight": 100.0
           },
-
-
-
-
           {
             "type": "take_damage",
             "filter": "@the_vault:mobs",
@@ -4512,7 +4503,6 @@
             },
             "weight": 100.0
           }
-
         ],
         "firstBingo": [
           {
@@ -4522,10 +4512,19 @@
             },
             "message": [
               "",
-              {"text": "BINGO\uff01", "color": "#bbf333"},
-              {"text": "\u6dfb\u52a0\u4e86", "color": "gray"},
+              {
+                "text": "BINGO\uff01",
+                "color": "#bbf333"
+              },
+              {
+                "text": "\u6dfb\u52a0\u4e86",
+                "color": "gray"
+              },
               "${modifiers}",
-              {"text": "\u3002", "color": "gray"}
+              {
+                "text": "\u3002",
+                "color": "gray"
+              }
             ],
             "weight": 100.0
           }
@@ -4538,16 +4537,26 @@
             },
             "message": [
               "",
-              {"text": "BINGO\uff01", "color": "#bbf333"},
-              {"text": "\u6dfb\u52a0\u4e86", "color": "gray"},
+              {
+                "text": "BINGO\uff01",
+                "color": "#bbf333"
+              },
+              {
+                "text": "\u6dfb\u52a0\u4e86",
+                "color": "gray"
+              },
               "${modifiers}",
-              {"text": "\u3002", "color": "gray"}
+              {
+                "text": "\u3002",
+                "color": "gray"
+              }
             ],
             "weight": 100.0
           }
         ]
       },
-      { "level": 90,
+      {
+        "level": 90,
         "type": "bingo",
         "width": 5,
         "height": 5,
@@ -4911,7 +4920,6 @@
             },
             "weight": 100.0
           },
-
           {
             "type": "kill_entity",
             "filter": "@the_vault:guardians",
@@ -6176,14 +6184,6 @@
             ],
             "weight": 10.0
           },
-
-
-
-
-
-
-
-
           {
             "type": "find_vault_room",
             "counter": {
@@ -6488,8 +6488,6 @@
             ],
             "weight": 10.0
           },
-
-
           {
             "type": "take_no_damage",
             "children": [
@@ -6535,10 +6533,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -6584,10 +6580,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -6633,10 +6627,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
           {
             "type": "take_no_damage",
             "children": [
@@ -6682,11 +6674,8 @@
                 ]
               }
             ],
-
             "weight": 10.0
           },
-
-
           {
             "type": "take_no_damage",
             "children": [
@@ -6715,14 +6704,19 @@
           {
             "type": "find_vault_room",
             "filter": [
-                "the_vault:vault/rooms/omega/mush_room1",
-                "the_vault:vault/rooms/omega/blacksmith1",
-                "the_vault:vault/rooms/omega/cove1",
-                "the_vault:vault/rooms/omega/omega_digsite2",
-                "the_vault:vault/rooms/omega/library1",
-                "the_vault:vault/rooms/omega/mine1",
-                "the_vault:vault/rooms/omega/mine2",
-                "the_vault:vault/rooms/omega/painting1"
+              "the_vault:vault/rooms/omega/mush_room1",
+              "the_vault:vault/rooms/omega/mush_room2",
+              "the_vault:vault/rooms/omega/blacksmith1",
+              "the_vault:vault/rooms/omega/cove1",
+              "the_vault:vault/rooms/omega/omega_digsite2",
+              "the_vault:vault/rooms/omega/library1",
+              "the_vault:vault/rooms/omega/library2",
+              "the_vault:vault/rooms/omega/mine1",
+              "the_vault:vault/rooms/omega/mine2",
+              "the_vault:vault/rooms/omega/painting1",
+              "the_vault:vault/rooms/omega/vendor1",
+              "the_vault:vault/rooms/omega/vendor2",
+              "the_vault:vault/rooms/omega/vendor3"
             ],
             "counter": {
               "type": "target",
@@ -6739,13 +6733,18 @@
               "type": "room_generation",
               "filter": [
                 "the_vault:vault/rooms/omega/mush_room1",
+                "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
                 "the_vault:vault/rooms/omega/cove1",
                 "the_vault:vault/rooms/omega/omega_digsite2",
                 "the_vault:vault/rooms/omega/library1",
+                "the_vault:vault/rooms/omega/library2",
                 "the_vault:vault/rooms/omega/mine1",
                 "the_vault:vault/rooms/omega/mine2",
-                "the_vault:vault/rooms/omega/painting1"
+                "the_vault:vault/rooms/omega/painting1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3"
               ]
             },
             "renderer": {
@@ -6755,10 +6754,6 @@
             },
             "weight": 100.0
           },
-
-
-
-
           {
             "type": "take_damage",
             "filter": "@the_vault:mobs",
@@ -6785,7 +6780,6 @@
             },
             "weight": 100.0
           }
-
         ],
         "firstBingo": [
           {
@@ -6795,10 +6789,19 @@
             },
             "message": [
               "",
-              {"text": "BINGO\uff01", "color": "#bbf333"},
-              {"text": "\u6dfb\u52a0\u4e86", "color": "gray"},
+              {
+                "text": "BINGO\uff01",
+                "color": "#bbf333"
+              },
+              {
+                "text": "\u6dfb\u52a0\u4e86",
+                "color": "gray"
+              },
               "${modifiers}",
-              {"text": "\u3002", "color": "gray"}
+              {
+                "text": "\u3002",
+                "color": "gray"
+              }
             ],
             "weight": 100.0
           }
@@ -6811,10 +6814,19 @@
             },
             "message": [
               "",
-              {"text": "BINGO\uff01", "color": "#bbf333"},
-              {"text": "\u6dfb\u52a0\u4e86", "color": "gray"},
+              {
+                "text": "BINGO\uff01",
+                "color": "#bbf333"
+              },
+              {
+                "text": "\u6dfb\u52a0\u4e86",
+                "color": "gray"
+              },
               "${modifiers}",
-              {"text": "\u3002", "color": "gray"}
+              {
+                "text": "\u3002",
+                "color": "gray"
+              }
             ],
             "weight": 100.0
           }

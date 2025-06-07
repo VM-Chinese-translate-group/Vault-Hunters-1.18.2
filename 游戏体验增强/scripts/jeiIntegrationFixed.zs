@@ -78,7 +78,7 @@ inscription.addRecipe([runeItemR("emerald_caves", 18)], [<item:minecraft:diamond
 JEI.addIngredient(runeItemR("emerald_caves", 18));
 
 // xmark
-inscription.addRecipe([runeItemC("x-mark", 15)], [<item:the_vault:ornate_chest_scroll> * 2, <item:the_vault:vault_gold> * 8, <item:the_vault:inscription_piece> * 16]);
+inscription.addRecipe([runeItemC("x-mark", 15)], [<item:the_vault:ornate_chest_scroll> * 1, <item:the_vault:living_chest_scroll> * 1, <item:the_vault:gilded_chest_scroll> * 1, <item:the_vault:wooden_chest_scroll> * 1, <item:the_vault:gem_echo> * 4, <item:the_vault:vault_gold> * 16, <item:the_vault:inscription_piece> * 16]);
 JEI.addIngredient(runeItemC("x-mark", 15));
 // dragon
 inscription.addRecipe([runeItemC("dragon", 7)], [<item:the_vault:bounty_pearl> * 32, <item:the_vault:gem_echo> * 2, <item:the_vault:inscription_piece> * 16]);
@@ -96,7 +96,7 @@ JEI.addIngredient(runeItemC("village", 13));
 inscription.addRecipe([runeItemC("raid/rooms", 19)], [<item:minecraft:emerald> * 256, <item:the_vault:gem_echo> * 4, <item:the_vault:vault_gold> * 12, <item:the_vault:inscription_piece> * 16]);
 JEI.addIngredient(runeItemC("raid/rooms", 19));
 // lab
-inscription.addRecipe([runeItemC("laboratory", 20)], [<item:the_vault:mystery_hostile_egg> * 2, <item:the_vault:gem_echo> * 4, <item:the_vault:vault_gold> * 12, <item:the_vault:inscription_piece> * 16]);
+inscription.addRecipe([runeItemC("laboratory", 20)], [<item:the_vault:mystery_hostile_egg> * 2, <item:the_vault:gem_echo> * 4, <item:the_vault:vault_gold> * 16, <item:the_vault:inscription_piece> * 16]);
 JEI.addIngredient(runeItemC("laboratory", 20));
 
 // mushroom
@@ -385,14 +385,17 @@ modBoxItem("thermal:dynamo_numismatic", "热力发电机", 1, 100),
 modBoxItem("thermal:dynamo_disenchantment", "热力发电机", 1, 100),
 modBoxItem("thermal:dynamo_gourmand", "热力发电机", 1, 100)], []);
 
-modBox.addRecipe([modBoxItem("thermal:device_nullifier", "热力膨胀", 1, 100),
-modBoxItem("thermal:device_water_gen", "热力膨胀", 1, 80),
-modBoxItem("thermal:device_fisher", "热力膨胀", 1, 60),
-modBoxItem("thermal:device_composter", "热力膨胀", 1, 60),
+modBox.addRecipe([modBoxItem("thermal:device_nullifier", "热力膨胀", 1, 40),
+modBoxItem("thermal:device_water_gen", "热力膨胀", 1, 40),
+modBoxItem("thermal:device_fisher", "热力膨胀", 1, 40),
+modBoxItem("thermal:device_composter", "热力膨胀", 1, 40),
 modBoxItem("thermal:machine_chiller", "热力膨胀", 1, 40),
-modBoxItem("thermal:device_collector", "热力膨胀", 1, 20),
-modBoxItem("thermal:device_rock_gen", "热力膨胀", 1, 5),
-modBoxItem("thermal:machine_sawmill", "热力膨胀", 1, 40)], []);
+modBoxItem("thermal:device_collector", "热力膨胀", 1, 40),
+modBoxItem("thermal:device_rock_gen", "热力膨胀", 1, 40),
+modBoxItem("thermal:machine_sawmill", "热力膨胀", 1, 40),
+modBoxItem("thermal:upgrade_augment_1", "热力膨胀", 1, 40),
+modBoxItem("thermal:upgrade_augment_2", "热力膨胀", 1, 20),
+modBoxItem("thermal:upgrade_augment_3", "热力膨胀", 1, 10)], []);
 
 modBox.addRecipe([modBoxItem("mekanismgenerators:solar_generator", "通用机械发电机", 1, 80),
 modBoxItem("mekanismgenerators:bio_generator", "通用机械发电机", 1, 80),
@@ -437,6 +440,19 @@ modBox.addRecipe([modBoxItem("easy_villagers:trader", "简易村民", 1, 100),
 modBoxItem("easy_villagers:farmer", "简易村民", 1, 20),
 modBoxItem("easy_villagers:auto_trader", "简易村民", 1, 2),
 modBoxItem("easy_villagers:iron_farm", "简易村民", 1, 5)], []);
+
+modBox.addRecipe([modBoxItem("ironfurnaces:iron_furnace", "更多熔炉", 1, 400),
+modBoxItem("ironfurnaces:gold_furnace", "更多熔炉", 1, 200),
+modBoxItem("ironfurnaces:diamond_furnace", "更多熔炉", 1, 60),
+modBoxItem("ironfurnaces:emerald_furnace", "更多熔炉", 1, 60),
+modBoxItem("ironfurnaces:obsidian_furnace", "更多熔炉", 1, 60),
+modBoxItem("ironfurnaces:netherite_furnace", "更多熔炉", 1, 30),
+modBoxItem("ironfurnaces:million_furnace", "更多熔炉", 1, 5)], []);
+
+modBox.addRecipe([modBoxItem("modularrouters:speed_upgrade", "模块化路由器", 9, 100),
+modBoxItem("modularrouters:stack_upgrade", "模块化路由器", 6, 100),
+modBoxItem("modularrouters:blank_module", "模块化路由器", 1, 200),
+modBoxItem("modularrouters:modular_router", "模块化路由器", 1, 50)], []);
 
 JEI.addCategory(modBox);
 
@@ -577,7 +593,16 @@ crystalItem("minecraft:dark_oak_leaves", 0, "种物"),
 crystalItem("minecraft:azalea_leaves", 0, "种物"),
 crystalItem("minecraft:flowering_azalea_leaves", 0, "种物"),
 crystalItem("ecologics:coconut_leaves", 0, "种物"),
-crystalItem("ecologics:walnut_leaves", 0, "种物")],
+crystalItem("ecologics:walnut_leaves", 0, "种物"),
+crystalItem("the_vault:velara_leaves", 0, "种物"),
+crystalItem("twigs:bamboo_leaves", 0, "种物"),
+crystalItem("quark:red_blossom_leaves", 0, "种物"),
+crystalItem("quark:yellow_blossom_leaves", 0, "种物"),
+crystalItem("quark:pink_blossom_leaves", 0, "种物"),
+crystalItem("quark:orange_blossom_leaves", 0, "种物"),
+crystalItem("quark:lavender_blossom_leaves", 0, "种物"),
+crystalItem("quark:blue_blossom_leaves", 0, "种物"),
+crystalItem("architects_palette:twisted_leaves", 0, "种物")],
 [crystalItem("minecraft:sugar_cane", 10, "种物")],
 [crystalItem("minecraft:carrot", 10, "种物")],
 [crystalItem("minecraft:potato", 10, "种物")],

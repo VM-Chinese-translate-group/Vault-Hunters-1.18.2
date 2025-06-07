@@ -1,7 +1,7 @@
 [
     {
         "name": "宝藏猎人主要硬编码汉化-asm部分",
-        "desc": "主要asm硬编码汉化替换-重排序。版本V2.6.7",
+        "desc": "主要asm硬编码汉化替换-重排序。版本V2.6.8",
         "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
         "mods": "the_vault",
         "dynamic": false
@@ -668,6 +668,21 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.block.render.GodAltarRenderer"
+        },
+        "pairs": [
+            {
+                "key": "Waiting for activation",
+                "value": "等待激活"
+            },
+            {
+                "key": "Unknown Task",
+                "value": "未知任务"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.block.render.MonolithRenderer"
         },
         "key": "Pillage for Loot",
@@ -677,8 +692,20 @@
         "target_class": {
             "name": "iskallia.vault.block.render.RunePillarRenderer"
         },
-        "key": "Runes: ",
-        "value": "符文："
+        "pairs": [
+            {
+                "key": "Submitted: ",
+                "value": "已提交："
+            },
+            {
+                "key": "Minimum Runes: ",
+                "value": "最少符文数量："
+            },
+            {
+                "key": "Right click with an empty hand to summon!",
+                "value": "空手右击以生成首领！"
+            }
+        ]
     },
     {
         "target_class": {
@@ -740,6 +767,20 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.block.MapMarkerBlock"
+        },
+        "key": " placed a marker at ",
+        "value": "放置了一个标记，位于"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.block.MapMarkerBlock$MapMarkerBlockItem"
+        },
+        "key": "Map Marker",
+        "value": "地图标记"
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.block.MazeBlock"
         },
         "key": "Color",
@@ -790,6 +831,13 @@
         },
         "key": "You have completed a quest!",
         "value": "你已经完成了一个任务！"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.framework.element.AlchemyCraftSelectorElement$AlchemyCraftElement"
+        },
+        "key": "This effect is already applied to the bottle.",
+        "value": "此效果已添加到药剂。"
     },
     {
         "target_class": {
@@ -980,7 +1028,7 @@
             },
             {
                 "name": "iskallia.vault.item.KnowledgeBrewItem",
-                "method": "lambda$appendHoverText$1",
+                "method": "lambda$appendHoverText$3",
                 "local": "Vresearch"
             }
         ],
@@ -1180,6 +1228,14 @@
             {
                 "key": "Soul Harvester",
                 "value": "灵魂收割器"
+            },
+            {
+                "key": "Map Markers",
+                "value": "地图标记"
+            },
+            {
+                "key": "Vault Map",
+                "value": "宝库地图"
             }
         ]
     },
@@ -1328,6 +1384,18 @@
             {
                 "key": "Always on",
                 "value": "始终显示"
+            },
+            {
+                "key": "HUD Settings",
+                "value": "HUD设置"
+            },
+            {
+                "key": "Vault Map Settings",
+                "value": "宝库地图设置"
+            },
+            {
+                "key": "Use Items Overlay: ",
+                "value": "使用次数物品覆盖层："
             }
         ]
     },
@@ -2014,6 +2082,283 @@
         ]
     },
     {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.MapOptionsSubmenu"
+        },
+        "pairs": [
+            {
+                "key": "Map Options",
+                "value": "地图设置"
+            },
+            {
+                "key": "Mini Map",
+                "value": "小地图"
+            },
+            {
+                "key": "Overlay Style",
+                "value": "覆盖层风格"
+            },
+            {
+                "key": "Toggle",
+                "value": "切换"
+            },
+            {
+                "key": "Hold",
+                "value": "按住"
+            },
+            {
+                "key": "Overlay Opacity",
+                "value": "覆盖层不透明度"
+            },
+            {
+                "key": "Minimap Position",
+                "value": "小地图位置"
+            },
+            {
+                "key": "Minimap Scale",
+                "value": "小地图缩放"
+            },
+            {
+                "key": "Map Overlay Scale",
+                "value": "地图覆盖层缩放"
+            },
+            {
+                "key": "Back",
+                "value": "返回" 
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.MapOptionsSubmenu",
+            "local": "MgetSerializedNameUpper"
+        },
+        "pairs": [
+            {
+                "key": "Hidden",
+                "value": "隐藏"
+            },
+            {
+                "key": "Always",
+                "value": "始终"
+            },
+            {
+                "key": "Tab",
+                "value": "Tab键"
+            },
+            {
+                "key": "Xaeros",
+                "value": "Xaero的"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.MinimapPositionEditScreen"
+        },
+        "pairs": [
+            {
+                "key": "Edit Minimap Position",
+                "value": "编辑小地图位置"
+            },
+            {
+                "key": "Done",
+                "value": "完成"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudSettingsScreen"
+        },
+        "pairs": [
+            {
+                "key": "HUD Settings",
+                "value": "HUD设置"
+            },
+            {
+                "key": "Display Mode",
+                "value": "显示模式"
+            },
+            {
+                "key": "KEYBIND",
+                "value": "按键"
+            },
+            {
+                "key": "ALWAYS",
+                "value": "始终"
+            },
+            {
+                "key": "Percentage Display",
+                "value": "百分比显示"
+            },
+            {
+                "key": "Gear Indicator",
+                "value": "装备指示器"
+            },
+            {
+                "key": "Uses Items Indicator",
+                "value": "使用次数物品指示器"
+            },
+            {
+                "key": "Gear Display Mode",
+                "value": "装备显示模式"
+            },
+            {
+                "key": "Uses Display Mode",
+                "value": "使用次数显示模式"
+            },
+            {
+                "key": "Uses Text Position",
+                "value": "使用次数文本位置" 
+            },
+            {
+                "key": "HUD Size",
+                "value": "HUD大小" 
+            },
+            {
+                "key": "Potion Visibility",
+                "value": "药水可见性" 
+            },
+            {
+                "key": "ON",
+                "value": "开" 
+            },
+            {
+                "key": "OFF",
+                "value": "关" 
+            },
+            {
+                "key": "Potion Size",
+                "value": "药水大小" 
+            },
+            {
+                "key": "Edit HUD Positions",
+                "value": "编辑HUD位置" 
+            },
+            {
+                "key": "Done",
+                "value": "完成" 
+            }
+        ]
+    },
+    {
+        "target_classes": [
+            {
+                "name": "iskallia.vault.client.render.IVaultOptions$UsesVisibilityMode",
+                "method": "getSerializedName",
+                "local": "MtoLowerCase"
+            },
+            {
+                "name": "iskallia.vault.client.render.IVaultOptions$GearVisibilityMode",
+                "method": "getSerializedName",
+                "local": "MtoLowerCase"
+            },
+            {
+                "name": "iskallia.vault.client.render.IVaultOptions$ScaleMode",
+                "method": "getSerializedName",
+                "local": "MtoLowerCase"
+            }
+        ],
+        "pairs": [
+            {
+                "key": "overlay",
+                "value": "覆盖层"
+            },
+            {
+                "key": "bar",
+                "value": "物品模型"
+            },
+            {
+                "key": "none",
+                "value": "无"
+            },
+            {
+                "key": "number",
+                "value": "数字" 
+            },
+            {
+                "key": "normal",
+                "value": "普通" 
+            },
+            {
+                "key": "small",
+                "value": "小" 
+            },
+            {
+                "key": "tiny",
+                "value": "极小" 
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudSettingsScreen",
+            "local": "MgetSerializedName"
+        },
+        "pairs": [
+            {
+                "key": "OFF",
+                "value": "关"
+            },
+            {
+                "key": "RIGHT",
+                "value": "右侧"
+            },
+            {
+                "key": "LEFT",
+                "value": "左侧"
+            },
+            {
+                "key": "BELOW",
+                "value": "下方"
+            },
+            {
+                "key": "ABOVE",
+                "value": "上方"
+            },
+            {
+                "key": "ONTOP",
+                "value": "默认"
+            },
+            {
+                "key": "VERY LOW",
+                "value": "非常低" 
+            },
+            {
+                "key": "LOW",
+                "value": "低" 
+            },
+            {
+                "key": "ALWAYS",
+                "value": "始终" 
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudEditScreen"
+        },
+        "pairs": [
+            {
+                "key": "Edit HUD Settings",
+                "value": "编辑HUD设置"
+            },
+            {
+                "key": "Done",
+                "value": "完成"
+            },
+            {
+                "key": "Reset",
+                "value": "重置"
+            },
+            {
+                "key": "Effects",
+                "value": "效果"
+            }
+        ]
+    },
+    {
         "target_classes": [
             {
                 "name": "iskallia.vault.client.gui.screen.bestiary.element.GroupListElement",
@@ -2640,6 +2985,13 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.client.gui.screen.map.FullScreenMapScreen"
+        },
+        "key": "Vault Map",
+        "value": "宝库地图"
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.client.gui.screen.credits.DeveloperCredits"
         },
         "key": "Developer Credits",
@@ -2719,11 +3071,11 @@
         "pairs": [
             {
                 "key": "Stat value of ",
-                "value": "统计数据“"
+                "value": "此数值达到了"
             },
             {
                 "key": " capped at ",
-                "value": "”的上限为"
+                "value": "，上限为"
             }
         ]
     },
@@ -4551,6 +4903,10 @@
                 "value": "主题"
             },
             {
+                "key": "Unable to find a theme for this vault.",
+                "value": "无法找到此宝库的主题。"
+            },
+            {
                 "key": "Series",
                 "value": "系列"
             },
@@ -4669,7 +5025,7 @@
             "name": "iskallia.vault.client.gui.screen.summary.element.CrystalStatsContainerElement",
             "method": "<init>",
             "local": "Vobjective",
-            "ordinal": 189
+            "ordinal": 216
         },
         "pairs": [
             {
@@ -4961,9 +5317,14 @@
         "value": "等级 "
     },
     {
-        "target_class": {
-            "name": "iskallia.vault.client.gui.screen.summary.element.VaultMapElement"
-        },
+        "target_classes": [
+            {
+                "name": "iskallia.vault.client.gui.screen.map.IngameVaultMapElement"
+            },
+            {
+                "name": "iskallia.vault.client.gui.screen.summary.element.VaultMapElement"
+            }
+        ],
         "pairs": [
             {
                 "key": "Starting Room",
@@ -4982,6 +5343,10 @@
                 "value": "原始房间"
             },
             {
+                "key": "Boss Room",
+                "value": "首领房间"
+            },
+            {
                 "key": "Common Room (",
                 "value": "普通房间 ("
             },
@@ -4995,15 +5360,17 @@
         "_comment": "LONGER 结算界面地图房间名"
     },
     {
-        "target_class": {
-            "name": "iskallia.vault.client.gui.screen.summary.element.VaultMapElement",
-            "local": "McapitalizeWords"
-        },
-        "pairs": [
+        "target_classes": [
             {
-                "key": "Boss Room",
-                "value": "首领房间"
+                "name": "iskallia.vault.client.gui.screen.map.IngameVaultMapElement",
+                "local": "McapitalizeWords"
             },
+            {
+                "name": "iskallia.vault.client.gui.screen.summary.element.VaultMapElement",
+                "local": "McapitalizeWords"
+            }
+        ],
+        "pairs": [
             {
                 "key": "Crystal Caves Room",
                 "value": "水晶洞穴房间"
@@ -5021,12 +5388,20 @@
                 "value": "村庄房间"
             },
             {
-                "key": "Wild West Room",
+                "key": "Wildwest Room",
                 "value": "荒野西部房间"
             },
             {
                 "key": "X-mark Room",
                 "value": "X标记房间"
+            },
+            {
+                "key": "X-mark Trap Room",
+                "value": "X标记陷阱房间"
+            },
+            {
+                "key": "X-mark Treasure Room",
+                "value": "X标记宝藏房间"
             },
             {
                 "key": "Raid Room",
@@ -5037,16 +5412,24 @@
                 "value": "实验室房间"
             },
             {
+                "key": "Challenge Digsite Room",
+                "value": "挖掘之地挑战房间"
+            },
+            {
+                "key": "Cube",
+                "value": "魔方"
+            },
+            {
+                "key": "Omega Digsite",
+                "value": "终焉挖掘之地"
+            },
+            {
                 "key": "Blacksmith",
                 "value": "锻造城堡"
             },
             {
                 "key": "Cove",
                 "value": "港湾"
-            },
-            {
-                "key": "Dig Site",
-                "value": "挖掘之地"
             },
             {
                 "key": "Library",
@@ -5063,6 +5446,18 @@
             {
                 "key": "Painting",
                 "value": "彩绘"
+            },
+            {
+                "key": "Vendor",
+                "value": "集市"
+            },
+            {
+                "key": "Cozy",
+                "value": "舒适"
+            },
+            {
+                "key": "Trove",
+                "value": "秘宝"
             },
             {
                 "key": "Bee1",
@@ -5239,6 +5634,18 @@
             {
                 "key": "Raid1",
                 "value": "袭击1"
+            },
+            {
+                "key": "Douwsky Graveyard",
+                "value": "Douwsky墓园"
+            },
+            {
+                "key": "Douwsky Mushy",
+                "value": "Douwsky菌园"
+            },
+            {
+                "key": "S3graveyard",
+                "value": "S3墓园"
             }
         ]
     },
@@ -6041,6 +6448,10 @@
         },
         "pairs": [
             {
+                "key": "No gear data found on item.",
+                "value": "物品上未找到装备数据。"
+            },
+            {
                 "key": "Unknown unique item: ",
                 "value": "未知的独特物品："
             },
@@ -6295,6 +6706,13 @@
                 "value": "小队已解散。"
             }
         ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.command.QuestCommand"
+        },
+        "key": "Set Force Sky Vault World: ",
+        "value": "设置强制空岛宝库世界："
     },
     {
         "target_class": {
@@ -7479,6 +7897,10 @@
                 "value": "宝库世界"
             },
             {
+                "key": "Theme: ",
+                "value": "主题："
+            },
+            {
                 "key": "Unknown",
                 "value": "未知"
             },
@@ -7643,6 +8065,21 @@
             {
                 "key": " has completed task ",
                 "value": "”完成了任务"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.core.world.generator.layout.ArchitectRoomEntry"
+        },
+        "pairs": [
+            {
+                "key": "Common",
+                "value": "普通"
+            },
+            {
+                "key": "Unknown",
+                "value": "未知"
             }
         ]
     },
@@ -7970,6 +8407,13 @@
         },
         "key": "You have bred a snowfox!!!",
         "value": "你繁殖出了一只雪狐！！！"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.event.InputEvents"
+        },
+        "key": "You need a Vault Map to view the vault map!",
+        "value": "你需要一个宝库地图物品才能查看宝库地图！"
     },
     {
         "target_class": {
@@ -9302,6 +9746,10 @@
                 "value": "飞翼战士"
             },
             {
+                "key": "Dark Cheese Warrior",
+                "value": "暗黑奶酪战士"
+            },
+            {
                 "key": "Spiked Warrior",
                 "value": "钉刺战士"
             },
@@ -9672,8 +10120,8 @@
                 "value": "伊多纳之镰"
             },
             {
-                "key": "Tenos' Staff",
-                "value": "特诺斯权杖"
+                "key": "Tenos' Axe",
+                "value": "特诺斯之斧"
             },
             {
                 "key": "Velara's Hammer",
@@ -10162,8 +10610,76 @@
         "target_class": {
             "name": "iskallia.vault.init.ModDynamicModels$Magnets"
         },
-        "key": "Magnet",
-        "value": "磁铁"
+        "pairs": [
+            {
+                "key": "The OG",
+                "value": "OG"
+            },
+            {
+                "key": "Chipped Magnet",
+                "value": "碎裂磁铁"
+            },
+            {
+                "key": "Curved Magnet",
+                "value": "弧形磁铁"
+            },
+            {
+                "key": "Electromagnet",
+                "value": "电磁铁"
+            },
+            {
+                "key": "Echo Magnet",
+                "value": "共鸣磁铁"
+            },
+            {
+                "key": "Fridge Magnet",
+                "value": "冰箱贴"
+            },
+            {
+                "key": "Black Chromatic Steel Magnet",
+                "value": "漆黑异色钢磁铁"
+            },
+            {
+                "key": "Blue Sculk Magnet",
+                "value": "蓝色幽匿磁铁"
+            },
+            {
+                "key": "Tiny Blue Magnet",
+                "value": "小蓝磁铁"
+            },
+            {
+                "key": "Chromatic Iron Magnet",
+                "value": "异色铁磁铁"
+            },
+            {
+                "key": "Chromatic Steel Magnet",
+                "value": "异色钢磁铁"
+            },
+            {
+                "key": "Mossy Bone Magnet",
+                "value": "苔藓骨头磁铁"
+            },
+            {
+                "key": "Reverse Magnet",
+                "value": "反向磁铁"
+            },
+            {
+                "key": "Tiny OG Magnet",
+                "value": "小OG磁铁"
+            },
+            {
+                "key": "Flamingo Magnet",
+                "value": "火烈鸟磁铁"
+            },
+            {
+                "key": "Goopy Magnet",
+                "value": "黏糊糊磁铁"
+            },
+            {
+                "key": "Rubber Duck Magnet",
+                "value": "橡皮鸭磁铁"
+            }
+        ]
     },
     {
         "target_class": {
@@ -10853,6 +11369,10 @@
             {
                 "key": "Heart Frag Chance",
                 "value": "红心碎片概率"
+            },
+            {
+                "key": "Double Damage Chance",
+                "value": "双倍伤害概率"
             },
             {
                 "key": "Fruit Efficiency",
@@ -11674,6 +12194,10 @@
             {
                 "key": "Room",
                 "value": "房间"
+            },
+            {
+                "key": "Echo Cost: ",
+                "value": "共鸣花费："
             }
         ]
     },
@@ -11899,8 +12423,109 @@
         "target_class": {
             "name": "iskallia.vault.item.modification.ReforgeTagModificationFocus"
         },
-        "key": "Hold Shift + ALT for more information",
-        "value": "按住Shift+ALT查看更多信息"
+        "pairs": [
+            {
+                "key": "Add a new ",
+                "value": "添加一个新的"
+            },
+            {
+                "key": ", guaranteeing ",
+                "value": "，固定为"
+            },
+            {
+                "key": "Hold Shift + ALT for more information",
+                "value": "按住Shift+ALT查看更多信息"
+            },
+            {
+                "key": ", ",
+                "value": "、"
+            },
+            {
+                "key": "Armor",
+                "value": "盔甲"
+            },
+            {
+                "key": "Weapon",
+                "value": "武器"
+            },
+            {
+                "key": "Shield",
+                "value": "盾牌"
+            },
+            {
+                "key": "Magnet",
+                "value": "磁铁"
+            },
+            {
+                "key": "Focus",
+                "value": "法器"
+            },
+            {
+                "key": "Wand",
+                "value": "法杖"
+            },
+            {
+                "key": "Helmet",
+                "value": "头盔"
+            },
+            {
+                "key": "Chestplate",
+                "value": "胸甲"
+            },
+            {
+                "key": "Leggings",
+                "value": "护腿"
+            },
+            {
+                "key": "Boots",
+                "value": "靴子"
+            },
+            {
+                "key": "Sword",
+                "value": "剑"
+            },
+            {
+                "key": "Axe",
+                "value": "斧"
+            },
+            {
+                "key": "Velara Idol",
+                "value": "维拉拉神像"
+            },
+            {
+                "key": "Tenos Idol",
+                "value": "特诺斯神像"
+            },
+            {
+                "key": "Wendarr Idol",
+                "value": "文达尔神像"
+            },
+            {
+                "key": "Idona Idol",
+                "value": "伊多纳神像"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.modification.ReforgeTagModificationFocus",
+            "method": "m_7373_",
+            "local": "MgetJoinedAffix"
+        },
+        "pairs": [
+            {
+                "key": "prefix",
+                "value": "前缀"
+            },
+            {
+                "key": "suffix",
+                "value": "后缀"
+            },
+            {
+                "key": "prefix/suffix",
+                "value": "前缀/后缀"
+            }
+        ]
     },
     {
         "target_class": {
@@ -11954,7 +12579,7 @@
                 "value": "用于动物棚中"
             },
             {
-                "key": "Animals can not be released when caught",
+                "key": "Animals cannot be released when caught",
                 "value": "已被捕获的动物无法放出"
             }
         ]
@@ -12014,6 +12639,14 @@
                 "value": "-添加给首领"
             },
             {
+                "key": "Suffix Modifier: ",
+                "value": "后缀属性："
+            },
+            {
+                "key": "Completion Crate Items: ",
+                "value": "完成板条箱物品："
+            },
+            {
                 "key": " to the completion crate",
                 "value": "-添加到完成板条箱"
             }
@@ -12046,6 +12679,10 @@
             "name": "iskallia.vault.item.InfusedCatalystItem"
         },
         "pairs": [
+            {
+                "key": "Use in a Crystal Workbench to modify/upgrade a Vault Crystal",
+                "value": "在水晶工作台中使用以修饰/升级宝库水晶"
+            },
             {
                 "key": "Size: ",
                 "value": "大小："
@@ -12382,6 +13019,13 @@
         },
         "key": "Can't be consumed after Level: ",
         "value": "允许食用的等级上限："
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.mixin.CraftingMenuMixin"
+        },
+        "key": "Items with stored inventory cannot be used in crafting!",
+        "value": "拥有存储空间的物品无法用于合成！"
     },
     {
         "target_class": {
