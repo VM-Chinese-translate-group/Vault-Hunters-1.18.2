@@ -2154,6 +2154,7 @@
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
               "the_vault:vault/rooms/omega/cove1",
+              "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
               "the_vault:vault/rooms/omega/library1",
               "the_vault:vault/rooms/omega/library2",
@@ -2162,7 +2163,8 @@
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
               "the_vault:vault/rooms/omega/vendor2",
-              "the_vault:vault/rooms/omega/vendor3"
+              "the_vault:vault/rooms/omega/vendor3",
+              "the_vault:vault/rooms/omega/pixel1"
             ],
             "counter": {
               "type": "target",
@@ -2182,6 +2184,7 @@
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
                 "the_vault:vault/rooms/omega/cove1",
+                "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
                 "the_vault:vault/rooms/omega/library1",
                 "the_vault:vault/rooms/omega/library2",
@@ -2190,7 +2193,8 @@
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
                 "the_vault:vault/rooms/omega/vendor2",
-                "the_vault:vault/rooms/omega/vendor3"
+                "the_vault:vault/rooms/omega/vendor3",
+                "the_vault:vault/rooms/omega/pixel1"
               ]
             },
             "renderer": {
@@ -4427,19 +4431,21 @@
           {
             "type": "find_vault_room",
             "filter": [
-              "the_vault:vault/rooms/omega/mush_room1",
-              "the_vault:vault/rooms/omega/mush_room2",
-              "the_vault:vault/rooms/omega/blacksmith1",
-              "the_vault:vault/rooms/omega/cove1",
-              "the_vault:vault/rooms/omega/omega_digsite2",
-              "the_vault:vault/rooms/omega/library1",
-              "the_vault:vault/rooms/omega/library2",
-              "the_vault:vault/rooms/omega/mine1",
-              "the_vault:vault/rooms/omega/mine2",
-              "the_vault:vault/rooms/omega/painting1",
-              "the_vault:vault/rooms/omega/vendor1",
-              "the_vault:vault/rooms/omega/vendor2",
-              "the_vault:vault/rooms/omega/vendor3"
+                "the_vault:vault/rooms/omega/mush_room1",
+                "the_vault:vault/rooms/omega/mush_room2",
+                "the_vault:vault/rooms/omega/blacksmith1",
+                "the_vault:vault/rooms/omega/cove1",
+                "the_vault:vault/rooms/omega/cove2",
+                "the_vault:vault/rooms/omega/omega_digsite2",
+                "the_vault:vault/rooms/omega/library1",
+                "the_vault:vault/rooms/omega/library2",
+                "the_vault:vault/rooms/omega/mine1",
+                "the_vault:vault/rooms/omega/mine2",
+                "the_vault:vault/rooms/omega/painting1",
+                "the_vault:vault/rooms/omega/vendor1",
+                "the_vault:vault/rooms/omega/vendor2",
+                "the_vault:vault/rooms/omega/vendor3",
+                "the_vault:vault/rooms/omega/pixel1"
             ],
             "counter": {
               "type": "target",
@@ -4459,6 +4465,7 @@
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
                 "the_vault:vault/rooms/omega/cove1",
+                "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
                 "the_vault:vault/rooms/omega/library1",
                 "the_vault:vault/rooms/omega/library2",
@@ -4467,7 +4474,8 @@
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
                 "the_vault:vault/rooms/omega/vendor2",
-                "the_vault:vault/rooms/omega/vendor3"
+                "the_vault:vault/rooms/omega/vendor3",
+                "the_vault:vault/rooms/omega/pixel1"
               ]
             },
             "renderer": {
@@ -6708,6 +6716,7 @@
               "the_vault:vault/rooms/omega/mush_room2",
               "the_vault:vault/rooms/omega/blacksmith1",
               "the_vault:vault/rooms/omega/cove1",
+              "the_vault:vault/rooms/omega/cove2",
               "the_vault:vault/rooms/omega/omega_digsite2",
               "the_vault:vault/rooms/omega/library1",
               "the_vault:vault/rooms/omega/library2",
@@ -6716,7 +6725,8 @@
               "the_vault:vault/rooms/omega/painting1",
               "the_vault:vault/rooms/omega/vendor1",
               "the_vault:vault/rooms/omega/vendor2",
-              "the_vault:vault/rooms/omega/vendor3"
+              "the_vault:vault/rooms/omega/vendor3",
+              "the_vault:vault/rooms/omega/pixel1"
             ],
             "counter": {
               "type": "target",
@@ -6736,6 +6746,7 @@
                 "the_vault:vault/rooms/omega/mush_room2",
                 "the_vault:vault/rooms/omega/blacksmith1",
                 "the_vault:vault/rooms/omega/cove1",
+                "the_vault:vault/rooms/omega/cove2",
                 "the_vault:vault/rooms/omega/omega_digsite2",
                 "the_vault:vault/rooms/omega/library1",
                 "the_vault:vault/rooms/omega/library2",
@@ -6744,7 +6755,8 @@
                 "the_vault:vault/rooms/omega/painting1",
                 "the_vault:vault/rooms/omega/vendor1",
                 "the_vault:vault/rooms/omega/vendor2",
-                "the_vault:vault/rooms/omega/vendor3"
+                "the_vault:vault/rooms/omega/vendor3",
+                "the_vault:vault/rooms/omega/pixel1"
               ]
             },
             "renderer": {

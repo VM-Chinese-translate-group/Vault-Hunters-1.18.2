@@ -1,7 +1,7 @@
 [
     {
         "name": "宝藏猎人主要硬编码汉化-asm部分",
-        "desc": "主要asm硬编码汉化替换-重排序。版本V2.6.8",
+        "desc": "主要asm硬编码汉化替换-重排序。版本V2.6.11",
         "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
         "mods": "the_vault",
         "dynamic": false
@@ -145,6 +145,13 @@
         "value": "需要至少两只动物才能繁殖…"
     },
     {
+        "target_class": {
+            "name": "iskallia.vault.block.entity.CompanionIncubatorTileEntity"
+        },
+        "key": "Companion Incubator",
+        "value": "伙伴孵化器"
+    },
+    {
         "target_classes": [
             {
                 "name": "iskallia.vault.block.entity.CryoChamberTileEntity"
@@ -242,6 +249,17 @@
             {
                 "key": "No modifiers left to discover",
                 "value": "没有还未发现的词缀"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.block.entity.PersonalVaultTileEntity"
+        },
+        "pairs": [
+            {
+                "key": "Personal Vault | Builder",
+                "value": "私人宝库丨构筑器"
             }
         ]
     },
@@ -357,8 +375,8 @@
                 "value": "木制储物桶"
             },
             {
-                "key": "Gilded Barrel",
-                "value": "镀金储物桶"
+                "key": "Ornate Barrel",
+                "value": "华丽储物桶"
             },
             {
                 "key": "Living Barrel",
@@ -430,6 +448,13 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.block.item.CompanionHomeBlockItem"
+        },
+        "key": "Companion Home",
+        "value": "伙伴之家"
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.block.item.FinalVaultFrameBlockItem"
         },
         "key": "Owner:",
@@ -466,6 +491,21 @@
             {
                 "key": "Item: ",
                 "value": "物品："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.block.item.PvPTrophyItem"
+        },
+        "pairs": [
+            {
+                "key": "Awarded to: ",
+                "value": "授予："
+            },
+            {
+                "key": "Time: ",
+                "value": "时间："
             }
         ]
     },
@@ -544,6 +584,25 @@
             {
                 "key": "No Animal",
                 "value": "没有动物"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.block.render.CompanionHomeRenderer"
+        },
+        "pairs": [
+            {
+                "key": "Retired",
+                "value": "已退休"
+            },
+            {
+                "key": "Ready!",
+                "value": "准备就绪！"
+            },
+            {
+                "key": "Resting",
+                "value": "休息中"
             }
         ]
     },
@@ -649,6 +708,14 @@
                 "value": "袭击房间"
             },
             {
+                "key": "Pixel Room",
+                "value": "像素房间"
+            },
+            {
+                "key": "Temple Room",
+                "value": "神庙房间"
+            },
+            {
                 "key": "Velara",
                 "value": "维拉拉"
             },
@@ -702,8 +769,8 @@
                 "value": "最少符文数量："
             },
             {
-                "key": "Right click with an empty hand to summon!",
-                "value": "空手右击以生成首领！"
+                "key": "Shift + Right click with an empty hand to summon!",
+                "value": "空手Shift右击以召唤！"
             }
         ]
     },
@@ -738,9 +805,14 @@
         ]
     },
     {
-        "target_class": {
-            "name": "iskallia.vault.block.render.VaultAltarRenderer"
-        },
+        "target_classes": [
+            {
+                "name": "iskallia.vault.block.render.VaultAltarRenderer"
+            },
+            {
+                "name": "iskallia.vault.block.render.VaultGreedAltarRenderer"
+            }
+        ],
         "key": "Complete",
         "value": "完成"
     },
@@ -750,6 +822,32 @@
         },
         "key": "Bronze is no longer used to reroll bounties. Removed all existing bronze from your bounty table and placed in your inventory or dropped if your inventory is full.",
         "value": "宝库铜币已不再用于刷新悬赏，已从悬赏桌中移出剩余的铜币。"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.block.BreakableCrateBlock$1"
+        },
+        "key": "Unique Crate",
+        "value": "独特板条箱"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.block.CompanionHomeBlock"
+        },
+        "pairs": [
+            {
+                "key": "Your companion is retired..",
+                "value": "你的伙伴退休了……"
+            },
+            {
+                "key": "This companion is healthy!",
+                "value": "这个伙伴是健康的！"
+            },
+            {
+                "key": "Your companion was healed!",
+                "value": "你的伙伴已经被治疗了！"
+            }
+        ]
     },
     {
         "target_class": {
@@ -1007,9 +1105,10 @@
     {
         "target_classes": [
             {
-                "name": "iskallia.vault.client.gui.helper.FontHelper",
-                "method": "drawStringWithBorder",
-                "local": "Vtext"
+                "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.ResearchDialog",
+                "method": "renderHeading",
+                "local": "GresearchName",
+                "ordinal": 109
             },
             {
                 "name": "iskallia.vault.client.gui.screen.player.legacy.widget.ResearchWidget",
@@ -1240,6 +1339,21 @@
         ]
     },
     {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.overlay.PvPCountdownOverlay"
+        },
+        "pairs": [
+            {
+                "key": "Waiting for at least 1 more player...",
+                "value": "等待至少1名其他玩家……"
+            },
+            {
+                "key": "Grace period ends in %d seconds",
+                "value": "保护期将在%d秒后结束"
+            }
+        ]
+    },
+    {
         "target_classes": [
             {
                 "name": "iskallia.vault.client.gui.overlay.VaultBarOverlay"
@@ -1260,6 +1374,10 @@
             {
                 "key": " unspent knowledge point",
                 "value": " 未用知识点"
+            },
+            {
+                "key": " unspent prestige point",
+                "value": " 未用威名点"
             },
             {
                 "key": "s",
@@ -1293,9 +1411,6 @@
     {
         "target_classes": [
             {
-                "name": "iskallia.vault.client.gui.screen.accessibility.VaultAccessibilityScreen"
-            },
-            {
                 "name": "iskallia.vault.client.gui.screen.accessibility.DamageParticleOptionsSubmenu"
             },
             {
@@ -1303,6 +1418,15 @@
             },
             {
                 "name": "iskallia.vault.client.gui.screen.accessibility.HunterOptionsSubmenu"
+            },
+            {
+                "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudSettingsScreen"
+            },
+            {
+                "name": "iskallia.vault.client.gui.screen.accessibility.VaultAccessibilityScreen"
+            },
+            {
+                "name": "iskallia.vault.client.gui.screen.accessibility.VaultGenericOptionsScreen"
             }
         ],
         "pairs": [
@@ -1321,81 +1445,6 @@
             {
                 "key": "Done",
                 "value": "完成"
-            }
-        ]
-    },
-    {
-        "target_class": {
-            "name": "iskallia.vault.client.gui.screen.accessibility.VaultAccessibilityScreen"
-        },
-        "pairs": [
-            {
-                "key": "Vault Hunters Accessibility Options",
-                "value": "宝藏猎人辅助功能选项"
-            },
-            {
-                "key": "Vault Potion Effects",
-                "value": "宝库药水视觉效果"
-            },
-            {
-                "key": "Show Rarity Names",
-                "value": "显示稀有度名称"
-            },
-            {
-                "key": "Ability Scrolling",
-                "value": "技能滚动切换"
-            },
-            {
-                "key": "Cooldown GUI",
-                "value": "冷却时间GUI"
-            },
-            {
-                "key": "Hide Vault Level Bar",
-                "value": "隐藏宝库等级条"
-            },
-            {
-                "key": "Show Point Messages",
-                "value": "显示点数信息"
-            },
-            {
-                "key": "Hunter Options",
-                "value": "狩猎技能选项"
-            },
-            {
-                "key": "Healthbar Options",
-                "value": "生命条选项"
-            },
-            {
-                "key": "Damage Particle Options",
-                "value": "伤害粒子选项"
-            },
-            {
-                "key": "Treasure Door Names",
-                "value": "显示宝藏门名称"
-            },
-            {
-                "key": "Rarity Highlighter",
-                "value": "稀有度高亮显示"
-            },
-            {
-                "key": "Shifting",
-                "value": "按住Shift"
-            },
-            {
-                "key": "Always on",
-                "value": "始终显示"
-            },
-            {
-                "key": "HUD Settings",
-                "value": "HUD设置"
-            },
-            {
-                "key": "Vault Map Settings",
-                "value": "宝库地图设置"
-            },
-            {
-                "key": "Use Items Overlay: ",
-                "value": "使用次数物品覆盖层："
             }
         ]
     },
@@ -1460,7 +1509,7 @@
             },
             {
                 "key": "Hunter Target",
-                "value": "狩猎技能目标"
+                "value": "狩猎技能对象"
             },
             {
                 "key": "Particle Density",
@@ -1477,27 +1526,397 @@
         "pairs": [
             {
                 "key": "WOODEN",
-                "value": "木制"
+                "value": "木制宝箱"
             },
             {
                 "key": "OBSERVER",
-                "value": "目标"
+                "value": "宝库目标"
             },
             {
                 "key": "GILDED",
-                "value": "镀金"
+                "value": "镀金宝箱"
             },
             {
                 "key": "LIVING",
-                "value": "活化"
+                "value": "活化宝箱"
             },
             {
                 "key": "ORNATE",
-                "value": "华丽"
+                "value": "华丽宝箱"
             },
             {
                 "key": "COINS",
-                "value": "钱币"
+                "value": "钱币堆"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudEditScreen"
+        },
+        "pairs": [
+            {
+                "key": "Edit HUD Settings",
+                "value": "编辑HUD设置"
+            },
+            {
+                "key": "Done",
+                "value": "完成"
+            },
+            {
+                "key": "Reset",
+                "value": "重置"
+            },
+            {
+                "key": "Effects",
+                "value": "效果"
+            },
+            {
+                "key": "Modifiers",
+                "value": "宝库词缀"
+            },
+            {
+                "key": "Cooldown",
+                "value": "冷却"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudSettingsScreen"
+        },
+        "pairs": [
+            {
+                "key": "HUD Settings",
+                "value": "HUD设置"
+            },
+            {
+                "key": "Display Mode",
+                "value": "显示模式"
+            },
+            {
+                "key": "KEYBIND",
+                "value": "按键"
+            },
+            {
+                "key": "ALWAYS",
+                "value": "始终"
+            },
+            {
+                "key": "Percentage Display",
+                "value": "百分比显示"
+            },
+            {
+                "key": "Gear Indicator",
+                "value": "装备指示器"
+            },
+            {
+                "key": "Uses Items Indicator",
+                "value": "使用次数物品指示器"
+            },
+            {
+                "key": "Gear Display Mode",
+                "value": "装备显示模式"
+            },
+            {
+                "key": "Uses Display Mode",
+                "value": "使用次数显示模式"
+            },
+            {
+                "key": "Uses Text Position",
+                "value": "使用次数文本位置"
+            },
+            {
+                "key": "HUD Size: %d%%",
+                "value": "HUD大小：%d%%"
+            },
+            {
+                "key": "Potion Visibility",
+                "value": "药水可见性"
+            },
+            {
+                "key": "Potion Size: %d%%",
+                "value": "药水大小：%d%%"
+            },
+            {
+                "key": "Abilities with Mana Bar",
+                "value": "魔力条下方显示技能"
+            },
+            {
+                "key": "Modifier List Scale: %d%%",
+                "value": "宝库词缀列表显示缩放：%d%%"
+            },
+            {
+                "key": "Cooldown GUI",
+                "value": "冷却时间GUI"
+            },
+            {
+                "key": "Edit HUD Positions",
+                "value": "编辑HUD位置"
+            },
+            {
+                "key": "Backpack Display",
+                "value": "背包显示"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudSettingsScreen",
+            "local": "MgetSerializedName"
+        },
+        "pairs": [
+            {
+                "key": "OFF",
+                "value": "关"
+            },
+            {
+                "key": "RIGHT",
+                "value": "右侧"
+            },
+            {
+                "key": "LEFT",
+                "value": "左侧"
+            },
+            {
+                "key": "BELOW",
+                "value": "下方"
+            },
+            {
+                "key": "ABOVE",
+                "value": "上方"
+            },
+            {
+                "key": "ONTOP",
+                "value": "默认"
+            },
+            {
+                "key": "VERY LOW",
+                "value": "非常低"
+            },
+            {
+                "key": "LOW",
+                "value": "低"
+            },
+            {
+                "key": "ALWAYS",
+                "value": "始终"
+            },
+            {
+                "key": "NONE",
+                "value": "无"
+            },
+            {
+                "key": "NEAR PORTAL",
+                "value": "靠近传送门"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.MapOptionsSubmenu"
+        },
+        "pairs": [
+            {
+                "key": "Map Options",
+                "value": "地图设置"
+            },
+            {
+                "key": "Mini Map",
+                "value": "小地图"
+            },
+            {
+                "key": "Overlay Style",
+                "value": "叠加层风格"
+            },
+            {
+                "key": "Toggle",
+                "value": "切换"
+            },
+            {
+                "key": "Hold",
+                "value": "按住"
+            },
+            {
+                "key": "Overlay Opacity",
+                "value": "叠加层不透明度"
+            },
+            {
+                "key": "Map Positions",
+                "value": "地图位置"
+            },
+            {
+                "key": "Minimap Scale: %d%%",
+                "value": "小地图显示缩放：%d%%"
+            },
+            {
+                "key": "Map Zoom: %d%%",
+                "value": "地图图像放大：%d%%"
+            },
+            {
+                "key": "Map Overlay Scale",
+                "value": "地图叠加层显示缩放"
+            },
+            {
+                "key": "Back",
+                "value": "返回"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.MapOptionsSubmenu",
+            "local": "MgetSerializedNameUpper"
+        },
+        "pairs": [
+            {
+                "key": "Hidden",
+                "value": "隐藏"
+            },
+            {
+                "key": "Always",
+                "value": "始终"
+            },
+            {
+                "key": "Tab",
+                "value": "Tab键"
+            },
+            {
+                "key": "Xaeros",
+                "value": "Xaero的"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.MinimapPositionEditScreen"
+        },
+        "pairs": [
+            {
+                "key": "Edit Minimap Position",
+                "value": "编辑小地图位置"
+            },
+            {
+                "key": "Done",
+                "value": "完成"
+            },
+            {
+                "key": "Reset",
+                "value": "重置"
+            },
+            {
+                "key": "Overlay",
+                "value": "叠加层"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.VaultAccessibilityScreen"
+        },
+        "pairs": [
+            {
+                "key": "Vault Hunters Accessibility Options",
+                "value": "宝藏猎人辅助功能选项"
+            },
+            {
+                "key": "Generic Accessibility",
+                "value": "常规辅助功能"
+            },
+            {
+                "key": "Configure visual and gameplay preferences",
+                "value": "配置视觉与游玩偏好"
+            },
+            {
+                "key": "Damage Particles",
+                "value": "伤害粒子"
+            },
+            {
+                "key": "Healthbar",
+                "value": "生命条"
+            },
+            {
+                "key": "Hunter",
+                "value": "狩猎技能"
+            },
+            {
+                "key": "HUD Settings",
+                "value": "HUD设置"
+            },
+            {
+                "key": "Vault Map",
+                "value": "宝库地图"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.accessibility.VaultGenericOptionsScreen"
+        },
+        "pairs": [
+            {
+                "key": "Generic Options",
+                "value": "常规设置"
+            },
+            {
+                "key": "Vault Potion Effects",
+                "value": "宝库药水效果"
+            },
+            {
+                "key": "Show Rarity Names",
+                "value": "显示稀有度名称"
+            },
+            {
+                "key": "Display item rarity names in tooltips",
+                "value": "在物品信息中显示物品的稀有度名称"
+            },
+            {
+                "key": "Ability Scrolling",
+                "value": "技能滚动切换"
+            },
+            {
+                "key": "Hide Vault Level Bar",
+                "value": "隐藏宝库等级条"
+            },
+            {
+                "key": "Objective Scale: %d%%",
+                "value": "宝库目标显示缩放：%d%%"
+            },
+            {
+                "key": "Show Point Messages",
+                "value": "显示点数信息"
+            },
+            {
+                "key": "Treasure Door Names",
+                "value": "宝藏门名称"
+            },
+            {
+                "key": "Rarity Highlighter",
+                "value": "稀有度高亮"
+            },
+            {
+                "key": "Shifting",
+                "value": "按住Shift"
+            },
+            {
+                "key": "Always on",
+                "value": "始终显示"
+            },
+            {
+                "key": "Use Items Overlay",
+                "value": "使用次数物品叠加层"
+            },
+            {
+                "key": "Keyring Contents",
+                "value": "钥匙串内容"
+            },
+            {
+                "key": "Display the total number of keys in keyring as stack count",
+                "value": "将钥匙串内的钥匙总数显示为堆叠数量"
+            },
+            {
+                "key": "Companion Name",
+                "value": "伙伴名称"
             }
         ]
     },
@@ -1531,6 +1950,9 @@
                 "value": "完成"
             }
         ]
+    },
+    {
+        "_comment": "VaultSoundOptionsScreen MformatSoundName 根据iskallia.vault.init.ModSounds更新"
     },
     {
         "target_class": {
@@ -1633,11 +2055,11 @@
             },
             {
                 "key": "Vault Gem Hit",
-                "value": "宝库宝石：击打"
+                "value": "宝库宝石：击中"
             },
             {
                 "key": "Vault Gem Break",
-                "value": "宝库宝石：损坏"
+                "value": "宝库宝石：破坏"
             },
             {
                 "key": "Robot Hurt",
@@ -1848,16 +2270,16 @@
                 "value": "获得恩惠"
             },
             {
+                "key": "Coin Pile Break",
+                "value": "钱币堆：破坏"
+            },
+            {
                 "key": "Coin Pile Place",
                 "value": "钱币堆：放置"
             },
             {
                 "key": "Coin Single Place",
                 "value": "单堆钱币：放置"
-            },
-            {
-                "key": "Coin Pile Break",
-                "value": "钱币堆：破坏"
             },
             {
                 "key": "Crate Open",
@@ -1929,11 +2351,11 @@
             },
             {
                 "key": "Ability Out Of Mana",
-                "value": "技能无魔力"
+                "value": "技能：无魔力"
             },
             {
                 "key": "Ability On Cooldown",
-                "value": "技能冷却中"
+                "value": "技能：冷却中"
             },
             {
                 "key": "Bonk Charge",
@@ -1964,22 +2386,6 @@
                 "value": "大门：关闭"
             },
             {
-                "key": "Boss Fight 1",
-                "value": "首领战斗1"
-            },
-            {
-                "key": "Boss Fight 2",
-                "value": "首领战斗2"
-            },
-            {
-                "key": "Boss Fight 3",
-                "value": "首领战斗3"
-            },
-            {
-                "key": "Boss Fight 4",
-                "value": "首领战斗4"
-            },
-            {
                 "key": "Artifact Boss Ambient",
                 "value": "文物首领：轻哼"
             },
@@ -2004,16 +2410,32 @@
                 "value": "文物首领：魔法攻击命中"
             },
             {
+                "key": "Spark Expunge",
+                "value": "火花消除"
+            },
+            {
+                "key": "Boss Fight 1",
+                "value": "首领战斗1"
+            },
+            {
+                "key": "Boss Fight 2",
+                "value": "首领战斗2"
+            },
+            {
+                "key": "Boss Fight 3",
+                "value": "首领战斗3"
+            },
+            {
+                "key": "Boss Fight 4",
+                "value": "首领战斗4"
+            },
+            {
                 "key": "Artifact Boss Catalyst Hit",
-                "value": "文物首领：引发剂命中"
+                "value": "文物首领引发剂：命中"
             },
             {
                 "key": "Artifact Boss Catalyst Hit Wrong",
-                "value": "文物首领：引发剂命中错误"
-            },
-            {
-                "key": "Spark Expunge",
-                "value": "火花消除"
+                "value": "文物首领引发剂：命中错误"
             },
             {
                 "key": "Destroy Monolith",
@@ -2065,180 +2487,84 @@
             },
             {
                 "key": "Dungeon Door Open",
-                "value": "地牢门；打开"
+                "value": "地牢门：打开"
             },
             {
                 "key": "Dungeon Barrel Break Normal",
-                "value": "地牢储物桶：普通破坏"
+                "value": "地牢储物桶-普通：破坏"
             },
             {
                 "key": "Dungeon Barrel Break Extra",
-                "value": "地牢储物桶：额外破坏"
+                "value": "地牢储物桶-额外：破坏"
             },
             {
                 "key": "Dungeon Barrel Break Even More",
-                "value": "地牢储物桶：更多破坏"
+                "value": "地牢储物桶-更多：破坏"
+            },
+            {
+                "key": "Dweller Hurt",
+                "value": "居民：受伤"
+            },
+            {
+                "key": "Dweller Death",
+                "value": "居民：死亡"
+            },
+            {
+                "key": "Dweller Step",
+                "value": "居民：脚步声"
+            },
+            {
+                "key": "Fungi Death",
+                "value": "真菌体：死亡"
+            },
+            {
+                "key": "Fungi Hurt",
+                "value": "真菌体：受伤"
+            },
+            {
+                "key": "Levishroom Death",
+                "value": "活化菇：死亡"
+            },
+            {
+                "key": "Levishroom Hurt",
+                "value": "活化菇：受伤"
+            },
+            {
+                "key": "Levishroom Step",
+                "value": "活化菇：脚步声"
+            },
+            {
+                "key": "Stonewarden Death",
+                "value": "石监守者：死亡"
+            },
+            {
+                "key": "Stonewarden Hurt",
+                "value": "石监守者：受伤"
+            },
+            {
+                "key": "Lighting Bolt",
+                "value": "闪电劈击"
+            },
+            {
+                "key": "Life Tap",
+                "value": "生命分流"
             }
         ]
     },
     {
         "target_class": {
-            "name": "iskallia.vault.client.gui.screen.accessibility.MapOptionsSubmenu"
+            "name": "iskallia.vault.util.CooldownGuiOption",
+            "method": "getSerializedNameUpper",
+            "local": "MtoUpperCase"
         },
         "pairs": [
-            {
-                "key": "Map Options",
-                "value": "地图设置"
-            },
-            {
-                "key": "Mini Map",
-                "value": "小地图"
-            },
-            {
-                "key": "Overlay Style",
-                "value": "覆盖层风格"
-            },
-            {
-                "key": "Toggle",
-                "value": "切换"
-            },
-            {
-                "key": "Hold",
-                "value": "按住"
-            },
-            {
-                "key": "Overlay Opacity",
-                "value": "覆盖层不透明度"
-            },
-            {
-                "key": "Minimap Position",
-                "value": "小地图位置"
-            },
-            {
-                "key": "Minimap Scale",
-                "value": "小地图缩放"
-            },
-            {
-                "key": "Map Overlay Scale",
-                "value": "地图覆盖层缩放"
-            },
-            {
-                "key": "Back",
-                "value": "返回" 
-            }
-        ]
-    },
-    {
-        "target_class": {
-            "name": "iskallia.vault.client.gui.screen.accessibility.MapOptionsSubmenu",
-            "local": "MgetSerializedNameUpper"
-        },
-        "pairs": [
-            {
-                "key": "Hidden",
-                "value": "隐藏"
-            },
-            {
-                "key": "Always",
-                "value": "始终"
-            },
-            {
-                "key": "Tab",
-                "value": "Tab键"
-            },
-            {
-                "key": "Xaeros",
-                "value": "Xaero的"
-            }
-        ]
-    },
-    {
-        "target_class": {
-            "name": "iskallia.vault.client.gui.screen.accessibility.MinimapPositionEditScreen"
-        },
-        "pairs": [
-            {
-                "key": "Edit Minimap Position",
-                "value": "编辑小地图位置"
-            },
-            {
-                "key": "Done",
-                "value": "完成"
-            }
-        ]
-    },
-    {
-        "target_class": {
-            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudSettingsScreen"
-        },
-        "pairs": [
-            {
-                "key": "HUD Settings",
-                "value": "HUD设置"
-            },
-            {
-                "key": "Display Mode",
-                "value": "显示模式"
-            },
-            {
-                "key": "KEYBIND",
-                "value": "按键"
-            },
-            {
-                "key": "ALWAYS",
-                "value": "始终"
-            },
-            {
-                "key": "Percentage Display",
-                "value": "百分比显示"
-            },
-            {
-                "key": "Gear Indicator",
-                "value": "装备指示器"
-            },
-            {
-                "key": "Uses Items Indicator",
-                "value": "使用次数物品指示器"
-            },
-            {
-                "key": "Gear Display Mode",
-                "value": "装备显示模式"
-            },
-            {
-                "key": "Uses Display Mode",
-                "value": "使用次数显示模式"
-            },
-            {
-                "key": "Uses Text Position",
-                "value": "使用次数文本位置" 
-            },
-            {
-                "key": "HUD Size",
-                "value": "HUD大小" 
-            },
-            {
-                "key": "Potion Visibility",
-                "value": "药水可见性" 
-            },
             {
                 "key": "ON",
-                "value": "开" 
+                "value": "开"
             },
             {
                 "key": "OFF",
-                "value": "关" 
-            },
-            {
-                "key": "Potion Size",
-                "value": "药水大小" 
-            },
-            {
-                "key": "Edit HUD Positions",
-                "value": "编辑HUD位置" 
-            },
-            {
-                "key": "Done",
-                "value": "完成" 
+                "value": "关"
             }
         ]
     },
@@ -2258,12 +2584,16 @@
                 "name": "iskallia.vault.client.render.IVaultOptions$ScaleMode",
                 "method": "getSerializedName",
                 "local": "MtoLowerCase"
+            },
+            {
+                "name": "iskallia.vault.client.render.IVaultOptions$CompanionNametagMode",
+                "method": "getSerializedNameUpper"
             }
         ],
         "pairs": [
             {
                 "key": "overlay",
-                "value": "覆盖层"
+                "value": "叠加层"
             },
             {
                 "key": "bar",
@@ -2275,86 +2605,27 @@
             },
             {
                 "key": "number",
-                "value": "数字" 
+                "value": "数字"
             },
             {
                 "key": "normal",
-                "value": "普通" 
+                "value": "普通"
             },
             {
                 "key": "small",
-                "value": "小" 
+                "value": "小"
             },
             {
                 "key": "tiny",
-                "value": "极小" 
-            }
-        ]
-    },
-    {
-        "target_class": {
-            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudSettingsScreen",
-            "local": "MgetSerializedName"
-        },
-        "pairs": [
-            {
-                "key": "OFF",
-                "value": "关"
+                "value": "极小"
             },
             {
-                "key": "RIGHT",
-                "value": "右侧"
+                "key": "When looking",
+                "value": "看向时"
             },
             {
-                "key": "LEFT",
-                "value": "左侧"
-            },
-            {
-                "key": "BELOW",
-                "value": "下方"
-            },
-            {
-                "key": "ABOVE",
-                "value": "上方"
-            },
-            {
-                "key": "ONTOP",
-                "value": "默认"
-            },
-            {
-                "key": "VERY LOW",
-                "value": "非常低" 
-            },
-            {
-                "key": "LOW",
-                "value": "低" 
-            },
-            {
-                "key": "ALWAYS",
-                "value": "始终" 
-            }
-        ]
-    },
-    {
-        "target_class": {
-            "name": "iskallia.vault.client.gui.screen.accessibility.InventoryHudEditScreen"
-        },
-        "pairs": [
-            {
-                "key": "Edit HUD Settings",
-                "value": "编辑HUD设置"
-            },
-            {
-                "key": "Done",
-                "value": "完成"
-            },
-            {
-                "key": "Reset",
-                "value": "重置"
-            },
-            {
-                "key": "Effects",
-                "value": "效果"
+                "key": "Never",
+                "value": "不显示"
             }
         ]
     },
@@ -2488,6 +2759,62 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.client.gui.screen.block.PersonalVaultCatalystScreen"
+        },
+        "key": "Personal Vault | Catalysts",
+        "value": "私人宝库丨催化剂"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.block.PersonalVaultCraftingScreen"
+        },
+        "pairs": [
+            {
+                "key": "Personal Vault | Crafting",
+                "value": "私人宝库丨制作"
+            },
+            {
+                "key": "Craft Personal Vault Rock",
+                "value": "制作私人宝库之石"
+            },
+            {
+                "key": "Shared in chat",
+                "value": "已分享到聊天栏"
+            },
+            {
+                "key": "Copied to clipboard",
+                "value": "已复制到剪贴板"
+            },
+            {
+                "key": "Import",
+                "value": "导入"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.block.PersonalVaultScreen"
+        },
+        "pairs": [
+            {
+                "key": "Personal Vault | Builder",
+                "value": "私人宝库丨构筑器"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.block.RoyaleLootCrateScreen"
+        },
+        "pairs": [
+            {
+                "key": "Royale Loot Crate",
+                "value": "皇家战利品板条箱"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.client.gui.screen.block.SkillAltarScreen$Default"
         },
         "pairs": [
@@ -2548,6 +2875,10 @@
             {
                 "key": "Cost for recovering items",
                 "value": "恢复物品的花费"
+            },
+            {
+                "key": "Pay your debt",
+                "value": "支付欠款"
             }
         ]
     },
@@ -2570,7 +2901,7 @@
         "pairs": [
             {
                 "key": "Transmogrification Table",
-                "value": "幻化桌"
+                "value": "幻化台"
             },
             {
                 "key": "Transmogrify",
@@ -2951,7 +3282,7 @@
         "pairs": [
             {
                 "key": "Any Vault",
-                "value": "任何宝库"
+                "value": "任意宝库"
             },
             {
                 "key": "Light the Braziers",
@@ -2966,8 +3297,8 @@
                 "value": "拾荒者"
             },
             {
-                "key": "Hunt The Guardians",
-                "value": "猎杀守卫"
+                "key": "Hunt The Runes",
+                "value": "符文狩猎"
             },
             {
                 "key": "Gather Elixir",
@@ -2976,10 +3307,6 @@
             {
                 "key": "Obelisks",
                 "value": "方尖碑"
-            },
-            {
-                "key": "Hunt the Runes",
-                "value": "符文狩猎"
             }
         ]
     },
@@ -3118,7 +3445,58 @@
             },
             {
                 "key": "Level: ",
-                "value": "等级: "
+                "value": "等级："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.dialog.PrestigePowersDialog"
+        },
+        "pairs": [
+            {
+                "key": "Prestige Point Cost: ",
+                "value": "威名点花费："
+            },
+            {
+                "key": "\nKnowledge Cost: ",
+                "value": "\n知识花费："
+            },
+            {
+                "key": "\nTier: ",
+                "value": "\n等阶："
+            },
+            {
+                "key": "\nRequires that you have spent %s points in the previous tier",
+                "value": "\n需要在上一等阶中已花费%s个点数"
+            },
+            {
+                "key": "\n\nLevel requirement: ",
+                "value": "\n\n等级要求："
+            },
+            {
+                "key": "\n\nNo Level requirements",
+                "value": "\n\n没有等级要求"
+            },
+            {
+                "key": "Learned",
+                "value": "已学习"
+            },
+            {
+                "key": "Learn",
+                "value": "学习"
+            },
+            {
+                "key": "Upgrade",
+                "value": "升级"
+            },
+            {
+                "key": "Not Learned Yet",
+                "value": "还未学习"
+            },
+            {
+                "key": "Claimed",
+                "value": "已领取"
             }
         ]
     },
@@ -3129,7 +3507,7 @@
         "pairs": [
             {
                 "key": "Sharing new researches with:",
-                "value": "正在与以下玩家共享新的研究："
+                "value": "与以下玩家共享新的研究："
             },
             {
                 "key": "Researched",
@@ -3180,9 +3558,16 @@
             },
             {
                 "key": "Level: ",
-                "value": "等级: "
+                "value": "等级："
             }
         ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.player.legacy.tab.split.pan.PrestigePowersPanRegion"
+        },
+        "key": "Unlock Prestige Powers by reaching level 100 and defeating the Herald!",
+        "value": "达到100级并击败先驱者以解锁威名之力！"
     },
     {
         "target_class": {
@@ -3202,7 +3587,7 @@
             },
             {
                 "key": "Keybind: ",
-                "value": "快捷键: "
+                "value": "快捷键："
             },
             {
                 "key": "Requires level: ",
@@ -3211,6 +3596,33 @@
             {
                 "key": "Already using ",
                 "value": "已选择："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.player.legacy.widget.PrestigePowerWidget"
+        },
+        "pairs": [
+            {
+                "key": "Tier: ",
+                "value": "等阶："
+            },
+            {
+                "key": "Requires that you have spent %s points in the previous tier",
+                "value": "需要在上一等阶中花费%s个点数"
+            },
+            {
+                "key": "Requires:",
+                "value": "需要解锁："
+            },
+            {
+                "key": "Cannot be unlocked alongside:",
+                "value": "不能与以下项目同时解锁："
+            },
+            {
+                "key": "Requires level: ",
+                "value": "需要等级："
             }
         ]
     },
@@ -3229,7 +3641,7 @@
             },
             {
                 "key": "Cannot be unlocked alongside:",
-                "value": "不能与下列研究同时解锁: "
+                "value": "不能与以下项目同时解锁："
             }
         ]
     },
@@ -3240,15 +3652,15 @@
         "pairs": [
             {
                 "key": "Requires:",
-                "value": "需要解锁:"
+                "value": "需要解锁："
             },
             {
                 "key": "Cannot be unlocked alongside:",
-                "value": "不能与下列技能同时解锁:"
+                "value": "不能与以下项目同时解锁："
             },
             {
                 "key": "Requires level: ",
-                "value": "需要等级: "
+                "value": "需要等级："
             }
         ]
     },
@@ -3271,8 +3683,16 @@
         "target_class": {
             "name": "iskallia.vault.client.gui.screen.player.AbilitiesElementContainerScreen"
         },
-        "key": "Abilities",
-        "value": "技能"
+        "pairs": [
+            {
+                "key": "Toggle Quick Ability Keybind",
+                "value": "开关技能快捷键快速绑定"
+            },
+            {
+                "key": "Abilities",
+                "value": "技能"
+            }
+        ]
     },
     {
         "target_class": {
@@ -3292,6 +3712,13 @@
                 "value": ""
             }
         ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.player.PrestigePowersElementContainerScreen"
+        },
+        "key": "Prestige Powers",
+        "value": "威名之力"
     },
     {
         "target_class": {
@@ -3367,6 +3794,10 @@
             {
                 "key": "Greed",
                 "value": "贪婪"
+            },
+            {
+                "key": "Damage Increase",
+                "value": "伤害提升"
             },
             {
                 "key": "Total Vaults",
@@ -3613,10 +4044,6 @@
                 "value": "重生"
             },
             {
-                "key": "The Spirit Extractor",
-                "value": "灵魂提取器"
-            },
-            {
                 "key": "Trinkets",
                 "value": "饰品"
             },
@@ -3745,15 +4172,7 @@
                 "value": "获得卡组包"
             },
             {
-                "key": "Obtain a card deck",
-                "value": "获得卡组包"
-            },
-            {
                 "key": "Upgrading Cards",
-                "value": "升级卡牌"
-            },
-            {
-                "key": "Upgrading cards",
                 "value": "升级卡牌"
             },
             {
@@ -3769,8 +4188,40 @@
                 "value": "独特装备"
             },
             {
-                "key": "Pylons & Temporal Shards",
-                "value": "晶塔与时空碎片"
+                "key": "Pylons & Temporal Relics",
+                "value": "晶塔与时空遗物"
+            },
+            {
+                "key": "Animal Pens",
+                "value": "动物棚"
+            },
+            {
+                "key": "Coin Pouch",
+                "value": "钱币袋"
+            },
+            {
+                "key": "Royale Vaults",
+                "value": "皇家宝库"
+            },
+            {
+                "key": "Antiques",
+                "value": "古董"
+            },
+            {
+                "key": "Companions!",
+                "value": "伙伴！"
+            },
+            {
+                "key": "Reaching Max Level",
+                "value": "达到最大等级"
+            },
+            {
+                "key": "The Herald",
+                "value": "先驱者"
+            },
+            {
+                "key": "Prestige Powers",
+                "value": "威名之力"
             }
         ]
     },
@@ -3935,23 +4386,23 @@
             },
             {
                 "key": "SLOW: Crystal recipes scale slower (0.5x)",
-                "value": "SLOW：水晶配方难度缓慢提升（0.5x）"
+                "value": "缓慢：水晶配方难度缓慢提升（0.5x）"
             },
             {
                 "key": "NORMAL: Crystal recipes scale normal (1.0x)",
-                "value": "NORMAL：水晶配方难度普通提升（1.0x）"
+                "value": "普通：水晶配方难度普通提升（1.0x）"
             },
             {
                 "key": "FAST: Crystal recipes scale faster (2.0x)",
-                "value": "FAST：水晶配方难度迅速提升（2.0x）"
+                "value": "迅速：水晶配方难度迅速提升（2.0x）"
             },
             {
                 "key": "EXTREME: Crystal recipes scale extremely fast (5.0x)",
-                "value": "EXTREME：水晶配方难度极速提升（5.0x）"
+                "value": "巨量：水晶配方难度巨量提升（5.0x）"
             },
             {
                 "key": "Join Require Party",
-                "value": "加入需要组队"
+                "value": "加入宝库需要组队"
             },
             {
                 "key": "Players must be in a party to join co-op vaults",
@@ -4006,12 +4457,48 @@
                 "value": "完成"
             },
             {
+                "key": "Next Page",
+                "value": "下一页"
+            },
+            {
+                "key": "Spectator Mode",
+                "value": "旁观宝库模式"
+            },
+            {
+                "key": "Spectate Party Only",
+                "value": "仅小队旁观"
+            },
+            {
+                "key": "Restrict spectating to party members",
+                "value": "限制只能旁观自己的小队成员"
+            },
+            {
+                "key": "Map Sharing",
+                "value": "地图共享"
+            },
+            {
+                "key": "Share discovered rooms with party",
+                "value": "与小队成员共享已发现的房间"
+            },
+            {
+                "key": "Spirit Locker",
+                "value": "灵魂储物核"
+            },
+            {
+                "key": "Allow users to retrieve their spirit and go into debt",
+                "value": "允许玩家救回灵魂并陷入负债状态"
+            },
+            {
+                "key": "Previous Page",
+                "value": "上一页"
+            },
+            {
                 "key": "When dying, items will be kept in the player's spirit",
                 "value": "死亡时，物品将保留在玩家的灵魂中"
             },
             {
-                "key": "When dying, all items will be kept, and no progress will be lost",
-                "value": "死亡时，所有物品都会保留，不会丢失任何游戏进度"
+                "key": "When dying, all items will be kept, and no progress will be lost. Companions lose no hearts.",
+                "value": "死亡时，所有物品都会保留，不会丢失任何游戏进度。伙伴不会失去红心。"
             },
             {
                 "key": "When dying, all items will be voided and no spirit will spawn",
@@ -4040,6 +4527,110 @@
             {
                 "key": "Average XP earned is distributed to all members",
                 "value": "根据小队获得的平均经验值为所有成员分配"
+            },
+            {
+                "key": "Spectator mode disabled",
+                "value": "禁用旁观宝库模式"
+            },
+            {
+                "key": "Spectate specific players",
+                "value": "旁观特定玩家"
+            },
+            {
+                "key": "Free roaming spectator",
+                "value": "自由视角旁观"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.rules.VaultRulesScreen",
+            "local": "MtoUpperCase"
+        },
+        "pairs": [
+            {
+                "key": "NORMAL",
+                "value": "普通"
+            },
+            {
+                "key": "CASUAL",
+                "value": "休闲"
+            },
+            {
+                "key": "HARDCORE",
+                "value": "硬核"
+            },
+            {
+                "key": "SCARCE",
+                "value": "稀少"
+            },
+            {
+                "key": "PLENTY",
+                "value": "丰富"
+            },
+            {
+                "key": "EXTREME",
+                "value": "巨量"
+            },
+            {
+                "key": "POOR",
+                "value": "极少"
+            },
+            {
+                "key": "HALF",
+                "value": "减半"
+            },
+            {
+                "key": "DOUBLE",
+                "value": "双倍"
+            },
+            {
+                "key": "TRIPLE",
+                "value": "三倍"
+            },
+            {
+                "key": "FREE",
+                "value": "免费"
+            },
+            {
+                "key": "GRINDY",
+                "value": "繁琐"
+            },
+            {
+                "key": "SLOW",
+                "value": "缓慢"
+            },
+            {
+                "key": "FAST",
+                "value": "迅速"
+            },
+            {
+                "key": "DISABLED",
+                "value": "禁用"
+            },
+            {
+                "key": "HIGHEST",
+                "value": "最高"
+            },
+            {
+                "key": "LOWEST",
+                "value": "最低"
+            },
+            {
+                "key": "AVERAGE",
+                "value": "平均"
+            },
+            {
+                "key": "OFF",
+                "value": "关"
+            },
+            {
+                "key": "PLAYER",
+                "value": "玩家"
+            },
+            {
+                "key": "FREEROAM",
+                "value": "自由视角"
             }
         ]
     },
@@ -4335,6 +4926,10 @@
             {
                 "key": "Monster Eye",
                 "value": "怪物之眼"
+            },
+            {
+                "key": "Mummy",
+                "value": "木乃伊"
             },
             {
                 "key": "Mummy T0",
@@ -4979,6 +5574,10 @@
                 "value": "使用晶塔"
             },
             {
+                "key": "Number of pylons used in the vault",
+                "value": "宝库中使用的晶塔的总数"
+            },
+            {
                 "key": "Pylons Broken",
                 "value": "破坏晶塔"
             },
@@ -5025,7 +5624,7 @@
             "name": "iskallia.vault.client.gui.screen.summary.element.CrystalStatsContainerElement",
             "method": "<init>",
             "local": "Vobjective",
-            "ordinal": 216
+            "ordinal": 222
         },
         "pairs": [
             {
@@ -5053,6 +5652,10 @@
                 "value": "符文首领"
             },
             {
+                "key": "Ascension",
+                "value": "升华"
+            },
+            {
                 "key": "Architect",
                 "value": "建筑师"
             },
@@ -5063,6 +5666,18 @@
             {
                 "key": "Raid",
                 "value": "袭击"
+            },
+            {
+                "key": "Royale",
+                "value": "皇家"
+            },
+            {
+                "key": "Pvp Race",
+                "value": "PVP竞赛"
+            },
+            {
+                "key": "Greed",
+                "value": "贪婪"
             }
         ]
     },
@@ -5416,6 +6031,10 @@
                 "value": "挖掘之地挑战房间"
             },
             {
+                "key": "Villagefort Room",
+                "value": "村庄要塞房间"
+            },
+            {
                 "key": "Cube",
                 "value": "魔方"
             },
@@ -5450,6 +6069,14 @@
             {
                 "key": "Vendor",
                 "value": "集市"
+            },
+            {
+                "key": "Pixel",
+                "value": "像素"
+            },
+            {
+                "key": "Temple",
+                "value": "神庙"
             },
             {
                 "key": "Cozy",
@@ -5778,7 +6405,7 @@
             },
             {
                 "key": "Favorites",
-                "value": "收藏列表"
+                "value": "收藏"
             },
             {
                 "key": "History",
@@ -5838,6 +6465,36 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.client.gui.screen.vault.GreedContinueScreen"
+        },
+        "pairs": [
+            {
+                "key": "Forfeit Vault",
+                "value": "销退宝库"
+            },
+            {
+                "key": "By forfeiting, you will receive a seal with one tier below the current tier (",
+                "value": "销退后，你可以获得一个比当前等阶低一阶("
+            },
+            {
+                "key": ").\nYou also exit with all your items and rewards!",
+                "value": ")的印记。\n你也会带着你的物品和奖励离开！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.vault.GreedContinueScreen$Continue"
+        },
+        "pairs": [
+            {
+                "key": "Greed and Continue",
+                "value": "贪婪并继续"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.client.gui.screen.void_stone.VoidCrucibleScreen"
         },
         "pairs": [
@@ -5863,6 +6520,21 @@
             {
                 "key": "Blacklist is full!",
                 "value": "黑名单已满！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.void_stone.VoidCrucibleScreen$Crafting$1"
+        },
+        "pairs": [
+            {
+                "key": "Craft Void Stone",
+                "value": "制作虚空石"
+            },
+            {
+                "key": "Click to craft the Void Stone",
+                "value": "点击制作一个虚空石"
             }
         ]
     },
@@ -5916,6 +6588,108 @@
         },
         "key": "Coin Pouch",
         "value": "钱币袋"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.CompanionHomeScreen"
+        },
+        "pairs": [
+            {
+                "key": "Rest time: ",
+                "value": "休息时间："
+            },
+            {
+                "key": " min",
+                "value": "分钟"
+            },
+            {
+                "key": "Vaults: ",
+                "value": "宝库："
+            },
+            {
+                "key": "Age: ",
+                "value": "年龄："
+            },
+            {
+                "key": " days",
+                "value": "天"
+            },
+            {
+                "key": "You cannot take this relic out",
+                "value": "你无法取出此遗物"
+            },
+            {
+                "key": "Removal Cost: ",
+                "value": "移除花费："
+            },
+            {
+                "key": " Vault Gold",
+                "value": "个宝库金币"
+            },
+            {
+                "key": "Shift left click to remove relic",
+                "value": "Shift右击以移除遗物"
+            },
+            {
+                "key": "Companion Experience",
+                "value": "伙伴经验"
+            },
+            {
+                "key": "Experience: ",
+                "value": "经验值："
+            },
+            {
+                "key": "Level: ",
+                "value": "等级："
+            },
+            {
+                "key": " Retired",
+                "value": " 已退休"
+            },
+            {
+                "key": " Ready",
+                "value": " 准备就绪！"
+            },
+            {
+                "key": " Resting ",
+                "value": " 休息中 "
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.CompanionScreen"
+        },
+        "pairs": [
+            {
+                "key": "Companion",
+                "value": "伙伴"
+            },
+            {
+                "key": "Total Cooldown: ",
+                "value": "总冷却时间："
+            },
+            {
+                "key": "Current Cooldown: ",
+                "value": "当前冷却时间："
+            },
+            {
+                "key": "Ready!",
+                "value": "已就绪！"
+            },
+            {
+                "key": "Companion Experience",
+                "value": "伙伴经验"
+            },
+            {
+                "key": "Experience: ",
+                "value": "经验值："
+            },
+            {
+                "key": "Level: ",
+                "value": "等级："
+            }
+        ]
     },
     {
         "target_class": {
@@ -6014,6 +6788,21 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.client.gui.screen.PrestigePowerSelectionScreen"
+        },
+        "pairs": [
+            {
+                "key": "Active",
+                "value": "已激活"
+            },
+            {
+                "key": "Inactive",
+                "value": "未激活"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.client.gui.screen.RenameScreen"
         },
         "key": "Confirm",
@@ -6048,6 +6837,25 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.client.gui.screen.SpectatorSelectionScreen"
+        },
+        "pairs": [
+            {
+                "key": "Spectate Player",
+                "value": "旁观玩家"
+            },
+            {
+                "key": "Vault Spectator List",
+                "value": "宝库旁观列表"
+            },
+            {
+                "key": "Reload",
+                "value": "重载"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.client.gui.screen.SupportersCreditsScreen"
         },
         "pairs": [
@@ -6058,6 +6866,55 @@
             {
                 "key": "Special Thanks to all our supporters!",
                 "value": "非常感谢我们所有的赞助者！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.TommyTradeScreen"
+        },
+        "pairs": [
+            {
+                "key": "Tommy's Deals",
+                "value": "汤米的交易"
+            },
+            {
+                "key": "Select your rewards",
+                "value": "选择你的奖励"
+            },
+            {
+                "key": "Well off you pop then...",
+                "value": "那么去吧，祝你好运……"
+            },
+            {
+                "key": "Selected Trinket",
+                "value": "已选择的饰品"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.TommyTradeScreen$PresetElement"
+        },
+        "pairs": [
+            {
+                "key": "%02d Skill Points Used",
+                "value": "使用%02d点技能点"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.TommyTradeScreen$BarePresetElement"
+        },
+        "pairs": [
+            {
+                "key": "I don't want a loadout, I am going in bare!",
+                "value": "我不想要预设配置，我就要裸装出发！"
+            },
+            {
+                "key": "(Very Difficult!)",
+                "value": "（会非常困难！）"
             }
         ]
     },
@@ -6081,6 +6938,10 @@
             {
                 "key": "Unique Codex",
                 "value": "独特珍品辞典"
+            },
+            {
+                "key": "Unknown Type",
+                "value": "未知类型"
             },
             {
                 "key": "Helmets",
@@ -6191,6 +7052,21 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.client.render.InventoryHudRenderer"
+        },
+        "pairs": [
+            {
+                "key": "BROKEN",
+                "value": "已损坏"
+            },
+            {
+                "key": "Missing Backpack",
+                "value": "未找到背包"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.client.render.TreasureDoorTileEntityRenderer",
             "method": "render",
             "local": "MformatDoorTypeName"
@@ -6248,6 +7124,33 @@
         },
         "key": "Alias \"%s\" -> \"%s\" created.",
         "value": "别名“%s”->“%s”已创建。"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.command.AscensionTitleCommand"
+        },
+        "pairs": [
+            {
+                "key": "Invalid affix type",
+                "value": "无效的词缀类型"
+            },
+            {
+                "key": "Config missing affix map",
+                "value": "配置缺失词缀列表映射"
+            },
+            {
+                "key": "Could not save title config",
+                "value": "无法保存称号配置"
+            },
+            {
+                "key": "Could not save forge config",
+                "value": "无法保存锻炉配置"
+            },
+            {
+                "key": "Added Ascension title ",
+                "value": "添加了升华称号 "
+            }
+        ]
     },
     {
         "target_class": {
@@ -6429,16 +7332,233 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.command.CompanionCommand"
+        },
+        "pairs": [
+            {
+                "key": "Not holding companion!",
+                "value": "未手持伙伴！"
+            },
+            {
+                "key": "Added ",
+                "value": "添加了"
+            },
+            {
+                "key": " XP.",
+                "value": "点经验值。"
+            },
+            {
+                "key": "Set level to ",
+                "value": "将等级设置为"
+            },
+            {
+                "key": "Set hearts to ",
+                "value": "将红心数设置为"
+            },
+            {
+                "key": "Set skin to ",
+                "value": "将皮肤设置为"
+            },
+            {
+                "key": "Cooldown set to ",
+                "value": "冷却设置为"
+            },
+            {
+                "key": " minutes.",
+                "value": "分钟。"
+            },
+            {
+                "key": "Set relic slot ",
+                "value": "将遗物栏位"
+            },
+            {
+                "key": " to ",
+                "value": "设置为"
+            },
+            {
+                "key": "Cleared relics",
+                "value": "已清空遗物"
+            },
+            {
+                "key": "Set XP to ",
+                "value": "将经验设置为"
+            },
+            {
+                "key": "Set max hearts to ",
+                "value": "将最大红心数设置为"
+            },
+            {
+                "key": "s to cooldown",
+                "value": "秒冷却时间"
+            },
+            {
+                "key": "Reduced cooldown by ",
+                "value": "冷却时间减少了"
+            },
+            {
+                "key": "Started cooldown",
+                "value": "已开始冷却"
+            },
+            {
+                "key": "Set temporal modifier to ",
+                "value": "将时空词缀设置为"
+            },
+            {
+                "key": "Set name to ",
+                "value": "将名字设置为"
+            },
+            {
+                "key": "Set owner to ",
+                "value": "将主人设置为"
+            },
+            {
+                "key": "Set type to ",
+                "value": "将类型设置为"
+            },
+            {
+                "key": "Set series to ",
+                "value": "将系列设置为"
+            },
+            {
+                "key": "Invalid series",
+                "value": "无效的系列"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.command.CrystalCommand"
         },
         "pairs": [
             {
-                "key": "Only works on divine paradox crystals",
-                "value": "仅对神圣悖论水晶生效"
+                "key": "Only works on personal crystals",
+                "value": "仅对私人水晶生效"
+            },
+            {
+                "key": "Unknown layout: ",
+                "value": "未知的布局："
             },
             {
                 "key": "Unknown Modifier: ",
                 "value": "未知的宝库词缀："
+            },
+            {
+                "key": "Not holding crystal!",
+                "value": "未手持水晶！"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.command.DebugCommand"
+        },
+        "pairs": [
+            {
+                "key": "This command can only be executed by a player!",
+                "value": "此命令只能由玩家执行！"
+            },
+            {
+                "key": "No guardian entities found within ",
+                "value": "未发现守卫实体-"
+            },
+            {
+                "key": " blocks.",
+                "value": "格范围内。"
+            },
+            {
+                "key": "Found ",
+                "value": "发现了"
+            },
+            {
+                "key": " guardian entities:",
+                "value": "个守卫实体："
+            },
+            {
+                "key": "Unknown",
+                "value": "未知"
+            },
+            {
+                "key": "  - %s (Type: %s) at (%.1f, %.1f, %.1f) - Distance: %.1f blocks - UUID: %s",
+                "value": "  - %s (类型: %s) 位于 (%.1f, %.1f, %.1f) - 距离: %.1f格 - UUID: %s"
+            },
+            {
+                "key": "Invalid loot table ",
+                "value": "无效的战利品表 "
+            },
+            {
+                "key": "[Copy]",
+                "value": "[复制] "
+            },
+            {
+                "key": "Altar Level: ",
+                "value": "祭坛等级："
+            },
+            {
+                "key": "~ Listing events ordered by highest priority ~",
+                "value": "~ 正在按最高优先级列出事件 ~"
+            },
+            {
+                "key": "Priority: ",
+                "value": "优先级："
+            },
+            {
+                "key": " has ",
+                "value": " 拥有 "
+            },
+            {
+                "key": "Validating Workbench files...",
+                "value": "正在验证工作方块文件……"
+            },
+            {
+                "key": "Workbench files are valid",
+                "value": "工作方块文件有效"
+            },
+            {
+                "key": "Missing targets for: ",
+                "value": "缺失的目标："
+            },
+            {
+                "key": " - tier ",
+                "value": " - 等阶"
+            },
+            {
+                "key": "Validating Card files...",
+                "value": "正在验证卡牌文件……"
+            },
+            {
+                "key": "Card files are valid",
+                "value": "卡牌文件有效"
+            },
+            {
+                "key": "Missing modifiers for booster pack: ",
+                "value": "缺失的补充包词缀："
+            },
+            {
+                "key": "Unable to dump file..",
+                "value": "无法转储文件……"
+            },
+            {
+                "key": "Discovered all trinkets",
+                "value": "已解锁所有饰品"
+            },
+            {
+                "key": "Player is not online or server is not available.",
+                "value": "玩家未在线或服务器不可用。"
+            },
+            {
+                "key": "Herald completed for player: ",
+                "value": "已为玩家完成先驱者："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.command.EtchingCommand"
+        },
+        "pairs": [
+            {
+                "key": "No etching found for ID: ",
+                "value": "未找到蚀刻ID："
             }
         ]
     },
@@ -6595,12 +7715,20 @@
         },
         "pairs": [
             {
+                "key": "Unable to find player's IGN: ",
+                "value": "未找到玩家的IGN："
+            },
+            {
                 "key": "Click to open",
                 "value": "点击打开"
             },
             {
                 "key": "Vault",
                 "value": "宝库世界"
+            },
+            {
+                "key": "No snapshots for ",
+                "value": "没有找到快照-"
             }
         ]
     },
@@ -6709,10 +7837,60 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.command.PersonalVaultCommand"
+        },
+        "pairs": [
+            {
+                "key": "Hold an inscription.",
+                "value": "手持一个铭文。"
+            },
+            {
+                "key": "Modifier not found",
+                "value": "未找到词缀"
+            },
+            {
+                "key": "Added modifier to inscription.",
+                "value": "已将词缀添加到铭文。"
+            },
+            {
+                "key": "Vault reset.",
+                "value": "宝库已重置。"
+            },
+            {
+                "key": "Created inscription with",
+                "value": "已创建铭文，拥有"
+            },
+            {
+                "key": " modifiers.",
+                "value": "词缀。"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.command.QuestCommand"
         },
         "key": "Set Force Sky Vault World: ",
         "value": "设置强制空岛宝库世界："
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.command.ReloadConfigsCommand"
+        },
+        "pairs": [
+            {
+                "key": "Gen Configs reloaded!",
+                "value": "生成配置文件已重载！"
+            },
+            {
+                "key": "] Configs reloaded, with errors!",
+                "value": "] 配置文件已重载，发生错误！"
+            },
+            {
+                "key": "] Configs reloaded!",
+                "value": "] 配置文件已重载！"
+            }
+        ]
     },
     {
         "target_class": {
@@ -6721,87 +7899,95 @@
         "pairs": [
             {
                 "key": "Reset all stats for player ",
-                "value": "重置所有统计数据-玩家"
+                "value": "已重置所有统计数据-玩家"
             },
             {
                 "key": "Reset level, abilities, talents and expertises for player ",
-                "value": "重置等级、技能、天赋和专精-玩家"
+                "value": "已重置等级、技能、天赋和专精-玩家"
             },
             {
                 "key": "Reset skill points for player ",
-                "value": "重置技能点-玩家"
+                "value": "已重置技能点-玩家"
+            },
+            {
+                "key": "Reset prestige points for player ",
+                "value": "已重置威名点-玩家"
+            },
+            {
+                "key": "Reset prestige powers for player ",
+                "value": "已重置威名之力-玩家"
             },
             {
                 "key": "Reset level for player ",
-                "value": "重置等级-玩家"
+                "value": "已重置等级-玩家"
             },
             {
                 "key": "Reset abilities and talents for player ",
-                "value": "重置技能和天赋-玩家"
+                "value": "已重置技能和天赋-玩家"
             },
             {
                 "key": "Reset expertises for player ",
-                "value": "重置专精-玩家"
+                "value": "已重置专精-玩家"
             },
             {
                 "key": "Reset research and knowledge for player ",
-                "value": "重置研究和知识点-玩家"
+                "value": "已重置研究和知识点-玩家"
             },
             {
                 "key": "Reset knowledge for player ",
-                "value": "重置知识点-玩家"
+                "value": "已重置知识点-玩家"
             },
             {
                 "key": "Reset altar recipe for player ",
-                "value": "重置祭坛配方-玩家"
+                "value": "已重置祭坛配方-玩家"
             },
             {
                 "key": "Reset altar level for player ",
-                "value": "重置祭坛等级-玩家"
+                "value": "已重置祭坛等级-玩家"
             },
             {
                 "key": "Reset black market for player ",
-                "value": "重置黑市-玩家"
+                "value": "已重置黑市-玩家"
             },
             {
                 "key": "Reset vault history for player ",
-                "value": "重置宝库历史记录-玩家"
+                "value": "已重置宝库历史记录-玩家"
             },
             {
                 "key": "Reset god reputations for player ",
-                "value": "重置宝库之神的声望-玩家"
+                "value": "已重置宝库之神的声望-玩家"
             },
             {
                 "key": "Reset paradox progress for player ",
-                "value": "重置神圣悖论进度-玩家"
+                "value": "已重置神圣悖论进度-玩家"
             },
             {
                 "key": "Reset trinkets for player ",
-                "value": "重置饰品-玩家"
+                "value": "已重置饰品-玩家"
             },
             {
                 "key": "Reset bounties for player ",
-                "value": "重置悬赏-玩家"
+                "value": "已重置悬赏-玩家"
             },
             {
                 "key": "Reset workbench modifiers for player ",
-                "value": "重置词缀工作台发现的词缀-玩家"
+                "value": "已重置词缀工作台发现的词缀-玩家"
             },
             {
                 "key": "Reset armor models for player ",
-                "value": "重置装备模型-玩家"
+                "value": "已重置装备模型-玩家"
             },
             {
                 "key": "Reset alchemy effects for player ",
-                "value": "重置炼药桌发现的效果-玩家"
+                "value": "已重置炼药桌发现的效果-玩家"
             },
             {
                 "key": "Reset ascension titles for player ",
-                "value": "重置升华称号-玩家"
+                "value": "已重置升华称号-玩家"
             },
             {
                 "key": "Reset proficiencies for player ",
-                "value": "重置锻炉熟练度-玩家"
+                "value": "已重置锻炉熟练度-玩家"
             },
             {
                 "key": "Error resetting expertises. Check server logs.",
@@ -6942,7 +8128,7 @@
             },
             {
                 "key": "Failed to restore ",
-                "value": "失败：未能恢复"
+                "value": "操作失败：未能恢复"
             },
             {
                 "key": "Unable to find player's IGN: ",
@@ -6950,15 +8136,82 @@
             },
             {
                 "key": "No snapshot exists for ",
-                "value": "玩家没有存在的快照："
+                "value": "没有存在的快照-玩家"
             },
             {
                 "key": "Timestamps",
-                "value": "时间戳："
+                "value": "时间戳"
             },
             {
                 "key": "Click to get restore command for this timestamp",
                 "value": "点击获取该时间戳的恢复命令"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.command.SpectateCommand"
+        },
+        "pairs": [
+            {
+                "key": "Spectator mode is disabled",
+                "value": "旁观宝库模式已禁用"
+            },
+            {
+                "key": "Player not found",
+                "value": "未找到玩家"
+            },
+            {
+                "key": "Target player is not in a vault",
+                "value": "目标玩家当前不在宝库中"
+            },
+            {
+                "key": "Target player is not an active runner in a vault",
+                "value": "目标玩家不是宝库中的探索玩家"
+            },
+            {
+                "key": "You are already in spectator mode. Use '/spectate stop' first or '/spectate next' to cycle targets",
+                "value": "你已处于旁观宝库模式。请先使用“/spectate stop”，或使用“/spectate next”来切换目标"
+            },
+            {
+                "key": "You are now spectating ",
+                "value": "你现在正在旁观"
+            },
+            {
+                "key": "Failed to start spectating",
+                "value": "操作失败，无法开始旁观"
+            },
+            {
+                "key": "Only players can use this command",
+                "value": "只有玩家可以使用该命令"
+            },
+            {
+                "key": "You are not in spectator mode",
+                "value": "你没有处于旁观宝库模式"
+            },
+            {
+                "key": "Stopped spectating",
+                "value": "已停止旁观"
+            },
+            {
+                "key": "You are not spectating through the vault system",
+                "value": "你没有通过宝库系统旁观玩家"
+            },
+            {
+                "key": "Unknown Player",
+                "value": "未知的玩家"
+            },
+            {
+                "key": "Now spectating ",
+                "value": "现在正在旁观"
+            },
+            {
+                "key": "Switched spectator target",
+                "value": "已切换旁观目标"
+            },
+            {
+                "key": "Cannot cycle spectator target (no other active runners found)",
+                "value": "无法切换旁观目标（未找到其他探索玩家）"
             }
         ]
     },
@@ -7009,21 +8262,53 @@
             {
                 "key": " removed ",
                 "value": "已移除"
+            },
+            {
+                "key": "Not in a vault.",
+                "value": "不在宝库中。"
+            },
+            {
+                "key": "You are not in this vault.",
+                "value": "你不在此宝库中。"
+            },
+            {
+                "key": "Discovered full vault map for all players.",
+                "value": "已为所有玩家解锁完整的宝库地图。"
+            },
+            {
+                "key": "Offered companion egg to ",
+                "value": "已将伙伴之蛋提供给"
             }
         ]
     },
     {
         "target_class": {
-            "name": "iskallia.vault.config.AlchemyTableConfig$UnlockCategory"
+            "name": "iskallia.vault.command.VaultLevelCommand"
         },
         "pairs": [
             {
-                "key": "Granted at Start",
-                "value": "初始获得"
+                "key": "Player Stats: %s%s",
+                "value": "玩家数据：%s%s"
             },
             {
-                "key": "Requires discovery in the Alchemy Archives",
-                "value": "需要先在炼药档案台中发现对应词缀"
+                "key": "Vault Level: %s%s",
+                "value": "宝库等级：%s%s"
+            },
+            {
+                "key": "Vault Exp: %s%s",
+                "value": "宝库经验：%s%s"
+            },
+            {
+                "key": "Skill Points: %s%s%s used / %s%s%s available",
+                "value": "技能点：%s%s%s 已使用 / %s%s%s 可用"
+            },
+            {
+                "key": "Knowledge Points: %s%s%s used / %s%s%s available",
+                "value": "知识点：%s%s%s 已使用 / %s%s%s 可用"
+            },
+            {
+                "key": "Expertise Points: %s%s%s used / %s%s%s available",
+                "value": "专精点：%s%s%s 已使用 / %s%s%s 可用"
             }
         ]
     },
@@ -7039,6 +8324,21 @@
             {
                 "key": "Requires discovery in the Modifier Archives",
                 "value": "需要先在词缀档案台中发现对应词缀"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.config.AlchemyTableConfig$UnlockCategory"
+        },
+        "pairs": [
+            {
+                "key": "Granted at Start",
+                "value": "初始获得"
+            },
+            {
+                "key": "Requires discovery in the Alchemy Archives",
+                "value": "需要先在炼药档案台中发现对应词缀"
             }
         ]
     },
@@ -7067,6 +8367,96 @@
         },
         "key": "Unknown",
         "value": "未知"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.config.VaultAltarConfig"
+        },
+        "pairs": [
+            {
+                "key": "You need to be level 65.",
+                "value": "你需要达到65级。"
+            },
+            {
+                "key": "This item does not belong to you.",
+                "value": "此物品不属于你。"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.container.CompanionContainer$Provider"
+        },
+        "key": "Companion",
+        "value": "伙伴"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.container.CompanionHomeContainer$RelicSlot"
+        },
+        "pairs": [
+            {
+                "key": "Locked Relic Slot",
+                "value": "锁定的遗物栏位"
+            },
+            {
+                "key": "Unlocks at level ",
+                "value": "解锁条件：等级达到"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.container.CompanionHomeContainer$TrailSlot"
+        },
+        "pairs": [
+            {
+                "key": "Locked Particle Slot",
+                "value": "锁定的粒子栏位"
+            },
+            {
+                "key": "Unlocks at level ",
+                "value": "解锁条件：等级达到"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.container.CompanionHomeContainer$Provider"
+        },
+        "key": "Companion Home",
+        "value": "伙伴之家"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.container.PersonalVaultContainer$DataSlot"
+        },
+        "pairs": [
+            {
+                "key": "Click to unlock",
+                "value": "点击解锁"
+            },
+            {
+                "key": "Locked Slot",
+                "value": "锁定的栏位"
+            },
+            {
+                "key": "x Prestige Point",
+                "value": "x 威名点"
+            },
+            {
+                "key": "s",
+                "value": ""
+            },
+            {
+                "key": "x Vault Gold",
+                "value": "x 宝库金币"
+            },
+            {
+                "key": "Unlock an adjacent slot first",
+                "value": "请先解锁相邻的栏位"
+            }
+        ]
     },
     {
         "target_class": {
@@ -7395,6 +8785,13 @@
         },
         "key": "Modifiers:",
         "value": "词缀："
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.core.vault.companion.CompanionEggHunt"
+        },
+        "key": "You have attracted the attention of a Companion Egg, go find it!",
+        "value": "你吸引到了一个伙伴之蛋的注意，去找它吧！"
     },
     {
         "target_classes": [
@@ -7749,6 +9146,10 @@
         },
         "pairs": [
             {
+                "key": "Find a Lodestone!",
+                "value": "找到天然磁石！"
+            },
+            {
                 "key": "Assist your Allies!",
                 "value": "协助你的队友！"
             },
@@ -7772,6 +9173,25 @@
         },
         "key": "Find the Exit!",
         "value": "找到出口！"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.core.vault.objective.GreedPillarObjective"
+        },
+        "pairs": [
+            {
+                "key": "Greed Pillars",
+                "value": "贪婪之柱"
+            },
+            {
+                "key": " are now open!",
+                "value": "已开启！"
+            },
+            {
+                "key": "Find Greed Pillar!",
+                "value": "找到贪婪之柱！"
+            }
+        ]
     },
     {
         "target_class": {
@@ -7804,7 +9224,7 @@
             "name": "iskallia.vault.core.vault.objective.LodestoneObjective"
         },
         "key": "Consume a Lodestone!",
-        "value": "找到一个天然磁石并交互！"
+        "value": "使用一个天然磁石！"
     },
     {
         "target_class": {
@@ -7849,6 +9269,30 @@
         },
         "pairs": [
             {
+                "key": " completed a ",
+                "value": "完成了\""
+            },
+            {
+                "key": "Vault!",
+                "value": "宝库世界！"
+            },
+            {
+                "key": " survived a ",
+                "value": "成功存活并离开了\""
+            },
+            {
+                "key": " was defeated in a ",
+                "value": "被击败并离开了\""
+            },
+            {
+                "key": "Vault.",
+                "value": "宝库世界。"
+            },
+            {
+                "key": "This vault has already started.",
+                "value": "此宝库已开始。"
+            },
+            {
                 "key": "This vault has reached max capacity.",
                 "value": "此宝库已达到其最大容纳量。"
             },
@@ -7865,24 +9309,8 @@
                 "value": "此宝库仅限被允许的小队成员进入。"
             },
             {
-                "key": "Vault!",
-                "value": "宝库世界！"
-            },
-            {
-                "key": "Vault.",
-                "value": "宝库世界。"
-            },
-            {
-                "key": " was defeated in a ",
-                "value": "被击败并离开了\""
-            },
-            {
-                "key": " completed a ",
-                "value": "完成了\""
-            },
-            {
-                "key": " survived a ",
-                "value": "成功存活并离开了\""
+                "key": "Unknown",
+                "value": "未知"
             },
             {
                 "key": " entered an ",
@@ -7893,16 +9321,16 @@
                 "value": "进入了一个\""
             },
             {
+                "key": "PvP ",
+                "value": "PVP-"
+            },
+            {
                 "key": "Vault",
                 "value": "宝库世界"
             },
             {
                 "key": "Theme: ",
                 "value": "主题："
-            },
-            {
-                "key": "Unknown",
-                "value": "未知"
             },
             {
                 "key": ", ",
@@ -7921,6 +9349,26 @@
         },
         "pairs": [
             {
+                "key": "Hunt the Runes",
+                "value": "符文猎杀"
+            },
+            {
+                "key": "Brazier",
+                "value": "火盆"
+            },
+            {
+                "key": "Rune Boss",
+                "value": "符文首领"
+            },
+            {
+                "key": "Royale",
+                "value": "皇家"
+            },
+            {
+                "key": "PvP",
+                "value": "PVP"
+            },
+            {
                 "key": "Elixir",
                 "value": "圣水"
             },
@@ -7935,18 +9383,6 @@
             {
                 "key": "Cake",
                 "value": "蛋糕"
-            },
-            {
-                "key": "Hunt the Guardians",
-                "value": "猎杀守卫"
-            },
-            {
-                "key": "Brazier",
-                "value": "火盆"
-            },
-            {
-                "key": "Rune Boss",
-                "value": "符文首领"
             },
             {
                 "key": "Architect",
@@ -8188,6 +9624,14 @@
             {
                 "key": "Laboratory",
                 "value": "实验室"
+            },
+            {
+                "key": "Pixel",
+                "value": "像素"
+            },
+            {
+                "key": "Temple",
+                "value": "神庙"
             }
         ]
     },
@@ -8233,10 +9677,58 @@
     },
     {
         "target_class": {
-            "name": "iskallia.vault.entity.entity.EtchingVendorEntity$1"
+            "name": "iskallia.vault.entity.entity.pet.PetHelper$PetType"
         },
-        "key": "Etching Trader",
-        "value": "蚀刻商人"
+        "pairs": [
+            {
+                "key": "Venus",
+                "value": "维纳斯"
+            },
+            {
+                "key": "Unicorn",
+                "value": "独角兽"
+            },
+            {
+                "key": "Elephant",
+                "value": "象"
+            },
+            {
+                "key": "Moose",
+                "value": "驼鹿"
+            },
+            {
+                "key": "Wrinkles",
+                "value": "哈巴狗"
+            },
+            {
+                "key": "Raccoon",
+                "value": "浣熊"
+            },
+            {
+                "key": "Shiba",
+                "value": "柴犬"
+            },
+            {
+                "key": "Baby Creeper",
+                "value": "苦力怕宝宝"
+            },
+            {
+                "key": "Black Cat",
+                "value": "黑猫"
+            },
+            {
+                "key": "White Cat",
+                "value": "白猫"
+            },
+            {
+                "key": "Panda",
+                "value": "熊猫"
+            },
+            {
+                "key": "Papillon",
+                "value": "帕皮隆"
+            }
+        ]
     },
     {
         "target_classes": [
@@ -8262,8 +9754,15 @@
         "target_class": {
             "name": "iskallia.vault.entity.entity.FighterEntity"
         },
-        "key": "Fighter",
-        "value": "战士"
+        "key": "Vault Dweller",
+        "value": "宝库居民"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.entity.entity.TommyEntity"
+        },
+        "key": "Royale Draft",
+        "value": "皇家草案"
     },
     {
         "target_class": {
@@ -8383,6 +9882,10 @@
                 "value": "灵魂价值: "
             },
             {
+                "key": "Found in:",
+                "value": "发现于:"
+            },
+            {
                 "key": "Hold",
                 "value": "按住"
             },
@@ -8393,10 +9896,6 @@
             {
                 "key": " for Vault Loot Info",
                 "value": "查看宝库战利品信息"
-            },
-            {
-                "key": "Found in:",
-                "value": "发现于:"
             }
         ]
     },
@@ -8431,6 +9930,18 @@
             {
                 "key": "Cannot jar up tamed animals",
                 "value": "已驯服的动物不能装入罐中"
+            },
+            {
+                "key": "> I'm resting and cannot help you",
+                "value": "> 我在休息呢，没办法帮你"
+            },
+            {
+                "key": "> My relics don’t seem to work in this vault",
+                "value": "> 看起来我的遗物在这个宝库不起作用"
+            },
+            {
+                "key": "> I am too weak to modify this vault",
+                "value": "> 我有点虚弱，没办法修饰这个宝库"
             }
         ]
     },
@@ -8445,6 +9956,29 @@
         ],
         "key": " (Vault)",
         "value": " (宝库)"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.event.SpectatorClientEvents"
+        },
+        "pairs": [
+            {
+                "key": "Hold ",
+                "value": "按住"
+            },
+            {
+                "key": " for 5 seconds to exit spectator",
+                "value": "5秒以退出旁观状态"
+            },
+            {
+                "key": "Exiting spectator mode in ",
+                "value": "将在"
+            },
+            {
+                "key": " seconds",
+                "value": "秒后退出旁观模式"
+            }
+        ]
     },
     {
         "target_class": {
@@ -8547,12 +10081,8 @@
         },
         "pairs": [
             {
-                "key": " more ",
-                "value": " 增加"
-            },
-            {
-                "key": " less ",
-                "value": " 降低"
+                "key": "Lowers the ",
+                "value": "降低"
             },
             {
                 "key": "Cooldown",
@@ -8561,6 +10091,18 @@
             {
                 "key": " of ",
                 "value": "-"
+            },
+            {
+                "key": " by ",
+                "value": "-"
+            },
+            {
+                "key": " more Cooldown of ",
+                "value": "增加冷却时间-"
+            },
+            {
+                "key": " less Cooldown of ",
+                "value": "减少冷却时间-"
             }
         ]
     },
@@ -8670,7 +10212,7 @@
         "pairs": [
             {
                 "key": "Leaves a trail of ",
-                "value": "移动轨迹-"
+                "value": "移动尾迹-"
             },
             {
                 "key": " for ",
@@ -8709,6 +10251,28 @@
             {
                 "key": " looted",
                 "value": "触发"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.gear.attribute.custom.DoubleFloatAttribute$Generator"
+        },
+        "key": "Double Float Attribute: ",
+        "value": "双浮点属性："
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.gear.attribute.custom.DoubleFloatAttribute$Reader"
+        },
+        "pairs": [
+            {
+                "key": " Empty Double Float Attribute Reader",
+                "value": " 空的双浮点属性读取器"
+            },
+            {
+                "key": "Empty Double Float Attribute Reader: ",
+                "value": "空的双浮点属性读取器："
             }
         ]
     },
@@ -9157,6 +10721,14 @@
             {
                 "key": "Epic+",
                 "value": "史诗+"
+            },
+            {
+                "key": "Royale",
+                "value": "皇家"
+            },
+            {
+                "key": "Royale_Poor",
+                "value": "皇家_劣质"
             }
         ]
     },
@@ -9278,12 +10850,12 @@
                 "value": "魔法精灵"
             },
             {
-                "key": "Mailbox",
-                "value": "邮箱"
+                "key": "Breastplate",
+                "value": "胸之甲"
             },
             {
-                "key": "Dark Mailbox",
-                "value": "深色邮箱"
+                "key": "Dark Breastplate",
+                "value": "深色胸之甲"
             },
             {
                 "key": "Minotaur",
@@ -9291,7 +10863,7 @@
             },
             {
                 "key": "Dark Minotaur",
-                "value": "暗黑米诺陶"
+                "value": "深色米诺陶"
             },
             {
                 "key": "Monk",
@@ -9387,7 +10959,7 @@
             },
             {
                 "key": "Atomatic",
-                "value": "原子"
+                "value": "原子化"
             },
             {
                 "key": "Botania",
@@ -9439,7 +11011,7 @@
             },
             {
                 "key": "Dark Meka",
-                "value": "暗色Meka"
+                "value": "深色Meka"
             },
             {
                 "key": "Powah",
@@ -9771,7 +11343,7 @@
             },
             {
                 "key": "Companion Party Leader",
-                "value": "伙伴组的领袖"
+                "value": "伙伴小队领袖"
             },
             {
                 "key": "Developer Pyjamas",
@@ -9784,6 +11356,26 @@
             {
                 "key": "Princess",
                 "value": "公主"
+            },
+            {
+                "key": "Flowery Madness (i85 Special)",
+                "value": "华丽疯狂（i85特别版）"
+            },
+            {
+                "key": "Five In A Row Guard",
+                "value": "五子棋护卫"
+            },
+            {
+                "key": "Royale Crown (i85 Special)",
+                "value": "皇家王冠（i85特别版）"
+            },
+            {
+                "key": "Pink Developer Pyjamas",
+                "value": "开发者的粉红睡衣"
+            },
+            {
+                "key": "AnnMari",
+                "value": "安玛莉"
             }
         ]
     },
@@ -9793,36 +11385,36 @@
         },
         "pairs": [
             {
-                "key": "Sword_0",
-                "value": "幻化剑0型"
+                "key": "Neon Blade",
+                "value": "霓虹之刃"
             },
             {
-                "key": "Sword_1",
-                "value": "幻化剑1型"
+                "key": "Crimson Blade",
+                "value": "绯红之刃"
             },
             {
-                "key": "Sword_2",
-                "value": "幻化剑2型"
+                "key": "Azure Blade",
+                "value": "蔚蓝之刃"
             },
             {
-                "key": "Sword_3",
-                "value": "幻化剑3型"
+                "key": "Amber Blade",
+                "value": "琥珀之刃"
             },
             {
-                "key": "Sword_4",
-                "value": "幻化剑4型"
+                "key": "Violet Blade",
+                "value": "紫罗兰之刃"
             },
             {
-                "key": "Sword_5",
-                "value": "幻化剑5型"
+                "key": "Glimmer Blade",
+                "value": "微光之刃"
             },
             {
-                "key": "Sword_6",
-                "value": "幻化剑6型"
+                "key": "Indigo Blade",
+                "value": "靛蓝之刃"
             },
             {
-                "key": "Sword_7",
-                "value": "幻化剑7型"
+                "key": "Seventh Blade",
+                "value": "第七之刃"
             },
             {
                 "key": "Alliumblade",
@@ -9989,12 +11581,12 @@
                 "value": "金纹剑"
             },
             {
-                "key": "ScrapSword_1",
-                "value": "破烂剑1型"
+                "key": "Scrap Sword #1",
+                "value": "破烂之剑#1"
             },
             {
-                "key": "ScrapSword_2",
-                "value": "破烂剑2型"
+                "key": "Scrap Sword #2",
+                "value": "破烂之剑#2"
             },
             {
                 "key": "Dweller Sword",
@@ -10019,6 +11611,10 @@
             {
                 "key": "Sculk Sword",
                 "value": "幽匿之剑"
+            },
+            {
+                "key": "Spring Sword (i85 Special)",
+                "value": "春之剑（i85特别版）"
             }
         ]
     },
@@ -10028,60 +11624,60 @@
         },
         "pairs": [
             {
-                "key": "Axe_0",
-                "value": "幻化斧0型"
+                "key": "Glacian Broadaxe",
+                "value": "冰川阔斧"
             },
             {
-                "key": "Axe_1",
-                "value": "幻化斧1型"
+                "key": "Jade Broadaxe",
+                "value": "翡翠阔斧"
             },
             {
-                "key": "Axe_2",
-                "value": "幻化斧2型"
+                "key": "Dusk Broadaxe",
+                "value": "黄昏阔斧"
             },
             {
-                "key": "Axe_3",
-                "value": "幻化斧3型"
+                "key": "Ashen Broadaxe",
+                "value": "灰白阔斧"
             },
             {
-                "key": "Axe_4",
-                "value": "幻化斧4型"
+                "key": "Violet Broadaxe",
+                "value": "紫罗兰阔斧"
             },
             {
-                "key": "Axe_5",
-                "value": "幻化斧5型"
+                "key": "Crimson Broadaxe",
+                "value": "绯红阔斧"
             },
             {
-                "key": "Axe_6",
-                "value": "幻化斧6型"
+                "key": "Blightwood Broadaxe",
+                "value": "枯木阔斧"
             },
             {
-                "key": "Axe_7",
-                "value": "幻化斧7型"
+                "key": "Roseate Broadaxe",
+                "value": "玫瑰阔斧"
             },
             {
-                "key": "Axe_8",
-                "value": "幻化斧8型"
+                "key": "Magenta Broadaxe",
+                "value": "品红阔斧"
             },
             {
-                "key": "Axe_9",
-                "value": "幻化斧9型"
+                "key": "Neon Doubleaxe",
+                "value": "霓虹双斧"
             },
             {
-                "key": "Axe_10",
-                "value": "幻化斧10型"
+                "key": "Roseate Doubleaxe",
+                "value": "玫瑰双斧"
             },
             {
-                "key": "Axe_11",
-                "value": "幻化斧11型"
+                "key": "Blue Doubleaxe",
+                "value": "蓝色双斧"
             },
             {
-                "key": "Axe_12",
-                "value": "幻化斧12型"
+                "key": "Dusk Doubleaxe",
+                "value": "黄昏双斧"
             },
             {
-                "key": "Axe_13",
-                "value": "幻化斧13型"
+                "key": "Lime Doubleaxe",
+                "value": "黄绿双斧"
             },
             {
                 "key": "Janitor's Broomstick",
@@ -10162,6 +11758,10 @@
             {
                 "key": "Developer Ducky",
                 "value": "开发者的鸭鸭"
+            },
+            {
+                "key": "Spring Axe (i85 Special)",
+                "value": "春之斧（i85特别版）"
             }
         ]
     },
@@ -10404,6 +12004,10 @@
             {
                 "key": "Golden Kappa (i85 Special)",
                 "value": "黄金卡帕（i85特别版）"
+            },
+            {
+                "key": "Spring Shield (i85 Special)",
+                "value": "春之盾（i85特别版）"
             }
         ]
     },
@@ -10678,6 +12282,26 @@
             {
                 "key": "Rubber Duck Magnet",
                 "value": "橡皮鸭磁铁"
+            },
+            {
+                "key": "Spring Magnet (i85 Special)",
+                "value": "春之磁铁（i85特别版）"
+            },
+            {
+                "key": "Idona Magnet",
+                "value": "伊多纳磁铁"
+            },
+            {
+                "key": "Wendarr Magnet",
+                "value": "文达尔磁铁"
+            },
+            {
+                "key": "Velara Magnet",
+                "value": "维拉拉磁铁"
+            },
+            {
+                "key": "Tenos Magnet",
+                "value": "特诺斯磁铁"
             }
         ]
     },
@@ -10848,6 +12472,10 @@
             {
                 "key": "Orb of Chaos",
                 "value": "混沌宝珠"
+            },
+            {
+                "key": "Spring Wand (i85 Special)",
+                "value": "春之法杖（i85特别版）"
             }
         ]
     },
@@ -10935,6 +12563,34 @@
             {
                 "key": "I ♥ Java Mug",
                 "value": "“I ♥ Java”马克杯"
+            },
+            {
+                "key": "Tiny Treasure Train (i85 Special)",
+                "value": "小型宝藏列车（i85特别版）"
+            },
+            {
+                "key": "Spring Focus (i85 Special)",
+                "value": "春之透镜（i85特别版）"
+            },
+            {
+                "key": "Wizard's Tome",
+                "value": "巫师之书"
+            },
+            {
+                "key": "Afterlife Tome",
+                "value": "来生之书"
+            },
+            {
+                "key": "Glowing Tome",
+                "value": "发光之书"
+            },
+            {
+                "key": "Dusty Tome",
+                "value": "尘封之书"
+            },
+            {
+                "key": "Scroll",
+                "value": "卷轴"
             }
         ]
     },
@@ -11105,6 +12761,10 @@
             {
                 "key": "Kinetic Damage Immunity",
                 "value": "动能伤害免疫"
+            },
+            {
+                "key": "Fall Damage Immunity",
+                "value": "摔落伤害免疫"
             },
             {
                 "key": "Crit Hit Resistance",
@@ -11375,6 +13035,14 @@
                 "value": "双倍伤害概率"
             },
             {
+                "key": "+Revives you instantly, and heals you fully if you die inside a vault. This effect can occur <yellow>",
+                "value": "+在宝库中死亡时立即复活并恢复全部生命值。此效果每次宝库可以触发"
+            },
+            {
+                "key": "<reset> times per vault.",
+                "value": "<reset>次。"
+            },
+            {
                 "key": "Fruit Efficiency",
                 "value": "水果效率"
             }
@@ -11509,6 +13177,48 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.integration.jei.materialbox.MaterialBoxJEICategory"
+        },
+        "key": "Material Box",
+        "value": "材料盒"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.integration.jei.IntegrationJEI"
+        },
+        "pairs": [
+            {
+                "key": "Mystery Egg",
+                "value": "神秘蛋"
+            },
+            {
+                "key": "Hostile Mystery Egg",
+                "value": "敌对神秘蛋"
+            },
+            {
+                "key": "Mod Box",
+                "value": "模组盲盒"
+            },
+            {
+                "key": "Black Market",
+                "value": "黑市"
+            },
+            {
+                "key": "Omega Black Market",
+                "value": "终焉级黑市"
+            },
+            {
+                "key": "Bounty Rewards",
+                "value": "悬赏奖励"
+            },
+            {
+                "key": "Vault Altar",
+                "value": "宝库祭坛"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.integration.jei.VaultRecyclerRecipeJEI"
         },
         "pairs": [
@@ -11602,6 +13312,13 @@
         },
         "key": "Gives you +1 temporary heart",
         "value": "提供+1颗临时心"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.consumable.HeartyAppleItem"
+        },
+        "key": "Heals ",
+        "value": "治疗"
     },
     {
         "target_classes": [
@@ -11748,6 +13465,29 @@
         ]
     },
     {
+        "target_class": {
+            "name": "iskallia.vault.item.crystal.layout.PersonalCrystalLayout"
+        },
+        "pairs": [
+            {
+                "key": "Layout: ",
+                "value": "布局："
+            },
+            {
+                "key": "Personal Preset",
+                "value": "私人预设"
+            },
+            {
+                "key": "Room",
+                "value": "房间"
+            },
+            {
+                "key": "Rooms",
+                "value": "房间"
+            }
+        ]
+    },
+    {
         "target_classes": [
             {
                 "name": "iskallia.vault.item.crystal.modifiers.DefaultCrystalModifiers",
@@ -11786,6 +13526,25 @@
             {
                 "key": "Other Modifiers",
                 "value": "其他词缀"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.crystal.modifiers.PersonalCrystalModifiers"
+        },
+        "pairs": [
+            {
+                "key": "Positive",
+                "value": "正面"
+            },
+            {
+                "key": "Negative",
+                "value": "负面"
+            },
+            {
+                "key": "Other",
+                "value": "其他"
             }
         ]
     },
@@ -11836,7 +13595,7 @@
                 "value": "目标："
             },
             {
-                "key": "Hunt the Guardians",
+                "key": "Hunt the Runes",
                 "value": "符文狩猎"
             }
         ]
@@ -11891,6 +13650,26 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.item.crystal.objective.GreedCrystalObjective",
+            "method": "addText"
+        },
+        "pairs": [
+            {
+                "key": "Objective: ",
+                "value": "目标："
+            },
+            {
+                "key": "Greed",
+                "value": "贪婪"
+            },
+            {
+                "key": "  Greed Tier: ",
+                "value": "  贪婪等阶："
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.item.crystal.objective.HeraldCrystalObjective",
             "method": "addText"
         },
@@ -11936,6 +13715,84 @@
             {
                 "key": "Objective: ???",
                 "value": "目标：???"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.crystal.objective.PersonalCrystalObjective",
+            "method": "addText"
+        },
+        "pairs": [
+            {
+                "key": "Objective: ",
+                "value": "目标："
+            },
+            {
+                "key": "Personal Vault",
+                "value": "私人宝库"
+            },
+            {
+                "key": "Ready",
+                "value": "就绪"
+            },
+            {
+                "key": "Cooldown: ",
+                "value": "冷却："
+            },
+            {
+                "key": "Unknown",
+                "value": "未知"
+            },
+            {
+                "key": "Player: ",
+                "value": "玩家："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.crystal.objective.PvPCrystalObjective",
+            "method": "addText"
+        },
+        "pairs": [
+            {
+                "key": "Objective: ",
+                "value": "目标："
+            },
+            {
+                "key": "PvP",
+                "value": "PVP"
+            }
+        ]
+    },
+    {
+        "target_classes": [
+            {
+                "name": "iskallia.vault.item.crystal.objective.RoyaleCrystalObjective",
+                "method": "addText"
+            },
+            {
+                "name": "iskallia.vault.item.crystal.objective.RoyalePvPCrystalObjective",
+                "method": "addText"
+            }
+        ],
+        "pairs": [
+            {
+                "key": "Objective: ",
+                "value": "目标："
+            },
+            {
+                "key": "Vault Royale",
+                "value": "皇家宝库"
+            },
+            {
+                "key": "Loot Multiplier: ",
+                "value": "战利品倍数："
+            },
+            {
+                "key": "PvP Enabled",
+                "value": "PVP已启用"
             }
         ]
     },
@@ -12224,8 +14081,24 @@
         "target_class": {
             "name": "iskallia.vault.item.gear.EtchingItem"
         },
-        "key": "Etching: ",
-        "value": "蚀刻: "
+        "pairs": [
+            {
+                "key": "Unidentified Etching",
+                "value": "未鉴定的蚀刻"
+            },
+            {
+                "key": "Etching: ",
+                "value": "蚀刻："
+            },
+            {
+                "key": "Unknown Etching",
+                "value": "未知的蚀刻"
+            },
+            {
+                "key": "No Etching Applied",
+                "value": "未添加蚀刻"
+            }
+        ]
     },
     {
         "target_class": {
@@ -12233,28 +14106,28 @@
         },
         "pairs": [
             {
-                "key": "Unidentified Temporal Shard",
-                "value": "未鉴定的时空碎片"
+                "key": "Unidentified Temporal Relic",
+                "value": "未鉴定的时空遗物"
             },
             {
-                "key": "Temporal Shard: ",
-                "value": "时空碎片: "
+                "key": "Temporal Relic: ",
+                "value": "时空遗物："
             },
             {
                 "key": "Modifier: ",
-                "value": "宝库词缀: "
+                "value": "宝库词缀："
             },
             {
                 "key": "Description: ",
-                "value": "描述: "
+                "value": "描述："
             },
             {
                 "key": "Duration: ",
-                "value": "持续时间: "
+                "value": "持续时间："
             },
             {
-                "key": "Consume this shard to gain its effects",
-                "value": "使用此碎片以获得其效果"
+                "key": "Consume this relic to gain its effects",
+                "value": "使用此遗物以获得其效果"
             },
             {
                 "key": " added ",
@@ -12341,10 +14214,16 @@
         ]
     },
     {
-        "target_class": {
-            "name": "iskallia.vault.item.gear.VaultCharmItem",
-            "local": "MgetName"
-        },
+        "target_classes": [
+            {
+                "name": "iskallia.vault.item.gear.VaultCharmItem",
+                "local": "MgetName"
+            },
+            {
+                "name": "iskallia.vault.block.render.ShopPedestalBlockTileRenderer",
+                "local": "MgetName"
+            }
+        ],
         "pairs": [
             {
                 "key": "Tenos",
@@ -12401,6 +14280,14 @@
             {
                 "key": "Epic+",
                 "value": "史诗+"
+            },
+            {
+                "key": "Royale",
+                "value": "皇家"
+            },
+            {
+                "key": "Royale_Poor",
+                "value": "皇家_劣质"
             }
         ]
     },
@@ -12558,6 +14445,33 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.item.AbilityScrollItem"
+        },
+        "pairs": [
+            {
+                "key": "Cannot level this ability up further.",
+                "value": "无法继续提升此技能。"
+            },
+            {
+                "key": "Ability: ",
+                "value": "技能："
+            },
+            {
+                "key": "Consume to learn or level up this ability.",
+                "value": "使用以学习或升级此技能。"
+            },
+            {
+                "key": "You can learn this ability!",
+                "value": "你可以学习此技能！"
+            },
+            {
+                "key": "You cannot learn this ability.",
+                "value": "你无法学习此技能。"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.item.AnimalJarItem",
             "method": "m_7373_"
         },
@@ -12631,6 +14545,21 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.item.BoostModificationStoneItem"
+        },
+        "pairs": [
+            {
+                "key": "Applying this to a Royale crystal in an anvil will multiply the rewards by ",
+                "value": "将此物品在铁砧中添加到皇家水晶上，奖励数量会x"
+            },
+            {
+                "key": "You can increase this multiplier by completing that Royale vault and picking the crown again",
+                "value": "你可以完成皇家宝库并再次获得王冠来提升此倍数"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.item.BossRuneItem"
         },
         "pairs": [
@@ -12649,6 +14578,267 @@
             {
                 "key": " to the completion crate",
                 "value": "-添加到完成板条箱"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionEggItem"
+        },
+        "pairs": [
+            {
+                "key": "Hatch Time: ",
+                "value": "孵化时间："
+            },
+            {
+                "key": "Series: ",
+                "value": "系列："
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionItem"
+        },
+        "pairs": [
+            {
+                "key": "'s Companion",
+                "value": "的伙伴"
+            },
+            {
+                "key": "Companion",
+                "value": "伙伴"
+            },
+            {
+                "key": "Cooldown: ",
+                "value": "冷却时间："
+            },
+            {
+                "key": "Ready!",
+                "value": "就绪！"
+            },
+            {
+                "key": "Level: ",
+                "value": "等级："
+            },
+            {
+                "key": "Health: ",
+                "value": "生命值："
+            },
+            {
+                "key": "Retired",
+                "value": "已退休"
+            },
+            {
+                "key": "Unknown",
+                "value": "未知"
+            },
+            {
+                "key": "Relic Slot",
+                "value": "遗物栏位"
+            },
+            {
+                "key": "Particle Slot",
+                "value": "粒子栏位"
+            },
+            {
+                "key": "Heart",
+                "value": "红心"
+            },
+            {
+                "key": " and ",
+                "value": "和"
+            },
+            {
+                "key": "I have levelled up! I gained an extra ",
+                "value": "我升级了！我获得了一个新的"
+            },
+            {
+                "key": "'s Companion added ",
+                "value": "的伙伴添加了"
+            },
+            {
+                "key": " for ",
+                "value": "，持续"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionItemClient"
+        },
+        "pairs": [
+            {
+                "key": "Series: ",
+                "value": "系列："
+            },
+            {
+                "key": "Skin: ",
+                "value": "皮肤："
+            },
+            {
+                "key": "Temporal Modifier",
+                "value": "时空词缀"
+            },
+            {
+                "key": "Relics",
+                "value": "遗物"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionItemClient",
+            "local": "MgetPetType"
+        },
+        "pairs": [
+            {
+                "key": "Eternal",
+                "value": "永生者"
+            },
+            {
+                "key": "Minion",
+                "value": "仆从"
+            },
+            {
+                "key": "Antlion",
+                "value": "蚁狮"
+            },
+            {
+                "key": "Giant",
+                "value": "巨人"
+            },
+            {
+                "key": "venus",
+                "value": "维纳斯"
+            },
+            {
+                "key": "unicorn",
+                "value": "独角兽"
+            },
+            {
+                "key": "elephant",
+                "value": "象"
+            },
+            {
+                "key": "moose",
+                "value": "驼鹿"
+            },
+            {
+                "key": "pug",
+                "value": "哈巴狗"
+            },
+            {
+                "key": "raccoon",
+                "value": "浣熊"
+            },
+            {
+                "key": "shiba",
+                "value": "柴犬"
+            },
+            {
+                "key": "baby_creeper",
+                "value": "苦力怕宝宝"
+            },
+            {
+                "key": "black_cat",
+                "value": "黑猫"
+            },
+            {
+                "key": "white_cat",
+                "value": "白猫"
+            },
+            {
+                "key": "panda",
+                "value": "熊猫"
+            },
+            {
+                "key": "papillon",
+                "value": "帕皮隆"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionParticleTrailItem"
+        },
+        "pairs": [
+            {
+                "key": " Particle Trail",
+                "value": "粒子尾迹"
+            },
+            {
+                "key": "Skin: ",
+                "value": "皮肤："
+            },
+            {
+                "key": "Temporal Modifier",
+                "value": "时空词缀"
+            },
+            {
+                "key": "Relics",
+                "value": "遗物"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionParticleTrailItem$TrailType"
+        },
+        "pairs": [
+            {
+                "key": "Dust",
+                "value": "尘土"
+            },
+            {
+                "key": "Star",
+                "value": "星星"
+            },
+            {
+                "key": "Vault",
+                "value": "宝库"
+            },
+            {
+                "key": "Heart",
+                "value": "红心"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionRelicItem"
+        },
+        "pairs": [
+            {
+                "key": "Companion Relic",
+                "value": "伙伴遗物"
+            },
+            {
+                "key": "Star",
+                "value": "星星"
+            },
+            {
+                "key": "Vault",
+                "value": "宝库"
+            },
+            {
+                "key": "Heart",
+                "value": "红心"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionSeries"
+        },
+        "pairs": [
+            {
+                "key": "Legend",
+                "value": "传奇"
+            },
+            {
+                "key": "Pet",
+                "value": "宠物"
             }
         ]
     },
@@ -12680,8 +14870,12 @@
         },
         "pairs": [
             {
-                "key": "Use in a Crystal Workbench to modify/upgrade a Vault Crystal",
-                "value": "在水晶工作台中使用以修饰/升级宝库水晶"
+                "key": "Super ",
+                "value": "超级"
+            },
+            {
+                "key": "Used to modify your Personal Vault",
+                "value": "使用以修饰你的私人宝库"
             },
             {
                 "key": "Size: ",
@@ -12692,6 +14886,13 @@
                 "value": "大小：???"
             }
         ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.InscriptionItem"
+        },
+        "key": "Super ",
+        "value": "超级"
     },
     {
         "target_class": {
@@ -12757,6 +14958,13 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.item.ItemVaultCrystalSeal"
+        },
+        "key": "Greed Tier: ",
+        "value": "贪婪等阶："
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.item.ItemVaultFruit"
         },
         "pairs": [
@@ -12810,6 +15018,13 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.item.JewelPouchItem"
+        },
+        "key": "Level: ",
+        "value": "等级："
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.item.KnowledgeBrewItem"
         },
         "pairs": [
@@ -12829,12 +15044,27 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.item.MaterialBoxItem"
+        },
+        "key": "Right-click to open and receive materials",
+        "value": "右击打开并获取材料"
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.item.MentorsBrewItem"
         },
         "pairs": [
             {
+                "key": "You cannot use Mentors Brew at level 100",
+                "value": "你无法在100级之后使用导师精酿"
+            },
+            {
                 "key": "Owner: ",
                 "value": "所有者："
+            },
+            {
+                "key": "Mentor Brews cannot be used past level 100",
+                "value": "导师精酿无法在100级之后使用"
             },
             {
                 "key": " level",
@@ -12857,13 +15087,6 @@
                 "value": "无法使用它获得更多经验值"
             }
         ]
-    },
-    {
-        "target_class": {
-            "name": "iskallia.vault.item.JewelPouchItem"
-        },
-        "key": "Level: ",
-        "value": "等级："
     },
     {
         "target_class": {
@@ -12917,6 +15140,29 @@
         },
         "key": "Rokkit Launcha requires Fireworks as ammo.",
         "value": "火箭发射器需要火箭之箭作为弹药。"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.TalentScrollItem"
+        },
+        "pairs": [
+            {
+                "key": "Talent: ",
+                "value": "天赋："
+            },
+            {
+                "key": "Consume to learn or level up this talent.",
+                "value": "使用以学习或升级此天赋。"
+            },
+            {
+                "key": "You can learn this talent!",
+                "value": "你可以学习此天赋！"
+            },
+            {
+                "key": "You cannot learn this talent.",
+                "value": "你无法学习此天赋。"
+            }
+        ]
     },
     {
         "target_class": {
@@ -13010,6 +15256,25 @@
             {
                 "key": "Tier 4",
                 "value": "4阶"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.VaultModifierItem"
+        },
+        "pairs": [
+            {
+                "key": " added ",
+                "value": "添加了"
+            },
+            {
+                "key": "Modifier: ",
+                "value": "宝库词缀："
+            },
+            {
+                "key": "Consume to add this modifier to your vault.",
+                "value": "使用以将此宝库词缀添加到宝库中。"
             }
         ]
     },
@@ -13148,6 +15413,21 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.network.message.ServerboundPersonalVaultTabMessage"
+        },
+        "pairs": [
+            {
+                "key": "Personal Vault | Crafter",
+                "value": "私人宝库丨制作器"
+            },
+            {
+                "key": "Personal Vault | Catalysts",
+                "value": "私人宝库丨催化剂"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.network.message.ServerboundPickaxeOffsetKeyMessage"
         },
         "key": "Offset: x",
@@ -13155,7 +15435,22 @@
     },
     {
         "target_class": {
-            "name": "iskallia.vault.network.message.VaultPlayerHistoricDataMessage"
+            "name": "iskallia.vault.network.message.ServerboundUseCompanionTemporalMessage"
+        },
+        "pairs": [
+            {
+                "key": "Companion",
+                "value": "伙伴"
+            },
+            {
+                "key": "> I am too weak to modify this vault",
+                "value": "> 我有点虚弱，没办法修饰这个宝库"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.network.message.VaultPlayerHistoricDataMessage$S2C"
         },
         "key": "Historic Data",
         "value": "历史数据"
@@ -13194,6 +15489,49 @@
         },
         "key": "Collect the item(s). When clicking 'Complete', the items must be in your inventory and are not consumed.",
         "value": "收集物品。点击“完成”时，物品必须在物品栏中，且没有被使用。"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.quest.type.CompleteVaultQuest"
+        },
+        "pairs": [
+            {
+                "key": "Complete a ",
+                "value": "完成一个"
+            },
+            {
+                "key": " Vault",
+                "value": "宝库"
+            }
+        ]
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.quest.type.CompleteVaultQuest",
+            "local": "MconvertToTitleCase"
+        },
+        "pairs": [
+            {
+                "key": "Elixir",
+                "value": "圣水"
+            },
+            {
+                "key": "Monolith",
+                "value": "火盆"
+            },
+            {
+                "key": "Scavenger",
+                "value": "拾荒者"
+            },
+            {
+                "key": "Cake",
+                "value": "蛋糕"
+            },
+            {
+                "key": "Rune Boss",
+                "value": "符文首领"
+            }
+        ]
     },
     {
         "target_class": {
@@ -13246,6 +15584,13 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.quest.type.SpendPrestigePointQuest"
+        },
+        "key": "Spend Prestige Points",
+        "value": "花费威名点"
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.quest.type.SurviveQuest"
         },
         "key": "Survive a Vault",
@@ -13293,10 +15638,6 @@
             {
                 "key": "\n Min Level: ",
                 "value": "\n 最小等级："
-            },
-            {
-                "key": "\n Min Level: ",
-                "value": "\n 距离："
             },
             {
                 "key": "\n Distance: ",
@@ -13348,7 +15689,7 @@
             },
             {
                 "key": "\n Mana / Damage: ",
-                "value": "\n 魔力消耗/点伤害："
+                "value": "\n 每点伤害消耗魔力值："
             },
             {
                 "key": "\n Knockback: ",
@@ -13460,7 +15801,15 @@
             },
             {
                 "key": "\n Stun Chance: ",
-                "value": "\n 眩晕概率："
+                "value": "\n 击晕概率："
+            },
+            {
+                "key": "\n Stun Duration: ",
+                "value": "\n 击晕持续时间："
+            },
+            {
+                "key": "\n Stun Amplifier: ",
+                "value": "\n 击晕倍率："
             },
             {
                 "key": "\n Quill count: ",
@@ -13517,6 +15866,22 @@
             {
                 "key": "\n Barrier Points: ",
                 "value": "\n 屏障吸收量："
+            },
+            {
+                "key": "\n Orb Count: ",
+                "value": "\n 球体数量："
+            },
+            {
+                "key": "\n Percentage of Max Health: ",
+                "value": "\n 最大生命值百分比："
+            },
+            {
+                "key": "\n Damage Per Hitpoint: ",
+                "value": "\n 每点生命值造成伤害："
+            },
+            {
+                "key": "\n Chain Range: ",
+                "value": "\n 连锁范围："
             }
         ]
     },
@@ -13638,9 +16003,14 @@
         "value": "成就已完成！"
     },
     {
-        "target_class": {
-            "name": "iskallia.vault.task.BingoTask"
-        },
+        "target_classes": [
+            {
+                "name": "iskallia.vault.task.BingoTask"
+            },
+            {
+                "name": "iskallia.vault.task.GreedTask"
+            }
+        ],
         "key": "Completed ",
         "value": "已完成"
     },
@@ -13866,6 +16236,52 @@
     },
     {
         "target_class": {
+            "name": "iskallia.vault.world.data.PlayerBlackMarketData$BlackMarket$1"
+        },
+        "key": "Black Market",
+        "value": "黑市"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.world.data.PlayerCompanionData$CompanionData"
+        },
+        "pairs": [
+            {
+                "key": "Relic Slot",
+                "value": "遗物栏位"
+            },
+            {
+                "key": "Particle Slot",
+                "value": "粒子栏位"
+            },
+            {
+                "key": "Heart",
+                "value": "红心"
+            },
+            {
+                "key": " and ",
+                "value": "和"
+            },
+            {
+                "key": "Companion",
+                "value": "伙伴"
+            },
+            {
+                "key": "I have levelled up! I gained an extra ",
+                "value": "我升级了！我获得了一个新的"
+            },
+            {
+                "key": "'s Companion added ",
+                "value": "的伙伴添加了"
+            },
+            {
+                "key": " for ",
+                "value": "，持续"
+            }
+        ]
+    },
+    {
+        "target_class": {
             "name": "iskallia.vault.world.data.PlayerReputationData"
         },
         "pairs": [
@@ -13889,6 +16305,21 @@
         },
         "key": " researched ",
         "value": "研究了"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.world.data.PlayerSpiritRecoveryData"
+        },
+        "pairs": [
+            {
+                "key": " has joined the vault with a debt of ",
+                "value": "进入了宝库，但仍拥有"
+            },
+            {
+                "key": ". You can no longer gain XP from this vault.",
+                "value": "的负债。你将无法从此宝库获取经验值。"
+            }
+        ]
     },
     {
         "target_class": {

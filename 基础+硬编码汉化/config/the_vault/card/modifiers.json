@@ -1457,11 +1457,11 @@
     "amp_healing_effectiveness": {
       "type": "gear",
       "name": {
-        "text": "\u767e\u5206\u6bd4\u6cbb\u7597\u6548\u7387\u5361"
+        "text": "\u8fdb\u9636\u6cbb\u7597\u6548\u7387\u5361"
       },
       "model": "the_vault:card/icon/healing_efficiency#inventory",
       "groups": [
-        "Scaling",
+        "Evolution",
         "Utility"
       ],
       "attribute": "the_vault:healing_effectiveness",
@@ -2420,9 +2420,9 @@
     "dash": {
       "type": "gear",
       "name": {
-        "text": "\u6298\u8dc3\u5361"
+        "text": "\u51b2\u523a\u5361"
       },
-      "model": "the_vault:card/icon/dash_warp#inventory",
+      "model": "the_vault:card/icon/dash#inventory",
       "groups": [
         "Arcane",
         "Utility"
@@ -2460,9 +2460,9 @@
     "dash_warp": {
       "type": "gear",
       "name": {
-        "text": "\u51b2\u523a\u5361"
+        "text": "\u6298\u8dc3\u5361"
       },
-      "model": "the_vault:card/icon/dash#inventory",
+      "model": "the_vault:card/icon/dash_warp#inventory",
       "groups": [
         "Arcane",
         "Utility"
@@ -2777,6 +2777,7 @@
       ],
       "maxTier": 1
     },
+
     "taunt": {
       "type": "gear",
       "name": {
@@ -3257,6 +3258,268 @@
       ],
       "maxTier": 1
     },
+    "shell": {
+      "type": "gear",
+      "name": {
+        "text": "\u7532\u58f3\u5361"
+      },
+      "model": "the_vault:card/icon/shell#inventory",
+      "groups": [
+        "Arcane",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Shell_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "shell_porcupine": {
+      "type": "gear",
+      "name": {
+        "text": "\u7bad\u732a\u5361"
+      },
+      "model": "the_vault:card/icon/shell_porcupine#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Shell_Porcupine",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "shell_quill": {
+      "type": "gear",
+      "name": {
+        "text": "\u7fce\u523a\u5361"
+      },
+      "model": "the_vault:card/icon/shell_quill#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Shell_Quill",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
+    "life_tap": {
+      "type": "gear",
+      "name": {
+        "text": "\u751f\u547d\u5206\u6d41\u5361"
+      },
+      "model": "the_vault:card/icon/life_tap#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Implode_Life_Tap",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "arcane": {
+      "type": "gear",
+      "name": {
+        "text": "\u5965\u672f\u5361"
+      },
+      "model": "the_vault:card/icon/arcane#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Arcane_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "arcane_rail": {
+      "type": "gear",
+      "name": {
+        "text": "\u5965\u672f\u8f68\u9053\u5361"
+      },
+      "model": "the_vault:card/icon/arcane_rail#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Arcane_Rail",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "earthquake": {
+      "type": "gear",
+      "name": {
+        "text": "\u5730\u9707\u5361"
+      },
+      "model": "the_vault:card/icon/earthquake#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Earthquake_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "landmine": {
+      "type": "gear",
+      "name": {
+        "text": "\u5730\u96f7\u5361"
+      },
+      "model": "the_vault:card/icon/landmine#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Earthquake_Landmine",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "chain_lightning": {
+      "type": "gear",
+      "name": {
+        "text": "\u95ea\u7535\u5288\u51fb\u5361"
+      },
+      "model": "the_vault:card/icon/chain_lightning#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Chain_Lightning_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "ball_lightning": {
+      "type": "gear",
+      "name": {
+        "text": "\u7403\u72b6\u95ea\u7535\u5361"
+      },
+      "model": "the_vault:card/icon/ball_lightning#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Chain_Lightning_Orbs",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "chaos_cube": {
+      "type": "gear",
+      "name": {
+        "text": "\u6df7\u6c8c\u7acb\u65b9\u5361"
+      },
+      "model": "the_vault:card/icon/chaos_cube#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Grenade_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "toxic_grenade": {
+      "type": "gear",
+      "name": {
+        "text": "\u5267\u6bd2\u74f6\u5361"
+      },
+      "model": "the_vault:card/icon/toxic_grenade#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Toxic_Grenade",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "mana_barrier": {
+      "type": "gear",
+      "name": {
+        "text": "\u9b54\u529b\u5c4f\u969c\u5361"
+      },
+      "model": "the_vault:card/icon/mana_barrier#inventory",
+      "groups": [
+        "Arcane",
+        "Defensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Mana_Barrier",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
 
     "temporal_charm": {
       "type": "gear",
@@ -4222,7 +4485,7 @@
       "highlightColor": "0x00FF00",
       "maxTier": 1
     },
-    
+
     "resource_bronze": {
       "type": "task_loot",
       "name": {
@@ -5803,6 +6066,58 @@
       {
         "value": "ice_blast",
         "weight": 1.0
+      },
+      {
+        "value": "shell",
+        "weight": 1.0
+      },
+      {
+        "value": "shell_porcupine",
+        "weight": 1.0
+      },
+      {
+        "value": "shell_quill",
+        "weight": 1.0
+      },
+      {
+        "value": "life_tap",
+        "weight": 1.0
+      },
+      {
+        "value": "arcane",
+        "weight": 1.0
+      },
+      {
+        "value": "arcane_rail",
+        "weight": 1.0
+      },
+      {
+        "value": "earthquake",
+        "weight": 1.0
+      },
+      {
+        "value": "landmine",
+        "weight": 1.0
+      },
+      {
+        "value": "chain_lightning",
+        "weight": 1.0
+      },
+      {
+        "value": "ball_lightning",
+        "weight": 1.0
+      },
+      {
+        "value": "chaos_cube",
+        "weight": 1.0
+      },
+      {
+        "value": "toxic_grenade",
+      "weight": 1.0
+      },
+      {
+        "value": "mana_barrier",
+      "weight": 1.0
       }
     ],
     "temporal": [

@@ -433,11 +433,11 @@
         "display": {
           "TAB_LIST": {
             "text": "\u6765\u81ea\u8fdc\u53e4\u7684",
-            "color": "#AAAAAA"
+            "color": "#FF0000"
           },
           "CHAT": {
             "text": "\u6765\u81ea\u8fdc\u53e4\u7684",
-            "color": "#AAAAAA"
+            "color": "#FF0000"
           }
         },
         "cost": 1

@@ -4,6 +4,34 @@
     "skills": [
       {
         "type": "tiered",
+        "id": "Companion_Loyalty",
+        "name": "\u5fe0\u8bda\u4f19\u4f34",
+        "tiers": [
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.1,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 50
+          },
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.2,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 50
+          },
+          {
+            "type": "companion_cooldown",
+            "cooldownReduction": 0.3,
+            "learnPointCost": 1,
+            "regretPointCost": 0,
+            "unlockLevel": 50
+          }
+        ]
+      },
+      {
+        "type": "tiered",
         "id": "Lucky_Altar",
         "name": "\u5e78\u8fd0\u796d\u575b",
         "tiers": [
@@ -150,7 +178,7 @@
       {
         "type": "tiered",
         "id": "Unbreakable",
-        "name": "\u8010\u4e45\u63d0\u5347",
+        "name": "\u4e0d\u53ef\u7834\u574f",
         "tiers": [
           {
             "type": "gear_attribute",
@@ -281,7 +309,7 @@
       {
         "type": "tiered",
         "id": "Infuser",
-        "name": "\u704c\u6ce8\u5e08\uff08\u5df2\u5f03\u7528\uff09",
+        "name": "\u704c\u6ce8\u5e08",
         "tiers": [
           {
             "type": "infuser",
@@ -427,7 +455,7 @@
       {
         "type": "tiered",
         "id": "Fortuitous_Finesse",
-        "name": "\u5de7\u593a\u5929\u5de5",
+        "name": "\u7cbe\u5de7\u6280\u827a",
         "tiers": [
           {
             "type": "fortuitous_finesse",

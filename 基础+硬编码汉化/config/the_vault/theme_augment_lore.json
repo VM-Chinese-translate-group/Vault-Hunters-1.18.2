@@ -48,6 +48,19 @@
                 { "text": "\u2694 \ud83c\udff9", "color": "gray" },
                 { "text": "\n", "color": "gray" },
 
+                { "text": " \u5b9d\u5e93\u5e7d\u9b42 ", "color": "white" },
+                { "text": "\ud83d\udde1", "color": "$orange" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 3", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265d", "color": "$speed" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694", "color": "gray" },
+                { "text": "\n", "color": "gray" },
+
                 { "text": "\u5766\u514b\u602a\u7269", "color": "gray" },
                 { "text": " | ", "color": "$darkgray" },
                 { "text": "\u2591\u2591", "color": "gray" },
@@ -293,7 +306,7 @@
                 { "text": "\u2694 \ud83c\udff9 \u2744", "color": "gray" },
                 { "text": "\n", "color": "gray" },
 
-                { "text": " \u72fc ", "color": "white" },
+                { "text": " \u96ea\u72fc ", "color": "white" },
                 { "text": "\ud83d\udde1", "color": "$orange" },
                 { "text": " 2", "color": "white" },
                 { "text": " | ", "color": "gray" },
@@ -678,16 +691,16 @@
                 { "text": "\n", "color": "gray" },
 
                 { "text": " \u6df1\u6697\u7075 ", "color": "white" },
-                { "text": "\uD83D\uDDE1", "color": "$orange" },
+                { "text": "\ud83d\udde1", "color": "$orange" },
                 { "text": " 3", "color": "white" },
                 { "text": " | ", "color": "gray" },
                 { "text": "\u2764", "color": "red" },
                 { "text": " 2", "color": "white" },
                 { "text": " | ", "color": "gray" },
-                { "text": "\u265D", "color": "$speed" },
+                { "text": "\u265d", "color": "$speed" },
                 { "text": " 2", "color": "white" },
                 { "text": " | ", "color": "gray" },
-                { "text": "\u2694 \uD83C\uDFF9", "color": "gray" },
+                { "text": "\u2694 \ud83c\udff9", "color": "gray" },
                 { "text": "\n", "color": "gray" },
 
                 { "text": "\u5766\u514b\u602a\u7269", "color": "gray" },
@@ -892,6 +905,89 @@
             ]
             }
         ]
+        },
+        "RawVault": {
+        "displayName": "\u539f\u59cb\u5b9d\u5e93",
+        "colour": 13948116,
+        "description": [
+            {
+            "description": [
+                { "text": "\u989d\u5916\u7279\u5f81\uff1a", "color": "gray" },
+                { "text": "\u5b9d\u5e93\u796d\u575b\u6750\u6599", "color": "white" },
+                { "text": "\u548c", "color": "white" },
+                { "text": "\n\u5f02\u8272\u94c1\u6d1e\u7a74", "color": "$name" },
+                { "text": "\u751f\u6210\n", "color": "white" },
+
+                { "text": "\u96c6\u7fa4\u602a\u7269", "color": "gray" },
+                { "text": " | ", "color": "$darkgray" },
+                { "text": "\u2591", "color": "gray" },
+                { "text": "\u2591\u2591\u2591\n", "color": "$darkgray" },
+                { "text": " \u6df1\u8150\u77ff\u5de5 ", "color": "white" },
+                { "text": "\ud83d\udde1", "color": "$orange" },
+                { "text": " 1", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 3", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265d", "color": "$speed" },
+                { "text": " 1", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694", "color": "gray" },
+                { "text": "\n", "color": "gray" },
+
+                { "text": "\u523a\u5ba2\u602a\u7269", "color": "gray" },
+                { "text": " | ", "color": "$darkgray" },
+                { "text": "\u2591\u2591\u2591", "color": "gray" },
+                { "text": "\u2591\n", "color": "$darkgray" },
+                { "text": " \u77ff\u7f1a\u7075 ", "color": "white" },
+                { "text": "\ud83d\udde1", "color": "$orange" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265d", "color": "$speed" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694 \ud83c\udff9", "color": "gray" },
+                { "text": "\n", "color": "gray" },
+
+                { "text": " \u5b9d\u5e93\u5e7d\u9b42 ", "color": "white" },
+                { "text": "\ud83d\udde1", "color": "$orange" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 3", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265d", "color": "$speed" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694", "color": "gray" },
+                { "text": "\n", "color": "gray" },
+
+                { "text": "\u5766\u514b\u602a\u7269", "color": "gray" },
+                { "text": " | ", "color": "$darkgray" },
+                { "text": "\u2591\u2591", "color": "gray" },
+                { "text": "\u2591\u2591\n", "color": "$darkgray" },
+                { "text": " \u8150\u55dd\u8005 ", "color": "white" },
+                { "text": "\ud83d\udde1", "color": "$orange" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 4", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265d", "color": "$speed" },
+                { "text": " 1", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694 \u271a", "color": "gray" },
+
+                { "text": "\n\u5b9d\u5e93\u5c45\u6c11", "color": "gray" },
+                { "text": " | ", "color": "$darkgray" },
+                { "text": "\u2591\u2591", "color": "gray" },
+                { "text": "\u2591\u2591", "color": "$darkgray" }
+            ]
+            }
+        ]
         }
     },
     "augments": {
@@ -953,6 +1049,24 @@
             "the_vault:classic_vault_sandy_cave",
             "the_vault:classic_vault_mesa",
             "the_vault:classic_vault_deep_mesa"
+        ],
+        "RawVault":[
+            "the_vault:raw_vault_cave",
+            "the_vault:raw_vault_cave_lvl10",
+            "the_vault:raw_vault_cave_lvl20",
+            "the_vault:raw_vault_cave_lvl30",
+            "the_vault:raw_vault_cave_granite",
+            "the_vault:raw_vault_cave_granite_lvl10",
+            "the_vault:raw_vault_cave_granite_lvl20",
+            "the_vault:raw_vault_cave_granite_lvl30",
+            "the_vault:raw_vault_cave_diorite",
+            "the_vault:raw_vault_cave_diorite_lvl10",
+            "the_vault:raw_vault_cave_diorite_lvl20",
+            "the_vault:raw_vault_cave_diorite_lvl30",
+            "the_vault:raw_vault_cave_andersite",
+            "the_vault:raw_vault_cave_andersite_lvl10",
+            "the_vault:raw_vault_cave_andersite_lvl20",
+            "the_vault:raw_vault_cave_andersite_lvl30"
         ]
     }
 }

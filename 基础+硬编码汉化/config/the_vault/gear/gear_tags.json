@@ -461,6 +461,24 @@
       "color": 16711883,
       "weight": 10,
       "affixType": ["PREFIX"]
+    },
+    "AbilityPower": {
+      "tags": [
+        "focusAbilityPower"
+      ],
+      "display": "\u6cd5\u672f\u4f24\u5bb3",
+      "color": 16711883,
+      "weight": 10,
+      "affixType": ["SUFFIX"]
+    },
+    "AttackSpeed": {
+      "tags": [
+        "focusAttackSpeedPercent"
+      ],
+      "display": "\u653b\u51fb\u901f\u5ea6",
+      "color": 16570215,
+      "weight": 10,
+      "affixType": ["SUFFIX"]
     }
   }
 }

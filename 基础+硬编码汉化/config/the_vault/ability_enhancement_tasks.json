@@ -54,7 +54,7 @@
         },
         "increasePerLevel": 0.04,
         "registryKeyFilter": [
-          "the_vault:wooden_chest",
+          "the_vault:wooden_chest"
         ],
         "display": "{\"text\":\"\u641c\u522e%s\u4e2a\u6728\u5236\u5b9d\u7bb1\"}"
       }

@@ -400,6 +400,7 @@
         }
       ]
     },
+    
     "the_vault:temporal_pack": {
       "name": {
         "text": "\u65f6\u7a7a\u8865\u5145\u5305"
@@ -646,6 +647,7 @@
             {
               "modifier": "@scaling",
               "groups": [ "Foil" ],
+              "scaler": "@default",
               "probability": 1.0
             }
           ],

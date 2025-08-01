@@ -209,22 +209,22 @@
     },
     {
       "id": "the_vault:raw_vault_cave",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u6d1e\u7a74",
+      "name": "\u6d1e\u7a74",
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave.json"
     },
     {
       "id": "the_vault:raw_vault_cave_lvl10",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u6d1e\u7a74 10\u7ea7",
+      "name": "\u6d1e\u7a74 10\u7ea7",
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl10.json"
     },
     {
       "id": "the_vault:raw_vault_cave_lvl20",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u6d1e\u7a74 20\u7ea7",
+      "name": "\u6d1e\u7a74 20\u7ea7",
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl20.json"
     },
     {
       "id": "the_vault:raw_vault_cave_lvl30",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u6d1e\u7a74 30\u7ea7",
+      "name": "\u6d1e\u7a74 30\u7ea7",
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_lvl30.json"
     },
     {
@@ -335,73 +335,73 @@
     },
     {
       "id": "the_vault:raw_vault_cave_granite",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u82b1\u5c97\u5ca9\u6d1e\u7a74",
+      "name": "\u82b1\u5c97\u5ca9\u6d1e\u7a74",
       "color": 12744790,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_granite.json"
     },
     {
       "id": "the_vault:raw_vault_cave_granite_lvl10",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u82b1\u5c97\u5ca9\u6d1e\u7a74 10\u7ea7",
+      "name": "\u82b1\u5c97\u5ca9\u6d1e\u7a74 10\u7ea7",
       "color": 12744790,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_granite_lvl10.json"
     },
     {
       "id": "the_vault:raw_vault_cave_granite_lvl20",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u82b1\u5c97\u5ca9\u6d1e\u7a74 20\u7ea7",
+      "name": "\u82b1\u5c97\u5ca9\u6d1e\u7a74 20\u7ea7",
       "color": 12744790,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_granite_lvl20.json"
     },
     {
       "id": "the_vault:raw_vault_cave_granite_lvl30",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u82b1\u5c97\u5ca9\u6d1e\u7a74 30\u7ea7",
+      "name": "\u82b1\u5c97\u5ca9\u6d1e\u7a74 30\u7ea7",
       "color": 12744790,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_granite_lvl30.json"
     },
     {
       "id": "the_vault:raw_vault_cave_diorite",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u95ea\u957f\u5ca9\u6d1e\u7a74",
+      "name": "\u95ea\u957f\u5ca9\u6d1e\u7a74",
       "color": 15461355,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_diorite.json"
     },
     {
       "id": "the_vault:raw_vault_cave_diorite_lvl10",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u95ea\u957f\u5ca9\u6d1e\u7a74 10\u7ea7",
+      "name": "\u95ea\u957f\u5ca9\u6d1e\u7a74 10\u7ea7",
       "color": 15461355,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_diorite_lvl10.json"
     },
     {
       "id": "the_vault:raw_vault_cave_diorite_lvl20",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u95ea\u957f\u5ca9\u6d1e\u7a74 20\u7ea7",
+      "name": "\u95ea\u957f\u5ca9\u6d1e\u7a74 20\u7ea7",
       "color": 15461355,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_diorite_lvl20.json"
     },
     {
       "id": "the_vault:raw_vault_cave_diorite_lvl30",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u95ea\u957f\u5ca9\u6d1e\u7a74 30\u7ea7",
+      "name": "\u95ea\u957f\u5ca9\u6d1e\u7a74 30\u7ea7",
       "color": 15461355,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_diorite_lvl30.json"
     },
     {
       "id": "the_vault:raw_vault_cave_andersite",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u5b89\u5c71\u5ca9\u6d1e\u7a74",
+      "name": "\u5b89\u5c71\u5ca9\u6d1e\u7a74",
       "color": 12434877,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite.json"
     },
     {
       "id": "the_vault:raw_vault_cave_andersite_lvl10",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u5b89\u5c71\u5ca9\u6d1e\u7a74 10\u7ea7",
+      "name": "\u5b89\u5c71\u5ca9\u6d1e\u7a74 10\u7ea7",
       "color": 12434877,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite_lvl10.json"
     },
     {
       "id": "the_vault:raw_vault_cave_andersite_lvl20",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u5b89\u5c71\u5ca9\u6d1e\u7a74 20\u7ea7",
+      "name": "\u5b89\u5c71\u5ca9\u6d1e\u7a74 20\u7ea7",
       "color": 12434877,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite_lvl20.json"
     },
     {
       "id": "the_vault:raw_vault_cave_andersite_lvl30",
-      "name": "\u539f\u59cb\u5b9d\u5e93\u5b89\u5c71\u5ca9\u6d1e\u7a74 30\u7ea7",
+      "name": "\u5b89\u5c71\u5ca9\u6d1e\u7a74 30\u7ea7",
       "color": 12434877,
       "1.0": "config/the_vault/gen/1.0/themes/raw_vault_cave_andersite_lvl30.json"
     },

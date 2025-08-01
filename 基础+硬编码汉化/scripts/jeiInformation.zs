@@ -16,6 +16,7 @@ mods.jei.JEI.addDescription(<item:the_vault:vault_altar>,("宝库祭坛可以让
 mods.jei.JEI.addDescription(<item:the_vault:soul_flame>,("将这个宝库之石放置在宝库祭坛上，可以制作挑战者宝库水晶，为水晶添加“升华”。“升华”进度清空时，会获得余烬，可以在升华锻炉中购买物品和幻形。"));
 mods.jei.JEI.addDescription(<item:the_vault:wardens_pearl>,("在水晶工作台中添加到宝库水晶上以添加“来生”宝库词缀，玩家死亡后不会丢失物品和装备，但获得的宝库经验减少50%。"));
 mods.jei.JEI.addDescription(<item:the_vault:phoenix_feather>,("在水晶工作台中添加到宝库水晶上以添加“凤凰”宝库词缀。可以使玩家免死一次。"));
+mods.jei.JEI.addDescription(<item:the_vault:eye_of_avarice>,("在水晶工作台中添加到宝库水晶上以添加“猎人之梦”宝库词缀。“猎人之梦”会完全阻止陷阱宝箱生成，即使是在拥有陷阱宝库词缀的水晶上。"));
 
 // VM Translate Group
 

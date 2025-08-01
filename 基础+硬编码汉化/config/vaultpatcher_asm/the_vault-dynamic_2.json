@@ -1,7 +1,7 @@
 [
     {
         "name": "宝藏猎人主要硬编码汉化-动态替换部分2",
-        "desc": "硬编码半匹配部分。版本V2.6.4",
+        "desc": "硬编码半匹配部分。版本V2.6.11",
         "authors": "KlparetlR、VM汉化组、ByF、DrIceTea",
         "mods": "the_vault",
         "dynamic": true
@@ -158,6 +158,60 @@
         ]
     },
     {
+        "_comment": "duplicated bug set: class = CrystalStatsContainerElement, method = lambda$new$5, local = Vdifficulty / Vvar10003"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.client.gui.screen.summary.element.CrystalStatsContainerElement"
+        },
+        "pairs": [
+            {
+                "key": "Normal",
+                "value": "@普通"
+            },
+            {
+                "key": "Hard",
+                "value": "@困难"
+            },
+            {
+                "key": "Challenging",
+                "value": "@疯狂"
+            },
+            {
+                "key": "Extreme",
+                "value": "@极限"
+            },
+            {
+                "key": "Impossible",
+                "value": "@不可能"
+            },
+            {
+                "key": "SPIDER",
+                "value": "@蜘蛛"
+            },
+            {
+                "key": "ILLAGER",
+                "value": "@灾厄村民"
+            },
+            {
+                "key": "ZOMBIE",
+                "value": "@僵尸"
+            },
+            {
+                "key": "SKELETON",
+                "value": "@骷髅"
+            },
+            {
+                "key": "PIGLIN",
+                "value": "@猪灵"
+            },
+            {
+                "key": "WITCH",
+                "value": "@女巫"
+            }
+        ]
+    },
+    {
         "_comment": "vp bug set: method = lambda$addTooltipRarity$9, local = MgetName"
     },
     {
@@ -205,6 +259,32 @@
             {
                 "key": "Epic+",
                 "value": "史诗+"
+            },
+            {
+                "key": "Royale",
+                "value": "皇家"
+            },
+            {
+                "key": "Royale Poor",
+                "value": "皇家劣质"
+            }
+        ]
+    },
+    {
+        "_comment": "duplicated bug set: local = Mcapitalize"
+    },
+    {
+        "target_class": {
+            "name": "iskallia.vault.item.CompanionItemClient"
+        },
+        "pairs": [
+            {
+                "key": "Legend",
+                "value": "@传奇"
+            },
+            {
+                "key": "Pet",
+                "value": "@宠物"
             }
         ]
     }

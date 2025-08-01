@@ -15,7 +15,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -46,7 +46,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -91,7 +91,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -193,7 +193,7 @@
           "color": "$text"
         },
         {
-          "text": "\u25cf \u957f\u6309\u578b\u6280\u80fd ",
+          "text": "\u25cf \u5207\u6362\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -258,7 +258,7 @@
           "color": "$text"
         },
         {
-          "text": "\u25cf \u957f\u6309\u578b\u6280\u80fd ",
+          "text": "\u25cf \u5207\u6362\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -317,7 +317,7 @@
           "color": "$text"
         },
         {
-          "text": "\u25cf \u957f\u6309\u578b\u6280\u80fd ",
+          "text": "\u25cf \u5207\u6362\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -370,7 +370,7 @@
           "color": "$text"
         },
         {
-          "text": "\u25cf \u957f\u6309\u578b\u6280\u80fd ",
+          "text": "\u25cf \u5207\u6362\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -403,7 +403,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -442,7 +442,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -473,7 +473,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -483,7 +483,7 @@
         "heal"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "heal"
@@ -496,7 +496,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -525,7 +525,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -606,7 +606,7 @@
           "color": "$chance"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -647,7 +647,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -688,7 +688,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -729,7 +729,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -770,7 +770,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -811,7 +811,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -852,7 +852,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -897,7 +897,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd",
           "color": "$castType"
         }
       ],
@@ -942,7 +942,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd",
           "color": "$castType"
         }
       ],
@@ -956,6 +956,57 @@
         "manaCost",
         "cooldown",
         "healthPoints"
+      ]
+    },
+    "Mana_Barrier": {
+      "description": [
+        {
+          "text": "\u5728\u4f60\u5468\u56f4\u751f\u6210\u4e00\u4e2a\u795e\u5947\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u9b54\u529b\u7acb\u65b9\u4f53",
+          "color": "$absorb"
+        },
+        {
+          "text": "\uff0c\u6301\u7eed",
+          "color": "$text"
+        },
+        {
+          "text": "\u4e00\u6bb5\u65f6\u95f4",
+          "color": "$duration"
+        },
+        {
+          "text": "\u3002\u751f\u7269\u65e0\u6cd5\u901a\u8fc7\u8fd9\u4e9b",
+          "color": "$text"
+        },
+        {
+          "text": "\u65b9\u5757",
+          "color": "$absorb"
+        },
+        {
+          "text": "\uff0c\u4f46\u4f60\u53ef\u4ee5\uff01",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "duration",
+        "manaCost",
+        "cooldown"
+
+      ],
+      "next": [
+        "duration",
+        "manaCost",
+        "cooldown"
       ]
     },
     "Retribution_Base": {
@@ -981,7 +1032,15 @@
           "color": "$text"
         },
         {
-          "text": "\u5438\u6536\u4f24\u5bb3\u540e\uff0c\u4e0b\u6b21\u653b\u51fb\u4f1a\u989d\u5916\u5bf9",
+          "text": "\u5438\u6536\u4f24\u5bb3\u540e\uff0c\u4e0b\u6b21\u653b\u51fb\u4f1a\u57fa\u4e8e",
+          "color": "$text"
+        },
+        {
+          "text": "\u5438\u6536\u7684\u4f24\u5bb3\u7684\u4e00\u5b9a\u6bd4\u4f8b",
+          "color": "$damage"
+        },
+        {
+          "text": "\uff0c\u989d\u5916\u5bf9",
           "color": "$text"
         },
         {
@@ -989,15 +1048,7 @@
           "color": "$radius"
         },
         {
-          "text": "\u7684\u6240\u6709\u602a\u7269\u9020\u6210",
-          "color": "$text"
-        },
-        {
-          "text": "\u5438\u6536\u4f24\u5bb3\u4e00\u5b9a\u6bd4\u4f8b",
-          "color": "$damage"
-        },
-        {
-          "text": "\u7684\u4f24\u5bb3\u3002\n\n",
+          "text": "\u7684\u6240\u6709\u602a\u7269\u9020\u6210\u4f24\u5bb3\u3002\n\n",
           "color": "$text"
         },
         {
@@ -1020,7 +1071,7 @@
     "Mana_Shield_Retribution": {
       "description": [
         {
-          "text": "\u83b7\u5f97\u5f3a\u5927\u7684\u590d\u4ec7\u5149\u73af\u3002\u6fc0\u6d3b\u540e\uff0c\u53d7\u5230\u7684\u6240\u6709\u6765\u81ea\u602a\u7269\u7684\u4f24\u5bb3\u90fd\u4f1a\u4e3a\u4f60\u7d2f\u79ef",
+          "text": "\u83b7\u5f97\u5f3a\u5927\u7684\u590d\u4ec7\u5149\u73af\u3002\u6fc0\u6d3b\u540e\uff0c\u53d7\u5230\u7684\u6240\u6709\u6765\u81ea\u751f\u7269\u7684\u4f24\u5bb3\u90fd\u4f1a\u4e3a\u4f60\u7d2f\u79ef",
           "color": "$text"
         },
         {
@@ -1028,7 +1079,7 @@
           "color": "$qhighlight"
         },
         {
-          "text": "\uff0c\u5f53\u5149\u73af",
+          "text": "\uff0c\u5149\u73af",
           "color": "$text"
         },
         {
@@ -1036,15 +1087,15 @@
           "color": "$duration"
         },
         {
-          "text": "\u65f6\uff0c\u4f1a\u5728",
+          "text": "\u65f6\uff0c\u4f1a\u65bd\u653e\u4e00\u6b21\u5f3a\u529b\u7684\u7206\u70b8\uff0c\u6839\u636e\u7d2f\u79ef\u7684\u5c42\u6570\uff0c\u5bf9\u9644\u8fd1",
           "color": "$text"
         },
         {
-          "text": "\u4e00\u5b9a\u8303\u56f4",
+          "text": "\u4e00\u5b9a\u7403\u5f62\u8303\u56f4\u5185",
           "color": "$radius"
         },
         {
-          "text": "\u5185\u65bd\u653e\u4e00\u6b21\u5f3a\u5927\u7684\u7403\u5f62\u7206\u70b8\uff0c\u6839\u636e\u7d2f\u79ef\u7684\u5c42\u6570\uff0c\u5bf9\u5468\u56f4\u7684\u6240\u6709\u602a\u7269\u9020\u6210",
+          "text": "\u7684\u6240\u6709\u602a\u7269\u9020\u6210",
           "color": "$text"
         },
         {
@@ -1060,7 +1111,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1101,7 +1152,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1132,7 +1183,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1158,7 +1209,7 @@
           "color": "$chance"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1183,11 +1234,11 @@
           "color": "$text"
         },
         {
-          "text": "\u6b64\u6280\u80fd\u4e0d\u4f1a\u5728\u4e3b\u4e16\u754c\u751f\u6548\u3002 \n\n",
+          "text": "\u6b64\u6280\u80fd\u4e0d\u4f1a\u5728\u4e3b\u4e16\u754c\u751f\u6548\u3002\n\n",
           "color": "$chance"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1206,7 +1257,7 @@
     "Nova_Base": {
       "description": [
         {
-          "text": "\u5728\u5468\u56f4\u7684\u4e00\u5b9a",
+          "text": "\u5bf9\u9644\u8fd1\u4e00\u5b9a",
           "color": "$text"
         },
         {
@@ -1214,7 +1265,7 @@
           "color": "$radius"
         },
         {
-          "text": "\u5185\u9020\u6210\u4e00\u5b9a\u6bd4\u4f8b\u7684",
+          "text": "\u5185\u7684\u76ee\u6807\u9020\u6210\u4e00\u5b9a\u6bd4\u4f8b\u7684",
           "color": "$text"
         },
         {
@@ -1234,7 +1285,7 @@
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd",
           "color": "$castType"
         }
       ],
@@ -1245,7 +1296,7 @@
         "ability_power"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "radius",
@@ -1283,7 +1334,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1326,11 +1377,11 @@
           "color": "$text"
         },
         {
-          "text": "\u4f4e\u6e29",
+          "text": "\u201c\u4f4e\u6e29\u201d",
           "color": "$slowness"
         },
         {
-          "text": "\u6548\u679c\uff0c\u65bd\u52a0\u6301\u7eed\u7684",
+          "text": "\uff0c\u9020\u6210\u6301\u7eed\u7684",
           "color": "$text"
         },
         {
@@ -1342,7 +1393,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd",
           "color": "$castType"
         }
       ],
@@ -1363,7 +1414,7 @@
     "Rampage_Base": {
       "description": [
         {
-          "text": "\u8fdb\u5165\u72c2\u66b4\u72b6\u6001\uff0c\u6fc0\u6d3b\u671f\u95f4\u5185\u63d0\u4f9b\u989d\u5916\u7684",
+          "text": "\u8fdb\u5165\u72c2\u66b4\u72b6\u6001\uff0c\u6fc0\u6d3b\u671f\u95f4\u63d0\u4f9b\u989d\u5916\u7684",
           "color": "$text"
         },
         {
@@ -1394,7 +1445,7 @@
     "Rampage_Chain": {
       "description": [
         {
-          "text": "\u6280\u80fd\u53d8\u4e3a\u4f7f\u653b\u51fb\u62e5\u6709",
+          "text": "\u6280\u80fd\u6548\u679c\u53d8\u4e3a\u4f7f\u653b\u51fb\u62e5\u6709",
           "color": "$text"
         },
         {
@@ -1402,7 +1453,7 @@
           "color": "$chains"
         },
         {
-          "text": "\uff0c\u53ef\u4ee5\u653b\u51fb\u5230\u989d\u5916\u7684\u602a\u7269\uff0c\u4f46\u4e0d\u518d\u6709\u989d\u5916\u7684\u4f24\u5bb3\u63d0\u5347\u3002\n\n",
+          "text": "\uff0c\u53ef\u4ee5\u4e00\u6b21\u547d\u4e2d\u591a\u4e2a\u602a\u7269\uff0c\u4f46\u4e0d\u518d\u6709\u989d\u5916\u7684\u4f24\u5bb3\u63d0\u5347\u3002\n\n",
           "color": "$text"
         },
         {
@@ -1425,7 +1476,7 @@
     "Rampage_Leech": {
       "description": [
         {
-          "text": "\u6280\u80fd\u6548\u679c\u53d8\u4e3a\u5728\u4f7f\u7528\u6280\u80fd\u540e\u83b7\u5f97",
+          "text": "\u6280\u80fd\u6548\u679c\u53d8\u4e3a\u5728\u72c2\u66b4\u72b6\u6001\u671f\u95f4\u83b7\u5f97",
           "color": "$text"
         },
         {
@@ -1433,7 +1484,7 @@
           "color": "$leech"
         },
         {
-          "text": "\uff0c\u4f46\u4e0d\u518d\u589e\u52a0\u4f24\u5bb3\u3002 \n\n",
+          "text": "\uff0c\u4f46\u4e0d\u518d\u63d0\u5347\u4f24\u5bb3\u3002\n\n",
           "color": "$text"
         },
         {
@@ -1451,6 +1502,63 @@
         "cooldown",
         "manaCostPerSecond",
         "leech"
+      ]
+    },
+    "Earthquake_Landmine": {
+      "description": [
+        {
+          "text": "\u5728\u4f60\u6240\u5728\u7684\u4f4d\u7f6e\u751f\u6210\u4e00\u4e2a",
+          "color": "$text"
+        },
+        {
+          "text": "\u5730\u96f7",
+          "color": "$name"
+        },
+        {
+          "text": "\u3002\u5f53\u5730\u96f7\u88ab\u4efb\u610f\u751f\u7269\u8e29\u5230\u65f6\u4f1a\u7206\u70b8\uff0c\u57fa\u4e8e\u4f60\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u653b\u51fb\u4f24\u5bb3",
+          "color": "$damage"
+        },
+        {
+          "text": "\u5bf9",
+          "color": "$text"
+        },
+        {
+          "text": "\u4e00\u5b9a\u8303\u56f4\u5185",
+          "color": "$radius"
+        },
+        {
+          "text": "\u7684\u76ee\u6807\u9020\u6210\u4f24\u5bb3\uff0c\u5e76",
+          "color": "$text"
+        },
+        {
+          "text": "\u51fb\u9000",
+          "color": "$knockback"
+        },
+        {
+          "text": "\u6240\u6709\u654c\u5bf9\u751f\u7269\u3002\n\n\u5730\u96f7\u7206\u70b8\u4e5f\u4f1a\u5f15\u7206\u8303\u56f4\u5185\u7684\u5176\u4ed6\u5730\u96f7\u3002",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "damage",
+        "knockback"
+      ],
+      "next": [
+
+        "cooldown",
+        "manaCost",
+        "damage",
+        "knockback"
       ]
     },
     "Stonefall_Base": {
@@ -1480,11 +1588,11 @@
           "color": "$radius"
         },
         {
-          "text": "\u602a\u7269\u4e00\u5b9a\u8ddd\u79bb\u3002\n\n",
+          "text": "\u4e00\u5b9a\u8303\u56f4\u5185\u7684\u602a\u7269\u3002\n\n",
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1539,7 +1647,7 @@
           "color": "$text"
         },
         {
-          "text": "\u5176\u8303\u56f4\u53d7\u5760\u843d\u9ad8\u5ea6\u5f71\u54cd\u3002",
+          "text": "\u6548\u679c\u8303\u56f4\u53d7\u5760\u843d\u9ad8\u5ea6\u5f71\u54cd\u3002",
           "color": "$text"
         },
         {
@@ -1547,7 +1655,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1596,7 +1704,7 @@
           "color": "$ability_power"
         },
         {
-          "text": "\uff0c\u5bf9\u4e00\u5b9a\u8303\u56f4\u5185\u7684\u602a\u7269\u9020\u6210\u4f24\u5bb3\u3002\n\u5176\u8303\u56f4\u968f\u5760\u843d\u9ad8\u5ea6\u589e\u52a0",
+          "text": "\uff0c\u5bf9\u4e00\u5b9a\u8303\u56f4\u5185\u7684\u602a\u7269\u9020\u6210\u4f24\u5bb3\u3002\n\u4f24\u5bb3\u8303\u56f4\u968f\u5760\u843d\u9ad8\u5ea6\u589e\u52a0",
           "color": "$text"
         },
         {
@@ -1604,7 +1712,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1638,7 +1746,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1698,7 +1806,7 @@
     "Empower_Ice_Armor": {
       "description": [
         {
-          "text": "\u7528\u51b0\u971c\u7684\u5c4f\u969c\u5305\u88f9\u81ea\u5df1\uff0c\u6fc0\u6d3b\u65f6\u5728",
+          "text": "\u7528\u51b0\u971c\u7684\u5c4f\u969c\u5305\u88f9\u81ea\u5df1\uff0c\u6fc0\u6d3b\u540e",
           "color": "$text"
         },
         {
@@ -1740,7 +1848,7 @@
     "Empower_Slowness_Aura": {
       "description": [
         {
-          "text": "\u83b7\u5f97\u65e0\u5e8f\u5149\u73af\uff0c",
+          "text": "\u83b7\u5f97\u65e0\u5e8f\u5149\u73af\uff0c\u6fc0\u6d3b\u540e",
           "color": "$text"
         },
         {
@@ -1824,7 +1932,7 @@
           "color": "$vulnerable"
         },
         {
-          "text": "\u3002\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u3002\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1875,7 +1983,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1914,15 +2022,15 @@
           "color": "$maxTargets"
         },
         {
-          "text": "\u4e3a\u4f60\u800c\u6218\u3002\u88ab\u9b45\u60d1\u7684\u602a\u7269\u4f1a\u5bf9\u5176\u76ee\u6807\u9020\u6210",
+          "text": "\u4e3a\u4f60\u800c\u6218\u3002\u88ab\u9b45\u60d1\u7684\u602a\u7269\u4f1a\u57fa\u4e8e\u4f60\u7684",
           "color": "$text"
         },
         {
-          "text": "\u4f60\u7684\u653b\u51fb\u4f24\u5bb3\u4e00\u5b9a\u6bd4\u4f8b",
+          "text": "\u653b\u51fb\u4f24\u5bb3\u7684\u4e00\u5b9a\u6bd4\u4f8b",
           "color": "$damage"
         },
         {
-          "text": "\u7684\u4f24\u5bb3\uff0c\u5e76\u4e14\u80fd\u89e6\u53d1\u4f60\u7684",
+          "text": "\u5bf9\u5176\u76ee\u6807\u9020\u6210\u4f24\u5bb3\uff0c\u5e76\u4e14\u80fd\u89e6\u53d1\u4f60\u7684",
           "color": "$text"
         },
         {
@@ -1942,7 +2050,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -1989,7 +2097,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2032,7 +2140,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2079,7 +2187,7 @@
           "color": "$ability_power"
         },
         {
-          "text": "\u3002\u6b64\u4f24\u5bb3\u4e5f\u4f1a\u9644\u52a0\u4f60\u62e5\u6709\u7684\u547d\u4e2d\u6548\u679c\uff0c\u9664\u4e86\u5e78\u8fd0\u4e00\u51fb",
+          "text": "\u3002\u6b64\u4f24\u5bb3\u4f1a\u9644\u52a0\u4f60\u62e5\u6709\u7684\u547d\u4e2d\u6548\u679c\uff0c\u9664\u5e78\u8fd0\u4e00\u51fb\u4e4b\u5916",
           "color": "$text"
         },
         {
@@ -2087,7 +2195,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2100,7 +2208,7 @@
         "delay"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -2132,7 +2240,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2144,7 +2252,7 @@
         "damage"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -2175,7 +2283,7 @@
         "blocks"
       ],
       "next": [
-        
+
         "blocks"
       ]
     },
@@ -2211,7 +2319,7 @@
         "unbreaking"
       ],
       "next": [
-        
+
         "blocks",
         "unbreaking"
       ]
@@ -2248,7 +2356,7 @@
         "fortune"
       ],
       "next": [
-        
+
         "blocks",
         "fortune"
       ]
@@ -2284,7 +2392,7 @@
         "blocks"
       ],
       "next": [
-        
+
         "blocks"
       ]
     },
@@ -2315,7 +2423,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2327,7 +2435,7 @@
 
       ],
       "next": [
-        
+
         "damage",
         "knockback",
         "cooldown",
@@ -2361,7 +2469,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2373,7 +2481,7 @@
 
       ],
       "next": [
-        
+
         "damage",
         "piercing",
         "cooldown",
@@ -2411,7 +2519,7 @@
           "color": "$numberOfBounces"
         },
         {
-          "text": "\u3002\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u3002\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2475,7 +2583,7 @@
           "color": "$duration"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2808,7 +2916,7 @@
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2866,7 +2974,7 @@
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2922,7 +3030,7 @@
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -2973,7 +3081,7 @@
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -3031,7 +3139,7 @@
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -3097,7 +3205,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -3161,7 +3269,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -3225,7 +3333,7 @@
           "color": "$text"
         },
         {
-          "text": "\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
@@ -3240,7 +3348,6 @@
 
       ],
       "next": [
-
         "radius",
         "duration",
         "luckyHitPerStack",
@@ -3253,7 +3360,15 @@
     "Ice_Bolt_Base": {
       "description": [
         {
-          "text": "\u53ec\u5524\u4e00\u4e2a\u51b0\u9525\uff0c\u4e0d\u9020\u6210\u4f24\u5bb3\uff0c\u4f46\u4f1a",
+          "text": "\u53ec\u5524\u4e00\u4e2a\u51b0\u9525\uff0c\u9020\u6210",
+          "color": "$text"
+        },
+        {
+          "text": "\u56fa\u5b9a\u4f24\u5bb3",
+          "color": "$damage"
+        },
+        {
+          "text": "\u5e76",
           "color": "$text"
         },
         {
@@ -3261,7 +3376,7 @@
           "color": "$chilled"
         },
         {
-          "text": "\u547d\u4e2d\u7684\u602a\u7269",
+          "text": "\u76ee\u6807\uff0c\u6301\u7eed",
           "color": "$text"
         },
         {
@@ -3273,11 +3388,12 @@
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
       "current": [
+        "setDamage",
         "throwPower",
         "duration",
         "cooldown",
@@ -3285,6 +3401,7 @@
 
       ],
       "next": [
+        "setDamage",
         "throwPower",
         "duration",
         "cooldown",
@@ -3330,11 +3447,12 @@
           "color": "$text"
         },
         {
-          "text": "\n\n\u2734 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
           "color": "$castType"
         }
       ],
       "current": [
+        "setDamage",
         "throwPower",
         "duration",
         "radius",
@@ -3344,12 +3462,453 @@
 
       ],
       "next": [
+        "setDamage",
         "throwPower",
         "duration",
         "radius",
         "glacialChance",
         "cooldown",
         "manaCost"
+      ]
+    },
+    "Arcane_Base": {
+      "description": [
+        {
+          "text": "\u5f15\u5bfc\u4e00\u675f\u9b54\u6cd5\u5149\u675f\u5feb\u901f\u878d\u5316\u654c\u4eba\uff0c\u6bcf0.5\u79d2\u5bf9",
+          "color": "$text"
+        },
+        {
+          "text": "\u4e00\u5b9a\u8ddd\u79bb\u5185",
+          "color": "$distance"
+        },
+        {
+          "text": "\u7684\u751f\u7269\u9020\u6210\u4e00\u5b9a\u6bd4\u4f8b\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u6cd5\u672f\u4f24\u5bb3",
+          "color": "$ability_power"
+        },
+        {
+          "text": "\u3002\n\n\u5965\u672f\u5f15\u5bfc\u671f\u95f4",
+          "color": "$text"
+        },
+        {
+          "text": "\u6bcf\u79d2\u6d88\u8017\u4e00\u6b21\u9b54\u529b",
+          "color": "$manaCost"
+        },
+        {
+          "text": "\u3002",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u25cf \u957f\u6309\u578b\u6280\u80fd",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "distance",
+        "manaCost"
+
+      ],
+      "next": [
+        "ability_power",
+        "distance",
+        "manaCost"
+      ]
+    },
+    "Arcane_Rail": {
+      "description": [
+        {
+          "text": "\u751f\u6210\u4e00\u6761\u9b54\u6cd5\u5965\u672f\u8f68\u9053\uff0c\u4ee5\u4e0d\u53ef\u601d\u8bae\u7684\u529b\u91cf\u653b\u51fb\u5355\u4e2a\u751f\u7269\uff0c",
+          "color": "$text"
+        },
+        {
+          "text": "\u9020\u6210\u4e00\u5b9a\u6bd4\u4f8b\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u6cd5\u672f\u4f24\u5bb3",
+          "color": "$ability_power"
+        },
+        {
+          "text": "\uff0c\u5e76\u89e6\u53d1\u4f60\u7684\u547d\u4e2d\u6548\u679c\uff0c\u4f8b\u5982",
+          "color": "$text"
+        },
+        {
+          "text": "\u6548\u679c\u4e91",
+          "color": "$name"
+        },
+        {
+          "text": "\u548c",
+          "color": "$text"
+        },
+        {
+          "text": "\u8fde\u9501\u653b\u51fb",
+          "color": "$chaining"
+        },
+        {
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "cooldown",
+        "manaCost"
+
+      ],
+      "next": [
+        "abilityRange",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Earthquake_Base": {
+      "description": [
+        {
+          "text": "\u4ece\u5f53\u524d\u4f4d\u7f6e\u5f15\u5bfc\u91ca\u653e\u5de8\u5927\u7684\u7206\u70b8\uff0c",
+          "color": "$text"
+        },
+        {
+          "text": "\u77ed\u6682\u5ef6\u8fdf",
+          "color": "$duration"
+        },
+        {
+          "text": "\u540e\u9020\u6210\u4e00\u5b9a\u6bd4\u4f8b\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u8303\u56f4",
+          "color": "$radius"
+        },
+        {
+          "text": "\u653b\u51fb\u4f24\u5bb3",
+          "color": "$damage"
+        },
+        {
+          "text": "\uff0c\u5e76",
+          "color": "$text"
+        },
+        {
+          "text": "\u51fb\u9000",
+          "color": "$knockback"
+        },
+        {
+          "text": "\u8303\u56f4\u5185\u7684\u6240\u6709\u654c\u5bf9\u751f\u7269\u3002\n\u547d\u4e2d\u751f\u7269\u9020\u6210\u7684\u4f24\u5bb3\u968f\u8ddd\u79bb\u7684\u589e\u52a0\u800c\u964d\u4f4e\u3002",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u5730\u9707\u8fd8\u6709\u4e00\u5b9a\u6982\u7387\u7834\u574f\u8def\u5f84\u4e0a\u7684\u65b9\u5757\u3002",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "knockback",
+        "radius",
+        "duration",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "damage",
+        "knockback",
+        "radius",
+        "duration",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Implode_Life_Tap": {
+      "description": [
+        {
+          "text": "\u5438\u53d6\u4f60",
+          "color": "$text"
+        },
+        {
+          "text": "\u5f53\u524d\u751f\u547d\u503c",
+          "color": "$health"
+        },
+        {
+          "text": "\u768480%\uff0c\u5e76\u57fa\u4e8e",
+          "color": "$text"
+        },
+        {
+          "text": "\u5438\u53d6\u7684\u751f\u547d\u503c",
+          "color": "$damage"
+        },
+        {
+          "text": "\u5bf9\u9644\u8fd1",
+          "color": "$text"
+        },
+        {
+          "text": "\u4e00\u5b9a\u8303\u56f4\u5185",
+          "color": "$radius"
+        },
+        {
+          "text": "\u7684\u6240\u6709\u751f\u7269\u9020\u6210\u4f24\u5bb3\u3002\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u6ce8\uff1a1\u9897\u5fc3\u4ee3\u88682\u70b9\u751f\u547d\u503c\u3002",
+          "color": "$darkgray"
+        },
+        {
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "radius",
+        "damagePerHealth",
+        "cooldown"
+      ],
+      "next": [
+        "radius",
+        "damagePerHealth",
+        "cooldown"
+      ]
+    },
+    "Chain_Lightning_Base": {
+      "description": [
+        {
+          "text": "\u53ec\u5524\u4e00\u652f\u95ea\u7535\u7bad\uff0c\u547d\u4e2d\u65f6\u5f15\u53d1",
+          "color": "$text"
+        },
+        {
+          "text": "\u95ea\u7535\u5288\u51fb",
+          "color": "$name"
+        },
+        {
+          "text": "\uff0c\u57fa\u4e8e\u4f60",
+          "color": "$text"
+        },
+        {
+          "text": "\u6cd5\u672f\u4f24\u5bb3\u7684\u4e00\u5b9a\u6bd4\u4f8b",
+          "color": "$ability_power"
+        },
+        {
+          "text": "\u9020\u6210",
+          "color": "$text"
+        },
+        {
+          "text": "\u95ea\u7535\u4f24\u5bb3",
+          "color": "$lightning"
+        },
+        {
+          "text": "\uff0c\u5e76\u8fde\u9501\u7535\u51fb\u76ee\u6807",
+          "color": "$text"
+        },
+        {
+          "text": "\u4e00\u5b9a\u8303\u56f4\u5185",
+          "color": "$range"
+        },
+        {
+          "text": "\u7684\u5176\u4ed6\u751f\u7269\u3002",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 \u65bd\u653e\u578b\u6280\u80fd ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "distance",
+        "chainRange",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "abilityRange",
+        "distance",
+        "chainRange",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Chain_Lightning_Orbs": {
+      "description": [
+        {
+          "text": "\u751f\u6210\u4e00\u4e2a\u5f3a\u5927\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u7403\u72b6\u95ea\u7535",
+          "color": "$name"
+        },
+        {
+          "text": "\u3002\u7403\u72b6\u95ea\u7535\u4f1a\u7f13\u6162\u5411\u524d\u79fb\u52a8\uff0c\u4f1a\u8ddf\u968f\u4f60\u5341\u5b57\u51c6\u5fc3\u7684\u6307\u5f15\uff0c\u5e76\u4f1a\u7535\u51fb\u547d\u4e2d\u7684\u6240\u6709\u602a\u7269\uff0c\u57fa\u4e8e\u4f60",
+          "color": "$text"
+        },
+        {
+          "text": "\u6cd5\u672f\u4f24\u5bb3\u7684\u4e00\u5b9a\u6bd4\u4f8b",
+          "color": "$ability_power"
+        },
+        {
+          "text": "\u9020\u6210",
+          "color": "$text"
+        },
+        {
+          "text": "\u95ea\u7535\u4f24\u5bb3",
+          "color": "$lightning"
+        },
+        {
+          "text": "\u3002",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2726 \u65bd\u6cd5\u578b\u6280\u80fd ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "abilityRange",
+        "duration",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "abilityRange",
+        "duration",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Grenade_Base": {
+      "description": [
+        {
+          "text": "\u63b7\u51fa\u4e00\u4e2a\u795e\u79d8\u800c\u5f3a\u5927\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u6df7\u6c8c\u7acb\u65b9",
+          "color": "$qhighlight"
+        },
+        {
+          "text": "\uff0c\u77ed\u6682\u5ef6\u8fdf\u540e\u7206\u70b8\uff0c\u9020\u6210\u4e00\u5b9a\u6bd4\u4f8b\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u653b\u51fb\u4f24\u5bb3",
+          "color": "$damage"
+        },
+        {
+          "text": "\uff0c\u4f24\u5bb3\u4f1a\u968f",
+          "color": "$text"
+        },
+        {
+          "text": "\u8ddd\u79bb",
+          "color": "$radius"
+        },
+        {
+          "text": "\u8870\u51cf\u3002",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "damage",
+        "radius",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "damage",
+        "radius",
+        "manaCost",
+        "cooldown"
+      ]
+    },
+    "Toxic_Grenade": {
+      "description": [
+        {
+          "text": "\u63b7\u51fa\u4e00\u4e2a\u6ce8\u5165\u4e86",
+          "color": "$text"
+        },
+        {
+          "text": "\u5267\u6bd2",
+          "color": "$poison"
+        },
+        {
+          "text": "",
+          "color": "$text"
+        },
+        {
+          "text": "\u836f\u5242",
+          "color": "$poison"
+        },
+        {
+          "text": "\u7684\u836f\u74f6\uff0c\u649e\u51fb\u540e\u7206\u88c2\u5e76\u5f62\u6210\u4e00\u56e2",
+          "color": "$text"
+        },
+        {
+          "text": "\u5267\u6bd2\u4e91",
+          "color": "$poison"
+        },
+        {
+          "text": "\uff0c\u9020\u6210\u4e00\u5b9a\u6bd4\u4f8b\u7684",
+          "color": "$text"
+        },
+        {
+          "text": "\u6cd5\u672f\u4f24\u5bb3",
+          "color": "$ability_power"
+        },
+        {
+          "text": "\uff0c\u4f24\u5bb3\u4f1a\u968f",
+          "color": "$text"
+        },
+        {
+          "text": "\u8ddd\u79bb",
+          "color": "$radius"
+        },
+        {
+          "text": "\u548c",
+          "color": "$text"
+        },
+        {
+          "text": "\u65f6\u95f4",
+          "color": "$duration"
+        },
+        {
+          "text": "\u8870\u51cf\u3002",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 \u65bd\u653e\u578b\u6280\u80fd",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "ability_power",
+        "radius",
+        "duration",
+        "manaCost",
+        "cooldown"
+      ],
+      "next": [
+        "ability_power",
+        "radius",
+        "duration",
+        "manaCost",
+        "cooldown"
       ]
     }
   }

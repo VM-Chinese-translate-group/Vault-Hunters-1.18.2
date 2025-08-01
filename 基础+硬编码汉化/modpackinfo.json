@@ -1,0 +1,13 @@
+{
+  "modpack": {
+    "name": "Vault Hunters 3",
+    "version": "3.19.5",
+    "translation": {
+      "url": "https://vmct-cn.top/modpacks/vault",
+      "language": "zh_cn",
+      "version": "2.6.11",
+      "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/vault.txt",
+      "resourcePackName": "VM汉化组模组汉化包1.18"
+    }
+  }
+}

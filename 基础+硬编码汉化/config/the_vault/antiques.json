@@ -47,8 +47,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -202,8 +209,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -261,6 +275,13 @@
           {
             "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -391,8 +412,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -452,8 +480,15 @@
             "display": "\u6982\u7387\u8f83\u4f4e"
           },
           {
-            "minLevel": 30,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -510,8 +545,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -571,8 +613,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 25,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -621,8 +670,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -680,6 +736,13 @@
           {
             "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -750,8 +813,15 @@
             "display": "\u6765\u81ea\u51a0\u519b"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -803,8 +873,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 40,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -943,8 +1020,15 @@
             "display": "\u6982\u7387\u8f83\u4f4e"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1000,8 +1084,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1066,8 +1157,15 @@
             "display": "\u6982\u7387\u4e2d\u7b49"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1123,8 +1221,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1198,8 +1303,15 @@
             "display": "\u6982\u7387\u8f83\u4f4e"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1255,8 +1367,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1314,6 +1433,13 @@
           {
             "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1373,6 +1499,13 @@
           {
             "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1459,8 +1592,15 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1510,8 +1650,15 @@
             "display": "\u901a\u8fc7\u51fb\u6740\u602a\u7269"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1599,8 +1746,15 @@
             "display": "\u6982\u7387\u8f83\u4f4e"
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
@@ -1668,12 +1822,83 @@
             "type": "the_vault:type"
           },
           {
-            "minLevel": 30,
+            "minLevel": 50,
             "type": "the_vault:level"
+          },
+          {
+            "item": [
+              "the_vault:antique_collector_book"
+            ],
+            "type": "the_vault:player_has_item",
+            "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
           }
         ],
         "type": "the_vault:and"
       }
+    },
+    "the_vault:ambassador": {
+      "info": {
+        "name": "\u5927\u4f7f",
+        "rewardDescription": "\u5145\u80fd\u6df7\u6c8c\u900f\u955c",
+        "subtext": "",
+        "requiredCount": 2
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:empowered_chaotic_focus"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 2,
+          "max": 5
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+            "conditions": [
+              {
+                "tag": [
+                  "DUNGEON_DIFFICULTY_IMPOSSIBLE"
+                ],
+                "type": "the_vault:tag",
+                "display": "\u96be\u5ea6\u4e3a\u4e0d\u53ef\u80fd"
+              },
+              {
+                "key": [
+                  "the_vault:ornate_barrel"
+                ],
+                "type": "the_vault:key",
+                "display": "\u4f4d\u4e8e\u534e\u4e3d\u50a8\u7269\u6876"
+              },
+              {
+                "chance": 0.25,
+                "type": "the_vault:chance",
+                "display": "\u6982\u7387\u4e2d\u7b49"
+              },
+              {
+                "types": [
+                  "BLOCK"
+                ],
+                "type": "the_vault:type"
+              },
+              {
+                "minLevel": 50,
+                "type": "the_vault:level"
+              },
+              {
+                "item": [
+                  "the_vault:antique_collector_book"
+                ],
+                "type": "the_vault:player_has_item",
+                "display": "\u73a9\u5bb6\u62e5\u6709\u53e4\u8463\u96c6\u90ae\u518c"
+              }
+            ],
+            "type": "the_vault:and"
+          }
     }
   }
 }

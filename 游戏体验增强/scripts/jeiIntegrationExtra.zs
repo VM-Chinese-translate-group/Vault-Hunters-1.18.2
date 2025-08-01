@@ -19,6 +19,7 @@ import crafttweaker.api.item.IItemStack;
 
 
 // 黑市  soul_shard.json omega_soul_shard.json
+/*
 var blackMarket = JeiCategory.create<Custom>("black_market", new TextComponent("黑市"), <item:the_vault:black_market>, [<item:the_vault:black_market>]) as Custom;
 blackMarket.background = JeiDrawable.blank(180, 170) as JeiDrawable;
 
@@ -270,7 +271,7 @@ blackMarketOmegaIdItem("the_vault:booster_pack", "the_vault:mega_stat_pack", 450
 blackMarketOmegaIdItem("the_vault:booster_pack", "the_vault:mega_mix_pack", 4500, 6000, 3, 2000, 2400, 3, 1, "75+")], []);
 
 JEI.addCategory(blackMarket);
-
+*/
 
 
 

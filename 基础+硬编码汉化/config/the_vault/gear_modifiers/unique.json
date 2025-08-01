@@ -649,7 +649,7 @@
             "weight": 10,
             "value": {
               "min": 8.0,
-              "max": 10.0,
+              "max": 14.0,
               "step": 0.5
             }
           },
@@ -658,8 +658,8 @@
             "maxLevel": 47,
             "weight": 10,
             "value": {
-              "min": 11.0,
-              "max": 12.0,
+              "min": 15.0,
+              "max": 16.0,
               "step": 0.5
             }
           },
@@ -668,8 +668,8 @@
             "maxLevel": 57,
             "weight": 10,
             "value": {
-              "min": 13.0,
-              "max": 14.0,
+              "min": 17.0,
+              "max": 20.0,
               "step": 0.5
             }
           },
@@ -678,9 +678,9 @@
             "maxLevel": 63,
             "weight": 10,
             "value": {
-              "min": 16.0,
-              "max": 18.0,
-              "step": 0.5
+              "min": 21.0,
+              "max": 30.0,
+              "step": 1.0
             }
           },
           {
@@ -688,9 +688,9 @@
             "maxLevel": 71,
             "weight": 10,
             "value": {
-              "min": 19.0,
-              "max": 21.0,
-              "step": 0.5
+              "min": 31.0,
+              "max": 42.0,
+              "step": 1.0
             }
           },
           {
@@ -698,49 +698,39 @@
             "maxLevel": 82,
             "weight": 10,
             "value": {
-              "min": 22.0,
-              "max": 24.0,
-              "step": 0.5
+              "min": 43.0,
+              "max": 55.0,
+              "step": 1.0
             }
           },
           {
             "minLevel": 58,
-            "maxLevel": 89,
-            "weight": 10,
-            "value": {
-              "min": 25.0,
-              "max": 27.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 64,
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 28.0,
-              "max": 30.0,
-              "step": 0.5
+              "min": 56.0,
+              "max": 64.0,
+              "step": 1.0
             }
           },
           {
-            "minLevel": 72,
+            "minLevel": 68,
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 31.0,
-              "max": 33.0,
-              "step": 0.5
+              "min": 65.0,
+              "max": 76.0,
+              "step": 1.0
             }
           },
           {
-            "minLevel": 83,
+            "minLevel": 80,
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 34.0,
-              "max": 36.0,
-              "step": 0.5
+              "min": 77.0,
+              "max": 90.0,
+              "step": 1.0
             }
           },
           {
@@ -748,9 +738,9 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 37.0,
-              "max": 39.0,
-              "step": 0.5
+              "min": 91.0,
+              "max": 100.0,
+              "step": 1.0
             }
           },
           {
@@ -758,9 +748,9 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 40.0,
-              "max": 42.0,
-              "step": 0.5
+              "min": 101.0,
+              "max": 108.0,
+              "step": 1.0
             }
           },
           {
@@ -768,9 +758,9 @@
             "maxLevel": -1,
             "weight": 10,
             "value": {
-              "min": 43.0,
-              "max": 50.0,
-              "step": 0.5
+              "min": 109.0,
+              "max": 132.0,
+              "step": 1.0
             }
           }
         ]
@@ -868,8 +858,8 @@
             "weight": 500,
             "value": {
               "min": 5,
-              "max": 5,
-              "step": 1
+              "max": 20,
+              "step": 5
             }
           }
         ]
@@ -1010,6 +1000,74 @@
             "value": {
               "min": 0.26,
               "max": 0.4,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:sweeping_hit_damage",
+        "group": "baseSweepingHit",
+        "identifier": "the_vault:base_sweeping_hit_damage",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 80,
+            "weight": 10,
+            "value": {
+              "min": 0.2,
+              "max": 0.3,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.31,
+              "max": 0.4,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 49,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.41,
+              "max": 0.5,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 64,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.51,
+              "max": 0.6,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 81,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.61,
+              "max": 0.7,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 94,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.71,
+              "max": 0.8,
               "step": 0.01
             }
           }
@@ -1258,40 +1316,81 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:attack_damage",
-        "group": "ModAttackDamage",
-        "identifier": "the_vault:attackdamage",
-        "tags": [],
+      { "attribute": "the_vault:attack_damage",
+        "group": "ModOnHitAddition",
+        "identifier": "the_vault:mod_attack_damage",
+        "tags": [
+          "focusAttackDamage"
+        ],
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 20,
+            "maxLevel": 49,
+            "weight": 10,
             "value": {
               "min": 1.0,
-              "max": 1.5,
-              "step": 0.1
+              "max": 4.0,
+              "step": 0.5
             }
           },
           {
-            "minLevel": 10,
-            "maxLevel": -1,
-            "weight": 18,
+            "minLevel": 25,
+            "maxLevel": 74,
+            "weight": 10,
             "value": {
-              "min": 1.6,
-              "max": 2.0,
-              "step": 0.1
+              "min": 5.0,
+              "max": 8.0,
+              "step": 0.5
             }
           },
           {
-            "minLevel": 20,
+            "minLevel": 50,
             "maxLevel": -1,
-            "weight": 15,
+            "weight": 10,
             "value": {
-              "min": 2.1,
-              "max": 2.5,
-              "step": 0.1
+              "min": 9.0,
+              "max": 12.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 13.0,
+              "max": 16.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 17.0,
+              "max": 20.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 21.0,
+              "max": 24.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 25.0,
+              "max": 50.0,
+              "step": 0.5
             }
           }
         ]
@@ -1749,7 +1848,7 @@
             }
           },
           {
-            "minLevel": 65,
+            "minLevel": 50,
             "maxLevel": -1,
             "weight": 5,
             "value": {
@@ -1759,6 +1858,20 @@
               "highlightColor": 6082075,
               "min": 3,
               "max": 4,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 80,
+            "maxLevel": -1,
+            "weight": 5,
+            "value": {
+              "specialModificationKey": "the_vault:frost_nova_vulnerability",
+              "abilityKey": "Nova_Slow",
+              "textColor": 14076214,
+              "highlightColor": 6082075,
+              "min": 5,
+              "max": 6,
               "step": 1
             }
           }
@@ -1830,7 +1943,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": -1,
+            "maxLevel": 64,
             "weight": 5,
             "value": {
               "min": 0.1,
@@ -1858,7 +1971,7 @@
         "tags": [],
         "tiers": [
           {
-            "minLevel": 90,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 5,
             "value": {
@@ -1866,6 +1979,24 @@
               "max": -0.5,
               "step": 0.01,
               "abilityKey": "Storm_Arrow_Base"
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:ability_cooldown_percent",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:heal_cooldown",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 5,
+            "value": {
+              "min": -0.75,
+              "max": -0.25,
+              "step": 0.01,
+              "abilityKey": "Heal_Group"
             }
           }
         ]
@@ -1953,6 +2084,70 @@
             "value": {
               "abilityKey": "Fireball_Base",
               "levelChange": 3
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_groupheal",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerGroupHeal"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Heal_Group",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Heal_Group",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Heal_Group",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Heal_Group",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Heal_Group",
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Heal_Group",
+              "levelChange": 6
             }
           }
         ]
@@ -2112,6 +2307,15 @@
         ],
         "tiers": [
           {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Nova_Slow",
+              "levelChange": 1
+            }
+          },
+          {
             "minLevel": 25,
             "maxLevel": -1,
             "weight": 60,
@@ -2121,12 +2325,57 @@
             }
           },
           {
-            "minLevel": 101,
+            "minLevel": 25,
             "maxLevel": -1,
             "weight": 60,
             "value": {
               "abilityKey": "Nova_Slow",
-              "levelChange": 2
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Nova_Slow",
+              "levelChange": 4
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Nova_Slow",
+              "levelChange": 5
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Nova_Slow",
+              "levelChange": 6
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Nova_Slow",
+              "levelChange": 7
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Nova_Slow",
+              "levelChange": 8
             }
           }
         ]
@@ -2160,118 +2409,9 @@
           }
         ]
       },
-      { "attribute": "the_vault:attack_damage",
-        "group": "ModOnHitType",
-        "identifier": "the_vault:mod_attack_damage",
-        "tags": [
-          "focusAttackDamage"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": 47,
-            "weight": 10,
-            "value": {
-              "min": 2.0,
-              "max": 6.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 22,
-            "maxLevel": 50,
-            "weight": 10,
-            "value": {
-              "min": 7.0,
-              "max": 12.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 35,
-            "maxLevel": 86,
-            "weight": 10,
-            "value": {
-              "min": 13.0,
-              "max": 18.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 48,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 19.0,
-              "max": 27.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 59,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 28.0,
-              "max": 35.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 70,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 36.0,
-              "max": 42.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 80,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 43.0,
-              "max": 48.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 87,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 49.0,
-              "max": 55.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 56.0,
-              "max": 65.0,
-              "step": 0.5
-            }
-          },
-          {
-            "minLevel": 102,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 66.0,
-              "max": 72.0,
-              "step": 0.5
-            }
-          }
-        ]
-      },
       { "attribute": "the_vault:on_hit_chain",
         "group": "ModOnHitType",
-        "identifier": "the_vault:u_chaining",
+        "identifier": "the_vault:mod_on_hit_chain",
         "tags": [
           "focusChaining"
         ],
@@ -2282,7 +2422,47 @@
             "weight": 10,
             "value": {
               "min": 1,
-              "max": 3,
+              "max": 2,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 3,
+              "max": 4,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 5,
+              "max": 5,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 6,
+              "max": 6,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 7,
+              "max": 8,
               "step": 1
             }
           }
@@ -2552,7 +2732,7 @@
             "maxLevel": -1,
             "weight": 20,
             "value": {
-              "min": 0.13,
+              "min": 0.08,
               "max": 0.16,
               "step": 0.01
             }
@@ -2620,14 +2800,6 @@
             "value": {
               "flag": true
             }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "flag": false
-            }
           }
         ]
       },
@@ -2644,14 +2816,6 @@
             "weight": 20,
             "value": {
               "flag": true
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "flag": false
             }
           }
         ]
@@ -2670,14 +2834,6 @@
             "value": {
               "flag": true
             }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "flag": false
-            }
           }
         ]
       },
@@ -2695,14 +2851,6 @@
             "value": {
               "flag": true
             }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "flag": false
-            }
           }
         ]
       },
@@ -2719,14 +2867,6 @@
             "weight": 20,
             "value": {
               "flag": true
-            }
-          },
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 20,
-            "value": {
-              "flag": false
             }
           }
         ]
@@ -2913,6 +3053,23 @@
                 "max": 3,
                 "step": 1
               }
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:phoenix",
+        "group": "ModPhoenix",
+        "identifier": "the_vault:u_phoenix",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 1,
+              "max": 3,
+              "step": 1
             }
           }
         ]
